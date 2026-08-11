@@ -1,0 +1,24 @@
+.grafico-precio {
+  width: 100%;
+}
+
+.grafico-selector {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.grafico-selector button {
+  background: none;
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  font-size: var(--texto-12);
+  font-family: var(--fuente-mono);
+  color: var(--tinta-media);
+}
+
+.grafico-selector button.activo {
+  border-color: var(--acento);
+  color: var(--acento);
+}

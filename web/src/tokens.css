@@ -1,0 +1,47 @@
+:root {
+  /* Base — todo lo que no es señal vive acá */
+  --tinta: #14171c;
+  --tinta-media: #3d434d;
+  --tinta-suave: #6b7280;
+  --papel: #fafaf8;
+  --papel-hueco: #f1f1ee;
+  --linea: #dededa;
+
+  /* Señal — solo para estado, nunca decorativo */
+  --verde: #1f7a4d;
+  --verde-fondo: #e6f2ec;
+  --ambar: #b87407;
+  --ambar-fondo: #f7ecd9;
+  --rojo: #b03a2e;
+  --rojo-fondo: #f6e5e3;
+  --acento: #2b4c7e;
+
+  --fuente-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --fuente-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --fuente-condensada: "IBM Plex Sans Condensed", system-ui, sans-serif;
+
+  /* Escala: 12 / 14 / 16 / 20 / 28 / 40 */
+  --texto-12: 0.75rem;
+  --texto-14: 0.875rem;
+  --texto-16: 1rem;
+  --texto-20: 1.25rem;
+  --texto-28: 1.75rem;
+  --texto-40: 2.5rem;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tinta: #f1f1ee;
+    --tinta-media: #c2c6cc;
+    --tinta-suave: #8b909a;
+    --papel: #14171c;
+    --papel-hueco: #1c2027;
+    --linea: #2c313a;
+
+    --verde-fondo: #17301f;
+    --ambar-fondo: #332508;
+    --rojo-fondo: #331714;
+  }
+}

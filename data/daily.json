@@ -1,0 +1,718 @@
+{
+  "generado": "2026-08-10T07:02:00-04:00",
+  "errores": ["primer_click: feed sin respuesta"],
+
+  "bloques": {
+    "mundo": [
+      {
+        "titulo_neutral": "La Reserva Federal de EE.UU. mantiene la tasa de interés sin cambios en su reunión de agosto",
+        "resumen": "La Fed dejó la tasa de referencia en el rango actual, citando la necesidad de más datos sobre inflación antes de mover política monetaria. El mercado había anticipado un recorte.",
+        "articulos": [
+          {
+            "titular": "Fed mantiene tasas sin cambios y deja la puerta abierta a un recorte en septiembre",
+            "extracto": "El banco central estadounidense optó por la cautela en su reunión de agosto. La decisión fue unánime entre los miembros del comité.",
+            "medio": "Reuters",
+            "grupo": "Thomson Reuters",
+            "lean": "centro",
+            "url": "https://www.reuters.com/markets/us/fed-meeting-august-2026",
+            "fecha": "2026-08-06T18:05:00Z"
+          },
+          {
+            "titular": "La Fed resiste la presión política y no toca las tasas",
+            "extracto": "El comité defendió su independencia frente a las críticas por la demora en recortar. Varios miembros señalaron riesgos de inflación persistente.",
+            "medio": "Wall Street Journal",
+            "grupo": "News Corp",
+            "lean": "centro-derecha",
+            "url": "https://www.wsj.com/economy/fed-august-2026",
+            "fecha": "2026-08-06T18:20:00Z"
+          },
+          {
+            "titular": "La Reserva Federal se mantiene firme pese a las críticas de la Casa Blanca",
+            "extracto": "El banco central volvió a dejar en claro que sus decisiones no responden a presión política. El mercado bursátil reaccionó con cautela.",
+            "medio": "The New York Times",
+            "grupo": "The New York Times Company",
+            "lean": "centro-izquierda",
+            "url": "https://www.nytimes.com/2026/08/06/business/fed",
+            "fecha": "2026-08-06T19:00:00Z"
+          }
+        ],
+        "leans_presentes": ["centro", "centro-derecha", "centro-izquierda"],
+        "grupos_presentes": ["Thomson Reuters", "News Corp", "The New York Times Company"],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Avanzan negociaciones de alto el fuego en Medio Oriente con mediación de Egipto y Qatar",
+        "resumen": "Representantes de las partes retomaron conversaciones indirectas esta semana. Ambos mediadores expresaron cauteloso optimismo sobre un acuerdo parcial.",
+        "articulos": [
+          {
+            "titular": "Negociadores retoman conversaciones de alto el fuego con mediación regional",
+            "extracto": "Las partes volvieron a sentarse tras semanas de estancamiento. Egipto y Qatar coordinan la agenda de la próxima ronda.",
+            "medio": "Al Jazeera",
+            "grupo": "Qatar Media Corporation",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/8/7/ceasefire-talks",
+            "fecha": "2026-08-07T10:00:00Z"
+          },
+          {
+            "titular": "Qatar y Egipto median nueva ronda de conversaciones de paz",
+            "extracto": "Fuentes diplomáticas describieron el ambiente como cautelosamente optimista. No se espera un anuncio formal esta semana.",
+            "medio": "BBC",
+            "grupo": "BBC (público, Reino Unido)",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/world-middle-east-2026",
+            "fecha": "2026-08-07T12:30:00Z"
+          },
+          {
+            "titular": "Optimismo cauteloso mientras se reanudan las conversaciones de alto el fuego",
+            "extracto": "Analistas advierten que los puntos más difíciles de la negociación siguen sin resolverse. Ambas partes evitaron declaraciones públicas.",
+            "medio": "France24",
+            "grupo": "France Médias Monde (público)",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/middle-east/20260807",
+            "fecha": "2026-08-07T14:00:00Z"
+          }
+        ],
+        "leans_presentes": ["sin-clasificar", "centro"],
+        "grupos_presentes": ["Qatar Media Corporation", "BBC (público, Reino Unido)", "France Médias Monde (público)"],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Washington amplía controles de exportación de chips de IA hacia mercados asiáticos",
+        "resumen": "El Departamento de Comercio de EE.UU. anunció nuevas restricciones sobre semiconductores avanzados. La medida busca frenar el acceso indirecto a través de terceros países.",
+        "articulos": [
+          {
+            "titular": "EE.UU. amplía el cerco a la exportación de chips avanzados de IA",
+            "extracto": "La nueva regla suma controles sobre reexportaciones desde terceros países. La industria advierte sobre efectos en cadenas de suministro.",
+            "medio": "Bloomberg",
+            "grupo": "Bloomberg LP",
+            "lean": "centro",
+            "url": "https://www.bloomberg.com/news/2026-08-05/chip-export-rules",
+            "fecha": "2026-08-05T16:00:00Z"
+          },
+          {
+            "titular": "Nuevas reglas de exportación golpean a los fabricantes de chips asiáticos",
+            "extracto": "Varias compañías del sector revisan sus proyecciones tras el anuncio. El impacto sería mayor en Taiwán y Corea del Sur.",
+            "medio": "Financial Times",
+            "grupo": "Nikkei",
+            "lean": "centro",
+            "url": "https://www.ft.com/content/chip-controls-2026",
+            "fecha": "2026-08-05T17:15:00Z"
+          },
+          {
+            "titular": "La Casa Blanca refuerza la seguridad nacional con nuevas reglas de chips",
+            "extracto": "La administración defendió la medida como necesaria para proteger tecnología sensible. Congresistas de ambos partidos respaldaron el anuncio.",
+            "medio": "Fox Business",
+            "grupo": "Fox Corporation",
+            "lean": "derecha",
+            "url": "https://www.foxbusiness.com/economy/chip-export-2026",
+            "fecha": "2026-08-05T18:00:00Z"
+          }
+        ],
+        "leans_presentes": ["centro", "derecha"],
+        "grupos_presentes": ["Bloomberg LP", "Nikkei", "Fox Corporation"],
+        "cobertura_unilateral": false
+      }
+    ],
+
+    "chile": [
+      {
+        "titulo_neutral": "La reforma previsional avanza a su último trámite en el Congreso",
+        "resumen": "La comisión mixta despachó el proyecto con modificaciones al sistema de comisiones. Se espera votación en sala durante agosto.",
+        "articulos": [
+          {
+            "titular": "Comisión mixta despacha reforma previsional con cambios en comisiones",
+            "extracto": "El acuerdo incorpora un tope gradual a las comisiones administrativas. El proyecto pasa ahora a votación en sala.",
+            "medio": "Emol",
+            "grupo": "El Mercurio",
+            "lean": "no aplica",
+            "url": "https://www.emol.com/noticias/Economia/2026/08/06/reforma",
+            "fecha": "2026-08-06T09:00:00Z"
+          },
+          {
+            "titular": "Reforma de pensiones llega a su recta final tras acuerdo en comisión mixta",
+            "extracto": "Parlamentarios de oficialismo y oposición cerraron el texto tras meses de negociación. Se espera que la sala vote antes de fin de mes.",
+            "medio": "La Tercera",
+            "grupo": "Copesa",
+            "lean": "no aplica",
+            "url": "https://www.latercera.com/pulso/reforma-pensiones-2026",
+            "fecha": "2026-08-06T10:30:00Z"
+          },
+          {
+            "titular": "Los puntos que cambiaron en la reforma previsional tras el paso por la comisión mixta",
+            "extracto": "El texto final difiere en varios puntos del proyecto original del Ejecutivo. Persisten dudas sobre su implementación gradual.",
+            "medio": "El Mostrador",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.elmostrador.cl/mercados/2026/08/06/reforma",
+            "fecha": "2026-08-06T11:00:00Z"
+          }
+        ],
+        "leans_presentes": ["no aplica"],
+        "grupos_presentes": ["El Mercurio", "Copesa", "independiente"],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "El IPC de julio sorprende a la baja y reaviva expectativas de recorte de tasa",
+        "resumen": "El indicador subió menos de lo esperado por el mercado. Analistas ajustaron sus proyecciones para la próxima reunión del Banco Central.",
+        "articulos": [
+          {
+            "titular": "IPC de julio sorprende a la baja y abre la puerta a un recorte de tasa",
+            "extracto": "El dato quedó bajo la mediana de las expectativas del mercado. Operadores ajustaron sus apuestas para la reunión de septiembre.",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "https://www.df.cl/economia-y-politica/macro/ipc-julio-2026",
+            "fecha": "2026-08-08T08:00:00Z"
+          },
+          {
+            "titular": "Inflación de julio fue menor a la esperada, según el INE",
+            "extracto": "La variación mensual se explicó en parte por precios más bajos en alimentos. El indicador acumulado en doce meses también cedió.",
+            "medio": "BioBioChile",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.biobiochile.cl/noticias/economia/ipc-julio-2026",
+            "fecha": "2026-08-08T08:30:00Z"
+          },
+          {
+            "titular": "Banco Central evalúa nuevo recorte de tasa tras dato de inflación",
+            "extracto": "El instituto emisor había señalado cautela en su último informe. El nuevo dato le da más margen de maniobra.",
+            "medio": "Cooperativa",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.cooperativa.cl/noticias/economia/ipc-julio-2026",
+            "fecha": "2026-08-08T09:15:00Z"
+          }
+        ],
+        "leans_presentes": ["no aplica"],
+        "grupos_presentes": ["Claro", "independiente"],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Investigación revela cobros irregulares de comisiones en tres AFP",
+        "resumen": "Un análisis de registros públicos encontró discrepancias entre lo informado y lo efectivamente cobrado. La Superintendencia de Pensiones dijo que revisará los hallazgos.",
+        "articulos": [
+          {
+            "titular": "Las comisiones que las AFP no explican: un análisis de sus propios registros",
+            "extracto": "El cruce de datos públicos muestra diferencias no explicadas en tres administradoras. La Superintendencia confirmó que abrirá una revisión.",
+            "medio": "CIPER",
+            "grupo": "sin fines de lucro",
+            "lean": "no aplica",
+            "url": "https://www.ciperchile.cl/2026/08/09/afp-comisiones",
+            "fecha": "2026-08-09T07:00:00Z"
+          }
+        ],
+        "leans_presentes": ["no aplica"],
+        "grupos_presentes": ["sin fines de lucro"],
+        "cobertura_unilateral": true
+      }
+    ],
+
+    "actualidad": [
+      {
+        "titular": "Inundaciones en Pakistán dejan más de 40.000 desplazados",
+        "medio": "AP News",
+        "url": "https://apnews.com/article/pakistan-floods-2026",
+        "fecha": "2026-08-09T06:00:00Z"
+      },
+      {
+        "titular": "Protestas por escasez de agua se extienden en el sur de Túnez",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/8/tunisia-water-protests",
+        "fecha": "2026-08-08T15:00:00Z"
+      },
+      {
+        "titular": "Corea del Sur prueba un nuevo misil hipersónico",
+        "medio": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/skorea-missile-2026",
+        "fecha": "2026-08-07T04:00:00Z"
+      },
+      {
+        "titular": "Ataque armado en el noreste de Nigeria deja al menos 20 muertos",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/world-africa-nigeria-2026",
+        "fecha": "2026-08-09T11:00:00Z"
+      },
+      {
+        "titular": "La inflación mensual de Argentina se desacelera por cuarto mes consecutivo",
+        "medio": "AP News",
+        "url": "https://apnews.com/article/argentina-inflation-july-2026",
+        "fecha": "2026-08-08T20:00:00Z"
+      }
+    ]
+  },
+
+  "posiciones": [
+    {
+      "ticker": "MSFT",
+      "nombre": "Microsoft Corporation",
+      "precio": 504.47,
+      "var_dia_pct": 0.62,
+      "var_ano_pct": 34.8,
+      "serie_precio": {
+        "1M": [
+          {"fecha": "2026-07-13", "valor": 486.10},
+          {"fecha": "2026-07-20", "valor": 491.30},
+          {"fecha": "2026-07-27", "valor": 497.85},
+          {"fecha": "2026-08-03", "valor": 500.10},
+          {"fecha": "2026-08-10", "valor": 504.47}
+        ],
+        "6M": [
+          {"fecha": "2026-03-10", "valor": 410.20},
+          {"fecha": "2026-04-10", "valor": 425.60},
+          {"fecha": "2026-05-10", "valor": 448.90},
+          {"fecha": "2026-06-10", "valor": 462.30},
+          {"fecha": "2026-07-10", "valor": 483.75},
+          {"fecha": "2026-08-10", "valor": 504.47}
+        ],
+        "1A": [
+          {"fecha": "2025-09-10", "valor": 378.40},
+          {"fecha": "2025-10-10", "valor": 385.10},
+          {"fecha": "2025-11-10", "valor": 402.55},
+          {"fecha": "2025-12-10", "valor": 415.80},
+          {"fecha": "2026-01-10", "valor": 398.20},
+          {"fecha": "2026-02-10", "valor": 405.90},
+          {"fecha": "2026-03-10", "valor": 410.20},
+          {"fecha": "2026-04-10", "valor": 425.60},
+          {"fecha": "2026-05-10", "valor": 448.90},
+          {"fecha": "2026-06-10", "valor": 462.30},
+          {"fecha": "2026-07-10", "valor": 483.75},
+          {"fecha": "2026-08-10", "valor": 504.47}
+        ],
+        "5A": [
+          {"fecha": "2021-08-10", "valor": 289.05},
+          {"fecha": "2022-08-10", "valor": 265.80},
+          {"fecha": "2023-08-10", "valor": 322.10},
+          {"fecha": "2024-08-10", "valor": 415.50},
+          {"fecha": "2025-08-10", "valor": 378.40},
+          {"fecha": "2026-08-10", "valor": 504.47}
+        ]
+      },
+      "proxima_earnings": "2026-10-28",
+      "fundamentales": {
+        "periodo": "FY26Q4",
+        "fuente_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",
+        "series": {
+          "ingresos_musd": [
+            {"periodo": "FY26Q1", "valor": 75800},
+            {"periodo": "FY26Q2", "valor": 79300},
+            {"periodo": "FY26Q3", "valor": 84100},
+            {"periodo": "FY26Q4", "valor": 90007}
+          ],
+          "op_income_musd": [
+            {"periodo": "FY26Q1", "valor": 33100},
+            {"periodo": "FY26Q2", "valor": 35400},
+            {"periodo": "FY26Q3", "valor": 37900},
+            {"periodo": "FY26Q4", "valor": 40603}
+          ],
+          "eps_gaap": [
+            {"periodo": "FY26Q1", "valor": 3.98},
+            {"periodo": "FY26Q2", "valor": 4.15},
+            {"periodo": "FY26Q3", "valor": 4.42},
+            {"periodo": "FY26Q4", "valor": 4.81}
+          ],
+          "eps_non_gaap": [
+            {"periodo": "FY26Q1", "valor": 3.92},
+            {"periodo": "FY26Q2", "valor": 4.08},
+            {"periodo": "FY26Q3", "valor": 4.35},
+            {"periodo": "FY26Q4", "valor": 4.74}
+          ],
+          "margen_operativo": [
+            {"periodo": "FY26Q1", "valor": 43.7},
+            {"periodo": "FY26Q2", "valor": 44.2},
+            {"periodo": "FY26Q3", "valor": 45.0},
+            {"periodo": "FY26Q4", "valor": 45.1}
+          ],
+          "capex_musd": [
+            {"periodo": "FY26Q1", "valor": 22400},
+            {"periodo": "FY26Q2", "valor": 26800},
+            {"periodo": "FY26Q3", "valor": 31200},
+            {"periodo": "FY26Q4", "valor": 35802}
+          ],
+          "flujo_op_musd": [
+            {"periodo": "FY26Q1", "valor": 38900},
+            {"periodo": "FY26Q2", "valor": 41200},
+            {"periodo": "FY26Q3", "valor": 44500},
+            {"periodo": "FY26Q4", "valor": 47318}
+          ]
+        }
+      },
+      "segmentos": [
+        {
+          "nombre": "Intelligent Cloud",
+          "ingresos_musd": 39306,
+          "var_pct": 32,
+          "cita": "Revenue in Intelligent Cloud was $39.3 billion and increased 32%",
+          "detalle": [
+            {
+              "nombre": "Azure",
+              "var_pct": 43,
+              "cita": "Azure and other cloud services revenue increased 43%"
+            }
+          ]
+        }
+      ],
+      "tesis": {
+        "texto": "El lock-in enterprise sostiene el crecimiento de Azure",
+        "metrica": "Azure growth",
+        "valor_actual": 43,
+        "umbral_verde": 40,
+        "umbral_rojo": 30,
+        "semaforo": "verde"
+      },
+      "noticias": [
+        {
+          "titular": "Azure supera expectativas y acelera el crecimiento de Microsoft",
+          "extracto": "El negocio de nube volvió a sorprender al mercado con un crecimiento de dos dígitos altos. La compañía elevó su guía para el próximo trimestre.",
+          "medio": "Financial Times",
+          "grupo": "Nikkei",
+          "lean": "centro",
+          "url": "https://www.ft.com/content/msft-azure-q4-2026",
+          "fecha": "2026-07-30T20:15:00Z"
+        },
+        {
+          "titular": "El capex de IA de Microsoft entra bajo la lupa de los inversionistas",
+          "extracto": "El gasto en centros de datos casi se duplicó frente al año anterior. Analistas debaten si el retorno justifica el ritmo de inversión.",
+          "medio": "Reuters",
+          "grupo": "Thomson Reuters",
+          "lean": "centro",
+          "url": "https://www.reuters.com/technology/msft-capex-2026",
+          "fecha": "2026-08-01T14:00:00Z"
+        },
+        {
+          "titular": "Microsoft eleva su dividendo trimestral en 10%",
+          "extracto": "La junta directiva aprobó el aumento junto con la publicación de resultados. Es el undécimo año consecutivo de alza.",
+          "medio": "Bloomberg",
+          "grupo": "Bloomberg LP",
+          "lean": "centro",
+          "url": "https://www.bloomberg.com/news/2026-08-05/msft-dividend",
+          "fecha": "2026-08-05T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "ticker": "SQM",
+      "nombre": "Sociedad Química y Minera de Chile S.A. (ADR)",
+      "precio": 45.20,
+      "var_dia_pct": -1.2,
+      "var_ano_pct": 8.5,
+      "serie_precio": {
+        "1M": [
+          {"fecha": "2026-07-13", "valor": 48.90},
+          {"fecha": "2026-07-20", "valor": 47.10},
+          {"fecha": "2026-07-27", "valor": 46.30},
+          {"fecha": "2026-08-03", "valor": 45.80},
+          {"fecha": "2026-08-10", "valor": 45.20}
+        ],
+        "6M": [
+          {"fecha": "2026-03-10", "valor": 52.40},
+          {"fecha": "2026-04-10", "valor": 50.10},
+          {"fecha": "2026-05-10", "valor": 47.60},
+          {"fecha": "2026-06-10", "valor": 46.90},
+          {"fecha": "2026-07-10", "valor": 46.10},
+          {"fecha": "2026-08-10", "valor": 45.20}
+        ],
+        "1A": [
+          {"fecha": "2025-09-10", "valor": 58.30},
+          {"fecha": "2025-10-10", "valor": 55.90},
+          {"fecha": "2025-11-10", "valor": 53.40},
+          {"fecha": "2025-12-10", "valor": 51.80},
+          {"fecha": "2026-01-10", "valor": 50.20},
+          {"fecha": "2026-02-10", "valor": 49.10},
+          {"fecha": "2026-03-10", "valor": 52.40},
+          {"fecha": "2026-04-10", "valor": 50.10},
+          {"fecha": "2026-05-10", "valor": 47.60},
+          {"fecha": "2026-06-10", "valor": 46.90},
+          {"fecha": "2026-07-10", "valor": 46.10},
+          {"fecha": "2026-08-10", "valor": 45.20}
+        ],
+        "5A": [
+          {"fecha": "2021-08-10", "valor": 78.90},
+          {"fecha": "2022-08-10", "valor": 95.40},
+          {"fecha": "2023-08-10", "valor": 61.20},
+          {"fecha": "2024-08-10", "valor": 52.80},
+          {"fecha": "2025-08-10", "valor": 58.30},
+          {"fecha": "2026-08-10", "valor": 45.20}
+        ]
+      },
+      "proxima_earnings": "2026-08-27",
+      "fundamentales": {
+        "periodo": "FY26Q2",
+        "fuente_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000909037&type=20-F",
+        "series": {
+          "ingresos_musd": [
+            {"periodo": "FY25Q3", "valor": 1180},
+            {"periodo": "FY25Q4", "valor": 1050},
+            {"periodo": "FY26Q1", "valor": 980},
+            {"periodo": "FY26Q2", "valor": 1020}
+          ],
+          "op_income_musd": [
+            {"periodo": "FY25Q3", "valor": 210},
+            {"periodo": "FY25Q4", "valor": 165},
+            {"periodo": "FY26Q1", "valor": 140},
+            {"periodo": "FY26Q2", "valor": 158}
+          ],
+          "eps_gaap": [
+            {"periodo": "FY25Q3", "valor": 0.42},
+            {"periodo": "FY25Q4", "valor": 0.31},
+            {"periodo": "FY26Q1", "valor": 0.26},
+            {"periodo": "FY26Q2", "valor": 0.29}
+          ],
+          "eps_non_gaap": [
+            {"periodo": "FY25Q3", "valor": 0.40},
+            {"periodo": "FY25Q4", "valor": 0.33},
+            {"periodo": "FY26Q1", "valor": 0.28},
+            {"periodo": "FY26Q2", "valor": 0.30}
+          ],
+          "margen_operativo": [
+            {"periodo": "FY25Q3", "valor": 17.8},
+            {"periodo": "FY25Q4", "valor": 15.7},
+            {"periodo": "FY26Q1", "valor": 14.3},
+            {"periodo": "FY26Q2", "valor": 15.5}
+          ],
+          "capex_musd": [
+            {"periodo": "FY25Q3", "valor": 140},
+            {"periodo": "FY25Q4", "valor": 155},
+            {"periodo": "FY26Q1", "valor": 130},
+            {"periodo": "FY26Q2", "valor": 120}
+          ],
+          "flujo_op_musd": [
+            {"periodo": "FY25Q3", "valor": 280},
+            {"periodo": "FY25Q4", "valor": 240},
+            {"periodo": "FY26Q1", "valor": 210},
+            {"periodo": "FY26Q2", "valor": 225}
+          ]
+        }
+      },
+      "segmentos": [
+        {
+          "nombre": "Litio",
+          "ingresos_musd": 620,
+          "var_pct": -8,
+          "cita": "Litio revenue for the second quarter was $620 million, a decrease of 8% year over year",
+          "detalle": []
+        },
+        {
+          "nombre": "Nutrición Vegetal",
+          "ingresos_musd": 210,
+          "var_pct": 4,
+          "cita": "Specialty Plant Nutrition revenue increased 4% driven by higher volumes",
+          "detalle": []
+        }
+      ],
+      "tesis": {
+        "texto": "El precio del litio se recupera con la demanda de vehículos eléctricos",
+        "metrica": "Precio litio promedio realizado (USD/ton)",
+        "valor_actual": 9500,
+        "umbral_verde": 12000,
+        "umbral_rojo": 7000,
+        "semaforo": "ambar"
+      },
+      "noticias": [
+        {
+          "titular": "El precio del litio busca piso tras dos años de caída",
+          "extracto": "Productores globales redujeron producción para sostener precios. Analistas ven señales tempranas de estabilización.",
+          "medio": "Diario Financiero",
+          "grupo": "Claro",
+          "lean": "no aplica",
+          "url": "https://www.df.cl/mercados/commodities/litio-precio-2026",
+          "fecha": "2026-08-04T12:00:00Z"
+        },
+        {
+          "titular": "Nueva ley de royalty minero podría afectar márgenes de la industria del litio",
+          "extracto": "El proyecto en discusión en el Congreso eleva la carga tributaria a la gran minería. La industria advierte impacto en inversión futura.",
+          "medio": "BioBioChile",
+          "grupo": "independiente",
+          "lean": "no aplica",
+          "url": "https://www.biobiochile.cl/noticias/economia/royalty-litio-2026",
+          "fecha": "2026-08-03T09:30:00Z"
+        }
+      ]
+    },
+    {
+      "ticker": "EA",
+      "nombre": "Electronic Arts Inc.",
+      "precio": 132.10,
+      "var_dia_pct": -2.1,
+      "var_ano_pct": -18.4,
+      "serie_precio": {
+        "1M": [
+          {"fecha": "2026-07-13", "valor": 141.80},
+          {"fecha": "2026-07-20", "valor": 138.20},
+          {"fecha": "2026-07-27", "valor": 135.60},
+          {"fecha": "2026-08-03", "valor": 133.90},
+          {"fecha": "2026-08-10", "valor": 132.10}
+        ],
+        "6M": [
+          {"fecha": "2026-03-10", "valor": 158.40},
+          {"fecha": "2026-04-10", "valor": 151.20},
+          {"fecha": "2026-05-10", "valor": 146.80},
+          {"fecha": "2026-06-10", "valor": 142.30},
+          {"fecha": "2026-07-10", "valor": 137.90},
+          {"fecha": "2026-08-10", "valor": 132.10}
+        ],
+        "1A": [
+          {"fecha": "2025-09-10", "valor": 172.30},
+          {"fecha": "2025-10-10", "valor": 168.90},
+          {"fecha": "2025-11-10", "valor": 165.40},
+          {"fecha": "2025-12-10", "valor": 161.20},
+          {"fecha": "2026-01-10", "valor": 159.80},
+          {"fecha": "2026-02-10", "valor": 156.30},
+          {"fecha": "2026-03-10", "valor": 158.40},
+          {"fecha": "2026-04-10", "valor": 151.20},
+          {"fecha": "2026-05-10", "valor": 146.80},
+          {"fecha": "2026-06-10", "valor": 142.30},
+          {"fecha": "2026-07-10", "valor": 137.90},
+          {"fecha": "2026-08-10", "valor": 132.10}
+        ],
+        "5A": [
+          {"fecha": "2021-08-10", "valor": 140.20},
+          {"fecha": "2022-08-10", "valor": 125.60},
+          {"fecha": "2023-08-10", "valor": 135.90},
+          {"fecha": "2024-08-10", "valor": 158.70},
+          {"fecha": "2025-08-10", "valor": 172.30},
+          {"fecha": "2026-08-10", "valor": 132.10}
+        ]
+      },
+      "proxima_earnings": "2026-11-04",
+      "fundamentales": {
+        "periodo": "FY26Q1",
+        "fuente_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000712515&type=10-Q",
+        "series": {
+          "ingresos_musd": [
+            {"periodo": "FY25Q2", "valor": 1860},
+            {"periodo": "FY25Q3", "valor": 2100},
+            {"periodo": "FY25Q4", "valor": 1750},
+            {"periodo": "FY26Q1", "valor": 1680}
+          ],
+          "op_income_musd": [
+            {"periodo": "FY25Q2", "valor": 410},
+            {"periodo": "FY25Q3", "valor": 480},
+            {"periodo": "FY25Q4", "valor": 320},
+            {"periodo": "FY26Q1", "valor": 270}
+          ],
+          "eps_gaap": [
+            {"periodo": "FY25Q2", "valor": 1.35},
+            {"periodo": "FY25Q3", "valor": 1.58},
+            {"periodo": "FY25Q4", "valor": 1.02},
+            {"periodo": "FY26Q1", "valor": 0.85}
+          ],
+          "eps_non_gaap": [
+            {"periodo": "FY25Q2", "valor": 1.40},
+            {"periodo": "FY25Q3", "valor": 1.62},
+            {"periodo": "FY25Q4", "valor": 1.10},
+            {"periodo": "FY26Q1", "valor": 0.92}
+          ],
+          "margen_operativo": [
+            {"periodo": "FY25Q2", "valor": 22.0},
+            {"periodo": "FY25Q3", "valor": 22.9},
+            {"periodo": "FY25Q4", "valor": 18.3},
+            {"periodo": "FY26Q1", "valor": 16.1}
+          ],
+          "capex_musd": [
+            {"periodo": "FY25Q2", "valor": 45},
+            {"periodo": "FY25Q3", "valor": 52},
+            {"periodo": "FY25Q4", "valor": 48},
+            {"periodo": "FY26Q1", "valor": 40}
+          ],
+          "flujo_op_musd": [
+            {"periodo": "FY25Q2", "valor": 520},
+            {"periodo": "FY25Q3", "valor": 610},
+            {"periodo": "FY25Q4", "valor": 410},
+            {"periodo": "FY26Q1", "valor": 350}
+          ]
+        }
+      },
+      "segmentos": [
+        {
+          "nombre": "Live Services",
+          "ingresos_musd": 980,
+          "var_pct": -6,
+          "cita": "Live services and other net bookings decreased 6% compared to the prior year quarter",
+          "detalle": [
+            {
+              "nombre": "EA Sports FC Ultimate Team",
+              "var_pct": -9,
+              "cita": "Ultimate Team net bookings declined 9% due to lower player engagement"
+            }
+          ]
+        }
+      ],
+      "tesis": {
+        "texto": "El crecimiento de Ultimate Team sostiene los márgenes de EA",
+        "metrica": "Live services net bookings growth",
+        "valor_actual": -6,
+        "umbral_verde": 8,
+        "umbral_rojo": 0,
+        "semaforo": "rojo"
+      },
+      "noticias": [
+        {
+          "titular": "EA bajo presión de inversionistas activistas tras débiles resultados",
+          "extracto": "Un fondo activista pidió cambios en la gestión tras el segundo trimestre consecutivo de caída en bookings. La acción cae a mínimos de dos años.",
+          "medio": "Reuters",
+          "grupo": "Thomson Reuters",
+          "lean": "centro",
+          "url": "https://www.reuters.com/business/media-telecom/ea-activist-2026",
+          "fecha": "2026-08-02T15:00:00Z"
+        },
+        {
+          "titular": "Las ventas de Ultimate Team se desploman y encienden alarmas en EA",
+          "extracto": "El modo más rentable de la compañía perdió tracción entre los jugadores más jóvenes. Analistas cuestionan la estrategia de monetización.",
+          "medio": "The Guardian",
+          "grupo": "Guardian Media Group",
+          "lean": "izquierda",
+          "url": "https://www.theguardian.com/games/2026/aug/04/ea-ultimate-team",
+          "fecha": "2026-08-04T11:00:00Z"
+        }
+      ]
+    }
+  ],
+
+  "referencias": {
+    "indices": [
+      {"ticker": "VOO", "nombre": "Vanguard S&P 500 ETF", "precio": 612.30, "var_dia_pct": 0.31},
+      {"ticker": "QQQ", "nombre": "Invesco QQQ (Nasdaq-100)", "precio": 525.80, "var_dia_pct": 0.44},
+      {"ticker": "VTI", "nombre": "Vanguard Total Stock Market ETF", "precio": 310.15, "var_dia_pct": 0.28}
+    ],
+    "chile": {
+      "ipsa": 8450,
+      "uf": 39250.18,
+      "dolar": 965.40,
+      "tpm": 5.0,
+      "ipc_12m": 3.8,
+      "fuente": "Banco Central de Chile"
+    }
+  },
+
+  "radar": {
+    "candidatos": [
+      {
+        "ticker": "NTDOY",
+        "nombre": "Nintendo Co., Ltd. (ADR)",
+        "pct_bajo_maximo": 24,
+        "motivo": "Ingresos +12% YoY, margen operativo 18%, flujo operativo positivo, deuda/patrimonio 0.2",
+        "metricas": {"ingresos_var_pct": 12, "margen_op": 18, "deuda_patrimonio": 0.2}
+      },
+      {
+        "ticker": "TM",
+        "nombre": "Toyota Motor Corporation (ADR)",
+        "pct_bajo_maximo": 19,
+        "motivo": "Ingresos +7% YoY, margen operativo 9%, flujo operativo positivo, deuda/patrimonio 1.1",
+        "metricas": {"ingresos_var_pct": 7, "margen_op": 9, "deuda_patrimonio": 1.1}
+      }
+    ],
+    "descartados": [
+      {
+        "ticker": "UBSFY",
+        "pct_bajo_maximo": 62,
+        "motivo_descarte": "Margen operativo negativo; ingresos cayendo 4 de los últimos 4 trimestres"
+      },
+      {
+        "ticker": "INTC",
+        "pct_bajo_maximo": 31,
+        "motivo_descarte": "Flujo operativo negativo"
+      }
+    ],
+    "ultima_corrida": "2026-08-10"
+  }
+}

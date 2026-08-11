@@ -1,0 +1,39 @@
+.tabla-fundamentales-wrap {
+  overflow-x: auto;
+}
+
+.tabla-fundamentales {
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tabla-fundamentales th,
+.tabla-fundamentales td {
+  padding: 0.35rem 0.6rem;
+  text-align: right;
+  border-bottom: 1px solid var(--linea);
+}
+
+.tabla-fundamentales thead th {
+  color: var(--tinta-suave);
+  font-weight: 500;
+}
+
+.tabla-fundamentales tbody th {
+  text-align: left;
+  font-family: var(--fuente-sans);
+  font-weight: 400;
+  color: var(--tinta-media);
+}
+
+.tabla-fundamentales-fuente {
+  margin-top: 0.5rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}
+
+.tabla-fundamentales-fuente a {
+  color: var(--acento);
+}

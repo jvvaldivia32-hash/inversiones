@@ -1,0 +1,36 @@
+.semaforo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--texto-12);
+  font-family: var(--fuente-sans);
+  font-weight: 500;
+}
+
+.semaforo-punto {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.semaforo--verde .semaforo-punto {
+  background: var(--verde);
+}
+.semaforo--verde {
+  color: var(--verde);
+}
+
+.semaforo--ambar .semaforo-punto {
+  background: var(--ambar);
+}
+.semaforo--ambar {
+  color: var(--ambar);
+}
+
+.semaforo--rojo .semaforo-punto {
+  background: var(--rojo);
+}
+.semaforo--rojo {
+  color: var(--rojo);
+}

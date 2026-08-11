@@ -1,0 +1,28 @@
+.seccion {
+  border-top: 1px solid var(--linea);
+  padding: 1.25rem 1rem;
+}
+
+.seccion-titulo {
+  font-family: var(--fuente-condensada);
+  font-weight: 600;
+  font-size: var(--texto-16);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--tinta);
+  margin-bottom: 0.85rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid var(--tinta);
+}
+
+.seccion--compacta .seccion-titulo {
+  font-size: var(--texto-14);
+  border-left-width: 2px;
+  color: var(--tinta-media);
+}
+
+.seccion-cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

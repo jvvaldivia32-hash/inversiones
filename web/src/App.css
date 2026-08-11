@@ -1,0 +1,16 @@
+.app-header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--linea);
+}
+
+.app-header p {
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}
+
+.posiciones-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

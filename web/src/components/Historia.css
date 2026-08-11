@@ -1,0 +1,69 @@
+.historia {
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--linea);
+}
+
+.historia:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.historia-titulo {
+  font-size: var(--texto-16);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.historia-resumen {
+  font-size: var(--texto-14);
+  color: var(--tinta-media);
+  margin-bottom: 0.5rem;
+}
+
+.historia-unilateral {
+  display: inline-block;
+  font-size: var(--texto-12);
+  color: var(--ambar);
+  background: var(--ambar-fondo);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.historia-fuentes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.historia-fuentes li {
+  font-size: var(--texto-12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: baseline;
+}
+
+.historia-fuentes a {
+  color: var(--tinta);
+  text-decoration: none;
+  border-bottom: 1px solid var(--linea);
+}
+
+.historia-fuentes a:hover {
+  border-bottom-color: var(--acento);
+}
+
+.historia-medio {
+  color: var(--tinta-suave);
+  white-space: nowrap;
+}
+
+.historia-fecha {
+  color: var(--tinta-suave);
+  font-family: var(--fuente-mono);
+  margin-left: auto;
+}
