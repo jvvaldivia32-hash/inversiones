@@ -1,7 +1,7 @@
 .actualidad {
-  list-style: none;
+  list-style-type: "·  ";
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
@@ -9,14 +9,6 @@
 
 .actualidad li {
   font-size: var(--texto-14);
-  display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-}
-
-.actualidad li::before {
-  content: "·";
-  color: var(--tinta-suave);
 }
 
 .actualidad a {
@@ -32,4 +24,5 @@
 .actualidad-medio {
   color: var(--tinta-suave);
   font-size: var(--texto-12);
+  margin-left: 0.4rem;
 }
