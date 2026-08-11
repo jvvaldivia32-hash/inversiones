@@ -41,10 +41,17 @@ Nunca sobreescribir los umbrales de una tesis existente.
 ## Stack
 
 Recolector: Python, corre en GitHub Actions por cron. Visor: React + Vite, deploy en
-Vercel. Un repo, dos carpetas (`collector/`, `web/`). El visor SOLO lee `data/daily.json` —
-nunca llama APIs en vivo desde el navegador.
+Vercel. Un repo, dos carpetas (`collector/`, `web/`). El visor sigue sin llamar APIs en vivo
+para *mostrar* datos — precios, noticias, fundamentales vienen únicamente de
+`data/daily.json`. La única excepción es un camino de escritura acotado: `web/api/
+watchlist.ts`, una función serverless de Vercel que edita `watchlist.txt` vía la API de
+GitHub para el panel de la watchlist. El token de GitHub con permiso de escritura vive solo
+en esa función (variable de entorno del lado del servidor) — el navegador nunca lo tiene.
 
 ## Secrets
 
 Nunca hardcodear keys en el código. Todo vía variables de entorno / GitHub Secrets:
-`GEMINI_API_KEY`, `FINNHUB_KEY`, `SEC_USER_AGENT`, `BCCH_USER`, `BCCH_PASS`.
+`GEMINI_API_KEY`, `FINNHUB_KEY`, `SEC_USER_AGENT`, `BCCH_USER`, `BCCH_PASS`,
+`GITHUB_WRITE_TOKEN` (fine-grained PAT, solo permiso Contents R/W sobre este repo, usado por
+`web/api/watchlist.ts`), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de ese
+endpoint — no es autenticación real, es el candado mínimo para una app de un solo usuario).

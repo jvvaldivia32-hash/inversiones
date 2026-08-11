@@ -1,6 +1,7 @@
 .seccion {
   border-top: 1px solid var(--linea);
   padding: 1.25rem 1rem;
+  scroll-margin-top: var(--nav-altura);
 }
 
 .seccion-titulo {

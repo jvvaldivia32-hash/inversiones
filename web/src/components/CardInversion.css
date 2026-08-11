@@ -153,3 +153,12 @@
   font-size: var(--texto-12);
   padding: 0.2rem 0;
 }
+
+.card-inversion--pendiente {
+  border-style: dashed;
+}
+
+.card-inversion--pendiente p {
+  font-size: var(--texto-14);
+  color: var(--tinta-suave);
+}

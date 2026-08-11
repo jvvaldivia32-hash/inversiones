@@ -1,0 +1,116 @@
+.panel-watchlist {
+  border-top: 1px dashed var(--linea);
+  padding-top: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.panel-watchlist-toggle {
+  background: none;
+  border: none;
+  color: var(--acento);
+  font-size: var(--texto-12);
+  padding: 0;
+}
+
+.panel-watchlist-cuerpo {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.panel-watchlist-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.panel-watchlist-lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--papel-hueco);
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.2rem 0.3rem 0.2rem 0.6rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+}
+
+.panel-watchlist-lista button {
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-14);
+  line-height: 1;
+  padding: 0.1rem 0.3rem;
+}
+
+.panel-watchlist-lista button:hover {
+  color: var(--rojo);
+}
+
+.panel-watchlist-form {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.panel-watchlist-form input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.panel-watchlist-form button,
+.panel-watchlist-clave button {
+  border: 1px solid var(--acento);
+  border-radius: 3px;
+  padding: 0.35rem 0.6rem;
+  background: none;
+  color: var(--acento);
+  font-size: var(--texto-12);
+}
+
+.panel-watchlist-form button:disabled,
+.panel-watchlist-clave button:disabled {
+  opacity: 0.5;
+}
+
+.panel-watchlist-clave {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.panel-watchlist-clave label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+  flex: 1;
+}
+
+.panel-watchlist-clave input {
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.panel-watchlist-error {
+  font-size: var(--texto-12);
+  color: var(--rojo);
+}

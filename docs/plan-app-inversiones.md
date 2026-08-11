@@ -615,8 +615,13 @@ datos encima. Es la fase que más tienta saltarse y la que más ahorra después.
 
 **Termina cuando:** cambia `watchlist.txt`, pushea, y mañana aparecen los tickers nuevos.
 
-> Editar la watchlist es un commit. Es una decisión mensual, no diaria — no vale construir
-> autenticación y formularios de escritura para eso.
+> Editar la watchlist es un commit. Es una decisión mensual, no diaria — en general no
+> vale construir autenticación y formularios de escritura para eso.
+>
+> **Excepción explícita:** se construyó igual un panel de edición desde el celular
+> (`web/api/watchlist.ts` + panel en "Mis inversiones"), a pedido puntual del usuario, con
+> una clave compartida en vez de login real — no autenticación completa, sigue siendo una
+> app de un solo usuario. Ver `CLAUDE.md` para el detalle de los secrets involucrados.
 
 ### Fase 2 — Noticias
 

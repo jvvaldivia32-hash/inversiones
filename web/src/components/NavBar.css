@@ -1,0 +1,31 @@
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  height: var(--nav-altura);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  overflow-x: auto;
+  padding: 0 0.5rem;
+  background: var(--papel);
+  border-bottom: 1px solid var(--linea);
+}
+
+.nav-bar button {
+  flex: none;
+  background: none;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  font-family: var(--fuente-sans);
+  font-size: var(--texto-12);
+  font-weight: 500;
+  color: var(--tinta-media);
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+.nav-bar button:hover {
+  color: var(--tinta);
+  background: var(--papel-hueco);
+}
