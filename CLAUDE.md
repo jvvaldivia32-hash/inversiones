@@ -32,6 +32,12 @@ avisar antes de implementarlo — no asumir que está bien.
 (semáforo de tesis, radar aprobado/descartado, links). Todo lo demás en la escala de grises
 de `tokens.css`. No agregar color decorativo aunque "se vea más lindo".
 
+> **Excepción explícita (decidida por el usuario, 2026-08-11):** el gráfico de precio
+> (`GraficoPrecio.tsx`) sí puede llevar un relleno degradado bajo la línea, usando
+> `--acento` desvaneciendo a transparente — no un color nuevo. Es la única excepción
+> decorativa a esta regla. No la uses como precedente para agregar color en otro lado sin
+> preguntar primero.
+
 **Radar:** solo muestra candidatos con sus datos. Nunca genera texto tipo "deberías
 comprar". Los descartados se muestran siempre, con el motivo — no se ocultan.
 

@@ -1,0 +1,28 @@
+.estado-mercado {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+}
+
+.estado-mercado-punto {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.estado-mercado--abierto {
+  color: var(--verde);
+}
+.estado-mercado--abierto .estado-mercado-punto {
+  background: var(--verde);
+}
+
+.estado-mercado--cerrado {
+  color: var(--tinta-suave);
+}
+.estado-mercado--cerrado .estado-mercado-punto {
+  background: var(--tinta-suave);
+}

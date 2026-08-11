@@ -2,6 +2,27 @@
   overflow-x: auto;
 }
 
+.tabla-fundamentales-anios {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.tabla-fundamentales-anios button {
+  background: none;
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  font-size: var(--texto-12);
+  font-family: var(--fuente-mono);
+  color: var(--tinta-media);
+}
+
+.tabla-fundamentales-anios button.activo {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
 .tabla-fundamentales {
   font-family: var(--fuente-mono);
   font-size: var(--texto-12);

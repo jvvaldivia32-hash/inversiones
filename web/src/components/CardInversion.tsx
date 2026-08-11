@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { Posicion, RangoPrecio, Segmento } from "../types";
+import type { Posicion, RangoPrecio, Segmento, SeriePrecio } from "../types";
 import { formatPct, formatUSD, formatFechaCorta } from "../lib/format";
 import Cifra from "./Cifra";
 import Semaforo from "./Semaforo";
@@ -30,12 +30,24 @@ function SegmentoItem({ segmento, fuenteUrl }: { segmento: Segmento; fuenteUrl: 
   );
 }
 
-export default function CardInversion({ posicion }: { posicion: Posicion }) {
+interface Comparable {
+  ticker: string;
+  serie: SeriePrecio;
+}
+
+interface CardInversionProps {
+  posicion: Posicion;
+  comparables?: Comparable[];
+}
+
+export default function CardInversion({ posicion, comparables = [] }: CardInversionProps) {
   const [expandida, setExpandida] = useState(false);
   const [rango, setRango] = useState<RangoPrecio>("1A");
+  const [compararTicker, setCompararTicker] = useState<string | null>(null);
 
   const varDiaClase = posicion.var_dia_pct >= 0 ? "var-positiva" : "var-negativa";
   const varAnoClase = posicion.var_ano_pct >= 0 ? "var-positiva" : "var-negativa";
+  const comparar = comparables.find((c) => c.ticker === compararTicker) ?? null;
 
   return (
     <article className="card-inversion">
@@ -56,7 +68,26 @@ export default function CardInversion({ posicion }: { posicion: Posicion }) {
         rango={expandida ? rango : "1A"}
         onRangoChange={setRango}
         mostrarSelector={expandida}
+        comparar={comparar}
       />
+
+      {expandida && comparables.length > 0 && (
+        <div className="card-inversion-comparar" role="group" aria-label="Comparar con">
+          <span className="card-inversion-comparar-etiqueta">comparar con:</span>
+          {comparables.map((c) => (
+            <button
+              key={c.ticker}
+              type="button"
+              className={c.ticker === compararTicker ? "activo" : ""}
+              onClick={() =>
+                setCompararTicker((actual) => (actual === c.ticker ? null : c.ticker))
+              }
+            >
+              {c.ticker}
+            </button>
+          ))}
+        </div>
+      )}
 
       <ul className="card-inversion-titulares">
         {posicion.noticias.slice(0, expandida ? posicion.noticias.length : 2).map((n) => (

@@ -12,6 +12,7 @@ import PanelWatchlist from "./components/PanelWatchlist";
 import Referencias from "./components/Referencias";
 import Radar from "./components/Radar";
 import ErroresFooter from "./components/ErroresFooter";
+import EstadoMercado from "./components/EstadoMercado";
 import "./App.css";
 
 const daily = rawDaily as unknown as DailyData;
@@ -44,6 +45,7 @@ function App() {
     <>
       <header className="app-header">
         <p>Actualizado hoy {formatHora(daily.generado)}</p>
+        <EstadoMercado />
       </header>
 
       <NavBar />
@@ -67,7 +69,13 @@ function App() {
       <Seccion id="mis-inversiones" titulo="Mis inversiones">
         <div className="posiciones-lista">
           {posicionesVisibles.map((p) => (
-            <CardInversion key={p.ticker} posicion={p} />
+            <CardInversion
+              key={p.ticker}
+              posicion={p}
+              comparables={posicionesVisibles
+                .filter((otra) => otra.ticker !== p.ticker)
+                .map((otra) => ({ ticker: otra.ticker, serie: otra.serie_precio }))}
+            />
           ))}
           {pendientes.map((t) => (
             <CardInversionPendiente key={t} ticker={t} />

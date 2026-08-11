@@ -24,7 +24,7 @@ export interface ItemActualidad {
   fecha: string;
 }
 
-export type RangoPrecio = "1M" | "6M" | "1A" | "5A";
+export type RangoPrecio = "1M" | "6M" | "YTD" | "1A" | "5A";
 
 export interface PuntoPrecio {
   fecha: string;

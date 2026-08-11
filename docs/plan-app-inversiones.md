@@ -7,6 +7,9 @@ escribe el código.
 **Objetivo:** una URL que abre en el celular cada mañana. Ve qué pasó en el mundo, en Chile,
 y con sus inversiones. Datos duros con fuente verificable. Cero costo de operación.
 
+Las reglas duras del proyecto (EDGAR, Gemini, copyright, costo, diseño, radar, tesis) viven
+en `CLAUDE.md`, no acá — este documento las referencia donde aplican en vez de repetirlas.
+
 ---
 
 ## 0. Arquitectura
@@ -268,8 +271,8 @@ Peor, pero funciona.
 
 - Base: `https://data.sec.gov/api/xbrl/companyconcept/CIK{cik}/us-gaap/{tag}.json`
 - Índice de filings: `https://data.sec.gov/submissions/CIK{cik}.json`
-- **`User-Agent` con nombre y email real es obligatorio.** Sin eso: 403 con mensaje que no
-  explica nada. Esta es la trampa #1 del proyecto.
+- **`User-Agent` real obligatorio** — regla dura completa en `CLAUDE.md`. Esta es la trampa
+  #1 del proyecto.
 - Rate limit 10 req/seg
 - Cache agresivo: los fundamentales cambian 4 veces al año. Guardar el `accessionNumber`
   del último filing procesado y no volver a pegar si no cambió.
@@ -290,9 +293,8 @@ Tags:
 CIKs: MSFT `0000789019` · MCD `0000063908` · BRK.B `0001067983` · AAPL `0000320193`
 
 **Segmentos** (Azure +43%, comparable sales de MCD): no están en XBRL. Viven en prosa
-dentro del 8-K Exhibit 99.1. Extracción con Gemini + validación de cita literal:
-si la frase citada no aparece como substring del documento, se descarta la extracción.
-Sin excepciones.
+dentro del 8-K Exhibit 99.1. Extracción con Gemini — regla dura de validación de cita
+completa en `CLAUDE.md`.
 
 ### 2.4 Precios — Finnhub free tier
 
@@ -311,12 +313,8 @@ Van al bloque de Referencias, no a una card propia.
 
 ### 2.6 Copyright
 
-La app agrega, no republica.
-
-- Guardar: titular, medio, fecha, URL, **máximo 1-2 frases** de extracto
-- Nunca el artículo completo
-- Los resúmenes de Gemini deben ser **reescritos**, no recortes del original
-- Link a la fuente siempre visible y clickeable
+Regla dura completa en `CLAUDE.md` (agregar, no republicar; máximo 1-2 frases; resúmenes
+reescritos, no recortes; link siempre visible).
 
 ---
 
@@ -327,8 +325,8 @@ La app agrega, no republica.
 Empresas castigadas en precio **pero sanas en fundamentales**. Es la distinción entre bache
 temporal y deterioro estructural — Microsoft en junio 2026 habría aparecido; Ubisoft no.
 
-**No es una recomendación de compra.** Muestra candidatos con sus datos. La decisión y la
-tesis son del usuario.
+**No es una recomendación de compra** — regla dura completa en `CLAUDE.md`. Muestra
+candidatos con sus datos; la decisión y la tesis son del usuario.
 
 ### 3.2 Universo (~90 tickers, refrescado semanal)
 
@@ -454,8 +452,14 @@ te muestra el número; esto te muestra el número y de dónde salió.
 
 ### 4.6 Gráficos
 
-Solo precio en el tiempo. Recharts, línea simple, sin relleno degradado, sin puntos.
-Rangos 1M / 6M / 1A / 5A. Eje Y con cifras tabulares.
+Solo precio en el tiempo. Recharts, línea simple con relleno degradado sutil bajo la línea
+(usando `--acento`, excepción explícita — ver `CLAUDE.md`), sin puntos salvo el punto activo
+al pasar el mouse (viene gratis con el tooltip de Recharts). Rangos 1M / 6M / 1A / 5A. Eje Y
+con cifras tabulares.
+
+Velas (candlestick): descartadas por ahora — necesitan datos OHLC que no existen en el
+modelo todavía (Finnhub los trae recién en Fase 1) y Recharts no las trae nativas, hay que
+armarlas a mano. Se reevalúa más adelante, una vez que haya datos reales de precio.
 
 Los fundamentales van en tabla, no en gráfico. Doce trimestres en columnas se leen mejor
 que doce gráficos.
