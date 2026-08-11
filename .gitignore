@@ -5,6 +5,7 @@ dist/
 .DS_Store
 .env
 .env.*
+!.env.example
 web/src/data/daily.json
 
 __pycache__/
