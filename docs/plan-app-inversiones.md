@@ -761,19 +761,27 @@ inversiones/
 
 ## 8. GitHub Action
 
+El workflow real vive en `.github/workflows/daily.yml` — no se duplica acá para no
+desincronizarse (mismo criterio que las reglas duras en `CLAUDE.md`). Corre cada hora, todo
+el día, no una vez a las 7am como decía la versión original de esta sección — ver la
+excepción documentada en la sección 4.1. Requiere permisos de escritura del `GITHUB_TOKEN`
+(Settings → Actions → General → Workflow permissions → "Read and write permissions"), sin
+eso el `git push` final falla con 403 — ver sección 9, Trampas conocidas.
+
+Forma general, por si el archivo no está a mano:
+
 ```yaml
-name: Recolector diario
 on:
   schedule:
-    - cron: '0 11 * * 1-5'      # 07:00 Chile (UTC-4), lun a vie
-  workflow_dispatch:             # botón manual
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   recolectar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - run: pip install -r collector/requirements.txt
@@ -810,6 +818,9 @@ Keys en GitHub Secrets, nunca en el código. Mismo criterio que `get_secret()` e
 | Todo se ve gris | Regla "color es señal" aplicada de más | Semáforo, leans y radar SÍ llevan color |
 | Radar quema el free tier | Escanear 90 tickers a diario | Correrlo semanal, no diario |
 | Scope infinito | Cada fase invita a una más | Cerrar la fase antes de abrir la siguiente |
+| Finnhub `stock/candle` 403 | Lo movieron a plan pago, `quote` sigue gratis | Ver sección 2.4 — Yahoo Finance para sembrar una vez |
+| Stooq CSV no responde con datos | Challenge JS anti-bots delante del endpoint | Se descartó; usar Yahoo Finance en su lugar |
+| GitHub Action falla al hacer `git push` (403) | El `GITHUB_TOKEN` por defecto es read-only | Settings → Actions → General → Workflow permissions → "Read and write permissions". No es nada del código — se pierde tiempo si se busca ahí primero |
 
 ---
 
