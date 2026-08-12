@@ -1,0 +1,35 @@
+name: Recolector (cada hora)
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # cada hora, todo el día — decisión consciente del usuario,
+                          # ver nota en docs/plan-app-inversiones.md junto a la sección 4.1
+  workflow_dispatch:       # botón manual
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r collector/requirements.txt
+
+      - run: python collector/main.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          BCCH_USER: ${{ secrets.BCCH_USER }}
+          BCCH_PASS: ${{ secrets.BCCH_PASS }}
+
+      - run: |
+          git config user.name "recolector"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/historico_precios.json
+          git diff --staged --quiet || git commit -m "precios: $(date -u +'%Y-%m-%dT%H:%M')"
+          git pull --rebase
+          git push

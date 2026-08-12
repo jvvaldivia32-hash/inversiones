@@ -296,12 +296,20 @@ CIKs: MSFT `0000789019` · MCD `0000063908` · BRK.B `0001067983` · AAPL `00003
 dentro del 8-K Exhibit 99.1. Extracción con Gemini — regla dura de validación de cita
 completa en `CLAUDE.md`.
 
-### 2.4 Precios — Finnhub free tier
+### 2.4 Precios — Finnhub para el presente, Yahoo Finance para sembrar el pasado
 
-- Cotización: endpoint `quote`
-- Histórico para el gráfico: `stock/candle`
-- 60 req/min. Con ~90 tickers (watchlist + referencias + universo del radar) alcanza de
-  sobra si se serializa.
+- Cotización de hoy: endpoint `quote` de Finnhub, gratis. 60 req/min — con ~90 tickers
+  (watchlist + referencias + universo del radar) alcanza de sobra si se serializa.
+- **`stock/candle` (histórico) NO es gratis** — Finnhub lo movió a planes pagos, confirmado
+  contra `github.com/finnhubio/Finnhub-API` issues #546 y #397 (403 real probado en Fase 1).
+  El plan original acá asumía que era gratis; no lo es.
+- Histórico para sembrar el gráfico: endpoint no oficial de gráficos de Yahoo Finance
+  (`query1.finance.yahoo.com/v8/finance/chart/{ticker}`, mismo que usa la librería
+  `yfinance`), sin key. Se usa **una sola vez por ticker**, para sembrar
+  `data/historico_precios.json` — nunca en la corrida de siempre, así que si Yahoo cambia o
+  bloquea el endpoint algún día, solo se rompe sembrar un ticker *nuevo*, no el pipeline
+  diario. Desde ahí, cada corrida de Finnhub le suma un punto más al historial acumulado
+  (ver `collector/historico.py`).
 
 ### 2.5 Chile macro — Banco Central
 
@@ -393,6 +401,12 @@ Pidió densidad tipo TIKR **y** que se vea bien. Se resuelve con una regla dura:
 Esta app es un instrumento de lectura, no un terminal de trading. Todo el proyecto empuja
 en la misma dirección: bajar la velocidad, ir a la fuente, revisar la tesis. El diseño tiene
 que apoyar eso, no simular una sala de operaciones.
+
+> **Excepción explícita (decidida por el usuario, 2026-08-11):** el recolector corre cada
+> hora, todo el día (`.github/workflows/daily.yml`), no una vez a las 7am como se pensó acá
+> originalmente. Se le señaló la tensión con este párrafo antes de decidirlo — no se coló
+> "ya que estamos automatizando". La sección 10 sigue siendo la vara para medir si la app
+> cumplió su propósito, independiente de cada cuánto se actualiza el dato.
 
 ### 4.2 Tokens
 
