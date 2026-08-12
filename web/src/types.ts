@@ -76,13 +76,15 @@ export interface Posicion {
   nombre: string;
   precio: number;
   var_dia_pct: number;
-  var_ano_pct: number;
   serie_precio: SeriePrecio;
-  proxima_earnings: string;
-  fundamentales: Fundamentales;
-  segmentos: Segmento[];
-  tesis: Tesis;
-  noticias: Articulo[];
+  // Todo lo de acá abajo llega en fases posteriores (fundamentales en Fase 4, tesis en
+  // Fase 7, noticias en Fase 2/3) — hasta entonces la card solo tiene precio real.
+  var_ano_pct?: number;
+  proxima_earnings?: string;
+  fundamentales?: Fundamentales;
+  segmentos?: Segmento[];
+  tesis?: Tesis;
+  noticias?: Articulo[];
 }
 
 export interface IndiceReferencia {

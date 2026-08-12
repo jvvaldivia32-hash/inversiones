@@ -46,8 +46,10 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
   const [compararTicker, setCompararTicker] = useState<string | null>(null);
 
   const varDiaClase = posicion.var_dia_pct >= 0 ? "var-positiva" : "var-negativa";
-  const varAnoClase = posicion.var_ano_pct >= 0 ? "var-positiva" : "var-negativa";
   const comparar = comparables.find((c) => c.ticker === compararTicker) ?? null;
+
+  const sinDatosExtra =
+    !posicion.fundamentales && !posicion.segmentos && !posicion.tesis && !posicion.noticias;
 
   return (
     <article className="card-inversion">
@@ -57,10 +59,14 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
         <span className={`card-inversion-var ${varDiaClase}`}>
           {formatPct(posicion.var_dia_pct)}
         </span>
-        <span className={`card-inversion-var-costo ${varAnoClase}`}>
-          {formatPct(posicion.var_ano_pct)} desde costo
-        </span>
-        <Semaforo estado={posicion.tesis.semaforo} />
+        {posicion.var_ano_pct !== undefined && (
+          <span
+            className={`card-inversion-var-costo ${posicion.var_ano_pct >= 0 ? "var-positiva" : "var-negativa"}`}
+          >
+            {formatPct(posicion.var_ano_pct)} desde costo
+          </span>
+        )}
+        {posicion.tesis && <Semaforo estado={posicion.tesis.semaforo} />}
       </header>
 
       <GraficoPrecio
@@ -90,7 +96,7 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
       )}
 
       <ul className="card-inversion-titulares">
-        {posicion.noticias.slice(0, expandida ? posicion.noticias.length : 2).map((n) => (
+        {(posicion.noticias ?? []).slice(0, expandida ? undefined : 2).map((n) => (
           <li key={n.url}>
             <a href={n.url} target="_blank" rel="noreferrer">
               {n.titular}
@@ -103,37 +109,52 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
 
       {expandida && (
         <div className="card-inversion-expandida">
-          <section>
-            <h4>Fundamentales</h4>
-            <TablaFundamentales fundamentales={posicion.fundamentales} />
-          </section>
-
-          <section>
-            <h4>Segmentos</h4>
-            <ul className="segmentos">
-              {posicion.segmentos.map((s) => (
-                <SegmentoItem
-                  key={s.nombre}
-                  segmento={s}
-                  fuenteUrl={posicion.fundamentales.fuente_url}
-                />
-              ))}
-            </ul>
-          </section>
-
-          <section>
-            <h4>Tesis</h4>
-            <p className="tesis-texto">{posicion.tesis.texto}</p>
-            <p className="tesis-metrica">
-              {posicion.tesis.metrica}: <strong>{posicion.tesis.valor_actual}</strong>{" "}
-              (verde ≥ {posicion.tesis.umbral_verde}, rojo &lt; {posicion.tesis.umbral_rojo})
+          {sinDatosExtra && (
+            <p className="card-inversion-sin-datos">
+              Fundamentales, tesis y noticias todavía no están conectados — por ahora esta
+              card solo tiene precio real.
             </p>
-            <Semaforo estado={posicion.tesis.semaforo} />
-          </section>
+          )}
 
-          <p className="card-inversion-earnings">
-            Próxima fecha de resultados: {formatFechaCorta(posicion.proxima_earnings)}
-          </p>
+          {posicion.fundamentales && (
+            <section>
+              <h4>Fundamentales</h4>
+              <TablaFundamentales fundamentales={posicion.fundamentales} />
+            </section>
+          )}
+
+          {posicion.segmentos && posicion.segmentos.length > 0 && (
+            <section>
+              <h4>Segmentos</h4>
+              <ul className="segmentos">
+                {posicion.segmentos.map((s) => (
+                  <SegmentoItem
+                    key={s.nombre}
+                    segmento={s}
+                    fuenteUrl={posicion.fundamentales?.fuente_url ?? ""}
+                  />
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {posicion.tesis && (
+            <section>
+              <h4>Tesis</h4>
+              <p className="tesis-texto">{posicion.tesis.texto}</p>
+              <p className="tesis-metrica">
+                {posicion.tesis.metrica}: <strong>{posicion.tesis.valor_actual}</strong>{" "}
+                (verde ≥ {posicion.tesis.umbral_verde}, rojo &lt; {posicion.tesis.umbral_rojo})
+              </p>
+              <Semaforo estado={posicion.tesis.semaforo} />
+            </section>
+          )}
+
+          {posicion.proxima_earnings && (
+            <p className="card-inversion-earnings">
+              Próxima fecha de resultados: {formatFechaCorta(posicion.proxima_earnings)}
+            </p>
+          )}
         </div>
       )}
 
