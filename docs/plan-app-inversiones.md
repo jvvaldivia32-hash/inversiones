@@ -604,6 +604,23 @@ Estructura de una historia agrupada:
 Cada fase termina en algo que funciona y se puede abrir. Los ▸ marcan puntos de corte
 naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
 
+### Estado actual (actualizar cada vez que se cierre o avance una fase)
+
+- **Fase 0 — ✅ completa**, deployada en Vercel, verificada en el celular.
+- **Fase 1 — 🟡 parcial.** Hechos: `watchlist.txt` + parser + panel de edición desde el
+  celular (excepción de auth, ver más abajo); cliente Finnhub (`/quote`, cotización — el
+  histórico `/stock/candle` resultó de pago, se reemplazó por Yahoo Finance para sembrar el
+  historial una sola vez, ver sección 2.4); `historico_precios.json` acumulado + `posiciones`
+  reales en `daily.json`; GitHub Action corriendo **cada hora** (no solo
+  `workflow_dispatch` — excepción consciente, ver sección 4.1). **Falta:** Banco Central
+  (UF/dólar/TPM/IPC para `referencias`) — necesita que el usuario se registre en su API.
+- **Fase 2 — ✅ completa.** `mundo`/`chile`/`actualidad` con noticias reales por RSS, capadas
+  a 8/8/5 (`collector/noticias.py`), noticias reales por ticker. De los ~18 feeds candidatos
+  de la sección 2.1 solo 9 tienen RSS funcionando hoy — catálogo real en
+  `collector/sources/feeds.py`. `extracto`/`resumen` quedan vacíos a propósito hasta Fase 3
+  (sin Gemini no hay cómo reescribirlos sin copiar, regla dura de copyright).
+- **Fase 3 a 8 — ⬜ no iniciadas.**
+
 ### Fase 0 — Esqueleto que se ve
 
 - Repo con `collector/` y `web/`
