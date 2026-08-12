@@ -6,7 +6,7 @@ export default function Historia({ historia }: { historia: HistoriaType }) {
   return (
     <article className="historia">
       <h3 className="historia-titulo">{historia.titulo_neutral}</h3>
-      <p className="historia-resumen">{historia.resumen}</p>
+      {historia.resumen && <p className="historia-resumen">{historia.resumen}</p>}
       {historia.cobertura_unilateral && (
         <p className="historia-unilateral">Cobertura de una sola fuente</p>
       )}

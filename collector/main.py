@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 
 import historico
+import noticias
 from env import cargar_env
 from sources import prices, yahoo
 from watchlist import parse_watchlist
@@ -64,16 +65,25 @@ def construir_posiciones(
                 "precio": cotizaciones[ticker]["precio"],
                 "var_dia_pct": cotizaciones[ticker]["var_dia_pct"],
                 "serie_precio": historico.derivar_rangos(hist.get(ticker, []), ahora),
+                "noticias": noticias.noticias_ticker(ticker),
             }
         )
     return posiciones
 
 
-def actualizar_daily_json(posiciones: list[dict], ahora: datetime.datetime) -> None:
-    """Reemplaza `posiciones` en data/daily.json con datos reales, sin tocar el resto
-    (bloques, referencias, radar, errores) — esas fases todavía no existen."""
+def actualizar_daily_json(
+    posiciones: list[dict],
+    bloques_noticias: tuple[list[dict], list[dict], list[dict]],
+    errores_noticias: list[str],
+    ahora: datetime.datetime,
+) -> None:
+    """Reemplaza `posiciones` y `bloques` en data/daily.json con datos reales, sin tocar
+    `referencias`/`radar` — esas fases todavía no existen."""
+    mundo, chile, actualidad = bloques_noticias
     daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
     daily["posiciones"] = posiciones
+    daily["bloques"] = {"mundo": mundo, "chile": chile, "actualidad": actualidad}
+    daily["errores"] = errores_noticias
     daily["generado"] = ahora.isoformat()
     RUTA_DAILY.write_text(
         json.dumps(daily, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -99,8 +109,14 @@ def main() -> None:
     ahora = datetime.datetime.now(datetime.timezone.utc)
     hist, cotizaciones = actualizar_precios(tickers, ahora)
 
+    print("\nLeyendo noticias...")
+    mundo, chile, actualidad, errores_noticias = noticias.recolectar_bloques()
+    print(f"  mundo={len(mundo)} chile={len(chile)} actualidad={len(actualidad)}")
+    for e in errores_noticias:
+        print(f"  aviso: {e}")
+
     posiciones = construir_posiciones(tickers, hist, cotizaciones, ahora)
-    actualizar_daily_json(posiciones, ahora)
+    actualizar_daily_json(posiciones, (mundo, chile, actualidad), errores_noticias, ahora)
     print(f"\ndata/daily.json actualizado con {len(posiciones)} posiciones reales.")
 
     print("\nRangos derivados:")

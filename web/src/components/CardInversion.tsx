@@ -102,7 +102,7 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
               {n.titular}
             </a>
             <span className="card-inversion-medio">[{n.medio}]</span>
-            {expandida && <p className="card-inversion-extracto">{n.extracto}</p>}
+            {expandida && n.extracto && <p className="card-inversion-extracto">{n.extracto}</p>}
           </li>
         ))}
       </ul>
