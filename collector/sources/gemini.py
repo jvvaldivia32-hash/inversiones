@@ -77,6 +77,85 @@ def _es_copia_literal(texto: str, originales: list[str], n_palabras: int = 8) ->
     return False
 
 
+def _cita_existe(cita: str, documento: str) -> bool:
+    """True si `cita` aparece tal cual (solo tolerando diferencias de espacios/saltos de
+    línea, nada más) como substring literal de `documento`. Regla dura del plan madre:
+    toda cifra de segmento que Gemini extraiga de un press release debe venir con una cita
+    que exista de verdad en el documento — si no, se descarta la extracción completa, no
+    solo la cita."""
+    normalizar = lambda t: " ".join(t.split())
+    return normalizar(cita) in normalizar(documento)
+
+
+def extraer_segmentos(texto_press_release: str) -> list[dict] | None:
+    """Cifras de desempeño por segmento (ej. "Azure +43%") que el press release destaca
+    explícitamente, cada una con su cita textual verificada contra el documento original.
+    None si Gemini no está disponible o la llamada falla — quien llama decide qué hacer sin
+    datos nuevos. Lista vacía (no None) si Gemini respondió pero no encontró nada, o si todo
+    lo que encontró falló la validación de cita."""
+    texto_press_release = texto_press_release.strip()
+    if not texto_press_release:
+        return []
+
+    prompt = (
+        "Este es el texto de un press release de resultados trimestrales. Identifica las "
+        "cifras de desempeño por segmento o línea de negocio que la empresa destaca "
+        'explícitamente (ej: "Azure revenue grew 43%", "comparable sales increased 2.5%"). '
+        "Para cada una: el nombre del segmento, el porcentaje de variación, y la cita "
+        "textual EXACTA — copiada palabra por palabra, sin cambiar ni una coma — de la "
+        "oración del documento que contiene esa cifra. La cita se valida después contra el "
+        "documento original y se descarta si no calza exacto, así que no la parafrasees. No "
+        "inventes cifras que no estén en el texto. Si no hay ninguna, devuelve una lista "
+        f"vacía.\n\n{texto_press_release}"
+    )
+    schema = {
+        "type": "object",
+        "properties": {
+            "segmentos": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "nombre": {"type": "string"},
+                        "var_pct": {"type": "number"},
+                        "cita": {"type": "string"},
+                    },
+                    "required": ["nombre", "var_pct", "cita"],
+                },
+            }
+        },
+        "required": ["segmentos"],
+    }
+
+    resultado = _llamar(prompt, schema)
+    if resultado is None:
+        return None
+    segmentos = resultado.get("segmentos")
+    if not isinstance(segmentos, list):
+        return None
+
+    salida = []
+    for s in segmentos:
+        if not isinstance(s, dict):
+            continue
+        nombre = s.get("nombre")
+        var_pct = s.get("var_pct")
+        cita = s.get("cita")
+        if not (
+            isinstance(nombre, str)
+            and nombre.strip()
+            and isinstance(var_pct, (int, float))
+            and not isinstance(var_pct, bool)
+            and isinstance(cita, str)
+            and cita.strip()
+        ):
+            continue
+        if not _cita_existe(cita, texto_press_release):
+            continue
+        salida.append({"nombre": nombre.strip(), "var_pct": var_pct, "cita": cita.strip()})
+    return salida
+
+
 def agrupar_historias(titulares: list[str]) -> list[tuple[str, list[int]]] | None:
     """Agrupa índices de `titulares` que se refieren al mismo hecho concreto, con un título
     neutral por grupo. None si Gemini no está disponible o la respuesta no sirve — quien

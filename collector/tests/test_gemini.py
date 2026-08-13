@@ -198,3 +198,84 @@ def test_reescribir_resumenes_descarta_copia_literal(monkeypatch):
 def test_reescribir_resumenes_none_si_llamar_falla(monkeypatch):
     monkeypatch.setattr(gemini, "_llamar", lambda prompt, schema: None)
     assert gemini.reescribir_resumenes(["algo"]) is None
+
+
+# --- extraer_segmentos / _cita_existe ---
+
+
+def test_cita_existe_exacta():
+    assert gemini._cita_existe("Azure revenue grew 43%", "Blah. Azure revenue grew 43%. Blah.")
+
+
+def test_cita_existe_tolera_espacios_y_saltos_de_linea():
+    documento = "Azure  revenue\ngrew   43%   this quarter."
+    assert gemini._cita_existe("Azure revenue grew 43%", documento)
+
+
+def test_cita_no_existe_si_no_calza():
+    assert not gemini._cita_existe("Azure revenue grew 50%", "Azure revenue grew 43%.")
+
+
+def test_extraer_segmentos_texto_vacio_no_llama_api(monkeypatch):
+    llamado = []
+    monkeypatch.setattr(gemini, "_llamar", lambda *a: llamado.append(1) or None)
+    assert gemini.extraer_segmentos("   ") == []
+    assert llamado == []
+
+
+def test_extraer_segmentos_descarta_cita_que_no_calza(monkeypatch):
+    documento = "Azure and other cloud services revenue grew 43% this quarter."
+    monkeypatch.setattr(
+        gemini,
+        "_llamar",
+        lambda prompt, schema: {
+            "segmentos": [{"nombre": "Azure", "var_pct": 43, "cita": "Azure revenue grew 50%"}]
+        },
+    )
+    assert gemini.extraer_segmentos(documento) == []
+
+
+def test_extraer_segmentos_acepta_cita_valida(monkeypatch):
+    documento = "Azure and other cloud services revenue grew 43% this quarter."
+    monkeypatch.setattr(
+        gemini,
+        "_llamar",
+        lambda prompt, schema: {
+            "segmentos": [
+                {
+                    "nombre": "Azure",
+                    "var_pct": 43,
+                    "cita": "Azure and other cloud services revenue grew 43% this quarter.",
+                }
+            ]
+        },
+    )
+    resultado = gemini.extraer_segmentos(documento)
+    assert resultado == [
+        {
+            "nombre": "Azure",
+            "var_pct": 43,
+            "cita": "Azure and other cloud services revenue grew 43% this quarter.",
+        }
+    ]
+
+
+def test_extraer_segmentos_ignora_items_con_forma_invalida(monkeypatch):
+    documento = "Azure revenue grew 43% this quarter."
+    monkeypatch.setattr(
+        gemini,
+        "_llamar",
+        lambda prompt, schema: {
+            "segmentos": [
+                {"nombre": "", "var_pct": 43, "cita": "Azure revenue grew 43% this quarter."},
+                {"nombre": "Azure", "var_pct": "43%", "cita": "Azure revenue grew 43% this quarter."},
+                "no es un dict",
+            ]
+        },
+    )
+    assert gemini.extraer_segmentos(documento) == []
+
+
+def test_extraer_segmentos_none_si_llamar_falla(monkeypatch):
+    monkeypatch.setattr(gemini, "_llamar", lambda prompt, schema: None)
+    assert gemini.extraer_segmentos("algo de texto") is None

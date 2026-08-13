@@ -6,7 +6,7 @@ from pathlib import Path
 import historico
 import noticias
 from env import cargar_env
-from sources import banco_central, edgar, prices, yahoo
+from sources import banco_central, edgar, prices, segmentos, yahoo
 from watchlist import parse_watchlist
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
@@ -75,10 +75,34 @@ def _obtener_fundamentales(ticker: str, anterior: dict | None) -> dict | None:
     return nuevo if nuevo is not None else anterior
 
 
+def _segmentos_anteriores() -> dict[str, dict]:
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    return {
+        p["ticker"]: {"segmentos": p["segmentos"], "_accession": p.get("_segmentos_accession")}
+        for p in daily.get("posiciones", [])
+        if p.get("segmentos") is not None
+    }
+
+
+def _obtener_segmentos(ticker: str, anterior: dict | None) -> dict | None:
+    """Igual que _obtener_fundamentales, pero para el press release del 8-K (Fase 5)."""
+    cik = edgar.CIK_POR_TICKER.get(ticker)
+    if cik is None:
+        return None
+    accession_anterior = anterior.get("_accession") if anterior else None
+    try:
+        nuevo = segmentos.obtener_segmentos(cik, accession_anterior)
+    except edgar.EdgarError as e:
+        print(f"  {ticker}: segmentos no se pudieron actualizar ({e})")
+        return anterior
+    return nuevo if nuevo is not None else anterior
+
+
 def construir_posiciones(
     tickers: list[str], hist: dict, cotizaciones: dict, ahora: datetime.datetime
 ) -> list[dict]:
     fundamentales_anteriores = _fundamentales_anteriores()
+    segmentos_anteriores = _segmentos_anteriores()
     posiciones = []
     for ticker in tickers:
         if ticker not in cotizaciones:
@@ -94,6 +118,10 @@ def construir_posiciones(
         fundamentales = _obtener_fundamentales(ticker, fundamentales_anteriores.get(ticker))
         if fundamentales is not None:
             posicion["fundamentales"] = fundamentales
+        seg = _obtener_segmentos(ticker, segmentos_anteriores.get(ticker))
+        if seg is not None:
+            posicion["segmentos"] = seg["segmentos"]
+            posicion["_segmentos_accession"] = seg["_accession"]
         posiciones.append(posicion)
     return posiciones
 

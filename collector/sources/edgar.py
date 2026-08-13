@@ -65,6 +65,20 @@ def _request(url: str) -> dict:
         raise EdgarError(f"EDGAR {url} no respondió: {e.reason}") from e
 
 
+def request_texto(url: str) -> str:
+    """Como _request pero para documentos que no son JSON (los exhibits de un 8-K son
+    HTML) — mismo header, mismos errores. Público porque sources/segmentos.py también
+    lo necesita para bajar el press release."""
+    req = urllib.request.Request(url, headers=_headers())
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as e:
+        raise EdgarError(f"EDGAR {url} respondió {e.code}") from e
+    except urllib.error.URLError as e:
+        raise EdgarError(f"EDGAR {url} no respondió: {e.reason}") from e
+
+
 def _tiene_datos_recientes(data: dict, dias_maximos: int = 550) -> bool:
     """Un tag puede existir y responder 200 sin tener nada útil: la empresa lo usó hace
     años y después migró a otro (o dejó de tagearlo del todo, como el EPS de BRK.B).
