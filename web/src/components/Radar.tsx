@@ -5,6 +5,7 @@ import "./Radar.css";
 
 function CandidatoItem({ candidato }: { candidato: RadarCandidato }) {
   const [rango, setRango] = useState<RangoPrecio>("1A");
+  const [expandida, setExpandida] = useState(false);
 
   return (
     <li>
@@ -14,12 +15,22 @@ function CandidatoItem({ candidato }: { candidato: RadarCandidato }) {
         <span className="radar-pct">{candidato.pct_bajo_maximo}% bajo su máximo</span>
       </div>
       <p className="radar-motivo">{candidato.motivo}</p>
-      <GraficoPrecio
-        serie={candidato.serie_precio}
-        rango={rango}
-        onRangoChange={setRango}
-        mostrarSelector
-      />
+      {expandida && (
+        <GraficoPrecio
+          serie={candidato.serie_precio}
+          rango={rango}
+          onRangoChange={setRango}
+          mostrarSelector
+        />
+      )}
+      <button
+        type="button"
+        className="radar-candidato-toggle"
+        onClick={() => setExpandida((v) => !v)}
+        aria-expanded={expandida}
+      >
+        {expandida ? "cerrar ▴" : "ver gráfico ▾"}
+      </button>
     </li>
   );
 }

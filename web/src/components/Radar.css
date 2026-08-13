@@ -13,7 +13,6 @@
   margin-bottom: 0.5rem;
 }
 
-.radar-candidatos,
 .radar-descartados {
   list-style: none;
   margin: 0;
@@ -23,10 +22,30 @@
   gap: 0.6rem;
 }
 
+.radar-candidatos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.6rem;
+  align-items: start;
+}
+
 .radar-candidatos li {
   background: var(--verde-fondo);
   border-radius: 4px;
   padding: 0.55rem 0.7rem;
+}
+
+.radar-candidato-toggle {
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+  font-family: var(--fuente-mono);
+  padding: 0.3rem 0 0;
+  cursor: pointer;
 }
 
 .radar-candidato-header {
