@@ -198,6 +198,20 @@
   padding: 0.3rem 0 0;
 }
 
+.tesis-cerrar-abrir {
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+  font-family: var(--fuente-mono);
+  padding: 0.5rem 0 0;
+  display: block;
+}
+
+.tesis-cerrar-formulario {
+  margin-top: 0.5rem;
+}
+
 .tesis-historial {
   list-style: none;
   margin: 0.4rem 0 0;

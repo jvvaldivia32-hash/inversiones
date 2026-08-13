@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 import type { EstadoSemaforo, Posicion, RangoPrecio, Segmento, SeriePrecio, Tesis } from "../types";
 import { formatPct, formatUSD, formatFechaCorta } from "../lib/format";
 import Cifra from "./Cifra";
@@ -25,6 +25,72 @@ function peorSemaforo(lista: Tesis[] | undefined): EstadoSemaforo | null {
 
 function simboloDireccion(direccion: Tesis["direccion"]): { verde: string; rojo: string } {
   return direccion === "mayor_es_mejor" ? { verde: "≥", rojo: "<" } : { verde: "≤", rojo: ">" };
+}
+
+function CerrarTesis({ id }: { id: string }) {
+  const [abierto, setAbierto] = useState(false);
+  const [notas, setNotas] = useState("");
+  const [clave, setClave] = useState("");
+  const [enviando, setEnviando] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [cerrada, setCerrada] = useState(false);
+
+  if (cerrada) {
+    return <p className="tesis-formulario-ok">Tesis cerrada. Se refleja en la próxima actualización.</p>;
+  }
+
+  if (!abierto) {
+    return (
+      <button type="button" className="tesis-cerrar-abrir" onClick={() => setAbierto(true)}>
+        cerrar tesis
+      </button>
+    );
+  }
+
+  async function enviar(e: FormEvent) {
+    e.preventDefault();
+    setEnviando(true);
+    setError(null);
+    try {
+      const resp = await fetch("/api/tesis", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ accion: "cerrar", clave, id, notas_cierre: notas }),
+      });
+      const data = (await resp.json()) as { error?: string };
+      if (!resp.ok) {
+        setError(data.error ?? "no se pudo cerrar");
+        return;
+      }
+      setCerrada(true);
+    } catch {
+      setError("no se pudo conectar");
+    } finally {
+      setEnviando(false);
+    }
+  }
+
+  return (
+    <form className="tesis-formulario tesis-cerrar-formulario" onSubmit={enviar}>
+      <label>
+        Por qué se cierra (qué pasó, qué te hizo cambiar de opinión)
+        <textarea value={notas} onChange={(e) => setNotas(e.target.value)} required minLength={10} rows={2} />
+      </label>
+      <label>
+        Clave
+        <input type="password" value={clave} onChange={(e) => setClave(e.target.value)} required />
+      </label>
+      {error && <p className="tesis-formulario-error">{error}</p>}
+      <div className="tesis-formulario-botones">
+        <button type="submit" disabled={enviando}>
+          Confirmar cierre
+        </button>
+        <button type="button" onClick={() => setAbierto(false)} disabled={enviando}>
+          Cancelar
+        </button>
+      </div>
+    </form>
+  );
 }
 
 function TesisItem({ t, fuenteFundamentales }: { t: Tesis; fuenteFundamentales: string }) {
@@ -87,6 +153,7 @@ function TesisItem({ t, fuenteFundamentales }: { t: Tesis; fuenteFundamentales: 
           )}
         </>
       )}
+      {t.estado === "activa" && <CerrarTesis id={t.id} />}
     </div>
   );
 }
