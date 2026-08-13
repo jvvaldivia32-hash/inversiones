@@ -5,6 +5,7 @@ from pathlib import Path
 
 import historico
 import noticias
+import tesis
 from env import cargar_env
 from sources import banco_central, edgar, prices, segmentos, yahoo
 from watchlist import parse_watchlist
@@ -12,6 +13,7 @@ from watchlist import parse_watchlist
 RAIZ_REPO = Path(__file__).resolve().parent.parent
 RUTA_HISTORICO = RAIZ_REPO / "data" / "historico_precios.json"
 RUTA_DAILY = RAIZ_REPO / "data" / "daily.json"
+RUTA_TESIS = RAIZ_REPO / "data" / "tesis.json"
 
 CLAVES_ESPERADAS = [
     "GEMINI_API_KEY",
@@ -105,11 +107,58 @@ def _obtener_segmentos(ticker: str, anterior: dict | None) -> dict | None:
     return nuevo if nuevo is not None else anterior
 
 
+def _cargar_tesis() -> list[dict]:
+    if not RUTA_TESIS.exists():
+        return []
+    return json.loads(RUTA_TESIS.read_text(encoding="utf-8"))
+
+
+def _guardar_tesis(lista: list[dict]) -> None:
+    RUTA_TESIS.write_text(json.dumps(lista, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def _es_dato_fresco(nuevo: dict | None, anterior: dict | None) -> bool:
+    """True si `nuevo` trae un `_accession` distinto al de `anterior` (o no había
+    anterior) — o sea, esta corrida trajo un filing de verdad nuevo, no un valor
+    degradado/conservado de la corrida pasada. Fase 7 solo revisa tesis contra datos
+    frescos: sin esto, cada corrida horaria repetiría la misma lectura una y otra vez."""
+    if nuevo is None:
+        return False
+    return anterior is None or nuevo.get("_accession") != anterior.get("_accession")
+
+
+def _revisar_tesis_ticker(
+    tesis_lista: list[dict],
+    ticker: str,
+    ahora: datetime.datetime,
+    fundamentales: dict | None,
+    fundamentales_frescos: bool,
+    segmentos_resultado: dict | None,
+    segmentos_frescos: bool,
+) -> None:
+    """Muta `tesis_lista` in place: agrega una lectura a cada tesis activa de `ticker`
+    si hay dato fresco de verdad esta corrida. Una lectura con semáforo rojo cierra la
+    tesis como "rota" — el punto entero del rastreador es no dejar que se reescriba
+    después de conocer el resultado."""
+    if not fundamentales_frescos and not segmentos_frescos:
+        return
+    for t in tesis_lista:
+        if t["ticker"] != ticker or t["estado"] != "activa":
+            continue
+        lectura = tesis.revisar_tesis(t, ahora, fundamentales, segmentos_resultado)
+        if lectura is None:
+            continue
+        t["lecturas"].append(lectura)
+        if lectura["semaforo"] == "rojo":
+            t["estado"] = "rota"
+
+
 def construir_posiciones(
     tickers: list[str], hist: dict, cotizaciones: dict, ahora: datetime.datetime
 ) -> list[dict]:
     fundamentales_anteriores = _fundamentales_anteriores()
     segmentos_anteriores = _segmentos_anteriores()
+    tesis_lista = _cargar_tesis()
     posiciones = []
     for ticker in tickers:
         if ticker not in cotizaciones:
@@ -122,15 +171,31 @@ def construir_posiciones(
             "serie_precio": historico.derivar_rangos(hist.get(ticker, []), ahora),
             "noticias": noticias.noticias_ticker(ticker),
         }
-        fundamentales = _obtener_fundamentales(ticker, fundamentales_anteriores.get(ticker))
+
+        anterior_fund = fundamentales_anteriores.get(ticker)
+        fundamentales = _obtener_fundamentales(ticker, anterior_fund)
+        fundamentales_frescos = _es_dato_fresco(fundamentales, anterior_fund)
         if fundamentales is not None:
             posicion["fundamentales"] = fundamentales
-        seg = _obtener_segmentos(ticker, segmentos_anteriores.get(ticker))
+
+        anterior_seg = segmentos_anteriores.get(ticker)
+        seg = _obtener_segmentos(ticker, anterior_seg)
+        segmentos_frescos = _es_dato_fresco(seg, anterior_seg)
         if seg is not None:
             posicion["segmentos"] = seg["segmentos"]
             posicion["_segmentos_accession"] = seg["_accession"]
             posicion["segmentos_fuente_url"] = seg["fuente_url"]
+
+        _revisar_tesis_ticker(
+            tesis_lista, ticker, ahora, fundamentales, fundamentales_frescos, seg, segmentos_frescos
+        )
+        tesis_ticker = [t for t in tesis_lista if t["ticker"] == ticker]
+        if tesis_ticker:
+            posicion["tesis"] = tesis_ticker
+
         posiciones.append(posicion)
+
+    _guardar_tesis(tesis_lista)
     return posiciones
 
 

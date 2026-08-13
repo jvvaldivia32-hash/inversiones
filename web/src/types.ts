@@ -62,13 +62,31 @@ export interface Segmento {
 
 export type EstadoSemaforo = "verde" | "ambar" | "rojo";
 
+export interface LecturaTesis {
+  periodo: string;
+  fecha_reporte: string;
+  valor: number;
+  semaforo: EstadoSemaforo;
+  fuente_url: string;
+  cita_textual: string;
+  extraido_por: "xbrl" | "segmento";
+}
+
+export type EstadoTesis = "activa" | "cumplida" | "rota" | "cerrada";
+
 export interface Tesis {
+  id: string;
+  ticker: string;
   texto: string;
-  metrica: string;
-  valor_actual: number;
+  metrica_campo: string;
+  metrica_tipo: "fundamental" | "segmento";
   umbral_verde: number;
   umbral_rojo: number;
-  semaforo: EstadoSemaforo;
+  direccion: "mayor_es_mejor" | "menor_es_mejor";
+  fecha_escrita: string;
+  estado: EstadoTesis;
+  notas_cierre?: string;
+  lecturas: LecturaTesis[];
 }
 
 export interface Posicion {
@@ -86,7 +104,9 @@ export interface Posicion {
   // URL del 8-K/press release del que salieron las citas de `segmentos` — distinto del
   // 10-Q/10-K de `fundamentales`, son filings diferentes.
   segmentos_fuente_url?: string;
-  tesis?: Tesis;
+  // Puede haber varias tesis por ticker: una vieja cerrada y una nueva activa conviven —
+  // "editar" una tesis siempre es cerrar la anterior y crear otra, nunca modificar in situ.
+  tesis?: Tesis[];
   noticias?: Articulo[];
 }
 

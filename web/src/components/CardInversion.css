@@ -158,6 +158,15 @@
   font-size: var(--texto-12);
 }
 
+.tesis-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.tesis-item:last-of-type {
+  border-bottom: none;
+}
+
 .tesis-texto {
   font-size: var(--texto-14);
   margin-bottom: 0.4rem;
@@ -167,6 +176,48 @@
   font-size: var(--texto-12);
   color: var(--tinta-media);
   margin-bottom: 0.5rem;
+}
+
+.tesis-sin-lectura {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}
+
+.tesis-notas-cierre {
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+  margin-top: 0.4rem;
+}
+
+.tesis-historial-toggle {
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+  font-family: var(--fuente-mono);
+  padding: 0.3rem 0 0;
+}
+
+.tesis-historial {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.tesis-historial li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--texto-12);
+}
+
+.tesis-historial-periodo {
+  font-family: var(--fuente-mono);
+  color: var(--tinta-suave);
+  min-width: 4.5rem;
 }
 
 .card-inversion-earnings {

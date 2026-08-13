@@ -1,11 +1,95 @@
 import { useState } from "react";
-import type { Posicion, RangoPrecio, Segmento, SeriePrecio } from "../types";
+import type { EstadoSemaforo, Posicion, RangoPrecio, Segmento, SeriePrecio, Tesis } from "../types";
 import { formatPct, formatUSD, formatFechaCorta } from "../lib/format";
 import Cifra from "./Cifra";
 import Semaforo from "./Semaforo";
 import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
+import FormularioTesis from "./FormularioTesis";
 import "./CardInversion.css";
+
+const ORDEN_SEMAFORO: Record<EstadoSemaforo, number> = { rojo: 0, ambar: 1, verde: 2 };
+
+function peorSemaforo(lista: Tesis[] | undefined): EstadoSemaforo | null {
+  let peor: EstadoSemaforo | null = null;
+  for (const t of lista ?? []) {
+    if (t.estado !== "activa") continue;
+    const ultima = t.lecturas[t.lecturas.length - 1];
+    if (!ultima) continue;
+    if (peor === null || ORDEN_SEMAFORO[ultima.semaforo] < ORDEN_SEMAFORO[peor]) {
+      peor = ultima.semaforo;
+    }
+  }
+  return peor;
+}
+
+function simboloDireccion(direccion: Tesis["direccion"]): { verde: string; rojo: string } {
+  return direccion === "mayor_es_mejor" ? { verde: "≥", rojo: "<" } : { verde: "≤", rojo: ">" };
+}
+
+function TesisItem({ t, fuenteFundamentales }: { t: Tesis; fuenteFundamentales: string }) {
+  const [verHistorial, setVerHistorial] = useState(false);
+  const ultima = t.lecturas[t.lecturas.length - 1];
+  const simbolos = simboloDireccion(t.direccion);
+
+  return (
+    <div className="tesis-item">
+      <p className="tesis-texto">{t.texto}</p>
+      <p className="tesis-metrica">
+        {t.metrica_campo}
+        {ultima && (
+          <>
+            :{" "}
+            <strong>
+              <Cifra
+                valor={ultima.valor}
+                fuente={ultima.extraido_por === "segmento" ? "Comunicado de prensa (8-K)" : "SEC EDGAR"}
+                cita={ultima.cita_textual || undefined}
+                url={ultima.fuente_url || fuenteFundamentales}
+              />
+            </strong>
+          </>
+        )}{" "}
+        (verde {simbolos.verde} {t.umbral_verde}, rojo {simbolos.rojo} {t.umbral_rojo})
+      </p>
+      {ultima ? (
+        <Semaforo estado={ultima.semaforo} />
+      ) : (
+        <span className="tesis-sin-lectura">sin lecturas todavía — se revisa cuando reporte</span>
+      )}
+      {t.estado === "cerrada" && t.notas_cierre && (
+        <p className="tesis-notas-cierre">Cerrada: {t.notas_cierre}</p>
+      )}
+      {t.lecturas.length > 0 && (
+        <>
+          <button
+            type="button"
+            className="tesis-historial-toggle"
+            onClick={() => setVerHistorial((v) => !v)}
+          >
+            {verHistorial ? "ocultar historial ▴" : `historial (${t.lecturas.length}) ▾`}
+          </button>
+          {verHistorial && (
+            <ul className="tesis-historial">
+              {[...t.lecturas].reverse().map((l, i) => (
+                <li key={`${l.periodo}-${i}`}>
+                  <span className="tesis-historial-periodo">{l.periodo || l.fecha_reporte}</span>
+                  <Cifra
+                    valor={l.valor}
+                    fuente={l.extraido_por === "segmento" ? "8-K" : "SEC EDGAR"}
+                    cita={l.cita_textual || undefined}
+                    url={l.fuente_url}
+                  />
+                  <Semaforo estado={l.semaforo} />
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
+      )}
+    </div>
+  );
+}
 
 function SegmentoItem({ segmento, fuenteUrl }: { segmento: Segmento; fuenteUrl: string }) {
   return (
@@ -47,9 +131,24 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
 
   const varDiaClase = posicion.var_dia_pct >= 0 ? "var-positiva" : "var-negativa";
   const comparar = comparables.find((c) => c.ticker === compararTicker) ?? null;
+  const semaforoHeader = peorSemaforo(posicion.tesis);
 
   const sinDatosExtra =
-    !posicion.fundamentales && !posicion.segmentos && !posicion.tesis && !posicion.noticias;
+    !posicion.fundamentales &&
+    !posicion.segmentos &&
+    !(posicion.tesis && posicion.tesis.length > 0) &&
+    !posicion.noticias;
+
+  const metricasFundamental = posicion.fundamentales
+    ? Object.entries(posicion.fundamentales.series)
+        .filter(([, serie]) => serie.length > 0)
+        .map(([campo]) => campo)
+    : [];
+  // Gemini a veces extrae el mismo segmento dos veces con cifras distintas (ajustado vs.
+// reportado, visto de verdad con MSFT/Microsoft 365 Commercial cloud) — sin un id propio
+// por segmento no hay forma de distinguirlas en el dropdown, así que se deduplica por
+// nombre y listo.
+const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nombre))];
 
   return (
     <article className="card-inversion">
@@ -66,7 +165,7 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
             {formatPct(posicion.var_ano_pct)} desde costo
           </span>
         )}
-        {posicion.tesis && <Semaforo estado={posicion.tesis.semaforo} />}
+        {semaforoHeader && <Semaforo estado={semaforoHeader} />}
       </header>
 
       <GraficoPrecio
@@ -111,8 +210,8 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
         <div className="card-inversion-expandida">
           {sinDatosExtra && (
             <p className="card-inversion-sin-datos">
-              Fundamentales, tesis y noticias todavía no están conectados — por ahora esta
-              card solo tiene precio real.
+              Sin fundamentales, segmentos, tesis ni noticias para este ticker por ahora —
+              por ahora esta card solo tiene precio real.
             </p>
           )}
 
@@ -138,17 +237,22 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
             </section>
           )}
 
-          {posicion.tesis && (
+          {(posicion.tesis && posicion.tesis.length > 0) || metricasFundamental.length > 0 || metricasSegmento.length > 0 ? (
             <section>
               <h4>Tesis</h4>
-              <p className="tesis-texto">{posicion.tesis.texto}</p>
-              <p className="tesis-metrica">
-                {posicion.tesis.metrica}: <strong>{posicion.tesis.valor_actual}</strong>{" "}
-                (verde ≥ {posicion.tesis.umbral_verde}, rojo &lt; {posicion.tesis.umbral_rojo})
-              </p>
-              <Semaforo estado={posicion.tesis.semaforo} />
+              {(posicion.tesis ?? []).map((t) => (
+                <TesisItem key={t.id} t={t} fuenteFundamentales={posicion.fundamentales?.fuente_url ?? ""} />
+              ))}
+              {(metricasFundamental.length > 0 || metricasSegmento.length > 0) && (
+                <FormularioTesis
+                  ticker={posicion.ticker}
+                  metricasFundamental={metricasFundamental}
+                  metricasSegmento={metricasSegmento}
+                  onCreada={() => {}}
+                />
+              )}
             </section>
-          )}
+          ) : null}
 
           {posicion.proxima_earnings && (
             <p className="card-inversion-earnings">

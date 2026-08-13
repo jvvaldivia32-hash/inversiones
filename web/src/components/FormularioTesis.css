@@ -1,0 +1,69 @@
+.tesis-formulario-abrir {
+  background: none;
+  border: 1px solid var(--acento);
+  border-radius: 3px;
+  color: var(--acento);
+  font-size: var(--texto-12);
+  padding: 0.35rem 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.tesis-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+  padding: 0.75rem;
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  background: var(--papel-hueco);
+}
+
+.tesis-formulario label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+}
+
+.tesis-formulario textarea,
+.tesis-formulario select,
+.tesis-formulario input {
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--fuente-sans);
+  font-size: var(--texto-14);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.tesis-formulario-botones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tesis-formulario-botones button {
+  border: 1px solid var(--acento);
+  border-radius: 3px;
+  padding: 0.35rem 0.6rem;
+  background: none;
+  color: var(--acento);
+  font-size: var(--texto-12);
+}
+
+.tesis-formulario-botones button:disabled {
+  opacity: 0.5;
+}
+
+.tesis-formulario-error {
+  font-size: var(--texto-12);
+  color: var(--rojo);
+}
+
+.tesis-formulario-ok {
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+  margin-top: 0.5rem;
+}

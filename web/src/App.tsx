@@ -93,7 +93,7 @@ function App() {
       </Seccion>
 
       <Seccion id="radar" titulo="En el radar" compacta>
-        <Radar radar={daily.radar} />
+        <Radar radar={daily.radar} watchlist={watchlist} />
       </Seccion>
 
       <ErroresFooter errores={daily.errores} />
