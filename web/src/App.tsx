@@ -12,6 +12,7 @@ import CardInversionPendiente from "./components/CardInversionPendiente";
 import PanelWatchlist from "./components/PanelWatchlist";
 import Referencias from "./components/Referencias";
 import Radar from "./components/Radar";
+import Diccionario from "./components/Diccionario";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
 import "./App.css";
@@ -20,7 +21,7 @@ const daily = rawDaily as unknown as DailyData;
 
 function vistaDesdeHash(): Vista {
   const id = window.location.hash.replace("#", "");
-  return SECCION_A_VISTA[id] === "inversion" || id === "inversion" ? "inversion" : "dia";
+  return SECCION_A_VISTA[id] ?? "dia";
 }
 
 function App() {
@@ -90,7 +91,7 @@ function App() {
 
       <NavBar vista={vista} onIrA={irA} />
 
-      {vista === "dia" ? (
+      {vista === "dia" && (
         <>
           <Seccion id="referencias" titulo="Referencias" compacta>
             <Referencias referencias={daily.referencias} />
@@ -112,7 +113,9 @@ function App() {
             <Actualidad items={daily.bloques.actualidad} />
           </Seccion>
         </>
-      ) : (
+      )}
+
+      {vista === "inversion" && (
         <>
           <Seccion id="mis-inversiones" titulo="Mis inversiones">
             <div className="posiciones-lista">
@@ -140,6 +143,12 @@ function App() {
             <Radar radar={daily.radar} watchlist={watchlist} />
           </Seccion>
         </>
+      )}
+
+      {vista === "diccionario" && (
+        <Seccion id="diccionario" titulo="Diccionario" compacta>
+          <Diccionario />
+        </Seccion>
       )}
 
       <ErroresFooter errores={daily.errores} />

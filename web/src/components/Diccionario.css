@@ -1,0 +1,36 @@
+.diccionario {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+}
+
+.diccionario-entrada {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.diccionario-entrada:last-child {
+  border-bottom: none;
+}
+
+.diccionario-entrada dt {
+  font-family: var(--fuente-condensada);
+  font-weight: 600;
+  font-size: var(--texto-16);
+  margin-bottom: 0.3rem;
+}
+
+.diccionario-entrada dd {
+  margin: 0;
+  color: var(--tinta-media);
+  font-size: var(--texto-14);
+  line-height: 1.5;
+}
+
+.diccionario-ejemplo {
+  margin-top: 0.4rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  font-family: var(--fuente-mono);
+}
