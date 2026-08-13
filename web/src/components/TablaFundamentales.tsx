@@ -33,10 +33,12 @@ export default function TablaFundamentales({
     { etiqueta: "Flujo operativo", datos: s.flujo_op_musd, formatear: (v) => `$${formatNumeroCL(v, 0)}M` },
   ];
 
-  const filas = filasCompletas.map((fila) => ({
-    ...fila,
-    datos: fila.datos.filter((d) => anioDe(d.periodo) === anioSeleccionado),
-  }));
+  const filas = filasCompletas
+    .map((fila) => ({
+      ...fila,
+      datos: fila.datos.filter((d) => anioDe(d.periodo) === anioSeleccionado),
+    }))
+    .filter((fila) => fila.datos.length > 0);
 
   const periodosVisibles = periodos.filter((p) => anioDe(p) === anioSeleccionado);
 
