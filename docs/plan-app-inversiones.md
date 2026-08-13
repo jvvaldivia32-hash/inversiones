@@ -775,7 +775,25 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   valor. Bug real encontrado al verificar en el navegador: el dropdown de métrica repetía
   "Microsoft 365 Commercial cloud revenue" dos veces sin poder distinguirlas (mismo
   problema de nombres duplicados que Fase 5) — deduplicado por nombre.
-- **Fase 8 — ⬜ no iniciada.**
+- **Extra (fuera del plan original, pedido del usuario 2026-08-13):** reestructura de
+  navegación. Antes todo era un solo scroll (Mundo → Chile → Actualidad → Mis inversiones
+  → Referencias → Radar); ahora son dos vistas alternadas por estado en `App.tsx`
+  (`web/src/lib/navegacion.ts`), sin agregar react-router: **Hoy** (Referencias arriba de
+  todo, después Mundo/Chile/Actualidad) e **Inversión** (Mis inversiones + Radar, sin el
+  ruido de las noticias). El hash de la URL sigue funcionando para deep-linking — navegar
+  a una sección de la otra vista cambia de vista primero y recién scrollea en el
+  siguiente frame pintado.
+- **Fase 8 — ✅ completa.** Pulido visual con Playwright en 360px/1440px contra la
+  sección 4, ciclo cerrado tras 2 rondas seguidas sin nada real (criterio del plan). Dos
+  hallazgos reales corregidos: `CardInversionPendiente.tsx` decía "aparece mañana 07:00"
+  — texto viejo de cuando el cron era diario, la excepción a hora-por-hora ya está
+  documentada en 4.1 pero el texto nunca se actualizó. Y un gap real de Fase 7: existía
+  el endpoint para cerrar una tesis, probado con smoke test, pero nunca se conectó un
+  botón en la UI — agregado. Descartado como no-bug tras revisar: el recoloreo verde/rojo
+  de variación de precio (pre-existente desde Fase 0/1, no se relitiga acá), el
+  `overflow-x: auto` de la tabla de fundamentales en 360px (intencional, no fuga de
+  layout), y el wrap de nombres largos de segmento en 360px (flex-wrap normal, se
+  resuelve solo con más ancho).
 
 ### Fase 0 — Esqueleto que se ve
 
