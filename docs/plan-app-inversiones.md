@@ -697,7 +697,25 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   release — le toca a Fase 5. Cache por `accessionNumber` verificado (no repega si no cambió
   el filing). Conectado a `construir_posiciones()` en `main.py` con el mismo criterio de
   degradación que Banco Central/índices (si EDGAR falla, se conserva el valor anterior).
-- **Fase 5 a 8 — ⬜ no iniciadas.**
+- **Fase 5 — ✅ completa.** Segmentos vía press release (`collector/sources/segmentos.py`).
+  Ubica el 8-K de resultados más reciente (item 2.02 en `submissions.json`), encuentra el
+  exhibit del press release entre sus documentos — sin convención única de nombre entre
+  filers, probado contra los 4 tickers reales (`msft-ex99_1.htm`, `d159922dex991.htm`,
+  `a8-kex991q3...htm`, `exhibit991-...htm`) — lo baja y lo pasa a texto plano con un
+  extractor HTML mínimo (stdlib `html.parser`, sin agregar dependencias). Gemini extrae
+  cifras por segmento con cita textual; `_cita_existe()` en `collector/sources/gemini.py`
+  valida en código (no solo en el prompt) que la cita exista como substring literal del
+  documento — si no calza, se descarta la extracción completa. Probado en vivo: el 43% de
+  Azure sale exacto con su oración textual (criterio del plan), igual que las comparable
+  sales de MCD por región. AAPL y BRK.B dan 0 segmentos genuinamente — sus press releases no
+  narran cifras por segmento en prosa (Apple las pone en tabla sin %, Berkshire remite
+  directo al 10-Q), no es un bug. Cache por `accessionNumber` del 8-K. Al verificar en el
+  navegador aparecieron dos bugs reales que se arreglaron ahí mismo: el link "fuente" de un
+  segmento apuntaba al 10-Q/10-K de fundamentales en vez de al 8-K real (ahora
+  `segmentos_fuente_url` propio), y una key de React duplicada cuando Gemini extrae el mismo
+  nombre de segmento dos veces con cifras distintas (pasó de verdad: "Microsoft 365
+  Commercial cloud" ajustado +16% vs. reportado +14%, ambas reales).
+- **Fase 6 a 8 — ⬜ no iniciadas.**
 
 ### Fase 0 — Esqueleto que se ve
 
