@@ -44,6 +44,13 @@ PALABRAS_ECONOMIA = [
     "tariff",
     "recesión",
     "recession",
+    # Encontrado en vivo (2026-08-13): "Anthropic's anticipated $2tn IPO" no matcheaba
+    # ninguna palabra de la lista original — cayó a Actualidad (tope 5) en vez de Mundo
+    # (tope 8) y se perdió por volumen. "ipo" faltaba directamente.
+    "ipo",
+    "oferta pública inicial",
+    "valoración",
+    "valuation",
 ]
 
 

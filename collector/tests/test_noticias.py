@@ -24,6 +24,13 @@ def test_es_economico_detecta_palabras_clave():
     assert noticias._es_economico("Un gato rescata a un bombero") is False
 
 
+def test_es_economico_detecta_ipo():
+    # Encontrado en vivo (2026-08-13): "Anthropic's anticipated $2tn IPO" no matcheaba
+    # ninguna palabra de la lista original — caía a Actualidad (tope 5) en vez de Mundo
+    # (tope 8) y se perdía por volumen.
+    assert noticias._es_economico("Anthropic's anticipated $2tn IPO") is True
+
+
 def test_articulo_publico_saca_campos_internos():
     a = _articulo("Titular", "https://x.com/1", snippet="crudo")
     publico = noticias._articulo_publico(a)
