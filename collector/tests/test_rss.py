@@ -18,6 +18,7 @@ def test_leer_feed_parsea_articulos(monkeypatch):
             "title": "Titular uno",
             "link": "https://example.com/1",
             "published_parsed": (2026, 8, 12, 10, 0, 0, 0, 0, 0),
+            "summary": "  Un resumen original del feed.  ",
         },
         {"title": "Titular dos", "link": "https://example.com/2", "published_parsed": None},
     ]
@@ -28,6 +29,8 @@ def test_leer_feed_parsea_articulos(monkeypatch):
     assert articulos[0]["url"] == "https://example.com/1"
     assert articulos[0]["extracto"] == ""
     assert articulos[0]["fecha"].startswith("2026-08-12")
+    assert articulos[0]["_snippet_original"] == "Un resumen original del feed."
+    assert articulos[1]["_snippet_original"] == ""
 
 
 def test_leer_feed_descarta_entradas_sin_titulo_o_link(monkeypatch):

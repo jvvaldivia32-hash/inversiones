@@ -267,6 +267,34 @@ solo por hecho específico.
 Fallback sin LLM: agrupar por solapamiento de sustantivos propios en los titulares.
 Peor, pero funciona.
 
+**Mecanismo real de la API (verificado a mano contra la API real con key real, 2026-08-13)**
+— el endpoint clásico `models/{modelo}:generateContent` está **deprecado para cuentas
+nuevas** (devuelve 404 "no longer available to new users", recomienda migrar a la API de
+Interactions). Lo que sí funciona hoy:
+
+```
+POST https://generativelanguage.googleapis.com/v1beta/interactions
+Header: x-goog-api-key: <GEMINI_API_KEY>   (no ?key= por query param)
+
+Body:
+{
+  "model": "gemini-flash-lite-latest",
+  "input": "<prompt>",
+  "response_format": {
+    "type": "text",
+    "mime_type": "application/json",
+    "schema": { ... JSON Schema ... }
+  }
+}
+```
+
+La respuesta trae `status: "completed"` y una lista `steps` — el texto generado está en el
+`step` con `type: "model_output"`, dentro de `content[].text` (parsear como JSON). Se probó
+`gemini-flash-lite-latest` contra `gemini-flash-latest`/`gemini-3.6-flash`: misma calidad de
+resultado en tareas de clasificación/reescritura simples, pero `gemini-flash-lite-latest` usa
+0 tokens de "pensamiento" (los otros gastan cientos por default) — mismo tier gratis, más
+barato. Implementado en `collector/sources/gemini.py`.
+
 ### 2.3 Fundamentales — SEC EDGAR
 
 - Base: `https://data.sec.gov/api/xbrl/companyconcept/CIK{cik}/us-gaap/{tag}.json`
@@ -642,7 +670,17 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   de la sección 2.1 solo 9 tienen RSS funcionando hoy — catálogo real en
   `collector/sources/feeds.py`. `extracto`/`resumen` quedan vacíos a propósito hasta Fase 3
   (sin Gemini no hay cómo reescribirlos sin copiar, regla dura de copyright).
-- **Fase 3 a 8 — ⬜ no iniciadas.**
+- **Fase 3 — ✅ completa.** Agrupación real por historia vía Gemini (`collector/sources/
+  gemini.py`) con fallback por keywords si no hay key o la llamada falla; `resumen` por
+  historia y `extracto` por artículo (noticias por ticker) reescritos por Gemini, con chequeo
+  de copia literal en código (`_es_copia_literal`, regla dura de copyright aplicada de forma
+  verificable, no solo confiando en el prompt). `cobertura_unilateral` calculado de verdad.
+  Ver sección 2.2 para el mecanismo real de la API (cambió respecto a lo documentado antes).
+  Limitación conocida: Reuters vía Google News RSS (el workaround del 403 directo, Fase 2)
+  no trae snippet real en `summary` — es solo un link HTML — así que sus historias en
+  `mundo` no tienen `resumen` (Gemini correctamente no inventa uno sin texto fuente). No es
+  un bug de Fase 3, es una limitación heredada de esa fuente.
+- **Fase 4 a 8 — ⬜ no iniciadas.**
 
 ### Fase 0 — Esqueleto que se ve
 
@@ -861,6 +899,9 @@ Keys en GitHub Secrets, nunca en el código. Mismo criterio que `get_secret()` e
 | Finnhub `stock/candle` 403 | Lo movieron a plan pago, `quote` sigue gratis | Ver sección 2.4 — Yahoo Finance para sembrar una vez |
 | Stooq CSV no responde con datos | Challenge JS anti-bots delante del endpoint | Se descartó; usar Yahoo Finance en su lugar |
 | GitHub Action falla al hacer `git push` (403) | El `GITHUB_TOKEN` por defecto es read-only | Settings → Actions → General → Workflow permissions → "Read and write permissions". No es nada del código — se pierde tiempo si se busca ahí primero |
+| Env var nueva "funciona" local pero se queda con datos viejos en producción | Falta mapear `secrets.X` en `.github/workflows/daily.yml` y/o crear el secret en GitHub — la degradación silenciosa (conservar el valor anterior) tapa el problema, no tira error | `gh secret list` para confirmar que el secret existe, y revisar el `env:` del workflow, antes de dar la fase por cerrada |
+| Gemini `generateContent` devuelve 404 | Endpoint clásico deprecado para cuentas nuevas, migró a la API de Interactions | Usar `v1beta/interactions`, header `x-goog-api-key`, ver sección 2.2 |
+| Historias de `mundo` sin `resumen` | Reuters vía Google News RSS (workaround del 403 directo) no trae snippet real en `summary`, solo un link HTML | Esperado, no es bug — Gemini no inventa resumen sin texto fuente |
 
 ---
 

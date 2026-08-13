@@ -36,6 +36,10 @@ def leer_feed(url: str, medio: str, dominio: str) -> list[dict]:
                 "lean": info["lean"],
                 "url": link,
                 "fecha": _fecha_iso(entrada),
+                # Snippet crudo del feed (RSS <description>/Atom <summary>) — uso interno
+                # para que Gemini lo reescriba (Fase 3). No es parte del tipo Articulo del
+                # frontend, se saca antes de escribir a daily.json.
+                "_snippet_original": entrada.get("summary", "").strip(),
             }
         )
     return articulos
