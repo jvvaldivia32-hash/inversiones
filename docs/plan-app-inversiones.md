@@ -745,7 +745,37 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   con motivo real. Verificado en el navegador: cada candidato trae su gráfico de precio
   (pedido explícito del usuario, mismo `<GraficoPrecio>` que las posiciones) — 14
   renderizados, 0 errores de consola.
-- **Fase 7-8 — ⬜ no iniciadas.**
+- **Fase 7 — ✅ completa.** Tesis, traducida de `docs/spec-rastreador-tesis.md` (escrito
+  para Streamlit + Google Sheets, stack que no existe en este repo) a React + Vercel +
+  JSON. `Tesis` pasa de objeto único a lista por ticker (`Posicion.tesis: Tesis[]`) con
+  historial de lecturas — necesario para la regla dura "editar = cerrar la vieja y crear
+  una nueva". `collector/tesis.py`: `calcular_semaforo()` (sección 4 del spec, sin
+  cambios) y `revisar_tesis()`, que reusa lo que Fase 4/5 ya extrajeron esa corrida — no
+  vuelve a pegarle a EDGAR/Gemini. Trigger automático (no el botón manual "v1" del spec
+  original) enganchado al mismo chequeo de `accessionNumber` nuevo de Fase 4/5 — decisión
+  consciente: es menos código que un botón manual, y sería el único flujo manual de toda
+  la app. Métrica acotada a lo ya extraído (campos de Fundamentales + nombres de
+  Segmentos) en vez de extracción libre nueva — evita por diseño la falla "no se pudo
+  extraer la métrica". `web/api/tesis.ts` (mismo patrón que `watchlist.ts`, reusa sus
+  mismas env vars) valida anti-vaguedad de la tesis y que la métrica exista de verdad
+  antes de guardar; cerrar una tesis solo toca `estado`/`notas_cierre`, el resto
+  intocable para siempre.
+
+  Puerta de entrada (sección 3.5) en el Radar: "invertir" exige tesis activa antes de
+  mostrar el link al broker — sin URL real del broker todavía (placeholder explícito). Si
+  el ticker no está en la watchlist, pide agregarlo primero — escribir la tesis vive en
+  la card de la posición, con el contexto real de fundamentales/segmentos de ese ticker
+  (el Radar no tiene esos datos en forma completa, solo las 3 métricas planas usadas para
+  "sana").
+
+  Validado en vivo: tesis real sobre MSFT/Azure (umbral verde 35%), forzando el caso
+  "dato fresco" — la lectura salió con el 43% real, semáforo verde, cita y fuente reales
+  del 8-K. En producción de verdad (sin forzar nada) la tesis aparece con "sin lecturas
+  todavía" porque no hay filing nuevo desde que se escribió — correcto, no inventa un
+  valor. Bug real encontrado al verificar en el navegador: el dropdown de métrica repetía
+  "Microsoft 365 Commercial cloud revenue" dos veces sin poder distinguirlas (mismo
+  problema de nombres duplicados que Fase 5) — deduplicado por nombre.
+- **Fase 8 — ⬜ no iniciada.**
 
 ### Fase 0 — Esqueleto que se ve
 
