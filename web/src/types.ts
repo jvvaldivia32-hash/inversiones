@@ -83,6 +83,9 @@ export interface Posicion {
   proxima_earnings?: string;
   fundamentales?: Fundamentales;
   segmentos?: Segmento[];
+  // URL del 8-K/press release del que salieron las citas de `segmentos` — distinto del
+  // 10-Q/10-K de `fundamentales`, son filings diferentes.
+  segmentos_fuente_url?: string;
   tesis?: Tesis;
   noticias?: Articulo[];
 }

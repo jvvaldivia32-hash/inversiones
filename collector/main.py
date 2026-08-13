@@ -78,7 +78,11 @@ def _obtener_fundamentales(ticker: str, anterior: dict | None) -> dict | None:
 def _segmentos_anteriores() -> dict[str, dict]:
     daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
     return {
-        p["ticker"]: {"segmentos": p["segmentos"], "_accession": p.get("_segmentos_accession")}
+        p["ticker"]: {
+            "segmentos": p["segmentos"],
+            "_accession": p.get("_segmentos_accession"),
+            "fuente_url": p.get("segmentos_fuente_url"),
+        }
         for p in daily.get("posiciones", [])
         if p.get("segmentos") is not None
     }
@@ -122,6 +126,7 @@ def construir_posiciones(
         if seg is not None:
             posicion["segmentos"] = seg["segmentos"]
             posicion["_segmentos_accession"] = seg["_accession"]
+            posicion["segmentos_fuente_url"] = seg["fuente_url"]
         posiciones.append(posicion)
     return posiciones
 

@@ -93,4 +93,4 @@ def obtener_segmentos(cik: str, accession_anterior: str | None) -> dict | None:
     lista = gemini.extraer_segmentos(texto)
     if lista is None:
         return None
-    return {"segmentos": lista, "_accession": accession}
+    return {"segmentos": lista, "_accession": accession, "fuente_url": url}

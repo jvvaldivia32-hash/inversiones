@@ -21,8 +21,8 @@ function SegmentoItem({ segmento, fuenteUrl }: { segmento: Segmento; fuenteUrl: 
       </span>
       {segmento.detalle && segmento.detalle.length > 0 && (
         <ul className="segmento-detalle">
-          {segmento.detalle.map((d) => (
-            <SegmentoItem key={d.nombre} segmento={d} fuenteUrl={fuenteUrl} />
+          {segmento.detalle.map((d, i) => (
+            <SegmentoItem key={`${d.nombre}-${i}`} segmento={d} fuenteUrl={fuenteUrl} />
           ))}
         </ul>
       )}
@@ -127,11 +127,11 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
             <section>
               <h4>Segmentos</h4>
               <ul className="segmentos">
-                {posicion.segmentos.map((s) => (
+                {posicion.segmentos.map((s, i) => (
                   <SegmentoItem
-                    key={s.nombre}
+                    key={`${s.nombre}-${i}`}
                     segmento={s}
-                    fuenteUrl={posicion.fundamentales?.fuente_url ?? ""}
+                    fuenteUrl={posicion.segmentos_fuente_url ?? ""}
                   />
                 ))}
               </ul>

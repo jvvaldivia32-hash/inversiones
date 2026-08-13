@@ -101,6 +101,7 @@ def test_obtener_segmentos_arma_el_shape(monkeypatch):
     assert resultado == {
         "segmentos": [{"nombre": "Azure", "var_pct": 43, "cita": "Azure revenue grew 43%."}],
         "_accession": "a2",
+        "fuente_url": "http://x",
     }
 
 
