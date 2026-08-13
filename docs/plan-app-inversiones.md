@@ -715,7 +715,37 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   `segmentos_fuente_url` propio), y una key de React duplicada cuando Gemini extrae el mismo
   nombre de segmento dos veces con cifras distintas (pasó de verdad: "Microsoft 365
   Commercial cloud" ajustado +16% vs. reportado +14%, ambas reales).
-- **Fase 6 a 8 — ⬜ no iniciadas.**
+- **Fase 6 — ✅ completa.** Radar real, reemplaza el mock de Fase 0. Universo fijo (~80
+  tickers, `collector/universo_radar.py`). "Castigada" (precio bajo 85% del máximo de 52
+  semanas o bajo la media móvil de 200 días) en `collector/radar.py`, reusando el mismo
+  caché de históricos de Fase 1. "Sana" (los 5 criterios obligatorios de la sección 3.3)
+  contra fundamentales EDGAR — deuda/patrimonio es un tipo de dato nuevo (XBRL "instant",
+  foto del balance, no la serie trimestral de Fase 4). `edgar.resolver_ciks()` usa el
+  índice público de la SEC (~10 mil tickers) en vez de mapear CIKs a mano — no escala para
+  80 tickers. `collector/radar_semanal.py` es el orquestador nuevo, corre **semanal**
+  (`.github/workflows/radar_semanal.yml`, lunes 06:00 UTC) — separado del cron horario,
+  los fundamentales de 80 empresas no cambian de un día para otro.
+
+  Validar contra el universo real (no solo los 4 tickers ya conocidos) sacó a la luz
+  varios hallazgos que ninguna prueba con 4 tickers iba a encontrar: SEC devuelve
+  `units.USD` como diccionario vacío (no lista) para algunos pares empresa/tag con la
+  etiqueta registrada pero sin datos tageados de verdad (ABT, PYPL) — dato roto de origen,
+  no bug propio, se trata como ausente. Varias empresas grandes (PG, CAT, QCOM) usan
+  `StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest` en vez de
+  `StockholdersEquity` (agregado como fallback). Utilities (NEE) tagean ingresos como
+  `RegulatedAndUnregulatedOperatingRevenue` (agregado). Los emisores extranjeros del
+  universo (SQM, CCU, LTM, SONY, TM, STLA, RACE, NTDOY, UBSFY) no presentan 10-Q/10-K en
+  EDGAR — quedan fuera del radar, correcto, no es un bug a arreglar. Un `TimeoutError` sin
+  capturar (misma trampa que ya había aparecido en `gemini.py` en Fase 3) tumbó la corrida
+  completa contra el universo real dos veces antes de arreglarse en `yahoo.py`, `edgar.py`
+  y `prices.py` — a los 4 tickers de Fase 4/5 nunca les había tocado ese timeout por pura
+  suerte de volumen bajo.
+
+  Resultado real (corrida del 2026-08-13): 37/80 castigadas, 14 candidatos, 8 descartados
+  con motivo real. Verificado en el navegador: cada candidato trae su gráfico de precio
+  (pedido explícito del usuario, mismo `<GraficoPrecio>` que las posiciones) — 14
+  renderizados, 0 errores de consola.
+- **Fase 7-8 — ⬜ no iniciadas.**
 
 ### Fase 0 — Esqueleto que se ve
 
