@@ -39,6 +39,6 @@
   border-top: 2px solid var(--acento);
 }
 
-.grafico-leyenda-linea--punteada {
-  border-top-style: dashed;
+.grafico-leyenda-linea--comparado {
+  border-top-color: var(--tinta-media);
 }

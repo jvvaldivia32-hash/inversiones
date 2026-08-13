@@ -33,4 +33,8 @@ FEEDS_CHILE = [
 
 
 def feed_noticias_ticker(ticker: str) -> str:
-    return f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
+    # Yahoo usa guion para clases de acción (BRK-B), no el punto de la notación
+    # habitual (BRK.B) que sí entienden Finnhub/EDGAR — sin este mapeo el feed
+    # devuelve vacío para cualquier ticker con clase de acción.
+    simbolo_yahoo = ticker.replace(".", "-")
+    return f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={simbolo_yahoo}&region=US&lang=en-US"

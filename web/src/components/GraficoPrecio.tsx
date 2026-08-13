@@ -136,9 +136,8 @@ export default function GraficoPrecio({
             <Line
               type="monotone"
               dataKey="comparado"
-              stroke="var(--acento)"
+              stroke="var(--tinta-media)"
               strokeWidth={2}
-              strokeDasharray="5 4"
               dot={false}
               connectNulls
               isAnimationActive={false}
@@ -148,7 +147,7 @@ export default function GraficoPrecio({
         <p className="grafico-leyenda">
           <span className="grafico-leyenda-linea grafico-leyenda-linea--solida" />
           serie principal
-          <span className="grafico-leyenda-linea grafico-leyenda-linea--punteada" />
+          <span className="grafico-leyenda-linea grafico-leyenda-linea--comparado" />
           {comparar.ticker}
         </p>
       </div>
