@@ -29,3 +29,31 @@
   color: var(--tinta);
   background: var(--papel-hueco);
 }
+
+.nav-bar-tabs {
+  display: flex;
+  gap: 0.15rem;
+  flex: none;
+}
+
+.nav-bar-tabs button {
+  font-weight: 700;
+}
+
+.nav-bar-tabs button.activo {
+  color: var(--acento);
+  background: var(--papel-hueco);
+}
+
+.nav-bar-divisor {
+  flex: none;
+  width: 1px;
+  height: 1.25rem;
+  background: var(--linea);
+  margin: 0 0.4rem;
+}
+
+.nav-bar-secciones {
+  display: flex;
+  gap: 0.15rem;
+}
