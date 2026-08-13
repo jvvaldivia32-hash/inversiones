@@ -23,8 +23,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-          BCCH_USER: ${{ secrets.BCCH_USER }}
-          BCCH_PASS: ${{ secrets.BCCH_PASS }}
+          BCCH_API_KEY: ${{ secrets.BCCH_API_KEY }}
 
       - run: |
           git config user.name "recolector"
