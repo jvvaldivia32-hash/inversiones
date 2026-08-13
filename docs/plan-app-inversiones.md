@@ -676,10 +676,12 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   de copia literal en código (`_es_copia_literal`, regla dura de copyright aplicada de forma
   verificable, no solo confiando en el prompt). `cobertura_unilateral` calculado de verdad.
   Ver sección 2.2 para el mecanismo real de la API (cambió respecto a lo documentado antes).
-  Limitación conocida: Reuters vía Google News RSS (el workaround del 403 directo, Fase 2)
-  no trae snippet real en `summary` — es solo un link HTML — así que sus historias en
-  `mundo` no tienen `resumen` (Gemini correctamente no inventa uno sin texto fuente). No es
-  un bug de Fase 3, es una limitación heredada de esa fuente.
+  Nota sobre Reuters vía Google News RSS (workaround del 403 directo, Fase 2): su `summary`
+  no es un extracto real, es el titular envuelto en un tag `<a>` (más un `<font>Reuters</font>`)
+  — Gemini logra extraer el texto del link y armar un resumen igual, pero se observó
+  inconsistencia entre corridas (una corrida de prueba local dejó todo `mundo` sin resumen,
+  la corrida real siguiente en producción sí los tuvo todos). No se investigó la causa exacta
+  de la inconsistencia — anotar si se repite.
 - **Fase 4 a 8 — ⬜ no iniciadas.**
 
 ### Fase 0 — Esqueleto que se ve
@@ -901,7 +903,7 @@ Keys en GitHub Secrets, nunca en el código. Mismo criterio que `get_secret()` e
 | GitHub Action falla al hacer `git push` (403) | El `GITHUB_TOKEN` por defecto es read-only | Settings → Actions → General → Workflow permissions → "Read and write permissions". No es nada del código — se pierde tiempo si se busca ahí primero |
 | Env var nueva "funciona" local pero se queda con datos viejos en producción | Falta mapear `secrets.X` en `.github/workflows/daily.yml` y/o crear el secret en GitHub — la degradación silenciosa (conservar el valor anterior) tapa el problema, no tira error | `gh secret list` para confirmar que el secret existe, y revisar el `env:` del workflow, antes de dar la fase por cerrada |
 | Gemini `generateContent` devuelve 404 | Endpoint clásico deprecado para cuentas nuevas, migró a la API de Interactions | Usar `v1beta/interactions`, header `x-goog-api-key`, ver sección 2.2 |
-| Historias de `mundo` sin `resumen` | Reuters vía Google News RSS (workaround del 403 directo) no trae snippet real en `summary`, solo un link HTML | Esperado, no es bug — Gemini no inventa resumen sin texto fuente |
+| Historias de `mundo` sin `resumen` (a veces) | Reuters vía Google News RSS: `summary` es el titular envuelto en HTML, no un extracto real — Gemini a veces lo aprovecha igual, a veces no (inconsistente entre corridas, causa no confirmada) | Si se repite seguido, investigar; una corrida sin resumen no es necesariamente un bug |
 
 ---
 
