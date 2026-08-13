@@ -19,41 +19,83 @@ def test_headers_con_user_agent(monkeypatch):
     assert edgar._headers() == {"User-Agent": "José <jose@example.com>"}
 
 
-def _punto(fy, fp, val, filed, end, form="10-Q"):
-    return {"fy": fy, "fp": fp, "val": val, "filed": filed, "end": end, "form": form}
+def _punto(fy, fp, val, start, end, filed, form="10-Q"):
+    return {"fy": fy, "fp": fp, "val": val, "start": start, "end": end, "filed": filed, "form": form}
 
 
-def test_extraer_serie_ordena_y_recorta_a_12_trimestres():
-    puntos = [_punto(2025, f"Q{n}", 100 + n, "2025-01-01", f"2025-0{n}-30") for n in range(1, 5)]
-    puntos += [_punto(2026, f"Q{n}", 200 + n, "2026-01-01", f"2026-0{n}-30") for n in range(1, 5)]
-    data = {"units": {"USD": puntos}}
-    serie = edgar._extraer_serie(data, "USD", 1)
-    assert [p["periodo"] for p in serie] == [
-        "FY25Q1", "FY25Q2", "FY25Q3", "FY25Q4",
-        "FY26Q1", "FY26Q2", "FY26Q3", "FY26Q4",
-    ]
-    assert serie[-1]["valor"] == 204
+# Un año fiscal tipo MSFT (termina el 30 de junio): cada 10-Q trae el trimestre solo
+# (~90 días) además del acumulado year-to-date. El 10-K solo trae el año completo.
+def _trimestre(fy, fp, inicio, fin, val, filed):
+    return _punto(fy, fp, val, inicio, fin, filed, form="10-Q")
 
 
-def test_extraer_serie_se_queda_con_el_filing_mas_reciente_por_periodo():
+def test_extraer_serie_usa_el_hecho_puntual_del_trimestre():
     puntos = [
-        _punto(2026, "Q4", 100, filed="2026-01-10", end="2025-12-31", form="10-K"),
-        _punto(2026, "Q4", 999, filed="2026-04-01", end="2025-12-31", form="10-K"),
+        _trimestre(2026, "Q1", "2025-07-01", "2025-09-30", 77673, "2025-10-29"),
+        # el mismo 10-Q también trae el acumulado YTD, que para Q1 coincide en valor
+        # pero tiene distinta duración — no debería duplicar la entrada.
+        _punto(2026, "Q2", 158946, "2025-07-01", "2025-12-31", "2026-01-28"),
+        _trimestre(2026, "Q2", "2025-10-01", "2025-12-31", 81273, "2026-01-28"),
     ]
     data = {"units": {"USD": puntos}}
     serie = edgar._extraer_serie(data, "USD", 1)
-    assert len(serie) == 1
-    assert serie[0]["valor"] == 999
+    assert serie == [
+        {"periodo": "FY26Q1", "valor": 77673},
+        {"periodo": "FY26Q2", "valor": 81273},
+    ]
+
+
+def test_extraer_serie_deriva_q4_restando_el_acumulado_de_9_meses():
+    puntos = [
+        _punto(2026, "Q3", 241832, "2025-07-01", "2026-03-31", "2026-04-29", form="10-Q"),
+        _punto(2026, "FY", 331839, "2025-07-01", "2026-06-30", "2026-07-29", form="10-K"),
+    ]
+    data = {"units": {"USD": puntos}}
+    serie = edgar._extraer_serie(data, "USD", 1)
+    assert {"periodo": "FY26Q4", "valor": 90007} in serie
+
+
+def test_extraer_serie_duplicado_usa_etiqueta_del_mas_antiguo_y_valor_del_mas_nuevo():
+    # El mismo trimestre (mismo start/end) reaparece un año después como comparativo en
+    # otro 10-Q, con un `fy` que quedó pegado al año de ESE filing — no al real.
+    puntos = [
+        _trimestre(2024, "Q1", "2023-07-01", "2023-09-30", 56517, "2023-10-24"),
+        _trimestre(2025, "Q1", "2023-07-01", "2023-09-30", 56517, "2024-10-30"),
+    ]
+    data = {"units": {"USD": puntos}}
+    serie = edgar._extraer_serie(data, "USD", 1)
+    assert serie == [{"periodo": "FY24Q1", "valor": 56517}]
 
 
 def test_extraer_serie_ignora_form_no_trimestral():
-    puntos = [_punto(2026, "Q1", 500, "2026-01-10", "2026-03-31", form="8-K")]
+    puntos = [_trimestre(2026, "Q1", "2026-01-01", "2026-03-31", 500, "2026-04-10")]
+    puntos[0]["form"] = "8-K"
     data = {"units": {"USD": puntos}}
     assert edgar._extraer_serie(data, "USD", 1) == []
 
 
+def test_extraer_serie_recorta_a_12_trimestres():
+    # 4 años calendario de trimestres genéricos (16 en total) para probar el recorte.
+    trimestres_por_anio = [
+        ("Q1", "01-01", "03-31"),
+        ("Q2", "04-01", "06-30"),
+        ("Q3", "07-01", "09-30"),
+        ("Q4", "10-01", "12-31"),
+    ]
+    puntos = [
+        _trimestre(anio, fp, f"{anio}-{ini}", f"{anio}-{fin}", anio * 10 + n, f"{anio}-{fin[:2]}-15")
+        for anio in (2023, 2024, 2025, 2026)
+        for n, (fp, ini, fin) in enumerate(trimestres_por_anio, start=1)
+    ]
+    data = {"units": {"USD": puntos}}
+    serie = edgar._extraer_serie(data, "USD", 1)
+    assert len(serie) == 12
+    assert serie[-1]["periodo"] == "FY26Q4"
+    assert serie[0]["periodo"] == "FY24Q1"
+
+
 def test_extraer_serie_convierte_a_millones():
-    puntos = [_punto(2026, "Q1", 75_800_000_000, "2026-04-25", "2026-03-31")]
+    puntos = [_trimestre(2026, "Q1", "2025-07-01", "2025-09-30", 75_800_000_000, "2025-10-29")]
     data = {"units": {"USD": puntos}}
     serie = edgar._extraer_serie(data, "USD", 1_000_000)
     assert serie[0]["valor"] == 75800.0
@@ -68,6 +110,30 @@ def test_derivar_margen():
 def test_derivar_margen_ignora_periodos_sin_match():
     op_income = [{"periodo": "FY26Q1", "valor": 250}]
     assert edgar._derivar_margen([], op_income) == []
+
+
+def test_tiene_datos_recientes_true_si_hay_filed_dentro_de_la_ventana():
+    import datetime
+
+    hoy = datetime.date.today().isoformat()
+    assert edgar._tiene_datos_recientes({"units": {"USD": [{"filed": hoy}]}}) is True
+
+
+def test_tiene_datos_recientes_false_si_todo_es_viejo():
+    assert edgar._tiene_datos_recientes({"units": {"USD": [{"filed": "2013-12-31"}]}}) is False
+
+
+def test_obtener_fundamentales_campo_con_tag_obsoleto_queda_vacio(monkeypatch):
+    monkeypatch.setattr(edgar, "_ultimo_accession", lambda cik: "accn")
+
+    def _request_falso(url):
+        if "EarningsPerShareDiluted" in url or "EarningsPerShareBasic" in url:
+            return {"units": {"USD/shares": [_trimestre(2013, "Q4", "2013-10-01", "2013-12-31", 3035, "2014-03-03")]}}
+        return {"units": {"USD": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 1_000_000, "2026-07-25")]}}
+
+    monkeypatch.setattr(edgar, "_request", _request_falso)
+    resultado = edgar.obtener_fundamentales("MSFT", None)
+    assert resultado["series"]["eps_gaap"] == []
 
 
 def test_ultimo_accession_toma_el_primer_10q_o_10k(monkeypatch):
@@ -108,13 +174,13 @@ def test_obtener_fundamentales_arma_el_shape_completo(monkeypatch):
     monkeypatch.setattr(edgar, "_ultimo_accession", lambda cik: "0000789019-26-000042")
 
     def _request_falso(url):
-        if "ingresos" in url or "RevenueFromContract" in url:
-            return {"units": {"USD": [_punto(2026, "Q4", 90_007_000_000, "2026-07-25", "2026-06-30", "10-K")]}}
+        if "RevenueFromContract" in url:
+            return {"units": {"USD": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 90_007_000_000, "2026-07-25")]}}
         if "OperatingIncomeLoss" in url:
-            return {"units": {"USD": [_punto(2026, "Q4", 40_603_000_000, "2026-07-25", "2026-06-30", "10-K")]}}
+            return {"units": {"USD": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 40_603_000_000, "2026-07-25")]}}
         if "EarningsPerShareDiluted" in url:
-            return {"units": {"USD/shares": [_punto(2026, "Q4", 4.81, "2026-07-25", "2026-06-30", "10-K")]}}
-        return {"units": {"USD": [_punto(2026, "Q4", 1_000_000, "2026-07-25", "2026-06-30", "10-K")]}}
+            return {"units": {"USD/shares": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 4.81, "2026-07-25")]}}
+        return {"units": {"USD": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 1_000_000, "2026-07-25")]}}
 
     monkeypatch.setattr(edgar, "_request", _request_falso)
 

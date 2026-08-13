@@ -6,7 +6,7 @@ from pathlib import Path
 import historico
 import noticias
 from env import cargar_env
-from sources import banco_central, prices, yahoo
+from sources import banco_central, edgar, prices, yahoo
 from watchlist import parse_watchlist
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
@@ -56,23 +56,45 @@ def actualizar_precios(tickers: list[str], ahora: datetime.datetime) -> tuple[di
     return hist, cotizaciones
 
 
+def _fundamentales_anteriores() -> dict[str, dict]:
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    return {
+        p["ticker"]: p["fundamentales"] for p in daily.get("posiciones", []) if p.get("fundamentales")
+    }
+
+
+def _obtener_fundamentales(ticker: str, anterior: dict | None) -> dict | None:
+    """Fundamentales reales si hay un filing nuevo, o lo que había antes si EDGAR falla
+    o no cambió nada — mismo criterio de degradación que sources/banco_central.py."""
+    accession_anterior = anterior.get("_accession") if anterior else None
+    try:
+        nuevo = edgar.obtener_fundamentales(ticker, accession_anterior)
+    except edgar.EdgarError as e:
+        print(f"  {ticker}: fundamentales no se pudieron actualizar ({e})")
+        return anterior
+    return nuevo if nuevo is not None else anterior
+
+
 def construir_posiciones(
     tickers: list[str], hist: dict, cotizaciones: dict, ahora: datetime.datetime
 ) -> list[dict]:
+    fundamentales_anteriores = _fundamentales_anteriores()
     posiciones = []
     for ticker in tickers:
         if ticker not in cotizaciones:
             continue
-        posiciones.append(
-            {
-                "ticker": ticker,
-                "nombre": ticker,
-                "precio": cotizaciones[ticker]["precio"],
-                "var_dia_pct": cotizaciones[ticker]["var_dia_pct"],
-                "serie_precio": historico.derivar_rangos(hist.get(ticker, []), ahora),
-                "noticias": noticias.noticias_ticker(ticker),
-            }
-        )
+        posicion = {
+            "ticker": ticker,
+            "nombre": ticker,
+            "precio": cotizaciones[ticker]["precio"],
+            "var_dia_pct": cotizaciones[ticker]["var_dia_pct"],
+            "serie_precio": historico.derivar_rangos(hist.get(ticker, []), ahora),
+            "noticias": noticias.noticias_ticker(ticker),
+        }
+        fundamentales = _obtener_fundamentales(ticker, fundamentales_anteriores.get(ticker))
+        if fundamentales is not None:
+            posicion["fundamentales"] = fundamentales
+        posiciones.append(posicion)
     return posiciones
 
 
