@@ -6,7 +6,7 @@ from pathlib import Path
 import historico
 import noticias
 from env import cargar_env
-from sources import prices, yahoo
+from sources import banco_central, prices, yahoo
 from watchlist import parse_watchlist
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
@@ -17,9 +17,14 @@ CLAVES_ESPERADAS = [
     "GEMINI_API_KEY",
     "FINNHUB_KEY",
     "SEC_USER_AGENT",
-    "BCCH_USER",
-    "BCCH_PASS",
+    "BCCH_API_KEY",
 ]
+
+INDICES_REFERENCIA = {
+    "VOO": "Vanguard S&P 500 ETF",
+    "QQQ": "Invesco QQQ (Nasdaq-100)",
+    "VTI": "Vanguard Total Stock Market ETF",
+}
 
 
 def actualizar_precios(tickers: list[str], ahora: datetime.datetime) -> tuple[dict, dict]:
@@ -71,18 +76,51 @@ def construir_posiciones(
     return posiciones
 
 
+def actualizar_referencias() -> dict:
+    """Referencias con datos reales de Banco Central (Chile) y Finnhub (índices). Si una
+    fuente puntual falla, se conserva el valor que ya estaba en daily.json para ese campo
+    en particular — mejor un dato de hace un rato que uno en blanco."""
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    referencias_anteriores = daily.get("referencias", {"indices": [], "chile": {}})
+
+    chile_anterior = referencias_anteriores.get("chile", {})
+    chile = {**chile_anterior, **banco_central.obtener_referencias_chile()}
+
+    indices_anteriores = {i["ticker"]: i for i in referencias_anteriores.get("indices", [])}
+    indices = []
+    for ticker, nombre in INDICES_REFERENCIA.items():
+        try:
+            cot = prices.obtener_cotizacion(ticker)
+            indices.append(
+                {
+                    "ticker": ticker,
+                    "nombre": nombre,
+                    "precio": cot["precio"],
+                    "var_dia_pct": cot["var_dia_pct"],
+                }
+            )
+        except prices.FinnhubError:
+            anterior = indices_anteriores.get(ticker)
+            if anterior:
+                indices.append(anterior)
+
+    return {"indices": indices, "chile": chile}
+
+
 def actualizar_daily_json(
     posiciones: list[dict],
     bloques_noticias: tuple[list[dict], list[dict], list[dict]],
     errores_noticias: list[str],
+    referencias: dict,
     ahora: datetime.datetime,
 ) -> None:
-    """Reemplaza `posiciones` y `bloques` en data/daily.json con datos reales, sin tocar
-    `referencias`/`radar` — esas fases todavía no existen."""
+    """Reemplaza `posiciones`, `bloques` y `referencias` en data/daily.json con datos
+    reales, sin tocar `radar` — esa fase todavía no existe."""
     mundo, chile, actualidad = bloques_noticias
     daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
     daily["posiciones"] = posiciones
     daily["bloques"] = {"mundo": mundo, "chile": chile, "actualidad": actualidad}
+    daily["referencias"] = referencias
     daily["errores"] = errores_noticias
     daily["generado"] = ahora.isoformat()
     RUTA_DAILY.write_text(
@@ -115,8 +153,15 @@ def main() -> None:
     for e in errores_noticias:
         print(f"  aviso: {e}")
 
+    print("\nActualizando referencias (Banco Central + índices)...")
+    referencias = actualizar_referencias()
+    print(f"  chile: {referencias['chile']}")
+    print(f"  indices: {[i['ticker'] for i in referencias['indices']]}")
+
     posiciones = construir_posiciones(tickers, hist, cotizaciones, ahora)
-    actualizar_daily_json(posiciones, (mundo, chile, actualidad), errores_noticias, ahora)
+    actualizar_daily_json(
+        posiciones, (mundo, chile, actualidad), errores_noticias, referencias, ahora
+    )
     print(f"\ndata/daily.json actualizado con {len(posiciones)} posiciones reales.")
 
     print("\nRangos derivados:")

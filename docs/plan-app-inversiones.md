@@ -313,9 +313,31 @@ completa en `CLAUDE.md`.
 
 ### 2.5 Chile macro — Banco Central
 
-API de la Base de Datos Estadísticos. Requiere registro, es gratis.
+API de la Base de Datos Estadísticos (BDE). Requiere registro en
+[si3.bcentral.cl/Siete](https://si3.bcentral.cl/Siete), es gratis. El portal se rediseñó en
+algún momento de 2024+: **ya no es usuario/contraseña por query params** (eso queda para el
+servicio SOAP viejo, que no se usa acá) — es un token único, `BCCH_API_KEY`, que se copia
+desde "API BDE" → "Acceso a la API" una vez logueado y con el servicio activado.
 
-Series: UF, dólar observado, IPC, TPM, IPSA.
+Endpoint: `https://si3.bcentral.cl/SieteRestWS/SieteRestWS.ashx?token=...&function=GetSeries&timeseries=CODIGO&firstdate=YYYY-MM-DD&lastdate=YYYY-MM-DD`.
+**La respuesta viene en `latin-1`, no UTF-8** — decodificarla como UTF-8 revienta.
+
+Códigos verificados contra la API real (no adivinados — algunos no se encuentran por texto
+libre en `SearchSeries`, hubo que buscarlos a mano en el buscador del portal):
+
+| Dato | Código | Frecuencia |
+|---|---|---|
+| UF | `F073.UFF.PRE.Z.D` | Diaria |
+| Dólar observado | `F073.TCO.PRE.Z.D` | Diaria |
+| TPM | `F022.TPM.TIN.D001.NO.Z.D` | Diaria |
+| IPC (variación 12 meses) | `G073.IPC.V12.2023.M` | Mensual |
+| IPSA | `F013.IBC.IND.N.7.LAC.CL.CLP.BLO.M` | Mensual |
+
+Las series mensuales solo tienen una observación al mes — pedir con una ventana de días
+corta (se probó con 10) puede dejar la última observación fuera de rango y devolver "sin
+dato" en silencio. `collector/sources/banco_central.py` usa una ventana de 45 días para
+evitar justo eso (pasó de verdad en una corrida real: IPSA e IPC volvían el valor inventado
+de Fase 0 en vez de fallar audiblemente).
 
 Van al bloque de Referencias, no a una card propia.
 
@@ -607,13 +629,14 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
 ### Estado actual (actualizar cada vez que se cierre o avance una fase)
 
 - **Fase 0 — ✅ completa**, deployada en Vercel, verificada en el celular.
-- **Fase 1 — 🟡 parcial.** Hechos: `watchlist.txt` + parser + panel de edición desde el
-  celular (excepción de auth, ver más abajo); cliente Finnhub (`/quote`, cotización — el
-  histórico `/stock/candle` resultó de pago, se reemplazó por Yahoo Finance para sembrar el
-  historial una sola vez, ver sección 2.4); `historico_precios.json` acumulado + `posiciones`
-  reales en `daily.json`; GitHub Action corriendo **cada hora** (no solo
-  `workflow_dispatch` — excepción consciente, ver sección 4.1). **Falta:** Banco Central
-  (UF/dólar/TPM/IPC para `referencias`) — necesita que el usuario se registre en su API.
+- **Fase 1 — ✅ completa.** `watchlist.txt` + parser + panel de edición desde el celular
+  (excepción de auth, ver más abajo); cliente Finnhub (`/quote`, cotización — el histórico
+  `/stock/candle` resultó de pago, se reemplazó por Yahoo Finance para sembrar el historial
+  una sola vez, ver sección 2.4); `historico_precios.json` acumulado + `posiciones` reales en
+  `daily.json`; Banco Central real (`collector/sources/banco_central.py`, token nuevo del
+  portal rediseñado — ver sección 2.5) + índices de referencia reales (VOO/QQQ/VTI, mismo
+  cliente Finnhub); GitHub Action corriendo **cada hora** (no solo `workflow_dispatch` —
+  excepción consciente, ver sección 4.1).
 - **Fase 2 — ✅ completa.** `mundo`/`chile`/`actualidad` con noticias reales por RSS, capadas
   a 8/8/5 (`collector/noticias.py`), noticias reales por ticker. De los ~18 feeds candidatos
   de la sección 2.1 solo 9 tienen RSS funcionando hoy — catálogo real en

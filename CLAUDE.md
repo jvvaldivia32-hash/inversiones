@@ -57,7 +57,10 @@ en esa función (variable de entorno del lado del servidor) — el navegador nun
 ## Secrets
 
 Nunca hardcodear keys en el código. Todo vía variables de entorno / GitHub Secrets:
-`GEMINI_API_KEY`, `FINNHUB_KEY`, `SEC_USER_AGENT`, `BCCH_USER`, `BCCH_PASS`,
+`GEMINI_API_KEY`, `FINNHUB_KEY`, `SEC_USER_AGENT`, `BCCH_API_KEY` (token único de la API BDE
+del Banco Central — el portal se rediseñó en algún momento de 2024+ y pasó de usuario/
+contraseña por query params a un token único; el servicio SOAP viejo todavía pide
+usuario/contraseña pero no se usa acá, se usa el REST con `?token=`),
 `GITHUB_WRITE_TOKEN` (fine-grained PAT, solo permiso Contents R/W sobre este repo, usado por
 `web/api/watchlist.ts`), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de ese
 endpoint — no es autenticación real, es el candado mínimo para una app de un solo usuario).
