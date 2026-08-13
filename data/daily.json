@@ -1,11 +1,13 @@
 {
-  "generado": "2026-08-13T21:17:15.855702+00:00",
-  "errores": [],
+  "generado": "2026-08-13T21:37:55.605450+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Acuerdo de culpabilidad y negociaciones legales en el caso de Luigi Mangione por el asesinato de un directivo de seguros",
-        "resumen": "Según los informes, Luigi Mangione se prepara para aceptar los cargos federales que se le imputan por el asesinato de un directivo del sector asegurador. Dicha acusación incluye delitos de acoso con desenlace mortal, los cuales podrían acarrear una pena máxima de cadena perpetua.",
+        "titulo_neutral": "Luigi Mangione espera declararse culpable en caso federal",
+        "resumen": "Luigi Mangione tiene previsto declararse culpable en su proceso federal tras el asesinato de un directivo del sector asegurador. Podría enfrentar condena de cadena perpetua por los dos cargos de acoso con resultado de muerte que se le imputan.",
         "articulos": [
           {
             "titular": "Luigi Mangione expected to plead guilty in federal case over insurance CEO killing, NYT reports - Reuters",
@@ -36,8 +38,8 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Reacción de los mercados financieros y de valores ante las expectativas sobre las tasas de interés de la Reserva Federal",
-        "resumen": "Las principales bolsas experimentaron ascensos impulsadas por la menor expectativa de incrementos en los tipos de interés, mientras el valor del crudo retrocedía. Diversas entidades y corporaciones tecnológicas reportaron sus resultados trimestrales en un escenario marcado por la cautela de los inversores.",
+        "titulo_neutral": "Evolución de los mercados financieros, tasas de interés y precios del petróleo",
+        "resumen": "Los mercados bursátiles repuntaron y el valor del crudo retrocedió mientras los inversores moderaban sus expectativas sobre futuros incrementos de tipos de interés. Por otro lado, grandes corporaciones tecnológicas reportaron sus resultados financieros trimestrales en medio de discusiones sobre el gasto en inteligencia artificial y la estabilidad de las políticas monetarias internacionales.",
         "articulos": [
           {
             "titular": "Stocks rise as traders reduce rate hike bets, oil prices drop - Reuters",
@@ -114,7 +116,7 @@
       },
       {
         "titulo_neutral": "Trump administration ‘gutted’ federal civil rights enforcement, HRW says",
-        "resumen": "Un análisis reciente advierte que ciertas instituciones federales clave han interrumpido la supervisión de las normativas sobre derechos civiles a escala nacional.",
+        "resumen": "Un reciente análisis revela que varias agencias gubernamentales clave han interrumpido la supervisión de las normativas sobre derechos civiles a escala nacional.",
         "articulos": [
           {
             "titular": "Trump administration ‘gutted’ federal civil rights enforcement, HRW says",
@@ -136,7 +138,7 @@
       },
       {
         "titulo_neutral": "Canada government source says US also keen on trade deal before Aug 19 deadline - Reuters",
-        "resumen": "Fuentes gubernamentales canadienses señalan el interés de Estados Unidos por alcanzar un acuerdo comercial antes de la fecha límite fijada para mediados de agosto.",
+        "resumen": "Fuentes del gobierno canadiense señalan que Estados Unidos también muestra un fuerte interés en cerrar un pacto comercial antes de la fecha límite fijada para el 19 de agosto.",
         "articulos": [
           {
             "titular": "Canada government source says US also keen on trade deal before Aug 19 deadline - Reuters",
@@ -158,7 +160,7 @@
       },
       {
         "titulo_neutral": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
-        "resumen": "Analistas del sector se cuestionan si las reservas mundiales de petróleo serán suficientes para resistir las consecuencias de un conflicto prolongado entre Estados Unidos e Irán.",
+        "resumen": "Analistas examinan si las reservas petroleras mundiales poseen la capacidad suficiente para soportar de forma prolongada un conflicto bélico continuo entre Estados Unidos e Irán.",
         "articulos": [
           {
             "titular": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
@@ -180,7 +182,7 @@
       },
       {
         "titulo_neutral": "EXCLUSIVE: Detroit automakers fear North American trade deal revamp could cost them billions - Reuters",
-        "resumen": "Varias empresas automotrices de Detroit han manifestado su inquietud ante la posibilidad de que una reestructuración en el tratado comercial de Norteamérica les genere pérdidas multimillonarias.",
+        "resumen": "Principales fabricantes de automóviles en Detroit expresan su preocupación ante una potencial reestructuración del acuerdo comercial norteamericano, la cual podría generarles pérdidas económicas multimillonarias.",
         "articulos": [
           {
             "titular": "EXCLUSIVE: Detroit automakers fear North American trade deal revamp could cost them billions - Reuters",
@@ -202,7 +204,7 @@
       },
       {
         "titulo_neutral": "Robinhood's second fund for retail investors eyeing private markets starts trading - Reuters",
-        "resumen": "Ha comenzado a operar un nuevo producto de inversión gestionado por Robinhood y enfocado en acercar los mercados privados a los pequeños ahorradores.",
+        "resumen": "La plataforma Robinhood ha dado inicio a la operativa de su segundo fondo enfocado en pequeños inversores interesados en acceder a los mercados privados.",
         "articulos": [
           {
             "titular": "Robinhood's second fund for retail investors eyeing private markets starts trading - Reuters",
@@ -224,7 +226,7 @@
       },
       {
         "titulo_neutral": "Is Russia’s economy cracking despite the Iran war windfall?",
-        "resumen": "La economía de Rusia enfrenta fuertes desafíos debido a la expansión de su déficit fiscal y a las operaciones militares ucranianas, a pesar de que el conflicto en Oriente Medio incrementa sus ingresos petroleros.",
+        "resumen": "La economía rusa afronta importantes desafíos derivados del incremento en su déficit fiscal y de la ofensiva militar ucraniana, a pesar del respaldo temporal que los ingresos petroleros obtienen por el conflicto en Oriente Medio.",
         "articulos": [
           {
             "titular": "Is Russia’s economy cracking despite the Iran war windfall?",
@@ -247,17 +249,17 @@
     ],
     "chile": [
       {
-        "titulo_neutral": "El visto bueno que faltaba: autoridad peruana autoriza adquisición de SKY Airlines de parte de Grupo Abra",
-        "resumen": "Tras recibir luz verde de los entes reguladores en la región, la aerolínea de origen chileno se sumará al conglomerado que opera a firmas como Avianca y Gol. Todavía falta concretar qué porcentaje accionario retendrán los hermanos Paulmann Mast y sus atribuciones dentro de la administración.",
+        "titulo_neutral": "Estados Unidos acusa a Chile y otros 39 países de ayudar a China a evadir aranceles",
+        "resumen": "El gobierno estadounidense acusó a varias naciones de permitir maniobras comerciales para que China esquive gravámenes por una cifra millonaria. Washington apuntó directamente a economías como la mexicana, la japonesa y la canadiense.",
         "articulos": [
           {
-            "titular": "El visto bueno que faltaba: autoridad peruana autoriza adquisición de SKY Airlines de parte de Grupo Abra",
+            "titular": "Estados Unidos acusa a Chile y otros 39 países de ayudar a China a evadir aranceles",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/industria/el-visto-bueno-que-faltaba-autoridad-peruana-autoriza-adquisicion-de-sky",
-            "fecha": "2026-08-13T21:16:26+00:00"
+            "url": "http://www.df.cl/internacional/economia/estados-unidos-acusa-a-chile-y-otros-39-paises-de-ayudar-a-china-a-evadir",
+            "fecha": "2026-08-13T21:37:50+00:00"
           }
         ],
         "leans_presentes": [
@@ -269,17 +271,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Estados Unidos acusa a Chile y otros 39 países de ayudar a China a evadir aranceles",
-        "resumen": "El gobierno norteamericano señaló que naciones como México, Canadá y Japón permitieron maniobras de reenvío comercial que ayudaron a Pekín a evadir gravámenes por aproximadamente 60.000 millones de dólares.",
+        "titulo_neutral": "Utilidades de Antofagasta plc suben 72% en el primer semestre, pero el grupo recorta su meta de producción de cobre para 2026",
+        "resumen": "La compañía minera ligada al grupo familiar obtuvo sólidos resultados financieros, impulsada por la valorización internacional de metales como el oro y el cobre. Tanto los ingresos como las utilidades previas a tributación marcaron cifras elevadas.",
         "articulos": [
           {
-            "titular": "Estados Unidos acusa a Chile y otros 39 países de ayudar a China a evadir aranceles",
+            "titular": "Utilidades de Antofagasta plc suben 72% en el primer semestre, pero el grupo recorta su meta de producción de cobre para 2026",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/economia/estados-unidos-acusa-a-chile-y-otros-39-paises-de-ayudar-a-china-a-evadir",
-            "fecha": "2026-08-13T21:09:37+00:00"
+            "url": "http://www.df.cl/empresas/mineria/utilidades-de-antofagasta-plc-suben-72-en-el-primer-semestre-pero-el",
+            "fecha": "2026-08-13T21:33:32+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Mayor minera de cobre del mundo entra a un valle productivo este año y bajará extracción en hasta 300 mil toneladas",
+        "resumen": "El máximo representante de la faena cuprífera indicó que el yacimiento operado por BHP proyecta un volumen de extracción superior al millón de toneladas hacia el año fiscal 2027.",
+        "articulos": [
+          {
+            "titular": "Mayor minera de cobre del mundo entra a un valle productivo este año y bajará extracción en hasta 300 mil toneladas",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/mineria/mayor-minera-de-cobre-del-mundo-entra-a-un-valle-productivo-este-ano-y",
+            "fecha": "2026-08-13T21:31:23+00:00"
           }
         ],
         "leans_presentes": [
@@ -292,7 +316,7 @@
       },
       {
         "titulo_neutral": "SalfaCorp reporta sorpresivos cargos por Nueva Centinela y utilidades se hunden más de 50% en el segundo trimestre",
-        "resumen": "Los títulos del conglomerado retrocedieron un 2,3% en la sesión bursátil, posicionándose entre los rendimientos más bajos del indicador selectivo. A pesar de este tropiezo, el papel acumula un retorno positivo del 10,5% en lo que va del año, superando al referente general.",
+        "resumen": "Los títulos bursátiles del conglomerado experimentaron un retroceso diario, situándose entre los peores desempeños del selectivo local. Pese a esta baja coyuntural, el papel acumula un rendimiento positivo superior al indicador general en el transcurso del año.",
         "articulos": [
           {
             "titular": "SalfaCorp reporta sorpresivos cargos por Nueva Centinela y utilidades se hunden más de 50% en el segundo trimestre",
@@ -301,7 +325,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/mercados/bolsa-monedas/salfacorp-reporta-sorpresivos-cargos-por-nueva-centinela-y-utilidades-se",
-            "fecha": "2026-08-13T21:03:54+00:00"
+            "fecha": "2026-08-13T21:29:08+00:00"
           }
         ],
         "leans_presentes": [
@@ -313,8 +337,52 @@
         "cobertura_unilateral": true
       },
       {
+        "titulo_neutral": "El visto bueno que faltaba: autoridad peruana autoriza adquisición de SKY Airlines de parte de Grupo Abra",
+        "resumen": "Tras recibir el visto bueno de las autoridades antimonopolio en Chile, Perú y Brasil, la aerolínea nacional se alista para incorporarse al conglomerado regional. Todavía resta dilucidar el porcentaje accionario y las funciones directivas que mantendrá la familia fundadora.",
+        "articulos": [
+          {
+            "titular": "El visto bueno que faltaba: autoridad peruana autoriza adquisición de SKY Airlines de parte de Grupo Abra",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/industria/el-visto-bueno-que-faltaba-autoridad-peruana-autoriza-adquisicion-de-sky",
+            "fecha": "2026-08-13T21:23:32+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "“Les solicito evitar la palabra territorio”: El correo del SernamEG a funcionarios del Gobierno que atribuye la instrucción al Ministerio de la Mujer",
+        "resumen": "Un organismo público metropolitano instó a su personal a suprimir un término político específico y sustituirlo por otro, generando confusión sobre el origen de la directriz. Mientras el correo aludía a una ordenanza ministerial centralizada, desde la secretaría de Estado desmintieron tal mandato y lo calificaron como una iniciativa aislada.",
+        "articulos": [
+          {
+            "titular": "“Les solicito evitar la palabra territorio”: El correo del SernamEG a funcionarios del Gobierno que atribuye la instrucción al Ministerio de la Mujer",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/13/les-solicito-evitar-la-palabra-territorio-el-correo-del-sernameg-a-funcionarios-del-gobierno-que-atribuye-la-instruccion-al-ministerio-de-la-mujer/",
+            "fecha": "2026-08-13T21:21:08+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Grupo Patio vende terreno en Vitacura por US$ 17,5 millones para reducir su deuda",
-        "resumen": "Una firma inmobiliaria adquirió un terreno de más de 3.500 metros cuadrados situado en una zona comercial clave. Los fondos obtenidos se emplearán en potenciar sus operaciones en el sector de centros comerciales y rubros industriales.",
+        "resumen": "Una empresa inmobiliaria concretó la compra de un terreno de gran extensión situado en una zona comercial relevante. Los fondos invertidos se destinarán a potenciar su presencia en el rubro industrial y de centros de compras.",
         "articulos": [
           {
             "titular": "Grupo Patio vende terreno en Vitacura por US$ 17,5 millones para reducir su deuda",
@@ -336,7 +404,7 @@
       },
       {
         "titulo_neutral": "CEO de Falabella sincera pronóstico para segundo semestre: “El entorno de ventas en Chile seguirá siendo mixto”",
-        "resumen": "Un análisis sectorial advierte que el consumo de artículos discrecionales seguirá enfrentando un panorama complicado. Asimismo, la disminución en el flujo de visitantes extranjeros continuará afectando negativamente la facturación de los comercios minoristas hasta finalizar el año.",
+        "resumen": "Un análisis sectorial advierte que el consumo de bienes prescindibles enfrentará dificultades persistentes. Asimismo, la disminución en el flujo de visitantes extranjeros continuará afectando negativamente las transacciones comerciales en el comercio minorista.",
         "articulos": [
           {
             "titular": "CEO de Falabella sincera pronóstico para segundo semestre: “El entorno de ventas en Chile seguirá siendo mixto”",
@@ -355,75 +423,15 @@
           "Claro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Servida a temperatura ambiente: Kunstmann lanza cerveza de café, innovación de stock limitado, para conmemorar su aniversario 35",
-        "resumen": "Esta edición especial de cerveza, desarrollada en conjunto con una marca tostadora local, apunta a consumidores exigentes que buscan nuevas experiencias culinarias mediante el maridaje.",
-        "articulos": [
-          {
-            "titular": "Servida a temperatura ambiente: Kunstmann lanza cerveza de café, innovación de stock limitado, para conmemorar su aniversario 35",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/los-rios/empresas/cerveza-de-cafe-la-innovacion-con-stock-limitado-de-kunstmann-para",
-            "fecha": "2026-08-13T20:53:56+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Columna de Carlos Durán: Crítica, autocrítica y política",
-        "resumen": "El excolaborador del Ejecutivo analiza por escrito el debate generado tras la autocrítica expresada por el exmandatario durante el lanzamiento de un texto literario.",
-        "articulos": [
-          {
-            "titular": "Columna de Carlos Durán: Crítica, autocrítica y política",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/13/columna-de-carlos-duran-critica-autocritica-y-politica/",
-            "fecha": "2026-08-13T20:47:34+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Empresa de Antofagasta desarrolla cultivo de perlas en abalones y concreta primera exportación a joyería en Nueva York",
-        "resumen": "A diferencia de las versiones tradicionales y simétricas, las perlas de abulón destacan por sus tonalidades tornasoladas y formas irregulares. Esta singularidad las ubica dentro de una categoría exclusiva muy cotizada por los creadores de alta joyería.",
-        "articulos": [
-          {
-            "titular": "Empresa de Antofagasta desarrolla cultivo de perlas en abalones y concreta primera exportación a joyería en Nueva York",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/antofagasta/de-antofagasta-a-nueva-york-la-startup-que-convirtio-las-perlas-de-abalon",
-            "fecha": "2026-08-13T20:39:19+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
+      {
+        "titular": "Tate supporters rally for brothers ahead of bail hearing in Miami",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/tate-supporters-rally-for-brothers-ahead-of-bail-hearing-in-miami?traffic_source=rss",
+        "fecha": "2026-08-13T21:17:45+00:00"
+      },
       {
         "titular": "Israeli strikes in Gaza kill two, including police chief",
         "medio": "Al Jazeera",
@@ -447,12 +455,6 @@
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/8/13/kennedy-center-votes-to-restore-trumps-name-to-venue-close-for-two-years?traffic_source=rss",
         "fecha": "2026-08-13T21:00:31+00:00"
-      },
-      {
-        "titular": "Multiple houses ablaze as wildfire sweeps into UK town",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/multiple-houses-ablaze-as-wildfire-sweeps-into-uk-town?traffic_source=rss",
-        "fecha": "2026-08-13T20:57:01+00:00"
       }
     ]
   },
@@ -3853,7 +3855,7 @@
       "noticias": [
         {
           "titular": "Berkshire Bought Alphabet Stock in Q2—and Maybe Microsoft Too",
-          "extracto": "Un reporte regulatorio de Berkshire muestra una intensa actividad en la compra de acciones, destacando la adquisición de Alphabet y posiblemente de Microsoft.",
+          "extracto": "Un documento financiero reciente de Berkshire muestra una intensa actividad de adquisición de acciones, con Alphabet entre las operaciones destacadas. Es posible que la compañía también haya adquirido una participación considerable en Microsoft.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3861,8 +3863,26 @@
           "fecha": "2026-08-13T20:07:00+00:00"
         },
         {
+          "titular": "Millions of Americans Own Vanguard’s VFIAX and Have No Idea What They Actually Bought",
+          "extracto": "A pesar de presentarse como una opción diversificada, este fondo de inversión muestra una alta concentración en pocas grandes empresas tecnológicas. Esta situación influye directamente en el perfil de riesgo de los fondos de jubilación de numerosas personas.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/13/millions-of-americans-own-vanguards-vfiax-and-have-no-idea-what-they-actually-bought/?.tsrc=rss",
+          "fecha": "2026-08-13T18:54:47+00:00"
+        },
+        {
+          "titular": "FlightSafety: How To Find & Own America's Greatest Opportunities",
+          "extracto": "Establecida en 1951, la empresa de aviación debutó en la bolsa en 1968. Hacia finales de la década siguiente, la organización ejecutó una operación bursátil de gran relevancia.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/m/01e430ea-be95-32f8-a991-30a95fb583e8/flightsafety%3A-how-to-find-%26.html?.tsrc=rss",
+          "fecha": "2026-08-13T18:32:47+00:00"
+        },
+        {
           "titular": "Berkshire's Insurance Business: The Horsepower of its Growth Story",
-          "extracto": "La solidez en las suscripciones de seguros y los cuantiosos fondos disponibles de Berkshire Hathaway impulsan la asignación de capital y la creación de valor a largo plazo.",
+          "extracto": "La gestión prudente de pólizas y una reserva monetaria masiva permiten a Berkshire Hathaway financiar su expansión y generar valor a largo plazo para los inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3871,30 +3891,12 @@
         },
         {
           "titular": "Analysts Are Undervaluing Berkshire Hathaway Now That Greg Abel Is Putting the Company's Cash to Work. But That's Not the Reason.",
-          "extracto": "El detalle más positivo dentro del informe financiero trimestral del conglomerado pasó mayormente desapercibido.",
+          "extracto": "El detalle más positivo del informe financiero trimestral del conglomerado empresarial pasó inadvertido para la mayoría de los observadores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/13/analysts-are-undervaluing-berkshire-hathaway-now/?.tsrc=rss",
           "fecha": "2026-08-13T16:00:00+00:00"
-        },
-        {
-          "titular": "Prediction: Greg Abel Will Continue Holding This Berkshire Hathaway Stock That Warren Buffett Backed for Decades",
-          "extracto": "Una ventaja estratégica fundamental motivará a Berkshire Hathaway a mantener su inversión accionaria en la compañía Coca-Cola.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/13/prediction-greg-abel-will-continue-holding-this-be/?.tsrc=rss",
-          "fecha": "2026-08-13T08:05:00+00:00"
-        },
-        {
-          "titular": "Berkshire CEO Greg Abel Is Sitting on More Than $360 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-          "extracto": "Greg Abel está comenzando a invertir los cuantiosos recursos líquidos con los que cuenta Berkshire Hathaway.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/12/berkshire-ceo-greg-abel-is-sitting-on-more-than-36/?.tsrc=rss",
-          "fecha": "2026-08-12T21:25:00+00:00"
         }
       ],
       "fundamentales": {
@@ -7458,7 +7460,7 @@
       "noticias": [
         {
           "titular": "McDonald's (MCD): Buy, Sell, or Hold Post Q2 Earnings?",
-          "extracto": "Las acciones de McDonald's registraron una caída del 15,3% en el último semestre, un rendimiento inferior al del mercado general que generó preocupación entre los inversores.",
+          "extracto": "Las acciones de McDonald's experimentaron una caída del 15,3% en medio año, situándose en 273,75 dólares. Este descenso contrasta negativamente con el crecimiento del índice S&P 500 en el mismo periodo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7467,7 +7469,7 @@
         },
         {
           "titular": "5 Insightful Analyst Questions From McDonald's’s Q2 Earnings Call",
-          "extracto": "Durante el segundo trimestre, las ganancias de la compañía superaron ligeramente las previsiones, aunque el director ejecutivo reconoció deficiencias operativas y fallas en la implementación de ofertas en el mercado estadounidense.",
+          "extracto": "Los ingresos trimestrales de la compañía cumplieron con las previsiones financieras, aunque el director ejecutivo admitió fallas operativas y en la gestión de las ofertas en Estados Unidos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7485,7 +7487,7 @@
         },
         {
           "titular": "Scott Bessent Tells Robert Reich 'McDonald's Problem Is Called Burger King, Professor' Amid Clash Over the 'K-Shaped' Economy: 'No Wonder Bill Clinton...'",
-          "extracto": "El secretario del Tesoro, Scott Bessent, atribuyó los desafíos de la empresa a la presión competitiva de rivales como Burger King, discrepando de la postura de otros analistas.",
+          "extracto": "El secretario del Tesoro, Scott Bessent, atribuyó los problemas comerciales de la cadena a la rivalidad con competidores como Burger King, desestimando la teoría de la desigualdad estructural propuesta por Robert Reich.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7494,7 +7496,7 @@
         },
         {
           "titular": "McDonald’s unveils unexpected first-ever partnership",
-          "extracto": "La cadena de comida rápida ha comenzado a ofrecer en el mercado estadounidense diversos productos y promociones especiales que antes eran exclusivos de otros países.",
+          "extracto": "La empresa de comida rápida ha comenzado a ofrecer en el mercado estadounidense productos y coleccionables exclusivos que antes solo estaban disponibles en el extranjero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11225,49 +11227,49 @@
       },
       "noticias": [
         {
-          "titular": "Microsoft Stock Rises as Ackman Reaffirms Azure Bet",
-          "extracto": "Pershing Square anticipates that Azure's infrastructure spending and the integration of Microsoft 365 will maintain strong financial growth for the company.",
+          "titular": "Why Iren Stock Topped the Market on Thursday",
+          "extracto": "La empresa completó su lanzamiento inicial bajo los términos de un acuerdo con un cliente clave.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-rises-ackman-reaffirms-192150391.html?.tsrc=rss",
-          "fecha": "2026-08-13T19:21:50+00:00"
+          "url": "https://www.fool.com/investing/2026/08/13/why-iren-stock-topped-the-market-on-thursday/?.tsrc=rss",
+          "fecha": "2026-08-13T20:35:13+00:00"
         },
         {
-          "titular": "J.P. Morgan Revamps Microsoft Stock Price Target for 2027",
-          "extracto": "Financial analysts significantly raised their valuation forecast for Microsoft, driven by expansion opportunities in artificial intelligence.",
+          "titular": "CFO Worx Named No. 448 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America’s Fastest-Growing Private Companies",
+          "extracto": "La firma financiera CFO Worx ocupó el puesto 448 en el ranking anual de empresas privadas con mayor expansión en Estados Unidos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-revamps-microsoft-185726434.html?.tsrc=rss",
-          "fecha": "2026-08-13T18:57:26+00:00"
+          "url": "https://finance.yahoo.com/small-business/articles/cfo-worx-named-no-448-202100308.html?.tsrc=rss",
+          "fecha": "2026-08-13T20:21:00+00:00"
         },
         {
-          "titular": "IREN Stock Jumps as Microsoft and Nvidia Back Its AI Cloud Push",
-          "extracto": "The value of IREN stock increased following Microsoft's decision to utilize its new artificial intelligence cloud computing setup in Texas.",
+          "titular": "Bill Ackman's Pershing Square Has Delivered a 15.9% Annualized Return Since 2004, Beating the S&P 500 by Over 5 Points a Year. Can It Continue?",
+          "extracto": "El inversor Ackman vendió sus acciones en Alphabet y aumentó su inversión en otras tres grandes empresas tecnológicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/iren-stock-jumps-microsoft-nvidia-185533310.html?.tsrc=rss",
-          "fecha": "2026-08-13T18:55:33+00:00"
+          "url": "https://www.fool.com/investing/2026/08/13/bill-ackman-pershing-beat-sp500-continue/?.tsrc=rss",
+          "fecha": "2026-08-13T20:13:00+00:00"
         },
         {
-          "titular": "Sam Altman Is Pushing for a $1 Trillion IPO Valuation for OpenAI, Even as SoftBank Faces a $40 Billion Loan Deadline in 2027. Here's What That Tension Means for Microsoft and Nvidia Shareholders.",
-          "extracto": "The proposed timeline for OpenAI to launch a public stock offering is currently clashing with a target date set by SoftBank for 2027.",
+          "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
+          "extracto": "Un importante fondo del S&P 500 gestiona cuantiosos fondos de jubilación, a pesar de que los beneficiarios no pueden adquirir participaciones de manera directa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/13/sam-altman-is-pushing-for-a-1-trillion-ipo-valuati/?.tsrc=rss",
-          "fecha": "2026-08-13T18:55:00+00:00"
+          "url": "https://247wallst.com/investing/2026/08/13/theres-a-good-chance-vanguards-vinix-is-in-your-401k-and-youve-never-heard-of-it/?.tsrc=rss",
+          "fecha": "2026-08-13T20:11:11+00:00"
         },
         {
-          "titular": "Neoclouds CRWV & NBIS Soar (Why they have room to run)",
-          "extracto": "Financial reports from CoreWeave and Nebius Group demonstrate that specialized artificial intelligence systems are driving the ongoing technology boom.",
+          "titular": "Berkshire Bought Alphabet Stock in Q2—and Maybe Microsoft Too",
+          "extracto": "Un reporte financiero de Berkshire muestra una intensa actividad de adquisición de títulos accionarios, destacando a Alphabet y posiblemente a Microsoft.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/neoclouds-crwv-nbis-soar-why-191800915.html?.tsrc=rss",
-          "fecha": "2026-08-13T19:18:00+00:00"
+          "url": "https://finance.yahoo.com/m/ae1d3e87-e4b9-302e-93b7-05e18dca9abe/berkshire-bought-alphabet.html?.tsrc=rss",
+          "fecha": "2026-08-13T20:07:00+00:00"
         }
       ],
       "fundamentales": {
@@ -15053,8 +15055,35 @@
       },
       "noticias": [
         {
+          "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
+          "extracto": "Un importante fondo del S&P 500 gestiona cuantiosos ahorros para el retiro, a pesar de que los inversores individuales no pueden adquirirlo directamente ni suelen conocer su código bursátil.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/13/theres-a-good-chance-vanguards-vinix-is-in-your-401k-and-youve-never-heard-of-it/?.tsrc=rss",
+          "fecha": "2026-08-13T20:11:11+00:00"
+        },
+        {
+          "titular": "The Broad Market ETF That Belongs in Almost Every Passive Investor's Portfolio",
+          "extracto": "La simplicidad suele ofrecer ventajas operativas y mejores resultados en la práctica cotidiana.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/13/broad-market-etf-belong-passive-investor-voo/?.tsrc=rss",
+          "fecha": "2026-08-13T15:50:00+00:00"
+        },
+        {
+          "titular": "History Says This Surefire ETF Can Turn $200 per Month Into $1 Million -- With Next to No Effort on Your Part",
+          "extracto": "Una estrategia de inversión adecuada tiene el potencial de generar un patrimonio financiero significativo a largo plazo.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/13/history-says-this-surefire-etf-can-turn-200-per-mo/?.tsrc=rss",
+          "fecha": "2026-08-13T12:20:00+00:00"
+        },
+        {
           "titular": "This Stellar High Yield Vanguard ETF Is Beating VTI and VOO This Year",
-          "extracto": "Un fondo de Vanguard ha superado a índices populares sin usar apalancamiento, aunque su desempeño a diez años presenta ciertos matices complejos.",
+          "extracto": "Un fondo de Vanguard ha superado a índices populares este año al invertir en sectores poco habituales, aunque su rentabilidad a diez años presenta matices importantes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15062,40 +15091,13 @@
           "fecha": "2026-08-13T11:19:09+00:00"
         },
         {
-          "titular": "Which Is the Better S&P 500 ETF, Vanguard's VOO or the iShares IVV?",
-          "extracto": "Dos fondos con comisiones idénticas del 0,03% registraron ganancias del 22,8% en el último año, a pesar de tener volúmenes de activos diferentes.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/coverage/etfs/2026/08/12/which-is-the-better-s-and-p-500-etf-vanguard-s-voo-or-the-ishares-ivv/?.tsrc=rss",
-          "fecha": "2026-08-12T19:59:22+00:00"
-        },
-        {
-          "titular": "If I Could Invest $1,000 in Just 1 ETF in August, I'd Pick This Clear Standout Over the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Este fondo cotizado en bolsa proporciona a los inversionistas una combinación equilibrada de títulos de valor, crecimiento y dividendos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/12/if-i-could-invest-1000-in-just-1-etf-in-august-id/?.tsrc=rss",
-          "fecha": "2026-08-12T16:05:00+00:00"
-        },
-        {
           "titular": "The S&P 500 Costs 27.5 Times Earnings. History Says What a Starting Multiple That High Buys You Over 10 Years.",
-          "extracto": "La gestora proyecta un rendimiento anual moderado para las acciones estadounidenses en la próxima década, respaldado por un análisis histórico detallado.",
+          "extracto": "Las proyecciones de Vanguard estiman un crecimiento anual moderado para las acciones estadounidenses durante la próxima década, un pronóstico que resulta relevante analizar en su totalidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/13/the-sp-500-costs-275-times-earnings-history-says-w/?.tsrc=rss",
           "fecha": "2026-08-13T08:07:00+00:00"
-        },
-        {
-          "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
-          "extracto": "Un importante fondo vinculado al índice S&P 500 administra enormes sumas para fondos de retiro, aunque resulta inaccesible para los inversores particulares.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/13/theres-a-good-chance-vanguards-vinix-is-in-your-401k-and-youve-never-heard-of-it/?.tsrc=rss",
-          "fecha": "2026-08-13T20:11:11+00:00"
         }
       ]
     }
