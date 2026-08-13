@@ -132,7 +132,7 @@ def test_obtener_fundamentales_campo_con_tag_obsoleto_queda_vacio(monkeypatch):
         return {"units": {"USD": [_trimestre(2026, "Q4", "2026-04-01", "2026-06-30", 1_000_000, "2026-07-25")]}}
 
     monkeypatch.setattr(edgar, "_request", _request_falso)
-    resultado = edgar.obtener_fundamentales("MSFT", None)
+    resultado = edgar.obtener_fundamentales("MSFT", edgar.CIK_POR_TICKER["MSFT"], None)
     assert resultado["series"]["eps_gaap"] == []
 
 
@@ -161,13 +161,9 @@ def test_ultimo_accession_none_si_no_hay_filings_trimestrales(monkeypatch):
     assert edgar._ultimo_accession("0000789019") is None
 
 
-def test_obtener_fundamentales_ticker_sin_cik_devuelve_none():
-    assert edgar.obtener_fundamentales("VOO", None) is None
-
-
 def test_obtener_fundamentales_sin_cambios_devuelve_none(monkeypatch):
     monkeypatch.setattr(edgar, "_ultimo_accession", lambda cik: "misma-accession")
-    assert edgar.obtener_fundamentales("MSFT", "misma-accession") is None
+    assert edgar.obtener_fundamentales("MSFT", edgar.CIK_POR_TICKER["MSFT"], "misma-accession") is None
 
 
 def test_obtener_fundamentales_arma_el_shape_completo(monkeypatch):
@@ -184,7 +180,7 @@ def test_obtener_fundamentales_arma_el_shape_completo(monkeypatch):
 
     monkeypatch.setattr(edgar, "_request", _request_falso)
 
-    resultado = edgar.obtener_fundamentales("MSFT", None)
+    resultado = edgar.obtener_fundamentales("MSFT", edgar.CIK_POR_TICKER["MSFT"], None)
     assert resultado["periodo"] == "FY26Q4"
     assert resultado["_accession"] == "0000789019-26-000042"
     assert resultado["series"]["ingresos_musd"][0]["valor"] == 90007.0
@@ -192,3 +188,81 @@ def test_obtener_fundamentales_arma_el_shape_completo(monkeypatch):
     assert resultado["series"]["eps_non_gaap"] == []
     assert round(resultado["series"]["margen_operativo"][0]["valor"], 1) == 45.1
     assert "sec.gov" in resultado["fuente_url"]
+
+
+def _instante(val, end, filed, form="10-K"):
+    return {"val": val, "end": end, "filed": filed, "form": form}
+
+
+def test_resolver_ciks_usa_el_indice_sec(monkeypatch):
+    monkeypatch.setattr(
+        edgar,
+        "_request",
+        lambda url: {
+            "0": {"cik_str": 320193, "ticker": "AAPL", "title": "Apple Inc."},
+            "1": {"cik_str": 1067983, "ticker": "BRK-B", "title": "Berkshire Hathaway"},
+            "2": {"cik_str": 12345, "ticker": "XYZ", "title": "Algo SA"},
+        },
+    )
+    resultado = edgar.resolver_ciks(["AAPL", "BRK.B", "XYZ", "NOEXISTE"])
+    assert resultado == {"AAPL": "0000320193", "BRK.B": "0001067983", "XYZ": "0000012345"}
+
+
+def test_resolver_ciks_prefiere_cik_por_ticker_ya_verificado(monkeypatch):
+    monkeypatch.setattr(
+        edgar,
+        "_request",
+        lambda url: {"0": {"cik_str": 999999999, "ticker": "AAPL", "title": "otro"}},
+    )
+    resultado = edgar.resolver_ciks(["AAPL"])
+    assert resultado["AAPL"] == edgar.CIK_POR_TICKER["AAPL"]
+
+
+def test_obtener_valor_instante_toma_el_end_mas_reciente(monkeypatch):
+    monkeypatch.setattr(
+        edgar,
+        "_request",
+        lambda url: {
+            "units": {
+                "USD": [
+                    _instante(100, "2025-06-30", "2025-07-25"),
+                    _instante(150, "2026-06-30", "2026-07-25"),
+                ]
+            }
+        },
+    )
+    assert edgar._obtener_valor_instante("cik", ["StockholdersEquity"]) == 150
+
+
+def test_obtener_valor_instante_none_si_dato_obsoleto(monkeypatch):
+    monkeypatch.setattr(
+        edgar,
+        "_request",
+        lambda url: {"units": {"USD": [_instante(100, "2013-06-30", "2013-07-25")]}},
+    )
+    assert edgar._obtener_valor_instante("cik", ["StockholdersEquity"]) is None
+
+
+def test_obtener_deuda_patrimonio_calcula_el_ratio(monkeypatch):
+    def _request_falso(url):
+        if "StockholdersEquity" in url:
+            return {"units": {"USD": [_instante(1000, "2026-06-30", "2026-07-25")]}}
+        return {"units": {"USD": [_instante(200, "2026-06-30", "2026-07-25")]}}
+
+    monkeypatch.setattr(edgar, "_request", _request_falso)
+    assert edgar.obtener_deuda_patrimonio("cik") == 0.2
+
+
+def test_obtener_deuda_patrimonio_none_sin_patrimonio(monkeypatch):
+    monkeypatch.setattr(edgar, "_request", lambda url: {"units": {"USD": []}})
+    assert edgar.obtener_deuda_patrimonio("cik") is None
+
+
+def test_obtener_deuda_patrimonio_trata_deuda_ausente_como_cero(monkeypatch):
+    def _request_falso(url):
+        if "StockholdersEquity" in url:
+            return {"units": {"USD": [_instante(1000, "2026-06-30", "2026-07-25")]}}
+        raise edgar.EdgarError("404")
+
+    monkeypatch.setattr(edgar, "_request", _request_falso)
+    assert edgar.obtener_deuda_patrimonio("cik") == 0.0

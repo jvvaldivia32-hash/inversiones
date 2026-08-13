@@ -119,8 +119,11 @@ export interface RadarCandidato {
   metricas: {
     ingresos_var_pct: number;
     margen_op: number;
-    deuda_patrimonio: number;
+    // null para bancos — deuda/patrimonio no es una señal de salud en ese modelo de
+    // negocio, sección 3.3 del plan madre.
+    deuda_patrimonio: number | null;
   };
+  serie_precio: SeriePrecio;
 }
 
 export interface RadarDescartado {

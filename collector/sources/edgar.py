@@ -15,6 +15,25 @@ CIK_POR_TICKER = {
     "MSFT": "0000789019",
 }
 
+URL_TICKERS_SEC = "https://www.sec.gov/files/company_tickers.json"
+
+
+def resolver_ciks(tickers: list[str]) -> dict[str, str]:
+    """Ticker -> CIK (10 dígitos con ceros) para cualquiera de los ~10 mil tickers del
+    índice público de la SEC (`company_tickers.json`) — el Radar (Fase 6) necesita CIK
+    para ~80 tickers, mapearlos a mano uno por uno no escala como sí valió la pena para
+    los 4 de CIK_POR_TICKER (fundamentales de la watchlist, probados en profundidad).
+    Los de CIK_POR_TICKER ganan si hay conflicto."""
+    data = _request(URL_TICKERS_SEC)
+    por_ticker = {}
+    for entrada in data.values():
+        simbolo = str(entrada.get("ticker", "")).replace("-", ".")
+        cik = str(entrada.get("cik_str", "")).zfill(10)
+        por_ticker[simbolo] = cik
+    return {t: por_ticker[t] for t in tickers if t in por_ticker} | {
+        t: c for t, c in CIK_POR_TICKER.items() if t in tickers
+    }
+
 # Tag(s) `us-gaap`, unidad XBRL y divisor para llegar a la unidad que espera el visor
 # (Fundamentales.series en web/src/types.ts) — sección 2.3 del plan madre. Más de un tag
 # candidato por campo: no todas las empresas usan el mismo tag para "lo mismo" (MCD
@@ -22,7 +41,13 @@ CIK_POR_TICKER = {
 # a mano contra ambos CIKs) — se prueba en orden y se usa el primero que responda.
 TAGS = {
     "ingresos_musd": (
-        ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+        [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues",
+            # Eléctricas/utilities (ej. NEE) tagean así, probado a mano — a las demás
+            # empresas del universo del radar les 404ea, así que no hace daño probarlo.
+            "RegulatedAndUnregulatedOperatingRevenue",
+        ],
         "USD",
         1_000_000,
     ),
@@ -61,8 +86,12 @@ def _request(url: str) -> dict:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         raise EdgarError(f"EDGAR {url} respondió {e.code}") from e
-    except urllib.error.URLError as e:
-        raise EdgarError(f"EDGAR {url} no respondió: {e.reason}") from e
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        # TimeoutError no es subclase de URLError (viene de socket, no de urllib) — mismo
+        # gotcha ya visto y arreglado en sources/gemini.py. Se repitió acá al correr el
+        # radar contra ~80 tickers: sin este catch, un timeout de red tumbaba la corrida
+        # entera en vez de degradar un solo ticker.
+        raise EdgarError(f"EDGAR {url} no respondió: {e}") from e
 
 
 def request_texto(url: str) -> str:
@@ -75,8 +104,8 @@ def request_texto(url: str) -> str:
             return resp.read().decode("utf-8", errors="replace")
     except urllib.error.HTTPError as e:
         raise EdgarError(f"EDGAR {url} respondió {e.code}") from e
-    except urllib.error.URLError as e:
-        raise EdgarError(f"EDGAR {url} no respondió: {e.reason}") from e
+    except (urllib.error.URLError, TimeoutError) as e:
+        raise EdgarError(f"EDGAR {url} no respondió: {e}") from e
 
 
 def _tiene_datos_recientes(data: dict, dias_maximos: int = 550) -> bool:
@@ -186,6 +215,50 @@ def _derivar_margen(ingresos: list[dict], op_income: list[dict]) -> list[dict]:
     return resultado
 
 
+TAGS_INSTANTE = {
+    # Varias empresas grandes (PG, CAT, QCOM cuando su StockholdersEquity queda obsoleto)
+    # usan la variante "IncludingPortionAttributableToNoncontrollingInterest" en vez de la
+    # básica — probado a mano contra las 3.
+    "patrimonio": ["StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
+    "deuda_largo_plazo": ["LongTermDebtNoncurrent", "LongTermDebt"],
+}
+
+
+def _obtener_valor_instante(cik: str, tags_candidatos: list[str]) -> float | None:
+    """Último valor de un tag "foto" (balance sheet: solo `end`, sin `start`) — a
+    diferencia de los tags de flujo de _extraer_serie, acá no hace falta derivar nada,
+    el valor más reciente ya es el dato completo."""
+    for tag in tags_candidatos:
+        try:
+            data = _request(f"{BASE_URL}/api/xbrl/companyconcept/CIK{cik}/us-gaap/{tag}.json")
+        except EdgarError:
+            continue
+        if not _tiene_datos_recientes(data):
+            continue
+        puntos = [
+            p
+            for p in data.get("units", {}).get("USD", [])
+            if p.get("form") in FORMULARIOS_TRIMESTRALES and p.get("end")
+        ]
+        if not puntos:
+            continue
+        mas_reciente = max(puntos, key=lambda p: (p["end"], p["filed"]))
+        return mas_reciente["val"]
+    return None
+
+
+def obtener_deuda_patrimonio(cik: str) -> float | None:
+    """Deuda de largo plazo / patrimonio — sección 3.3 del plan madre ("sana"). None si no
+    hay patrimonio reportado (el ratio no tiene sentido sin eso); deuda ausente se trata
+    como 0 — muchas empresas sin deuda de largo plazo simplemente no tagean esa línea, no
+    es lo mismo que "no se pudo determinar"."""
+    patrimonio = _obtener_valor_instante(cik, TAGS_INSTANTE["patrimonio"])
+    if not patrimonio:
+        return None
+    deuda = _obtener_valor_instante(cik, TAGS_INSTANTE["deuda_largo_plazo"]) or 0
+    return deuda / patrimonio
+
+
 def _fuente_url(cik: str, accession: str) -> str:
     cik_sin_ceros = str(int(cik))
     accn_sin_guiones = accession.replace("-", "")
@@ -195,15 +268,12 @@ def _fuente_url(cik: str, accession: str) -> str:
     )
 
 
-def obtener_fundamentales(ticker: str, accession_anterior: str | None) -> dict | None:
-    """Fundamentales reales desde SEC EDGAR, o None si el ticker no tiene CIK conocido o
-    el último filing es el mismo que la corrida anterior (nada que actualizar). Quien
-    llama decide si conserva el valor previo — mismo criterio de degradación que
-    sources/banco_central.py."""
-    cik = CIK_POR_TICKER.get(ticker)
-    if cik is None:
-        return None
-
+def obtener_fundamentales(ticker: str, cik: str, accession_anterior: str | None) -> dict | None:
+    """Fundamentales reales desde SEC EDGAR, o None si el último filing es el mismo que
+    la corrida anterior (nada que actualizar). `ticker` es solo para mensajes de error —
+    quien llama resuelve el CIK (CIK_POR_TICKER para la watchlist, resolver_ciks() para
+    el universo del radar) y decide si conserva el valor previo — mismo criterio de
+    degradación que sources/banco_central.py."""
     accession = _ultimo_accession(cik)
     if accession is None or accession == accession_anterior:
         return None

@@ -39,7 +39,9 @@ def descargar_historico(ticker: str, dias: int = 1825) -> list[dict]:
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.HTTPError, urllib.error.URLError):
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        # TimeoutError no es subclase de URLError (viene de socket, no de urllib) — mismo
+        # gotcha ya visto y arreglado en sources/gemini.py.
         return []
 
     try:

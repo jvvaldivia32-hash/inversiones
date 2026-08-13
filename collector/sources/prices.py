@@ -23,8 +23,10 @@ def _request(ruta: str, params: dict) -> dict:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         raise FinnhubError(f"Finnhub {ruta} respondió {e.code}") from e
-    except urllib.error.URLError as e:
-        raise FinnhubError(f"Finnhub {ruta} no respondió: {e.reason}") from e
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        # TimeoutError no es subclase de URLError (viene de socket, no de urllib) — mismo
+        # gotcha ya visto y arreglado en sources/gemini.py.
+        raise FinnhubError(f"Finnhub {ruta} no respondió: {e}") from e
 
 
 def obtener_cotizacion(ticker: str) -> dict:

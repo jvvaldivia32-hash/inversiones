@@ -1,5 +1,28 @@
-import type { RadarData } from "../types";
+import { useState } from "react";
+import type { RadarCandidato, RadarData, RangoPrecio } from "../types";
+import GraficoPrecio from "./GraficoPrecio";
 import "./Radar.css";
+
+function CandidatoItem({ candidato }: { candidato: RadarCandidato }) {
+  const [rango, setRango] = useState<RangoPrecio>("1A");
+
+  return (
+    <li>
+      <div className="radar-candidato-header">
+        <span className="radar-ticker">{candidato.ticker}</span>
+        <span className="radar-nombre">{candidato.nombre}</span>
+        <span className="radar-pct">{candidato.pct_bajo_maximo}% bajo su máximo</span>
+      </div>
+      <p className="radar-motivo">{candidato.motivo}</p>
+      <GraficoPrecio
+        serie={candidato.serie_precio}
+        rango={rango}
+        onRangoChange={setRango}
+        mostrarSelector
+      />
+    </li>
+  );
+}
 
 export default function Radar({ radar }: { radar: RadarData }) {
   return (
@@ -8,14 +31,7 @@ export default function Radar({ radar }: { radar: RadarData }) {
         <h4>Candidatos</h4>
         <ul className="radar-candidatos">
           {radar.candidatos.map((c) => (
-            <li key={c.ticker}>
-              <div className="radar-candidato-header">
-                <span className="radar-ticker">{c.ticker}</span>
-                <span className="radar-nombre">{c.nombre}</span>
-                <span className="radar-pct">{c.pct_bajo_maximo}% bajo su máximo</span>
-              </div>
-              <p className="radar-motivo">{c.motivo}</p>
-            </li>
+            <CandidatoItem key={c.ticker} candidato={c} />
           ))}
         </ul>
       </div>

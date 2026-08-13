@@ -66,9 +66,12 @@ def _fundamentales_anteriores() -> dict[str, dict]:
 def _obtener_fundamentales(ticker: str, anterior: dict | None) -> dict | None:
     """Fundamentales reales si hay un filing nuevo, o lo que había antes si EDGAR falla
     o no cambió nada — mismo criterio de degradación que sources/banco_central.py."""
+    cik = edgar.CIK_POR_TICKER.get(ticker)
+    if cik is None:
+        return None
     accession_anterior = anterior.get("_accession") if anterior else None
     try:
-        nuevo = edgar.obtener_fundamentales(ticker, accession_anterior)
+        nuevo = edgar.obtener_fundamentales(ticker, cik, accession_anterior)
     except edgar.EdgarError as e:
         print(f"  {ticker}: fundamentales no se pudieron actualizar ({e})")
         return anterior
