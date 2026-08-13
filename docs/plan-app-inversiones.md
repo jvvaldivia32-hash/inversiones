@@ -682,7 +682,22 @@ naturales dentro de una fase — se puede parar ahí sin dejar nada a medias.
   inconsistencia entre corridas (una corrida de prueba local dejó todo `mundo` sin resumen,
   la corrida real siguiente en producción sí los tuvo todos). No se investigó la causa exacta
   de la inconsistencia — anotar si se repite.
-- **Fase 4 a 8 — ⬜ no iniciadas.**
+- **Fase 4 — ✅ completa.** Cliente EDGAR aislado (`collector/sources/edgar.py`), probado en
+  vivo contra el CIK de MSFT antes de integrarlo — devuelve el FY26Q4 correcto. Dos hallazgos
+  reales al probar contra datos reales, no anticipados por el plan: XBRL no trae el trimestre
+  discreto (cada 10-Q tagea el acumulado year-to-date, el 10-K solo el año fiscal completo —
+  Q4 se deriva restando año completo menos 9 meses) y un mismo período se repite en 2-3
+  filings posteriores como comparativo con un `fy` distinto cada vez (la etiqueta sale del
+  duplicado más antiguo, el valor del más nuevo). Fallback de tags por campo (MCD tagea
+  ingresos como `Revenues`, no `RevenueFromContractWithCustomer...`) y chequeo de que el tag
+  tenga datos recientes antes de aceptarlo — BRK.B no tagea EPS en XBRL desde 2013 ni tiene
+  operating income reciente, esos campos quedan vacíos en vez de mostrar datos viejos.
+  `eps_non_gaap` (columna que ya existía en `Fundamentales.series`) queda vacío a propósito:
+  no es un tag XBRL estándar, es una cifra que cada empresa define en prosa en su press
+  release — le toca a Fase 5. Cache por `accessionNumber` verificado (no repega si no cambió
+  el filing). Conectado a `construir_posiciones()` en `main.py` con el mismo criterio de
+  degradación que Banco Central/índices (si EDGAR falla, se conserva el valor anterior).
+- **Fase 5 a 8 — ⬜ no iniciadas.**
 
 ### Fase 0 — Esqueleto que se ve
 
