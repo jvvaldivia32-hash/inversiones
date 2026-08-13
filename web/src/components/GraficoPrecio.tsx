@@ -136,7 +136,7 @@ export default function GraficoPrecio({
             <Line
               type="monotone"
               dataKey="comparado"
-              stroke="var(--tinta-media)"
+              stroke="var(--rojo)"
               strokeWidth={2}
               dot={false}
               connectNulls

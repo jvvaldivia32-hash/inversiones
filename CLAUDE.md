@@ -34,9 +34,17 @@ de `tokens.css`. No agregar color decorativo aunque "se vea más lindo".
 
 > **Excepción explícita (decidida por el usuario, 2026-08-11):** el gráfico de precio
 > (`GraficoPrecio.tsx`) sí puede llevar un relleno degradado bajo la línea, usando
-> `--acento` desvaneciendo a transparente — no un color nuevo. Es la única excepción
-> decorativa a esta regla. No la uses como precedente para agregar color en otro lado sin
-> preguntar primero.
+> `--acento` desvaneciendo a transparente — no un color nuevo.
+>
+> **Excepción explícita #2 (decidida por el usuario, 2026-08-13):** la línea de
+> comparación del mismo gráfico (`comparar con...`) usa `--rojo` en vez de gris para
+> distinguirse de la línea principal. Ojo: `--rojo` significa "negativo/roto" en todo
+> el resto de la app (variación diaria a la baja, tesis rota, descartado en el radar) —
+> acá no tiene ese significado, es solo la segunda serie del gráfico. Riesgo conocido y
+> aceptado, no un descuido.
+>
+> Estas dos son las únicas excepciones decorativas a esta regla. No las uses como
+> precedente para agregar color en otro lado sin preguntar primero.
 
 **Radar:** solo muestra candidatos con sus datos. Nunca genera texto tipo "deberías
 comprar". Los descartados se muestran siempre, con el motivo — no se ocultan.
