@@ -12,6 +12,7 @@ import CardInversionPendiente from "./components/CardInversionPendiente";
 import PanelWatchlist from "./components/PanelWatchlist";
 import Referencias from "./components/Referencias";
 import Radar from "./components/Radar";
+import PortafolioFintual from "./components/PortafolioFintual";
 import Diccionario from "./components/Diccionario";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
@@ -117,6 +118,12 @@ function App() {
 
       {vista === "inversion" && (
         <>
+          {daily.fintual && (
+            <Seccion id="fintual" titulo="Mi portafolio" compacta>
+              <PortafolioFintual fintual={daily.fintual} />
+            </Seccion>
+          )}
+
           <Seccion id="mis-inversiones" titulo="Mis inversiones">
             <div className="posiciones-lista">
               {posicionesVisibles.map((p) => (

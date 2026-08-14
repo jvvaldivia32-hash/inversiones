@@ -9,6 +9,7 @@ const SECCIONES_DIA = [
 ];
 
 const SECCIONES_INVERSION = [
+  { id: "fintual", etiqueta: "Mi portafolio" },
   { id: "mis-inversiones", etiqueta: "Mis inversiones" },
   { id: "radar", etiqueta: "Radar" },
 ];

@@ -158,6 +158,18 @@ export interface RadarData {
   ultima_corrida: string;
 }
 
+export interface FintualGoal {
+  id: string;
+  nombre: string;
+  saldo: number;
+}
+
+export interface Fintual {
+  goals: FintualGoal[];
+  saldo_total: number;
+  actualizado: string;
+}
+
 export interface DailyData {
   generado: string;
   errores: string[];
@@ -169,4 +181,8 @@ export interface DailyData {
   posiciones: Posicion[];
   referencias: Referencias;
   radar: RadarData;
+  // Portafolio real de Fintual — opcional porque solo existe una vez que corra
+  // fintual_diario.py al menos una vez; sin rentabilidad a propósito, la API no la
+  // expone (solo saldo actual, "nav", por meta de inversión).
+  fintual?: Fintual;
 }

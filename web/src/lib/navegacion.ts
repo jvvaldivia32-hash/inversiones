@@ -5,6 +5,7 @@ export const SECCION_A_VISTA: Record<string, Vista> = {
   mundo: "dia",
   chile: "dia",
   actualidad: "dia",
+  fintual: "inversion",
   "mis-inversiones": "inversion",
   radar: "inversion",
   diccionario: "diccionario",
