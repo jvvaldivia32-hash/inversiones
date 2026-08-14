@@ -1,0 +1,65 @@
+.amigos-demo-aviso {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  margin-bottom: 1rem;
+}
+
+.amigos-demo-grid {
+  display: grid;
+  /* Mismo tamaño de tile que Radar.css (candidatos) — "mini" a propósito, mucho más
+     chico que una card de "Mis inversiones". */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+  align-items: start;
+}
+
+.amigos-demo-card {
+  background: var(--papel-hueco);
+  border-radius: 4px;
+  padding: 0.5rem 0.6rem;
+}
+
+.amigos-demo-card h5 {
+  font-family: var(--fuente-condensada);
+  font-size: var(--texto-14);
+  font-weight: 600;
+  color: var(--tinta);
+  margin: 0 0 0.15rem;
+}
+
+.amigos-demo-modo {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  margin: 0 0 0.35rem;
+}
+
+.amigos-demo-ticker {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+  padding: 0.15rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.amigos-demo-ticker-simbolo {
+  font-family: var(--fuente-sans);
+  color: var(--tinta-media);
+}
+
+.amigos-demo-titulares {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: var(--texto-12);
+  color: var(--tinta);
+}
+
+.amigos-demo-medio {
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+}

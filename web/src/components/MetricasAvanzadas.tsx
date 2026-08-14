@@ -61,24 +61,20 @@ export default function MetricasAvanzadas({ metricas }: { metricas: TipoMetricas
   }
 
   return (
-    <div className="metricas-avanzadas-breakout">
-      <div className="metricas-avanzadas-inner">
-        <div className="metricas-avanzadas-grid">
-          {bloques.map((bloque) => (
-            <div key={bloque.titulo} className="metricas-avanzadas-categoria">
-              <h5>{bloque.titulo}</h5>
-              <dl>
-                {bloque.metricas.map((m) => (
-                  <div key={m.etiqueta} className="metricas-avanzadas-fila">
-                    <dt>{m.etiqueta}</dt>
-                    <dd>{m.formatear(m.valor as number)}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          ))}
+    <div className="metricas-avanzadas-grid">
+      {bloques.map((bloque) => (
+        <div key={bloque.titulo} className="metricas-avanzadas-categoria">
+          <h5>{bloque.titulo}</h5>
+          <dl>
+            {bloque.metricas.map((m) => (
+              <div key={m.etiqueta} className="metricas-avanzadas-fila">
+                <dt>{m.etiqueta}</dt>
+                <dd>{m.formatear(m.valor as number)}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
-      </div>
+      ))}
     </div>
   );
 }

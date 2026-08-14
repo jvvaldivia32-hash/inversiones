@@ -1,21 +1,10 @@
-/* Rompe el max-width:640px de #root (web/src/index.css) SOLO en este componente — el
-   resto de la app sigue centrado a 640px. Técnica estándar de "full-bleed" dentro de un
-   contenedor centrado: 100vw + margen negativo de la mitad, sin tocar #root. */
-.metricas-avanzadas-breakout {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  margin-left: -50vw;
-  /* Cubre el caso borde de una barra de scroll de escritorio que hace 100vw levemente
-     más ancho que el viewport visible — la grilla interna nunca necesita ese sobrante. */
-  overflow-x: hidden;
-}
-
-.metricas-avanzadas-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
+/* Se probó una versión que rompía el max-width:640px de #root para verse "grande" en
+   escritorio (100vw + margen negativo) — en mobile real (no solo en el emulador de
+   Playwright) rompía el layout: 100vw en algunos navegadores de celular no es exactamente
+   el ancho visible (barra de URL dinámica, etc.), lo que generaba scroll horizontal roto.
+   Se sacó por completo: esta sección vive dentro del mismo ancho de 640px que el resto de
+   la app, y se apoya en el mismo truco fluido que ya usa Radar.css (auto-fit/minmax) para
+   adaptarse sola sin ninguna media query — más columnas si hay espacio, una sola si no. */
 
 .metricas-avanzadas-vacio {
   color: var(--tinta-suave);
@@ -24,11 +13,11 @@
 
 .metricas-avanzadas-grid {
   display: grid;
-  /* Auto-fit/minmax: en pantallas anchas caben varias columnas (se ve "grande" solo por
-     tener más espacio disponible), en 360px colapsa a una sola — mismo patrón que
-     Radar.css, sin agregar el primer breakpoint de ancho del proyecto. */
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.25rem;
+  /* Auto-fit/minmax, mismo patrón que Radar.css: con los ~608px reales disponibles
+     dentro de una sección a 640px esto da 2 columnas; en 360px colapsa sola a 1 — sin
+     media query, sin romper el ancho global. */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
 }
 
 .metricas-avanzadas-categoria h5 {

@@ -18,6 +18,7 @@ const SECCIONES_POR_VISTA: Record<Vista, { id: string; etiqueta: string }[]> = {
   dia: SECCIONES_DIA,
   inversion: SECCIONES_INVERSION,
   diccionario: [],
+  amigos: [],
 };
 
 interface NavBarProps {
@@ -57,6 +58,15 @@ export default function NavBar({ vista, onIrA }: NavBarProps) {
           onClick={() => onIrA("diccionario")}
         >
           Diccionario
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={vista === "amigos"}
+          className={vista === "amigos" ? "activo" : ""}
+          onClick={() => onIrA("amigos")}
+        >
+          Amigos
         </button>
       </div>
 

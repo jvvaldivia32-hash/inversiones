@@ -1,4 +1,4 @@
-export type Vista = "dia" | "inversion" | "diccionario";
+export type Vista = "dia" | "inversion" | "diccionario" | "amigos";
 
 export const SECCION_A_VISTA: Record<string, Vista> = {
   referencias: "dia",
@@ -9,4 +9,5 @@ export const SECCION_A_VISTA: Record<string, Vista> = {
   "mis-inversiones": "inversion",
   radar: "inversion",
   diccionario: "diccionario",
+  amigos: "amigos",
 };

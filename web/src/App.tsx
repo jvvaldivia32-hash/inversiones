@@ -14,6 +14,7 @@ import Referencias from "./components/Referencias";
 import Radar from "./components/Radar";
 import PortafolioFintual from "./components/PortafolioFintual";
 import Diccionario from "./components/Diccionario";
+import AmigosDemo from "./components/AmigosDemo";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
 import "./App.css";
@@ -155,6 +156,12 @@ function App() {
       {vista === "diccionario" && (
         <Seccion id="diccionario" titulo="Diccionario" compacta>
           <Diccionario />
+        </Seccion>
+      )}
+
+      {vista === "amigos" && (
+        <Seccion id="amigos" titulo="Amigos" compacta>
+          <AmigosDemo />
         </Seccion>
       )}
 
