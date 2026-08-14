@@ -1,11 +1,54 @@
 {
-  "generado": "2026-08-14T08:09:05.579541+00:00",
+  "generado": "2026-08-14T09:53:59.423390+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters",
-        "resumen": "Informes preliminares indican que el fabricante del iPhone está desarrollando una tecnología de inteligencia artificial adaptada al mercado chino mediante la colaboración con Alibaba.",
+        "titulo_neutral": "Acusaciones de Estados Unidos sobre países que ayudaron a China a evadir aranceles",
+        "resumen": "Un análisis oficial de Estados Unidos señala que Pekín desvió mercancías a través de terceros países con aranceles reducidos para sortear gravámenes más altos. Esta práctica habría provocado pérdidas fiscales multimillonarias para la administración estadounidense.",
+        "articulos": [
+          {
+            "titular": "US says dozens of countries helped China dodge Trump's tariffs",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-14T08:39:46+00:00"
+          },
+          {
+            "titular": "US accuses dozens of countries of helping China avoid Trump’s tariffs",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss",
+            "fecha": "2026-08-14T08:37:21+00:00"
+          },
+          {
+            "titular": "White House says transshipped goods cost $19 billion to $26 billion in lost tariffs - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUnd4NlphQnNDV1c5X0xlSW9rQmd2bGRDX2xPMi1HT0RzM1NpX0xhVDJkTnNQX2hoQ0xoNHFyc29JNTAtaGlDaFo4ODJMU1ZJRk80bEs0bDR2Nzk5U0c4WWRVb09ER2dHTE42Q1hVZ2xtUXB4NFZNSkJXdWVHT3NEZnJIeXh2aEZQNnc5VU9DOTBfRkY4Szk5Q0UzUkZ6ZTVFeWt5SzBST1JtNlZrWmF1NGVaakdDLWIzYmJCNzRVQU80SFJvaXpyUGVsUGY1MHlJcndJVkM3REw?oc=5",
+            "fecha": "2026-08-14T00:15:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro",
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "BBC",
+          "Al Jazeera",
+          "Reuters"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Apple entrena modelos de inteligencia artificial para el mercado chino con apoyo de Alibaba",
+        "resumen": "Fuentes informadas señalan que la empresa tecnológica estadounidense está desarrollando un sistema de inteligencia artificial adaptado para el mercado chino con el respaldo de Alibaba.",
         "articulos": [
           {
             "titular": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters",
@@ -26,8 +69,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "AI-driven surge in bond yields could be next risk for markets and growth - Reuters",
-        "resumen": "El incremento en el rendimiento de los bonos impulsado por el sector tecnológico podría constituir una nueva amenaza para la estabilidad financiera y la expansión económica.",
+        "titulo_neutral": "Evolución de los mercados financieros y la inflación",
+        "resumen": "Los mercados financieros globales muestran inquietud ante el incremento en la rentabilidad de los bonos impulsado por el desarrollo de la inteligencia artificial. Mientras tanto, el precio del oro desciende y las bolsas internacionales se aproximan a niveles récord.",
         "articulos": [
           {
             "titular": "AI-driven surge in bond yields could be next risk for markets and growth - Reuters",
@@ -37,20 +80,7 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV0puM2EyN3NoY05WNjJHdm12bU54d0RGd0J5V1BFTGduVjNBUWFTd1ZCMTVVaTRMeHJkcGw1SnpFaW5GSUx5S0I5NUd0d3d5OUx0SVJoaTcycjJuQWdLWXIzaXVEbncySlpFcHYxUndlZmxJc3BGVml4UFdZaXg3QTBza3RqWjN6Z0FHSnVocHVOdEk3dWtlNTJDeFpvTExVY0xFWU5fY1FVVjFQNjMyVzhRRW5Rcnc?oc=5",
             "fecha": "2026-08-14T04:10:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Gold heads for weekly loss as investors unwind inflation-fuelled rally - Reuters",
-        "resumen": "Los precios del oro experimentaron una tendencia a la baja en los mercados internacionales a medida que los inversores reducen sus posiciones tras el reciente encarecimiento.",
-        "articulos": [
+          },
           {
             "titular": "Gold heads for weekly loss as investors unwind inflation-fuelled rally - Reuters",
             "extracto": "",
@@ -59,6 +89,33 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFUzNXBldnVZT2ZFWGJIRFExajVuME9DY1hMRXhMdVBEeXRISU93ME1rSFVjZTVaM3JHSkgyQkFLUm55ODdfVmdXQzRhenV3dE1fZHBFR1UySXRhcXRtdzh2QzhXeU5hN1FxYmpLNnFEYzJjM2xnZkFRWTdZdHNva0UzcVFRX1dTSmJkZlFZWTJ1Y1RBOUZjWHpqOVRnQnZScmZsZjNKRlVoMUtleGhJYg?oc=5",
             "fecha": "2026-08-14T04:02:00+00:00"
+          },
+          {
+            "titular": "Stocks near record highs; benign US inflation eclipses oil rally - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
+            "fecha": "2026-08-14T02:32:00+00:00"
+          },
+          {
+            "titular": "Yen's weekly loss puts more intervention on traders' radar - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdOaGFHQW9UT2djdjRLSnBkeE9pMnJ4N3NkSVlxczRQZ0otbmJTNS1fa2VOU3dqcExCRGgwYVAxY0lKQnZvc2JUSk9BcGlkT3pPdTlRLWQzVlRuR1F4ZTBFd2FkRkVNZnFLQ2dwUXY4RlZQdjFjNngyZVp5SWd0LVJSUnNidmcwTUdnRDJOd2hsa0xaQ1Z5VmM1WmdjS3NnNmRubmdFVXpaTUk2LURMZQ?oc=5",
+            "fecha": "2026-08-14T01:47:00+00:00"
+          },
+          {
+            "titular": "Central banks spearhead renewed gold rush - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLVlZYzV6TWZuc2dhTC04UXdWYU9sNkJFQjhGYmozeTJveTJ0SVJTQWsxUVVReXJqSmxwcFdNc2tnMllrMVBIVUNSNDRGOTFuM2hfVUxXbUpTNkRvRU9mcHVRdU1xY1dSUjBJMWZ6Sy1jQXVGLWpoZTFhUWhwYmZzTlBsUlJ2ekJCLUtMLWlGWG9SVFBFZ3daUUk5WEhBakdtbk13ZTFRUDNkZWlEZk9Z?oc=5",
+            "fecha": "2026-08-13T23:30:25+00:00"
           }
         ],
         "leans_presentes": [
@@ -70,8 +127,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Proceso de reciprocidad y posibles represalias de Brasil ante los aranceles de Estados Unidos",
-        "resumen": "El gobierno brasileño aún evalúa la respuesta adecuada ante los gravámenes impuestos por Estados Unidos, pero ratificó su firmeza para salvaguardar sus intereses comerciales.",
+        "titulo_neutral": "Medidas de reciprocidad y represalias de Brasil ante los aranceles de Estados Unidos",
+        "resumen": "El gobierno brasileño ha iniciado un procedimiento de reciprocidad en respuesta a los gravámenes comerciales impuestos por Estados Unidos. Aunque aún no define sanciones definitivas, el país sudamericano reafirma su intención de proteger sus intereses.",
         "articulos": [
           {
             "titular": "Brazil begins exploring retaliatory options to new US tariffs",
@@ -103,84 +160,8 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Acusaciones de Estados Unidos sobre evasión de aranceles y transbordo de mercancías por parte de China",
-        "resumen": "Un análisis reciente de Washington reveló que mercancías procedentes del territorio chino fueron desviadas a través de terceros países con aranceles más bajos para eludir los recargos.",
-        "articulos": [
-          {
-            "titular": "US says dozens of countries helped China dodge Trump's tariffs",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-14T03:09:48+00:00"
-          },
-          {
-            "titular": "White House says transshipped goods cost $19 billion to $26 billion in lost tariffs - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUnd4NlphQnNDV1c5X0xlSW9rQmd2bGRDX2xPMi1HT0RzM1NpX0xhVDJkTnNQX2hoQ0xoNHFyc29JNTAtaGlDaFo4ODJMU1ZJRk80bEs0bDR2Nzk5U0c4WWRVb09ER2dHTE42Q1hVZ2xtUXB4NFZNSkJXdWVHT3NEZnJIeXh2aEZQNnc5VU9DOTBfRkY4Szk5Q0UzUkZ6ZTVFeWt5SzBST1JtNlZrWmF1NGVaakdDLWIzYmJCNzRVQU80SFJvaXpyUGVsUGY1MHlJcndJVkM3REw?oc=5",
-            "fecha": "2026-08-14T00:15:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "BBC",
-          "Reuters"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
-        "resumen": "Los mercados bursátiles en la región asiática se encaminan hacia un cierre semanal positivo impulsados por la disminución en las expectativas de subidas de tipos en Norteamérica.",
-        "articulos": [
-          {
-            "titular": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
-            "fecha": "2026-08-14T02:32:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Yen's weekly loss puts more intervention on traders' radar - Reuters",
-        "resumen": "La depreciación semanal de la moneda japonesa incrementa la probabilidad de que las autoridades monetarias intervengan en los mercados cambiarios.",
-        "articulos": [
-          {
-            "titular": "Yen's weekly loss puts more intervention on traders' radar - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdOaGFHQW9UT2djdjRLSnBkeE9pMnJ4N3NkSVlxczRQZ0otbmJTNS1fa2VOU3dqcExCRGgwYVAxY0lKQnZvc2JUSk9BcGlkT3pPdTlRLWQzVlRuR1F4ZTBFd2FkRkVNZnFLQ2dwUXY4RlZQdjFjNngyZVp5SWd0LVJSUnNidmcwTUdnRDJOd2hsa0xaQ1Z5VmM1WmdjS3NnNmRubmdFVXpaTUk2LURMZQ?oc=5",
-            "fecha": "2026-08-14T01:47:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Aranceles de Estados Unidos a la importación de drones",
-        "resumen": "La administración estadounidense anunció aranceles severos a la importación de aeronaves no tripuladas y sus piezas. La medida busca disminuir la dependencia exterior y proteger la seguridad interior del país.",
+        "titulo_neutral": "Imposición de aranceles a la importación de drones por parte de la administración Trump",
+        "resumen": "El mandatario estadounidense decretó aranceles de hasta el 100% a la importación de aeronaves no tripuladas y sus componentes, incluidos aliados estratégicos. La medida busca disminuir la dependencia exterior y proteger la seguridad nacional.",
         "articulos": [
           {
             "titular": "Trump imposes tariffs of up to 100% on drone imports",
@@ -209,12 +190,97 @@
           "Reuters"
         ],
         "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Declaraciones y decisiones sobre las tasas de interés de la Reserva Federal",
+        "resumen": "Un informe de la Reserva Federal sugiere incrementar los tipos de interés para contener el crecimiento económico y las presiones inflacionarias. Por otra parte, diversas corporaciones tecnológicas y energéticas evalúan estrategias financieras ante un entorno global incierto.",
+        "articulos": [
+          {
+            "titular": "Fed should raise rates to restrain growth and inflation, Hammack says - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHBQbGpaRk5FcmRfWTlhRmNHeFJiWlpOY2pyY25qdzFka19seGhUU29vMWlvVkxzdW1oMUtYVjN0bU1WNzBsRzZxOS1BLWdRRXVPdDdBdGdPVFRSU2dMZWtXbHZQcmZHTFdhQVU1RXNBYVVyZUdoTjE1RmluSXRxUUpkQXFqUkRXR0RHZ3Fxakh4dEJYY0FUM2toSTNyMFlCc3VpTHlCVTZUbGMtZGZFN0hkVG8?oc=5",
+            "fecha": "2026-08-13T21:24:49+00:00"
+          },
+          {
+            "titular": "Fed holds rates as inflation fears grow",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
+            "fecha": "2026-07-30T04:00:00+00:00"
+          },
+          {
+            "titular": "Hike or hold: Investors split ahead of Fed decision",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
+            "fecha": "2026-07-27T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Impacto del conflicto entre Estados Unidos e Irán en las reservas mundiales de petróleo",
+        "resumen": "Analistas económicos evalúan si las reservas internacionales de crudo serán suficientes para sostener un posible conflicto prolongado entre Estados Unidos e Irán. La incertidumbre geopolítica continúa generando preocupación en los mercados energéticos mundiales.",
+        "articulos": [
+          {
+            "titular": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
+            "fecha": "2026-08-13T21:21:16+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Decisión judicial en Estados Unidos sobre la exención arancelaria 'de minimis'",
+        "resumen": "Un tribunal federal estadounidense ha dado la razón al ejecutivo en su facultad para eliminar la exención arancelaria conocida como 'de minimis'.",
+        "articulos": [
+          {
+            "titular": "US court backs Trump's power to close 'de minimis' tariff exemption - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXhFNjllamU3TlBVNHBOUk9tellaaVEyTWZ3UkstVkljTUZPeElURVhIQTNXZlRPMnRBUEtZUWk3cXJ3aXdNZHJRRFJhaVBobGpVZVgxQ0ZVU0t2d29WbHQ2dnk0T3FRaGxWaVU1N24zUGgyc2Y5dEtZQXRENHlOWmpnTmR5a0VSMnFTQzdIWXdHcnlVLU9qektYRFdGbUpXdEx3clk1X3ctZjl6RVp1LTkzUHY?oc=5",
+            "fecha": "2026-08-13T20:47:02+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "El Tribunal Constitucional se pronuncia sobre la invariabilidad tributaria y la restitución por RCA",
-        "resumen": "El Tribunal Constitucional aprobó de manera parcial las impugnaciones presentadas contra la ley de reconstrucción. El organismo anuló ciertos puntos referidos a la relocalización de cultivos acuícolas y modificó aspectos vinculados a la invariabilidad tributaria.",
+        "titulo_neutral": "Fallo del Tribunal Constitucional sobre la Ley de Reconstrucción en materia de invariabilidad tributaria e indemnización por RCA",
+        "resumen": "El Tribunal Constitucional aprobó parcialmente las impugnaciones presentadas contra la ley de reconstrucción, ratificando ciertos aspectos de la invariabilidad tributaria y rechazando las normas sobre relocalización salmonera.",
         "articulos": [
           {
             "titular": "Qué significa que el TC validara invariabilidad tributaria, pero derribara la indemnización por RCA anulada",
@@ -264,7 +330,7 @@
       },
       {
         "titulo_neutral": "Renuncia de la ministra del Deporte Natalia Duco y del subsecretario Andrés Otero",
-        "resumen": "Se confirmaron las dimisiones de la ministra del Deporte y del subsecretario de dicha cartera. Las salidas se concretaron en medio de cuestionamientos públicos por el uso indebido de automóviles institucionales y diversas controversias previas.",
+        "resumen": "Se confirmó la renuncia de la titular del Ministerio del Deporte y de su subsecretario, tras una serie de controversias y cuestionamientos públicos durante su administración.",
         "articulos": [
           {
             "titular": "Presidente Kast acepta renuncia de ministra del Deporte, Natalia Duco, tras denuncia de mal uso de auto fiscal",
@@ -296,7 +362,7 @@
       },
       {
         "titulo_neutral": "Una zanja, desratización y una campaña de adopción de mascotas: lo que se viene tras el término del desalojo de la megatoma de San Antonio",
-        "resumen": "Concluyeron las labores de desmantelamiento de construcciones irregulares en el sector de Cerro Centinela, permitiendo la devolución del predio a su legítimo dueño. Las autoridades locales confirmaron que se están implementando medidas perimetrales para evitar nuevas ocupaciones ilegales.",
+        "resumen": "Concluyeron las labores de demolición y despeje en los terrenos del Cerro Centinela, los cuales fueron formalmente devueltos a su legítimo dueño bajo medidas de resguardo perimetral.",
         "articulos": [
           {
             "titular": "Una zanja, desratización y una campaña de adopción de mascotas: lo que se viene tras el término del desalojo de la megatoma de San Antonio",
@@ -318,7 +384,7 @@
       },
       {
         "titulo_neutral": "Sueca Legora busca duplicar su valorización y acortar distancia con Harvey en carrera por IA legal",
-        "resumen": "",
+        "resumen": "Una compañía sueca de tecnología alcanzó una alta valorización de mercado recientemente, impulsada por el auge en la demanda de aplicaciones basadas en inteligencia artificial.",
         "articulos": [
           {
             "titular": "Sueca Legora busca duplicar su valorización y acortar distancia con Harvey en carrera por IA legal",
@@ -340,7 +406,7 @@
       },
       {
         "titulo_neutral": "Plan de seguridad: Los detalles de la propuesta de Arrau que rechazó la ministra Chomali",
-        "resumen": "",
+        "resumen": "Una propuesta preliminar orientada a la seguridad ciudadana contempla prohibir el acceso a diversos beneficios sociales y laborales a personas que cuenten con sentencias condenatorias.",
         "articulos": [
           {
             "titular": "Plan de seguridad: Los detalles de la propuesta de Arrau que rechazó la ministra Chomali",
@@ -362,7 +428,7 @@
       },
       {
         "titulo_neutral": "Khristian Briones, el expresidiario que fundó una empresa para reinsertar a exconvictos: “La reinserción no es solamente dar un trabajo”",
-        "resumen": "Un hombre con un pasado marcado por la reclusión y las calles creó una organización y una empresa social enfocada en ofrecer oportunidades laborales a personas con antecedentes judiciales. La iniciativa busca facilitar una integración efectiva a la sociedad más allá de la mera contratación.",
+        "resumen": "Un exrecluso creó una corporación productiva enfocada en ofrecer oportunidades laborales exclusivamente a ciudadanos con antecedentes judiciales, promoviendo así su integración efectiva a la sociedad.",
         "articulos": [
           {
             "titular": "Khristian Briones, el expresidiario que fundó una empresa para reinsertar a exconvictos: “La reinserción no es solamente dar un trabajo”",
@@ -383,7 +449,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Informe de Estados Unidos sobre Chile y la evasión de aranceles de China",
+        "titulo_neutral": "Informe de Estados Unidos sobre Chile respecto a China y aranceles",
         "resumen": "",
         "articulos": [
           {
@@ -416,7 +482,7 @@
       },
       {
         "titulo_neutral": "AES Andes descarta efectos locales por venta de su matriz en EEUU y advierte que el gran desafío del país es la seguridad del sistema",
-        "resumen": "",
+        "resumen": "Durante la apertura de un nuevo centro tecnológico, una empresa energética confirmó que mantendrá sus planes estratégicos en el país, proyectando que la gran mayoría de su oferta provenga de fuentes limpias.",
         "articulos": [
           {
             "titular": "AES Andes descarta efectos locales por venta de su matriz en EEUU y advierte que el gran desafío del país es la seguridad del sistema",
@@ -439,34 +505,34 @@
     ],
     "actualidad": [
       {
-        "titular": "NATO jets shoot down drone flying over eastern Latvia",
+        "titular": "Russia says hit Ukrainian railway and port facilities in new strikes",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/14/russia-says-hit-ukrainian-railway-and-port-facilities-in-new-strikes?traffic_source=rss",
+        "fecha": "2026-08-14T09:28:03+00:00"
+      },
+      {
+        "titular": "Swiatek defeats Rybakina to claim Canadian Open title​",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/8/14/swiatek-defeats-rybakina-to-claim-canadian-open?traffic_source=rss",
+        "fecha": "2026-08-14T09:26:54+00:00"
+      },
+      {
+        "titular": "UK far-right leader Farage re-elected in boycotted by-election",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/uk-far-right-leader-farage-re-elected-in-boycotted-by-election?traffic_source=rss",
+        "fecha": "2026-08-14T09:24:24+00:00"
+      },
+      {
+        "titular": "Israeli settlers seize Palestinian water source in occupied West Bank to create recreational pool",
         "medio": "France24",
-        "url": "https://www.france24.com/en/europe/20260814-nato-jets-shoot-down-drone-flying-over-eastern-latvia",
-        "fecha": "2026-08-14T08:03:44+00:00"
+        "url": "https://www.france24.com/en/middle-east/20260814-israeli-settlers-seize-palestinian-water-source-in-occupied-west-bank-to-create-recreational-pool",
+        "fecha": "2026-08-14T09:23:33+00:00"
       },
       {
-        "titular": "Teens who fled Venezuela after deadly quakes caught in another disaster in Colombia",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c9v42m3430vo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-14T08:02:35+00:00"
-      },
-      {
-        "titular": "Stolen Matisse art found in Brazil",
+        "titular": "La Liga: Barcelona key talking points heading into new 2026-27 season",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/stolen-matisse-art-found-in-brazil?traffic_source=rss",
-        "fecha": "2026-08-14T07:47:05+00:00"
-      },
-      {
-        "titular": "South Africa end Nigeria’s Women’s World Cup hope, Ghana beat Ivory Coast",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/14/south-africa-end-nigerias-womens-world-cup-hope-ghana-beat-ivory-coast?traffic_source=rss",
-        "fecha": "2026-08-14T07:44:25+00:00"
-      },
-      {
-        "titular": "Prichard Colon dies from boxing injury that resulted in 221-day coma",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/14/boxer-prichard-colon-dies-from-brain-injury-that-resulted-in-221-day-coma?traffic_source=rss",
-        "fecha": "2026-08-14T07:11:26+00:00"
+        "url": "https://www.aljazeera.com/sports/2026/8/14/la-liga-barcelona-key-talking-points-heading-into-new-2026-27-season?traffic_source=rss",
+        "fecha": "2026-08-14T09:20:37+00:00"
       }
     ]
   },
@@ -716,6 +782,10 @@
           },
           {
             "fecha": "2026-08-14T08:00:00",
+            "valor": 506.93
+          },
+          {
+            "fecha": "2026-08-14T09:00:00",
             "valor": 506.93
           }
         ],
@@ -3898,8 +3968,17 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
+          "extracto": "Pronto se revelarán las operaciones bursátiles realizadas por Berkshire Hathaway durante el segundo trimestre del año. La información detallará las compras y ventas de acciones gestionadas por la nueva directiva.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/14/warren-buffett-abel-drop-bombshell-wall-st-today/?.tsrc=rss",
+          "fecha": "2026-08-14T09:26:00+00:00"
+        },
+        {
           "titular": "Should You Forget Berkshire Hathaway and Buy a Focused Financial Stock Instead?",
-          "extracto": "Existe actualmente una alternativa que asegura un rendimiento financiero garantizado.",
+          "extracto": "En la actualidad, existe una alternativa financiera que asegura un rendimiento financiero sin riesgo. Esta opción garantiza a los inversores una ganancia fija sobre el capital invertido.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3908,7 +3987,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Sees Precision Castparts Value Reappraised On Aircraft Demand",
-          "extracto": "La filial Precision Castparts de Berkshire Hathaway ha incrementado notablemente su valor gracias a la sólida demanda en el sector aeronáutico. Este repunte económico resalta la efectividad de las grandes inversiones industriales del conglomerado.",
+          "extracto": "El valor de Precision Castparts, filial de Berkshire Hathaway, ha aumentado significativamente impulsado por la alta demanda en el sector aeronáutico. Esta revalorización supera el costo de compra original, destacando el acierto de la compañía en sus inversiones industriales a gran escala.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3917,7 +3996,7 @@
         },
         {
           "titular": "Berkshire Bought Alphabet Stock in Q2—and Maybe Microsoft Too",
-          "extracto": "Un reporte financiero indica que Berkshire Hathaway mantuvo una alta actividad compradora de títulos accionarios recientemente, destacando la adquisición de acciones de Alphabet y posiblemente de Microsoft.",
+          "extracto": "Un documento financiero reciente indica que Berkshire Hathaway mantuvo una intensa actividad de inversión en el mercado accionario. Entre las adquisiciones destacadas figuran títulos de Alphabet, y posiblemente también de Microsoft.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3925,17 +4004,8 @@
           "fecha": "2026-08-13T20:07:00+00:00"
         },
         {
-          "titular": "FlightSafety: How To Find & Own America's Greatest Opportunities",
-          "extracto": "Fundada a principios de la década de 1950, la firma FlightSafety debutó en la bolsa de valores a finales de los años sesenta y protagonizó un evento bursátil relevante una década después.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/01e430ea-be95-32f8-a991-30a95fb583e8/flightsafety%3A-how-to-find-%26.html?.tsrc=rss",
-          "fecha": "2026-08-13T18:32:47+00:00"
-        },
-        {
           "titular": "Berkshire's Insurance Business: The Horsepower of its Growth Story",
-          "extracto": "La sólida gestión de riesgos y los cuantiosos fondos de seguros de Berkshire Hathaway impulsan tanto su expansión como la generación de valor a largo plazo para sus inversores.",
+          "extracto": "La gestión prudente en la suscripción de pólizas y un fondo de seguros multimillonario permiten a Berkshire Hathaway financiar su expansión. Estos recursos impulsan la asignación eficiente de capital y la creación sostenida de valor para los accionistas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4353,6 +4423,10 @@
           },
           {
             "fecha": "2026-08-14T08:00:00",
+            "valor": 272.25
+          },
+          {
+            "fecha": "2026-08-14T09:00:00",
             "valor": 272.25
           }
         ],
@@ -7536,7 +7610,7 @@
       "noticias": [
         {
           "titular": "Are Innovative Beverages Enough to Turn McDonald's Around?",
-          "extracto": "La compañía busca expandirse incorporando nuevas opciones culinarias y haciendo más eficientes sus procesos internos.",
+          "extracto": "La empresa busca optimizar su funcionamiento interno al mismo tiempo que amplía la variedad de sus platillos como parte de su plan de expansión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7545,7 +7619,7 @@
         },
         {
           "titular": "Costco makes a pricing promise members need to know",
-          "extracto": "Las ofertas económicas de Wendy's amenazan la retención de clientes con presupuestos ajustados en las cadenas rivales.",
+          "extracto": "El menú económico lanzado por Wendy's amenaza con atraer a los clientes con presupuestos ajustados que habitualmente consumen en cadenas rivales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7554,7 +7628,7 @@
         },
         {
           "titular": "McDonald's (MCD): Buy, Sell, or Hold Post Q2 Earnings?",
-          "extracto": "Las acciones de McDonald's experimentaron una caída del 15,3% en medio año, contrastando con el crecimiento general del mercado bursátil.",
+          "extracto": "Las acciones de McDonald's registraron una caída del 15,3% en el último semestre, un rendimiento inferior al del mercado general que preocupa a los accionistas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7562,22 +7636,22 @@
           "fecha": "2026-08-13T17:09:00+00:00"
         },
         {
-          "titular": "5 Insightful Analyst Questions From McDonald's’s Q2 Earnings Call",
-          "extracto": "Los ingresos trimestrales de McDonald's cumplieron con las previsiones, aunque la directiva admitió fallas operativas y en la gestión de ofertas en EE. UU.",
+          "titular": "The Advertising Research Foundation Announces 2026 ARF David Ogilvy Awards Finalists",
+          "extracto": "Se dieron a conocer los candidatos que competirán en la edición 2026 de los galardones organizados por la Fundación de Investigación en Publicidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-mcdonalds-050100440.html?.tsrc=rss",
-          "fecha": "2026-08-13T05:01:00+00:00"
+          "url": "https://finance.yahoo.com/media-advertising/articles/advertising-research-foundation-announces-2026-150200996.html?.tsrc=rss",
+          "fecha": "2026-08-13T15:02:00+00:00"
         },
         {
-          "titular": "Why fast food chains like McDonald's and Starbucks are going all in on energy drinks",
-          "extracto": "",
+          "titular": "Arcos Dorados Shares Jump 7% as Q2 Earnings Beat and Revenue Hits Record",
+          "extracto": "El valor bursátil de la compañía operadora de McDonald's en América Latina aumentó un 7% tras superar las proyecciones financieras del segundo trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/article/why-fast-food-chains-like-mcdonalds-and-starbucks-are-going-all-in-on-energy-drinks-140403330.html?.tsrc=rss",
-          "fecha": "2026-08-12T14:04:03+00:00"
+          "url": "https://investorshub.advfn.com/market-news/article/34258/arcos-dorados-shares-jump-7-as-q2-earnings-beat-and-revenue-hits-record?.tsrc=rss",
+          "fecha": "2026-08-13T13:38:55+00:00"
         }
       ],
       "fundamentales": {
@@ -8153,6 +8227,10 @@
           },
           {
             "fecha": "2026-08-14T08:00:00",
+            "valor": 496.88
+          },
+          {
+            "fecha": "2026-08-14T09:00:00",
             "valor": 496.88
           }
         ],
@@ -11335,35 +11413,17 @@
       },
       "noticias": [
         {
-          "titular": "Bleeding-Edge AI Meets Cutting-Edge Finance. Is This Peak AI?",
-          "extracto": "Se han propuesto nuevos contratos de futuros orientados a permitir que los inversores especulen y se protejan frente a las fluctuaciones en el costo de alquilar procesadores para inteligencia artificial.",
+          "titular": "MetriStar Top Provider: Room Video Conferencing Report: Evaluating Customer Sentiment, Business Value, and Market Strategies of Cisco, Zoom, Microsoft, and Logitech",
+          "extracto": "Un nuevo informe de mercado analiza las soluciones de videoconferencia para salas híbridas, destacando la demanda de equipos integrados y soporte para plataformas populares. Los fabricantes buscan destacar mediante la confiabilidad, la reducción de costos y el aumento de la productividad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/c34b8123-cb29-3b50-9bfd-26cb6f8912d7/bleeding-edge-ai-meets.html?.tsrc=rss",
-          "fecha": "2026-08-14T05:30:00+00:00"
-        },
-        {
-          "titular": "Microsoft just found another way to make PCs more expensive, because apparently they weren’t pricey enough",
-          "extracto": "El costo de las computadoras personales está aumentando debido a un incremento de hasta un 10% en las tarifas de licencias de Microsoft, sumado al encarecimiento de los componentes de hardware.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.digitaltrends.com/computing/microsoft-just-found-another-way-to-make-pcs-more-expensive-because-apparently-they-werent-pricey-enough/?.tsrc=rss",
-          "fecha": "2026-08-14T04:02:19+00:00"
-        },
-        {
-          "titular": "Microsoft and Tesla Share a Common Concern, but Here's Why One Is Much More Justified",
-          "extracto": "Los mercados financieros muestran menor preocupación por los desembolsos corporativos cuando existe la perspectiva de obtener un rendimiento claro.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/13/microsoft-and-tesla-share-a-common-concern-but-her/?.tsrc=rss",
-          "fecha": "2026-08-14T00:20:00+00:00"
+          "url": "https://finance.yahoo.com/technology/articles/metristar-top-provider-room-video-080100716.html?.tsrc=rss",
+          "fecha": "2026-08-14T08:01:00+00:00"
         },
         {
           "titular": "The Best \"Magnificent Seven\" Stocks to Buy in August",
-          "extracto": "El grupo de acciones conocido como los 'Siete Magníficos' ha registrado un rendimiento financiero mayormente desfavorable durante el transcurso de este año.",
+          "extracto": "El grupo de empresas conocido como los 'Siete Magníficos' ha registrado un rendimiento mayormente bajo durante el transcurso del año actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11372,12 +11432,30 @@
         },
         {
           "titular": "Is Stronger Career Learning And Capital Returns Altering The Investment Case For Stride (LRN)?",
-          "extracto": "Stride reportó un incremento en sus ingresos anuales a 2,522 millones de dólares para el cierre de su año fiscal 2026, extendió su programa de recompra de acciones y nombró a Robert E. Knowling Jr. como su nuevo director ejecutivo.",
+          "extracto": "Stride reportó un incremento en sus ingresos anuales y en su rentabilidad, además de extender su programa de recompra de acciones y nombrar a un nuevo director ejecutivo. La empresa también indicó que mantiene su enfoque en el crecimiento de sus programas educativos y en la evaluación de posibles adquisiciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/stronger-career-learning-capital-returns-071352655.html?.tsrc=rss",
           "fecha": "2026-08-14T07:13:52+00:00"
+        },
+        {
+          "titular": "Pershing Square Q2 Earnings Call Highlights",
+          "extracto": "Durante su primera conferencia de resultados como empresa pública, Pershing Square detalló su enfoque en la creación de valor a largo plazo a través de sus inversiones actuales y la creación selectiva de nuevos fondos.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.marketbeat.com/instant-alerts/pershing-square-q2-earnings-call-highlights-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "fecha": "2026-08-14T06:04:22+00:00"
+        },
+        {
+          "titular": "Bleeding-Edge AI Meets Cutting-Edge Finance. Is This Peak AI?",
+          "extracto": "La introducción de nuevos contratos de futuros brindará a los inversionistas la capacidad de gestionar riesgos y especular en torno al precio del alquiler de semiconductores orientados a la inteligencia artificial.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/m/c34b8123-cb29-3b50-9bfd-26cb6f8912d7/bleeding-edge-ai-meets.html?.tsrc=rss",
+          "fecha": "2026-08-14T05:30:00+00:00"
         }
       ],
       "fundamentales": {
@@ -12013,6 +12091,10 @@
           },
           {
             "fecha": "2026-08-14T08:00:00",
+            "valor": 714.95
+          },
+          {
+            "fecha": "2026-08-14T09:00:00",
             "valor": 714.95
           }
         ],
@@ -15196,7 +15278,7 @@
       "noticias": [
         {
           "titular": "This Stellar High Yield Vanguard ETF Is Beating VTI and VOO This Year",
-          "extracto": "Un fondo de Vanguard ha superado a índices populares sin usar apalancamiento, al invertir en sectores que suelen ignorar los inversionistas estadounidenses. Sin embargo, su desempeño a diez años presenta resultados más complejos.",
+          "extracto": "Un fondo de Vanguard ha superado a índices populares sin usar apalancamiento, al invertir en mercados que los estadounidenses suelen ignorar. Sin embargo, su desempeño a diez años presenta ciertos contrastes importantes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15205,7 +15287,7 @@
         },
         {
           "titular": "Which Is the Better S&P 500 ETF, Vanguard's VOO or the iShares IVV?",
-          "extracto": "Dos fondos con comisiones anuales de 0,03% registraron una rentabilidad idéntica del 22,8% en el último año, aunque poseen volúmenes de activos diferentes.",
+          "extracto": "Dos fondos con comisiones anuales idénticas del 0,03% registraron una rentabilidad del 22,8% en el último año, aunque uno de ellos gestiona un volumen de capital considerablemente mayor.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15214,7 +15296,7 @@
         },
         {
           "titular": "If I Could Invest $1,000 in Just 1 ETF in August, I'd Pick This Clear Standout Over the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Este fondo cotizado en bolsa proporciona a los inversionistas una combinación poco común de títulos enfocados en crecimiento, valor y dividendos.",
+          "extracto": "Este fondo cotizado en bolsa brinda a los inversionistas una combinación poco común de activos orientados al crecimiento, al valor y a la generación de dividendos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15223,7 +15305,7 @@
         },
         {
           "titular": "The S&P 500 Costs 27.5 Times Earnings. History Says What a Starting Multiple That High Buys You Over 10 Years.",
-          "extracto": "La gestora proyecta un rendimiento anual moderado para las acciones estadounidenses durante la próxima década. Analizar el contexto histórico de dichas cifras resulta fundamental.",
+          "extracto": "La gestora proyecta que las acciones estadounidenses generarán un rendimiento anual moderado de entre 4,2% y 6,2% en la próxima década. Analizar el contexto histórico de estas estimaciones resulta fundamental.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15232,7 +15314,7 @@
         },
         {
           "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
-          "extracto": "Un prominente fondo vinculado al S&P 500 administra una enorme cantidad de fondos para el retiro. No obstante, muchos de sus beneficiarios desconocen su código bursátil y no pueden adquirir participaciones de manera independiente.",
+          "extracto": "Un importante fondo vinculado al S&P 500 administra enormes sumas destinadas a pensiones, a pesar de que los beneficiarios finales no suelen identificar su código bursátil ni pueden adquirirlo de forma directa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
