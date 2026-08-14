@@ -61463,12 +61463,20 @@
           }
         }
       ],
-      "actualizado": "2026-08-14T22:39:22.261837+00:00"
+      "actualizado": "2026-08-14T22:43:11.334758+00:00"
     },
     {
       "id": "amigo2-p4w8n1",
       "nombre": "Amigo 2",
       "seguimientos": [
+        {
+          "tipo": "ticker",
+          "valor": "AMD",
+          "datos": {
+            "precio": 514.39,
+            "var_dia_pct": 6.4968
+          }
+        },
         {
           "tipo": "palabra_clave",
           "valor": "baterías de litio",
@@ -61491,17 +61499,9 @@
               }
             ]
           }
-        },
-        {
-          "tipo": "ticker",
-          "valor": "AMD",
-          "datos": {
-            "precio": 514.39,
-            "var_dia_pct": 6.4968
-          }
         }
       ],
-      "actualizado": "2026-08-14T22:39:22.261837+00:00"
+      "actualizado": "2026-08-14T22:43:11.334758+00:00"
     }
   ]
 }
