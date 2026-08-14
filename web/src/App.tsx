@@ -99,21 +99,29 @@ function App() {
             <Referencias referencias={daily.referencias} />
           </Seccion>
 
-          <Seccion id="mundo" titulo="Mundo">
-            {daily.bloques.mundo.map((h) => (
-              <Historia key={h.titulo_neutral} historia={h} />
-            ))}
-          </Seccion>
+          <div className="vista-hoy-ancha">
+            <div className="vista-hoy-ancha-inner">
+              <div className="vista-hoy-principal">
+                <Seccion id="mundo" titulo="Mundo">
+                  {daily.bloques.mundo.map((h) => (
+                    <Historia key={h.titulo_neutral} historia={h} />
+                  ))}
+                </Seccion>
 
-          <Seccion id="chile" titulo="Chile">
-            {daily.bloques.chile.map((h) => (
-              <Historia key={h.titulo_neutral} historia={h} />
-            ))}
-          </Seccion>
+                <Seccion id="chile" titulo="Chile">
+                  {daily.bloques.chile.map((h) => (
+                    <Historia key={h.titulo_neutral} historia={h} />
+                  ))}
+                </Seccion>
+              </div>
 
-          <Seccion id="actualidad" titulo="Actualidad" compacta>
-            <Actualidad items={daily.bloques.actualidad} />
-          </Seccion>
+              <div className="vista-hoy-sidebar">
+                <Seccion id="actualidad" titulo="Actualidad" compacta>
+                  <Actualidad items={daily.bloques.actualidad} />
+                </Seccion>
+              </div>
+            </div>
+          </div>
         </>
       )}
 
