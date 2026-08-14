@@ -3,17 +3,41 @@
     "id": "amigo1-k9x2m7",
     "nombre": "Amigo 1",
     "seguimientos": [
-      { "tipo": "ticker", "valor": "NVDA" },
-      { "tipo": "ticker", "valor": "TSLA" },
-      { "tipo": "palabra_clave", "valor": "inteligencia artificial" }
+      {
+        "tipo": "ticker",
+        "valor": "NVDA"
+      },
+      {
+        "tipo": "ticker",
+        "valor": "TSLA"
+      },
+      {
+        "tipo": "palabra_clave",
+        "valor": "inteligencia artificial"
+      }
     ]
   },
   {
     "id": "amigo2-p4w8n1",
     "nombre": "Amigo 2",
     "seguimientos": [
-      { "tipo": "palabra_clave", "valor": "baterías de litio" },
-      { "tipo": "ticker", "valor": "AMD" }
-    ]
+      {
+        "tipo": "ticker",
+        "valor": "AMD"
+      },
+      {
+        "tipo": "ticker",
+        "valor": "NFLX"
+      },
+      {
+        "tipo": "palabra_clave",
+        "valor": "baterías de litio"
+      },
+      {
+        "tipo": "palabra_clave",
+        "valor": "streaming"
+      }
+    ],
+    "ultima_edicion": "2026-08-14T22:40:38.497Z"
   }
 ]
