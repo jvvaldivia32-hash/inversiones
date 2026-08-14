@@ -61422,48 +61422,86 @@
     {
       "id": "amigo1-k9x2m7",
       "nombre": "Amigo 1",
-      "modo": "tickers",
-      "datos": {
-        "tickers": [
-          {
-            "ticker": "NVDA",
-            "precio": 225.21,
-            "var_dia_pct": -0.0399
-          },
-          {
-            "ticker": "TSLA",
-            "precio": 340.7,
-            "var_dia_pct": 0.2177
+      "seguimientos": [
+        {
+          "tipo": "ticker",
+          "valor": "NVDA",
+          "datos": {
+            "precio": 225.16,
+            "var_dia_pct": -0.0621
           }
-        ]
-      },
-      "actualizado": "2026-08-14T19:05:27.931398+00:00"
+        },
+        {
+          "tipo": "ticker",
+          "valor": "TSLA",
+          "datos": {
+            "precio": 342.27,
+            "var_dia_pct": 0.6795
+          }
+        },
+        {
+          "tipo": "palabra_clave",
+          "valor": "inteligencia artificial",
+          "datos": {
+            "titulares": [
+              {
+                "titular": "Meta lanza nuevo modelo de Inteligencia Artificial - dw.com",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTWFoWnhUcTJYakZqZzVtY2V3TU12TVpGdXg1QTZ2SnhFTHd0RjEzRlQ0NkVQWEpuS0huOThyYzlFd05LOVJ4V1U4OXdJOGJobldXUWZROXF2SngyTkFYWFhEQU1tam9BY2JFR0VCYlNZLVFBUnlSZGx0azRBX0pzZWdRQTd1X3h5ZjNR0gGLAUFVX3lxTFB5UkdPNDZGcFVkUnFpZl9tb1E2RVZNQXNFMEowWjlmSHRLLTNpeFowZTNqcUhTVi1wUE8tYVlfQkI3VGl4dUZwVHhzcjJwSmhKU0dCS2xfakFKN0VsYy1GZ0hicGNkUEd5eDQ1WHd3RFhTbmJsaGh3NTJaOEVvQkFRRm9YcEhPWTRUODA?oc=5"
+              },
+              {
+                "titular": "Docentes UFRO fortalecen competencias para integrar la Inteligencia Artificial en la docencia - Universidad de La Frontera",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRDN4aTgyRVliSGJFUXhFVmxqeWEtNEJ1MUMtRm9SOFVDN2xtSHVtR19HRUZ0YnltaHVGR0xkaVNzQ0UwM0ZHZFZIVDg0ckFOYnVGNkdjQ0tScl9DcHBsWE5GVm1yc3J5eDhOekF0NnNjS1BaMXlqQS1nUjIwaVBVTnFJOVIxdllGb3VIX2lsSWF5NlpnWEJwWm0yWkluU0VJc2dSTXFSaC1WTDdVQWdMXzZLdWU4dzFOSEhxTVc1LTI?oc=5"
+              },
+              {
+                "titular": "INACAP inicia despliegue de su Estrategia de Inteligencia Artificial para fortalecer capacidades e impulsar la innovación - portal.inacap.cl",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeWRDTjhYbkZrYngzemdhcm1HSExaRlNjZWVYdlhIaFl2d0RDSHl5aWR4bS1QM1Z4M2xPNjdLblFISFg3VnpLOHZiaDVGWGlsNmEyRGdMQ29IRzlXRDQ1UVlYY3lSQ0dCazFMWmpCVTl0Y3ZHMGowTmNKaVhPbmxFQi1nZkZnMllDZXdqWnBUeUEwb01KVUFDT0VkbWdBeXlKdWtGMENNcXVkQ2xWQzNmUGk5MVlIT0EwNnIwU1A4LWVBTVB3N2daNlN2bXlCajJPMHJnODl0bnBrSGtoMmdCNW1OMy1HalBz?oc=5"
+              }
+            ]
+          }
+        }
+      ],
+      "actualizado": "2026-08-14T22:39:22.261837+00:00"
     },
     {
       "id": "amigo2-p4w8n1",
       "nombre": "Amigo 2",
-      "modo": "palabra_clave",
-      "datos": {
-        "palabra_clave": "baterías de litio",
-        "titulares": [
-          {
-            "titular": "Lechería de Casablanca invierte en almacenamiento eléctrico con baterías de litio y proyecta ahorros por $ 80 millones anuales - Diario Financiero",
-            "medio": "Google News",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTdvaWVIcFQzTXp6TTFIZFEtOEdkTmVQejkySTZIQVpSejlyOVhEcXRQWU4yeTlaWl9ucThOSktYdVR5TGRQOXpCcmFSVVVfRTFWbUZtYUEwb04zNEU2dTRjVTF0T3dNYkNMRGJKUk00c0N2Tmk4dTZ4SjBGWFYtSjJBRDFaSTNxdXYxNGxxZkdIaDk0VlJQQy0wY2xaMVdmUEFlZzE0R3hzb1FRYmZV?oc=5"
-          },
-          {
-            "titular": "Incendios provocados por baterías de litio son un problema para los centros de reciclaje del Área de la Bahía - telemundoareadelabahia.com",
-            "medio": "Google News",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnBVOFpWQ0p5dUtocTY0Y0h3REpOVTB2WXNhTGduMU5DWEdVcTByYVZhczI3enZIUlNGVXBxMnNzYUVYSVk1dkVDYTdmQ05QZTZJMXpwQzlCLVVVSUFRMEtzTmNiZGJHRnhWRUJxeFdlQVlnT0llbGdDeE12MEFjVHByZUJGdFRkZUJ1NGIyR3h5bk9OZXFQS1hlY3BMX2s5cXdrc3pRYV9tZS1xTDQ1WGR5Wm9sckNpcXpzWUJsY2ZzR243RlppYTVseW1CdUXSAdcBQVVfeXFMTTdxV1RrMFhHQ1VnVE10T1Y2WVQzTktUVVNoUHpLSEV2ZVpzN0t1clF0LWljWGZDVkNGV1h2NHVwek9JbU1FZ3puZGY0ZlR2S2NQZ1JqVzZNM1FWSDNDcnc1bWljd2wtYzNTVl8yZzRqeklFUTlNaXZUZkRaT1lIRmFoMjlhOFpMNUlnRmstb2hzVlpzT3VMcVhvX1d5aGRaY2ZIbnNkOUNRM2JPckwwSzJVMDM2cUk2MTlCY09LbWx0RzBNeWVIRDBtU0tLaTRFN1o4by1NSGM?oc=5"
-          },
-          {
-            "titular": "Cinta De Fibra Rayada Para Baterías De Litio | Adhesivo Fuerte De Un Solo Lado, 30 Mm X 25 M, Ideal Para Sellar Y Fijar - CASAG – OAB Goiás",
-            "medio": "Google News",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWpwUWJSOVZvNVprczhKMVR2dUdzSEk4b3FkNjktY3g3UHMyVldSeDhYNUdJSm9BTGNleUFFMVJwU2lJYTcycTItMTNXMlpWWXVZVWhNYk5pa1RyaDFEUzNEYTIyb3M1cTUwd0lWZGdQdm9PbWJtMUJUaVpBYUJwdjhCQy1ETWNnc0VPV05B?oc=5"
+      "seguimientos": [
+        {
+          "tipo": "palabra_clave",
+          "valor": "baterías de litio",
+          "datos": {
+            "titulares": [
+              {
+                "titular": "Lechería de Casablanca invierte en almacenamiento eléctrico con baterías de litio y proyecta ahorros por $ 80 millones anuales - Diario Financiero",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTdvaWVIcFQzTXp6TTFIZFEtOEdkTmVQejkySTZIQVpSejlyOVhEcXRQWU4yeTlaWl9ucThOSktYdVR5TGRQOXpCcmFSVVVfRTFWbUZtYUEwb04zNEU2dTRjVTF0T3dNYkNMRGJKUk00c0N2Tmk4dTZ4SjBGWFYtSjJBRDFaSTNxdXYxNGxxZkdIaDk0VlJQQy0wY2xaMVdmUEFlZzE0R3hzb1FRYmZV?oc=5"
+              },
+              {
+                "titular": "Incendios provocados por baterías de litio son un problema para los centros de reciclaje del Área de la Bahía - telemundoareadelabahia.com",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnBVOFpWQ0p5dUtocTY0Y0h3REpOVTB2WXNhTGduMU5DWEdVcTByYVZhczI3enZIUlNGVXBxMnNzYUVYSVk1dkVDYTdmQ05QZTZJMXpwQzlCLVVVSUFRMEtzTmNiZGJHRnhWRUJxeFdlQVlnT0llbGdDeE12MEFjVHByZUJGdFRkZUJ1NGIyR3h5bk9OZXFQS1hlY3BMX2s5cXdrc3pRYV9tZS1xTDQ1WGR5Wm9sckNpcXpzWUJsY2ZzR243RlppYTVseW1CdUXSAdcBQVVfeXFMTTdxV1RrMFhHQ1VnVE10T1Y2WVQzTktUVVNoUHpLSEV2ZVpzN0t1clF0LWljWGZDVkNGV1h2NHVwek9JbU1FZ3puZGY0ZlR2S2NQZ1JqVzZNM1FWSDNDcnc1bWljd2wtYzNTVl8yZzRqeklFUTlNaXZUZkRaT1lIRmFoMjlhOFpMNUlnRmstb2hzVlpzT3VMcVhvX1d5aGRaY2ZIbnNkOUNRM2JPckwwSzJVMDM2cUk2MTlCY09LbWx0RzBNeWVIRDBtU0tLaTRFN1o4by1NSGM?oc=5"
+              },
+              {
+                "titular": "Cinta De Fibra Rayada Para Baterías De Litio | Adhesivo Fuerte De Un Solo Lado, 30 Mm X 25 M, Ideal Para Sellar Y Fijar - CASAG – OAB Goiás",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWpwUWJSOVZvNVprczhKMVR2dUdzSEk4b3FkNjktY3g3UHMyVldSeDhYNUdJSm9BTGNleUFFMVJwU2lJYTcycTItMTNXMlpWWXVZVWhNYk5pa1RyaDFEUzNEYTIyb3M1cTUwd0lWZGdQdm9PbWJtMUJUaVpBYUJwdjhCQy1ETWNnc0VPV05B?oc=5"
+              }
+            ]
           }
-        ]
-      },
-      "actualizado": "2026-08-14T19:05:27.931398+00:00"
+        },
+        {
+          "tipo": "ticker",
+          "valor": "AMD",
+          "datos": {
+            "precio": 514.39,
+            "var_dia_pct": 6.4968
+          }
+        }
+      ],
+      "actualizado": "2026-08-14T22:39:22.261837+00:00"
     }
   ]
 }
