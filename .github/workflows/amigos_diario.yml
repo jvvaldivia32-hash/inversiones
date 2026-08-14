@@ -1,0 +1,32 @@
+name: Amigos (diario)
+
+on:
+  schedule:
+    - cron: '30 13 * * *'   # una vez al día — ni un precio de ticker ajeno ni un recap
+                          # de noticias necesitan actualizarse más seguido que eso
+                          # (mismo criterio que Fintual).
+  workflow_dispatch:       # botón manual
+
+jobs:
+  amigos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r collector/requirements.txt
+
+      - run: python collector/amigos_diario.py
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+
+      - run: |
+          git config user.name "recolector"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/daily.json
+          git diff --staged --quiet || git commit -m "amigos: $(date -u +'%Y-%m-%dT%H:%M')"
+          git pull --rebase
+          git push

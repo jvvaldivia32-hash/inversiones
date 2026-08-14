@@ -207,6 +207,30 @@ export interface Fintual {
   actualizado: string;
 }
 
+export interface AmigoTickerDato {
+  ticker: string;
+  precio: number;
+  var_dia_pct: number;
+}
+
+export interface AmigoTitular {
+  titular: string;
+  medio: string;
+  url: string;
+}
+
+export interface Amigo {
+  id: string;
+  nombre: string;
+  modo: "tickers" | "palabra_clave";
+  datos: {
+    tickers?: AmigoTickerDato[];
+    palabra_clave?: string;
+    titulares?: AmigoTitular[];
+  };
+  actualizado?: string;
+}
+
 export interface DailyData {
   generado: string;
   errores: string[];
@@ -222,4 +246,7 @@ export interface DailyData {
   // fintual_diario.py al menos una vez; sin rentabilidad a propósito, la API no la
   // expone (solo saldo actual, "nav", por meta de inversión).
   fintual?: Fintual;
+  // Sección "Amigos" — extra fuera del plan madre (2026-08-14). Opcional por lo mismo:
+  // solo existe una vez que corra amigos_diario.py al menos una vez.
+  amigos?: Amigo[];
 }

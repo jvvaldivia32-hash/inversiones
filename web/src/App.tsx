@@ -14,7 +14,7 @@ import Referencias from "./components/Referencias";
 import Radar from "./components/Radar";
 import PortafolioFintual from "./components/PortafolioFintual";
 import Diccionario from "./components/Diccionario";
-import AmigosDemo from "./components/AmigosDemo";
+import Amigos from "./components/Amigos";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
 import "./App.css";
@@ -175,7 +175,7 @@ function App() {
 
       {vista === "amigos" && (
         <Seccion id="amigos" titulo="Amigos" compacta>
-          <AmigosDemo />
+          <Amigos amigos={daily.amigos ?? []} />
         </Seccion>
       )}
 

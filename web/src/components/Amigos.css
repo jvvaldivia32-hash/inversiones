@@ -1,0 +1,137 @@
+.amigos-vacio {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}
+
+.amigos-grid {
+  display: grid;
+  /* Mismo tamaño de tile que Radar.css (candidatos) — mini a propósito, mucho más chico
+     que una card de "Mis inversiones". */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+  align-items: start;
+}
+
+.amigos-card {
+  background: var(--papel-hueco);
+  border-radius: 4px;
+  padding: 0.5rem 0.6rem;
+}
+
+.amigos-card h5 {
+  font-family: var(--fuente-condensada);
+  font-size: var(--texto-14);
+  font-weight: 600;
+  color: var(--tinta);
+  margin: 0 0 0.15rem;
+}
+
+.amigos-modo {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  margin: 0 0 0.35rem;
+}
+
+.amigos-ticker {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+  padding: 0.15rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.amigos-ticker-simbolo {
+  font-family: var(--fuente-sans);
+  color: var(--tinta-media);
+}
+
+.amigos-titulares {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: var(--texto-12);
+  color: var(--tinta);
+}
+
+.amigos-medio {
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+}
+
+/* Panel de auto-edición (?amigo=<id>) — mismos estilos de input/botón que
+   PanelWatchlist.css, para no inventar un segundo lenguaje visual de formularios. */
+.amigos-panel-edicion {
+  border: 1px dashed var(--linea);
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.amigos-panel-titulo {
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+  margin: 0;
+}
+
+.amigos-panel-modo {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.amigos-panel-modo button {
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.25rem 0.6rem;
+  background: none;
+  color: var(--tinta-media);
+  font-size: var(--texto-12);
+}
+
+.amigos-panel-modo button.activo {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+.amigos-panel-edicion input {
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.amigos-panel-edicion > button[type="submit"] {
+  align-self: flex-start;
+  border: 1px solid var(--acento);
+  border-radius: 3px;
+  padding: 0.35rem 0.6rem;
+  background: none;
+  color: var(--acento);
+  font-size: var(--texto-12);
+}
+
+.amigos-panel-edicion > button[type="submit"]:disabled {
+  opacity: 0.5;
+}
+
+.amigos-panel-ok {
+  font-size: var(--texto-12);
+  color: var(--verde);
+  margin: 0;
+}
+
+.amigos-panel-error {
+  font-size: var(--texto-12);
+  color: var(--rojo);
+  margin: 0;
+}
