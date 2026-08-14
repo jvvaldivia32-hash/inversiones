@@ -1,13 +1,11 @@
 {
-  "generado": "2026-08-14T21:19:15.193668+00:00",
-  "errores": [
-    "France24: feed sin respuesta o vacío"
-  ],
+  "generado": "2026-08-14T22:15:22.523169+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
         "titulo_neutral": "Luigi Mangione se declara culpable de los cargos federales por el asesinato del director ejecutivo de UnitedHealthcare",
-        "resumen": "El acusado de disparar a un directivo del sector asegurador reconoció su autoría ante un tribunal federal, aunque todavía afronta procesos judiciales a nivel estatal.",
+        "resumen": "En un tribunal federal, el joven de 28 años reconoció haber disparado contra Brian Thompson, aunque todavía afronta acusaciones judiciales a nivel estatal.",
         "articulos": [
           {
             "titular": "Luigi Mangione admits killing insurance CEO, pleads guilty in federal case - Reuters",
@@ -105,7 +103,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "La Reserva Federal mantiene las tasas de interés",
+        "titulo_neutral": "La Reserva Federal mantiene los tipos de interés",
         "resumen": "",
         "articulos": [
           {
@@ -125,6 +123,15 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFUzNXBldnVZT2ZFWGJIRFExajVuME9DY1hMRXhMdVBEeXRISU93ME1rSFVjZTVaM3JHSkgyQkFLUm55ODdfVmdXQzRhenV3dE1fZHBFR1UySXRhcXRtdzh2QzhXeU5hN1FxYmpLNnFEYzJjM2xnZkFRWTdZdHNva0UzcVFRX1dTSmJkZlFZWTJ1Y1RBOUZjWHpqOVRnQnZScmZsZjNKRlVoMUtleGhJYg?oc=5",
             "fecha": "2026-08-14T04:02:00+00:00"
+          },
+          {
+            "titular": "Oil prices rally, US data dents chances of Fed rate hike - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
+            "fecha": "2026-08-14T02:32:00+00:00"
           },
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -156,7 +163,7 @@
       },
       {
         "titulo_neutral": "US says dozens of countries helped China dodge Trump's tariffs",
-        "resumen": "Un reciente informe norteamericano señaló que la nación asiática desvió mercancías a través de territorios con aranceles más bajos para esquivar gravámenes más elevados.",
+        "resumen": "Un reciente informe elaborado en Estados Unidos indicó que China desvió mercancías a través de jurisdicciones con aranceles más bajos para evitar pagar gravámenes superiores.",
         "articulos": [
           {
             "titular": "US says dozens of countries helped China dodge Trump's tariffs",
@@ -223,116 +230,8 @@
     ],
     "chile": [
       {
-        "titulo_neutral": "Fallo del Tribunal Constitucional sobre la salmonicultura y reacciones del Gobierno",
-        "resumen": "Una resolución del Tribunal Constitucional afectó de forma negativa una iniciativa clave del Ejecutivo para impulsar la industria salmonera. Desde el Ministerio de Economía advirtieron que la decisión perjudica al sector pesquero nacional.",
-        "articulos": [
-          {
-            "titular": "Megarreforma: El fallo del TC que dejó sin piso la principal apuesta del Gobierno para la salmonicultura",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/negocios/industria-salmonera-reconstruccion-tc/",
-            "fecha": "2026-08-14T21:18:43+00:00"
-          },
-          {
-            "titular": "Quiroz valora fallo del TC que allana la invariabilidad tributaria y adelanta que algunos artículos rechazados se resolverán por otras vías",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/df-tax/quiroz-valora-fallo-del-tc-que-allana-la-invariabilidad-tributaria-y",
-            "fecha": "2026-08-14T20:08:39+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente",
-          "Claro"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Nuevo documental dirigido por Maite Alberdi",
-        "resumen": "Se anunciaron diversas propuestas culturales, como un nuevo encuentro artístico en Las Condes y un unipersonal sobre la historia nacional. Asimismo, se destacó una innovadora producción audiovisual dirigida por Maite Alberdi que transforma los códigos del cine documental.",
-        "articulos": [
-          {
-            "titular": "Guía de Ocio: La sorprendente nueva cinta de Maite Alberdi",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/capital/estilo-de-vida-ed/guia-de-ocio-la-sorprendente-nueva-cinta-de-maite-alberdi",
-            "fecha": "2026-08-14T21:15:48+00:00"
-          },
-          {
-            "titular": "El asombroso y emocionante documental con que Maite Alberdi vuelve a lucirse",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/cine-y-series/maite-alberdi-documental-un-hijo-propio/",
-            "fecha": "2026-08-14T20:22:40+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro",
-          "independiente"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "“Antes que adversarios somos personas”: La cita en apoyo a Camilo Escalona (PS) a la que asistió el ministro de la Segpres",
-        "resumen": "Un secretario de Estado participó en un evento de respaldo al político socialista Camilo Escalona, quien enfrenta una compleja enfermedad. Durante la instancia, la autoridad destacó la trayectoria compartida y los vínculos formados a lo largo de su labor en el servicio público.",
-        "articulos": [
-          {
-            "titular": "“Antes que adversarios somos personas”: La cita en apoyo a Camilo Escalona (PS) a la que asistió el ministro de la Segpres",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/14/antes-que-adversarios-somos-personas-la-cita-en-apoyo-a-camilo-escalona-ps-a-la-que-asistio-el-ministro-de-la-segpres/",
-            "fecha": "2026-08-14T21:14:13+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Primer Click de la semana | El diagnóstico para el BOJ",
-        "resumen": "Los boletines sobre la expansión económica y los reportes financieros del sector comercio concentrarán la atención durante los próximos días.",
-        "articulos": [
-          {
-            "titular": "Primer Click de la semana | El diagnóstico para el BOJ",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/primer-click-de-la-semana/el-diagnostico-para-el-boj",
-            "fecha": "2026-08-14T21:13:42+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
         "titulo_neutral": "D’ici et d’ailleurs: Abre en Francia el segundo restaurante del chef chileno Douglas Bastian",
-        "resumen": "Un cocinero de origen nacional destinó una importante suma de dinero para abrir un establecimiento gastronómico en Francia, ofreciendo preparaciones tradicionales y locales.",
+        "resumen": "Un cocinero de Puerto Aguirre destinó una considerable suma de dinero para abrir un establecimiento gastronómico en la localidad francesa de Beaucaire.",
         "articulos": [
           {
             "titular": "D’ici et d’ailleurs: Abre en Francia el segundo restaurante del chef chileno Douglas Bastian",
@@ -341,7 +240,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/df-mas/coffee-break/d-ici-et-d-ailleurs-abre-en-francia-el-segundo-restaurante-del-chef",
-            "fecha": "2026-08-14T21:11:59+00:00"
+            "fecha": "2026-08-14T22:15:14+00:00"
           }
         ],
         "leans_presentes": [
@@ -353,17 +252,92 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "La apuesta de Quiroz: que Chile Day sea la gran vitrina internacional de la reforma al mercado de capitales",
-        "resumen": "El Ministerio de Hacienda afina los detalles para presentar en el Parlamento una iniciativa orientada a transformar el mercado financiero local. La propuesta será promocionada internacionalmente en Europa con el fin de atraer el interés de altos ejecutivos corporativos.",
+        "titulo_neutral": "Ruta del Itata comienza a implementar de manera gradual el cobro de los peajes con TAG",
+        "resumen": "La ruta que conecta con importantes puertos del centro-sur del país operará bajo un sistema de cobro completamente automatizado a partir del penúltimo mes del año.",
         "articulos": [
           {
-            "titular": "La apuesta de Quiroz: que Chile Day sea la gran vitrina internacional de la reforma al mercado de capitales",
+            "titular": "Ruta del Itata comienza a implementar de manera gradual el cobro de los peajes con TAG",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/regiones/biobio/de-manera-gradual-ruta-del-itata-inicio-pago-de-peaje-con-tag",
+            "fecha": "2026-08-14T22:13:19+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Apoderada de colegio de Las Condes acusó a profesora de robarle la colación a su hija y terminó con orden de alejamiento por amenazas de muerte",
+        "resumen": "Una apoderada de un colegio en Las Condes fue sancionada con una orden de alejamiento tras amenazar de muerte a una docente a la que acusó de quitarle la comida a su hija.",
+        "articulos": [
+          {
+            "titular": "Apoderada de colegio de Las Condes acusó a profesora de robarle la colación a su hija y terminó con orden de alejamiento por amenazas de muerte",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/14/la-apuesta-de-quiroz-que-chile-day-sea-la-gran-vitrina-internacional-de-la-reforma-al-mercado-de-capitales/",
-            "fecha": "2026-08-14T21:11:22+00:00"
+            "url": "https://www.theclinic.cl/2026/08/14/apoderada-de-colegio-de-las-condes-acuso-a-profesora-de-robarle-la-colacion-a-su-hija-y-termino-con-orden-de-alejamiento-por-amenazas-de-muerte/",
+            "fecha": "2026-08-14T22:10:02+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "La alcaldesa de Montreal, Soraya Martínez, recibe a Alexis Sánchez",
+        "resumen": "La alcaldesa de Montreal, Soraya Martínez Ferrada, recibió oficialmente al futbolista chileno Alexis Sánchez en el municipio tras su incorporación al equipo local.",
+        "articulos": [
+          {
+            "titular": "Soraya Martínez la alcaldesa chilena de Montreal y el recibimiento a Alexis Sánchez: “Le dije que estaba haciendo todo lo posible para ir a ver su primer partido, porque quiero estar ahí”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/14/soraya-martinez-la-alcaldesa-chilena-de-montreal-y-el-recibimiento-a-alexis-sanchez-le-dije-que-estaba-haciendo-todo-lo-posible-para-ir-a-ver-su-primer-partido-porque-quiero-estar-ahi/",
+            "fecha": "2026-08-14T22:05:11+00:00"
+          },
+          {
+            "titular": "La bienvenida de Montreal a Alexis Sánchez: alcaldesa chilena lo recibió y firmó el libro de honor de la ciudad",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/14/la-bienvenida-de-montreal-a-alexis-sanchez-alcaldesa-chilena-lo-recibio-y-firmo-el-libro-de-honor-de-la-ciudad/",
+            "fecha": "2026-08-14T21:00:09+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Matías Walker responde a Squella por reforma de seguridad: “Hay un burdo intento de dividir a los parlamentarios entre buenos y malos”",
+        "resumen": "Un legislador del partido Demócratas criticó duramente el proyecto gubernamental en materia de seguridad, generando un debate sobre la división de posturas entre los parlamentarios.",
+        "articulos": [
+          {
+            "titular": "Matías Walker responde a Squella por reforma de seguridad: “Hay un burdo intento de dividir a los parlamentarios entre buenos y malos”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/14/matias-walker-responde-a-squella-por-reforma-de-seguridad-hay-un-burdo-intento-de-dividir-a-los-parlamentarios-entre-buenos-y-malos/",
+            "fecha": "2026-08-14T22:04:13+00:00"
           }
         ],
         "leans_presentes": [
@@ -376,7 +350,7 @@
       },
       {
         "titulo_neutral": "China, Vietnam y Japón: la ruta que emprende el canciller por el Asia Pacífico",
-        "resumen": "Un alto ejecutivo realiza una gira por naciones asiáticas con el propósito de fomentar las transacciones comerciales, explorar oportunidades de colocación de capitales y establecer alianzas estratégicas.",
+        "resumen": "Francisco Pérez Mackenna realiza una gira por naciones asiáticas para impulsar temas comerciales, captar capitales y establecer nuevas alianzas estratégicas.",
         "articulos": [
           {
             "titular": "China, Vietnam y Japón: la ruta que emprende el canciller por el Asia Pacífico",
@@ -385,7 +359,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/df-mas/coffee-break/china-vietnam-y-japon-la-ruta-que-emprende-el-canciller-por-el-asia",
-            "fecha": "2026-08-14T21:05:17+00:00"
+            "fecha": "2026-08-14T22:02:31+00:00"
           }
         ],
         "leans_presentes": [
@@ -397,58 +371,80 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "BOS Abogados: el nuevo estudio de un ex Prieto, una ex Aninat y una ex Barros & Errázuriz",
-        "resumen": "La nueva organización empresarial prestará servicios de consultoría estratégica en ámbitos fiscales, corporativos y normativos.",
+        "titulo_neutral": "Plan de Seguridad: La inesperada réplica de Arrau a la ministra Chomali",
+        "resumen": "El ministro del área de seguridad propuso consultar directamente a la ciudadanía mediante una encuesta sobre una medida que limita ciertos derechos.",
         "articulos": [
           {
-            "titular": "BOS Abogados: el nuevo estudio de un ex Prieto, una ex Aninat y una ex Barros & Errázuriz",
+            "titular": "Plan de Seguridad: La inesperada réplica de Arrau a la ministra Chomali",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/coffee-break/bos-abogados-el-nuevo-estudio-de-un-ex-prieto-una-ex-aninat-y-una-ex",
-            "fecha": "2026-08-14T21:00:14+00:00"
+            "url": "https://www.ex-ante.cl/politica/inesperada-replica-arrau-a-chomali/",
+            "fecha": "2026-08-14T21:55:15+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El amplio reordenamiento de la plana mayor de Codelco: se renuevan cinco vicepresidencias y cuatro gerencias generales",
+        "resumen": "Codelco implementó una profunda restructuración en su administración superior, modificando puestos clave en varias de sus vicepresidencias y gerencias.",
+        "articulos": [
+          {
+            "titular": "El amplio reordenamiento de la plana mayor de Codelco: se renuevan cinco vicepresidencias y cuatro gerencias generales",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/14/el-amplio-reordenamiento-de-la-plana-mayor-de-codelco-se-renuevan-cinco-vicepresidencias-y-cuatro-gerencias-generales/",
+            "fecha": "2026-08-14T21:55:12+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Mount Etna eruption and volcanic ash shut Sicily’s busiest airport",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/mount-etna-eruption-and-volcanic-ash-shut-sicilys-busiest-airport?traffic_source=rss",
-        "fecha": "2026-08-14T21:03:07+00:00"
-      },
-      {
-        "titular": "Former Cambridge professor accused of plagiarism found dead",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/former-cambridge-professor-accused-of-plagiarism-found-dead?traffic_source=rss",
-        "fecha": "2026-08-14T20:46:40+00:00"
+        "titular": "Trump touts drop in US crime rates with an eye on midterms - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWk9IZmVHa2pyN0FTUF95d1RMVzQ0Z1hUZDlrTW90aFlEQTg2amQ3Q3hLRm5IcTFiMjJQelUtVkhSR1FkektFNkRyV2Jqd3dSNVd3YTA5ODJmajRsa3dyZjVENFAtLUdGSEVRSXl0RGhHWG5zd19fa1p2YnZSb3RMZ2R6NUdLT2M5XzBGdjEza1RJTDY1dGswTnR3aEpWQUFGTl9jT2ZBWQ?oc=5",
+        "fecha": "2026-08-14T22:06:09+00:00"
       },
       {
         "titular": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters",
         "medio": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-        "fecha": "2026-08-14T20:38:40+00:00"
+        "fecha": "2026-08-14T21:52:31+00:00"
       },
       {
-        "titular": "Stellantis considering sale of Canada plant, autoworker union says - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0hiR1U3YVlKb09jSkh6R0tROGpnM3ZfUEp5SnlHQkIzeGlOOUdJcVlfWEM1RFRrb21sS3RkaENvY0J3VlRMbXFxMHZrVktyTlg4ZlMxMzgyeXl5SGFHcFpTTThlSWFCMHptTHJaUF9KLXJ3VVVXRDVPZjcxZDBNdWVlaVREY1hidU1HUXktbU42NU1FaXVMR0lJTzh4WkV4QktheHVwZFp0NmJNb2c?oc=5",
-        "fecha": "2026-08-14T20:38:35+00:00"
+        "titular": "Trump says he will declare Strait of Hormuz a US ‘territory’ amid Iran war",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/14/trump-says-he-will-declare-strait-of-hormuz-a-us-territory?traffic_source=rss",
+        "fecha": "2026-08-14T21:50:46+00:00"
       },
       {
-        "titular": "S&P 500 ends lower as investors weigh data, Middle East tensions - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODBmUXllM0JmeFUycXhzSF9tekVEc094VlpCWnFsZ1JsMHo2Y2JEMGJnUmlPLWZOZEFJRy01UnR6VHdRODJMUEJlY3IxeXlXYWNrZHN2YUhoaS1EeVRyZDJCTUlvRkw0Rmp3d1MtZjBIb2dwVnhGbTg2YTc4MF9ONmVRdm9VTVBSdXVyY0VFZHUxRFhoTWJRUkg2YWI0SEw5WVVyYjZraTdFeG1zQTVJTWhXSFdDSnBLUVhXTXBR?oc=5",
-        "fecha": "2026-08-14T20:25:39+00:00"
+        "titular": "Wildfires rage across Europe as heatwaves drive record temperatures",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/wildfires-rage-across-europe-as-heatwaves-drive-record-temperatures?traffic_source=rss",
+        "fecha": "2026-08-14T21:50:35+00:00"
+      },
+      {
+        "titular": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-accused-of-supporting-terrorist-settlers-in-qusra?traffic_source=rss",
+        "fecha": "2026-08-14T21:45:20+00:00"
       }
     ]
   },
@@ -746,6 +742,10 @@
           },
           {
             "fecha": "2026-08-14T21:00:00",
+            "valor": 504.03
+          },
+          {
+            "fecha": "2026-08-14T22:00:00",
             "valor": 504.03
           }
         ],
@@ -3928,26 +3928,35 @@
       },
       "noticias": [
         {
-          "titular": "Seth Klarman Just Quietly Bought a Piece of Bill Ackman’s Firm",
-          "extracto": "El conocido inversor Seth Klarman ha invertido recientemente en la empresa cotizada de Bill Ackman. Este movimiento genera interrogantes sobre las oportunidades que este perfil tan reservado ha detectado en el mercado.",
+          "titular": "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
+          "extracto": "Bajo la dirección de Greg Abel, Berkshire Hathaway incrementó su participación en Alphabet hasta convertirla en su tercera mayor inversión en acciones estadounidenses. Al finalizar junio, el conglomerado poseía alrededor de 106 millones de títulos del gigante tecnológico, tras una fuerte inversión trimestral.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/14/seth-klarman-just-quietly-bought-a-piece-of-bill-ackmans-firm/?.tsrc=rss",
-          "fecha": "2026-08-14T18:50:53+00:00"
+          "url": "https://finance.yahoo.com/video/berkshire-ups-alphabet-stake-under-212900630.html?.tsrc=rss",
+          "fecha": "2026-08-14T21:29:00+00:00"
         },
         {
-          "titular": "This ETF Copies Buffett’s Portfolio and Pays You Monthly. Why Buffett Would Never.",
-          "extracto": "Un fondo cotizado emite pagos mensuales emulando la cartera de Warren Buffett, a pesar de que el propio magnate siempre ha rechazado esa estrategia. Esto evidencia la distancia entre replicar sus activos y adoptar su filosofía financiera.",
+          "titular": "Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America",
+          "extracto": "Un informe regulatorio reveló que las tenencias de Alphabet en manos de Berkshire aumentaron cerca de un ochenta por ciento mediante adquisiciones directas y en el mercado abierto. Paralelamente, la firma redujo su participación accionaria en Bank of America.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/etf/2026/08/14/this-etf-copies-buffetts-portfolio-and-pays-you-monthly-why-buffett-would-never/?.tsrc=rss",
-          "fecha": "2026-08-14T18:40:43+00:00"
+          "url": "https://finance.yahoo.com/m/41aa00bd-2bc8-3705-9d89-9084c4fa7ac3/berkshire-boosted-alphabet%2C.html?.tsrc=rss",
+          "fecha": "2026-08-14T21:46:00+00:00"
+        },
+        {
+          "titular": "Berkshire Hathaway expands Alphabet stake and trims bank exposure in Q2",
+          "extracto": "La reciente documentación presentada ante la SEC muestra que el conglomerado liderado por Greg Abel amplió notablemente sus distintas clases de acciones en la matriz de Google durante el segundo trimestre. Esto refleja una apuesta firme por el desarrollo comercial de la empresa tecnológica.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-expands-alphabet-stake-212358443.html?.tsrc=rss",
+          "fecha": "2026-08-14T21:23:58+00:00"
         },
         {
           "titular": "3 Obvious Reasons Warren Buffett's Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock",
-          "extracto": "Un único activo representa cerca del quince por ciento de los activos totales que componen la cartera de la compañía.",
+          "extracto": "Dicha participación representa cerca del quince por ciento de la cartera total de inversiones del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3956,21 +3965,12 @@
         },
         {
           "titular": "Did Greg Abel Just End Berkshire Hathaway’s (BRK-B) Cash-Hoard Problem?",
-          "extracto": "Las acciones de Berkshire Hathaway registraron subidas al cierre de la sesión bursátil del 10 de agosto. Los títulos alcanzaron niveles máximos no vistos desde el anuncio de la futura salida de Warren Buffett como máximo ejecutivo.",
+          "extracto": "Los títulos bursátiles de Berkshire registraron un repunte significativo durante la sesión del diez de agosto, alcanzando cotizaciones máximas no vistas desde la salida anunciada de Warren Buffett de la dirección ejecutiva.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/did-greg-abel-just-end-182906702.html?.tsrc=rss",
           "fecha": "2026-08-14T18:29:06+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway vs. Progressive: Which Insurance Powerhouse Leads?",
-          "extracto": "Ambas compañías aseguradoras fundamentan su solidez en una gestión rigurosa de las pólizas. No obstante, Progressive supera ligeramente a Berkshire Hathaway en rendimiento sobre el capital, valoración de los analistas y evolución de su cotización.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-vs-progressive-insurance-172700830.html?.tsrc=rss",
-          "fecha": "2026-08-14T17:27:00+00:00"
         }
       ],
       "fundamentales": {
@@ -4452,6 +4452,10 @@
           },
           {
             "fecha": "2026-08-14T21:00:00",
+            "valor": 272.83
+          },
+          {
+            "fecha": "2026-08-14T22:00:00",
             "valor": 272.83
           }
         ],
@@ -7634,8 +7638,17 @@
       },
       "noticias": [
         {
+          "titular": "7 Best Stocks to Gift Your Grandchildren",
+          "extracto": "Existen características específicas que identifican a las acciones ideales para regalar a los nietos. El análisis detalla dichos atributos financieros.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.kiplinger.com/investing/stocks/stocks-to-give-your-grandchildren?.tsrc=rss",
+          "fecha": "2026-08-14T15:14:34+00:00"
+        },
+        {
           "titular": "Why Taco Bell's former CEO just dissed McDonald's",
-          "extracto": "",
+          "extracto": "El sector de la comida rápida experimenta un enfrentamiento verbal constante entre sus principales marcas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7644,7 +7657,7 @@
         },
         {
           "titular": "Are Innovative Beverages Enough to Turn McDonald's Around?",
-          "extracto": "La estrategia de expansión de la empresa consiste en incorporar opciones culinarias novedosas y al mismo tiempo optimizar sus procesos internos.",
+          "extracto": "La estrategia de expansión corporativa combina la incorporación de productos novedosos con la optimización de los procesos internos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7653,7 +7666,7 @@
         },
         {
           "titular": "Costco makes a pricing promise members need to know",
-          "extracto": "Las económicas ofertas de la competencia amenazan con atraer a los clientes con presupuestos ajustados que buscan ahorrar en sus comidas.",
+          "extracto": "Las ofertas económicas de Wendy's amenazan con atraer a los clientes con presupuesto limitado de sus principales competidores. Esta tendencia coincide con una reducción general en el gasto de los consumidores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7662,21 +7675,12 @@
         },
         {
           "titular": "McDonald's (MCD): Buy, Sell, or Hold Post Q2 Earnings?",
-          "extracto": "Las acciones de McDonald's sufrieron una notable caída en el último semestre, registrando un rendimiento inferior al del índice S&P 500.",
+          "extracto": "Las acciones de McDonald's experimentaron una caída del 15,3% durante el último semestre, situándose muy por debajo del rendimiento positivo del índice S&P 500. Esta situación genera incertidumbre entre los inversores respecto a su cartera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-buy-sell-hold-170900197.html?.tsrc=rss",
           "fecha": "2026-08-13T17:09:00+00:00"
-        },
-        {
-          "titular": "5 Insightful Analyst Questions From McDonald's’s Q2 Earnings Call",
-          "extracto": "McDonald's reportó ingresos trimestrales acordes a lo previsto, aunque el director ejecutivo reconoció deficiencias operativas y fallas en la implementación de sus ofertas económicas en Estados Unidos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-mcdonalds-050100440.html?.tsrc=rss",
-          "fecha": "2026-08-13T05:01:00+00:00"
         }
       ],
       "fundamentales": {
@@ -8321,6 +8325,10 @@
           },
           {
             "fecha": "2026-08-14T21:00:00",
+            "valor": 495.4
+          },
+          {
+            "fecha": "2026-08-14T22:00:00",
             "valor": 495.4
           }
         ],
@@ -11503,8 +11511,26 @@
       },
       "noticias": [
         {
+          "titular": "JPMorgan set a serious Microsoft stock price target for 2027",
+          "extracto": "Las acciones de Microsoft experimentaron un fuerte repunte superior al 27% tras la publicación de sus resultados del cuarto trimestre el 29 de julio. Este cambio de tendencia se debió a un sólido crecimiento en los ingresos de Azure y a indicadores positivos en la adopción de Copilot.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.thestreet.com/investing/stocks/jpmorgan-set-high-microsoft-stock-price-target-for-2027?.tsrc=rss",
+          "fecha": "2026-08-14T16:33:00+00:00"
+        },
+        {
+          "titular": "Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings",
+          "extracto": "Registros de la SEC revelan que diversos inversionistas institucionales redujeron moderadamente sus posiciones en gigantes tecnológicos y empresas de semiconductores durante el segundo trimestre. Un análisis de los formularios 13F muestra que un porcentaje ligeramente mayor de fondos recortó sus tenencias en las principales firmas del sector en comparación con quienes las ampliaron.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/institutional-investors-reveal-cautious-approach-215416925.html?.tsrc=rss",
+          "fecha": "2026-08-14T21:54:16+00:00"
+        },
+        {
           "titular": "ADBE Stock: Collect 12% While Setting A 30%-Off Buy Price",
-          "extracto": "Se describe una estrategia financiera para generar ingresos recurrentes con acciones de Adobe, manteniendo la opción de adquirir títulos de la compañía con descuento si su reestructuración flaquea.",
+          "extracto": "Existe una estrategia financiera que permite generar ingresos recurrentes con las acciones de Adobe. Al mismo tiempo, este método ofrece la posibilidad de adquirir los títulos de la empresa de software a un precio significativamente menor si su proceso de recuperación flaquea.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11512,26 +11538,8 @@
           "fecha": "2026-08-14T20:59:53+00:00"
         },
         {
-          "titular": "The Best House On The Block Costs The Most: PLTR",
-          "extracto": "Una empresa destacada en software de datos registra una expansión sobresaliente, aunque los inversores ya pagan una valoración elevada por sus títulos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.trefis.com/articles/611491/the-best-house-on-the-block-costs-the-most-pltr/2026-08-14?.tsrc=rss",
-          "fecha": "2026-08-14T19:28:16+00:00"
-        },
-        {
-          "titular": "Tiger Global Management cuts stakes in Big Tech, buys into SpaceX",
-          "extracto": "Durante el segundo trimestre, el fondo Tiger Global redujo su participación en varias grandes tecnológicas y vendió completamente sus acciones de Netflix, al tiempo que adquirió posiciones en SpaceX y Advanced Micro Devices.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tiger-global-management-cuts-stakes-192754927.html?.tsrc=rss",
-          "fecha": "2026-08-14T19:27:54+00:00"
-        },
-        {
           "titular": "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here’s What Happens to Your Portfolio",
-          "extracto": "Vanguard cambió el índice de referencia de uno de sus fondos cotizados de crecimiento más populares, un ajuste administrativo que modificará gradualmente la composición de la cartera de los inversores.",
+          "extracto": "La firma Vanguard modificó el índice de referencia de uno de sus fondos cotizados de crecimiento más conocidos. Este cambio técnico, que pasó desapercibido para la mayoría de los inversionistas, podría alterar gradualmente la composición de las empresas que integran el portafolio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11540,7 +11548,7 @@
         },
         {
           "titular": "Does FICO’s (FICO) New Marketplace Integrations Reveal a Deeper Shift in Its Platform Strategy?",
-          "extracto": "Varias empresas integraron herramientas y licencias de FICO en sus plataformas recientes, lo que amplía la disponibilidad de calificaciones crediticias y sistemas analíticos automatizados para el sector de préstamos.",
+          "extracto": "Informative Research y Alogram integraron sus servicios en el ecosistema de FICO para facilitar el acceso a puntajes crediticios y herramientas de inteligencia artificial. Con estas alianzas, las empresas prestamistas cuentan con nuevas opciones para incorporar análisis de fraude y evaluación de riesgos en sus operaciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12250,6 +12258,10 @@
           },
           {
             "fecha": "2026-08-14T21:00:00",
+            "valor": 713.61
+          },
+          {
+            "fecha": "2026-08-14T22:00:00",
             "valor": 713.61
           }
         ],
@@ -15432,8 +15444,35 @@
       },
       "noticias": [
         {
+          "titular": "ETF Zoo: Substance Over Shenanigans Still Matters in ETFs",
+          "extracto": "Un podcast financiero analiza la posible desaparición de ciertas estrategias de inversión y evalúa transacciones recientes y el comportamiento del mercado actual.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "http://www.etf.com/sections/podcasts/etf-zoo-substance-over-shenanigans-still-matters-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+          "fecha": "2026-08-14T19:37:52+00:00"
+        },
+        {
+          "titular": "Prediction: This Small-Cap ETF Will Outperform the S&P 500 Through 2027",
+          "extracto": "Las acciones de empresas pequeñas experimentan una fuerte recuperación tras un prolongado periodo de resultados desfavorables.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/14/prediction-small-cap-etf-outperform-sp-500-by-2027/?.tsrc=rss",
+          "fecha": "2026-08-14T16:13:00+00:00"
+        },
+        {
+          "titular": "7 Best Stocks to Gift Your Grandchildren",
+          "extracto": "Se analizan las características clave que definen a los títulos bursátiles ideales para regalar a las nuevas generaciones.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.kiplinger.com/investing/stocks/stocks-to-give-your-grandchildren?.tsrc=rss",
+          "fecha": "2026-08-14T15:14:34+00:00"
+        },
+        {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests.",
-          "extracto": "Ampliar el horizonte temporal de inversión incrementa la probabilidad de obtener resultados positivos.",
+          "extracto": "Ampliar el periodo de inversión mejora de forma significativa las probabilidades de obtener buenos resultados financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15441,40 +15480,13 @@
           "fecha": "2026-08-14T14:05:00+00:00"
         },
         {
-          "titular": "This Stellar High Yield Vanguard ETF Is Beating VTI and VOO This Year",
-          "extracto": "Un fondo específico de Vanguard ha superado a otros índices populares este año al invertir en mercados que suelen ser ignorados, aunque su desempeño a diez años presenta ciertos inconvenientes.",
+          "titular": "Which ETFs Will Pay Off Soon? Follow The Money!",
+          "extracto": "Las previsiones de ganancias corporativas ofrecen orientación ante la indecisión actual entre el optimismo y la cautela en el índice S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/etf/2026/08/13/this-stellar-high-yield-vanguard-etf-is-beating-vti-and-voo-this-year/?.tsrc=rss",
-          "fecha": "2026-08-13T11:19:09+00:00"
-        },
-        {
-          "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
-          "extracto": "Uno de los fondos del S&P 500 más grandes del mundo administra enormes sumas para la jubilación, pero los beneficiarios no pueden adquirirlo directamente ni suelen conocer su clave de cotización.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/13/theres-a-good-chance-vanguards-vinix-is-in-your-401k-and-youve-never-heard-of-it/?.tsrc=rss",
-          "fecha": "2026-08-13T20:11:11+00:00"
-        },
-        {
-          "titular": "I’ve Been Buying Fidelity’s Gigantic FXAIX Fund For Six Years Straight Before Realizing The True Cost",
-          "extracto": "Realizar aportaciones automáticas periódicas a un fondo indexado parecía una estrategia económica óptima, hasta que se evaluó el impacto fiscal real generado cada fin de año en cuentas sujetas a impuestos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/13/ive-been-buying-fidelitys-gigantic-fxaix-fund-for-six-years-straight-before-realizing-the-true-cost/?.tsrc=rss",
-          "fecha": "2026-08-13T16:25:46+00:00"
-        },
-        {
-          "titular": "The Broad Market ETF That Belongs in Almost Every Passive Investor's Portfolio",
-          "extracto": "Las estrategias financieras menos complejas no solo resultan más prácticas, sino que habitualmente ofrecen un desempeño superior.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/13/broad-market-etf-belong-passive-investor-voo/?.tsrc=rss",
-          "fecha": "2026-08-13T15:50:00+00:00"
+          "url": "https://finance.yahoo.com/m/9e171547-4629-3fd6-ab9d-066b022fdba8/which-etfs-will-pay-off-soon%3F.html?.tsrc=rss",
+          "fecha": "2026-08-14T12:00:32+00:00"
         }
       ]
     }
