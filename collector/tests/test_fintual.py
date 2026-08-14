@@ -61,6 +61,10 @@ def test_request_envia_los_headers_correctos(monkeypatch):
     assert capturado["headers"]["X-user-email"] == "jose@example.com"
     assert capturado["headers"]["X-user-token"] == "el-token"
     assert capturado["url"] == "https://fintual.cl/api/goals"
+    # Sin esto, Cloudflare devuelve 403 en vez de dejar pasar el request a la app —
+    # encontrado en vivo contra la cuenta real, no en un mock.
+    assert capturado["headers"]["User-agent"] != ""
+    assert "python-urllib" not in capturado["headers"]["User-agent"].lower()
 
 
 def test_request_error_http(monkeypatch):

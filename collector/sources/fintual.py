@@ -10,6 +10,13 @@ import urllib.request
 # ganancia real con depósitos nuevos sin poder distinguirlos).
 BASE_URL = "https://fintual.cl/api"
 
+# Cloudflare (delante de la API de Fintual) bloquea el User-Agent por defecto de
+# urllib ("Python-urllib/3.x") con 403 — probado en vivo: el mismo request con un
+# User-Agent de navegador sí llega a la app y devuelve el 401 real. Mismo gotcha que
+# yahoo.py (Yahoo también rechaza requests sin UA de navegador), esta vez encontrado
+# recién al probar contra la cuenta real, no en desarrollo local.
+USER_AGENT = "Mozilla/5.0 (inversiones-recolector)"
+
 
 class FintualError(Exception):
     pass
@@ -18,7 +25,7 @@ class FintualError(Exception):
 def _request(ruta: str, email: str, token: str) -> dict:
     req = urllib.request.Request(
         f"{BASE_URL}{ruta}",
-        headers={"X-User-Email": email, "X-User-Token": token},
+        headers={"X-User-Email": email, "X-User-Token": token, "User-Agent": USER_AGENT},
     )
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
