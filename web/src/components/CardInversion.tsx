@@ -5,6 +5,7 @@ import Cifra from "./Cifra";
 import Semaforo from "./Semaforo";
 import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
+import MetricasAvanzadas from "./MetricasAvanzadas";
 import FormularioTesis from "./FormularioTesis";
 import "./CardInversion.css";
 
@@ -195,6 +196,7 @@ export default function CardInversion({ posicion, comparables = [] }: CardInvers
   const [expandida, setExpandida] = useState(false);
   const [rango, setRango] = useState<RangoPrecio>("1A");
   const [compararTicker, setCompararTicker] = useState<string | null>(null);
+  const [verAvanzadas, setVerAvanzadas] = useState(false);
 
   const varDiaClase = posicion.var_dia_pct >= 0 ? "var-positiva" : "var-negativa";
   const comparar = comparables.find((c) => c.ticker === compararTicker) ?? null;
@@ -286,6 +288,20 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
             <section>
               <h4>Fundamentales</h4>
               <TablaFundamentales fundamentales={posicion.fundamentales} />
+            </section>
+          )}
+
+          {posicion.metricas_avanzadas && (
+            <section>
+              <button
+                type="button"
+                className="card-inversion-avanzadas-toggle"
+                aria-expanded={verAvanzadas}
+                onClick={() => setVerAvanzadas((v) => !v)}
+              >
+                {verAvanzadas ? "ocultar métricas avanzadas ▴" : "métricas avanzadas ▾"}
+              </button>
+              {verAvanzadas && <MetricasAvanzadas metricas={posicion.metricas_avanzadas} />}
             </section>
           )}
 

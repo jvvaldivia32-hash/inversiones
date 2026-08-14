@@ -20,6 +20,20 @@ def _un_punto_por_dia(serie: list[dict]) -> list[dict]:
     return [por_dia[dia] for dia in sorted(por_dia)]
 
 
+def maximo_minimo_52s(serie: list[dict], ahora: datetime.datetime) -> tuple[float, float] | None:
+    """(máximo, mínimo) de los últimos 365 días de `serie`, o None si no hay ningún punto
+    dentro de esa ventana — extraído de computar_castigada() para reusar en métricas
+    avanzadas (52wk High/Low por posición) sin duplicar la ventana de fechas."""
+    diaria = _un_punto_por_dia(serie)
+    ahora_sin_tz = ahora.replace(tzinfo=None) if ahora.tzinfo else ahora
+    limite_52s = (ahora_sin_tz - datetime.timedelta(days=DIAS_52_SEMANAS)).isoformat()
+    ultimo_52s = [p for p in diaria if p["ts"] >= limite_52s]
+    if not ultimo_52s:
+        return None
+    valores = [p["valor"] for p in ultimo_52s]
+    return max(valores), min(valores)
+
+
 def computar_castigada(serie: list[dict], ahora: datetime.datetime) -> dict | None:
     """{"precio", "maximo_52s", "pct_bajo_maximo", "ma_200", "bajo_ma200", "castigada"} o
     None si no hay suficiente historia todavía para evaluar en serio (recién sembrado, o
@@ -28,14 +42,12 @@ def computar_castigada(serie: list[dict], ahora: datetime.datetime) -> dict | No
     if len(diaria) < MINIMO_PUNTOS_PARA_EVALUAR:
         return None
 
-    ahora_sin_tz = ahora.replace(tzinfo=None) if ahora.tzinfo else ahora
-    limite_52s = (ahora_sin_tz - datetime.timedelta(days=DIAS_52_SEMANAS)).isoformat()
-    ultimo_52s = [p for p in diaria if p["ts"] >= limite_52s]
-    if not ultimo_52s:
+    extremos = maximo_minimo_52s(serie, ahora)
+    if extremos is None:
         return None
+    maximo_52s, _minimo_52s = extremos
 
     precio = diaria[-1]["valor"]
-    maximo_52s = max(p["valor"] for p in ultimo_52s)
     pct_bajo_maximo = (maximo_52s - precio) / maximo_52s * 100
 
     ultimos_200 = diaria[-DIAS_MA200:]

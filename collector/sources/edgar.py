@@ -58,6 +58,27 @@ TAGS = {
     "eps_gaap": (["EarningsPerShareDiluted", "EarningsPerShareBasic"], "USD/shares", 1),
     "capex_musd": (["PaymentsToAcquirePropertyPlantAndEquipment"], "USD", 1_000_000),
     "flujo_op_musd": (["NetCashProvidedByUsedInOperatingActivities"], "USD", 1_000_000),
+    # Agregados para "métricas avanzadas" (ROA/ROE/EBITDA/dividendos) — mismo patrón de
+    # candidatos múltiples que ingresos_musd, probado solo contra los 4 tickers conocidos
+    # hasta ahora.
+    "utilidad_neta_musd": (["NetIncomeLoss"], "USD", 1_000_000),
+    "utilidad_bruta_musd": (["GrossProfit"], "USD", 1_000_000),
+    "costo_ventas_musd": (["CostOfGoodsAndServicesSold", "CostOfRevenue"], "USD", 1_000_000),
+    # MSFT no tagea DepreciationDepletionAndAmortization ni la variante "AndAccretionNet"
+    # (probado en vivo, ambas 404) — tagea el más simple "Depreciation" en su lugar.
+    "dep_amortizacion_musd": (
+        ["DepreciationDepletionAndAmortization", "DepreciationAmortizationAndAccretionNet", "Depreciation"],
+        "USD",
+        1_000_000,
+    ),
+    # No confirmado en vivo si viene punto-a-punto o acumulado YTD para estos 4 tickers —
+    # _extraer_serie ya maneja ambos casos por duración real, así que no necesita rama
+    # especial, pero sí puede salir vacío si la empresa usa un tag distinto no listado acá.
+    "dividendo_por_accion": (
+        ["CommonStockDividendsPerShareDeclared", "CommonStockDividendsPerShareCashPaid"],
+        "USD/shares",
+        1,
+    ),
 }
 
 # eps_non_gaap NO está acá a propósito: no es un tag XBRL estándar (es una métrica que
@@ -215,29 +236,60 @@ def _derivar_margen(ingresos: list[dict], op_income: list[dict]) -> list[dict]:
     return resultado
 
 
+def _derivar_bruta_fallback(ingresos: list[dict], costo_ventas: list[dict]) -> list[dict]:
+    """Algunas empresas no tagean `GrossProfit` directo (probado: no confirmado todavía
+    para los 4 tickers conocidos, se deriva igual por si acaso) — se calcula ingresos
+    menos costo de ventas por período en común, mismo patrón que _derivar_margen."""
+    ing_por_periodo = {p["periodo"]: p["valor"] for p in ingresos}
+    resultado = []
+    for punto in costo_ventas:
+        ing = ing_por_periodo.get(punto["periodo"])
+        if ing is not None:
+            resultado.append({"periodo": punto["periodo"], "valor": ing - punto["valor"]})
+    return resultado
+
+
 TAGS_INSTANTE = {
     # Varias empresas grandes (PG, CAT, QCOM cuando su StockholdersEquity queda obsoleto)
     # usan la variante "IncludingPortionAttributableToNoncontrollingInterest" en vez de la
     # básica — probado a mano contra las 3.
     "patrimonio": ["StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
     "deuda_largo_plazo": ["LongTermDebtNoncurrent", "LongTermDebt"],
+    # Agregados para "métricas avanzadas" — mismos candidatos múltiples que ya usa el
+    # radar para patrimonio/deuda, no confirmados en vivo más allá de los 4 tickers
+    # conocidos.
+    "deuda_corto_plazo": ["DebtCurrent", "ShortTermBorrowings", "LongTermDebtCurrent"],
+    "caja": ["CashAndCashEquivalentsAtCarryingValue"],
+    "activos_totales": ["Assets"],
+    "pasivos_corrientes": ["LiabilitiesCurrent"],
+}
+
+# `EntityCommonStockSharesOutstanding` vive en el namespace `dei`, no `us-gaap` — por eso
+# no está en TAGS_INSTANTE (que siempre pega a .../us-gaap/{tag}.json vía
+# _obtener_valor_instante). Se pide aparte pasando namespace="dei".
+TAGS_DEI_INSTANTE = {
+    "acciones_en_circulacion": ["EntityCommonStockSharesOutstanding"],
 }
 
 
-def _obtener_valor_instante(cik: str, tags_candidatos: list[str]) -> float | None:
+def _obtener_valor_instante(
+    cik: str, tags_candidatos: list[str], namespace: str = "us-gaap"
+) -> float | None:
     """Último valor de un tag "foto" (balance sheet: solo `end`, sin `start`) — a
     diferencia de los tags de flujo de _extraer_serie, acá no hace falta derivar nada,
-    el valor más reciente ya es el dato completo."""
+    el valor más reciente ya es el dato completo. `namespace` es "us-gaap" para todo lo
+    financiero y "dei" para datos de la entidad (ej. acciones en circulación)."""
     for tag in tags_candidatos:
         try:
-            data = _request(f"{BASE_URL}/api/xbrl/companyconcept/CIK{cik}/us-gaap/{tag}.json")
+            data = _request(f"{BASE_URL}/api/xbrl/companyconcept/CIK{cik}/{namespace}/{tag}.json")
         except EdgarError:
             continue
         if not _tiene_datos_recientes(data):
             continue
+        unidad = "shares" if namespace == "dei" else "USD"
         puntos = [
             p
-            for p in data.get("units", {}).get("USD", [])
+            for p in data.get("units", {}).get(unidad, [])
             if p.get("form") in FORMULARIOS_TRIMESTRALES and p.get("end")
         ]
         if not puntos:
@@ -257,6 +309,24 @@ def obtener_deuda_patrimonio(cik: str) -> float | None:
         return None
     deuda = _obtener_valor_instante(cik, TAGS_INSTANTE["deuda_largo_plazo"]) or 0
     return deuda / patrimonio
+
+
+def obtener_balance(cik: str) -> dict:
+    """Foto de balance para métricas avanzadas: patrimonio, deuda (LP+corto plazo), caja,
+    activos totales, pasivos corrientes y acciones en circulación. Cada campo degrada a
+    None por separado — nunca inventa un valor si la empresa no tagea esa línea (mismo
+    criterio que obtener_deuda_patrimonio)."""
+    return {
+        "patrimonio": _obtener_valor_instante(cik, TAGS_INSTANTE["patrimonio"]),
+        "deuda_largo_plazo": _obtener_valor_instante(cik, TAGS_INSTANTE["deuda_largo_plazo"]),
+        "deuda_corto_plazo": _obtener_valor_instante(cik, TAGS_INSTANTE["deuda_corto_plazo"]),
+        "caja": _obtener_valor_instante(cik, TAGS_INSTANTE["caja"]),
+        "activos_totales": _obtener_valor_instante(cik, TAGS_INSTANTE["activos_totales"]),
+        "pasivos_corrientes": _obtener_valor_instante(cik, TAGS_INSTANTE["pasivos_corrientes"]),
+        "acciones_en_circulacion": _obtener_valor_instante(
+            cik, TAGS_DEI_INSTANTE["acciones_en_circulacion"], namespace="dei"
+        ),
+    }
 
 
 def _fuente_url(cik: str, accession: str) -> str:
@@ -296,6 +366,12 @@ def obtener_fundamentales(ticker: str, cik: str, accession_anterior: str | None)
 
     series["margen_operativo"] = _derivar_margen(series["ingresos_musd"], series["op_income_musd"])
     series["eps_non_gaap"] = []  # no viene de XBRL — pendiente Fase 5 (press release + Gemini)
+
+    if not series["utilidad_bruta_musd"]:
+        series["utilidad_bruta_musd"] = _derivar_bruta_fallback(
+            series["ingresos_musd"], series["costo_ventas_musd"]
+        )
+    del series["costo_ventas_musd"]  # insumo interno del fallback, no se expone al visor
 
     if not series["ingresos_musd"]:
         raise EdgarError(f"{ticker}: companyconcept no devolvió ingresos trimestrales")

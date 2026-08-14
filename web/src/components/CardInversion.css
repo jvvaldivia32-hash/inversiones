@@ -189,7 +189,8 @@
   margin-top: 0.4rem;
 }
 
-.tesis-historial-toggle {
+.tesis-historial-toggle,
+.card-inversion-avanzadas-toggle {
   background: none;
   border: none;
   color: var(--tinta-suave);

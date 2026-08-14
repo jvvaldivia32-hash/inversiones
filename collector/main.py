@@ -7,7 +7,7 @@ import historico
 import noticias
 import tesis
 from env import cargar_env
-from sources import banco_central, edgar, prices, segmentos, yahoo
+from sources import banco_central, edgar, metricas_avanzadas, prices, segmentos, yahoo
 from watchlist import parse_watchlist
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
@@ -65,10 +65,9 @@ def _fundamentales_anteriores() -> dict[str, dict]:
     }
 
 
-def _obtener_fundamentales(ticker: str, anterior: dict | None) -> dict | None:
+def _obtener_fundamentales(ticker: str, cik: str | None, anterior: dict | None) -> dict | None:
     """Fundamentales reales si hay un filing nuevo, o lo que había antes si EDGAR falla
     o no cambió nada — mismo criterio de degradación que sources/banco_central.py."""
-    cik = edgar.CIK_POR_TICKER.get(ticker)
     if cik is None:
         return None
     accession_anterior = anterior.get("_accession") if anterior else None
@@ -93,9 +92,8 @@ def _segmentos_anteriores() -> dict[str, dict]:
     }
 
 
-def _obtener_segmentos(ticker: str, anterior: dict | None) -> dict | None:
+def _obtener_segmentos(ticker: str, cik: str | None, anterior: dict | None) -> dict | None:
     """Igual que _obtener_fundamentales, pero para el press release del 8-K (Fase 5)."""
-    cik = edgar.CIK_POR_TICKER.get(ticker)
     if cik is None:
         return None
     accession_anterior = anterior.get("_accession") if anterior else None
@@ -104,6 +102,41 @@ def _obtener_segmentos(ticker: str, anterior: dict | None) -> dict | None:
     except edgar.EdgarError as e:
         print(f"  {ticker}: segmentos no se pudieron actualizar ({e})")
         return anterior
+    return nuevo if nuevo is not None else anterior
+
+
+def _metricas_avanzadas_anteriores() -> dict[str, dict]:
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    return {
+        p["ticker"]: p["metricas_avanzadas"]
+        for p in daily.get("posiciones", [])
+        if p.get("metricas_avanzadas")
+    }
+
+
+def _obtener_metricas_avanzadas(
+    ticker: str,
+    cik: str | None,
+    precio: float,
+    hist_ticker: list[dict],
+    hist_mercado: list[dict],
+    ahora: datetime.datetime,
+    fundamentales: dict | None,
+    anterior: dict | None,
+) -> dict | None:
+    """Extra fuera del plan madre (pedido 2026-08-14): Market Cap, EV, ROE/ROIC/ROCE,
+    múltiplos y beta por posición. Mismo criterio de degradación que
+    _obtener_fundamentales — si EDGAR falla, se conserva el valor anterior."""
+    if cik is None:
+        return None
+    try:
+        balance = edgar.obtener_balance(cik)
+    except edgar.EdgarError as e:
+        print(f"  {ticker}: métricas avanzadas no se pudieron actualizar ({e})")
+        return anterior
+    nuevo = metricas_avanzadas.calcular_metricas(
+        fundamentales, balance, precio, hist_ticker, hist_mercado, ahora
+    )
     return nuevo if nuevo is not None else anterior
 
 
@@ -158,33 +191,57 @@ def construir_posiciones(
 ) -> list[dict]:
     fundamentales_anteriores = _fundamentales_anteriores()
     segmentos_anteriores = _segmentos_anteriores()
+    avanzadas_anteriores = _metricas_avanzadas_anteriores()
     tesis_lista = _cargar_tesis()
+
+    # Resuelto una sola vez por corrida (no por ticker) — evita pegarle al índice
+    # público de la SEC (~10 mil tickers) una vez por hora por cada posición. Antes esto
+    # usaba edgar.CIK_POR_TICKER a mano (solo 4 tickers); con resolver_ciks() cualquier
+    # ticker nuevo que se agregue a la watchlist queda cubierto sin tocar código.
+    try:
+        ciks = edgar.resolver_ciks(tickers)
+    except edgar.EdgarError as e:
+        print(f"  no se pudieron resolver CIKs esta corrida ({e}), sin fundamentales nuevos")
+        ciks = {}
+
+    hist_mercado = hist.get("VOO", [])
+
     posiciones = []
     for ticker in tickers:
         if ticker not in cotizaciones:
             continue
+        cik = ciks.get(ticker)
+        precio = cotizaciones[ticker]["precio"]
+        hist_ticker = hist.get(ticker, [])
         posicion = {
             "ticker": ticker,
             "nombre": ticker,
-            "precio": cotizaciones[ticker]["precio"],
+            "precio": precio,
             "var_dia_pct": cotizaciones[ticker]["var_dia_pct"],
-            "serie_precio": historico.derivar_rangos(hist.get(ticker, []), ahora),
+            "serie_precio": historico.derivar_rangos(hist_ticker, ahora),
             "noticias": noticias.noticias_ticker(ticker),
         }
 
         anterior_fund = fundamentales_anteriores.get(ticker)
-        fundamentales = _obtener_fundamentales(ticker, anterior_fund)
+        fundamentales = _obtener_fundamentales(ticker, cik, anterior_fund)
         fundamentales_frescos = _es_dato_fresco(fundamentales, anterior_fund)
         if fundamentales is not None:
             posicion["fundamentales"] = fundamentales
 
         anterior_seg = segmentos_anteriores.get(ticker)
-        seg = _obtener_segmentos(ticker, anterior_seg)
+        seg = _obtener_segmentos(ticker, cik, anterior_seg)
         segmentos_frescos = _es_dato_fresco(seg, anterior_seg)
         if seg is not None:
             posicion["segmentos"] = seg["segmentos"]
             posicion["_segmentos_accession"] = seg["_accession"]
             posicion["segmentos_fuente_url"] = seg["fuente_url"]
+
+        anterior_avanzadas = avanzadas_anteriores.get(ticker)
+        avanzadas = _obtener_metricas_avanzadas(
+            ticker, cik, precio, hist_ticker, hist_mercado, ahora, fundamentales, anterior_avanzadas
+        )
+        if avanzadas is not None:
+            posicion["metricas_avanzadas"] = avanzadas
 
         _revisar_tesis_ticker(
             tesis_lista, ticker, ahora, fundamentales, fundamentales_frescos, seg, segmentos_frescos

@@ -49,7 +49,43 @@ export interface Fundamentales {
     margen_operativo: PuntoFundamental[];
     capex_musd: PuntoFundamental[];
     flujo_op_musd: PuntoFundamental[];
+    // Agregados para "métricas avanzadas" (extra fuera del plan madre, 2026-08-14) — el
+    // insumo crudo de estas 4 series vive acá, los ratios calculados a partir de ellas
+    // viven en MetricasAvanzadas.
+    utilidad_neta_musd: PuntoFundamental[];
+    utilidad_bruta_musd: PuntoFundamental[];
+    dep_amortizacion_musd: PuntoFundamental[];
+    dividendo_por_accion: PuntoFundamental[];
   };
+}
+
+// Ratios calculados (collector/sources/metricas_avanzadas.py) a partir de Fundamentales +
+// balance EDGAR + precio + histórico — cada campo es independiente y puede venir en null
+// si falta un insumo para calcularlo puntual (nunca se inventa un valor parcial).
+export interface MetricasAvanzadas {
+  market_cap_musd: number | null;
+  enterprise_value_musd: number | null;
+  deuda_neta_musd: number | null;
+  deuda_neta_ebitda: number | null;
+  margen_bruto_pct: number | null;
+  margen_ebit_pct: number | null;
+  roa_pct: number | null;
+  roe_pct: number | null;
+  // Aproximado: EBIT / capital invertido, sin ajuste por tasa de impuesto (no hay tag
+  // XBRL de impuestos pagados en este cálculo) — no es el ROIC "de libro" con NOPAT.
+  roic_pct: number | null;
+  roce_pct: number | null;
+  pe: number | null;
+  ev_ingresos: number | null;
+  ev_ebitda: number | null;
+  p_vl: number | null;
+  dividend_yield_pct: number | null;
+  payout_ratio_pct: number | null;
+  maximo_52s: number | null;
+  minimo_52s: number | null;
+  // Calculado por nosotros vía regresión contra el histórico de VOO — no es el beta
+  // "oficial" de un proveedor de datos.
+  beta: number | null;
 }
 
 export interface Segmento {
@@ -100,6 +136,7 @@ export interface Posicion {
   var_ano_pct?: number;
   proxima_earnings?: string;
   fundamentales?: Fundamentales;
+  metricas_avanzadas?: MetricasAvanzadas;
   segmentos?: Segmento[];
   // URL del 8-K/press release del que salieron las citas de `segmentos` — distinto del
   // 10-Q/10-K de `fundamentales`, son filings diferentes.
