@@ -61389,5 +61389,53 @@
       }
     ],
     "ultima_corrida": "2026-08-13"
-  }
+  },
+  "amigos": [
+    {
+      "id": "amigo1-k9x2m7",
+      "nombre": "Amigo 1",
+      "modo": "tickers",
+      "datos": {
+        "tickers": [
+          {
+            "ticker": "NVDA",
+            "precio": 225.21,
+            "var_dia_pct": -0.0399
+          },
+          {
+            "ticker": "TSLA",
+            "precio": 340.7,
+            "var_dia_pct": 0.2177
+          }
+        ]
+      },
+      "actualizado": "2026-08-14T19:05:27.931398+00:00"
+    },
+    {
+      "id": "amigo2-p4w8n1",
+      "nombre": "Amigo 2",
+      "modo": "palabra_clave",
+      "datos": {
+        "palabra_clave": "baterías de litio",
+        "titulares": [
+          {
+            "titular": "Lechería de Casablanca invierte en almacenamiento eléctrico con baterías de litio y proyecta ahorros por $ 80 millones anuales - Diario Financiero",
+            "medio": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTdvaWVIcFQzTXp6TTFIZFEtOEdkTmVQejkySTZIQVpSejlyOVhEcXRQWU4yeTlaWl9ucThOSktYdVR5TGRQOXpCcmFSVVVfRTFWbUZtYUEwb04zNEU2dTRjVTF0T3dNYkNMRGJKUk00c0N2Tmk4dTZ4SjBGWFYtSjJBRDFaSTNxdXYxNGxxZkdIaDk0VlJQQy0wY2xaMVdmUEFlZzE0R3hzb1FRYmZV?oc=5"
+          },
+          {
+            "titular": "Incendios provocados por baterías de litio son un problema para los centros de reciclaje del Área de la Bahía - telemundoareadelabahia.com",
+            "medio": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnBVOFpWQ0p5dUtocTY0Y0h3REpOVTB2WXNhTGduMU5DWEdVcTByYVZhczI3enZIUlNGVXBxMnNzYUVYSVk1dkVDYTdmQ05QZTZJMXpwQzlCLVVVSUFRMEtzTmNiZGJHRnhWRUJxeFdlQVlnT0llbGdDeE12MEFjVHByZUJGdFRkZUJ1NGIyR3h5bk9OZXFQS1hlY3BMX2s5cXdrc3pRYV9tZS1xTDQ1WGR5Wm9sckNpcXpzWUJsY2ZzR243RlppYTVseW1CdUXSAdcBQVVfeXFMTTdxV1RrMFhHQ1VnVE10T1Y2WVQzTktUVVNoUHpLSEV2ZVpzN0t1clF0LWljWGZDVkNGV1h2NHVwek9JbU1FZ3puZGY0ZlR2S2NQZ1JqVzZNM1FWSDNDcnc1bWljd2wtYzNTVl8yZzRqeklFUTlNaXZUZkRaT1lIRmFoMjlhOFpMNUlnRmstb2hzVlpzT3VMcVhvX1d5aGRaY2ZIbnNkOUNRM2JPckwwSzJVMDM2cUk2MTlCY09LbWx0RzBNeWVIRDBtU0tLaTRFN1o4by1NSGM?oc=5"
+          },
+          {
+            "titular": "Cinta De Fibra Rayada Para Baterías De Litio | Adhesivo Fuerte De Un Solo Lado, 30 Mm X 25 M, Ideal Para Sellar Y Fijar - CASAG – OAB Goiás",
+            "medio": "Google News",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWpwUWJSOVZvNVprczhKMVR2dUdzSEk4b3FkNjktY3g3UHMyVldSeDhYNUdJSm9BTGNleUFFMVJwU2lJYTcycTItMTNXMlpWWXVZVWhNYk5pa1RyaDFEUzNEYTIyb3M1cTUwd0lWZGdQdm9PbWJtMUJUaVpBYUJwdjhCQy1ETWNnc0VPV05B?oc=5"
+          }
+        ]
+      },
+      "actualizado": "2026-08-14T19:05:27.931398+00:00"
+    }
+  ]
 }
