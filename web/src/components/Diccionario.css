@@ -5,9 +5,21 @@
   margin: 0;
 }
 
+@media (min-width: 960px) {
+  /* Mismo motivo que Mis inversiones: con el breakout de "Diccionario" a 1200px, una
+     sola columna de texto quedaría carísima de leer (líneas larguísimas) — columnas de
+     periódico aprovechan el ancho sin estirar cada definición. */
+  .diccionario {
+    display: block;
+    columns: 2;
+    column-gap: 2.5rem;
+  }
+}
+
 .diccionario-entrada {
   padding: 0.75rem 0;
   border-bottom: 1px solid var(--linea);
+  break-inside: avoid;
 }
 
 .diccionario-entrada:last-child {

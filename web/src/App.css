@@ -19,6 +19,18 @@
   gap: 1rem;
 }
 
+@media (min-width: 960px) {
+  /* Con el ancho angosto de siempre (640px) una sola columna era lo único que cabía
+     bien — con el breakout de "Inversión" a 1200px, estirar cada card a ~1150px se
+     vería mal (gráfico de precio y texto demasiado anchos), así que acá el ancho extra
+     se usa para mostrar varias cards lado a lado en vez de una más gorda. */
+  .posiciones-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    align-items: start;
+  }
+}
+
 /* Primer layout ancho de toda la app (pedido 2026-08-14, solo para "Hoy") — en mobile
    esto no hace nada (Mundo/Chile/Actualidad se apilan en el mismo orden de siempre,
    0 riesgo de romper nada ahí). Recién a partir de 960px se activa el breakout de
@@ -58,10 +70,36 @@
   .vista-hoy-sidebar {
     grid-column: 1;
     grid-row: 1;
+    /* Actualidad casi siempre tiene menos contenido que Mundo+Chile juntos — sin esto
+     quedaba un hueco vacío abajo del todo apenas se acaban sus 8 titulares, mientras la
+     columna principal seguía scrolleando sola por un buen rato más (reportado en vivo
+     por el usuario). "sticky" la deja pegada arriba mientras se lee el resto. */
+    position: sticky;
+    top: calc(var(--nav-altura) + 1rem);
+    align-self: start;
   }
 
   .vista-hoy-principal {
     grid-column: 2;
     grid-row: 1;
+  }
+}
+
+/* Segundo uso del mismo breakout de "Hoy" — Inversión y Diccionario también se ven
+   apretados en escritorio (reportado en vivo). A diferencia de Hoy, acá no hay una
+   columna angosta obvia (Actualidad); cada vista decide qué hacer con el ancho extra
+   en su propio bloque de estilos (ver App.css más abajo / Diccionario.css). */
+@media (min-width: 960px) {
+  .vista-ancha {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+  }
+
+  .vista-ancha-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
   }
 }

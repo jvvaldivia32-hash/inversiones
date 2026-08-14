@@ -126,45 +126,51 @@ function App() {
       )}
 
       {vista === "inversion" && (
-        <>
-          {daily.fintual && (
-            <Seccion id="fintual" titulo="Mi portafolio" compacta>
-              <PortafolioFintual fintual={daily.fintual} />
+        <div className="vista-ancha">
+          <div className="vista-ancha-inner">
+            {daily.fintual && (
+              <Seccion id="fintual" titulo="Mi portafolio" compacta>
+                <PortafolioFintual fintual={daily.fintual} />
+              </Seccion>
+            )}
+
+            <Seccion id="mis-inversiones" titulo="Mis inversiones">
+              <div className="posiciones-lista">
+                {posicionesVisibles.map((p) => (
+                  <CardInversion
+                    key={p.ticker}
+                    posicion={p}
+                    comparables={posicionesVisibles
+                      .filter((otra) => otra.ticker !== p.ticker)
+                      .map((otra) => ({ ticker: otra.ticker, serie: otra.serie_precio }))}
+                  />
+                ))}
+                {pendientes.map((t) => (
+                  <CardInversionPendiente key={t} ticker={t} />
+                ))}
+              </div>
+              <PanelWatchlist
+                watchlist={watchlist}
+                error={watchlistError}
+                onChange={setWatchlist}
+              />
             </Seccion>
-          )}
 
-          <Seccion id="mis-inversiones" titulo="Mis inversiones">
-            <div className="posiciones-lista">
-              {posicionesVisibles.map((p) => (
-                <CardInversion
-                  key={p.ticker}
-                  posicion={p}
-                  comparables={posicionesVisibles
-                    .filter((otra) => otra.ticker !== p.ticker)
-                    .map((otra) => ({ ticker: otra.ticker, serie: otra.serie_precio }))}
-                />
-              ))}
-              {pendientes.map((t) => (
-                <CardInversionPendiente key={t} ticker={t} />
-              ))}
-            </div>
-            <PanelWatchlist
-              watchlist={watchlist}
-              error={watchlistError}
-              onChange={setWatchlist}
-            />
-          </Seccion>
-
-          <Seccion id="radar" titulo="En el radar" compacta>
-            <Radar radar={daily.radar} watchlist={watchlist} />
-          </Seccion>
-        </>
+            <Seccion id="radar" titulo="En el radar" compacta>
+              <Radar radar={daily.radar} watchlist={watchlist} />
+            </Seccion>
+          </div>
+        </div>
       )}
 
       {vista === "diccionario" && (
-        <Seccion id="diccionario" titulo="Diccionario" compacta>
-          <Diccionario />
-        </Seccion>
+        <div className="vista-ancha">
+          <div className="vista-ancha-inner">
+            <Seccion id="diccionario" titulo="Diccionario" compacta>
+              <Diccionario />
+            </Seccion>
+          </div>
+        </div>
       )}
 
       {vista === "amigos" && (
