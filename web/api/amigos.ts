@@ -8,8 +8,8 @@ import type { IncomingMessage, ServerResponse } from "node:http";
 // El límite real contra abuso es que este endpoint nunca deja crear un `id` nuevo, solo
 // editar uno de los que ya existen en data/amigos.json (provisionados a mano) — así que
 // aunque alguien encuentre la URL de un amigo sin querer, lo peor que puede hacer es
-// cambiarle el ticker/palabra clave a ESE amigo puntual, nunca agregar amigos nuevos ni
-// tocar la watchlist real. Un cooldown de 60s por id evita además que alguien lo deje
+// cambiarle los seguimientos a ESE amigo puntual, nunca agregar amigos nuevos ni tocar
+// la watchlist real. Un cooldown de 60s por id evita además que alguien lo deje
 // cambiando en loop.
 interface VercelRequest extends IncomingMessage {
   method?: string;
@@ -27,16 +27,18 @@ const RUTA_ARCHIVO = "data/amigos.json";
 const RAMA = "main";
 const USER_AGENT = "inversiones-amigos-panel";
 const TICKER_VALIDO = /^[A-Z0-9.]{1,10}$/;
+const MAX_SEGUIMIENTOS = 4;
 const MAX_TICKERS = 2;
 const MAX_PALABRA_CLAVE = 40;
+const MAX_NOMBRE = 20;
 const COOLDOWN_MS = 60_000;
+
+type Seguimiento = { tipo: "ticker" | "palabra_clave"; valor: string };
 
 interface AmigoConfig {
   id: string;
   nombre: string;
-  modo: "tickers" | "palabra_clave";
-  tickers?: string[];
-  palabra_clave?: string;
+  seguimientos: Seguimiento[];
   ultima_edicion?: string;
 }
 
@@ -93,7 +95,7 @@ class ErrorConocido extends Error {}
 async function aplicarCambio(
   token: string,
   id: string,
-  cambios: { modo: "tickers" | "palabra_clave"; tickers?: string[]; palabraClave?: string },
+  cambios: { nombre?: string; seguimientos: Seguimiento[] },
   reintentar = true,
 ): Promise<AmigoConfig[]> {
   const { sha, amigos } = await leerArchivo(token);
@@ -112,17 +114,14 @@ async function aplicarCambio(
 
   const actualizado: AmigoConfig = {
     id: actual.id,
-    nombre: actual.nombre,
-    modo: cambios.modo,
-    tickers: cambios.modo === "tickers" ? cambios.tickers : undefined,
-    palabra_clave: cambios.modo === "palabra_clave" ? cambios.palabraClave : undefined,
+    nombre: cambios.nombre || actual.nombre,
+    seguimientos: cambios.seguimientos,
     ultima_edicion: new Date().toISOString(),
   };
   const nuevos = [...amigos];
   nuevos[indice] = actualizado;
 
-  const etiquetaModo = cambios.modo === "tickers" ? "tickers" : "palabra clave";
-  const mensaje = `amigos: ${actual.nombre} actualizó su ${etiquetaModo}`;
+  const mensaje = `amigos: ${actualizado.nombre} actualizó sus seguimientos`;
   const resp = await escribirArchivo(token, sha, nuevos, mensaje);
 
   if (resp.status === 409 && reintentar) {
@@ -134,6 +133,35 @@ async function aplicarCambio(
   }
 
   return nuevos;
+}
+
+function validarSeguimientos(input: unknown): Seguimiento[] | null {
+  if (!Array.isArray(input)) return null;
+
+  const validos: Seguimiento[] = [];
+  let tickers = 0;
+
+  for (const item of input) {
+    if (typeof item !== "object" || item === null) continue;
+    const tipo = (item as { tipo?: unknown }).tipo;
+    const valorCrudo = (item as { valor?: unknown }).valor;
+
+    if (tipo === "ticker") {
+      if (tickers >= MAX_TICKERS) continue;
+      const valor = String(valorCrudo ?? "").trim().toUpperCase();
+      if (!TICKER_VALIDO.test(valor)) continue;
+      validos.push({ tipo: "ticker", valor });
+      tickers += 1;
+    } else if (tipo === "palabra_clave") {
+      const valor = String(valorCrudo ?? "").trim().slice(0, MAX_PALABRA_CLAVE);
+      if (!valor) continue;
+      validos.push({ tipo: "palabra_clave", valor });
+    }
+
+    if (validos.length >= MAX_SEGUIMIENTOS) break;
+  }
+
+  return validos;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -150,9 +178,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const body = (req.body ?? {}) as {
     id?: string;
-    modo?: string;
-    tickers?: unknown;
-    palabra_clave?: unknown;
+    nombre?: string;
+    seguimientos?: unknown;
   };
 
   const id = String(body.id ?? "").trim();
@@ -161,34 +188,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return;
   }
 
-  if (body.modo !== "tickers" && body.modo !== "palabra_clave") {
-    res.status(400).json({ error: "modo inválido" });
+  const nombre = body.nombre ? String(body.nombre).trim().slice(0, MAX_NOMBRE) : undefined;
+
+  const seguimientos = validarSeguimientos(body.seguimientos);
+  if (!seguimientos || seguimientos.length === 0) {
+    res.status(400).json({
+      error: `al menos un seguimiento válido (ticker o palabra clave, máx. ${MAX_SEGUIMIENTOS})`,
+    });
     return;
   }
 
-  let tickers: string[] | undefined;
-  let palabraClave: string | undefined;
-
-  if (body.modo === "tickers") {
-    const lista = Array.isArray(body.tickers) ? body.tickers : [];
-    tickers = lista
-      .map((t) => String(t).trim().toUpperCase())
-      .filter((t) => TICKER_VALIDO.test(t))
-      .slice(0, MAX_TICKERS);
-    if (tickers.length === 0) {
-      res.status(400).json({ error: "al menos un ticker válido (ej: NVDA)" });
-      return;
-    }
-  } else {
-    palabraClave = String(body.palabra_clave ?? "").trim().slice(0, MAX_PALABRA_CLAVE);
-    if (!palabraClave) {
-      res.status(400).json({ error: "palabra clave vacía" });
-      return;
-    }
-  }
-
   try {
-    const amigos = await aplicarCambio(token, id, { modo: body.modo, tickers, palabraClave });
+    const amigos = await aplicarCambio(token, id, { nombre, seguimientos });
     res.status(200).json({ ok: true, amigos });
   } catch (e) {
     if (e instanceof ErrorConocido && e.message === "id desconocido") {

@@ -2,17 +2,18 @@
   {
     "id": "amigo1-k9x2m7",
     "nombre": "Amigo 1",
-    "modo": "tickers",
-    "tickers": [
-      "NVDA",
-      "TSLA"
-    ],
-    "ultima_edicion": "2026-08-14T19:07:19.588Z"
+    "seguimientos": [
+      { "tipo": "ticker", "valor": "NVDA" },
+      { "tipo": "ticker", "valor": "TSLA" },
+      { "tipo": "palabra_clave", "valor": "inteligencia artificial" }
+    ]
   },
   {
     "id": "amigo2-p4w8n1",
     "nombre": "Amigo 2",
-    "modo": "palabra_clave",
-    "palabra_clave": "baterías de litio"
+    "seguimientos": [
+      { "tipo": "palabra_clave", "valor": "baterías de litio" },
+      { "tipo": "ticker", "valor": "AMD" }
+    ]
   }
 ]

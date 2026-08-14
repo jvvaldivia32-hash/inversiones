@@ -47,6 +47,16 @@
   color: var(--tinta-media);
 }
 
+.amigos-tema {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.amigos-tema:last-child,
+.amigos-ticker:last-child {
+  border-bottom: none;
+}
+
 .amigos-titulares {
   list-style: none;
   margin: 0;
@@ -110,8 +120,64 @@
   color: var(--tinta);
 }
 
-.amigos-panel-edicion > button[type="submit"] {
-  align-self: flex-start;
+.amigos-panel-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.amigos-panel-lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--papel-hueco);
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.2rem 0.3rem 0.2rem 0.6rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-12);
+}
+
+.amigos-panel-lista-tipo {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  font-weight: 600;
+}
+
+.amigos-panel-lista button {
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-14);
+  line-height: 1;
+  padding: 0.1rem 0.3rem;
+}
+
+.amigos-panel-lista button:hover {
+  color: var(--rojo);
+}
+
+.amigos-panel-agregar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.amigos-panel-agregar-fila {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.amigos-panel-agregar-fila input {
+  flex: 1;
+  min-width: 0;
+}
+
+.amigos-panel-agregar-fila button,
+.amigos-panel-guardar {
   border: 1px solid var(--acento);
   border-radius: 3px;
   padding: 0.35rem 0.6rem;
@@ -120,8 +186,13 @@
   font-size: var(--texto-12);
 }
 
-.amigos-panel-edicion > button[type="submit"]:disabled {
+.amigos-panel-agregar-fila button:disabled,
+.amigos-panel-guardar:disabled {
   opacity: 0.5;
+}
+
+.amigos-panel-guardar {
+  align-self: flex-start;
 }
 
 .amigos-panel-ok {

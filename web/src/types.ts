@@ -207,27 +207,24 @@ export interface Fintual {
   actualizado: string;
 }
 
-export interface AmigoTickerDato {
-  ticker: string;
-  precio: number;
-  var_dia_pct: number;
-}
-
 export interface AmigoTitular {
   titular: string;
   medio: string;
   url: string;
 }
 
+export interface AmigoSeguimiento {
+  tipo: "ticker" | "palabra_clave";
+  valor: string;
+  // Forma de `datos` depende de `tipo`: ticker -> {precio, var_dia_pct}, palabra_clave ->
+  // {titulares}. Puede venir null si nunca se pudo resolver (ticker roto la primera vez).
+  datos: { precio?: number; var_dia_pct?: number; titulares?: AmigoTitular[] } | null;
+}
+
 export interface Amigo {
   id: string;
   nombre: string;
-  modo: "tickers" | "palabra_clave";
-  datos: {
-    tickers?: AmigoTickerDato[];
-    palabra_clave?: string;
-    titulares?: AmigoTitular[];
-  };
+  seguimientos: AmigoSeguimiento[];
   actualizado?: string;
 }
 

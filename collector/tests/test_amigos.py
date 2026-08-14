@@ -6,39 +6,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from sources import amigos, prices  # noqa: E402
 
 
-def test_obtener_datos_tickers_ok(monkeypatch):
-    def _cotizacion_falsa(ticker):
-        return {"precio": 100.0, "var_dia_pct": 1.5, "cierre_anterior": 98.5}
-
-    monkeypatch.setattr(prices, "obtener_cotizacion", _cotizacion_falsa)
-    resultado = amigos.obtener_datos_tickers(["NVDA", "TSLA"])
-    assert resultado == [
-        {"ticker": "NVDA", "precio": 100.0, "var_dia_pct": 1.5},
-        {"ticker": "TSLA", "precio": 100.0, "var_dia_pct": 1.5},
-    ]
-
-
-def test_obtener_datos_tickers_respeta_el_tope(monkeypatch):
+def test_obtener_dato_ticker_ok(monkeypatch):
     monkeypatch.setattr(
-        prices, "obtener_cotizacion", lambda t: {"precio": 1, "var_dia_pct": 1, "cierre_anterior": 1}
+        prices, "obtener_cotizacion", lambda t: {"precio": 100.0, "var_dia_pct": 1.5, "cierre_anterior": 98.5}
     )
-    resultado = amigos.obtener_datos_tickers(["A", "B", "C", "D"])
-    assert len(resultado) == amigos.MAX_TICKERS_POR_AMIGO
+    assert amigos.obtener_dato_ticker("NVDA") == {"precio": 100.0, "var_dia_pct": 1.5}
 
 
-def test_obtener_datos_tickers_un_ticker_roto_no_tumba_los_demas(monkeypatch):
+def test_obtener_dato_ticker_roto_da_none(monkeypatch):
     def _cotizacion(ticker):
-        if ticker == "ROTO":
-            raise prices.FinnhubError("sin datos")
-        return {"precio": 50.0, "var_dia_pct": -2.0, "cierre_anterior": 51.0}
+        raise prices.FinnhubError("sin datos")
 
     monkeypatch.setattr(prices, "obtener_cotizacion", _cotizacion)
-    resultado = amigos.obtener_datos_tickers(["ROTO", "MCD"])
-    assert resultado == [{"ticker": "MCD", "precio": 50.0, "var_dia_pct": -2.0}]
-
-
-def test_obtener_datos_tickers_lista_vacia():
-    assert amigos.obtener_datos_tickers([]) == []
+    assert amigos.obtener_dato_ticker("ROTO") is None
 
 
 def test_obtener_recap_palabra_clave_parsea_y_recorta(monkeypatch):

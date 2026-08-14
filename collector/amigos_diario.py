@@ -4,10 +4,11 @@ seguido que eso. Ver .github/workflows/amigos_diario.yml.
 
 `data/amigos.json` es la config editable (por cada amigo, vía web/api/amigos.ts, sin
 clave compartida — el límite real es que la API nunca deja crear un id nuevo, solo editar
-uno de los que ya existen). Este script lee esa config, resuelve los datos en vivo, y
+uno de los que ya existen). Cada amigo arma una lista libre de "seguimientos" (mezcla de
+tickers y palabras clave). Este script resuelve los datos en vivo de cada seguimiento y
 escribe el resultado en data/daily.json bajo la clave "amigos" — mismo patrón de
-degradación silenciosa que fintual_diario.py: si algo falla para un amigo puntual, se
-conserva su valor anterior en vez de dejarlo en blanco."""
+degradación silenciosa que fintual_diario.py: si algo falla para un seguimiento puntual,
+se conserva su valor anterior en vez de dejarlo en blanco."""
 
 import datetime
 import json
@@ -26,30 +27,45 @@ def _amigos_anteriores() -> dict[str, dict]:
     return {a["id"]: a for a in daily.get("amigos", []) if a.get("id")}
 
 
+def _dato_anterior(anterior_amigo: dict | None, tipo: str, valor: str) -> dict | None:
+    if not anterior_amigo:
+        return None
+    for s in anterior_amigo.get("seguimientos", []):
+        if s.get("tipo") == tipo and s.get("valor") == valor:
+            return s.get("datos")
+    return None
+
+
+def construir_seguimiento(item: dict, anterior_amigo: dict | None) -> dict:
+    tipo = item.get("tipo")
+    valor = item.get("valor", "")
+    anterior = _dato_anterior(anterior_amigo, tipo, valor)
+
+    if tipo == "ticker":
+        dato = amigos.obtener_dato_ticker(valor)
+        datos = dato if dato is not None else (anterior or None)
+    elif tipo == "palabra_clave":
+        titulares = amigos.obtener_recap_palabra_clave(valor)
+        datos = {"titulares": titulares} if titulares else (anterior or {"titulares": []})
+    else:
+        datos = anterior
+
+    return {"tipo": tipo, "valor": valor, "datos": datos}
+
+
 def construir_amigo(config: dict, anterior: dict | None, ahora: datetime.datetime) -> dict:
-    """{"id", "nombre", "modo", "datos", "actualizado"} con datos reales, o `anterior` si
-    algo salió mal — las funciones de sources/amigos.py ya degradan campo por campo
-    internamente (un ticker roto no tumba los demás), así que llegar acá con una
-    excepción real es el caso raro (ej. FINNHUB_KEY no seteada)."""
-    base = {"id": config["id"], "nombre": config.get("nombre", config["id"]), "modo": config.get("modo")}
-    try:
-        if config.get("modo") == "tickers":
-            datos = {"tickers": amigos.obtener_datos_tickers(config.get("tickers") or [])}
-        elif config.get("modo") == "palabra_clave":
-            palabra = config.get("palabra_clave") or ""
-            datos = {
-                "palabra_clave": palabra,
-                "titulares": amigos.obtener_recap_palabra_clave(palabra),
-            }
-        else:
-            print(f"  {config.get('id')}: modo desconocido, se omite")
-            return anterior if anterior else {**base, "datos": {}}
-        base["datos"] = datos
-        base["actualizado"] = ahora.isoformat()
-        return base
-    except Exception as e:  # noqa: BLE001 — cualquier cosa rara: degradar, no tumbar la corrida
-        print(f"  {config.get('id')}: no se pudo actualizar ({e})")
-        return anterior if anterior else {**base, "datos": {}}
+    """{"id", "nombre", "seguimientos", "actualizado"} — cada seguimiento degrada
+    independiente (un ticker roto o una búsqueda sin resultados no tumba a los demás)."""
+    seguimientos = [
+        construir_seguimiento(item, anterior)
+        for item in (config.get("seguimientos") or [])[: amigos.MAX_SEGUIMIENTOS]
+    ]
+    return {
+        "id": config["id"],
+        "nombre": config.get("nombre", config["id"]),
+        "seguimientos": seguimientos,
+        "actualizado": ahora.isoformat(),
+    }
 
 
 def main() -> None:
@@ -69,7 +85,7 @@ def main() -> None:
         anterior = anteriores.get(config.get("id"))
         amigo = construir_amigo(config, anterior, ahora)
         resultado.append(amigo)
-        print(f"  {amigo['nombre']}: ok")
+        print(f"  {amigo['nombre']}: {len(amigo['seguimientos'])} seguimiento(s)")
 
     daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
     daily["amigos"] = resultado
