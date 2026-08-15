@@ -1,13 +1,11 @@
 {
-  "generado": "2026-08-15T21:14:26.881952+00:00",
-  "errores": [
-    "France24: feed sin respuesta o vacío"
-  ],
+  "generado": "2026-08-15T22:13:56.528194+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Disputa regulatoria de Kalshi en Nevada",
-        "resumen": "La plataforma Kalshi respondió a un regulador de Nevada debido a una multa impuesta por restricciones geográficas.",
+        "titulo_neutral": "Disputa regulatoria de operadores de mercados de predicción",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Prediction market operator Kalshi hits back at Nevada regulator over geofencing fine - Reuters",
@@ -17,20 +15,7 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0pOU3U5SkkwQ3dlQmEwdk1qc3cySXdxYnoxd1FLek9iTEI2LXBBT195Ni1vRXhyZDljbExOekR1bGNWd2NEQmFEVVIwdVE1Zlh4enVIT3oxVlo2OHBqdGgtVm1FQWFIWkVNSTh1d2J3VFpiTWp1Ymo0ZUt1eXA4TWdmY2gwdDNKVWEtMlM4ZjNRZUoxQ0NUT2FiTEV6LVRzcHBWNE5MTExGdWN2N3doODNNQkVHOExFTnBrclM4ejJSS1B0ZElPUg?oc=5",
             "fecha": "2026-08-15T14:59:45+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Cierre de cuentas de Polymarket en JPMorgan",
-        "resumen": "Fuentes cercanas indican que JPMorgan eliminó las cuentas bancarias de Polymarket el año pasado debido a inquietudes normativas.",
-        "articulos": [
+          },
           {
             "titular": "JPMorgan debanked Polymarket last year over regulatory concerns, source says - Reuters",
             "extracto": "",
@@ -50,8 +35,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Previsiones financieras para la salida a bolsa de Anthropic",
-        "resumen": "La valoración prevista para la salida a bolsa de Anthropic depende de sus proyecciones de ingresos para 2028, mientras la inflación en EE. UU. descendió.",
+        "titulo_neutral": "Proyecciones y valoraciones de oferta pública inicial de Anthropic",
+        "resumen": "Inversores esperan que Anthropic protagonice la mayor oferta pública inicial de la historia impulsada por proyecciones de ingresos futuros. Mientras tanto, la inflación en Estados Unidos experimentó un ligero descenso en julio a medida que cayeron los precios de los combustibles.",
         "articulos": [
           {
             "titular": "EXCLUSIVE: Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say - Reuters",
@@ -82,8 +67,8 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Negociaciones comerciales entre Canadá y Estados Unidos",
-        "resumen": "Una fuente señala que Canadá y Estados Unidos mantienen diferencias significativas respecto a un borrador de acuerdo comercial.",
+        "titulo_neutral": "Canadian minister says Canada, US far apart on draft trade deal, source says - Reuters",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Canadian minister says Canada, US far apart on draft trade deal, source says - Reuters",
@@ -104,30 +89,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Desarrollo de modelo de inteligencia artificial de Apple en China con Alibaba",
-        "resumen": "Informes indican que Apple se encuentra desarrollando su propio sistema de inteligencia artificial para el mercado chino con la colaboración de Alibaba.",
-        "articulos": [
-          {
-            "titular": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
-            "fecha": "2026-08-14T21:45:59+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Decisiones y perspectivas sobre los tipos de interés de la Reserva Federal",
-        "resumen": "Grandes tecnológicas publicaron sus resultados financieros mientras la Reserva Federal mantuvo estables las tasas de interés y los incendios forestales azotaron Europa.",
+        "titulo_neutral": "Fed holds rates as inflation fears grow",
+        "resumen": "Grandes tecnológicas reportaron sus resultados financieros generando inquietud por el elevado volumen de gasto en inteligencia artificial. Paralelamente, la Reserva Federal decidió mantener los tipos de interés sin cambios a pesar de las presiones inflacionarias derivadas de conflictos internacionales.",
         "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -137,7 +100,20 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
             "fecha": "2026-07-30T04:00:00+00:00"
-          },
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Hike or hold: Investors split ahead of Fed decision",
+        "resumen": "Los mercados financieros incrementaron sus apuestas sobre un endurecimiento de la política monetaria en Estados Unidos tras un repunte en los precios del petróleo. Simultáneamente, equipos de emergencia combatieron intensos incendios forestales en regiones de Francia y España.",
+        "articulos": [
           {
             "titular": "Hike or hold: Investors split ahead of Fed decision",
             "extracto": "",
@@ -157,8 +133,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Situación económica y deportiva en Alemania",
-        "resumen": "La economía estadounidense añadió menos puestos de trabajo de lo previsto en junio, y los mercados de crédito privado registraron solicitudes masivas de reembolso.",
+        "titulo_neutral": "Germany’s twin crises: football and the economy",
+        "resumen": "El crecimiento del empleo en Estados Unidos quedó por debajo de las previsiones de Wall Street durante el mes de junio. En Corea del, inversores redirigieron ganancias obtenidas en el sector tecnológico hacia el mercado inmobiliario.",
         "articulos": [
           {
             "titular": "Germany’s twin crises: football and the economy",
@@ -179,8 +155,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resolución del Tribunal Supremo de Estados Unidos sobre un gobernador de la Reserva Federal",
-        "resumen": "El Tribunal Supremo impidió que el expresidente destituyera a una gobernadora de la Reserva Federal, al tiempo que los inversores redujeron su exposición a las grandes tecnológicas.",
+        "titulo_neutral": "US Supreme Court blocks firing of Fed governor",
+        "resumen": "El Tribunal Supremo frenó los intentos del presidente Donald Trump de destituir a una alta funcionaria de la Reserva Federal. Además, los mercados experimentaron una rotación de capitales que alejó a los inversores de las grandes acciones tecnológicas.",
         "articulos": [
           {
             "titular": "US Supreme Court blocks firing of Fed governor",
@@ -199,12 +175,34 @@
           "Financial Times"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "European defence stocks face uncertainty",
+        "resumen": "La startup Anthropic denunció accesos no autorizados a su modelo de inteligencia artificial por parte de actores externos. En Europa, la cancelación de proyectos navales en Alemania generó incertidumbre en el sector de defensa ante próximas salidas a bolsa.",
+        "articulos": [
+          {
+            "titular": "European defence stocks face uncertainty",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/european-defence-stocks-face-uncertainty",
+            "fecha": "2026-06-25T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
         "titulo_neutral": "Thae Loiza Galaz: lo que se sabe de la exconcejala de Graneros desaparecida hace más de 10 días",
-        "resumen": "La policía busca intensamente a una exautoridad municipal extraviada desde principios de mes en la Región Metropolitana. Las diligencias incluyen revisión de registros audiovisuales y entrevistas a su círculo cercano.",
+        "resumen": "La policía busca a una exautoridad comunal cuyo paradero se desconoce desde principios de agosto, tras dejar un domicilio en Ñuñoa. Las diligencias incluyen revisión de registros fílmicos y entrevistas a cercanos.",
         "articulos": [
           {
             "titular": "Thae Loiza Galaz: lo que se sabe de la exconcejala de Graneros desaparecida hace más de 10 días",
@@ -248,7 +246,7 @@
       },
       {
         "titulo_neutral": "Investigación chilena creó extracto de algas para reducir el impacto del azúcar en las pastas",
-        "resumen": "Un estudio científico nacional logró desarrollar un aditivo a base de plantas marinas capaz de disminuir la absorción de azúcar en alimentos elaborados con harinas. El avance permite modificar positivamente la digestión sin alterar el sabor ni la textura.",
+        "resumen": "Un estudio científico nacional desarrolló un aditivo a base de plantas marinas para modificar la asimilación de carbohidratos en las pastas. El compuesto disminuye la velocidad con que se libera la glucosa sin alterar el sabor ni la textura.",
         "articulos": [
           {
             "titular": "Investigación chilena creó extracto de algas para reducir el impacto del azúcar en las pastas",
@@ -336,7 +334,7 @@
       },
       {
         "titulo_neutral": "Carreras de galgos: se espera que Congreso vuelva a debatir su prohibición esta semana tras postergaciones",
-        "resumen": "El Parlamento se prepara para retomar el análisis de una iniciativa legal que busca prohibir las competencias caninas. Expertos señalan la necesidad de abordar el impacto emocional y físico sobre los animales, además del problema asociado de las apuestas clandestinas.",
+        "resumen": "El Parlamento retomará el análisis de una iniciativa legal para prohibir las competencias de canes. Especialistas enfatizan la necesidad de evaluar el impacto emocional en los animales y el vínculo con el juego clandestino.",
         "articulos": [
           {
             "titular": "Carreras de galgos: se espera que Congreso vuelva a debatir su prohibición esta semana tras postergaciones",
@@ -358,7 +356,7 @@
       },
       {
         "titulo_neutral": "“Cambia vidas”: Yasmani Acosta criticó propuesta del Partido Libertario sobre eliminar el Ministerio del Deporte",
-        "resumen": "Un destacado deportista olímpico rechazó la iniciativa de un sector político orientada a suprimir la cartera estatal encargada del deporte. El atleta defendió la relevancia de estas instituciones públicas en la transformación social y el apoyo a los atletas.",
+        "resumen": "Un reconocido deportista olímpico cuestionó la iniciativa de un partido político de suprimir la secretaría de Estado encargada de la actividad física. El atleta remarcó la relevancia de dicha institución para fomentar oportunidades de superación personal.",
         "articulos": [
           {
             "titular": "“Cambia vidas”: Yasmani Acosta criticó propuesta del Partido Libertario sobre eliminar el Ministerio del Deporte",
@@ -381,34 +379,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Qatar denies capturing three Iranian pilots after downing fighter jets",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-15T21:03:57+00:00"
-      },
-      {
-        "titular": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-15T20:58:31+00:00"
-      },
-      {
-        "titular": "Qatar denies it is detaining three Iranian bomber pilots",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
-        "fecha": "2026-08-15T20:55:29+00:00"
-      },
-      {
-        "titular": "California tackles multiple wildfires as firefighter workforce faces strain",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/gallery/2026/8/15/california-tackles-multiple-wildfires-as-firefighter-workforce-faces-strain?traffic_source=rss",
-        "fecha": "2026-08-15T20:40:48+00:00"
+        "titular": "Andrew Gutman signs with Chicago Fire FC through 2028-29 season - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUEhLalVFbklxU2F5S3FjclBkbUJRWE5USnBKYXh5NXpGTXQ3anUzT0QwaFM4VWYzRFIxNTg1c2w5RE8yQ3JRcG50WjlhalZZVFExakRzMEZDc2RpdEU5Znk1LUJwM1RRbEsxTHBFU3lXWFUtOEttNzhma3Y4YmI0dzdoNjJZYVdFaXFGZF8xTzZWdUN4ODJidms2eXBqc19XNXBvYkF1dGFFeDR6UVVjTHR5ZmVTelFMNUE?oc=5",
+        "fecha": "2026-08-15T21:58:12+00:00"
       },
       {
         "titular": "Hawaii braces for potential first direct hit by a hurricane in 34 years",
         "medio": "BBC",
         "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-15T20:28:30+00:00"
+        "fecha": "2026-08-15T21:56:10+00:00"
+      },
+      {
+        "titular": "Rescuers search for survivors of powerful Indonesia earthquake",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-15T21:49:12+00:00"
+      },
+      {
+        "titular": "Australian state to launch gun buyback after Bondi Beach attack",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-15T21:41:43+00:00"
+      },
+      {
+        "titular": "Hopes fade in Colombia as more bodies recovered days after powerful quake - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTVVtWHRQWDU1UXU5RHBDM2hOaG1YcVdpMHIyTGtFbnJtQi13c09KUnFlUlRzaDZLSldMZF91NnhFTmhjTERDaXduYktlSTZ0V0h2N2R0M0VoSzBfNjdGcmJCUkhLX01aRkUyRDA5dFZVZWkxazhMT3dNTUs2T1JLX3dCY25KdVlJRjFQTThiV0JNR2VXVEZ5VFh3cGloSnI0SlpEZXVFWXFtblRaXy1CZ18tanp0akpGNGRLQXZ4a09DUQ?oc=5",
+        "fecha": "2026-08-15T21:34:27+00:00"
       }
     ]
   },
@@ -794,6 +792,10 @@
           },
           {
             "fecha": "2026-08-15T21:00:00",
+            "valor": 504.03
+          },
+          {
+            "fecha": "2026-08-15T22:00:00",
             "valor": 504.03
           }
         ],
@@ -3984,8 +3986,17 @@
       },
       "noticias": [
         {
+          "titular": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter",
+          "extracto": "El conglomerado dirigido por Greg Abel amplió su participación en la empresa matriz de Google durante el segundo trimestre. Al mismo tiempo, la firma redujo sus inversiones en el sector financiero y en otras compañías.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-boosted-stake-alphabet-213123203.html?.tsrc=rss",
+          "fecha": "2026-08-15T21:31:23+00:00"
+        },
+        {
           "titular": "Warren Buffett Wasn’t the Only Billionaire Buying Alphabet Stock in Q2",
-          "extracto": "Los informes financieros trimestrales revelan que dos destacados inversores multimillonarios adquirieron participaciones en la misma empresa durante el mes de agosto.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -3994,7 +4005,7 @@
         },
         {
           "titular": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why It Just Hit an All-Time High Under Greg Abel.",
-          "extracto": "Los motivos que atraen el interés de Warren Buffett hacia esta compañía coinciden con los factores que impulsan su popularidad actual en los mercados.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4002,31 +4013,22 @@
           "fecha": "2026-08-15T15:47:00+00:00"
         },
         {
+          "titular": "Warren Buffett named these 3 stocks as favorites for a reason",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.thestreet.com/investing/warren-buffett-named-these-3-stocks-as-his-favorites-for-a-reason-alphabet-apple-coca-cola?.tsrc=rss",
+          "fecha": "2026-08-15T14:04:00+00:00"
+        },
+        {
           "titular": "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
-          "extracto": "Entre 2018 y 2024, Warren Buffett invirtió decenas de miles de millones de dólares en una acción que no corresponde a Apple.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/15/greg-abel-plowed-42-billion-warren-buffetts-stock/?.tsrc=rss",
           "fecha": "2026-08-15T13:43:00+00:00"
-        },
-        {
-          "titular": "Alphabet Is Berkshire Hathaway’s New Favorite Stock After Buying 48 Million Shares",
-          "extracto": "El nuevo director ejecutivo de Berkshire, Greg Abel, finalizó un periodo prolongado de ventas netas al destinar grandes sumas a una empresa tecnológica seleccionada previamente por Warren Buffett.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/15/alphabet-is-berkshire-hathaways-new-favorite-stock-after-buying-48-million-shares/?.tsrc=rss",
-          "fecha": "2026-08-15T12:05:51+00:00"
-        },
-        {
-          "titular": "Dividend Stocks Usually Beat Non-Payers. Berkshire Hathaway Is the Exception.",
-          "extracto": "Las decisiones financieras adoptadas por Berkshire Hathaway la han diferenciado de las tendencias generales del mercado.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/15/dividend-stocks-usually-beat-non-payers-berkshire/?.tsrc=rss",
-          "fecha": "2026-08-15T10:35:00+00:00"
         }
       ],
       "fundamentales": {
@@ -4596,6 +4598,10 @@
           },
           {
             "fecha": "2026-08-15T21:00:00",
+            "valor": 272.83
+          },
+          {
+            "fecha": "2026-08-15T22:00:00",
             "valor": 272.83
           }
         ],
@@ -7796,7 +7802,7 @@
         },
         {
           "titular": "Are Innovative Beverages Enough to Turn McDonald's Around?",
-          "extracto": "La estrategia de expansión de la empresa se enfoca en incorporar productos innovadores a la carta y optimizar los procesos internos.",
+          "extracto": "La estrategia de expansión corporativa combina la incorporación de productos atractivos con la simplificación de los procesos internos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7805,7 +7811,7 @@
         },
         {
           "titular": "Costco makes a pricing promise members need to know",
-          "extracto": "Ante la reducción del gasto por parte de los clientes, los combos económicos de la competencia podrían atraer a los compradores más ahorradores de otras marcas.",
+          "extracto": "Las ofertas económicas de la competencia amenazan con atraer a consumidores con presupuestos ajustados que buscan reducir gastos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7814,7 +7820,7 @@
         },
         {
           "titular": "McDonald's (MCD): Buy, Sell, or Hold Post Q2 Earnings?",
-          "extracto": "Las acciones de McDonald's registraron una caída durante el último semestre, generando pérdidas para los accionistas en contraste con el crecimiento general del mercado.",
+          "extracto": "Las acciones de McDonald's experimentaron una caída significativa en medio año, registrando pérdidas para los accionistas mientras el mercado general subía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7823,7 +7829,7 @@
         },
         {
           "titular": "5 Insightful Analyst Questions From McDonald's’s Q2 Earnings Call",
-          "extracto": "Los resultados financieros trimestrales cumplieron con las previsiones, aunque la dirección admitió fallas operativas y una promoción ineficaz de las ofertas económicas en Estados Unidos.",
+          "extracto": "Los ingresos trimestrales cumplieron con las previsiones financieras, aunque la dirección admitió fallas operativas y problemas en la implementación de ofertas en el mercado estadounidense.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8561,6 +8567,10 @@
           },
           {
             "fecha": "2026-08-15T21:00:00",
+            "valor": 495.4
+          },
+          {
+            "fecha": "2026-08-15T22:00:00",
             "valor": 495.4
           }
         ],
@@ -11751,8 +11761,17 @@
       },
       "noticias": [
         {
+          "titular": "The 5 Biggest Risks Americans Don’t Think About Behind the Data Center Boom",
+          "extracto": "La inversión multimillonaria en infraestructura de inteligencia artificial conlleva gastos ocultos que podrían afectar directamente a los ciudadanos estadounidenses.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/15/the-5-biggest-risks-americans-dont-think-about-behind-the-data-center-boom/?.tsrc=rss",
+          "fecha": "2026-08-15T13:00:00+00:00"
+        },
+        {
           "titular": "Elon Musk Says SpaceX Has a Massive Competitive Advantage in AI That Amazon, Google, and Microsoft Can't Touch",
-          "extracto": "Elon Musk indicó que su compañía aeroespacial podría destinar inversiones masivas al desarrollo de centros de procesamiento de datos.",
+          "extracto": "Elon Musk insinuó que su compañía aeroespacial podría destinar recursos significativos al desarrollo de centros de datos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11761,7 +11780,7 @@
         },
         {
           "titular": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
-          "extracto": "Los fondos DIVO y JEPI ofrecen pagos mensuales mediante opciones sobre acciones estables, aunque presentan diferencias en la acumulación de capital frente a la rentabilidad.",
+          "extracto": "Dos fondos populares de inversión mensual generan ingresos mediante opciones de compra cubiertas, aunque difieren en su capacidad para proteger y aumentar el capital a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11770,7 +11789,7 @@
         },
         {
           "titular": "Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery",
-          "extracto": "La empresa Iren comenzó a generar ingresos a partir de su alianza con Microsoft, lo cual disminuirá su necesidad de emitir deuda corporativa.",
+          "extracto": "La empresa Iren comenzó a percibir ingresos gracias a su asociación con Microsoft, lo cual reducirá su necesidad de emitir deuda corporativa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11778,22 +11797,13 @@
           "fecha": "2026-08-15T18:15:00+00:00"
         },
         {
-          "titular": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
-          "extracto": "Una inversión inicial de Nvidia en una empresa emergente de inteligencia artificial derivó de manera indirecta en una participación accionaria inusual dentro de la compañía espacial de Elon Musk.",
+          "titular": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
+          "extracto": "Cinco fondos cotizados ofrecen pagos mensuales elevados mediante diversas estrategias de ingresos fijos y derivados, pero sus mecanismos internos determinan su idoneidad para distintos perfiles de inversión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/15/nvidias-secret-21-billion-spacex-windfall-how-one-chip-deal-turned-into-a-rocket-fortune/?.tsrc=rss",
-          "fecha": "2026-08-15T13:41:48+00:00"
-        },
-        {
-          "titular": "The 5 Biggest Risks Americans Don’t Think About Behind the Data Center Boom",
-          "extracto": "Las cuantiosas inversiones previstas en infraestructura tecnológica generan beneficios financieros aparentes, mientras trasladan costos ocultos hacia los contribuyentes.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/15/the-5-biggest-risks-americans-dont-think-about-behind-the-data-center-boom/?.tsrc=rss",
-          "fecha": "2026-08-15T13:00:00+00:00"
+          "url": "https://247wallst.com/investing/2026/08/15/5-monthly-dividend-etfs-paying-7-to-14-percent-to-ride-into-2027/?.tsrc=rss",
+          "fecha": "2026-08-15T17:11:48+00:00"
         }
       ],
       "fundamentales": {
@@ -12586,6 +12596,10 @@
           },
           {
             "fecha": "2026-08-15T21:00:00",
+            "valor": 713.61
+          },
+          {
+            "fecha": "2026-08-15T22:00:00",
             "valor": 713.61
           }
         ],
@@ -15777,7 +15791,7 @@
       "noticias": [
         {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests.",
-          "extracto": "Ampliar el horizonte temporal de inversión eleva la probabilidad de obtener resultados positivos. Esta perspectiva ayuda a mitigar la volatilidad del mercado a corto plazo.",
+          "extracto": "Ampliar el horizonte temporal de inversión eleva las probabilidades de obtener buenos resultados financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15786,7 +15800,7 @@
         },
         {
           "titular": "This Stellar High Yield Vanguard ETF Is Beating VTI and VOO This Year",
-          "extracto": "Un fondo específico de Vanguard ha superado a índices populares este año mediante una estrategia sin apalancamiento enfocada en mercados poco explorados. Sin embargo, su desempeño a diez años introduce matices importantes a considerar.",
+          "extracto": "Un fondo específico de Vanguard ha superado a los índices tradicionales este año invirtiendo en mercados menos habituales, aunque su rendimiento a una década presenta matices complejos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15795,7 +15809,7 @@
         },
         {
           "titular": "You Finally Saved $1 Million. The 4% Rule Says Live on $40,000. These 4 ETFs Say You Can Do Better",
-          "extracto": "La tradicional regla del 4% ofrece una guía de retiro estándar, pero existen métodos alternativos que permiten preservar las acciones mientras generan ingresos superiores. Estas estrategias buscan maximizar el rendimiento de la cartera para los jubilados.",
+          "extracto": "A diferencia de la tradicional regla del 4%, existen métodos alternativos que permiten generar mayores ingresos de jubilación sin necesidad de liquidar acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15804,7 +15818,7 @@
         },
         {
           "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
-          "extracto": "Un fondo masivo vinculado al S&P 500 concentra una enorme cantidad de ahorros previsionales, a pesar de que los beneficiarios finales no suelen conocer su identificador en el mercado ni pueden adquirirlo de forma independiente.",
+          "extracto": "Un fondo masivo vinculado al S&P 500 gestiona cuantiosos ahorros para el retiro, a pesar de que los beneficiarios finales no pueden adquirirlo directamente ni suelen conocer su código de cotización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15813,7 +15827,7 @@
         },
         {
           "titular": "I’ve Been Buying Fidelity’s Gigantic FXAIX Fund For Six Years Straight Before Realizing The True Cost",
-          "extracto": "Realizar aportes automáticos mensuales en un fondo índice global parecía una estrategia eficiente y económica. No obstante, al evaluar las obligaciones fiscales anuales en cuentas imponibles, los costos reales resultaron ser mayores de lo previsto.",
+          "extracto": "Realizar aportaciones periódicas automatizadas durante años parecía una estrategia eficiente, hasta que el análisis de las obligaciones fiscales anuales modificó su rentabilidad real.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
