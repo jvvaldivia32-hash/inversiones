@@ -11,17 +11,20 @@ import "./Amigos.css";
  *
  * Antes se editaba entrando con un link mágico (?amigo=<id>) — sin ese link la sección
  * era de solo lectura y no había ningún indicio de que existiera un modo edición, cosa
- * que confundió al propio José probándola. Ahora en vez de un link, cada amigo tiene su
- * propia contraseña (campo `clave` en data/amigos.json, plaintext a propósito). No es
- * autenticación real — el archivo es público en el repo igual que antes — solo evita que
- * Amigo 1 y Amigo 2 se confundan editando la tarjeta del otro por error. El límite real
- * contra abuso sigue siendo el mismo de siempre: web/api/amigos.ts nunca deja crear un id
- * nuevo, solo editar uno que ya existe.
+ * que confundió al propio José probándola. Ahora hay dos capas, ninguna es autenticación
+ * real (todo esto sigue siendo público en el repo, a propósito — ver web/api/amigos.ts
+ * para el límite real contra abuso):
+ *   1. Una clave general para entrar a "Otros" (CLAVE_ENTRADA, hardcodeada a propósito).
+ *   2. Adentro, elegís tu nombre y esa persona tiene su propia clave (campo `clave` en
+ *      data/amigos.json) — así Amigo 1 y Amigo 2 no se confunden editando la tarjeta
+ *      del otro por error.
  */
 
 const MAX_SEGUIMIENTOS = 4;
 const MAX_TICKERS = 2;
+const CLAVE_ENTRADA = "amigos";
 const STORAGE_KEY = "inversiones_otros_amigo_id";
+const STORAGE_KEY_ENTRADA = "inversiones_otros_entrada_ok";
 
 function FilaSeguimiento({ s }: { s: AmigoSeguimiento }) {
   if (s.tipo === "ticker") {
@@ -204,6 +207,43 @@ function PanelEdicion({ id, amigoActual }: { id: string; amigoActual?: Amigo }) 
   );
 }
 
+function GateEntrada({ onOk }: { onOk: () => void }) {
+  const [claveInput, setClaveInput] = useState("");
+  const [error, setError] = useState(false);
+
+  function enviar(e: FormEvent) {
+    e.preventDefault();
+    if (claveInput.trim().toLowerCase() !== CLAVE_ENTRADA) {
+      setError(true);
+      return;
+    }
+    localStorage.setItem(STORAGE_KEY_ENTRADA, "1");
+    onOk();
+  }
+
+  return (
+    <form className="amigos-gate" onSubmit={enviar}>
+      <p className="amigos-gate-titulo">Esta parte es privada — ingresa la contraseña.</p>
+      <div className="amigos-gate-fila">
+        <input
+          type="password"
+          placeholder="contraseña"
+          value={claveInput}
+          onChange={(e) => {
+            setClaveInput(e.target.value);
+            setError(false);
+          }}
+          autoFocus
+        />
+        <button type="submit" disabled={!claveInput.trim()}>
+          entrar
+        </button>
+      </div>
+      {error && <p className="amigos-panel-error">contraseña incorrecta</p>}
+    </form>
+  );
+}
+
 function Selector({ amigos, onElegir }: { amigos: Amigo[]; onElegir: (a: Amigo) => void }) {
   return (
     <div className="amigos-selector">
@@ -281,6 +321,7 @@ function PaginaAmigo({ amigo, onSalir }: { amigo: Amigo; onSalir: () => void }) 
 }
 
 export default function Amigos({ amigos }: { amigos: Amigo[] }) {
+  const [entradaOk, setEntradaOk] = useState(() => localStorage.getItem(STORAGE_KEY_ENTRADA) === "1");
   const [idAutenticado, setIdAutenticado] = useState<string | null>(() =>
     localStorage.getItem(STORAGE_KEY),
   );
@@ -298,6 +339,14 @@ export default function Amigos({ amigos }: { amigos: Amigo[] }) {
     return (
       <div className="amigos">
         <PaginaAmigo amigo={amigoActual} onSalir={salir} />
+      </div>
+    );
+  }
+
+  if (!entradaOk) {
+    return (
+      <div className="amigos">
+        <GateEntrada onOk={() => setEntradaOk(true)} />
       </div>
     );
   }
