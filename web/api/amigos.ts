@@ -38,6 +38,11 @@ type Seguimiento = { tipo: "ticker" | "palabra_clave"; valor: string };
 interface AmigoConfig {
   id: string;
   nombre: string;
+  // Gate de contraseña por amigo en el frontend (Amigos.tsx) — plaintext a propósito, no
+  // es autenticación real, solo evita que se confundan editando la tarjeta del otro
+  // (decisión explícita 2026-08-15). Tiene que sobrevivir cada guardado o desaparecería
+  // la primera vez que alguien editara sus seguimientos.
+  clave?: string;
   seguimientos: Seguimiento[];
   ultima_edicion?: string;
 }
@@ -115,6 +120,7 @@ async function aplicarCambio(
   const actualizado: AmigoConfig = {
     id: actual.id,
     nombre: cambios.nombre || actual.nombre,
+    clave: actual.clave,
     seguimientos: cambios.seguimientos,
     ultima_edicion: new Date().toISOString(),
   };

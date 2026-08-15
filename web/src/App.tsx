@@ -174,7 +174,7 @@ function App() {
       )}
 
       {vista === "amigos" && (
-        <Seccion id="amigos" titulo="Amigos" compacta>
+        <Seccion id="amigos" titulo="Otros" compacta>
           <Amigos amigos={daily.amigos ?? []} />
         </Seccion>
       )}

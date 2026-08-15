@@ -66,7 +66,7 @@ export default function NavBar({ vista, onIrA }: NavBarProps) {
           className={vista === "amigos" ? "activo" : ""}
           onClick={() => onIrA("amigos")}
         >
-          Amigos
+          Otros
         </button>
       </div>
 

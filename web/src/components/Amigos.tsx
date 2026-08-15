@@ -4,20 +4,24 @@ import { formatPct, formatUSD } from "../lib/format";
 import "./Amigos.css";
 
 /**
- * Sección "Amigos" — extra fuera del plan madre (2026-08-14). Cada amigo arma su propia
- * mini lista de seguimientos (mezcla libre de tickers propios y palabras clave, hasta 4
- * en total, máx. 2 tickers) y la edita desde su propio link (?amigo=<id>) sin ninguna
- * clave compartida: el límite real contra abuso vive en web/api/amigos.ts, que nunca deja
- * crear un id nuevo, solo editar uno que ya existe. Los datos reales (precio, titulares)
- * los resuelve collector/amigos_diario.py una vez al día.
+ * Sección "Otros" (nav) / "Amigos" internamente — extra fuera del plan madre
+ * (2026-08-14, gate de contraseña agregado 2026-08-15). Cada amigo arma su propia mini
+ * lista de seguimientos (mezcla libre de tickers propios y palabras clave, hasta 4 en
+ * total, máx. 2 tickers).
+ *
+ * Antes se editaba entrando con un link mágico (?amigo=<id>) — sin ese link la sección
+ * era de solo lectura y no había ningún indicio de que existiera un modo edición, cosa
+ * que confundió al propio José probándola. Ahora en vez de un link, cada amigo tiene su
+ * propia contraseña (campo `clave` en data/amigos.json, plaintext a propósito). No es
+ * autenticación real — el archivo es público en el repo igual que antes — solo evita que
+ * Amigo 1 y Amigo 2 se confundan editando la tarjeta del otro por error. El límite real
+ * contra abuso sigue siendo el mismo de siempre: web/api/amigos.ts nunca deja crear un id
+ * nuevo, solo editar uno que ya existe.
  */
 
 const MAX_SEGUIMIENTOS = 4;
 const MAX_TICKERS = 2;
-
-function idAmigoDesdeUrl(): string | null {
-  return new URLSearchParams(window.location.search).get("amigo");
-}
+const STORAGE_KEY = "inversiones_otros_amigo_id";
 
 function FilaSeguimiento({ s }: { s: AmigoSeguimiento }) {
   if (s.tipo === "ticker") {
@@ -200,23 +204,123 @@ function PanelEdicion({ id, amigoActual }: { id: string; amigoActual?: Amigo }) 
   );
 }
 
+function Selector({ amigos, onElegir }: { amigos: Amigo[]; onElegir: (a: Amigo) => void }) {
+  return (
+    <div className="amigos-selector">
+      <p className="amigos-gate-titulo">Esta parte es privada — ¿quién eres?</p>
+      <div className="amigos-selector-botones">
+        {amigos.map((a) => (
+          <button key={a.id} type="button" onClick={() => onElegir(a)}>
+            {a.nombre}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function GateClave({
+  amigo,
+  onEntrar,
+  onVolver,
+}: {
+  amigo: Amigo;
+  onEntrar: (id: string) => void;
+  onVolver: () => void;
+}) {
+  const [claveInput, setClaveInput] = useState("");
+  const [error, setError] = useState(false);
+
+  function enviar(e: FormEvent) {
+    e.preventDefault();
+    const ok = amigo.clave && amigo.clave.trim().toLowerCase() === claveInput.trim().toLowerCase();
+    if (!ok) {
+      setError(true);
+      return;
+    }
+    localStorage.setItem(STORAGE_KEY, amigo.id);
+    onEntrar(amigo.id);
+  }
+
+  return (
+    <form className="amigos-gate" onSubmit={enviar}>
+      <button type="button" className="amigos-salir" onClick={onVolver}>
+        ← volver
+      </button>
+      <p className="amigos-gate-titulo">Contraseña de {amigo.nombre}</p>
+      <div className="amigos-gate-fila">
+        <input
+          type="password"
+          placeholder="contraseña"
+          value={claveInput}
+          onChange={(e) => {
+            setClaveInput(e.target.value);
+            setError(false);
+          }}
+          autoFocus
+        />
+        <button type="submit" disabled={!claveInput.trim()}>
+          entrar
+        </button>
+      </div>
+      {error && <p className="amigos-panel-error">contraseña incorrecta</p>}
+    </form>
+  );
+}
+
+function PaginaAmigo({ amigo, onSalir }: { amigo: Amigo; onSalir: () => void }) {
+  return (
+    <div className="amigos-pagina">
+      <button type="button" className="amigos-salir" onClick={onSalir}>
+        ← salir
+      </button>
+      <PanelEdicion id={amigo.id} amigoActual={amigo} />
+      <AmigoCard amigo={amigo} />
+    </div>
+  );
+}
+
 export default function Amigos({ amigos }: { amigos: Amigo[] }) {
-  const idDeUrl = idAmigoDesdeUrl();
-  const amigoActual = idDeUrl ? amigos.find((a) => a.id === idDeUrl) : undefined;
+  const [idAutenticado, setIdAutenticado] = useState<string | null>(() =>
+    localStorage.getItem(STORAGE_KEY),
+  );
+  const [amigoElegido, setAmigoElegido] = useState<Amigo | null>(null);
+
+  const amigoActual = idAutenticado ? amigos.find((a) => a.id === idAutenticado) : undefined;
+
+  function salir() {
+    localStorage.removeItem(STORAGE_KEY);
+    setIdAutenticado(null);
+    setAmigoElegido(null);
+  }
+
+  if (amigoActual) {
+    return (
+      <div className="amigos">
+        <PaginaAmigo amigo={amigoActual} onSalir={salir} />
+      </div>
+    );
+  }
+
+  if (amigos.length === 0) {
+    return (
+      <div className="amigos">
+        <p className="amigos-vacio">Todavía no hay nadie agregado.</p>
+      </div>
+    );
+  }
+
+  if (amigoElegido) {
+    return (
+      <div className="amigos">
+        <GateClave amigo={amigoElegido} onEntrar={setIdAutenticado} onVolver={() => setAmigoElegido(null)} />
+      </div>
+    );
+  }
 
   return (
     <div className="amigos">
-      {idDeUrl && <PanelEdicion id={idDeUrl} amigoActual={amigoActual} />}
-
-      {amigos.length > 0 ? (
-        <div className="amigos-grid">
-          {amigos.map((a) => (
-            <AmigoCard key={a.id} amigo={a} />
-          ))}
-        </div>
-      ) : (
-        <p className="amigos-vacio">Todavía no hay amigos agregados.</p>
-      )}
+      <Selector amigos={amigos} onElegir={setAmigoElegido} />
     </div>
   );
 }

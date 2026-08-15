@@ -8,6 +8,10 @@ dist/
 !.env.example
 web/src/data/daily.json
 
+# Capturas de pantalla temporales para que José las revise a mano — se borran después,
+# nunca se comitean.
+/capturas/
+
 __pycache__/
 *.pyc
 .pytest_cache/

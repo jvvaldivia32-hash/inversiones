@@ -206,3 +206,102 @@
   color: var(--rojo);
   margin: 0;
 }
+
+/* Selector de nombre, primer paso antes del gate — para que quede claro de quién es la
+   contraseña que vas a tipear a continuación. */
+.amigos-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 20rem;
+}
+
+.amigos-selector-botones {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.amigos-selector-botones button {
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  background: var(--papel-hueco);
+  color: var(--tinta);
+  font-family: var(--fuente-condensada);
+  font-size: var(--texto-14);
+  font-weight: 600;
+}
+
+.amigos-selector-botones button:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+/* Gate de contraseña (reemplaza el link mágico ?amigo=<id> viejo) — mismo lenguaje visual
+   que el panel de edición, angosto porque es solo un input + botón. */
+.amigos-gate {
+  border: 1px dashed var(--linea);
+  border-radius: 4px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 20rem;
+}
+
+.amigos-gate-titulo {
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+  margin: 0;
+}
+
+.amigos-gate-fila {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.amigos-gate-fila input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--linea);
+  border-radius: 3px;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.amigos-gate-fila button {
+  border: 1px solid var(--acento);
+  border-radius: 3px;
+  padding: 0.35rem 0.6rem;
+  background: none;
+  color: var(--acento);
+  font-size: var(--texto-12);
+}
+
+.amigos-gate-fila button:disabled {
+  opacity: 0.5;
+}
+
+.amigos-pagina {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 24rem;
+}
+
+.amigos-salir {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: var(--tinta-suave);
+  font-size: var(--texto-12);
+  padding: 0;
+}
+
+.amigos-salir:hover {
+  color: var(--tinta);
+}

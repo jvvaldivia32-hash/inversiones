@@ -224,6 +224,10 @@ export interface AmigoSeguimiento {
 export interface Amigo {
   id: string;
   nombre: string;
+  // Gate de contraseña, chequeado en el cliente contra este valor tal cual llega en
+  // daily.json (público) — a propósito no es un secreto real, solo evita que Amigo 1 y
+  // Amigo 2 se confundan editando la tarjeta equivocada. Ver Amigos.tsx.
+  clave?: string;
   seguimientos: AmigoSeguimiento[];
   actualizado?: string;
 }

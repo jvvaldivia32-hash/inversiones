@@ -63,6 +63,10 @@ def construir_amigo(config: dict, anterior: dict | None, ahora: datetime.datetim
     return {
         "id": config["id"],
         "nombre": config.get("nombre", config["id"]),
+        # Solo pasa a daily.json si ya viene en la config (provisionada a mano) — nunca se
+        # inventa una acá. Ver Amigos.tsx: gate de contraseña por amigo, cliente-side a
+        # propósito, no es autenticación real (decisión explícita 2026-08-15).
+        "clave": config.get("clave"),
         "seguimientos": seguimientos,
         "actualizado": ahora.isoformat(),
     }
