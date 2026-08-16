@@ -1,11 +1,11 @@
 {
-  "generado": "2026-08-16T07:25:20.929252+00:00",
+  "generado": "2026-08-16T08:20:35.901948+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
         "titulo_neutral": "Colombia solicita a Trump la suspensión de aranceles tras un terremoto",
-        "resumen": "El presidente de Colombia solicitó al gobierno estadounidense que elimine los aranceles vigentes para mitigar la crisis económica provocada por un fuerte sismo. El movimiento telúrico causó cientos de muertes y graves daños estructurales en varias localidades del occidente colombiano.",
+        "resumen": "El presidente de Colombia instó a la Casa Blanca a revocar los aranceles vigentes sobre su país mientras la nación intenta recuperarse de un devastador terremoto que dejó cientos de víctimas mortales.",
         "articulos": [
           {
             "titular": "Colombia's new president asks Trump to suspend tariffs after deadly earthquake",
@@ -81,8 +81,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "EXCLUSIVE: Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Valoración de la oferta pública de venta (IPO) de Anthropic",
+        "resumen": "Los inversores de Anthropic anticipan que la empresa de inteligencia artificial protagonizará la mayor salida a bolsa de la historia. Asimismo, la inflación estadounidense experimentó una leve desaceleración en julio debido a la caída en los valores de los combustibles.",
         "articulos": [
           {
             "titular": "EXCLUSIVE: Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say - Reuters",
@@ -92,20 +92,7 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5",
             "fecha": "2026-08-15T13:23:38+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
-        "resumen": "Los accionistas de Anthropic apuestan por una valoración récord impulsada por sus ambiciosas expectativas de salida a bolsa. Mientras tanto, el índice de precios al consumidor en Estados Unidos experimentó una ligera disminución impulsado por la caída en el valor de los combustibles.",
-        "articulos": [
+          },
           {
             "titular": "Anthropic’s anticipated $2tn IPO",
             "extracto": "",
@@ -120,13 +107,14 @@
           "centro"
         ],
         "grupos_presentes": [
+          "Reuters",
           "Financial Times"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Fed holds rates as inflation fears grow",
-        "resumen": "Gigantes tecnológicos presentaron sus informes financieros trimestrales en medio del escepticismo de los mercados respecto a la inversión en inteligencia artificial. Asimismo, el banco central estadounidense decidió mantener sin variaciones sus tipos de interés actuales.",
+        "titulo_neutral": "La Reserva Federal mantiene los tipos de interés",
+        "resumen": "Varias grandes tecnológicas publicaron sus resultados financieros mientras la Reserva Federal mantuvo sin cambios las tasas de interés. En otros mercados, las compañías energéticas británicas buscan oportunidades de inversión fuera del mar del Norte.",
         "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -148,7 +136,7 @@
       },
       {
         "titulo_neutral": "Hike or hold: Investors split ahead of Fed decision",
-        "resumen": "El incremento reciente en los precios del crudo llevó a los mercados financieros a anticipar un posible endurecimiento monetario por parte de la Reserva Federal. Paralelamente, los servicios de emergencia intensificaron las labores para contener incendios forestales de gran intensidad en el sur de Europa.",
+        "resumen": "Los mercados aumentaron las expectativas de un endurecimiento monetario por parte de la Reserva Federal tras el incremento reciente en los precios del crudo. Paralelamente, los equipos de emergencia en Francia y España intensificaron las labores para contener incendios forestales de gran intensidad.",
         "articulos": [
           {
             "titular": "Hike or hold: Investors split ahead of Fed decision",
@@ -170,7 +158,7 @@
       },
       {
         "titulo_neutral": "Germany’s twin crises: football and the economy",
-        "resumen": "La creación de empleos en la economía norteamericana quedó por debajo de las previsiones de los analistas durante el mes de junio. A su vez, los mercados de activos en Corea del Sur canalizan importantes ganancias hacia el sector inmobiliario nacional.",
+        "resumen": "La economía estadounidense creó una cantidad de puestos de trabajo muy inferior a la anticipada por los analistas durante junio. En paralelo, los fondos de crédito privado de Blue Owl Capital registraron una masiva oleada de solicitudes de reembolso por parte de los inversores.",
         "articulos": [
           {
             "titular": "Germany’s twin crises: football and the economy",
@@ -189,12 +177,34 @@
           "Financial Times"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "US Supreme Court blocks firing of Fed governor",
+        "resumen": "El Tribunal Supremo de Estados Unidos impidió que el presidente destituyera a una alta funcionaria de la Reserva Federal. Mientras tanto, los mercados de valores experimentaron una notable rotación de capitales fuera de los gigantes tecnológicos.",
+        "articulos": [
+          {
+            "titular": "US Supreme Court blocks firing of Fed governor",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-supreme-court-blocks-firing-of-fed-governor",
+            "fecha": "2026-06-30T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
         "titulo_neutral": "Arturo Squella: “La forma más leal de colaborar con el gobierno es mantener clara la posición del Partido Republicano”",
-        "resumen": "Un legislador del partido oficialista analiza diversos temas políticos actuales, incluyendo la seguridad pública, los indultos polémicos y los cambios recientes en el gabinete de gobierno.",
+        "resumen": "Un legislador del partido oficialista analiza diversos temas políticos de actualidad, incluyendo la estrategia de su agrupación frente a la oposición, las medidas de seguridad y los cambios recientes en el gabinete gubernamental.",
         "articulos": [
           {
             "titular": "Arturo Squella: “La forma más leal de colaborar con el gobierno es mantener clara la posición del Partido Republicano”",
@@ -216,7 +226,7 @@
       },
       {
         "titulo_neutral": "La columna de J.J.Jinks: Puritanismo sobre ruedas",
-        "resumen": "Es necesario otorgar autonomía a los administradores públicos para desempeñar sus funciones eficazmente, fiscalizando cualquier falta en lugar de caer en actitudes excesivamente moralistas.",
+        "resumen": "Se aboga por otorgar autonomía a las autoridades para desempeñar sus funciones adecuadamente, sancionando los abusos pero evitando actitudes excesivamente fiscalizadoras que no aportan soluciones concretas.",
         "articulos": [
           {
             "titular": "La columna de J.J.Jinks: Puritanismo sobre ruedas",
@@ -238,7 +248,7 @@
       },
       {
         "titulo_neutral": "El apetito del Grupo Angelini por un negocio de renta inmobiliaria valorado en casi US$ 600 millones",
-        "resumen": "El grupo empresarial Angelini está cerca de adquirir un tercio de Megacentro, luego de acordar la compra de acciones a dos inversionistas minoritarios que saldrán de la propiedad.",
+        "resumen": "El fondo de inversión ligado al grupo Angelini acordó la compra de un porcentaje accionario en la empresa de bienes raíces industriales Megacentro, reduciendo aún más la presencia de inversores minoritarios.",
         "articulos": [
           {
             "titular": "El apetito del Grupo Angelini por un negocio de renta inmobiliaria valorado en casi US$ 600 millones",
@@ -260,7 +270,7 @@
       },
       {
         "titulo_neutral": "Gazitúa on tour",
-        "resumen": "Tras la fusión de dos importantes compañías aseguradoras, un alto ejecutivo comenzó un recorrido por distintas regiones para vincularse directamente con los equipos de trabajo y los clientes.",
+        "resumen": "Tras la fusión de dos compañías aseguradoras, un alto directivo emprendió una gira nacional para encontrarse directamente con los equipos de trabajo y los clientes de la organización.",
         "articulos": [
           {
             "titular": "Gazitúa on tour",
@@ -282,7 +292,7 @@
       },
       {
         "titulo_neutral": "El desconocido negocio de avellanas que puso en marcha Juan Cúneo",
-        "resumen": "Un reconocido empresario lidera la producción de avellanas en un amplio terreno agrícola chileno, destinando la cosecha a una importante firma multinacional de alimentos.",
+        "resumen": "Un empresario impulsa la siembra y cosecha de avellanas europeas en un extenso terreno agrícola chileno, cuyos frutos se exportan a una reconocida firma multinacional de alimentos.",
         "articulos": [
           {
             "titular": "El desconocido negocio de avellanas que puso en marcha Juan Cúneo",
@@ -304,7 +314,7 @@
       },
       {
         "titulo_neutral": "El último reordenamiento societario de Leonardo Farkas",
-        "resumen": "Una importante entidad comercial del sector privado integró recientemente a las dos organizaciones que previamente mantenían su propiedad accionaria.",
+        "resumen": "Una importante entidad comercial incorporó recientemente a su estructura interna a las dos empresas que anteriormente poseían su propiedad accionaria.",
         "articulos": [
           {
             "titular": "El último reordenamiento societario de Leonardo Farkas",
@@ -326,7 +336,7 @@
       },
       {
         "titulo_neutral": "El ambicioso plan de Quiroz para modernizar Aduanas y su foco en pasos fronterizos y puertos",
-        "resumen": "El Ministerio de Hacienda prepara una estrategia para actualizar los procedimientos aduaneros, priorizando el control en las fronteras y terminales marítimas dentro de las prioridades de seguridad.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "El ambicioso plan de Quiroz para modernizar Aduanas y su foco en pasos fronterizos y puertos",
@@ -348,7 +358,7 @@
       },
       {
         "titulo_neutral": "Thae Loiza Galaz: lo que se sabe de la exconcejala de Graneros desaparecida hace más de 10 días",
-        "resumen": "Las autoridades policiales realizan diligencias para dar con el paradero de una exautoridad comunal cuyo rastro se perdió a principios de agosto en la Región Metropolitana.",
+        "resumen": "La Policía de Investigaciones se encuentra revisando registros audiovisuales y interrogando a conocidos para dar con el paradero de una exautoridad comunal de la que no se tiene conocimiento desde inicios de agosto.",
         "articulos": [
           {
             "titular": "Thae Loiza Galaz: lo que se sabe de la exconcejala de Graneros desaparecida hace más de 10 días",
@@ -371,34 +381,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Twelve killed as Polish bus veers off Hungarian motorway",
+        "titular": "Three killed as Russia launches fresh aerial attacks across Ukraine",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-16T07:04:17+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-16T08:14:56+00:00"
       },
       {
-        "titular": "Hawaii battles strong winds and rain as Hurricane Lala threat looms",
+        "titular": "Hurricane Lala lashes Hawaii with strong winds and torrential rain",
         "medio": "BBC",
         "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-16T06:53:22+00:00"
+        "fecha": "2026-08-16T07:58:02+00:00"
       },
       {
-        "titular": "Bangladesh make history with first-ever Test cricket win in Australia",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/16/bangladesh-australia-first-test-win-miraz-mahmud-hasan-smith-green-hazlewood?traffic_source=rss",
-        "fecha": "2026-08-16T06:40:50+00:00"
-      },
-      {
-        "titular": "Thousands of evacuees await aid after deadly quake on Indonesia's Flores island",
+        "titular": "Spanish fighter jet downs drone breaching Romania's airspace",
         "medio": "France24",
-        "url": "https://www.france24.com/en/asia-pacific/20260816-thousands-await-aid-after-deadly-indonesian-quake",
-        "fecha": "2026-08-16T06:25:43+00:00"
+        "url": "https://www.france24.com/en/europe/20260816-spanish-fighter-jet-downs-drone-breaching-romania-s-airspace",
+        "fecha": "2026-08-16T07:50:35+00:00"
       },
       {
-        "titular": "How a simple lighter has become the backbone of life in Gaza",
+        "titular": "Lionel Messi misses penalty as Nashville thrash Inter Miami in MLS",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "fecha": "2026-08-16T06:10:58+00:00"
+        "url": "https://www.aljazeera.com/sports/2026/8/16/lionel-messi-misses-penalty-as-nashville-thrash-inter-miami-in-mls?traffic_source=rss",
+        "fecha": "2026-08-16T07:47:45+00:00"
+      },
+      {
+        "titular": "New satellite images show Europe’s disappearing rivers due to drought",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/16/new-satellite-images-show-europes-disappearing-rivers-due-to-drought?traffic_source=rss",
+        "fecha": "2026-08-16T07:46:22+00:00"
       }
     ]
   },
@@ -816,6 +826,10 @@
           },
           {
             "fecha": "2026-08-16T07:00:00",
+            "valor": 504.03
+          },
+          {
+            "fecha": "2026-08-16T08:00:00",
             "valor": 504.03
           }
         ],
@@ -4015,7 +4029,7 @@
       "noticias": [
         {
           "titular": "Is Berkshire’s Bigger Bet on Delta (DAL) Altering The Investment Case For The Airline?",
-          "extracto": "Documentos financieros recientes revelan que el conglomerado de inversión aumentó su participación en una aerolínea mientras ajustaba otras posiciones de su cartera. Este movimiento consolida a dicha empresa aérea entre los activos principales del grupo junto a gigantes tecnológicos y financieros.",
+          "extracto": "Nuevos registros financieros muestran que el conglomerado de inversión amplió su participación en una aerolínea mientras ajustaba otras posiciones bursátiles. Estos movimientos refuerzan la presencia de la línea aérea entre los activos principales del grupo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4024,7 +4038,7 @@
         },
         {
           "titular": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter",
-          "extracto": "Informes regulatorios recientes muestran que el conglomerado incrementó sus inversiones en la empresa matriz de Google y en el sector de la construcción de viviendas. Paralelamente, la firma redujo su presencia en varias entidades del sector financiero durante el segundo trimestre del año.",
+          "extracto": "Documentos regulatorios recientes indican que el conglomerado incrementó sus inversiones en la matriz de Google y en el sector de la construcción de viviendas. Paralelamente, la firma redujo su exposición a diversas acciones financieras durante el segundo trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4658,6 +4672,10 @@
           },
           {
             "fecha": "2026-08-16T07:00:00",
+            "valor": 272.83
+          },
+          {
+            "fecha": "2026-08-16T08:00:00",
             "valor": 272.83
           }
         ],
@@ -7856,8 +7874,17 @@
       },
       "noticias": [
         {
+          "titular": "7 Best Stocks to Gift Your Grandchildren",
+          "extracto": "Existen características específicas que identifican a las acciones ideales para regalar a los nietos. El análisis detalla cuáles son estos atributos clave.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.kiplinger.com/investing/stocks/stocks-to-give-your-grandchildren?.tsrc=rss",
+          "fecha": "2026-08-14T15:14:34+00:00"
+        },
+        {
           "titular": "Why Taco Bell's former CEO just dissed McDonald's",
-          "extracto": "",
+          "extracto": "Las principales cadenas de comida rápida mantienen una constante disputa verbal en el mercado actual. La competencia entre estas empresas se refleja en sus declaraciones públicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7866,7 +7893,7 @@
         },
         {
           "titular": "Are Innovative Beverages Enough to Turn McDonald's Around?",
-          "extracto": "La estrategia de expansión de la empresa se centra en incorporar novedades al menú al tiempo que optimiza los procesos internos.",
+          "extracto": "La estrategia de expansión de la empresa consiste en incorporar opciones novedosas al menú al tiempo que se optimizan los procesos operativos. Esto busca equilibrar la variedad con la eficiencia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7875,7 +7902,7 @@
         },
         {
           "titular": "Costco makes a pricing promise members need to know",
-          "extracto": "Las opciones económicas de la competencia amenazan con atraer a los clientes con presupuestos ajustados que buscan ahorrar en sus comidas.",
+          "extracto": "La introducción de un menú económico en Wendy's amenaza con atraer a los clientes de la competencia que buscan ahorrar. Ante la reducción general del gasto familiar, McDonald's y Burger King podrían perder consumidores sensibles al precio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7884,21 +7911,12 @@
         },
         {
           "titular": "McDonald's (MCD): Buy, Sell, or Hold Post Q2 Earnings?",
-          "extracto": "Las acciones de McDonald's experimentaron una caída del 15,3% en el último semestre, un rendimiento inferior al del índice S&P 500.",
+          "extracto": "Las acciones de McDonald's sufrieron una caída hasta los 273,75 dólares en el último semestre, generando pérdidas del 15,3% para los inversores. Este rendimiento contrasta negativamente con el incremento del 11,7% registrado por el índice S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-buy-sell-hold-170900197.html?.tsrc=rss",
           "fecha": "2026-08-13T17:09:00+00:00"
-        },
-        {
-          "titular": "5 Insightful Analyst Questions From McDonald's’s Q2 Earnings Call",
-          "extracto": "Los ingresos trimestrales de la compañía cumplieron con los pronósticos financieros, a pesar de que el director ejecutivo admitió fallas operativas y en la promoción de ofertas en el mercado estadounidense.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-mcdonalds-050100440.html?.tsrc=rss",
-          "fecha": "2026-08-13T05:01:00+00:00"
         }
       ],
       "fundamentales": {
@@ -8663,6 +8681,10 @@
           },
           {
             "fecha": "2026-08-16T07:00:00",
+            "valor": 495.4
+          },
+          {
+            "fecha": "2026-08-16T08:00:00",
             "valor": 495.4
           }
         ],
@@ -11862,7 +11884,7 @@
       "noticias": [
         {
           "titular": "Amazon vs. Microsoft: Which Cloud Computing Behemoth Is the Better Artificial Intelligence (AI) Buy Today?",
-          "extracto": "Tanto Amazon como Microsoft están obteniendo ventajas financieras de la actual competencia en el sector de la inteligencia artificial.",
+          "extracto": "Tanto Amazon como Microsoft están obteniendo ventajas económicas del auge actual de la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11871,7 +11893,7 @@
         },
         {
           "titular": "The 5 Biggest Risks Americans Don’t Think About Behind the Data Center Boom",
-          "extracto": "Las inversiones masivas en tecnología de IA generan ganancias en Wall Street, pero esconden gastos imprevistos que podrían afectar a los ciudadanos.",
+          "extracto": "Las inversiones masivas en tecnología de IA generan gastos ocultos que afectan indirectamente a la ciudadanía estadounidense.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11880,7 +11902,7 @@
         },
         {
           "titular": "Elon Musk Says SpaceX Has a Massive Competitive Advantage in AI That Amazon, Google, and Microsoft Can't Touch",
-          "extracto": "Una reciente declaración de Elon Musk indica que la compañía aeroespacial podría realizar grandes inversiones económicas en instalaciones de servidores.",
+          "extracto": "Una reciente declaración de Elon Musk apunta a que su empresa espacial podría realizar inversiones millonarias en infraestructura tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11889,7 +11911,7 @@
         },
         {
           "titular": "1 Dow Jones Stock with Impressive Fundamentals and 2 We Turn Down",
-          "extracto": "Aunque el índice Dow Jones agrupa a corporaciones prominentes, ciertas acciones enfrentan desafíos operativos y comerciales que disminuyen su atractivo.",
+          "extracto": "Aunque el índice Dow Jones incluye a corporaciones destacadas, ciertas acciones dentro de este grupo enfrentan obstáculos comerciales y presiones competitivas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -11898,7 +11920,7 @@
         },
         {
           "titular": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
-          "extracto": "Los fondos DIVO y JEPI distribuyen ingresos mensuales mediante opciones de compra cubiertas, diferenciándose en su estrategia de crecimiento del capital frente a la retribución.",
+          "extracto": "Los fondos DIVO y JEPI generan ingresos mensuales mediante opciones de compra cubiertas sobre empresas estables, diferenciándose en su estrategia de crecimiento y rentabilidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12728,6 +12750,10 @@
           },
           {
             "fecha": "2026-08-16T07:00:00",
+            "valor": 713.61
+          },
+          {
+            "fecha": "2026-08-16T08:00:00",
             "valor": 713.61
           }
         ],
@@ -15927,7 +15953,7 @@
       "noticias": [
         {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests.",
-          "extracto": "Ampliar el horizonte temporal de inversión mejora estadísticamente las probabilidades de obtener buenos resultados financieros.",
+          "extracto": "Ampliar el horizonte temporal de inversión mejora las probabilidades de obtener buenos resultados financieros. Esta estrategia permite capear la volatilidad del mercado a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15936,7 +15962,7 @@
         },
         {
           "titular": "This Stellar High Yield Vanguard ETF Is Beating VTI and VOO This Year",
-          "extracto": "Un fondo específico de Vanguard ha superado a índices populares este año invirtiendo en mercados descuidados, aunque su rentabilidad a diez años presenta ciertos inconvenientes.",
+          "extracto": "Un fondo específico de Vanguard ha superado el rendimiento de índices populares este año al invertir en mercados que los estadounidenses suelen ignorar. Sin embargo, su historial a diez años presenta matices importantes que requieren cautela.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15945,7 +15971,7 @@
         },
         {
           "titular": "You Finally Saved $1 Million. The 4% Rule Says Live on $40,000. These 4 ETFs Say You Can Do Better",
-          "extracto": "Mientras la regla del 4% ofrece una guía tradicional para el retiro, existen estrategias alternativas que generan mayores ingresos sin necesidad de liquidar acciones.",
+          "extracto": "La tradicional regla del 4% ofrece una guía de retiro estandarizada que puede resultar limitada. Existen estrategias alternativas que permiten generar mayores ingresos sin necesidad de vender las acciones principales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15954,7 +15980,7 @@
         },
         {
           "titular": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
-          "extracto": "Uno de los fondos del S&P 500 más grandes del mundo administra ahorros jubilatorios masivos, a pesar de que los inversores individuales no pueden adquirirlo directamente en el mercado.",
+          "extracto": "Uno de los fondos del S&P 500 más grandes del mundo administra enormes sumas para la jubilación. A pesar de esto, muchos de sus beneficiarios desconocen su código de cotización y no pueden adquirirlo de manera independiente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15963,7 +15989,7 @@
         },
         {
           "titular": "I’ve Been Buying Fidelity’s Gigantic FXAIX Fund For Six Years Straight Before Realizing The True Cost",
-          "extracto": "Realizar aportes automáticos mensuales durante años parecía una estrategia eficiente hasta que el impacto fiscal anual en cuentas sujetas a impuestos reveló costos ocultos.",
+          "extracto": "Realizar aportaciones mensuales automáticas a un fondo indexado parecía una estrategia fiscalmente eficiente. No obstante, las obligaciones tributarias de fin de año demostraron que el impacto en cuentas imponibles altera los cálculos iniciales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
