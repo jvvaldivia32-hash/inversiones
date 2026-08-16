@@ -1,21 +1,14 @@
 {
-  "generado": "2026-08-16T17:14:11.300748+00:00",
-  "errores": [],
+  "generado": "2026-08-16T18:19:05.327542+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Ataque ruso destruye un mercado en Kiev",
-        "resumen": "Un ataque con explosivos en la capital ucraniana dejó al menos cuatro fallecidos y numerosos heridos, además de destruir un conocido mercado al aire libre. Los comerciantes locales lamentaron la devastación total de sus puestos de trabajo.",
+        "titulo_neutral": "BBC visits smouldering Kyiv market after Russian strikes",
+        "resumen": "Un ataque contra un mercado de bienes de segunda mano dejó varios heridos en medio de tensiones regionales.",
         "articulos": [
-          {
-            "titular": "Ukraine: Russian strike destroys Kyiv book market",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/video/20260816-ukraine-russian-strike-destroys-kyiv-book-market",
-            "fecha": "2026-08-16T14:40:52+00:00"
-          },
           {
             "titular": "BBC visits smouldering Kyiv market after Russian strikes",
             "extracto": "",
@@ -30,14 +23,13 @@
           "centro"
         ],
         "grupos_presentes": [
-          "France24",
           "BBC"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "‘Limited options’ for many Iranians as war with US chokes economy",
-        "resumen": "La población iraní enfrenta graves dificultades económicas debido a los efectos del conflicto bélico, recurriendo cada vez más a opciones de pago aplazado para subsistir. En contraste, los inversores auguran grandes valoraciones para las tecnológicas en futuros estrenos bursátiles.",
+        "resumen": "La población iraní afronta serias dificultades económicas debido al impacto del conflicto con Estados Unidos, lo que ha provocado una drástica subida de los precios.",
         "articulos": [
           {
             "titular": "‘Limited options’ for many Iranians as war with US chokes economy",
@@ -59,7 +51,7 @@
       },
       {
         "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
-        "resumen": "El crecimiento del empleo estadounidense se situó por debajo de lo pronosticado por los analistas, reflejando un enfriamiento económico. Asimismo, se registraron fuertes salidas de capital en fondos de crédito privado mientras los inversores reconfiguran sus carteras.",
+        "resumen": "Los inversores mostraron optimismo ante el potencial debut bursátil de empresas tecnológicas, en un contexto de moderación de la inflación estadounidense. Asimismo, la presión en el costo de vida impulsó a los consumidores iraníes a adoptar alternativas de financiación a corto plazo.",
         "articulos": [
           {
             "titular": "Anthropic’s anticipated $2tn IPO",
@@ -81,7 +73,7 @@
       },
       {
         "titulo_neutral": "Decisiones y perspectivas sobre las tasas de interés de la Reserva Federal",
-        "resumen": "Los mercados reaccionaron a los informes financieros trimestrales de las grandes empresas tecnológicas, mientras que la Reserva Federal mantuvo los tipos de interés sin cambios. En Europa, los incendios forestales intensificaron la preocupación y las principales divisas y materias primas fluctuaron ante las tensiones geopolíticas.",
+        "resumen": "Los mercados reaccionaron a los resultados trimestrales de empresas tecnológicas y a la decisión de la Reserva Federal de mantener los tipos de interés. Por otro lado, la escalada en los precios del petróleo impulsó especulaciones sobre la política monetaria, mientras que diversos conflictos e incendios afectaron el panorama económico internacional.",
         "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -109,15 +101,6 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
             "fecha": "2026-06-18T04:00:00+00:00"
-          },
-          {
-            "titular": "War, inflation and how central banks are handling it all",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/war-inflation-and-how-central-banks-are-handling-it-all",
-            "fecha": "2026-05-01T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -130,7 +113,7 @@
       },
       {
         "titulo_neutral": "Germany’s twin crises: football and the economy",
-        "resumen": "La máxima instancia judicial de Estados Unidos frenó el intento gubernamental de destituir a una alta funcionaria del banco central. Por otro lado, los mercados globales experimentaron una notable rotación de capitales fuera de los gigantes tecnológicos tradicionales.",
+        "resumen": "La creación de empleo en Estados Unidos quedó por debajo de las expectativas de los analistas durante el mes de junio. En paralelo, el capital generado por inversiones tecnológicas fluyó hacia el sector inmobiliario en Corea del Sur, reflejando tendencias de diversificación patrimonial.",
         "articulos": [
           {
             "titular": "Germany’s twin crises: football and the economy",
@@ -152,7 +135,7 @@
       },
       {
         "titulo_neutral": "US Supreme Court blocks firing of Fed governor",
-        "resumen": "Una importante empresa de inteligencia artificial denunció accesos no autorizados a su tecnología por parte de actores externos. Paralelamente, la anulación de proyectos navales en Alemania genera inquietud en el sector defensivo de cara a sus próximas ofertas públicas.",
+        "resumen": "El Tribunal Supremo dictaminó la imposibilidad de destituir a una alta funcionaria de la Reserva Federal, frenando los intentos del Ejecutivo. Mientras tanto, los mercados experimentaron una rotación de capitales que alejó a los inversores de los valores tecnológicos de gran capitalización.",
         "articulos": [
           {
             "titular": "US Supreme Court blocks firing of Fed governor",
@@ -174,7 +157,7 @@
       },
       {
         "titulo_neutral": "European defence stocks face uncertainty",
-        "resumen": "Los gobiernos de Alemania y Francia debaten una profunda reestructuración de la diplomacia europea ante un contexto internacional tenso. A su vez, los recientes datos sobre precios en Estados Unidos presionan al liderazgo político para prolongar la tregua en Oriente Medio.",
+        "resumen": "Una empresa de inteligencia artificial denunció accesos no autorizados a su tecnología por parte de firmas extranjeras. Asimismo, los cambios en las políticas de moderación de contenidos y las dudas en torno al sector de defensa marcaron la actualidad corporativa.",
         "articulos": [
           {
             "titular": "European defence stocks face uncertainty",
@@ -196,7 +179,7 @@
       },
       {
         "titulo_neutral": "Can a correction fix Australia’s housing market?",
-        "resumen": "Las inminentes salidas a bolsa de gigantes tecnológicos y de inteligencia artificial auguran una intensa actividad bursátil en Wall Street. En el ámbito geopolítico, un tribunal turco modificó la cúpula del partido opositor mientras la presión sobre Cuba aumenta.",
+        "resumen": "Francia y Alemania barajan modificaciones profundas en la estructura diplomática de la Unión Europea para mejorar su eficacia. En paralelo, los recientes datos inflacionarios aumentan las presiones políticas sobre la administración estadounidense respecto a su estrategia geopolítica y comercial.",
         "articulos": [
           {
             "titular": "Can a correction fix Australia’s housing market?",
@@ -219,8 +202,30 @@
     ],
     "chile": [
       {
+        "titulo_neutral": "Fontaine: \"Para crecer necesitamos asociarnos con privados\" y anuncia proyecto con Pucobre por US$ 870 millones",
+        "resumen": "El director ejecutivo de la minera cuprífera estatal argumentó que la integración con capitales privados es indispensable para la viabilidad de la compañía, cuyos gastos superan ampliamente los estándares globales. Asimismo, solicitó una modificación en el marco legal vigente para facilitar estas asociaciones estratégicas.",
+        "articulos": [
+          {
+            "titular": "Fontaine: \"Para crecer necesitamos asociarnos con privados\" y anuncia proyecto con Pucobre por US$ 870 millones",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/mineria/fontaine-para-crecer-necesitamos-asociarnos-con-privados-y-anuncia",
+            "fecha": "2026-08-16T18:12:34+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Robert de Niro cumple 83 años: dónde ver sus películas más emblemáticas en streaming",
-        "resumen": "La amplia trayectoria cinematográfica de Robert De Niro, que abarca más de seis décadas de películas emblemáticas, se encuentra disponible en servicios de streaming a través de operadores específicos.",
+        "resumen": "Con motivo de su cumpleaños número ochenta y tres, la extensa trayectoria cinematográfica del conocido actor estadounidense se encuentra disponible en una plataforma digital de transmisión por internet para sus suscriptores.",
         "articulos": [
           {
             "titular": "Robert de Niro cumple 83 años: dónde ver sus películas más emblemáticas en streaming",
@@ -264,7 +269,7 @@
       },
       {
         "titulo_neutral": "Servicio se disponibilizó por primera vez en Chile durante una emergencia: uso de SMS satelital de Entel creció más de 520% durante sistema frontal",
-        "resumen": "Un análisis de Entel reveló un incremento sustancial en el uso de mensajería satelital durante un reciente sistema frontal, registrando su mayor demanda en la Región de Coquimbo.",
+        "resumen": "Una compañía de telecomunicaciones informó que el uso de su tecnología de mensajes de texto vía satélite experimentó un aumento exponencial durante una reciente emergencia climática en el país, siendo la zona de Coquimbo la que registró la mayor cantidad de transmisiones.",
         "articulos": [
           {
             "titular": "Servicio se disponibilizó por primera vez en Chile durante una emergencia: uso de SMS satelital de Entel creció más de 520% durante sistema frontal",
@@ -286,7 +291,7 @@
       },
       {
         "titulo_neutral": "“Dañan la institucionalidad”: el portazo de Guillermo Ramírez y la UDI a las reformas constitucionales de seguridad",
-        "resumen": "El timonel de la UDI, Guillermo Ramírez, rechazó las modificaciones constitucionales de seguridad propuestas por el Ejecutivo, argumentando que podrían perjudicar el orden institucional.",
+        "resumen": "El líder de un partido de oposición rechazó tajantemente las modificaciones constitucionales propuestas por el Ejecutivo en el ámbito de seguridad ciudadana. A su juicio, introducir excepciones en la Carta Magna podría generar un daño profundo a la estabilidad institucional de la nación.",
         "articulos": [
           {
             "titular": "“Dañan la institucionalidad”: el portazo de Guillermo Ramírez y la UDI a las reformas constitucionales de seguridad",
@@ -308,7 +313,7 @@
       },
       {
         "titulo_neutral": "Terremoto en Indonesia: al menos 53 fallecidos y miles de personas evacuadas",
-        "resumen": "Un fuerte movimiento telúrico de magnitud 7,7 sacudió las costas de una isla en Indonesia, generando numerosos temblores secundarios, cuantiosos daños materiales y múltiples heridos.",
+        "resumen": "Un fuerte movimiento telúrico de gran intensidad sacudió las costas de una isla en Indonesia, generando numerosos temblores secundarios, cuantiosos heridos y obligando a millares de habitantes a evacuar sus hogares.",
         "articulos": [
           {
             "titular": "Terremoto en Indonesia: al menos 53 fallecidos y miles de personas evacuadas",
@@ -330,7 +335,7 @@
       },
       {
         "titulo_neutral": "Cecilia Pérez a la U. de Chile tras acusación de incumplimientos: “Vamos a manifestar toda la colaboración para mejorar el convenio”",
-        "resumen": "Cecilia Pérez, máxima autoridad de Azul Azul, manifestó plena disposición para colaborar con el club deportivo y optimizar el acuerdo legal vigente tras cuestionamientos recientes.",
+        "resumen": "La máxima autoridad de la sociedad anónima deportiva expresó su disposición total para colaborar con la corporación universitaria, luego de que surgieran cuestionamientos respecto al cumplimiento del acuerdo sobre la utilización del nombre y emblemas del club.",
         "articulos": [
           {
             "titular": "Cecilia Pérez a la U. de Chile tras acusación de incumplimientos: “Vamos a manifestar toda la colaboración para mejorar el convenio”",
@@ -371,60 +376,38 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Multimillonario Peter Thiel compra el 1% de la petrolera argentina Vista en Vaca Muerta, según reporte a la SEC",
-        "resumen": "Un fondo de inversión vinculado a Peter Thiel adquirió una cantidad considerable de acciones de la compañía Vista por una cifra multimillonaria en dólares.",
-        "articulos": [
-          {
-            "titular": "Multimillonario Peter Thiel compra el 1% de la petrolera argentina Vista en Vaca Muerta, según reporte a la SEC",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/energia/multimillonario-peter-thiel-compra-el-1-de-la-petrolera-argentina-vista-en",
-            "fecha": "2026-08-16T14:19:04+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Cristiano Ronaldo hints at retirement at end of season",
+        "titular": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-16T18:04:25+00:00"
+      },
+      {
+        "titular": "Former Israeli captive asks Ben-Gvir to let him execute Palestinian prisone",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/16/cristiano-ronaldo-hints-at-retirement-at-the-end-of-the-football-season?traffic_source=rss",
-        "fecha": "2026-08-16T17:03:18+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/former-israeli-captive-asks-ben-gvir-to-let-him-execute-palestinian-prisone?traffic_source=rss",
+        "fecha": "2026-08-16T17:46:21+00:00"
       },
       {
-        "titular": "Report: Browns to sign DE Za'Darius Smith - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeG9mS0JxY1h6bTJmel80NndRS25NeDZjT0o5bXc1T2FtdFUyQjlHYXd5MEY1OEdNTEJBdWdTWGRiX0pIQ05MeXhnQ1EzRXk0MmZHSTB3SWlpQWhTd0ZNdlRVZ1Jxa0ZaS2NVY0p5TXFKRTBmR3ZfTWpac1lQcEMyNU81aGUxck9pNy1fOA?oc=5",
-        "fecha": "2026-08-16T16:49:43+00:00"
-      },
-      {
-        "titular": "Belgium's biggest wildfire on record heads towards Germany - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0o2UU1KNjEzdFpEUmI3WlhvRllVYlZibG5ySnR3U2VaZWxYdjFYSV9fTzJTdFQxTVdtdVZIYW1HSktyZmdJTlliSGVMaVoyTlhxLUduWlNkTUZFYU5RY3dZN0h4Z1pqNVMyU2R0M1QzMEdWeUJzMEhfYTZidTlmdW5kbmcyaGgzbTQ0amNZWW5GRkFSRHp2TjZabWR1LThOUzdNNWZuSzV6VENHRU1Naw?oc=5",
-        "fecha": "2026-08-16T16:28:28+00:00"
-      },
-      {
-        "titular": "Brazil's Lula launches reelection bid, aims to win back workers to his Workers Party - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeEl6U1RsX2F2XzJtaFd2cHMyWDhqMzhBdnI1QTJnTnNmV3BST19jNlRHTTNOejFuVTdlRTNzOGdFTG1MRTF1VE1hSnR2eGZOQnhoQWIzOG1DcWxpbkZXTkhSbDQwMmV1OGh5ay0tclhVcnBUUVh4cG1jZk1VeDV6eTgxdjdxMnFnelY1cEZSQVNTOE9nVE1HR2FSM1NvSzE2aVVPYWhzVmlSNlF4OGNBWEEtd0NYWXpBZm9weFl5U1RuaWhCelE?oc=5",
-        "fecha": "2026-08-16T16:18:09+00:00"
-      },
-      {
-        "titular": "Arsenal cruise to 3-0 win over Manchester City in Community Shield",
+        "titular": "Israeli army besieges Palestinian homes in occupied West Bank",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/16/arsenal-cruise-to-3-0-win-over-manchester-city-in-community-shield?traffic_source=rss",
-        "fecha": "2026-08-16T16:17:36+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israeli-army-besieges-palestinian-homes-in-occupied-west-bank?traffic_source=rss",
+        "fecha": "2026-08-16T17:45:52+00:00"
+      },
+      {
+        "titular": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-16T17:44:23+00:00"
+      },
+      {
+        "titular": "Why are sandwiches more regulated than AI?",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/16/why-are-sandwiches-more-regulated-than-ai?traffic_source=rss",
+        "fecha": "2026-08-16T17:36:02+00:00"
       }
     ]
   },
@@ -882,6 +865,10 @@
           },
           {
             "fecha": "2026-08-16T17:00:00",
+            "valor": 504.03
+          },
+          {
+            "fecha": "2026-08-16T18:00:00",
             "valor": 504.03
           }
         ],
@@ -4081,7 +4068,7 @@
       "noticias": [
         {
           "titular": "Greg Abel Starts Spending: Berkshire’s Cash Hoard Finally Gets Put to Work",
-          "extracto": "Durante los últimos dos años, Berkshire Hathaway acumuló reservas históricas de efectivo y mantuvo una postura de inactividad compradora. Sin embargo, los resultados financieros del segundo trimestre sugieren un cambio en dicha tendencia.",
+          "extracto": "Durante casi dos años, el balance de Berkshire Hathaway se caracterizó por una acumulación récord de efectivo y una postura vendedora en los mercados financieros. Sin embargo, el informe de resultados del segundo trimestre sugiere un posible cambio en dicha tendencia de inactividad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4090,7 +4077,7 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Put Nearly $35 Billion of Cash to Work Last Quarter. Here's What He Bought.",
-          "extracto": "",
+          "extracto": "Mientras que el año pasado Buffett identificó pocas oportunidades de inversión para el conglomerado, surgen interrogantes sobre cómo su sucesor, Abel, está encontrando nuevas alternativas en la actualidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4099,7 +4086,7 @@
         },
         {
           "titular": "3 Reasons This Top Warren Buffett Dividend Stock Is a Passive Income Investor's Dream",
-          "extracto": "Una determinada inversión dentro de la cartera del conglomerado aporta actualmente ingresos anuales cercanos a los 850 millones de dólares.",
+          "extracto": "Una única inversión dentro de la cartera del conglomerado aporta aproximadamente 850 millones de dólares en ganancias anuales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4108,7 +4095,7 @@
         },
         {
           "titular": "Is Berkshire’s Bigger Bet on Delta (DAL) Altering The Investment Case For The Airline?",
-          "extracto": "Informes recientes revelan que el conglomerado incrementó su participación en una importante aerolínea y ajustó su cartera de acciones, desinvirtiendo en algunas empresas y reduciendo posiciones previas. Estos movimientos refuerzan la presencia de la aerolínea entre los activos principales de la compañía.",
+          "extracto": "Registros recientes revelan que el conglomerado aumentó su participación en una importante aerolínea y ajustó su cartera accionaria mediante la venta de ciertos activos y la reducción de otras posiciones bancarias. Esta medida consolida a la aerolínea entre los activos principales de la compañía junto a otros gigantes corporativos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4117,7 +4104,7 @@
         },
         {
           "titular": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter",
-          "extracto": "Registros financieros recientes indican que la firma liderada por Greg Abel amplió su inversión en la matriz de Google y en el sector de la construcción residencial durante el segundo trimestre. En contraste, la entidad continuó disminuyendo su presencia en el sector financiero y en otras compañías.",
+          "extracto": "Documentos regulatorios recientes muestran que la empresa dirigida por Greg Abel incrementó sus inversiones en la matriz de Google y en el sector de la construcción de viviendas. Paralelamente, el conglomerado redujo su presencia en el sector financiero y en otras compañías durante el segundo trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4764,6 +4751,10 @@
           },
           {
             "fecha": "2026-08-16T17:00:00",
+            "valor": 272.83
+          },
+          {
+            "fecha": "2026-08-16T18:00:00",
             "valor": 272.83
           }
         ],
@@ -7963,7 +7954,7 @@
       "noticias": [
         {
           "titular": "McDonald’s (MCD) Stock Looks Fairly Valued Despite Slowing U.S. Sales Growth",
-          "extracto": "Las acciones de McDonald's acumulan una rentabilidad del 28,3% en un quinquenio, aunque su valoración actual se sitúa cerca de su valor real según diversos modelos financieros. Pese a un desempeño reciente más débil en Estados Unidos, el título ha beneficiado a los inversores a largo plazo.",
+          "extracto": "Las acciones de McDonald's acumulan una rentabilidad positiva en el último lustro, aunque los indicadores financieros actuales muestran opiniones divididas sobre su cotización justa en el mercado bursátil.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7972,7 +7963,7 @@
         },
         {
           "titular": "Jim Cramer Breaks Down McDonald’s (MCD) Q2 Earnings and Execution Flaws",
-          "extracto": "Durante un programa de televisión, el presentador Jim Cramer analizó los recientes resultados financieros presentados por la cadena de comida rápida. Calificó el informe trimestral de la empresa como poco destacado en comparación con otros actores del sector.",
+          "extracto": "Durante su programa televisivo, el presentador Jim Cramer analizó los recientes resultados financieros trimestrales presentados por la cadena de comida rápida.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7990,7 +7981,7 @@
         },
         {
           "titular": "Are Innovative Beverages Enough to Turn McDonald's Around?",
-          "extracto": "El plan de expansión de la corporación contempla la incorporación de productos novedosos a la carta junto con una simplificación en los procesos internos. Con estas medidas se busca impulsar el desarrollo comercial del negocio.",
+          "extracto": "El plan de expansión de la corporación contempla incorporar nuevos productos atractivos al menú mientras optimiza sus procedimientos internos de trabajo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7999,7 +7990,7 @@
         },
         {
           "titular": "Costco makes a pricing promise members need to know",
-          "extracto": "El lanzamiento de menús económicos por parte de competidores como Wendy's amenaza con atraer a los clientes con presupuestos ajustados. Esta situación podría restar cuota de mercado a McDonald's y Burger King debido a la creciente cautela financiera de los consumidores.",
+          "extracto": "La implementación de menús económicos por parte de la competencia podría desviar a los clientes con presupuestos ajustados que buscan reducir sus gastos en alimentos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8809,6 +8800,10 @@
           },
           {
             "fecha": "2026-08-16T17:00:00",
+            "valor": 495.4
+          },
+          {
+            "fecha": "2026-08-16T18:00:00",
             "valor": 495.4
           }
         ],
@@ -12007,8 +12002,26 @@
       },
       "noticias": [
         {
+          "titular": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
+          "extracto": "Microsoft ha experimentado una notable recuperación financiera tras superar un periodo complejo durante el año 2026.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/16/satya-nadella-microsoft-stock-azure-revenue/?.tsrc=rss",
+          "fecha": "2026-08-16T17:37:00+00:00"
+        },
+        {
+          "titular": "3 Unprofitable Stocks with Open Questions",
+          "extracto": "Las empresas sin beneficios enfrentan dificultades financieras al no lograr controlar sus gastos ni transformar dichas inversiones en un crecimiento sostenible.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-open-questions-161300304.html?.tsrc=rss",
+          "fecha": "2026-08-16T16:13:00+00:00"
+        },
+        {
           "titular": "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
-          "extracto": "Los mercados financieros observan una sólida expansión en los servicios de nube, interpretándola como evidencia de que las inversiones en inteligencia artificial están generando rentabilidad.",
+          "extracto": "Los mercados financieros interpretan la expansión de los servicios en la nube como una prueba de la rentabilidad en la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12016,40 +12029,22 @@
           "fecha": "2026-08-16T15:16:10+00:00"
         },
         {
-          "titular": "Microsoft exec on Southern Europe’s big AI moment: skills — not technology — will determine who leads the region’s AI future",
-          "extracto": "Un directivo de Microsoft describió a Grecia como un territorio estratégico con gran potencial para el desarrollo tecnológico, más allá de ser una simple plaza comercial.",
+          "titular": "SpaceX is Planning to Spend Up to $500 Billion on Data Centers. Here’s Why Elon Musk is Pushing All-In",
+          "extracto": "El rápido avance de SpaceX en infraestructura tecnológica plantea interrogantes sobre la sostenibilidad económica y los posibles cuellos de botella en el sector de la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-exec-southern-europe-big-073000075.html?.tsrc=rss",
-          "fecha": "2026-08-16T07:30:00+00:00"
+          "url": "https://247wallst.com/investing/2026/08/16/spacex-is-planning-to-spend-up-to-500-billion-on-data-centers-heres-why-elon-musk-is-pushing-all-in/?.tsrc=rss",
+          "fecha": "2026-08-16T13:31:55+00:00"
         },
         {
-          "titular": "Amazon vs. Microsoft: Which Cloud Computing Behemoth Is the Better Artificial Intelligence (AI) Buy Today?",
-          "extracto": "Tanto Amazon como Microsoft están obteniendo ventajas financieras directas gracias a la actual competencia en el desarrollo de la inteligencia artificial.",
+          "titular": "After Comparing Every Dividend ETF That Owns the Magnificent Seven, These 3 Pay You Without Giving Up the AI Trade",
+          "extracto": "Muchos fondos cotizados de dividendos excluyen a las empresas tecnológicas líderes, lo que obliga a los inversionistas a priorizar entre rentabilidad por dividendo o revalorización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/16/amazon-vs-microsoft-which-cloud-computing-behemoth/?.tsrc=rss",
-          "fecha": "2026-08-16T04:20:00+00:00"
-        },
-        {
-          "titular": "Elon Musk Says SpaceX Has a Massive Competitive Advantage in AI That Amazon, Google, and Microsoft Can't Touch",
-          "extracto": "Las declaraciones de Elon Musk indican que su empresa aeroespacial podría destinar presupuestos masivos a la infraestructura de centros de datos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/15/elon-musk-says-spacex-has-a-massive-competitive-ad/?.tsrc=rss",
-          "fecha": "2026-08-15T19:23:00+00:00"
-        },
-        {
-          "titular": "3 Unprofitable Stocks with Open Questions",
-          "extracto": "Las firmas sin beneficios económicos atraviesan dificultades para gestionar sus costos operativos y, a pesar de sus fuertes inversiones, la gran mayoría no logra transformarlas en una expansión duradera.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-open-questions-161300304.html?.tsrc=rss",
-          "fecha": "2026-08-16T16:13:00+00:00"
+          "url": "https://247wallst.com/investing/2026/08/16/after-comparing-every-dividend-etf-that-owns-the-magnificent-seven-these-3-pay-you-without-giving-up-the-ai-trade/?.tsrc=rss",
+          "fecha": "2026-08-16T13:27:26+00:00"
         }
       ],
       "fundamentales": {
@@ -12914,6 +12909,10 @@
           },
           {
             "fecha": "2026-08-16T17:00:00",
+            "valor": 713.61
+          },
+          {
+            "fecha": "2026-08-16T18:00:00",
             "valor": 713.61
           }
         ],
@@ -16112,26 +16111,8 @@
       },
       "noticias": [
         {
-          "titular": "The Vanguard S&P 500 ETF (VOO) Beat the Vanguard Morningstar Total Stock Market ETF (VTI) for 4 Straight Years. Here's Why That's About to Change.",
-          "extracto": "El fondo cotizado de Vanguard enfocado en el mercado total presenta una mayor diversificación y un enfoque hacia acciones de valor en comparación con el índice S&P 500.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/16/vanguard-sp-500-etf-voo-beat-vanguard-vti/?.tsrc=rss",
-          "fecha": "2026-08-16T12:25:00+00:00"
-        },
-        {
-          "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests.",
-          "extracto": "Ampliar el periodo de inversión eleva la probabilidad de obtener resultados positivos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/14/vanguard-sp-500-etf-voo-20-years-market-history/?.tsrc=rss",
-          "fecha": "2026-08-14T14:05:00+00:00"
-        },
-        {
           "titular": "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
-          "extracto": "Ahorrar de manera constante cada mes durante treinta años permite acumular un patrimonio considerable para el retiro, aunque el resultado final depende de los activos seleccionados y su distribución.",
+          "extracto": "Ahorrar e invertir de forma constante durante largos periodos puede generar un capital considerable para el retiro. Sin embargo, el destino final depende en gran medida de los instrumentos financieros seleccionados y su distribución.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16140,7 +16121,7 @@
         },
         {
           "titular": "Maxing Out a Roth IRA Into These 3 ETFs Could Make You a Tax-Free Millionaire",
-          "extracto": "Las cuentas de jubilación de tipo Roth eximen permanentemente de impuestos federales a los dividendos y ganancias, siempre y cuando se seleccionen los instrumentos de inversión adecuados.",
+          "extracto": "Este tipo de cuentas de jubilación ofrece ventajas fiscales permanentes sobre las ganancias, siempre que se utilicen los activos adecuados. Ciertos fondos cotizados económicos abarcan áreas clave que muchos inversionistas suelen pasar por alto.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16148,13 +16129,31 @@
           "fecha": "2026-08-16T16:31:25+00:00"
         },
         {
+          "titular": "The Vanguard S&P 500 ETF (VOO) Beat the Vanguard Morningstar Total Stock Market ETF (VTI) for 4 Straight Years. Here's Why That's About to Change.",
+          "extracto": "Un fondo cotizado enfocado en el mercado bursátil total de Vanguard tiende a ofrecer mayor diversificación y una orientación hacia el valor en comparación con el índice S&P 500.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/16/vanguard-sp-500-etf-voo-beat-vanguard-vti/?.tsrc=rss",
+          "fecha": "2026-08-16T12:25:00+00:00"
+        },
+        {
           "titular": "You Finally Saved $1 Million. The 4% Rule Says Live on $40,000. These 4 ETFs Say You Can Do Better",
-          "extracto": "Mientras que la tradicional regla del 4% ofrece una estimación estándar para los jubilados, existen estrategias alternativas que producen mayores ingresos sin necesidad de vender los títulos principales.",
+          "extracto": "La tradicional regla del retiro del 4% ofrece una guía de gasto estándar que puede resultar limitada. Existen estrategias alternativas orientadas a preservar el capital principal mientras se obtienen ingresos superiores a dicho límite.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://247wallst.com/investing/etf/2026/08/14/you-finally-saved-1-million-the-4-rule-says-live-on-40000-these-4-etfs-say-you-can-do-better/?.tsrc=rss",
           "fecha": "2026-08-14T22:25:18+00:00"
+        },
+        {
+          "titular": "ETF Zoo: Substance Over Shenanigans Still Matters in ETFs",
+          "extracto": "Un reciente episodio del podcast ETF Zoo analiza el futuro de ciertos mecanismos fiscales y financieros, la aparente desconexión del mercado frente al consumidor y las implicaciones de una reciente adquisición en el sector de fondos de ingresos por opciones.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "http://www.etf.com/sections/podcasts/etf-zoo-substance-over-shenanigans-still-matters-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+          "fecha": "2026-08-14T19:37:52+00:00"
         }
       ]
     }
