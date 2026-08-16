@@ -62027,6 +62027,7 @@
     {
       "id": "amigo1-k9x2m7",
       "nombre": "Amigo 1",
+      "clave": "amigo1",
       "seguimientos": [
         {
           "tipo": "ticker",
@@ -62050,30 +62051,53 @@
           "datos": {
             "titulares": [
               {
-                "titular": "Meta lanza nuevo modelo de Inteligencia Artificial - DW.com",
+                "titular": "Meta lanza nuevo modelo de Inteligencia Artificial - dw.com",
                 "medio": "Google News",
                 "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTWFoWnhUcTJYakZqZzVtY2V3TU12TVpGdXg1QTZ2SnhFTHd0RjEzRlQ0NkVQWEpuS0huOThyYzlFd05LOVJ4V1U4OXdJOGJobldXUWZROXF2SngyTkFYWFhEQU1tam9BY2JFR0VCYlNZLVFBUnlSZGx0azRBX0pzZWdRQTd1X3h5ZjNR0gGLAUFVX3lxTFB5UkdPNDZGcFVkUnFpZl9tb1E2RVZNQXNFMEowWjlmSHRLLTNpeFowZTNqcUhTVi1wUE8tYVlfQkI3VGl4dUZwVHhzcjJwSmhKU0dCS2xfakFKN0VsYy1GZ0hicGNkUEd5eDQ1WHd3RFhTbmJsaGh3NTJaOEVvQkFRRm9YcEhPWTRUODA?oc=5"
               },
               {
-                "titular": "Docentes UFRO fortalecen competencias para integrar la Inteligencia Artificial en la docencia - Universidad de La Frontera",
+                "titular": "“En Pauta” de Crónica Chillán abordó en la UBB los desafíos y oportunidades de la inteligencia artificial para Ñuble - Universidad del Bío-Bío",
                 "medio": "Google News",
-                "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRDN4aTgyRVliSGJFUXhFVmxqeWEtNEJ1MUMtRm9SOFVDN2xtSHVtR19HRUZ0YnltaHVGR0xkaVNzQ0UwM0ZHZFZIVDg0ckFOYnVGNkdjQ0tScl9DcHBsWE5GVm1yc3J5eDhOekF0NnNjS1BaMXlqQS1nUjIwaVBVTnFJOVIxdllGb3VIX2lsSWF5NlpnWEJwWm0yWkluU0VJc2dSTXFSaC1WTDdVQWdMXzZLdWU4dzFOSEhxTVc1LTI?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQlppLUJNem9XTlJzWmJjOU1iNlpvZ1JhSkpKWGNKdllvUXRCVFRWWGNsSzlGd2hBb0IzT0tYOVdBRWx0MmN5cGlvZm1oY1pEUENGWWVfVXhlMUZyZ2tSNjVXcHZCSjZuRzFUaWdTbjBQSDBSdDFVRXN3aEtXank1VGlPWTdFNktnNE9pTUJya0YyQkNXT09yanNnSjJpbk5GSjExVmF2N3dqLTk3b0RORndnRU5KZURBXzJoV293Q0lUVHdfTkxIS0dJdGw1cGhQOEo4V0ViRVktMVR5TTZvd0dEVXhZbUQzclE?oc=5"
               },
               {
-                "titular": "INACAP inicia despliegue de su Estrategia de Inteligencia Artificial para fortalecer capacidades e impulsar la innovación - portal.inacap.cl",
+                "titular": "Docentes UFRO fortalecen competencias para integrar la Inteligencia Artificial en la docencia - ufro.cl",
                 "medio": "Google News",
-                "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeWRDTjhYbkZrYngzemdhcm1HSExaRlNjZWVYdlhIaFl2d0RDSHl5aWR4bS1QM1Z4M2xPNjdLblFISFg3VnpLOHZiaDVGWGlsNmEyRGdMQ29IRzlXRDQ1UVlYY3lSQ0dCazFMWmpCVTl0Y3ZHMGowTmNKaVhPbmxFQi1nZkZnMllDZXdqWnBUeUEwb01KVUFDT0VkbWdBeXlKdWtGMENNcXVkQ2xWQzNmUGk5MVlIT0EwNnIwU1A4LWVBTVB3N2daNlN2bXlCajJPMHJnODl0bnBrSGtoMmdCNW1OMy1HalBz?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRDN4aTgyRVliSGJFUXhFVmxqeWEtNEJ1MUMtRm9SOFVDN2xtSHVtR19HRUZ0YnltaHVGR0xkaVNzQ0UwM0ZHZFZIVDg0ckFOYnVGNkdjQ0tScl9DcHBsWE5GVm1yc3J5eDhOekF0NnNjS1BaMXlqQS1nUjIwaVBVTnFJOVIxdllGb3VIX2lsSWF5NlpnWEJwWm0yWkluU0VJc2dSTXFSaC1WTDdVQWdMXzZLdWU4dzFOSEhxTVc1LTI?oc=5"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "palabra_clave",
+          "valor": "diseño",
+          "datos": {
+            "titulares": [
+              {
+                "titular": "Diseño UDD suma nuevos nombramientos en organismo internacional de investigación - UDD",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbndnX002cHdhbGozdEY0OWV3TGpVeVBhUFFnSVdCX3hKeHZuaVhTY1laNllfczVKc1hyR0xmdmhpOGRPaDFhOFlYVE4zZ2hqS3pfR3J3SjlJV2FjR2NYUUpGOTVMaXNFM2cxX3RCa01lYXhpQk1oSjItd2M2YnNqbWhpNmlCdGphS0VVSUxTUTFjRnA0UXh4eUpOQ1hTV3ZGY3FSRkFEUjFSTXlsZzBsVkRDUG5VSFpyVVdIOA?oc=5"
+              },
+              {
+                "titular": "Egresados de Diseño crean primer Índice de Municipios Inteligentes de la Región Metropolitana - Universidad de Chile",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT3FNcFY4VzlVSmZMNElWcFhsTTRqMDktUG5veERTTHV1VkJLTmFlZzI0Z29QUElEdTQ1VlNTVGN0NzJEeEIteVU3aVZNdFFjNGlMLVlEbFQxNEZGRnRmZEFHRkV5c3Q4RnVPWVdIcWVUTDViRmR1dkxUWlZGZGpfRC14dVI3dE8zU1lCM21hTy0zNmdQWFFsTVhIdlk2UDNxQnlwZXU3eElwTFZ4cEE?oc=5"
+              },
+              {
+                "titular": "Desde Los Laureles a Playa Ancha: Estudiante de Diseño se adjudica Beca de Materiales Elsa Geywitz - Universidad de Valparaíso",
+                "medio": "Google News",
+                "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQkluVE5UOENqNHZZajdSVm1TYnpSb1JyR2FHM3VVTWlFYXM2c1FDbHMxdHZuWUdhcWtCRWVXd2Rfb3BDS2ZtTGQzcDdXZjZxN2ZFX3RuSjVxQ3JvU2dyMTZLejhGQnhuYlVuRVBpdVZnSU1LekhObGRsVS1mTUg0Vk1Ua20xRmFDOHdmU2dybTQ3UXNXcVV5a2Y0aU1xMTZ1a3VablVpemM3Xy1WXzVkaXNTbm1XR3pVYnRrb2syNEtNblRsNjF4U0FEbEktUjV2bThvNkpoaFE?oc=5"
               }
             ]
           }
         }
       ],
-      "actualizado": "2026-08-15T13:51:06.809790+00:00",
-      "clave": "amigo1"
+      "actualizado": "2026-08-16T13:52:03.437134+00:00"
     },
     {
       "id": "amigo2-p4w8n1",
       "nombre": "Amigo 2",
+      "clave": "amigo2",
       "seguimientos": [
         {
           "tipo": "ticker",
@@ -62107,8 +62131,7 @@
           }
         }
       ],
-      "actualizado": "2026-08-15T13:51:06.809790+00:00",
-      "clave": "amigo2"
+      "actualizado": "2026-08-16T13:52:03.437134+00:00"
     }
   ]
 }
