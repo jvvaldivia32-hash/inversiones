@@ -16481,7 +16481,7 @@
       {
         "ticker": "PEP",
         "nombre": "PepsiCo",
-        "pct_bajo_maximo": 17.5,
+        "pct_bajo_maximo": 17.4,
         "motivo": "Ingresos +6% YoY, margen operativo 17%, flujo operativo positivo, deuda/patrimonio 1.9",
         "metricas": {
           "ingresos_var_pct": 6.4,
@@ -16490,18 +16490,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 135.4
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 139.43
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 137.12
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 135.46
@@ -16581,17 +16569,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 140.62
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 140.79
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 161.92
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 164.39
-            },
             {
               "fecha": "2026-02-19",
               "valor": 164.59
@@ -17079,6 +17063,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 140.62
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 140.79
             }
           ],
           "YTD": [
@@ -17697,17 +17685,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 140.62
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 140.79
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 148.62
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 150.4
-            },
             {
               "fecha": "2025-08-18",
               "valor": 149.55
@@ -18703,6 +18687,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 140.62
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 140.79
             }
           ],
           "5A": [
@@ -19749,6 +19737,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 140.62
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 140.79
             }
           ]
         }
@@ -19756,7 +19748,7 @@
       {
         "ticker": "WMT",
         "nombre": "Walmart",
-        "pct_bajo_maximo": 13.8,
+        "pct_bajo_maximo": 14.1,
         "motivo": "Ingresos +7% YoY, margen operativo 4%, flujo operativo positivo, deuda/patrimonio 0.4",
         "metricas": {
           "ingresos_var_pct": 7.1,
@@ -19765,18 +19757,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 112.53
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 114.95
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 114.24
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 112.2
@@ -19856,17 +19836,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 115.72
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 115.27
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 128.85
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 126.62
-            },
             {
               "fecha": "2026-02-19",
               "valor": 124.87
@@ -20354,6 +20330,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 115.72
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 115.27
             }
           ],
           "YTD": [
@@ -20972,17 +20952,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 115.72
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 115.27
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 100.85
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 100.0
-            },
             {
               "fecha": "2025-08-18",
               "valor": 100.7
@@ -21978,6 +21954,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 115.72
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 115.27
             }
           ],
           "5A": [
@@ -23024,6 +23004,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 115.72
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 115.27
             }
           ]
         }
@@ -23031,7 +23015,7 @@
       {
         "ticker": "ADBE",
         "nombre": "Adobe",
-        "pct_bajo_maximo": 26.4,
+        "pct_bajo_maximo": 28.2,
         "motivo": "Ingresos +13% YoY, margen operativo 34%, flujo operativo positivo, deuda/patrimonio 0.4",
         "metricas": {
           "ingresos_var_pct": 12.7,
@@ -23040,18 +23024,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 224.56
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 235.31
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 237.25
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 234.74
@@ -23131,17 +23103,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 270.49
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 264.02
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 260.45
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 263.17
-            },
             {
               "fecha": "2026-02-19",
               "valor": 259.21
@@ -23629,6 +23597,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 270.49
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 264.02
             }
           ],
           "YTD": [
@@ -24247,17 +24219,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 270.49
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 264.02
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 348.58
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 354.85
-            },
             {
               "fecha": "2025-08-18",
               "valor": 357.24
@@ -25253,6 +25221,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 270.49
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 264.02
             }
           ],
           "5A": [
@@ -26299,6 +26271,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 270.49
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 264.02
             }
           ]
         }
@@ -26306,7 +26282,7 @@
       {
         "ticker": "DHR",
         "nombre": "Danaher",
-        "pct_bajo_maximo": 15.8,
+        "pct_bajo_maximo": 16.4,
         "motivo": "Ingresos +6% YoY, margen operativo 18%, flujo operativo positivo, deuda/patrimonio 0.5",
         "metricas": {
           "ingresos_var_pct": 5.5,
@@ -26315,18 +26291,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 200.79
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 205.01
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 203.83
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 201.11
@@ -26406,17 +26370,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 203.89
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 202.45
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 206.36
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 208.56
-            },
             {
               "fecha": "2026-02-19",
               "valor": 211.25
@@ -26904,6 +26864,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 203.89
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 202.45
             }
           ],
           "YTD": [
@@ -27522,17 +27486,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 203.89
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 202.45
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 210.22
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 210.93
-            },
             {
               "fecha": "2025-08-18",
               "valor": 209.01
@@ -28528,6 +28488,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 203.89
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 202.45
             }
           ],
           "5A": [
@@ -29574,6 +29538,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 203.89
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 202.45
             }
           ]
         }
@@ -29581,7 +29549,7 @@
       {
         "ticker": "TXN",
         "nombre": "Texas Instruments",
-        "pct_bajo_maximo": 17.7,
+        "pct_bajo_maximo": 15.9,
         "motivo": "Ingresos +23% YoY, margen operativo 42%, flujo operativo positivo, deuda/patrimonio 0.7",
         "metricas": {
           "ingresos_var_pct": 22.8,
@@ -29590,18 +29558,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 301.19
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 291.22
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 284.02
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 284.07
@@ -29681,17 +29637,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 273.43
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 279.58
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 225.69
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 223.32
-            },
             {
               "fecha": "2026-02-19",
               "valor": 218.05
@@ -30179,6 +30131,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 273.43
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 279.58
             }
           ],
           "YTD": [
@@ -30797,17 +30753,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 273.43
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 279.58
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 193.71
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 194.57
-            },
             {
               "fecha": "2025-08-18",
               "valor": 194.33
@@ -31803,6 +31755,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 273.43
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 279.58
             }
           ],
           "5A": [
@@ -32849,6 +32805,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 273.43
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 279.58
             }
           ]
         }
@@ -32856,7 +32816,7 @@
       {
         "ticker": "NEE",
         "nombre": "NextEra Energy",
-        "pct_bajo_maximo": 12.1,
+        "pct_bajo_maximo": 11.9,
         "motivo": "Ingresos +7% YoY, margen operativo 33%, flujo operativo positivo, deuda/patrimonio 1.7",
         "metricas": {
           "ingresos_var_pct": 7.3,
@@ -32865,18 +32825,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 89.1
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 89.35
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 88.8
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 88.0
@@ -32956,17 +32904,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 86.01
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 86.19
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 92.71
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 91.22
-            },
             {
               "fecha": "2026-02-19",
               "valor": 91.64
@@ -33454,6 +33398,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 86.01
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 86.19
             }
           ],
           "YTD": [
@@ -34072,17 +34020,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 86.01
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 86.19
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 72.24
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 75.41
-            },
             {
               "fecha": "2025-08-18",
               "valor": 75.72
@@ -35078,6 +35022,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 86.01
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 86.19
             }
           ],
           "5A": [
@@ -36124,6 +36072,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 86.01
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 86.19
             }
           ]
         }
@@ -36131,7 +36083,7 @@
       {
         "ticker": "CAT",
         "nombre": "Caterpillar",
-        "pct_bajo_maximo": 19.7,
+        "pct_bajo_maximo": 19.6,
         "motivo": "Ingresos +24% YoY, margen operativo 21%, flujo operativo positivo, deuda/patrimonio 1.6",
         "metricas": {
           "ingresos_var_pct": 24.0,
@@ -36140,18 +36092,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 914.3
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 877.17
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 880.28
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 864.3
@@ -36231,17 +36171,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 854.6
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 856.57
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 764.76
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 751.97
-            },
             {
               "fecha": "2026-02-19",
               "valor": 760.53
@@ -36729,6 +36665,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 854.6
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 856.57
             }
           ],
           "YTD": [
@@ -37347,17 +37287,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 854.6
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 856.57
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 417.5
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 407.79
-            },
             {
               "fecha": "2025-08-18",
               "valor": 412.64
@@ -38353,6 +38289,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 854.6
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 856.57
             }
           ],
           "5A": [
@@ -39399,6 +39339,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 854.6
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 856.57
             }
           ]
         }
@@ -39406,7 +39350,7 @@
       {
         "ticker": "ISRG",
         "nombre": "Intuitive Surgical",
-        "pct_bajo_maximo": 32.3,
+        "pct_bajo_maximo": 33.5,
         "motivo": "Ingresos +19% YoY, margen operativo 34%, flujo operativo positivo, deuda/patrimonio 0.0",
         "metricas": {
           "ingresos_var_pct": 18.5,
@@ -39415,18 +39359,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 388.97
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 402.33
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 345.42
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 353.17
@@ -39506,17 +39438,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 401.27
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 394.51
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 493.35
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 500.76
-            },
             {
               "fecha": "2026-02-19",
               "valor": 499.53
@@ -40004,6 +39932,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 401.27
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 394.51
             }
           ],
           "YTD": [
@@ -40622,17 +40554,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 401.27
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 394.51
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 477.08
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 480.26
-            },
             {
               "fecha": "2025-08-18",
               "valor": 481.28
@@ -41628,6 +41556,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 401.27
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 394.51
             }
           ],
           "5A": [
@@ -42674,6 +42606,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 401.27
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 394.51
             }
           ]
         }
@@ -42681,7 +42617,7 @@
       {
         "ticker": "NOW",
         "nombre": "ServiceNow",
-        "pct_bajo_maximo": 33.8,
+        "pct_bajo_maximo": 35.5,
         "motivo": "Ingresos +24% YoY, margen operativo 4%, flujo operativo positivo, deuda/patrimonio 0.4",
         "metricas": {
           "ingresos_var_pct": 24.0,
@@ -42690,18 +42626,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 104.73
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 104.01
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 103.24
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 104.7
@@ -42781,17 +42705,13 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 127.25
+            },
+            {
+              "fecha": "2026-08-17T06:00:00",
+              "valor": 124
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 105.91
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 107.81
-            },
             {
               "fecha": "2026-02-19",
               "valor": 107.37
@@ -43279,6 +43199,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 127.25
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 124
             }
           ],
           "YTD": [
@@ -43897,17 +43821,13 @@
             {
               "fecha": "2026-08-13",
               "valor": 127.25
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 124
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 170.17
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 173.45
-            },
             {
               "fecha": "2025-08-18",
               "valor": 178.41
@@ -44903,6 +44823,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 127.25
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 124
             }
           ],
           "5A": [
@@ -45949,6 +45873,10 @@
             {
               "fecha": "2026-08-13",
               "valor": 127.25
+            },
+            {
+              "fecha": "2026-08-17",
+              "valor": 124
             }
           ]
         }
@@ -45956,7 +45884,7 @@
       {
         "ticker": "META",
         "nombre": "Meta Platforms",
-        "pct_bajo_maximo": 24.2,
+        "pct_bajo_maximo": 24.4,
         "motivo": "Ingresos +28% YoY, margen operativo 31%, flujo operativo positivo, deuda/patrimonio 0.3",
         "metricas": {
           "ingresos_var_pct": 28.0,
@@ -45965,18 +45893,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 681.31
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 664.54
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 646.01
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 645.85
@@ -46056,17 +45972,25 @@
             {
               "fecha": "2026-08-13T20:00:00",
               "valor": 594.97
+            },
+            {
+              "fecha": "2026-08-14T23:00:00",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15T00:00:00",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15T02:00:00",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15T03:00:00",
+              "valor": 589.85
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 639.29
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 643.22
-            },
             {
               "fecha": "2026-02-19",
               "valor": 644.78
@@ -46554,6 +46478,14 @@
             {
               "fecha": "2026-08-13",
               "valor": 594.97
+            },
+            {
+              "fecha": "2026-08-14",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15",
+              "valor": 589.85
             }
           ],
           "YTD": [
@@ -47172,17 +47104,17 @@
             {
               "fecha": "2026-08-13",
               "valor": 594.97
+            },
+            {
+              "fecha": "2026-08-14",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15",
+              "valor": 589.85
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 782.13
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 785.23
-            },
             {
               "fecha": "2025-08-18",
               "valor": 767.37
@@ -48178,6 +48110,14 @@
             {
               "fecha": "2026-08-13",
               "valor": 594.97
+            },
+            {
+              "fecha": "2026-08-14",
+              "valor": 589.85
+            },
+            {
+              "fecha": "2026-08-15",
+              "valor": 589.85
             }
           ],
           "5A": [
@@ -49222,8 +49162,8 @@
               "valor": 592.1
             },
             {
-              "fecha": "2026-08-13",
-              "valor": 594.97
+              "fecha": "2026-08-15",
+              "valor": 589.85
             }
           ]
         }
@@ -49240,18 +49180,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 529.14
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 500.94
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 495.76
-            },
             {
               "fecha": "2026-07-20T00:00:00",
               "valor": 503.57
@@ -49334,14 +49262,6 @@
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 203.08
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 200.12
-            },
             {
               "fecha": "2026-02-19",
               "valor": 203.37
@@ -50450,14 +50370,6 @@
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 180.95
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 177.51
-            },
             {
               "fecha": "2025-08-18",
               "valor": 176.14
@@ -52516,18 +52428,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 102.99
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 96.98
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 95.04
-            },
-            {
               "fecha": "2026-07-20T00:00:00",
               "valor": 97.06
             },
@@ -52609,14 +52509,6 @@
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 46.18
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 45.46
-            },
             {
               "fecha": "2026-02-19",
               "valor": 44.62
@@ -53725,14 +53617,6 @@
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 23.86
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 24.56
-            },
             {
               "fecha": "2025-08-18",
               "valor": 23.66
@@ -55791,18 +55675,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 167.0
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 172.68
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 170.77
-            },
-            {
               "fecha": "2026-07-20T00:00:00",
               "valor": 173.79
             },
@@ -55884,14 +55756,6 @@
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 184.29
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 187.79
-            },
             {
               "fecha": "2026-02-19",
               "valor": 185.29
@@ -57000,14 +56864,6 @@
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 233.37
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 242.44
-            },
             {
               "fecha": "2025-08-18",
               "valor": 243.97
@@ -59066,18 +58922,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-07-15T00:00:00",
-              "valor": 132.49
-            },
-            {
-              "fecha": "2026-07-16T00:00:00",
-              "valor": 124.21
-            },
-            {
-              "fecha": "2026-07-17T00:00:00",
-              "valor": 126.41
-            },
-            {
               "fecha": "2026-07-20T00:00:00",
               "valor": 121.38
             },
@@ -59159,14 +59003,6 @@
             }
           ],
           "6M": [
-            {
-              "fecha": "2026-02-17",
-              "valor": 153.97
-            },
-            {
-              "fecha": "2026-02-18",
-              "valor": 156.17
-            },
             {
               "fecha": "2026-02-19",
               "valor": 156.54
@@ -60275,14 +60111,6 @@
             }
           ],
           "1A": [
-            {
-              "fecha": "2025-08-14",
-              "valor": 244.96
-            },
-            {
-              "fecha": "2025-08-15",
-              "valor": 248.28
-            },
             {
               "fecha": "2025-08-18",
               "valor": 249.07
@@ -62332,22 +62160,22 @@
     "descartados": [
       {
         "ticker": "TSLA",
-        "pct_bajo_maximo": 30.6,
+        "pct_bajo_maximo": 30.1,
         "motivo_descarte": "ingresos creciendo solo 2 de los últimos 4 trimestres"
       },
       {
         "ticker": "PG",
-        "pct_bajo_maximo": 13.7,
+        "pct_bajo_maximo": 13.5,
         "motivo_descarte": "ingresos creciendo solo 1 de los últimos 4 trimestres"
       },
       {
         "ticker": "HD",
-        "pct_bajo_maximo": 19.3,
+        "pct_bajo_maximo": 20.0,
         "motivo_descarte": "ingresos creciendo solo 2 de los últimos 4 trimestres; deuda/patrimonio 3.6 (alto)"
       },
       {
         "ticker": "ACN",
-        "pct_bajo_maximo": 38.1,
+        "pct_bajo_maximo": 38.7,
         "motivo_descarte": "ingresos creciendo solo 2 de los últimos 4 trimestres"
       },
       {
@@ -62357,21 +62185,21 @@
       },
       {
         "ticker": "QCOM",
-        "pct_bajo_maximo": 34.4,
+        "pct_bajo_maximo": 34.0,
         "motivo_descarte": "ingresos cayendo interanual; ingresos creciendo solo 2 de los últimos 4 trimestres"
       },
       {
         "ticker": "LOW",
-        "pct_bajo_maximo": 24.1,
+        "pct_bajo_maximo": 24.0,
         "motivo_descarte": "ingresos creciendo solo 2 de los últimos 4 trimestres"
       },
       {
         "ticker": "RBLX",
-        "pct_bajo_maximo": 73.2,
+        "pct_bajo_maximo": 73.0,
         "motivo_descarte": "margen operativo negativo; deuda/patrimonio 6.6 (alto)"
       }
     ],
-    "ultima_corrida": "2026-08-13"
+    "ultima_corrida": "2026-08-17"
   },
   "amigos": [
     {
