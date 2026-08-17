@@ -1,11 +1,11 @@
 {
-  "generado": "2026-08-17T18:28:58.471992+00:00",
+  "generado": "2026-08-17T19:22:48.164715+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
         "titulo_neutral": "In Bangkok's gun district, traders say Thai crackdown misses the mark - Reuters",
-        "resumen": "Los comerciantes del sector armamentístico en Bangkok argumentan que las recientes medidas de fiscalización implementadas por las autoridades tailandesas no abordan de manera eficaz los problemas de seguridad.",
+        "resumen": "Comerciantes en la zona de armas de Bangkok consideran que las recientes medidas de control gubernamentales no están abordando el problema de forma adecuada.",
         "articulos": [
           {
             "titular": "In Bangkok's gun district, traders say Thai crackdown misses the mark - Reuters",
@@ -26,8 +26,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Ataques de Rusia en Kiev",
-        "resumen": "Un bombardeo ruso afectó un conocido mercado literario en Kiev, dejando varios heridos y daños materiales. Representantes locales calificaron el ataque como un intento deliberado de destruir el patrimonio cultural ucraniano.",
+        "titulo_neutral": "Ataques rusos contra un mercado en Kiev",
+        "resumen": "Un ataque ruso contra un mercado de libros en Kiev dejó media docena de heridos. Analistas señalan que estas ofensivas buscan destruir la herencia cultural ucraniana.",
         "articulos": [
           {
             "titular": "Russian strike on Kyiv book market: 'An attempt to annihilate Ukrainian identity'",
@@ -37,15 +37,6 @@
             "lean": "centro",
             "url": "https://www.france24.com/en/video/20260817-russian-strike-on-kyiv-book-market-an-attempt-to-annihilate-ukrainian-identity",
             "fecha": "2026-08-17T15:06:00+00:00"
-          },
-          {
-            "titular": "Russia and Ukraine trade more deadly strikes",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-17T13:16:50+00:00"
           },
           {
             "titular": "BBC visits smouldering Kyiv market after Russian strikes",
@@ -68,7 +59,7 @@
       },
       {
         "titulo_neutral": "Russia's Far East to test drones and unmanned trucks for trade with China - Reuters",
-        "resumen": "Las regiones orientales de Rusia planean utilizar vehículos pesados autónomos y aeronaves no tripuladas para optimizar las operaciones de intercambio comercial con China.",
+        "resumen": "El Lejano Oriente ruso probará el uso de vehículos autónomos y aeronaves no tripuladas para optimizar el comercio bilateral con el país asiático.",
         "articulos": [
           {
             "titular": "Russia's Far East to test drones and unmanned trucks for trade with China - Reuters",
@@ -90,7 +81,7 @@
       },
       {
         "titulo_neutral": "ByteDance signs AI copyright pact with Hollywood trade group - Reuters",
-        "resumen": "La empresa ByteDance ha alcanzado un entendimiento legal sobre derechos de autor con una organización cinematográfica estadounidense en relación con sistemas de inteligencia artificial.",
+        "resumen": "La empresa ByteDance estableció una alianza sobre derechos de autor en el ámbito de la inteligencia artificial con una destacada organización de la industria cinematográfica estadounidense.",
         "articulos": [
           {
             "titular": "ByteDance signs AI copyright pact with Hollywood trade group - Reuters",
@@ -112,7 +103,7 @@
       },
       {
         "titulo_neutral": "Canada braces for 50% US tariffs, with negotiators still far apart - Reuters",
-        "resumen": "Canadá se prepara ante la posible imposición de aranceles punitivos por parte de Estados Unidos, dado que las delegaciones negociadoras continúan distantes en sus posturas.",
+        "resumen": "Canadá se prepara ante la posible imposición de aranceles estadounidenses del cincuenta por ciento, dado que las partes involucradas mantienen diferencias significativas.",
         "articulos": [
           {
             "titular": "Canada braces for 50% US tariffs, with negotiators still far apart - Reuters",
@@ -133,8 +124,30 @@
         "cobertura_unilateral": true
       },
       {
+        "titulo_neutral": "Intercambio de ataques mortales entre Rusia y Ucrania",
+        "resumen": "Moscú reportó nueve fallecidos en las últimas veinticuatro horas, mientras que Kiev informó de cuatro muertes.",
+        "articulos": [
+          {
+            "titular": "Russia and Ukraine trade more deadly strikes",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-17T13:16:50+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Most Gulf markets ease as Iran tensions, Hormuz shipping disruptions weigh - Reuters",
-        "resumen": "Las principales bolsas del golfo Pérsico experimentaron descensos debido a la inestabilidad geopolítica vinculada a Irán y a las complicaciones en el tráfico marítimo del estrecho de Ormuz.",
+        "resumen": "Los principales índices del Golfo disminuyeron debido a la incertidumbre generada por la situación geopolítica con Irán y las complicaciones en la navegación por el estrecho de Ormuz.",
         "articulos": [
           {
             "titular": "Most Gulf markets ease as Iran tensions, Hormuz shipping disruptions weigh - Reuters",
@@ -156,7 +169,7 @@
       },
       {
         "titulo_neutral": "EXCLUSIVE: Shein cuts company valuation to around $25 billion in Hong Kong IPO, sources say - Reuters",
-        "resumen": "Fuentes financieras informan que la compañía Shein ha decidido reducir su valoración corporativa hasta los veinticinco mil millones de dólares de cara a su oferta pública inicial en Hong Kong.",
+        "resumen": "Fuentes cercanas indican que la compañía Shein redujo su valoración empresarial a unos veinticinco mil millones de dólares de cara a su oferta pública inicial en Hong Kong.",
         "articulos": [
           {
             "titular": "EXCLUSIVE: Shein cuts company valuation to around $25 billion in Hong Kong IPO, sources say - Reuters",
@@ -175,43 +188,21 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Indian banks fast-track dollar fundraising after RBI moves FX swap window deadline - Reuters",
-        "resumen": "Las entidades bancarias de la India están acelerando sus operaciones para captar fondos en dólares tras una modificación en los plazos del banco central para las ventanillas de permuta cambiaria.",
-        "articulos": [
-          {
-            "titular": "Indian banks fast-track dollar fundraising after RBI moves FX swap window deadline - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFc4cHg1RGFYUFh6WHh6T0YtLU5IdUFObUhmYkR5YkVoRjR5UkJOMzk0N05sTi1aVF90a1p4aWxjUlVLbWN4YWFEb1FrMTRzRHl1MVpQdmJwRkVtV29wQXMtMW5KeVl3R0x6S056eDFQSzVHZ3hnc1FDRjMyV2xVbklLNHFtM1F6MUJFMG0tdUZlZXhiM3FVVi1oSW1VZHJnYURVQzA5QTZjSW5Bci1iWHdkNElFZUxVYmo0LTB3?oc=5",
-            "fecha": "2026-08-17T11:27:43+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Consejo Fiscal enfría el entusiasmo por el alza histórica del cobre: dice que ingresos serían transitorios y advierte que se superará nivel de deuda prudente en 2029",
-        "resumen": "Un reciente reporte financiero expresa inquietud debido a que la estabilidad económica proyectada depende en gran medida del éxito de las metas de crecimiento establecidas en la legislación de reconstrucción.",
+        "titulo_neutral": "Las lecciones que debería aprender Anthropic de SpaceX para su esperada salida en bolsa",
+        "resumen": "Los agentes bursátiles prefieren que la distribución inicial de activos posea suficiente profundidad para evitar distorsiones artificiales en los precios durante las primeras jornadas.",
         "articulos": [
           {
-            "titular": "Consejo Fiscal enfría el entusiasmo por el alza histórica del cobre: dice que ingresos serían transitorios y advierte que se superará nivel de deuda prudente en 2029",
+            "titular": "Las lecciones que debería aprender Anthropic de SpaceX para su esperada salida en bolsa",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/consejo-fiscal-enfria-el-entusiasmo-por-el-alza-historica-del-cobre-dice",
-            "fecha": "2026-08-17T18:28:06+00:00"
+            "url": "http://www.df.cl/mercados/las-lecciones-que-deberia-aprender-anthropic-de-spacex-para-su-esperada",
+            "fecha": "2026-08-17T19:20:19+00:00"
           }
         ],
         "leans_presentes": [
@@ -223,17 +214,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "“Confiansa nunca estuvo mal escrito por accidente”: La respuesta de Iansa detrás de su viral estrategia de marketing",
-        "resumen": "Un cartel publicitario con una falta de ortografía deliberada generó gran repercusión digital. Posteriormente se confirmó que formaba parte de una campaña de marketing de la marca de alimentos.",
+        "titulo_neutral": "Sigue la racha alcista: el precio de los combustibles volvería a subir alrededor de $ 30 por litro este jueves",
+        "resumen": "Las proyecciones indican que los combustibles registrarán alzas generalizadas, afectando tanto a las gasolinas de distintos octanajes como al precio del diésel.",
         "articulos": [
           {
-            "titular": "“Confiansa nunca estuvo mal escrito por accidente”: La respuesta de Iansa detrás de su viral estrategia de marketing",
+            "titular": "Sigue la racha alcista: el precio de los combustibles volvería a subir alrededor de $ 30 por litro este jueves",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/macro/sigue-la-racha-alcista-el-precio-de-los-combustibles-volveria-a-subir",
+            "fecha": "2026-08-17T19:17:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Metro y empresa china se enfrentan en millonario arbitraje por obras de la Línea 7: tuneladora que prometía ser 15 veces más rápida terminó bajo tierra",
+        "resumen": "El bajo rendimiento de la máquina excavadora en las faenas iniciales del suburbano provocó la rescisión del contrato y un litigio legal que se resolverá mediante un proceso arbitral.",
+        "articulos": [
+          {
+            "titular": "Metro y empresa china se enfrentan en millonario arbitraje por obras de la Línea 7: tuneladora que prometía ser 15 veces más rápida terminó bajo tierra",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/17/confiansa-nunca-estuvo-mal-escrito-por-accidente-la-respuesta-de-iansa-detras-de-su-viral-estrategia-de-marketing/",
-            "fecha": "2026-08-17T18:16:38+00:00"
+            "url": "https://www.theclinic.cl/2026/08/17/metro-y-empresa-china-se-enfrentan-en-millonario-arbitraje-por-obras-de-la-linea-7-tuneladora-que-prometia-ser-15-veces-mas-rapida-termino-bajo-tierra/",
+            "fecha": "2026-08-17T19:16:34+00:00"
           }
         ],
         "leans_presentes": [
@@ -245,9 +258,40 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Gobierno define integrantes de la comisión para reformar el Estatuto Administrativo",
-        "resumen": "El subdirector de Racionalización y Función Pública asumirá como secretario ejecutivo de la comisión convocada por la cartera de Hacienda. El grupo está compuesto por especialistas y exautoridades encargados de analizar la normativa aplicable al personal estatal.",
+        "titulo_neutral": "Lo que debes saber a esta hora de la tarde",
+        "resumen": "Se reportan novedades económicas que incluyen la reactivación de una iniciativa comercial en la costa, variaciones en los valores de los combustibles y la estabilidad de la divisa estadounidense.",
         "articulos": [
+          {
+            "titular": "Lo que debes saber a esta hora de la tarde",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/doble-click/lo-que-debes-saber-a-esta-hora-de-la-tarde-fu4og",
+            "fecha": "2026-08-17T19:11:49+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Modificación del Estatuto Administrativo de los funcionarios públicos",
+        "resumen": "El Ministerio de Hacienda conformó un grupo de doce especialistas, coordinado por la Dipres, con el fin de examinar la normativa que rige el empleo en el sector público.",
+        "articulos": [
+          {
+            "titular": "Gobierno define los integrantes de la comisión que revisará el Estatuto Administrativo de los funcionarios públicos",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/laboral-personas/gobierno-define-los-integrantes-de-la-comision-que-revisara-el-estatuto",
+            "fecha": "2026-08-17T19:09:38+00:00"
+          },
           {
             "titular": "Quién es José Ignacio Llodrá, el economista que coordinará la reforma al Estatuto Administrativo",
             "extracto": "",
@@ -256,82 +300,29 @@
             "lean": "no aplica",
             "url": "https://www.ex-ante.cl/economia/jose-ignacio-llodra-reforma-empleo/",
             "fecha": "2026-08-17T18:03:56+00:00"
-          },
-          {
-            "titular": "Gobierno define los integrantes de la comisión que revisará el Estatuto Administrativo de los funcionarios públicos",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/laboral-personas/gobierno-define-los-integrantes-de-la-comision-que-revisara-el-estatuto",
-            "fecha": "2026-08-17T17:00:45+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente",
-          "Claro"
+          "Claro",
+          "independiente"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Pymes y productividad: una oportunidad de crecimiento para Chile",
-        "resumen": "El incremento de la productividad nacional requiere superar la perspectiva individual de las compañías y potenciar los vínculos entre distintos actores.",
+        "titulo_neutral": "Abogado Pablo Mahu por invariabilidad tributaria: “Es muy primer mundo no cambiar las reglas del juego cada cuatro años”",
+        "resumen": "Un especialista en materia impositiva cuestionó la idea de que el país mantenga estándares tributarios comparables a los de las naciones desarrolladas.",
         "articulos": [
           {
-            "titular": "Pymes y productividad: una oportunidad de crecimiento para Chile",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/afteroffice/pymes-y-productividad-crecimiento/",
-            "fecha": "2026-08-17T17:59:58+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "El camino propio de Gael Yeomans: de llevar a Boric al tribunal del partido a convertirse en presidenta del FA lejos del jet set frenteamplista",
-        "resumen": "La militancia del Frente Amplio eligió a la diputada para liderar la colectividad, superando a figuras del círculo tradicional. Su nuevo mandato genera incertidumbre en la vereda opuesta respecto al rumbo político de la organización.",
-        "articulos": [
-          {
-            "titular": "El camino propio de Gael Yeomans: de llevar a Boric al tribunal del partido a convertirse en presidenta del FA lejos del jet set frenteamplista",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/17/el-camino-propio-de-gael-yeomans-de-llevar-a-boric-al-tribunal-del-partido-a-convertirse-en-presidenta-del-fa-lejos-del-jet-set-frenteamplista/",
-            "fecha": "2026-08-17T17:48:41+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Chris Bannister sobre polémico despliegue de WOM en proyecto FON: \"Sí, llegamos tarde. Pero nuestro compromiso con Chile no debe estar en duda\"",
-        "resumen": "La empresa británica se comprometió a cumplir con la instalación de la red de telecomunicaciones. Esto ocurre tras las sanciones y cobros de garantías aplicados por las autoridades debido a retrasos previos.",
-        "articulos": [
-          {
-            "titular": "Chris Bannister sobre polémico despliegue de WOM en proyecto FON: \"Sí, llegamos tarde. Pero nuestro compromiso con Chile no debe estar en duda\"",
+            "titular": "Abogado Pablo Mahu por invariabilidad tributaria: “Es muy primer mundo no cambiar las reglas del juego cada cuatro años”",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/industria/chris-bannister-sobre-polemico-despliegue-de-wom-en-proyecto-fon-si",
-            "fecha": "2026-08-17T17:44:46+00:00"
+            "url": "http://www.df.cl/economia-y-politica/df-tax/abogado-pablo-mahu-por-invariabilidad-tributaria-es-muy-primer-mundo-no",
+            "fecha": "2026-08-17T19:09:29+00:00"
           }
         ],
         "leans_presentes": [
@@ -343,17 +334,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "H&M aterriza en Punta Arenas y abrirá su tienda más austral del mundo: será su local 31 en Chile",
-        "resumen": "La cadena de vestuario inauguró su primer establecimiento en la zona austral del país, ubicado en Punta Arenas. Con esta apertura, la firma completa más de treinta locales operativos en el territorio nacional.",
+        "titulo_neutral": "El posible regreso a los escenarios de Astro: banda se reúne tras 10 años y sorprende con posteo en Instagram",
+        "resumen": "Tras diez años de inactividad, la agrupación musical chilena compartió una imagen conjunta en redes sociales, generando especulaciones sobre un eventual retorno a los escenarios.",
         "articulos": [
           {
-            "titular": "H&M aterriza en Punta Arenas y abrirá su tienda más austral del mundo: será su local 31 en Chile",
+            "titular": "El posible regreso a los escenarios de Astro: banda se reúne tras 10 años y sorprende con posteo en Instagram",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/17/hm-aterriza-en-punta-arenas-y-abrira-su-tienda-mas-austral-del-mundo-sera-su-local-31-en-chile/",
-            "fecha": "2026-08-17T17:40:30+00:00"
+            "url": "https://www.theclinic.cl/2026/08/17/el-posible-regreso-a-los-escenarios-de-astro-banda-se-reune-tras-10-anos-y-sorprende-con-posteo-en-instagram/",
+            "fecha": "2026-08-17T19:04:22+00:00"
           }
         ],
         "leans_presentes": [
@@ -365,58 +356,58 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "IPSA supera los 11.100 puntos y Falabella busca recuperarse tras semana de ventas de grandes accionistas",
-        "resumen": "El valor bursátil de la compañía minorista experimentó caídas recientes tras transacciones millonarias de acciones realizadas por familias influyentes.",
+        "titulo_neutral": "Los nuevos antecedentes del cable chino que reabren las dudas sobre cuánto sabía el gobierno de Boric antes de la crisis de las visas",
+        "resumen": "Nuevas revelaciones periodísticas indican que la administración norteamericana advirtió previamente al gobierno chileno sobre represalias diplomáticas por una iniciativa tecnológica con China, cuestionando la versión oficial de desconocimiento.",
         "articulos": [
           {
-            "titular": "IPSA supera los 11.100 puntos y Falabella busca recuperarse tras semana de ventas de grandes accionistas",
+            "titular": "Los nuevos antecedentes del cable chino que reabren las dudas sobre cuánto sabía el gobierno de Boric antes de la crisis de las visas",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-fjxuk",
-            "fecha": "2026-08-17T17:32:37+00:00"
+            "url": "https://www.theclinic.cl/2026/08/17/los-nuevos-antecedentes-del-cable-chino-que-reabren-las-dudas-sobre-cuanto-sabia-el-gobierno-de-boric-antes-de-la-crisis-de-las-visas/",
+            "fecha": "2026-08-17T19:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Netanyahu, Kushner agree US general to verify Hamas disarmament before Israel withdraws from Gaza",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/middle-east/20260817-netanyahu-kushner-agree-us-general-verify-hamas-disarmament-before-israel-withdraws-from-gaza",
-        "fecha": "2026-08-17T18:14:46+00:00"
-      },
-      {
-        "titular": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
+        "titular": "Los Angeles gang leader masterminded Tupac's drive-by killing, prosecutor tells jury - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
-        "fecha": "2026-08-17T18:03:45+00:00"
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0RlWmlqSzVaYjN3cWZSdXpXUHJxR0ZTdWZDWHVhYlZrT0tyODFWVldoTy1pQTVEXzBMUW82SnFYY0RGUGkxWGJSNXppZ0tES1cxcTBqTEhPeG43dGExc21sOGtRbnY5WVdUdWZ4VERzU1FkQm1IcXpCb2lJMWMyMXFXWmpjM19JS1BPMmdaeXZjQWJIY252OXlKWHZiUzY3QmFVRXdkMA?oc=5",
+        "fecha": "2026-08-17T19:04:08+00:00"
       },
       {
-        "titular": "French PM heckled over wildfire response as blazes continue across Europe",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-17T18:00:55+00:00"
-      },
-      {
-        "titular": "Ferrari's bespoke Luce EV one-off fetches $40 million at charity auction - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcGlQdG4zOHEyaHJKd3hWS1ZiY1daMmp6NkJrTVFRZU5jVndwelg3WHZxbkFRNjE2M0U2dW5NSTJkWDl3NkJQR3Q0Mm1BdU5aNlM0VGxvd0VTNDI5eVVqRVdyOGdOTWhTR0UwcGpRZU1XUnhmeDdLb3VpRHlhYUNLUUhwZ0RKeVhmeF9lTUhlN2pzRnMtU3g3S1hOd1dha3Z2N0lHUHprNU01Tmg3Tmg5SlVYb3FxRE5VNm9PQlI2aWFoemZYNGJTWFdFbFJhQQ?oc=5",
-        "fecha": "2026-08-17T17:54:51+00:00"
-      },
-      {
-        "titular": "Clashes between government and opposition fighters in Somalia’s Baidoa",
+        "titular": "Russian politician sentenced to 11 years for opposing war in Ukraine",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/clashes-between-government-and-opposition-fighters-in-somalias-baidoa?traffic_source=rss",
-        "fecha": "2026-08-17T17:42:02+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/russian-politician-sentenced-to-11-years-for-opposing-war-in-ukraine?traffic_source=rss",
+        "fecha": "2026-08-17T18:53:06+00:00"
+      },
+      {
+        "titular": "India says it thwarted attacks by Pakistan-backed militants, arrested over 200 operatives - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVmdMSnhTcDdIUUZxVXNnaG9wS0NrT1o4OG90ckZiMDNfUC1KdV8wdTZtSzZjNmhwSTZtNjU1SFNsbTNiX2FrSU9vLWpDVGk4YW5QWjh1bDh6eVVxSHlobHdGYWlobG5ya19KT0lORmY3RFJtei1YMFZoa0g4cU1QcVU0M21fQTFqd0t4YW0yVTR2UzFOZ0I2T3AyaldWRVBJTDRScVFkenMta0VFRnRoMVcxTHJrTVNBd3c2YlM0ajlzUFpsVGVZcVozdmk?oc=5",
+        "fecha": "2026-08-17T18:50:16+00:00"
+      },
+      {
+        "titular": "Russia maintains election ban on opposition Yabloko, jails deputy head",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/17/russia-maintains-election-ban-on-opposition-yabloko-jails-deputy-head?traffic_source=rss",
+        "fecha": "2026-08-17T18:46:12+00:00"
+      },
+      {
+        "titular": "Supreme Court again rejects Trump's bid to overturn E Jean Carroll  sex abuse case",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-17T18:45:59+00:00"
       }
     ]
   },
@@ -424,8 +415,8 @@
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 500.5,
-      "var_dia_pct": -0.7004,
+      "precio": 499.83,
+      "var_dia_pct": -0.8333,
       "serie_precio": {
         "1M": [
           {
@@ -971,6 +962,10 @@
           {
             "fecha": "2026-08-17T18:00:00",
             "valor": 500.5
+          },
+          {
+            "fecha": "2026-08-17T19:00:00",
+            "valor": 499.83
           }
         ],
         "6M": [
@@ -1476,7 +1471,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 500.5
+            "valor": 499.83
           }
         ],
         "YTD": [
@@ -2110,7 +2105,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 500.5
+            "valor": 499.83
           }
         ],
         "1A": [
@@ -3124,7 +3119,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 500.5
+            "valor": 499.83
           }
         ],
         "5A": [
@@ -4174,14 +4169,14 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 500.5
+            "valor": 499.83
           }
         ]
       },
       "noticias": [
         {
           "titular": "Warren Buffett's Portfolio Is Looking Even More Like The Dow Jones Index. This Is Why.",
-          "extracto": "La cartera de inversiones de Berkshire Hathaway, fuertemente vinculada al índice Dow Jones, se ha expandido recientemente tras una corrección estratégica realizada por Warren Buffett.",
+          "extracto": "La cartera de inversiones de Berkshire Hathaway con gran peso en el índice Dow Jones ha aumentado recientemente debido a correcciones estratégicas realizadas por Warren Buffett.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4189,8 +4184,17 @@
           "fecha": "2026-08-17T18:13:38+00:00"
         },
         {
+          "titular": "Berkshire Hathaway Boosted Its Alphabet Stake 83%—Buffett Said the Investment Was His Idea",
+          "extracto": "La empresa matriz de Google se ha consolidado como la tercera mayor inversión accionaria dentro de la cartera de Berkshire.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.investopedia.com/berkshire-hathaway-boosted-its-alphabet-stake-83-percent-buffett-said-it-was-his-idea-googl-goog-google-stock-q2-holdings-13f-12061004?.tsrc=rss",
+          "fecha": "2026-08-17T17:46:30+00:00"
+        },
+        {
           "titular": "Billionaires Stanley Druckenmiller, Seth Klarman, and David Tepper All Are Loading into Alphabet Stock. Buffett’s Berkshire Is Also Buying.",
-          "extracto": "Cinco inversores de renombre adquirieron acciones de una misma gran empresa durante el mismo trimestre, lo que genera dudas en el mercado sobre si han detectado una oportunidad oculta o enfrentan un riesgo.",
+          "extracto": "Cinco destacados inversores adquirieron acciones de una misma gran empresa tecnológica golpeada durante el mismo trimestre, generando dudas sobre si han detectado una oportunidad ignorada o si se trata de una trampa de mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4199,7 +4203,7 @@
         },
         {
           "titular": "Warren Buffett's Berkshire doubles down on undervalued retail stock",
-          "extracto": "En un hecho inusual para su trayectoria, Berkshire Hathaway adquirió acciones de los grandes almacenes Macy's a principios de 2026, representando su primera inversión en este sector en seis décadas.",
+          "extracto": "En un giro inesperado para sus seguidores, el conglomerado de Warren Buffett estableció una participación en Macy's a principios de 2026, suponiendo su primera inversión en el sector de grandes almacenes en unas seis décadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4208,21 +4212,12 @@
         },
         {
           "titular": "Berkshire Boosts Delta Stake to 8.7%",
-          "extracto": "Dicha aerolínea constituye en la actualidad la única participación que mantiene el conglomerado de Warren Buffett dentro del sector de la aviación.",
+          "extracto": "Esta aerolínea representa actualmente la única participación de su tipo dentro de la cartera de inversiones del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-boosts-delta-stake-8-162848360.html?.tsrc=rss",
           "fecha": "2026-08-17T16:28:48+00:00"
-        },
-        {
-          "titular": "Berkshire Raised Its Alphabet Share Count by 658% in a Single Quarter. Here’s Where The Stock is Headed",
-          "extracto": "Warren Buffett realizó una importante inversión en una compañía que ha perdido valor recientemente, apostando por el potencial subestimado de su negocio en la nube y en inteligencia artificial.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/08/17/berkshire-raised-its-alphabet-share-count-by-658-in-a-single-quarter-heres-where-the-stock-is-headed/?.tsrc=rss",
-          "fecha": "2026-08-17T15:30:42+00:00"
         }
       ],
       "fundamentales": {
@@ -4408,14 +4403,14 @@
         "payout_ratio_pct": null,
         "maximo_52s": 529.42,
         "minimo_52s": 465.4,
-        "beta": 0.5981846560922279
+        "beta": 0.598228092946564
       }
     },
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 266.26,
-      "var_dia_pct": -2.4081,
+      "precio": 265.86,
+      "var_dia_pct": -2.5547,
       "serie_precio": {
         "1M": [
           {
@@ -4961,6 +4956,10 @@
           {
             "fecha": "2026-08-17T18:00:00",
             "valor": 266.26
+          },
+          {
+            "fecha": "2026-08-17T19:00:00",
+            "valor": 265.86
           }
         ],
         "6M": [
@@ -5466,7 +5465,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 266.26
+            "valor": 265.86
           }
         ],
         "YTD": [
@@ -6100,7 +6099,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 266.26
+            "valor": 265.86
           }
         ],
         "1A": [
@@ -7114,7 +7113,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 266.26
+            "valor": 265.86
           }
         ],
         "5A": [
@@ -8164,23 +8163,14 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 266.26
+            "valor": 265.86
           }
         ]
       },
       "noticias": [
         {
-          "titular": "Anduril co-founder Palmer Luckey feuds with ex-Taco Bell CEO over McDonald's comments",
-          "extracto": "El cofundador multimillonario de Anduril, Palmer Luckey, respondió a las declaraciones de su antiguo vecino y director ejecutivo de Yum! Brands, Greg Creed.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/article/anduril-co-founder-palmer-luckey-feuds-with-ex-taco-bell-ceo-over-mcdonalds-comments-171530414.html?.tsrc=rss",
-          "fecha": "2026-08-17T17:15:30+00:00"
-        },
-        {
           "titular": "McDonald's Takes Direct Aim at Starbucks",
-          "extracto": "Una propuesta innovadora en la oferta de alimentos podría atraer a más clientes durante las horas de la tarde.",
+          "extracto": "Una nueva estrategia de menú podría ayudar a captar clientes y aumentar las ventas durante las horas de la tarde.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8188,8 +8178,17 @@
           "fecha": "2026-08-17T18:03:34+00:00"
         },
         {
+          "titular": "Anduril co-founder Palmer Luckey feuds with ex-Taco Bell CEO over McDonald's comments",
+          "extracto": "El cofundador multimillonario de Anduril, Palmer Luckey, respondió públicamente a unas declaraciones previas del director ejecutivo de Yum! Brands, Greg Creed.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/article/anduril-co-founder-palmer-luckey-feuds-with-ex-taco-bell-ceo-over-mcdonalds-comments-171530414.html?.tsrc=rss",
+          "fecha": "2026-08-17T17:15:30+00:00"
+        },
+        {
           "titular": "McDonald’s Keeps Cratering: Why One Bullish Analyst Says 50% Gains Lie Ahead",
-          "extracto": "Las acciones de McDonald's han disminuido considerablemente desde su punto máximo reciente, mientras un analista mantiene una perspectiva optimista a pesar de las dudas sobre los problemas operativos en Estados Unidos.",
+          "extracto": "Las acciones de McDonald's han bajado considerablemente desde su máximo reciente, mientras los analistas debaten si los problemas operativos en Estados Unidos van más allá de un mal trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8198,7 +8197,7 @@
         },
         {
           "titular": "McDonald’s (MCD) Stock Looks Fairly Valued Despite Slowing U.S. Sales Growth",
-          "extracto": "A pesar de una ganancia acumulada en cinco años y múltiplos de mercado favorables, las valoraciones actuales sugieren que el precio de la acción se alinea con su valor intrínseco tras un período reciente de menor dinamismo.",
+          "extracto": "A pesar de haber generado ganancias moderadas en los últimos cinco años, la valoración actual de McDonald's se encuentra cerca de su valor intrínseco según los modelos financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8206,13 +8205,13 @@
           "fecha": "2026-08-16T14:08:45+00:00"
         },
         {
-          "titular": "Jim Cramer Breaks Down McDonald’s (MCD) Q2 Earnings and Execution Flaws",
-          "extracto": "Durante su programa en CNBC, el presentador Jim Cramer analizó los recientes resultados financieros presentados por McDonald's y otras cadenas del sector, calificando el informe de la compañía como moderado.",
+          "titular": "20 reasons why Wendy's may be doomed",
+          "extracto": "Se cuestiona la viabilidad a largo plazo de la cadena de comida rápida Wendy's en el mercado actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-breaks-down-mcdonald-102722297.html?.tsrc=rss",
-          "fecha": "2026-08-16T10:27:22+00:00"
+          "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html?.tsrc=rss",
+          "fecha": "2026-08-16T12:30:00+00:00"
         }
       ],
       "fundamentales": {
@@ -8543,8 +8542,8 @@
       "_segmentos_accession": "0000063908-26-000067",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 188416.63404406,
-        "enterprise_value_musd": 227457.63404406,
+        "market_cap_musd": 188133.57743166,
+        "enterprise_value_musd": 227174.57743166,
         "deuda_neta_musd": 39041.0,
         "deuda_neta_ebitda": null,
         "margen_bruto_pct": null,
@@ -8553,22 +8552,22 @@
         "roe_pct": null,
         "roic_pct": 33.678783734020726,
         "roce_pct": 22.904368358913814,
-        "pe": 21.629569455727054,
-        "ev_ingresos": 8.210577700756597,
+        "pe": 21.59707554833469,
+        "ev_ingresos": 8.200360157082626,
         "ev_ebitda": null,
-        "p_vl": -184.18048293652004,
+        "p_vl": -183.90379025577712,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 341.06,
         "minimo_52s": 262.8,
-        "beta": 0.3659269164122368
+        "beta": 0.3660001137578656
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 479.41,
-      "var_dia_pct": -3.2277,
+      "precio": 481.78,
+      "var_dia_pct": -2.7493,
       "serie_precio": {
         "1M": [
           {
@@ -9114,6 +9113,10 @@
           {
             "fecha": "2026-08-17T18:00:00",
             "valor": 479.41
+          },
+          {
+            "fecha": "2026-08-17T19:00:00",
+            "valor": 481.78
           }
         ],
         "6M": [
@@ -9619,7 +9622,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 479.41
+            "valor": 481.78
           }
         ],
         "YTD": [
@@ -10253,7 +10256,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 479.41
+            "valor": 481.78
           }
         ],
         "1A": [
@@ -11267,7 +11270,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 479.41
+            "valor": 481.78
           }
         ],
         "5A": [
@@ -12317,14 +12320,14 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 479.41
+            "valor": 481.78
           }
         ]
       },
       "noticias": [
         {
           "titular": "Should You Buy Microsoft Stock Now or Wait for a Dip?",
-          "extracto": "Las acciones tecnológicas han mantenido una tendencia alcista tras la publicación de sus resultados financieros el mes pasado.",
+          "extracto": "Las acciones tecnológicas experimentan un repunte sostenido tras la publicación de sus resultados financieros del mes pasado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12333,7 +12336,7 @@
         },
         {
           "titular": "Microsoft Vs. Alphabet: How and Why They Stand Head-and-Shoulders Above Other Hyperscalers",
-          "extracto": "Los principales proveedores de servicios en la nube registran un fuerte crecimiento en sus ingresos, aunque sus elevados gastos diferencian su rentabilidad actual y transforman la perspectiva de las inversiones en infraestructura de inteligencia artificial.",
+          "extracto": "Los principales proveedores de servicios en la nube registran un crecimiento acelerado e ingresos récord, aunque sus elevados gastos diferencian significativamente su rentabilidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12341,31 +12344,31 @@
           "fecha": "2026-08-17T16:07:40+00:00"
         },
         {
-          "titular": "Wells Fargo Says Okta's AI Upside Will Be Obvious Too Late",
-          "extracto": "La gestión de identidades escaló al segundo puesto en la asignación de presupuestos por parte de los socios durante este periodo.",
+          "titular": "Here’s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
+          "extracto": "Durante la última década, el índice S&P 500 y Berkshire Hathaway han logrado rendimientos anuales cercanos al 13%, cifras que palidecen en comparación con el desempeño financiero atribuido a la legisladora Nancy Pelosi.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-says-oktas-ai-180023375.html?.tsrc=rss",
-          "fecha": "2026-08-17T18:00:23+00:00"
+          "url": "https://247wallst.com/investing/2025/11/23/heres-how-nancy-pelosi-beat-the-stock-market-and-warren-buffett/?.tsrc=rss",
+          "fecha": "2026-08-17T19:12:28+00:00"
         },
         {
-          "titular": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; Energy Stock Clears Entry (Live Coverage)",
-          "extracto": "El índice Dow Jones registró caídas en la jornada bursátil, contrastando con el incremento en el valor de los fabricantes de semiconductores y las recientes tensiones diplomáticas mencionadas por Trump respecto a Omán.",
+          "titular": "Stock Market Today: Dow Falls, Oil Up After Trump Oman Threat; This Peter Thiel Stock Jumps (Live Coverage)",
+          "extracto": "El índice Dow Jones experimenta descensos en la sesión bursátil actual, mientras las empresas de chips de memoria registran ganancias y surgen tensiones geopolíticas que involucran a Omán.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/m/7654dd66-1194-303a-af9a-35b802d06b78/stock-market-today%3A-dow.html?.tsrc=rss",
-          "fecha": "2026-08-17T17:32:39+00:00"
+          "fecha": "2026-08-17T18:51:54+00:00"
         },
         {
-          "titular": "Apple Stock Got an Upgrade. It Could Be the AI Gatekeeper.",
-          "extracto": "De acuerdo con Rothschild & Co Redburn, la decisión de Apple de no competir directamente en el mercado actual de inteligencia artificial podría posicionarla favorablemente frente a sus competidores.",
+          "titular": "How IREN Is Cashing In on the AI Data Center Boom",
+          "extracto": "Una empresa dedicada a la minería de criptomonedas logró transformarse en una de las compañías de infraestructura en la nube con mayor expansión en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/6bef341c-5032-3b65-a77f-891b2b04046d/apple-stock-got-an-upgrade..html?.tsrc=rss",
-          "fecha": "2026-08-17T17:09:00+00:00"
+          "url": "https://www.fool.com/investing/2026/08/17/how-hot-ticker-is-cashing-in-on-the-data-center-bo/?.tsrc=rss",
+          "fecha": "2026-08-17T18:30:00+00:00"
         }
       ],
       "fundamentales": {
@@ -12741,8 +12744,8 @@
       "_segmentos_accession": "0001193125-26-323632",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 3559880.7638403103,
-        "enterprise_value_musd": 3579239.7638403103,
+        "market_cap_musd": 3577479.30665398,
+        "enterprise_value_musd": 3596838.30665398,
         "deuda_neta_musd": 19359.0,
         "deuda_neta_ebitda": null,
         "margen_bruto_pct": null,
@@ -12751,15 +12754,15 @@
         "roe_pct": null,
         "roic_pct": 33.61956573527437,
         "roce_pct": 26.331394569765802,
-        "pe": 26.69320712694878,
-        "ev_ingresos": 10.786073257936259,
+        "pe": 26.825167037861917,
+        "ev_ingresos": 10.839106635006676,
         "ev_ebitda": null,
-        "p_vl": 8.04698321569194,
+        "p_vl": 8.086764092647343,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 542.07,
         "minimo_52s": 352.83,
-        "beta": 1.1503630936827671
+        "beta": 1.1502507709908376
       },
       "tesis": [
         {
@@ -12780,8 +12783,8 @@
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 711.04,
-      "var_dia_pct": -0.3601,
+      "precio": 710.9,
+      "var_dia_pct": -0.3798,
       "serie_precio": {
         "1M": [
           {
@@ -13327,6 +13330,10 @@
           {
             "fecha": "2026-08-17T18:00:00",
             "valor": 711.04
+          },
+          {
+            "fecha": "2026-08-17T19:00:00",
+            "valor": 710.9
           }
         ],
         "6M": [
@@ -13832,7 +13839,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 711.04
+            "valor": 710.9
           }
         ],
         "YTD": [
@@ -14466,7 +14473,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 711.04
+            "valor": 710.9
           }
         ],
         "1A": [
@@ -15480,7 +15487,7 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 711.04
+            "valor": 710.9
           }
         ],
         "5A": [
@@ -16530,14 +16537,14 @@
           },
           {
             "fecha": "2026-08-17",
-            "valor": 711.04
+            "valor": 710.9
           }
         ]
       },
       "noticias": [
         {
           "titular": "What History Reveals About Buying the Vanguard S&P 500 ETF in Volatile Markets",
-          "extracto": "Las caídas temporales forman parte habitual de la dinámica del S&P 500. La gestión adecuada de estas situaciones incide positivamente en la rentabilidad a largo plazo.",
+          "extracto": "Las bajadas de valor recurrentes forman parte habitual del comportamiento del índice S&P 500. La estrategia adoptada ante estos escenarios influye en la rentabilidad a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16546,7 +16553,7 @@
         },
         {
           "titular": "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
-          "extracto": "Construir un fondo de retiro millonario requiere constancia a lo largo de décadas. Asimismo, la selección de los activos y la distribución del capital determinan el resultado final.",
+          "extracto": "Aportar cantidades periódicas de forma constante durante treinta años permite acumular un patrimonio considerable para el retiro. No obstante, la selección de activos y la distribución del capital determinan el resultado final.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16555,7 +16562,7 @@
         },
         {
           "titular": "The Vanguard S&P 500 ETF (VOO) Beat the Vanguard Morningstar Total Stock Market ETF (VTI) for 4 Straight Years. Here's Why That's About to Change.",
-          "extracto": "El fondo cotizado de Vanguard enfocado en el mercado total presenta una mayor diversificación y un sesgo hacia la valoración en comparación con el producto centrado exclusivamente en el S&P 500.",
+          "extracto": "El fondo cotizado de Vanguard enfocado en el mercado total presenta una mayor diversificación y un sesgo hacia la inversión en valor en comparación con el fondo basado en el S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16564,7 +16571,7 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests.",
-          "extracto": "Ampliar el periodo de inversión incrementa la probabilidad de obtener resultados favorables en los mercados financieros.",
+          "extracto": "Ampliar el periodo temporal de inversión eleva la probabilidad de obtener resultados positivos en los mercados financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16573,7 +16580,7 @@
         },
         {
           "titular": "History Shows Right Now Could Be a Fantastic Time to Invest in the Stock Market. Here's Why.",
-          "extracto": "Los comicios legislativos de mitad de mandato pueden generar oportunidades favorables para quienes mantienen una estrategia de inversión a largo plazo utilizando estos fondos.",
+          "extracto": "Los comicios legislativos de mitad de mandato pueden generar oportunidades favorables para quienes invierten en estos fondos con una perspectiva de largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -16588,20 +16595,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 711.04,
-        "var_dia_pct": -0.3601
+        "precio": 710.89,
+        "var_dia_pct": -0.3812
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 730.12,
-        "var_dia_pct": -0.1299
+        "precio": 729.94,
+        "var_dia_pct": -0.1546
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 382.54,
-        "var_dia_pct": -0.3413
+        "precio": 382.45,
+        "var_dia_pct": -0.3647
       }
     ],
     "chile": {
