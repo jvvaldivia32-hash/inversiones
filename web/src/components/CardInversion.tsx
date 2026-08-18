@@ -7,7 +7,7 @@ import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
 import FormularioTesis from "./FormularioTesis";
-import MiInversion, { type MiInversionResumen } from "./MiInversion";
+import MiInversion, { calcularEnVivo, type MiInversionResumen } from "./MiInversion";
 import "./CardInversion.css";
 
 const ORDEN_SEMAFORO: Record<EstadoSemaforo, number> = { rojo: 0, ambar: 1, verde: 2 };
@@ -239,13 +239,16 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
         <span className={`card-inversion-var ${varDiaClase}`}>
           {formatPct(posicion.var_dia_pct)}
         </span>
-        {miInversion && (
-          <span
-            className={`card-inversion-var-costo ${miInversion.pct >= 0 ? "var-positiva" : "var-negativa"}`}
-          >
-            {formatUSD(miInversion.monto)} · {formatPct(miInversion.pct)}
-          </span>
-        )}
+        {miInversion && posicion.precio > 0 && (() => {
+          const { montoActual, gananciaUsd, gananciaPct } = calcularEnVivo(miInversion, posicion.precio);
+          return (
+            <span
+              className={`card-inversion-var-costo ${gananciaUsd >= 0 ? "var-positiva" : "var-negativa"}`}
+            >
+              {formatUSD(montoActual)} · {formatPct(gananciaPct)}
+            </span>
+          );
+        })()}
         {semaforoHeader && <Semaforo estado={semaforoHeader} />}
       </header>
 

@@ -24,9 +24,13 @@ const RAMA = "main";
 const USER_AGENT = "inversiones-mi-inversion-panel";
 const TICKER_VALIDO = /^[A-Z0-9.]{1,10}$/;
 
+// Se guarda lo que NO cambia con el precio (acciones y costo base), no el monto/% del
+// bróker tal cual — esos se recalculan en el visor contra el precio de cada momento
+// (ver calcularEnVivo en web/src/components/MiInversion.tsx). Guardar el monto/% crudo
+// los deja congelados para siempre, que fue el bug real de la primera versión.
 interface Posicion {
-  monto: number;
-  pct: number;
+  acciones: number;
+  costo_base_usd: number;
 }
 
 type Datos = Record<string, Posicion>;
@@ -135,8 +139,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       ticker?: string;
       accion?: string;
       clave?: string;
-      monto?: number;
-      pct?: number;
+      acciones?: number;
+      costo_base_usd?: number;
     };
 
     if (body.clave !== claveEsperada) {
@@ -157,17 +161,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     let cambio: Posicion | null = null;
     if (body.accion === "guardar") {
-      const monto = Number(body.monto);
-      const pct = Number(body.pct);
-      if (!Number.isFinite(monto) || monto <= 0) {
-        res.status(400).json({ error: "monto inválido" });
+      const acciones = Number(body.acciones);
+      const costoBaseUsd = Number(body.costo_base_usd);
+      if (!Number.isFinite(acciones) || acciones <= 0) {
+        res.status(400).json({ error: "acciones inválido" });
         return;
       }
-      if (!Number.isFinite(pct) || pct <= -100) {
-        res.status(400).json({ error: "pct inválido" });
+      if (!Number.isFinite(costoBaseUsd) || costoBaseUsd <= 0) {
+        res.status(400).json({ error: "costo_base_usd inválido" });
         return;
       }
-      cambio = { monto, pct };
+      cambio = { acciones, costo_base_usd: costoBaseUsd };
     }
 
     try {

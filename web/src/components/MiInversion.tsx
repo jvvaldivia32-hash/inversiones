@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { formatUSD, formatNumeroCL } from "../lib/format";
+import { formatUSD, formatPct, formatNumeroCL } from "../lib/format";
 import "./MiInversion.css";
 
 // Misma clave que PanelWatchlist.tsx (WATCHLIST_EDIT_KEY del lado del servidor) — se
@@ -7,9 +7,15 @@ import "./MiInversion.css";
 // si ya la tipeó para editar la watchlist.
 const CLAVE_STORAGE_KEY = "inversiones_watchlist_clave";
 
+// Lo único que se guarda es lo que NO cambia con el precio: cuántas acciones tiene y
+// cuánto costaron en total. El monto actual y el % de ganancia se recalculan en cada
+// render contra el precio de hoy — si se guardara el monto/% tal cual los tipeó el
+// usuario, quedarían congelados para siempre y nunca se moverían con la acción (bug real
+// de la primera versión, visto en vivo: José entró 55.97/+6.85% en VOO y una hora después
+// seguía mostrando exactamente lo mismo pese a que el precio ya había cambiado).
 export interface MiInversionResumen {
-  monto: number;
-  pct: number;
+  acciones: number;
+  costo_base_usd: number;
 }
 
 interface Props {
@@ -19,6 +25,16 @@ interface Props {
   cargando: boolean;
   error: boolean;
   onGuardado: (ticker: string, datos: MiInversionResumen | null) => void;
+}
+
+// Única fuente de verdad para pasar de (acciones, costo base) fijos a (valor actual,
+// ganancia) en vivo — la usan tanto el detalle de acá abajo como el resumen del header en
+// CardInversion.tsx, para que nunca se desincronicen.
+export function calcularEnVivo(datos: MiInversionResumen, precioActual: number) {
+  const montoActual = datos.acciones * precioActual;
+  const gananciaUsd = montoActual - datos.costo_base_usd;
+  const gananciaPct = (gananciaUsd / datos.costo_base_usd) * 100;
+  return { montoActual, gananciaUsd, gananciaPct };
 }
 
 function aNumero(texto: string): number {
@@ -54,9 +70,18 @@ export default function MiInversion({
     return <p className="mi-inversion-nota">cargando…</p>;
   }
 
+  // Al editar, se precargan el monto y % actuales *calculados en vivo* como punto de
+  // partida — pero conviene que el usuario los reemplace por lo que diga su bróker hoy,
+  // porque acá no hay forma de saber sobre compras nuevas, dividendos reinvertidos, etc.
   function abrirForm() {
-    setMonto(datos ? String(datos.monto) : "");
-    setPct(datos ? String(datos.pct) : "");
+    if (datos && precioActual > 0) {
+      const { montoActual, gananciaPct } = calcularEnVivo(datos, precioActual);
+      setMonto(montoActual.toFixed(2));
+      setPct(gananciaPct.toFixed(2));
+    } else {
+      setMonto("");
+      setPct("");
+    }
     setErrorMsg(null);
     setEditando(true);
   }
@@ -65,25 +90,41 @@ export default function MiInversion({
     setEnviando(true);
     setErrorMsg(null);
     try {
-      const m = accion === "guardar" ? aNumero(monto) : undefined;
-      const p = accion === "guardar" ? aNumero(pct) : undefined;
+      let acciones: number | undefined;
+      let costoBaseUsd: number | undefined;
+
       if (accion === "guardar") {
-        if (!Number.isFinite(m) || (m as number) <= 0) {
+        const m = aNumero(monto);
+        const p = aNumero(pct);
+        if (!Number.isFinite(m) || m <= 0) {
           setErrorMsg("el monto tiene que ser un número mayor a 0");
           setEnviando(false);
           return;
         }
-        if (!Number.isFinite(p) || (p as number) <= -100) {
+        if (!Number.isFinite(p) || p <= -100) {
           setErrorMsg("el % no puede ser -100 o menos");
           setEnviando(false);
           return;
         }
+        if (!(precioActual > 0)) {
+          setErrorMsg("no hay precio actual todavía, intenta de nuevo en un rato");
+          setEnviando(false);
+          return;
+        }
+        acciones = m / precioActual;
+        costoBaseUsd = m / (1 + p / 100);
       }
 
       const resp = await fetch("/api/mi-inversion", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ticker, accion, clave: claveAUsar, monto: m, pct: p }),
+        body: JSON.stringify({
+          ticker,
+          accion,
+          clave: claveAUsar,
+          acciones,
+          costo_base_usd: costoBaseUsd,
+        }),
       });
 
       if (resp.status === 401) {
@@ -103,7 +144,10 @@ export default function MiInversion({
       setClaveInput("");
       setPidiendoClave(false);
       setEditando(false);
-      onGuardado(ticker, accion === "guardar" ? { monto: m as number, pct: p as number } : null);
+      onGuardado(
+        ticker,
+        accion === "guardar" ? { acciones: acciones as number, costo_base_usd: costoBaseUsd as number } : null,
+      );
     } catch {
       setErrorMsg("No se pudo conectar. Intenta de nuevo.");
     } finally {
@@ -209,9 +253,7 @@ export default function MiInversion({
     );
   }
 
-  const acciones = precioActual > 0 ? datos.monto / precioActual : 0;
-  const costoBase = datos.monto / (1 + datos.pct / 100);
-  const gananciaUsd = datos.monto - costoBase;
+  const { montoActual, gananciaUsd, gananciaPct } = calcularEnVivo(datos, precioActual);
   const claseGanancia = gananciaUsd >= 0 ? "var-positiva" : "var-negativa";
 
   return (
@@ -219,17 +261,21 @@ export default function MiInversion({
       <ul className="mi-inversion-detalle">
         <li>
           <span>Acciones</span>
-          <strong>{formatNumeroCL(acciones, 6)}</strong>
+          <strong>{formatNumeroCL(datos.acciones, 6)}</strong>
+        </li>
+        <li>
+          <span>Valor actual</span>
+          <strong>{formatUSD(montoActual)}</strong>
         </li>
         <li>
           <span>Costo base</span>
-          <strong>{formatUSD(costoBase)}</strong>
+          <strong>{formatUSD(datos.costo_base_usd)}</strong>
         </li>
         <li className={claseGanancia}>
           <span>Ganancia</span>
           <strong>
             {gananciaUsd >= 0 ? "+" : ""}
-            {formatUSD(gananciaUsd)}
+            {formatUSD(gananciaUsd)} ({formatPct(gananciaPct)})
           </strong>
         </li>
       </ul>
