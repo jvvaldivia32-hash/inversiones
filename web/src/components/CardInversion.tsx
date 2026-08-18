@@ -7,6 +7,7 @@ import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
 import FormularioTesis from "./FormularioTesis";
+import MiInversion, { type MiInversionResumen } from "./MiInversion";
 import "./CardInversion.css";
 
 const ORDEN_SEMAFORO: Record<EstadoSemaforo, number> = { rojo: 0, ambar: 1, verde: 2 };
@@ -190,9 +191,20 @@ interface Comparable {
 interface CardInversionProps {
   posicion: Posicion;
   comparables?: Comparable[];
+  miInversion: MiInversionResumen | null;
+  miInversionCargando: boolean;
+  miInversionError: boolean;
+  onCambioMiInversion: (ticker: string, datos: MiInversionResumen | null) => void;
 }
 
-export default function CardInversion({ posicion, comparables = [] }: CardInversionProps) {
+export default function CardInversion({
+  posicion,
+  comparables = [],
+  miInversion,
+  miInversionCargando,
+  miInversionError,
+  onCambioMiInversion,
+}: CardInversionProps) {
   const [expandida, setExpandida] = useState(false);
   const [rango, setRango] = useState<RangoPrecio>("1A");
   const [compararTicker, setCompararTicker] = useState<string | null>(null);
@@ -227,11 +239,11 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
         <span className={`card-inversion-var ${varDiaClase}`}>
           {formatPct(posicion.var_dia_pct)}
         </span>
-        {posicion.var_ano_pct !== undefined && (
+        {miInversion && (
           <span
-            className={`card-inversion-var-costo ${posicion.var_ano_pct >= 0 ? "var-positiva" : "var-negativa"}`}
+            className={`card-inversion-var-costo ${miInversion.pct >= 0 ? "var-positiva" : "var-negativa"}`}
           >
-            {formatPct(posicion.var_ano_pct)} desde costo
+            {formatUSD(miInversion.monto)} · {formatPct(miInversion.pct)}
           </span>
         )}
         {semaforoHeader && <Semaforo estado={semaforoHeader} />}
@@ -277,6 +289,18 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
 
       {expandida && (
         <div className="card-inversion-expandida">
+          <section>
+            <h4>Mi inversión</h4>
+            <MiInversion
+              ticker={posicion.ticker}
+              precioActual={posicion.precio}
+              datos={miInversion}
+              cargando={miInversionCargando}
+              error={miInversionError}
+              onGuardado={onCambioMiInversion}
+            />
+          </section>
+
           {sinDatosExtra && (
             <p className="card-inversion-sin-datos">
               Sin fundamentales, segmentos, tesis ni noticias para este ticker por ahora —

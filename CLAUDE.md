@@ -56,11 +56,29 @@ Nunca sobreescribir los umbrales de una tesis existente.
 
 Recolector: Python, corre en GitHub Actions por cron. Visor: React + Vite, deploy en
 Vercel. Un repo, dos carpetas (`collector/`, `web/`). El visor sigue sin llamar APIs en vivo
-para *mostrar* datos — precios, noticias, fundamentales vienen únicamente de
-`data/daily.json`. La única excepción es un camino de escritura acotado: `web/api/
-watchlist.ts`, una función serverless de Vercel que edita `watchlist.txt` vía la API de
-GitHub para el panel de la watchlist. El token de GitHub con permiso de escritura vive solo
-en esa función (variable de entorno del lado del servidor) — el navegador nunca lo tiene.
+para *mostrar* datos de mercado — precios, noticias, fundamentales vienen únicamente de
+`data/daily.json`. La excepción son caminos acotados de lectura/escritura de datos propios
+del usuario, cada uno una función serverless de Vercel que habla directo con la API de
+GitHub (nunca con un token en el navegador): `web/api/watchlist.ts` (edita
+`watchlist.txt`), `web/api/tesis.ts` (edita `data/tesis.json`) — ambas escriben en este
+mismo repo con `GITHUB_WRITE_TOKEN` — y `web/api/mi-inversion.ts`, que en cambio escribe en
+un repo aparte y privado, `inversiones-privado`, con un token distinto
+(`GITHUB_WRITE_TOKEN_PRIVADO`). Ver la excepción explícita más abajo para el porqué de ese
+repo separado.
+
+> **Excepción explícita #3 (decidida por el usuario, 2026-08-18):** "mi inversión"
+> (monto actual en USD y % de ganancia por posición, cargados a mano por el usuario) se
+> guarda en un repo de GitHub aparte y privado (`inversiones-privado`), no en este repo
+> público, y no solo en `localStorage` del navegador. La primera versión de esta feature
+> guardaba todo en `localStorage` (sin sincronizar entre dispositivos); el usuario pidió
+> sincronización real y aceptó bajar la privacidad a "repo privado" en vez de "solo este
+> navegador" — pero **no** haciendo privado este repo principal: se midió el uso real de
+> minutos de GitHub Actions (los 4 workflows de cron, ~1.500 de los 2.000 min/mes gratis
+> que da un repo privado, ~75% ya usado solo con el cron actual) y hacer privado este repo
+> hubiera arriesgado la regla dura de "$0/mes, sin excepciones" apenas creciera el
+> collector. Repo público sin tope de minutos + repo aparte solo para este dato = privacidad
+> real sin ese riesgo. No usar este caso como precedente para mover más datos fuera de este
+> repo sin medir de nuevo el costo real.
 
 ## Secrets
 
@@ -70,5 +88,9 @@ del Banco Central — el portal se rediseñó en algún momento de 2024+ y pasó
 contraseña por query params a un token único; el servicio SOAP viejo todavía pide
 usuario/contraseña pero no se usa acá, se usa el REST con `?token=`),
 `GITHUB_WRITE_TOKEN` (fine-grained PAT, solo permiso Contents R/W sobre este repo, usado por
-`web/api/watchlist.ts`), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de ese
-endpoint — no es autenticación real, es el candado mínimo para una app de un solo usuario).
+`web/api/watchlist.ts` y `web/api/tesis.ts`), `GITHUB_WRITE_TOKEN_PRIVADO` (fine-grained
+PAT distinto, permiso Contents R/W acotado *solo* al repo `inversiones-privado`, usado por
+`web/api/mi-inversion.ts` — separado del token de arriba a propósito, para no ampliarle el
+alcance a un token que ya escribe en el repo público), `WATCHLIST_EDIT_KEY` (clave
+compartida que protege el POST de esos tres endpoints — no es autenticación real, es el
+candado mínimo para una app de un solo usuario).

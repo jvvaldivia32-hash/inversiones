@@ -1,0 +1,93 @@
+.mi-inversion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mi-inversion-detalle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.mi-inversion-detalle li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-family: var(--fuente-mono);
+}
+
+.mi-inversion-detalle li span {
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+  font-family: var(--fuente-sans);
+}
+
+.mi-inversion-detalle li strong {
+  font-size: var(--texto-16);
+  font-variant-numeric: tabular-nums;
+}
+
+.mi-inversion-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 20rem;
+}
+
+.mi-inversion-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+}
+
+.mi-inversion-form input {
+  background: var(--papel);
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  padding: 0.4rem 0.5rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+  color: var(--tinta);
+}
+
+.mi-inversion-error {
+  font-size: var(--texto-12);
+  color: var(--rojo);
+  margin: 0;
+}
+
+.mi-inversion-botones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mi-inversion-botones button {
+  background: none;
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  font-size: var(--texto-12);
+  color: var(--tinta-media);
+}
+
+.mi-inversion-botones button[type="submit"] {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+.mi-inversion-nota {
+  margin: 0;
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}
+
+.card-inversion-mi-inversion-header {
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-14);
+}

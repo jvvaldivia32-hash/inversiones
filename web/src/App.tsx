@@ -17,6 +17,7 @@ import Diccionario from "./components/Diccionario";
 import Amigos from "./components/Amigos";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
+import type { MiInversionResumen } from "./components/MiInversion";
 import "./App.css";
 
 const daily = rawDaily as unknown as DailyData;
@@ -30,6 +31,8 @@ function App() {
   const [watchlist, setWatchlist] = useState<string[] | null>(null);
   const [watchlistError, setWatchlistError] = useState(false);
   const [vista, setVista] = useState<Vista>(vistaDesdeHash);
+  const [miInversion, setMiInversion] = useState<Record<string, MiInversionResumen> | null>(null);
+  const [miInversionError, setMiInversionError] = useState(false);
 
   useEffect(() => {
     fetch("/api/watchlist")
@@ -40,6 +43,25 @@ function App() {
       .then((data) => setWatchlist(data.tickers))
       .catch(() => setWatchlistError(true));
   }, []);
+
+  useEffect(() => {
+    fetch("/api/mi-inversion")
+      .then((r) => {
+        if (!r.ok) throw new Error(String(r.status));
+        return r.json() as Promise<{ datos: Record<string, MiInversionResumen> }>;
+      })
+      .then((data) => setMiInversion(data.datos))
+      .catch(() => setMiInversionError(true));
+  }, []);
+
+  function alCambiarMiInversion(ticker: string, datos: MiInversionResumen | null) {
+    setMiInversion((actual) => {
+      const nuevo = { ...(actual ?? {}) };
+      if (datos === null) delete nuevo[ticker];
+      else nuevo[ticker] = datos;
+      return nuevo;
+    });
+  }
 
   // Primer scroll al cargar, si la URL ya apuntaba a una sección específica.
   useEffect(() => {
@@ -143,6 +165,10 @@ function App() {
                     comparables={posicionesVisibles
                       .filter((otra) => otra.ticker !== p.ticker)
                       .map((otra) => ({ ticker: otra.ticker, serie: otra.serie_precio }))}
+                    miInversion={miInversion?.[p.ticker] ?? null}
+                    miInversionCargando={miInversion === null && !miInversionError}
+                    miInversionError={miInversionError}
+                    onCambioMiInversion={alCambiarMiInversion}
                   />
                 ))}
                 {pendientes.map((t) => (
