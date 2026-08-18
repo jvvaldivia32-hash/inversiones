@@ -64,6 +64,7 @@
 
 .mi-inversion-botones {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 
@@ -81,13 +82,37 @@
   color: var(--acento);
 }
 
+.mi-inversion-pct-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.mi-inversion-pct-row input {
+  flex: 1;
+}
+
+.mi-inversion-signo {
+  background: var(--papel);
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  width: 2.25rem;
+  font-family: var(--fuente-mono);
+  font-size: var(--texto-16);
+  color: var(--tinta);
+}
+
+.mi-inversion-vender-todo {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: var(--texto-12);
+  color: var(--acento);
+  text-decoration: underline;
+}
+
 .mi-inversion-nota {
   margin: 0;
   font-size: var(--texto-12);
   color: var(--tinta-suave);
-}
-
-.card-inversion-mi-inversion-header {
-  font-family: var(--fuente-mono);
-  font-size: var(--texto-14);
 }

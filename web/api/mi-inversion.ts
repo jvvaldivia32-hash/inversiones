@@ -34,6 +34,15 @@ interface Posicion {
 }
 
 type Datos = Record<string, Posicion>;
+type Accion = "guardar" | "comprar" | "vender" | "borrar";
+
+// Distingue un rechazo de negocio (ticker sin posición, venta mayor a lo que hay) de una
+// falla real de GitHub — el handler los traduce a 400 vs 502.
+class ErrorValidacion extends Error {}
+
+// Tolerancia para "vendí todo": floats nunca calzan exacto entre lo que computó el
+// navegador y lo que hay guardado.
+const EPSILON = 1e-6;
 
 interface ArchivoGitHub {
   sha: string;
@@ -84,25 +93,54 @@ async function escribirArchivo(
   });
 }
 
+// `cambio` es el valor absoluto final para "guardar", o el delta a sumar/restar para
+// "comprar"/"vender" — el promedio ponderado de costo base sale solo de acumular
+// costo_base_usd en cada compra y restar la porción proporcional en cada venta, sin
+// necesidad de guardar el historial de transacciones.
+function calcularNuevo(actual: Posicion | undefined, accion: Accion, cambio: Posicion | null): Posicion | null {
+  if (accion === "borrar") return null;
+  if (accion === "guardar") return cambio as Posicion;
+
+  const c = cambio as Posicion;
+  if (accion === "comprar") {
+    const base = actual ?? { acciones: 0, costo_base_usd: 0 };
+    return { acciones: base.acciones + c.acciones, costo_base_usd: base.costo_base_usd + c.costo_base_usd };
+  }
+
+  // vender
+  if (!actual) {
+    throw new ErrorValidacion(`no hay una posición guardada de este ticker para vender`);
+  }
+  if (c.acciones > actual.acciones + EPSILON) {
+    throw new ErrorValidacion("no puedes vender más acciones de las que tienes guardadas");
+  }
+  const accionesRestantes = actual.acciones - c.acciones;
+  if (accionesRestantes <= EPSILON) return null; // vendiste todo
+  return { acciones: accionesRestantes, costo_base_usd: actual.costo_base_usd - c.costo_base_usd };
+}
+
 async function aplicarCambio(
   token: string,
   ticker: string,
+  accion: Accion,
   cambio: Posicion | null,
   reintentar = true,
 ): Promise<Datos> {
   const { sha, datos } = await leerArchivo(token);
+  const nuevaPosicion = calcularNuevo(datos[ticker], accion, cambio);
+
   const nuevos = { ...datos };
-  if (cambio === null) {
+  if (nuevaPosicion === null) {
     delete nuevos[ticker];
   } else {
-    nuevos[ticker] = cambio;
+    nuevos[ticker] = nuevaPosicion;
   }
 
-  const mensaje = `mi-inversion: ${cambio === null ? "-" : "="}${ticker}`;
+  const mensaje = `mi-inversion: ${accion} ${ticker}`;
   const resp = await escribirArchivo(token, sha, nuevos, mensaje);
 
   if (resp.status === 409 && reintentar) {
-    return aplicarCambio(token, ticker, cambio, false);
+    return aplicarCambio(token, ticker, accion, cambio, false);
   }
   if (!resp.ok) {
     throw new Error(`GitHub PUT ${resp.status}: ${await resp.text()}`);
@@ -154,13 +192,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return;
     }
 
-    if (body.accion !== "guardar" && body.accion !== "borrar") {
+    const accionesValidas: Accion[] = ["guardar", "comprar", "vender", "borrar"];
+    if (!accionesValidas.includes(body.accion as Accion)) {
       res.status(400).json({ error: "accion inválida" });
       return;
     }
+    const accion = body.accion as Accion;
 
     let cambio: Posicion | null = null;
-    if (body.accion === "guardar") {
+    if (accion !== "borrar") {
       const acciones = Number(body.acciones);
       const costoBaseUsd = Number(body.costo_base_usd);
       if (!Number.isFinite(acciones) || acciones <= 0) {
@@ -175,10 +215,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     try {
-      const datos = await aplicarCambio(token, ticker, cambio);
+      const datos = await aplicarCambio(token, ticker, accion, cambio);
       res.status(200).json({ datos });
-    } catch {
-      res.status(502).json({ error: "no se pudo actualizar mi-inversion.json" });
+    } catch (err) {
+      if (err instanceof ErrorValidacion) {
+        res.status(400).json({ error: err.message });
+      } else {
+        res.status(502).json({ error: "no se pudo actualizar mi-inversion.json" });
+      }
     }
     return;
   }
