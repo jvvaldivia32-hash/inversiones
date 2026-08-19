@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import type { RadarCandidato, RadarData, RangoPrecio, Tesis } from "../types";
 import GraficoPrecio from "./GraficoPrecio";
+import {
+  contextoCrecimientoIngresos,
+  contextoMargenOperativo,
+  contextoDeudaPatrimonio,
+} from "../lib/referenciasMetricas";
 import "./Radar.css";
 
 interface PuertaInversionProps {
@@ -56,12 +61,25 @@ function CandidatoItem({
       </div>
       <p className="radar-motivo">{candidato.motivo}</p>
       {expandida && (
-        <GraficoPrecio
-          serie={candidato.serie_precio}
-          rango={rango}
-          onRangoChange={setRango}
-          mostrarSelector
-        />
+        <>
+          <GraficoPrecio
+            serie={candidato.serie_precio}
+            rango={rango}
+            onRangoChange={setRango}
+            mostrarSelector
+          />
+          <ul className="radar-candidato-contexto">
+            <li>
+              Ingresos: {contextoCrecimientoIngresos(candidato.metricas.ingresos_var_pct)}
+            </li>
+            <li>Margen operativo: {contextoMargenOperativo(candidato.metricas.margen_op)}</li>
+            {candidato.metricas.deuda_patrimonio !== null && (
+              <li>
+                Deuda/patrimonio: {contextoDeudaPatrimonio(candidato.metricas.deuda_patrimonio)}
+              </li>
+            )}
+          </ul>
+        </>
       )}
       {mostrarPuerta && (
         <PuertaInversion ticker={candidato.ticker} enWatchlist={enWatchlist} tesisActiva={tesisActiva} />
