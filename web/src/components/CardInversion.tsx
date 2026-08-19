@@ -236,16 +236,22 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
       <header className="card-inversion-header">
         <h3 className="card-inversion-ticker">{posicion.ticker}</h3>
         <span className="card-inversion-precio">{formatUSD(posicion.precio)}</span>
-        <span className={`card-inversion-var ${varDiaClase}`}>
-          {formatPct(posicion.var_dia_pct)}
+        <span className="card-inversion-var-caja">
+          <span className="card-inversion-var-etiqueta">hoy</span>
+          <span className={`card-inversion-var ${varDiaClase}`}>
+            {formatPct(posicion.var_dia_pct)}
+          </span>
         </span>
         {miInversion && posicion.precio > 0 && (() => {
           const { montoActual, gananciaUsd, gananciaPct } = calcularEnVivo(miInversion, posicion.precio);
           return (
-            <span
-              className={`card-inversion-var-costo ${gananciaUsd >= 0 ? "var-positiva" : "var-negativa"}`}
-            >
-              {formatUSD(montoActual)} · {formatPct(gananciaPct)}
+            <span className="card-inversion-var-caja">
+              <span className="card-inversion-var-etiqueta">tu posición</span>
+              <span
+                className={`card-inversion-var-costo ${gananciaUsd >= 0 ? "var-positiva" : "var-negativa"}`}
+              >
+                {formatUSD(montoActual)} · {formatPct(gananciaPct)}
+              </span>
             </span>
           );
         })()}
