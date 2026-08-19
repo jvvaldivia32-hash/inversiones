@@ -1,14 +1,43 @@
 {
-  "generado": "2026-08-19T16:23:00.121501+00:00",
-  "errores": [
-    "France24: feed sin respuesta o vacío"
-  ],
+  "generado": "2026-08-19T17:20:24.709287+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Trump pausa los aranceles a Canadá tras anunciar un acuerdo",
-        "resumen": "El mandatario estadounidense indicó que ambas naciones están ultimando los trámites para evitar aranceles a diversos productos canadienses.",
+        "titulo_neutral": "Retail giant Target receives $1bn boost from tariff refunds",
+        "resumen": "Una cadena comercial estadounidense registró un notable incremento en sus ingresos operativos trimestrales. Este repunte financiero vino impulsado por el cobro de una compensación económica masiva antes de impuestos. Dicho reembolso reforzó significativamente el balance general de la compañía.",
         "articulos": [
+          {
+            "titular": "Retail giant Target receives $1bn boost from tariff refunds",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-19T17:07:49+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Acuerdo comercial entre Estados Unidos y Canadá y suspensión de aranceles",
+        "resumen": "El presidente estadounidense anunció una pausa temporal en los gravámenes aduaneros a los productos canadienses. Ambas naciones se encuentran ultimando los detalles de un nuevo acuerdo comercial. Esta medida busca blindar a los exportadores y agricultores de Estados Unidos frente a aranceles punitivos.",
+        "articulos": [
+          {
+            "titular": "US and Canada reach ‘very fair’ trade agreement, Trump says",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss",
+            "fecha": "2026-08-19T16:55:57+00:00"
+          },
           {
             "titular": "Trump pauses new tariffs on Canada for three days, saying deal close",
             "extracto": "",
@@ -29,61 +58,19 @@
           }
         ],
         "leans_presentes": [
+          "sin-clasificar",
           "centro"
         ],
         "grupos_presentes": [
+          "Al Jazeera",
           "BBC",
           "Reuters"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Retail giant Target receives $1bn boost from tariff refunds",
-        "resumen": "La compañía norteamericana obtuvo un reembolso antes de impuestos de casi mil millones de dólares, impulsando fuertemente sus ingresos operativos trimestrales.",
-        "articulos": [
-          {
-            "titular": "Retail giant Target receives $1bn boost from tariff refunds",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-19T14:47:02+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "BBC"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "UAE stocks fall after missile scare; Qatar at over one-year low - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "UAE stocks fall after missile scare; Qatar at over one-year low - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFBZeTZITFl5NWRzUU9DUDZZZVM4ck5NQnY2bFdpZDRHUW9ZNGZRRHdSSjdpM3NUWlFSbnR1Rkl6ajFnbW51bktTY2VqWWdNeURtOVZXS1ZzOVNFRTE3dG5JdV9TbW0tTkh2VnRxblBiZmZRWmlueDQ1d3BFNVluSGExd1hVNS1JNjdUQmt0TG9WZ2s?oc=5",
-            "fecha": "2026-08-19T13:16:33+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
         "titulo_neutral": "UAE trade embargo could shut Iran’s key economic escape route: Here’s why",
-        "resumen": "Los Emiratos Árabes Unidos implementaron un bloqueo tras responsabilizar a Irán por el lanzamiento de proyectiles hacia su territorio.",
+        "resumen": "Las autoridades emiratíes decretaron un embargo tras denunciar ataques con proyectiles contra su soberanía. La ofensiva militar fue atribuida directamente a Irán. Esta escalada regional intensificó las tensiones geopolíticas en el área.",
         "articulos": [
           {
             "titular": "UAE trade embargo could shut Iran’s key economic escape route: Here’s why",
@@ -104,8 +91,30 @@
         "cobertura_unilateral": true
       },
       {
+        "titulo_neutral": "Ukraine’s ousted minister Mykhailo Fedorov calls for wartime elections",
+        "resumen": "El exministro de Defensa ucraniano solicitó públicamente la celebración de comicios a pesar del conflicto armado vigente. Argumentó la existencia de una profunda crisis de liderazgo en el gobierno. La legislación actual prohíbe formalmente realizar votaciones bajo el régimen de ley marcial.",
+        "articulos": [
+          {
+            "titular": "Ukraine’s ousted minister Mykhailo Fedorov calls for wartime elections",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/video/20260819-ukraine-s-ousted-minister-mykhailo-fedorov-calls-for-wartime-elections",
+            "fecha": "2026-08-19T12:23:43+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "France24"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "China’s Unitree soars in market debut as investors bet on humanoid robots",
-        "resumen": "Las acciones de Unitree experimentaron un repunte masivo de hasta el 620% impulsadas por el creciente entusiasmo hacia el sector de los androides.",
+        "resumen": "Las acciones de Unitree experimentaron un vertiginoso incremento bursátil. Este fenómeno responde al optimismo generalizado de los inversores respecto al desarrollo de autómatas con apariencia humana. El sector tecnológico muestra así un gran entusiasmo por esta nueva clase de innovaciones.",
         "articulos": [
           {
             "titular": "China’s Unitree soars in market debut as investors bet on humanoid robots",
@@ -149,7 +158,7 @@
       },
       {
         "titulo_neutral": "Humanitarianism is not collapsing. It is being traded and compromised",
-        "resumen": "Esta situación pone en grave peligro tanto la integridad del personal humanitario como la de las poblaciones vulnerables a las que auxilian.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Humanitarianism is not collapsing. It is being traded and compromised",
@@ -170,17 +179,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "EXCLUSIVE: Chery's robot unit eyes IPO, targets overseas market for police robots - Reuters",
+        "titulo_neutral": "Alphabet raises $3.9 billion in inaugural Australian dollar bond - Reuters",
         "resumen": "",
         "articulos": [
           {
-            "titular": "EXCLUSIVE: Chery's robot unit eyes IPO, targets overseas market for police robots - Reuters",
+            "titular": "Alphabet raises $3.9 billion in inaugural Australian dollar bond - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWR2cnpULThpZHY0Um43bzk3ZWcxVVNhVTltMVJhbkFhUWpvS3lUb1ROVWd3RmszSzhKMlpGOHUtZ1ZuZmsyemxDbDh4c2lBWG9HNVloSEhTOFFzcVhWTmRob1lmenhCUzBUb1B2SENQckhUemdMWTkxY2Y0eW1UQmVCeDBHMnUzY2R2emJfc3JKbFZDek1BeWtDdGtTZEJpRHZhd3BNN3MzVkF0cDRJVS15X3RYcmlSc1hRY2NGTHJ5YXNhRE5saXF3?oc=5",
-            "fecha": "2026-08-19T07:21:43+00:00"
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWowTDhsUGNUOXVDQ1Q0STlaemFrQ2tRQUFsUVo0Z3VaYURVQnV3U1VhUV9oTmthdm9PM2xFaUhzRlhGQ2JyNGJYMjVIX1FrT0Z5R0RjXzhsWUVSMXRGWGg4eHd5VlhRQjUtTS1id0YzTXhpdE9GN2hCVHFVQi0wNkFsd3NBUFEyc0pyRVBZcnB1OTZBQ0RDdlpQSzk3NHVTdHRRVjB4T1FpeVJ0ODBQbjZn?oc=5",
+            "fecha": "2026-08-19T10:47:03+00:00"
           }
         ],
         "leans_presentes": [
@@ -194,17 +203,17 @@
     ],
     "chile": [
       {
-        "titulo_neutral": "Declaraciones de Kevin Cowan sobre el precio del cobre",
-        "resumen": "Un representante del consejo administrativo indicó que el valor del metal rojo se ha mantenido elevado, impulsado por el avance de la inteligencia artificial, la transición energética y el incremento en los presupuestos de defensa.",
+        "titulo_neutral": "Dólar cae fuerte a medida que la divisa se hunde globalmente tras anuncio del Tesoro que respalda a los bonos largos",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Kevin Cowan, consejero del Banco Central: “Parte de esta alza del precio cobre no es de corto plazo, sino que debería mantenerse”",
+            "titular": "Dólar cae fuerte a medida que la divisa se hunde globalmente tras anuncio del Tesoro que respalda a los bonos largos",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/kevin-cowan-consejero-del-banco-central-parte-de-esta-alza-del-precio",
-            "fecha": "2026-08-19T16:19:23+00:00"
+            "url": "http://www.df.cl/mercados/bolsa-monedas/dolar-hoy-rhryp",
+            "fecha": "2026-08-19T17:19:04+00:00"
           }
         ],
         "leans_presentes": [
@@ -216,71 +225,83 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Cifras de daños y damnificados por la emergencia en el norte del país",
-        "resumen": "El informe oficial sobre los recientes eventos climáticos adversos en el norte del país contabiliza una víctima fatal, numerosos albergados y miles de hogares sin servicio eléctrico.",
+        "titulo_neutral": "La cuenta regresiva a un mes de Fiestas Patrias: trabajadores del sector privado esperan un aguinaldo promedio de $ 121 mil este año",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Las cifras que deja la emergencia que volvió a golpear al norte del país: 580 damnificados, 1.166 albergados y más de mil viviendas dañadas",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/19/las-cifras-que-deja-la-emergencia-que-volvio-a-golpear-al-norte-del-pais-580-damnificados-1-166-albergados-y-mas-de-mil-viviendas-danadas/",
-            "fecha": "2026-08-19T16:13:40+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Críticas de Dreams a la Superintendencia de Casinos por la licitación de Puerto Varas",
-        "resumen": "La compañía expresó su descontento con el organismo fiscalizador tras una licitación desierta, señalando que estas decisiones obstaculizan la libre competencia en el sector.",
-        "articulos": [
-          {
-            "titular": "Dreams arremete contra la Superintendencia tras fallida licitación del casino de Puerto Varas: “Desincentiva la competencia”",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/19/dreams-arremete-contra-la-superintendencia-tras-fallida-licitacion-del-casino-de-puerto-varas-desincentiva-la-competencia/",
-            "fecha": "2026-08-19T16:11:49+00:00"
-          },
-          {
-            "titular": "Dreams carga contra Super de Casinos por licitación desierta de Puerto Varas: \"Un estándar que cambia entre un proceso y otro\"",
+            "titular": "La cuenta regresiva a un mes de Fiestas Patrias: trabajadores del sector privado esperan un aguinaldo promedio de $ 121 mil este año",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/industria/dreams-carga-contra-super-de-casinos-por-licitacion-desierta-de-puerto",
-            "fecha": "2026-08-19T15:50:21+00:00"
+            "url": "http://www.df.cl/economia-y-politica/laboral-personas/la-cuenta-regresiva-a-un-mes-de-fiestas-patrias-trabajadores-del-sector",
+            "fecha": "2026-08-19T17:16:03+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente",
           "Claro"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Iniciativa de inclusión laboral para jóvenes con discapacidad en Ñuñoa",
-        "resumen": "Una conocida cadena comercial de Ñuñoa estableció una colaboración con una institución educativa para integrar a alumnos con discapacidad intelectual en labores prácticas dentro de sus instalaciones.",
+        "titulo_neutral": "“El Estado tiene una gran superficie de terrenos”: Kast apunta a solución definitiva a campamentos en visita a Antofagasta por",
+        "resumen": "Durante un balance oficial, el mandatario informó que la infraestructura sanitaria en la zona afectada se encuentra operativa, pese a registrar mayores complicaciones en Tocopilla. Asimismo, indicó que ya se habilitó una vía de acceso hacia dicha localidad y continúan las labores para despejar otras dos rutas.",
         "articulos": [
           {
-            "titular": "La apuesta del Rey de las Micheladas de Ñuñoa por la inclusión: abre sus puertas a jóvenes con discapacidad intelectual para prácticas laborales",
+            "titular": "“El Estado tiene una gran superficie de terrenos”: Kast apunta a solución definitiva a campamentos en visita a Antofagasta por",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/regiones/antofagasta/ya-hay-una-ruta-abierta-hacia-tocopilla-y-se-sigue-trabajando-en-dos-rutas",
+            "fecha": "2026-08-19T17:13:57+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Matías Walker califica de \"pirotecnia\" la reforma de seguridad: “Busca generar un alza de un par de puntos en las encuestas sabiendo que esto no ayuda a la agenda más sustantiva”",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Matías Walker califica de \"pirotecnia\" la reforma de seguridad: “Busca generar un alza de un par de puntos en las encuestas sabiendo que esto no ayuda a la agenda más sustantiva”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/congreso/matias-walker-califica-de-pirotecnia-la-reforma-de-seguridad-busca",
+            "fecha": "2026-08-19T17:00:12+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Piden llevarlo al tribunal supremo: La furia en los chats de RN contra Francisco Orrego tras aprobar informe de comisión por el 18-O que critica al gobierno de Piñera",
+        "resumen": "La decisión del diputado Francisco Orrego de aprobar un informe parlamentario crítico hacia la administración del expresidente Piñera generó profunda molestia al interior de Renovación Nacional. Mientras algunos sectores del partido exigen llevarlo al tribunal supremo por romper filas, el legislador defendió su postura argumentando que sus críticos no leyeron el documento.",
+        "articulos": [
+          {
+            "titular": "Piden llevarlo al tribunal supremo: La furia en los chats de RN contra Francisco Orrego tras aprobar informe de comisión por el 18-O que critica al gobierno de Piñera",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/19/la-apuesta-del-rey-de-las-micheladas-de-nunoa-por-la-inclusion-abre-sus-puertas-a-jovenes-con-discapacidad-intelectual-para-practicas-laborales/",
-            "fecha": "2026-08-19T16:07:21+00:00"
+            "url": "https://www.theclinic.cl/2026/08/19/piden-llevarlo-al-tribunal-supremo-la-furia-en-los-chats-de-rn-contra-francisco-orrego-tras-aprobar-informe-de-comision-por-el-18-o-que-critica-al-gobierno-de-pinera/",
+            "fecha": "2026-08-19T16:50:44+00:00"
           }
         ],
         "leans_presentes": [
@@ -292,8 +313,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultados financieros y desempeño bursátil de SQM",
-        "resumen": "Mientras los mercados financieros reaccionaban positivamente a la baja en las tasas de interés en Estados Unidos, la empresa reportó beneficios millonarios que superaron considerablemente los registros del periodo anterior.",
+        "titulo_neutral": "Bolsa chilena sigue al alza y el IPSA se acerca a 11.300 puntos con impulso de SQM tras unos resultados estelares",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Bolsa chilena sigue al alza y el IPSA se acerca a 11.300 puntos con impulso de SQM tras unos resultados estelares",
@@ -302,16 +323,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-ki4ea",
-            "fecha": "2026-08-19T16:06:16+00:00"
-          },
-          {
-            "titular": "Las utilidades de SQM se disparan más de 600% en el segundo trimestre y superan las estimaciones ante mayores ventas y precios del litio",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/mineria/las-utilidades-de-sqm-se-disparan-y-superan-las-estimaciones-ante-mayores",
-            "fecha": "2026-08-19T14:04:30+00:00"
+            "fecha": "2026-08-19T16:49:22+00:00"
           }
         ],
         "leans_presentes": [
@@ -323,17 +335,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Renovación tecnológica de DAF en Chile",
-        "resumen": "El fabricante de vehículos de carga introducirá en el mercado chileno una renovada gama de camiones enfocada en optimizar los costos operacionales y elevar los estándares de protección vial.",
+        "titulo_neutral": "Condenan a 20 años de cárcel a José Pablo Peñafiel, el “depredador sexual” de la comunidad sorda",
+        "resumen": "Un tribunal dictó una pena de 20 años de presidio contra José Pablo Peñafiel, reconocido integrante de la comunidad sorda. El sujeto fue hallado culpable de cometer agresiones sexuales reiteradas contra ocho víctimas a lo largo de más de diez años.",
         "articulos": [
           {
-            "titular": "DAF prepara en Chile su mayor renovación tecnológica en décadas",
+            "titular": "Condenan a 20 años de cárcel a José Pablo Peñafiel, el “depredador sexual” de la comunidad sorda",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/19/nueva-generacion-daf/",
-            "fecha": "2026-08-19T16:00:00+00:00"
+            "url": "https://www.theclinic.cl/2026/08/19/condenan-a-20-anos-de-carcel-a-jose-pablo-penafiel-el-depredador-sexual-de-la-comunidad-sorda/",
+            "fecha": "2026-08-19T16:49:09+00:00"
           }
         ],
         "leans_presentes": [
@@ -345,80 +357,58 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Lanzamiento de nuevo disco de Fother Muckers",
-        "resumen": "Tras más de una década separados, los integrantes de la agrupación musical regresan a los estudios para publicar un nuevo material discográfico con el que buscan renovar su propuesta sonora.",
-        "articulos": [
-          {
-            "titular": "Fother Muckers y su disco nuevo tras quince años: “Es hacer justicia al sonido que nunca tuvimos”",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/19/fother-muckers-y-su-disco-nuevo-tras-quince-anos-es-hacer-justicia-al-sonido-que-nunca-tuvimos/",
-            "fecha": "2026-08-19T15:51:46+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Resultados de la prueba Simce en estudiantes de segundo medio",
+        "titulo_neutral": "Examedi tras la cirugía: nuevo CEO, sin fundadores y “a meses de la rentabilidad”",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Simce: 60% de los estudiantes de II° medio no alcanza el nivel mínimo de aprendizaje",
+            "titular": "Examedi tras la cirugía: nuevo CEO, sin fundadores y “a meses de la rentabilidad”",
             "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/simce-pruebas-nivel-minimo-pruebas/",
-            "fecha": "2026-08-19T15:45:47+00:00"
+            "url": "http://www.df.cl/df-lab/innovacion-y-startups/examedi-tras-la-cirugia-nuevo-ceo-sin-fundadores-y-a-meses-de-la",
+            "fecha": "2026-08-19T16:46:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente"
+          "Claro"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Two detained after French influencer's scorched body found in vineyard",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c3r058eeqv2o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-19T16:04:39+00:00"
-      },
-      {
-        "titular": "The unexpected winners of America's data-center boom - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUWF2UHNGVmlnWmFBVlBPc1hVNERmWnh4TFhKSUVKWHlqZWNEVjVvOTYteFJuV1BOcmtUNnpqRXVILWhWSTNINWZrN3ptMkd0NExiNjJHdnlzQ0NaRkZGeTJDMmVRei1LX2U0UFVudU8tTE9IcFYxMnFrUVpxVnBrSHY1UUJ3M3lfRHBXTElyRmhZbU1Kdml3OFVwSm9EamZsWE5NV1dNdk9MOU1PMF9vRUtZOUVXdkE?oc=5",
-        "fecha": "2026-08-19T15:50:44+00:00"
-      },
-      {
-        "titular": "Israel opens up tenders for controversial West Bank settlement project",
+        "titular": "Israel opens up bids for highly-sensitive West Bank settlement project",
         "medio": "BBC",
         "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-19T15:50:22+00:00"
+        "fecha": "2026-08-19T17:16:28+00:00"
       },
       {
-        "titular": "India rout Pakistan at Hockey World Cup 2026 to qualify for second round",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/19/india-rout-pakistan-at-hockey-world-cup-2026-to-qualify-for-second-round?traffic_source=rss",
-        "fecha": "2026-08-19T15:48:20+00:00"
+        "titular": "Moderna vaccine cuts recurrence and spread of high-risk melanoma, raising new treatment hope - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV1VaQ05TQmRfMmJzTUkwU2puSHBUcE9FdzY2OW5SaXVFc2FpR25rclJEY1NHS1lrYWdaWE5OUVdhZ2VfTGVHak45akZnYm0wbEZVdXpOYjJEYkpVc3VXaDRrQnZBMDlJbWJLZUY2M2dFc0lycDc1LUtiSmxEWnlsVThSY1RRRG5WM050bEZLR1puWlhDMGlJczRZM0tXb2lHYzlSSmxTRFlQdm52THFDbG1zZlBWLUNUZG9qVjFoQlI?oc=5",
+        "fecha": "2026-08-19T16:52:55+00:00"
       },
       {
-        "titular": "Seven decades of US regime change efforts: What have they achieved?",
+        "titular": "Moderna shares double as cancer vaccine data rekindles investor hopes - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdGJPaGVZV1B5YXpJY1ZQM3h6X1ZtZmZMQ1k5NTZGX2NUSkdFZU80bHVXY3Z0Uk1kV2xWckJoc3VaTTB2MTd4dnhwaVp4SHk1U0RYMzBRQUtYRW45SFJKQ1hRN3pZd0pIblo1ZGN6aV9KVHZwYkNVUmpKNWhxdlRDTW9wTEtXWUxVdUZuMUJKUHJMeVpIZ1djS3kxeWhnbmNmSzJZUWVGYkwtNm5qWml4TUhzenpyUmlIRjNqa3czTmVORXQyTEY0eHdfdlpiQmFyNXdUcW5rbjJ0MjIwcmc?oc=5",
+        "fecha": "2026-08-19T16:49:31+00:00"
+      },
+      {
+        "titular": "Why extreme heat is much more dangerous for the elderly than we realised",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/19/seven-decades-of-us-regime-change-efforts-what-have-they-achieved?traffic_source=rss",
-        "fecha": "2026-08-19T15:46:05+00:00"
+        "url": "https://www.aljazeera.com/news/2026/8/19/why-extreme-heat-is-much-more-dangerous-for-the-elderly-than-we-realised?traffic_source=rss",
+        "fecha": "2026-08-19T16:32:28+00:00"
+      },
+      {
+        "titular": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-19T16:31:48+00:00"
       }
     ]
   },
@@ -426,8 +416,8 @@
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 501.92,
-      "var_dia_pct": -0.2068,
+      "precio": 502.22,
+      "var_dia_pct": -0.1471,
       "serie_precio": {
         "1M": [
           {
@@ -1145,6 +1135,10 @@
           {
             "fecha": "2026-08-19T16:00:00",
             "valor": 501.92
+          },
+          {
+            "fecha": "2026-08-19T17:00:00",
+            "valor": 502.22
           }
         ],
         "6M": [
@@ -1650,7 +1644,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 501.92
+            "valor": 502.22
           }
         ],
         "YTD": [
@@ -2292,7 +2286,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 501.92
+            "valor": 502.22
           }
         ],
         "1A": [
@@ -3306,7 +3300,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 501.92
+            "valor": 502.22
           }
         ],
         "5A": [
@@ -4352,14 +4346,32 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 501.92
+            "valor": 502.22
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Berkshire's Cash Pile Fell From $400 Billion to $365.5 Billion as Greg Abel Became a Net Buyer for the First Time in 3 Years. What Does That Signal for Investors?",
+          "extracto": "Durante el segundo trimestre, el conglomerado Berkshire Hathaway adquirió más acciones de las que vendió, revirtiendo una tendencia de más de tres años.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/19/berkshires-cash-pile-fell-from-400-billion-to-365/?.tsrc=rss",
+          "fecha": "2026-08-19T16:50:00+00:00"
+        },
+        {
+          "titular": "Did Berkshire Hathaway’s $6.8 Billion Bet Misjudge the Housing Market — Again?",
+          "extracto": "Greg Abel invirtió miles de millones de dólares en empresas constructoras de viviendas a pesar de las altas tasas hipotecarias y el pesimismo del sector.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/19/did-berkshire-hathaways-6-8-billion-bet-misjudge-the-housing-market-again/?.tsrc=rss",
+          "fecha": "2026-08-19T15:59:14+00:00"
+        },
+        {
           "titular": "3 Stocks That Warren Buffett's Successor, Greg Abel, Bought (Besides Alphabet). Should You?",
-          "extracto": "Aunque las inversiones de Berkshire en Alphabet suelen acaparar titulares, existen otras adquisiciones recientes de la firma que también merecen análisis.",
+          "extracto": "Aunque la participación de Berkshire en Alphabet acapara gran parte de la atención, sus nuevas adquisiciones bursátiles también resultan relevantes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4368,7 +4380,7 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Just Sold Over 50% of Berkshire Hathaway's Stake in Nucor and Piled Into an Artificial Intelligence (AI) Stock That Billionaire Investor Bill Ackman Just Exited",
-          "extracto": "El conglomerado empresarial dio a conocer recientemente la composición de su cartera de acciones al concluir el segundo trimestre.",
+          "extracto": "Berkshire Hathaway reveló recientemente la composición de su cartera de inversiones al cierre del segundo trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4377,30 +4389,12 @@
         },
         {
           "titular": "Warren Buffett's and Greg Abel's $175 Billion Warning Echoes Loudly Through Wall Street",
-          "extracto": "Los directivos de la compañía han optado por deshacerse de más títulos de los que han comprado durante catorce de los últimos quince trimestres.",
+          "extracto": "Los directivos de Berkshire se habrían deshecho de más títulos de los que compraron durante la gran mayoría de los trimestres recientes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/19/warren-buffett-abel-175-billion-warning-wall-st/?.tsrc=rss",
           "fecha": "2026-08-19T08:26:00+00:00"
-        },
-        {
-          "titular": "Buffett’s Berkshire is doubling down on Google",
-          "extracto": "La corporación obtuvo un acceso preferencial inaccesible para los inversores comunes, aunque dicha ventaja perdió relevancia poco tiempo después.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.thestreet.com/investing/buffetts-berkshire-is-doubling-down-on-google?.tsrc=rss",
-          "fecha": "2026-08-18T23:37:00+00:00"
-        },
-        {
-          "titular": "How Investors Are Reacting To Berkshire Hathaway (BRK.A) Q2 Surge And Greg Abel’s Bold Equity Bets",
-          "extracto": "Durante el segundo trimestre, Berkshire Hathaway reportó un incremento en sus ingresos y utilidades bajo la dirección del nuevo director ejecutivo, quien además impulsó significativamente la compra de acciones y el programa de recompra.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-berkshire-hathaway-brk-231459647.html?.tsrc=rss",
-          "fecha": "2026-08-18T23:14:59+00:00"
         }
       ],
       "fundamentales": {
@@ -4586,14 +4580,14 @@
         "payout_ratio_pct": null,
         "maximo_52s": 529.42,
         "minimo_52s": 465.4,
-        "beta": 0.597959991847941
+        "beta": 0.5981017617953961
       }
     },
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 269.53,
-      "var_dia_pct": 0.9513,
+      "precio": 269.34,
+      "var_dia_pct": 0.8802,
       "serie_precio": {
         "1M": [
           {
@@ -5311,6 +5305,10 @@
           {
             "fecha": "2026-08-19T16:00:00",
             "valor": 269.53
+          },
+          {
+            "fecha": "2026-08-19T17:00:00",
+            "valor": 269.34
           }
         ],
         "6M": [
@@ -5816,7 +5814,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 269.53
+            "valor": 269.34
           }
         ],
         "YTD": [
@@ -6458,7 +6456,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 269.53
+            "valor": 269.34
           }
         ],
         "1A": [
@@ -7472,7 +7470,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 269.53
+            "valor": 269.34
           }
         ],
         "5A": [
@@ -8518,7 +8516,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 269.53
+            "valor": 269.34
           }
         ]
       },
@@ -8534,7 +8532,7 @@
         },
         {
           "titular": "McDonald’s is One Dividend Hike Away from Becoming a Dividend King",
-          "extracto": "McDonald's se encuentra cerca de alcanzar el estatus de \"Rey del Dividendo\", tras haber incrementado sus pagos a los accionistas de manera ininterrumpida durante casi cinco décadas. Los analistas debaten si la corporación mantendrá esta tendencia de crecimiento a futuro.",
+          "extracto": "McDonald's se encuentra a un año de alcanzar el estatus de \"Rey del Dividendo\" tras haber incrementado sus pagos de forma ininterrumpida durante casi cinco de décadas. Los analistas debaten si la empresa logrará mantener este ritmo de crecimiento en el futuro.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8543,7 +8541,7 @@
         },
         {
           "titular": "Is McDonald's a Buy Today as Lower Valuation Meets Execution Risk?",
-          "extracto": "A pesar de presentar una valuación bursátil más atractiva, la cadena de comida rápida enfrenta desafíos considerables debido a la caída en la afluencia de clientes en Estados Unidos y al incremento de los costos operativos.",
+          "extracto": "A pesar de cotizar a una valoración más atractiva, McDonald's enfrenta desafíos operativos en Estados Unidos, como la caída en la afluencia de clientes y dificultades con sus estrategias de precios, lo que exige precaución por parte de los inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8552,7 +8550,7 @@
         },
         {
           "titular": "McDonald’s Lost Money When Workers Missed Shifts. Here’s the ‘Crazy Beneficial’ Solution That Finally Fixed It and Saved $35,000 a Month.",
-          "extracto": "Se ha lanzado una nueva aplicación digital diseñada para facilitar el desplazamiento de los trabajadores de McDonald's hacia sus centros de trabajo.",
+          "extracto": "Se ha lanzado una nueva aplicación móvil diseñada para facilitar los desplazamientos y la movilidad de los trabajadores de la cadena de comida rápida hacia sus puestos de trabajo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8561,7 +8559,7 @@
         },
         {
           "titular": "McDonald's: Traffic Disappointed, but the Rent Still Gets Paid",
-          "extracto": "Como consecuencia de los constantes aumentos de precios implementados para contrarrestar la inflación, la compañía experimenta actualmente dificultades para atraer clientes a sus establecimientos.",
+          "extracto": "Tras aplicar múltiples aumentos de precios para combatir la inflación, la cadena de restaurantes ahora experimenta dificultades para atraer y retener un flujo constante de consumidores a sus establecimientos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8897,8 +8895,8 @@
       "_segmentos_accession": "0000063908-26-000067",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 190730.62185043,
-        "enterprise_value_musd": 229771.62185043,
+        "market_cap_musd": 190596.16995953998,
+        "enterprise_value_musd": 229637.16995953998,
         "deuda_neta_musd": 39041.0,
         "deuda_neta_ebitda": null,
         "margen_bruto_pct": null,
@@ -8907,22 +8905,22 @@
         "roe_pct": null,
         "roic_pct": 33.678783734020726,
         "roce_pct": 22.904368358913814,
-        "pe": 21.895207148659626,
-        "ev_ingresos": 8.294106120291305,
+        "pe": 21.879772542648254,
+        "ev_ingresos": 8.289252787046168,
         "ev_ebitda": null,
-        "p_vl": -186.44244560159336,
+        "p_vl": -186.31101657824044,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 341.06,
         "minimo_52s": 262.8,
-        "beta": 0.3658053401839879
+        "beta": 0.36566651651467896
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 488.28,
-      "var_dia_pct": 1.3807,
+      "precio": 483.39,
+      "var_dia_pct": 0.3654,
       "serie_precio": {
         "1M": [
           {
@@ -9640,6 +9638,10 @@
           {
             "fecha": "2026-08-19T16:00:00",
             "valor": 488.28
+          },
+          {
+            "fecha": "2026-08-19T17:00:00",
+            "valor": 483.39
           }
         ],
         "6M": [
@@ -10145,7 +10147,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 488.28
+            "valor": 483.39
           }
         ],
         "YTD": [
@@ -10787,7 +10789,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 488.28
+            "valor": 483.39
           }
         ],
         "1A": [
@@ -11801,7 +11803,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 488.28
+            "valor": 483.39
           }
         ],
         "5A": [
@@ -12847,14 +12849,23 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 488.28
+            "valor": 483.39
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Why Is Microsoft (MSFT) Reworking AI Data Center Policy Across The US?",
+          "extracto": "Varias grandes empresas tecnológicas iniciaron una campaña pública para frenar el rechazo comunitario y regulatorio a los centros de datos de inteligencia artificial. Microsoft decidió eliminar acuerdos de confidencialidad y exenciones fiscales, implementando además una nueva política de infraestructura centrada en las comunidades.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/why-microsoft-msft-reworking-ai-161431602.html?.tsrc=rss",
+          "fecha": "2026-08-19T16:14:31+00:00"
+        },
+        {
           "titular": "Mattel Brick Shop™ Celebrates 25 Years of Microsoft's Iconic XBOX Game Console with New Premium Building Set",
-          "extracto": "Mattel ha lanzado bajo su línea Mattel Brick Shop un modelo a escala real de la consola Xbox original. Este artículo de colección conmemora el vigésimo quinto aniversario del dispositivo y ya se encuentra disponible para su reserva.",
+          "extracto": "La compañía juguetera Mattel anunció el lanzamiento de un modelo coleccionable a escala real de la consola Xbox original bajo su marca de bloques de construcción. Este producto conmemorativo por el vigésimo quinto aniversario de la consola ya se encuentra disponible en preventa a nivel mundial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12863,7 +12874,7 @@
         },
         {
           "titular": "Prediction: Microsoft’s AI Boom Is Bigger Than Investors Realize",
-          "extracto": "A pesar del crecimiento significativo de plataformas como Azure y la rápida expansión de Copilot, el valor de las acciones de Microsoft se ha mantenido sin cambios a lo largo del año. Esta situación revela una discrepancia que los analistas financieros aún no han logrado proyectar adecuadamente.",
+          "extracto": "A pesar del sólido crecimiento de Azure y la rápida expansión de Copilot, las acciones de Microsoft se mantienen sin cambios durante el año. Esta discrepancia revela una desconexión en el mercado que la mayoría de los analistas financieros todavía no ha logrado proyectar.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12872,7 +12883,7 @@
         },
         {
           "titular": "Microsoft Corporation’s (MSFT) Rich Innovation Legacy Anchors Platform Growth",
-          "extracto": "La firma de inversiones Eagle Capital Management publicó su carta trimestral correspondiente al segundo trimestre de 2026. En el documento, la entidad analiza cómo el entusiasmo por la inteligencia artificial impulsa las ganancias del S&P 500, al tiempo que advierte sobre riesgos asociados a valoraciones elevadas.",
+          "extracto": "La firma de inversiones Eagle Capital Management publicó su carta trimestral, señalando que la fuerte inversión en inteligencia artificial ha impulsado las ganancias corporativas. Sin embargo, advirtieron que este auge también incrementa los riesgos debido a valoraciones elevadas y una demanda muy concentrada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12881,21 +12892,12 @@
         },
         {
           "titular": "Dirac Brings AI-Driven Process Planning to Enterprise Manufacturers on Microsoft Azure",
-          "extracto": "La compañía Dirac ha ampliado su colaboración con Microsoft para integrar su plataforma de planificación BuildOS en sectores industriales avanzados. De esta manera, sectores como el aeroespacial, el de defensa y la maquinaria agrícola podrán utilizar esta tecnología de inteligencia artificial.",
+          "extracto": "La empresa Dirac amplió su colaboración con Microsoft para integrar su plataforma de planificación basada en inteligencia artificial, BuildOS, en sectores industriales clave como el aeroespacial y el de maquinaria pesada. Esta herramienta busca optimizar los procesos de manufactura en diversas industrias técnicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/technology/ai/articles/dirac-brings-ai-driven-process-130500414.html?.tsrc=rss",
           "fecha": "2026-08-19T13:05:00+00:00"
-        },
-        {
-          "titular": "Zoom's Growth Reacceleration Is Durable as It Moves Beyond Meetings, BofA Says",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zoom-apos-growth-reacceleration-durable-145508575.html?.tsrc=rss",
-          "fecha": "2026-08-19T14:55:08+00:00"
         }
       ],
       "fundamentales": {
@@ -13271,8 +13273,8 @@
       "_segmentos_accession": "0001193125-26-323632",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 3625745.35234548,
-        "enterprise_value_musd": 3645104.35234548,
+        "market_cap_musd": 3589434.4348944896,
+        "enterprise_value_musd": 3608793.4348944896,
         "deuda_neta_musd": 19359.0,
         "deuda_neta_ebitda": null,
         "margen_bruto_pct": null,
@@ -13281,15 +13283,15 @@
         "roe_pct": null,
         "roic_pct": 33.61956573527437,
         "roce_pct": 26.331394569765802,
-        "pe": 27.187082405345215,
-        "ev_ingresos": 10.984556825284189,
+        "pe": 26.914810690423167,
+        "ev_ingresos": 10.875133528290796,
         "ev_ebitda": null,
-        "p_vl": 8.195867763622077,
+        "p_vl": 8.113788232688776,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 542.07,
         "minimo_52s": 352.83,
-        "beta": 1.1498605938158635
+        "beta": 1.149604877234315
       },
       "tesis": [
         {
@@ -13310,8 +13312,8 @@
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 709.28,
-      "var_dia_pct": 0.55,
+      "precio": 707.36,
+      "var_dia_pct": 0.2779,
       "serie_precio": {
         "1M": [
           {
@@ -14029,6 +14031,10 @@
           {
             "fecha": "2026-08-19T16:00:00",
             "valor": 709.28
+          },
+          {
+            "fecha": "2026-08-19T17:00:00",
+            "valor": 707.36
           }
         ],
         "6M": [
@@ -14534,7 +14540,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 709.28
+            "valor": 707.36
           }
         ],
         "YTD": [
@@ -15176,7 +15182,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 709.28
+            "valor": 707.36
           }
         ],
         "1A": [
@@ -16190,7 +16196,7 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 709.28
+            "valor": 707.36
           }
         ],
         "5A": [
@@ -17236,14 +17242,23 @@
           },
           {
             "fecha": "2026-08-19",
-            "valor": 709.28
+            "valor": 707.36
           }
         ]
       },
       "noticias": [
         {
+          "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
+          "extracto": "El fondo cotizado Vanguard S&P 500 ha generado un crecimiento constante y significativo durante los últimos diez años. Este rendimiento lo consolidó como una herramienta de inversión muy popular.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/19/1-unstoppable-vanguard-etf-i-wish-id-bought-10-yea/?.tsrc=rss",
+          "fecha": "2026-08-19T16:20:00+00:00"
+        },
+        {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "extracto": "Bajo la comisión aparentemente baja del fondo VOO se esconde una amenaza significativa que rara vez se refleja en las tablas comparativas habituales.",
+          "extracto": "A pesar de las bajas comisiones que caracterizan a este fondo, existen riesgos ocultos en su estructura interna que los inversores suelen pasar por alto. Estos factores no se reflejan en las tablas comparativas de costos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17252,7 +17267,7 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF Be in 20 Years? History Has Good and Bad News for Investors.",
-          "extracto": "El fondo cotizado líder del índice S&P 500 continúa presentándose como una alternativa sólida para quienes mantienen una estrategia de largo plazo.",
+          "extracto": "Este fondo sigue siendo una opción financiera sólida y confiable para quienes adoptan una estrategia a largo plazo. Su estabilidad lo mantiene como un referente en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17261,7 +17276,7 @@
         },
         {
           "titular": "What History Reveals About Buying the Vanguard S&P 500 ETF in Volatile Markets",
-          "extracto": "Las caídas temporales forman parte natural de la dinámica bursátil del S&P 500, y la reacción ante ellas influye directamente en la rentabilidad futura.",
+          "extracto": "Las caídas temporales forman parte natural de la dinámica bursátil del índice principal. La estrategia que adopte el inversor durante estos periodos influye directamente en su rentabilidad futura.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17270,21 +17285,12 @@
         },
         {
           "titular": "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
-          "extracto": "Aportar de manera constante durante treinta años permite acumular un patrimonio considerable, aunque la selección y distribución de los activos determinan el resultado final.",
+          "extracto": "Aportar de forma constante durante largos periodos permite acumular un patrimonio considerable para el retiro. Sin embargo, la selección específica de los activos y su distribución determinan el éxito final del objetivo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://247wallst.com/investing/2026/08/16/investing-500-a-month-into-these-3-etfs-could-retire-you-a-millionaire/?.tsrc=rss",
           "fecha": "2026-08-16T16:37:20+00:00"
-        },
-        {
-          "titular": "Vanguard Handed 53 Funds a Fee Cut This Year and Skipped the VGT ETF Entirely",
-          "extracto": "Aunque Vanguard redujo las tarifas de numerosos productos recientemente, excluyó intencionadamente uno de sus fondos sectoriales principales, un detalle crucial para la estrategia del inversor.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/etf/2026/08/18/vanguard-handed-53-funds-a-fee-cut-this-year-and-skipped-the-vgt-etf-entirely/?.tsrc=rss",
-          "fecha": "2026-08-18T20:45:22+00:00"
         }
       ]
     }
@@ -17294,20 +17300,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 709.25,
-        "var_dia_pct": 0.5458
+        "precio": 707.36,
+        "var_dia_pct": 0.2779
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 719.16,
-        "var_dia_pct": 0.23
+        "precio": 716.24,
+        "var_dia_pct": -0.177
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 381.22,
-        "var_dia_pct": 0.5751
+        "precio": 380.21,
+        "var_dia_pct": 0.3087
       }
     ],
     "chile": {
