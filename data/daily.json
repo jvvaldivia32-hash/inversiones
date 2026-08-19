@@ -1,11 +1,11 @@
 {
-  "generado": "2026-08-19T04:30:27.271047+00:00",
+  "generado": "2026-08-19T05:23:02.667730+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Trump anuncia un acuerdo con Canadá para pausar los aranceles",
-        "resumen": "El presidente estadounidense Donald Trump aplazó tres días la imposición de nuevos aranceles a productos canadienses, mientras ambos países ultiman un acuerdo comercial. Washington y Ottawa lograron un pacto para evitar gravámenes del 50 por ciento poco antes de que expirara el plazo límite.",
+        "titulo_neutral": "Trump pausa los aranceles a Canadá tras un acuerdo",
+        "resumen": "El presidente estadounidense Donald Trump decidió posponer temporalmente la aplicación de nuevos gravámenes comerciales a productos procedentes de Canadá. Esta pausa de tres días se produce mientras ambos gobiernos ultiman un acuerdo arancelario.",
         "articulos": [
           {
             "titular": "Trump pauses new tariffs on Canada and says countries close to a deal",
@@ -17,13 +17,22 @@
             "fecha": "2026-08-19T03:56:35+00:00"
           },
           {
-            "titular": "US, Canada reach deal to pause steep tariffs",
+            "titular": "Trump pauses 50 percent tariff on Canada in last-minute deal",
             "extracto": "",
             "medio": "Al Jazeera",
             "grupo": "Al Jazeera",
             "lean": "sin-clasificar",
             "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss",
             "fecha": "2026-08-19T02:35:15+00:00"
+          },
+          {
+            "titular": "Trump pauses 50% tariffs on goods from Canada, says two sides have a deal - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT190OW5VSmgxa3lud1N6Zm9zbUxGUXpMMEEyRXc4R0M5S3RNMld4YXh4ZjRxc2lNcm9TQ0JOcXVjY0tVYnBveHN6RWcwcXZ3dkxoajNzV3VXNFl1TGFvV1dIaTJUT05vQ1pnRmpkRlFRWmxvUzF2X2d0RUg3STRBQmZWaGVWenhtdzVsS1NtdTJ6b0NyUVk2UUwwNFRfam5DWUp4dEcydUtRQQ?oc=5",
+            "fecha": "2026-08-19T02:33:35+00:00"
           },
           {
             "titular": "Trump says US and Canada strike deal, temporarily pauses tariffs - Reuters",
@@ -47,8 +56,8 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Los Emiratos Árabes Unidos imponen un embargo comercial a Irán",
-        "resumen": "Irán rechazó haber lanzado misiles hacia los Emiratos Árabes Unidos y calificó el episodio como una maniobra encubierta. Mientras tanto, Washington descartó negociaciones inmediatas con Teherán y aseguró que el estrecho de Ormuz continúa operativo a pesar de la menor actividad naviera.",
+        "titulo_neutral": "Emiratos Árabes Unidos impone un embargo comercial a Irán",
+        "resumen": "Irán ha desmentido haber lanzado proyectiles contra los Emiratos Árabes Unidos, calificando el episodio de falsa bandera. Por su parte, Washington afirma que no existen planes de diálogo actuales y sostiene que el estrecho de Ormuz continúa operativo.",
         "articulos": [
           {
             "titular": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks",
@@ -81,7 +90,7 @@
       },
       {
         "titulo_neutral": "Bond selloff slows but stocks wobble - Reuters",
-        "resumen": "La fuerte caída en el mercado de bonos comenzó a moderarse, aunque las bolsas de valores continúan mostrando un comportamiento inestable e irregular.",
+        "resumen": "Las ventas masivas en el mercado de bonos han perdido intensidad, aunque los mercados bursátiles continúan mostrando inestabilidad. Los inversores vigilan de cerca los movimientos de la deuda pública y su impacto en la renta variable.",
         "articulos": [
           {
             "titular": "Bond selloff slows but stocks wobble - Reuters",
@@ -102,8 +111,30 @@
         "cobertura_unilateral": true
       },
       {
+        "titulo_neutral": "Dollar drifts near multi-month lows as Treasury yields ease; Fed minutes awaited - Reuters",
+        "resumen": "La cotización del dólar se aproxima a mínimos de varios meses a la espera de las minutas de la Reserva Federal. Este movimiento cambiario coincide con una disminución en los rendimientos de los bonos del Tesoro estadounidense.",
+        "articulos": [
+          {
+            "titular": "Dollar drifts near multi-month lows as Treasury yields ease; Fed minutes awaited - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYkQwN2c5MVlJbi1FREYxMXBtbGMtWWliU2tWZnF3ZjhvdmY3U0RUSG5Dbk5hX183aXBxelVUbWJKV2pXSzZDMF84Y3NLcmFsa3hDUkZ2NEg0RTZSdVdvR0UzMXpYbVlmY2duT2tuaUc5WTFLak15VkVMMDlCVTN2cDZkZGV5SG03VnhRRWVOVHZGWEpRckJveVpEa08xT1BvcEJtSEhubE9KVmJ4SUw4LVJiY0lhbHVzX1FKZ0lMZnRGcDA?oc=5",
+            "fecha": "2026-08-19T01:31:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Gold firms as Treasury yields ease; Fed minutes in focus - Reuters",
-        "resumen": "Los precios del oro registraron un repunte debido a la disminución en los rendimientos de los bonos del Tesoro estadounidense, mientras los inversores aguardan la publicación de las actas de la Reserva Federal.",
+        "resumen": "El oro registra ganancias impulsado por la bajada en los rendimientos de los bonos soberanos. Los inversores mantienen su atención puesta en la próxima publicación de actas del banco central estadounidense.",
         "articulos": [
           {
             "titular": "Gold firms as Treasury yields ease; Fed minutes in focus - Reuters",
@@ -124,8 +155,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Anthropic prepara una salida a bolsa",
-        "resumen": "Los inversionistas de Anthropic anticipan que la oferta pública inicial de la startup de inteligencia artificial será la más grande de la historia. Por otro lado, la inflación en Estados Unidos experimentó un ligero descenso en julio impulsada por la caída en los valores de los combustibles.",
+        "titulo_neutral": "Anthropic prepares supervoting power for founders ahead of IPO, the Information reports - Reuters",
+        "resumen": "Según informes recientes, la compañía Anthropic se está preparando para otorgar un poder de voto reforzado a sus fundadores de cara a una inminente oferta pública de venta.",
         "articulos": [
           {
             "titular": "Anthropic prepares supervoting power for founders ahead of IPO, the Information reports - Reuters",
@@ -135,29 +166,19 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdWhlcVlRMWxYS3FJNUhUVXRBbHBaMXh6OTdJYm9JODFsNUF3Z2NVd2tjWGpCUkExSENidW9ZSzlObEtvbWJ4dlIxd21ab3lseXRRY21ad1dyeGdNV2dZdXNWc0lhR3NBYWo4SGwxYm9wZi1CVzNXQlVObGROTVZxcm93SzlIVkhJTG5QWVplMV9WNm9yZEpsOTZxb0Z5QjJ4OWF4czUtRDdkWWV5TlRiVzVqWWV0YXd3WEVQQw?oc=5",
             "fecha": "2026-08-18T22:22:54+00:00"
-          },
-          {
-            "titular": "Anthropic’s anticipated $2tn IPO",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
-            "fecha": "2026-08-13T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Global bond markets put governments on notice over fiscal, inflation risks - Reuters",
-        "resumen": "Los mercados globales de deuda soberana enviaron una advertencia a las administraciones públicas ante los crecientes peligros asociados al manejo fiscal y las presiones inflacionarias.",
+        "resumen": "Los mercados internacionales de deuda pública están enviando advertencias a los gobiernos debido al incremento de los riesgos fiscales y las presiones inflacionarias. Los inversores exigen mayor disciplina presupuestaria ante un escenario económico incierto.",
         "articulos": [
           {
             "titular": "Global bond markets put governments on notice over fiscal, inflation risks - Reuters",
@@ -179,7 +200,7 @@
       },
       {
         "titulo_neutral": "Trading Day: Bonds slam stocks - Reuters",
-        "resumen": "La fuerte contracción en el mercado de renta fija provocó un impacto negativo inmediato en las principales bolsas de valores.",
+        "resumen": "La jornada financiera estuvo marcada por un fuerte impacto negativo de los bonos sobre el desempeño de las acciones. La presión en la renta fija arrastró a la baja a los principales índices bursátiles.",
         "articulos": [
           {
             "titular": "Trading Day: Bonds slam stocks - Reuters",
@@ -198,34 +219,12 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "AI chip startup Etched doubles valuation to $21 billion in under a month - Reuters",
-        "resumen": "La empresa emergente de semiconductores para inteligencia artificial, Etched, duplicó su valor de mercado hasta alcanzar los 21 mil millones de dólares en menos de treinta días.",
-        "articulos": [
-          {
-            "titular": "AI chip startup Etched doubles valuation to $21 billion in under a month - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ3NNZlBGNU1FVmtQWnVzMlc1SjFEVmtwYWJLNVJTYUpJS0NEb29iT0NhR1R5bUdKMlhqUWsyMjRJekVtcWFWb3dCX1lHMWlFNHJVLTZCeEoycW1ZdE03VThfZDEzellONHd4ZnJ3RlNEYlA4cGJReEFvaG13bTR0MHItbHlWN3pMWDNMN3JMVkJQNFo2aHFTQUw1QTlrWUt0V0FKamtGSm5rWUVT?oc=5",
-            "fecha": "2026-08-18T18:41:39+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
         "titulo_neutral": "El triste fin del sueño internacional de la UC: fue apabullada en casa por Estudiantes y se despide de la Copa Libertadores",
-        "resumen": "El conjunto de Universidad Católica quedó eliminado del torneo continental tras sufrir una contundente derrota como local ante el cuadro argentino Estudiantes. Pese a un desempeño previo favorable, el equipo nacional no logró superar la instancia de octavos de final.",
+        "resumen": "El conjunto deportivo chileno quedó eliminado del torneo continental tras sufrir una goleada como local frente a su rival argentino en el partido de vuelta. Pese a un buen desempeño previo, el cuadro nacional no logró contener la superioridad del equipo visitante.",
         "articulos": [
           {
             "titular": "El triste fin del sueño internacional de la UC: fue apabullada en casa por Estudiantes y se despide de la Copa Libertadores",
@@ -269,7 +268,7 @@
       },
       {
         "titulo_neutral": "Cámara aprueba proyecto que prohíbe las carreras de perros y rechaza propuesta que buscaba regularlas",
-        "resumen": "La cámara baja dio luz verde a una propuesta legislativa que prohíbe las competencias con canes en todo el territorio nacional, desestimando una alternativa de regulación. Debido a la introducción de modificaciones, el texto legislativo regresará a la comisión competente para su análisis detallado.",
+        "resumen": "La cámara baja dio luz verde a una propuesta legislativa que prohíbe las competiciones con canes en todo el país. Debido a modificaciones introducidas, el texto deberá retornar a una comisión especializada para su análisis detallado.",
         "articulos": [
           {
             "titular": "Cámara aprueba proyecto que prohíbe las carreras de perros y rechaza propuesta que buscaba regularlas",
@@ -290,8 +289,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Prisión preventiva para los hermanos Larraín y Michael Clark en el caso Sartor",
-        "resumen": "El antiguo líder de Azul Azul fue trasladado al centro penitenciario Capitán Yáber, en tanto que otros involucrados fueron derivados a Santiago 1. Asimismo, se decretó la medida cautelar más severa para Sergio Yáñez.",
+        "titulo_neutral": "Prisión preventiva para los imputados en el caso Sartor",
+        "resumen": "El antiguo dirigente deportivo y los demás involucrados en una indagatoria judicial fueron enviados a recintos penitenciarios bajo prisión preventiva. Adicionalmente, se fijó la medida cautelar más gravosa para otro de los vinculados.",
         "articulos": [
           {
             "titular": "Formalización de caso Sartor: tribunal decreta prisión preventiva para hermanos Larraín y Michael Clark",
@@ -323,7 +322,7 @@
       },
       {
         "titulo_neutral": "El dispar balance de los locatarios de Meiggs a un año de la intervención de Santiago: “Aquí adentro está seguro, pero de las rejas para afuera no”",
-        "resumen": "A un año de la puesta en marcha de un programa de intervención urbana en el sector comercial de Meiggs por parte de las autoridades municipales y gubernamentales, los comerciantes del área expresan opiniones divididas sobre los resultados en materia de seguridad.",
+        "resumen": "A más de un año de haber puesto en marcha un programa de intervención urbana en un conocido sector comercial de la capital, los comerciantes expresan opiniones divididas respecto a los resultados. Mientras algunos perciben mejoras dentro de los locales, advierten que los problemas persisten en el exterior.",
         "articulos": [
           {
             "titular": "El dispar balance de los locatarios de Meiggs a un año de la intervención de Santiago: “Aquí adentro está seguro, pero de las rejas para afuera no”",
@@ -345,7 +344,7 @@
       },
       {
         "titulo_neutral": "Xepelin se asocia con BICE para lanzar cuenta corriente digital para PYME y no pedirá licencia bancaria en Chile",
-        "resumen": "Mediante este despliegue, la compañía tecnológica financiera nacional apunta a consolidarse como una alternativa integral para la gestión de pagos, financiamiento y servicios a proveedores.",
+        "resumen": "Mediante este despliegue comercial, la compañía tecnológica financiera pretende consolidarse como un proveedor de servicios múltiples, abarcando financiamiento y transacciones comerciales.",
         "articulos": [
           {
             "titular": "Xepelin se asocia con BICE para lanzar cuenta corriente digital para PYME y no pedirá licencia bancaria en Chile",
@@ -366,8 +365,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Decreto de estado de catástrofe en Tocopilla por aluvión y alerta roja en comunas de Antofagasta",
-        "resumen": "La solicitud del régimen extraordinario provino del jefe regional de Antofagasta para agilizar trámites burocráticos y fondos operativos. Desde la casa de gobierno anunciaron que el mandatario visitará la zona para evaluar el escenario y dialogar con las autoridades locales.",
+        "titulo_neutral": "Estado de catástrofe en Tocopilla por aluvión y alerta roja en Antofagasta",
+        "resumen": "La solicitud de activar un régimen de excepción provino de autoridades locales para obtener fondos y agilizar trámites administrativos. Desde el Ejecutivo anunciaron un desplazamiento a la zona afectada para supervisar los daños y sostener encuentros con líderes de la localidad.",
         "articulos": [
           {
             "titular": "Kast decreta estado de catástrofe en Tocopilla tras aluvión y Senapred declara Alerta Roja en cuatro comunas de la Región de Antofagasta",
@@ -388,8 +387,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Rechazo y falta de consenso en torno a la reforma de seguridad del Gobierno",
-        "resumen": "Una iniciativa legislativa sobre seguridad pública promovida por la administración central llegó a la Cámara Alta con carácter urgente para su análisis en comisiones. Diversos parlamentarios han expresado dudas y reparos frente a este nuevo cuerpo normativo.",
+        "titulo_neutral": "Desacuerdos y rechazo político en torno a la reforma de seguridad",
+        "resumen": "Una iniciativa legal de carácter urgente llegó al Parlamento para ser analizada por distintas comisiones técnicas. Parlamentarios que respaldaron normativas económicas previas muestran ahora reparos ante esta propuesta en materia de seguridad.",
         "articulos": [
           {
             "titular": "Gobierno no logra consenso del oficialismo en torno a la reforma de seguridad y la oposición la rechaza de plano",
@@ -422,6 +421,24 @@
     ],
     "actualidad": [
       {
+        "titular": "Champions League: Everything still to play for between Lyon and Fenerbahce",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/tv-shows/sports/20260819-champions-league-everything-still-to-play-for-between-lyon-and-fenerbahce",
+        "fecha": "2026-08-19T05:08:04+00:00"
+      },
+      {
+        "titular": "Sacked Ukrainian defence minister calls for presidential election",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-19T04:44:41+00:00"
+      },
+      {
+        "titular": "Attackers go ‘house to house’ killing 25 villagers in central Nigeria",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss",
+        "fecha": "2026-08-19T04:25:26+00:00"
+      },
+      {
         "titular": "Borrowing costs hit multi-decade highs",
         "medio": "Financial Times",
         "url": "https://shows.acast.com/ftnewsbriefing/episodes/borrowing-costs-hit-multi-decade-highs",
@@ -432,24 +449,6 @@
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/bali-gym-owner-kicks-out-three-israeli-tourists-for-links-to?traffic_source=rss",
         "fecha": "2026-08-19T03:44:44+00:00"
-      },
-      {
-        "titular": "US unions sue over new visa rule for foreign students, journalists",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/19/us-unions-sue-over-new-visa-rule-for-foreign-students-journalists?traffic_source=rss",
-        "fecha": "2026-08-19T03:42:28+00:00"
-      },
-      {
-        "titular": "South Korea shortens war games with US, citing Washington request",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-19T03:39:41+00:00"
-      },
-      {
-        "titular": "Five Australian rules footy players suspended amid police investigation",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cg4d7q2ne7go?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-19T03:36:59+00:00"
       }
     ]
   },
@@ -1127,6 +1126,10 @@
           },
           {
             "fecha": "2026-08-19T04:00:00",
+            "valor": 502.96
+          },
+          {
+            "fecha": "2026-08-19T05:00:00",
             "valor": 502.96
           }
         ],
@@ -4351,7 +4354,7 @@
         },
         {
           "titular": "How Investors Are Reacting To Berkshire Hathaway (BRK.A) Q2 Surge And Greg Abel’s Bold Equity Bets",
-          "extracto": "Durante el segundo trimestre de 2026, Berkshire Hathaway registró ingresos por 101.810 millones de dólares y un beneficio neto de 25.670 millones. Bajo la dirección del nuevo director ejecutivo Greg Abel, el conglomerado incrementó notablemente sus adquisiciones de acciones y llevó a cabo su mayor recompra de títulos desde el año 2021.",
+          "extracto": "Durante el segundo trimestre de 2026, Berkshire Hathaway registró ingresos por 101.810 millones de dólares y un incremento significativo en sus utilidades. Bajo la dirección del nuevo director ejecutivo Greg Abel, el conglomerado intensificó sus inversiones en acciones y ejecutó su mayor recompra de títulos en cinco años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4369,7 +4372,7 @@
         },
         {
           "titular": "Berkshire Boosts Alphabet Stake 83% as Buffett Makes Major AI Bet",
-          "extracto": "La compañía amplió su participación en Alphabet hasta alcanzar aproximadamente 106 millones de acciones, valoradas en 37.800 millones de dólares.",
+          "extracto": "La compañía incrementó su participación accionaria en Alphabet hasta alcanzar aproximadamente 106 millones de títulos, valorados en 37.800 millones de dólares.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5245,6 +5248,10 @@
           },
           {
             "fecha": "2026-08-19T04:00:00",
+            "valor": 266.99
+          },
+          {
+            "fecha": "2026-08-19T05:00:00",
             "valor": 266.99
           }
         ],
@@ -8469,7 +8476,7 @@
         },
         {
           "titular": "McDonald’s is One Dividend Hike Away from Becoming a Dividend King",
-          "extracto": "McDonald's se encuentra a un solo incremento anual de alcanzar el estatus de Rey del Dividendo, tras haber aumentado sus pagos a los accionistas durante 49 años consecutivos. Los analistas debaten si la corporación mantendrá esta trayectoria ascendente en el futuro.",
+          "extracto": "McDonald's acumula 49 años consecutivos incrementando sus pagos a los accionistas, situándose a un solo año de alcanzar la categoría de Rey del Dividendo. Los inversores analizan ahora la sostenibilidad futura de esta política de retribución.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8478,7 +8485,7 @@
         },
         {
           "titular": "Is McDonald's a Buy Today as Lower Valuation Meets Execution Risk?",
-          "extracto": "La caída en las valoraciones bursátiles de la cadena de comida rápida atrae la atención, aunque el descenso en la afluencia de clientes en Estados Unidos, los retos en sus estrategias de valor y el incremento de los costos exigen cautela a los inversores.",
+          "extracto": "Una cotización más atractiva contrasta con los desafíos actuales de la cadena de comida rápida, marcados por la caída en la afluencia de clientes en Estados Unidos, complicaciones en las ofertas de valor y el incremento de los gastos operativos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8487,7 +8494,7 @@
         },
         {
           "titular": "McDonald’s Lost Money When Workers Missed Shifts. Here’s the ‘Crazy Beneficial’ Solution That Finally Fixed It and Saved $35,000 a Month.",
-          "extracto": "Una aplicación móvil recientemente lanzada busca facilitar los desplazamientos diarios de la plantilla laboral de la empresa hacia sus centros de trabajo.",
+          "extracto": "Se ha lanzado una aplicación tecnológica diseñada para facilitar el desplazamiento diario de la plantilla de trabajadores hacia sus centros de empleo en la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8496,7 +8503,7 @@
         },
         {
           "titular": "McDonald's: Traffic Disappointed, but the Rent Still Gets Paid",
-          "extracto": "Tras aplicar múltiples aumentos en sus tarifas para contrarrestar la inflación, la compañía enfrenta dificultades para recuperar el flujo habitual de consumidores.",
+          "extracto": "Tras aplicar sucesivos aumentos de tarifas para contrarrestar la inflación, la multinacional enfrenta actualmente dificultades para recuperar el flujo habitual de consumidores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9526,6 +9533,10 @@
           },
           {
             "fecha": "2026-08-19T04:00:00",
+            "valor": 481.63
+          },
+          {
+            "fecha": "2026-08-19T05:00:00",
             "valor": 481.63
           }
         ],
@@ -12741,7 +12752,7 @@
       "noticias": [
         {
           "titular": "Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains Over Reliance on OpenAI. Here's Why That Matters for Investors.",
-          "extracto": "La inversión de Microsoft en inteligencia artificial busca desarrollar un modelo de negocio propio, escalable y altamente rentable. Esta estrategia se apoya totalmente en su propia infraestructura tecnológica.",
+          "extracto": "La inversión de Microsoft en inteligencia artificial apunta al desarrollo de un modelo comercial autónomo y de mayor rentabilidad mediante infraestructura propia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12750,7 +12761,7 @@
         },
         {
           "titular": "Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.",
-          "extracto": "Mantener el ritmo de valor actual requiere un crecimiento anual aproximado del diez por ciento. No obstante, la compañía tecnológica ha superado esta marca triplicando sus ganancias en el mismo periodo.",
+          "extracto": "El crecimiento de los beneficios del gigante tecnológico ha superado ampliamente la tasa anual estimada del diez por ciento necesaria para justificar su cotización actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12759,7 +12770,7 @@
         },
         {
           "titular": "Microsoft Stock Defies Tech Selloff as Azure Growth Holds the Line",
-          "extracto": "A diferencia de la mayoría de las grandes empresas tecnológicas que registraron pérdidas, Microsoft mantuvo valores positivos. Esto demuestra la confianza continua de los inversores en la rentabilidad de sus herramientas de inteligencia artificial.",
+          "extracto": "Las acciones de Microsoft resistieron las caídas del sector gracias a la confianza de los mercados en la rentabilidad de sus herramientas de inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -12767,22 +12778,22 @@
           "fecha": "2026-08-18T20:53:01+00:00"
         },
         {
-          "titular": "Q2 Earnings Roundup: Microsoft (NASDAQ:MSFT) And The Rest Of The Automation Software Segment",
-          "extracto": "El cierre del ciclo de resultados financieros ofrece una oportunidad ideal para analizar el rendimiento del sector. En este contexto, resulta útil examinar el desempeño trimestral de Microsoft y otras empresas de software de automatización.",
+          "titular": "OpenAI's Revenue Growth Reportedly Slows As Anthropic Pulls Ahead  – Which AI Stocks Could Feel The Ripple Effects?",
+          "extracto": "Un informe de prensa señala que los ingresos trimestrales de OpenAI experimentaron un incremento moderado, mientras que los de su competidor Anthropic registraron un crecimiento mucho mayor.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-microsoft-nasdaq-191733756.html?.tsrc=rss",
-          "fecha": "2026-08-18T19:17:33+00:00"
+          "url": "https://stocktwits.com/news-articles/markets/equity/open-ai-s-revenue-growth-reportedly-slows-as-anthropic-pulls-ahead-which-ai-stocks-could-feel-the-ripple-effects/cZYdRc6RJkb?.tsrc=rss",
+          "fecha": "2026-08-19T02:13:57+00:00"
         },
         {
-          "titular": "These Telltale Signs Cue Microsoft Investors Despite Earnings Surge; Is Microsoft A Sell Now?",
-          "extracto": "Tras un repunte notable motivado por sus cuentas trimestrales, las acciones de Microsoft enfrentan posibles riesgos de venta. El crecimiento del treinta por ciento en las ganancias del cuarto trimestre estuvo impulsado por los sectores de la nube y la inteligencia artificial.",
+          "titular": "Apple Shares Jump Tuesday While the Nasdaq Plummets: Here’s Why It Led Magnificent 7 Stocks",
+          "extracto": "A pesar de las fuertes caídas bursátiles en el sector tecnológico y el índice Nasdaq, una de las principales empresas del mercado logró cerrar la sesión con ganancias.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/b7ed9635-6bc3-32bc-afc7-5e98c2451501/these-telltale-signs-cue.html?.tsrc=rss",
-          "fecha": "2026-08-18T19:11:36+00:00"
+          "url": "https://247wallst.com/investing/2026/08/18/apple-shares-jump-tuesday-while-the-nasdaq-plummets-heres-why-it-led-magnificent-7-stocks/?.tsrc=rss",
+          "fecha": "2026-08-19T02:52:45+00:00"
         }
       ],
       "fundamentales": {
@@ -13867,6 +13878,10 @@
           },
           {
             "fecha": "2026-08-19T04:00:00",
+            "valor": 705.4
+          },
+          {
+            "fecha": "2026-08-19T05:00:00",
             "valor": 705.4
           }
         ],
@@ -17082,7 +17097,7 @@
       "noticias": [
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "extracto": "El bajo costo del fondo VOO oculta amenazas internas que no suelen aparecer en las tablas comparativas de comisiones. Este riesgo latente merece atención más allá del ahorro en tarifas.",
+          "extracto": "El bajo costo del fondo VOO oculta amenazas internas que no aparecen en las tablas comparativas de comisiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17091,7 +17106,7 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF Be in 20 Years? History Has Good and Bad News for Investors.",
-          "extracto": "El principal fondo cotizado basado en el índice S&P 500 continúa presentándose como una opción financiera sólida para quienes adoptan una estrategia a largo plazo.",
+          "extracto": "El fondo cotizado líder del índice S&P 500 continúa siendo una opción sólida para quienes invierten a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17100,7 +17115,7 @@
         },
         {
           "titular": "What History Reveals About Buying the Vanguard S&P 500 ETF in Volatile Markets",
-          "extracto": "Las caídas temporales forman parte natural de la dinámica bursátil del S&P 500. La manera de gestionar estos episodios impacta directamente en la rentabilidad futura.",
+          "extracto": "Las caídas bursátiles forman parte habitual del comportamiento del S&P 500 y su gestión adecuada influye en la rentabilidad futura.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17109,7 +17124,7 @@
         },
         {
           "titular": "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
-          "extracto": "Ahorrar pequeñas cantidades de forma constante durante treinta años permite acumular un capital significativo para la jubilación. No obstante, la selección de los activos y su distribución resultan determinantes para el resultado final.",
+          "extracto": "Aportar de forma constante durante treinta años permite acumular un patrimonio considerable, condicionado por la selección y distribución de los activos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17118,7 +17133,7 @@
         },
         {
           "titular": "The Vanguard S&P 500 ETF (VOO) Beat the Vanguard Morningstar Total Stock Market ETF (VTI) for 4 Straight Years. Here's Why That's About to Change.",
-          "extracto": "El fondo cotizado de Vanguard enfocado en el mercado total estadounidense ofrece mayor diversidad y una inclinación hacia activos subvalorados en comparación con la alternativa centrada exclusivamente en el S&P 500.",
+          "extracto": "El fondo bursátil total de Vanguard ofrece mayor diversificación y un enfoque hacia empresas infravaloradas en comparación con el equivalente del S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
