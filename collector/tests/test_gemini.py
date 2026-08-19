@@ -200,6 +200,21 @@ def test_reescribir_resumenes_none_si_llamar_falla(monkeypatch):
     assert gemini.reescribir_resumenes(["algo"]) is None
 
 
+def test_reescribir_resumenes_min_max_frases_configurable(monkeypatch):
+    prompts = []
+
+    def _llamar_falso(prompt, schema):
+        prompts.append(prompt)
+        return {"resumenes": []}
+
+    monkeypatch.setattr(gemini, "_llamar", _llamar_falso)
+    gemini.reescribir_resumenes(["algo"])
+    gemini.reescribir_resumenes(["algo"], min_frases=2, max_frases=4)
+
+    assert "1 a 2 frases" in prompts[0]
+    assert "2 a 4 frases" in prompts[1]
+
+
 # --- extraer_segmentos / _cita_existe ---
 
 

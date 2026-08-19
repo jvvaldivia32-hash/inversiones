@@ -121,7 +121,11 @@ def _construir_bloque(articulos_crudos: list[dict], tope: int) -> list[dict]:
         " ".join(pool[i].get("_snippet_original", "") for i in indices).strip()
         for _, indices in grupos
     ]
-    resumenes = gemini.reescribir_resumenes(snippets_por_grupo)
+    # 2-4 frases acá (vs. el default 1-2 de gemini.reescribir_resumenes): este es el
+    # "resumen" de historia agrupada en Mundo/Chile, no el "extracto" por artículo de
+    # noticias_ticker() de abajo — el tope de 1-2 frases de la regla dura de copyright
+    # (CLAUDE.md) es solo para ese segundo caso.
+    resumenes = gemini.reescribir_resumenes(snippets_por_grupo, min_frases=2, max_frases=4)
     if resumenes is None:
         resumenes = [None] * len(grupos)
 

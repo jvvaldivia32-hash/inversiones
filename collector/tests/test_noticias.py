@@ -81,7 +81,9 @@ def test_construir_bloque_usa_gemini_cuando_responde(monkeypatch):
     monkeypatch.setattr(
         noticias.gemini, "agrupar_historias", lambda titulares: [("La Fed mantiene tasas", [0, 1])]
     )
-    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items: ["resumen ok"])
+    monkeypatch.setattr(
+        noticias.gemini, "reescribir_resumenes", lambda items, **kw: ["resumen ok"]
+    )
 
     bloque = noticias._construir_bloque(pool, tope=8)
     assert len(bloque) == 1
@@ -93,7 +95,7 @@ def test_construir_bloque_usa_gemini_cuando_responde(monkeypatch):
 def test_construir_bloque_cae_a_keywords_si_gemini_falla(monkeypatch):
     pool = [_articulo("Titular sin agrupar", "https://x.com/1")]
     monkeypatch.setattr(noticias.gemini, "agrupar_historias", lambda titulares: None)
-    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items: None)
+    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items, **kw: None)
 
     bloque = noticias._construir_bloque(pool, tope=8)
     assert len(bloque) == 1
@@ -104,7 +106,7 @@ def test_construir_bloque_cae_a_keywords_si_gemini_falla(monkeypatch):
 def test_construir_bloque_respeta_el_tope_despues_de_agrupar(monkeypatch):
     pool = [_articulo(f"T{i}", f"https://x.com/{i}") for i in range(5)]
     monkeypatch.setattr(noticias.gemini, "agrupar_historias", lambda titulares: None)
-    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items: None)
+    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items, **kw: None)
 
     bloque = noticias._construir_bloque(pool, tope=2)
     assert len(bloque) == 2
@@ -132,7 +134,7 @@ def test_recolectar_bloques_separa_mundo_de_actualidad(monkeypatch):
     monkeypatch.setattr(noticias.feeds, "FEEDS_CHILE", [("https://chile.com/feed", "C", "c.com")])
     monkeypatch.setattr(noticias.rss, "leer_feed", leer_feed_falso)
     monkeypatch.setattr(noticias.gemini, "agrupar_historias", lambda titulares: None)
-    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items: None)
+    monkeypatch.setattr(noticias.gemini, "reescribir_resumenes", lambda items, **kw: None)
 
     mundo, chile, actualidad, errores = noticias.recolectar_bloques()
     assert len(mundo) == 1

@@ -223,12 +223,18 @@ def agrupar_historias(titulares: list[str]) -> list[tuple[str, list[int]]] | Non
     return grupos
 
 
-def reescribir_resumenes(items: list[str]) -> list[str | None] | None:
+def reescribir_resumenes(
+    items: list[str], min_frases: int = 1, max_frases: int = 2
+) -> list[str | None] | None:
     """`items[i]` es el snippet original (RSS) de una historia o artículo. Devuelve un
-    resumen reescrito de 1-2 frases por índice, o None en esa posición si Gemini no pudo o
-    si el resultado resultó ser una copia literal del original (regla dura de copyright —
-    se aplica acá adentro, quien llama nunca recibe una copia). None (no la lista) si la
-    llamada completa falló."""
+    resumen reescrito de `min_frases`-`max_frases` por índice, o None en esa posición si
+    Gemini no pudo o si el resultado resultó ser una copia literal del original (regla dura
+    de copyright — se aplica acá adentro, quien llama nunca recibe una copia). None (no la
+    lista) si la llamada completa falló.
+
+    El default 1-2 es el que exige la regla dura de copyright para `extracto` (por
+    artículo, noticias por ticker) — quien llame para `resumen` de historia agrupada
+    (Mundo/Chile) puede pedir más frases porque ahí no aplica ese tope."""
     if not items:
         return []
     lineas = "\n".join(f"{i}: {texto}" for i, texto in enumerate(items) if texto)
@@ -236,10 +242,12 @@ def reescribir_resumenes(items: list[str]) -> list[str | None] | None:
         return [None] * len(items)
 
     prompt = (
-        "Para cada fragmento de noticia numerado abajo, escribe un resumen neutral de 1 a "
-        "2 frases en español, factual, SIN copiar frases textuales del original — "
-        "reescribe con tus propias palabras el mismo hecho. Si un índice no tiene texto "
-        "suficiente para resumir, omítelo de la respuesta.\n\n"
+        f"Para cada fragmento de noticia numerado abajo, escribe un resumen neutral de "
+        f"{min_frases} a {max_frases} frases en español, factual, SIN copiar frases "
+        "textuales del original — reescribe con tus propias palabras el mismo hecho, con "
+        "el contexto suficiente para entender qué pasó y por qué importa sin tener que leer "
+        "la noticia original. Si un índice no tiene texto suficiente para resumir, omítelo "
+        "de la respuesta.\n\n"
         f"{lineas}"
     )
     schema = {
