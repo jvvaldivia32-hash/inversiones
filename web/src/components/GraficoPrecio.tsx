@@ -90,11 +90,22 @@ interface GraficoPrecioProps {
   comparar?: { ticker: string; serie: SeriePrecio } | null;
 }
 
+// Recharts no hereda los colores del tema por defecto: sin esto, la fecha del tooltip
+// sale en un gris casi invisible propio de la librería (visto de verdad, reportado por
+// José — "se ve apenas"), pese a que el valor sí se ve bien porque toma el color de la
+// serie. Fijamos fondo/borde/texto a mano con las mismas variables del resto de la app.
 const tooltipEstilo = {
   fontSize: 12,
   fontFamily: "var(--fuente-mono)",
+  background: "var(--papel)",
   border: "1px solid var(--linea)",
   borderRadius: 4,
+  color: "var(--tinta)",
+};
+
+const tooltipEstiloEtiqueta = {
+  color: "var(--tinta)",
+  marginBottom: 2,
 };
 
 const ejeTick = { fontSize: 11, fill: "var(--tinta-suave)" };
@@ -138,6 +149,7 @@ export default function GraficoPrecio({
               formatter={(valor) => formatPct(Number(valor))}
               labelFormatter={(label) => formatFechaTooltip(String(label), es5A)}
               contentStyle={tooltipEstilo}
+              labelStyle={tooltipEstiloEtiqueta}
             />
             <Line
               type="monotone"
