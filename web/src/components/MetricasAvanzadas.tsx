@@ -4,7 +4,6 @@ import {
   contextoRoe,
   contextoRoicRoce,
   contextoMargenOperativo,
-  contextoDeudaPatrimonio,
   contextoDeudaNetaEbitda,
   contextoPE,
   contextoDividendYield,
