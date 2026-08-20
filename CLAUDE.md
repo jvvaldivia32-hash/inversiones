@@ -94,3 +94,44 @@ PAT distinto, permiso Contents R/W acotado *solo* al repo `inversiones-privado`,
 alcance a un token que ya escribe en el repo público), `WATCHLIST_EDIT_KEY` (clave
 compartida que protege el POST de esos tres endpoints — no es autenticación real, es el
 candado mínimo para una app de un solo usuario).
+
+## Pendiente (al cerrar la sesión del 2026-08-19)
+
+Todo lo de abajo ya está commiteado y deployado a producción — lo que falta es que José lo
+pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
+aprobado para seguir sin que él confirme primero.
+
+- **Testeo pendiente del usuario** (nada bloqueante, solo falta que lo use): comprar/
+  vender/editar/borrar en "mi inversión" (`MiInversion.tsx`) con clave real — el flujo
+  completo solo se probó con clave incorrecta (401) porque no tengo el `WATCHLIST_EDIT_KEY`
+  real; los recuadros "HOY"/"TU POSICIÓN" del header; el contraste del tooltip del gráfico;
+  el contexto nuevo en métricas avanzadas y Radar; los resúmenes de Mundo/Chile más largos
+  (esto último ya confirmado corriendo en `daily.json`, solo falta que él lo lea y opine).
+
+- **Contexto de métricas — iteración 2 (pendiente de decisión):** se implementó la
+  iteración 1 (rangos de referencia fijos tipo libro de texto, `web/src/lib/
+  referenciasMetricas.ts`). José pidió probar esa primero y evaluar después si vale la pena
+  una iteración 2 con explicación más larga generada por Gemini. No armar la iteración 2
+  hasta que él la pida explícitamente después de probar la 1.
+
+- **Semáforo de recomendación de compra (verde→rojo):** José lo propuso, se le explicó que
+  choca con la regla dura "el Radar nunca genera texto tipo 'deberías comprar'" y por qué
+  existe esa regla. Se ofreció como alternativa compatible el contexto de métricas de arriba,
+  y José lo aceptó en su lugar — pero nunca dijo explícitamente "no lo construyas nunca". Si
+  lo vuelve a pedir después de probar el contexto de métricas, aplica el protocolo de
+  siempre: señalar el choque con la regla, preguntar si de verdad quiere la excepción, y si
+  dice que sí, documentarla acá con fecha antes de construirla.
+
+- **Buscador de data avanzada para cualquier ticker** (sin necesidad de agregarlo a la
+  watchlist): idea de José, no empezada. Requeriría una función serverless que llame EDGAR/
+  Finnhub en vivo al buscar (Vercel no corre Python, así que habría que reimplementar en
+  TypeScript partes de lo que hoy hace el collector) — choca con la frase "el visor sigue sin
+  llamar APIs en vivo para mostrar datos" de la sección Stack. Factible en $0, pero es un
+  proyecto en sí mismo, no un ajuste rápido. Conversarlo con calma antes de empezar a picar
+  código, no asumir alcance.
+
+- **Extender "métricas avanzadas" completas al Radar** (Market Cap, EV, ROE, P/E, etc. —
+  hoy el Radar solo tiene los 3 campos de screening: `ingresos_var_pct`, `margen_op`,
+  `deuda_patrimonio`): se lo propuse a José como respuesta a "necesito más data para
+  decidir", pero la conversación se desvió hacia el contexto de métricas y nunca confirmó si
+  quiere esto también. Preguntar antes de construirlo — no es trabajo ya aprobado.
