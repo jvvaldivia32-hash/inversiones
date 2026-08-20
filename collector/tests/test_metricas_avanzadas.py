@@ -60,7 +60,7 @@ def test_ttm_serie_vacia_o_none_da_none():
 
 def test_calcular_metricas_sin_datos_da_none():
     ahora = datetime.datetime(2026, 8, 14, tzinfo=datetime.timezone.utc)
-    assert metricas_avanzadas.calcular_metricas(None, None, 100, [], [], ahora) is None
+    assert metricas_avanzadas.calcular_metricas("XYZ", None, None, 100, [], [], ahora) is None
 
 
 def test_calcular_metricas_completo(monkeypatch):
@@ -70,13 +70,14 @@ def test_calcular_metricas_completo(monkeypatch):
     ahora = datetime.datetime(2026, 8, 14, tzinfo=datetime.timezone.utc)
 
     resultado = metricas_avanzadas.calcular_metricas(
-        _fundamentales_sinteticos(), _balance_sintetico(), 100.0, [], [], ahora
+        "PEP", _fundamentales_sinteticos(), _balance_sintetico(), 100.0, [], [], ahora
     )
 
     assert resultado["market_cap_musd"] == 1000.0
     assert resultado["enterprise_value_musd"] == 1120.0
     assert resultado["deuda_neta_musd"] == 120.0
     assert round(resultado["deuda_neta_ebitda"], 2) == 1.2
+    assert resultado["deuda_patrimonio"] == 0.3
     assert resultado["margen_bruto_pct"] == 50.0
     assert resultado["margen_ebit_pct"] == 25
     assert resultado["roa_pct"] == 7.5
@@ -105,7 +106,7 @@ def test_calcular_metricas_campo_faltante_no_tumba_los_demas(monkeypatch):
     balance["acciones_en_circulacion"] = None
 
     resultado = metricas_avanzadas.calcular_metricas(
-        _fundamentales_sinteticos(), balance, 100.0, [], [], ahora
+        "XYZ", _fundamentales_sinteticos(), balance, 100.0, [], [], ahora
     )
 
     assert resultado["market_cap_musd"] is None
@@ -115,6 +116,21 @@ def test_calcular_metricas_campo_faltante_no_tumba_los_demas(monkeypatch):
     assert resultado["roa_pct"] == 7.5
     assert resultado["maximo_52s"] is None
     assert resultado["minimo_52s"] is None
+
+
+def test_calcular_metricas_banco_deuda_patrimonio_da_none(monkeypatch):
+    """Igual criterio que radar.evaluar_sana(): en bancos la deuda es el modelo de negocio,
+    no una señal de salud — el ratio no se calcula para no leerse como "alto" siempre."""
+    monkeypatch.setattr(
+        metricas_avanzadas.radar, "maximo_minimo_52s", lambda serie, ahora: None
+    )
+    ahora = datetime.datetime(2026, 8, 14, tzinfo=datetime.timezone.utc)
+
+    resultado = metricas_avanzadas.calcular_metricas(
+        "JPM", _fundamentales_sinteticos(), _balance_sintetico(), 100.0, [], [], ahora
+    )
+
+    assert resultado["deuda_patrimonio"] is None
 
 
 def test_calcular_beta_serie_corta_da_none():

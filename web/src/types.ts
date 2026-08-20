@@ -67,6 +67,9 @@ export interface MetricasAvanzadas {
   enterprise_value_musd: number | null;
   deuda_neta_musd: number | null;
   deuda_neta_ebitda: number | null;
+  // null también para bancos (mismo criterio que RadarCandidato.metricas.deuda_patrimonio,
+  // sección 3.3 del plan madre) — no es una señal de salud en ese modelo de negocio.
+  deuda_patrimonio: number | null;
   margen_bruto_pct: number | null;
   margen_ebit_pct: number | null;
   roa_pct: number | null;
@@ -166,6 +169,26 @@ export interface ReferenciasChile {
 export interface Referencias {
   indices: IndiceReferencia[];
   chile: ReferenciasChile;
+}
+
+// Simulador de cartera ficticia ("paper investing", extra 2026-08-20) — mismo modelo que
+// mi-inversion (acciones + costo base, nunca el monto/% crudo), más un saldo de efectivo
+// del que salen las compras y al que vuelven las ventas.
+export interface PaperInvestingAporte {
+  fecha: string;
+  monto_usd: number;
+}
+
+export interface PaperInvestingPosicion {
+  acciones: number;
+  costo_base_usd: number;
+}
+
+export interface PaperInvestingResumen {
+  fecha_inicio: string;
+  saldo_no_invertido_usd: number;
+  aportes: PaperInvestingAporte[];
+  posiciones: Record<string, PaperInvestingPosicion>;
 }
 
 export interface RadarCandidato {

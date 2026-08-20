@@ -60,11 +60,13 @@ para *mostrar* datos de mercado — precios, noticias, fundamentales vienen úni
 `data/daily.json`. La excepción son caminos acotados de lectura/escritura de datos propios
 del usuario, cada uno una función serverless de Vercel que habla directo con la API de
 GitHub (nunca con un token en el navegador): `web/api/watchlist.ts` (edita
-`watchlist.txt`), `web/api/tesis.ts` (edita `data/tesis.json`) — ambas escriben en este
-mismo repo con `GITHUB_WRITE_TOKEN` — y `web/api/mi-inversion.ts`, que en cambio escribe en
-un repo aparte y privado, `inversiones-privado`, con un token distinto
+`watchlist.txt`), `web/api/tesis.ts` (edita `data/tesis.json`) y `web/api/paperinvesting.ts`
+(edita `data/paperinvesting.json`, simulador de cartera ficticia — ver Pendiente) — las tres
+escriben en este mismo repo con `GITHUB_WRITE_TOKEN` — y `web/api/mi-inversion.ts`, que en
+cambio escribe en un repo aparte y privado, `inversiones-privado`, con un token distinto
 (`GITHUB_WRITE_TOKEN_PRIVADO`). Ver la excepción explícita más abajo para el porqué de ese
-repo separado.
+repo separado (y por qué `paperinvesting.ts` NO sigue ese mismo patrón: es plata ficticia,
+no hay nada que proteger).
 
 > **Excepción explícita #3 (decidida por el usuario, 2026-08-18):** "mi inversión"
 > (monto actual en USD y % de ganancia por posición, cargados a mano por el usuario) se
@@ -88,50 +90,74 @@ del Banco Central — el portal se rediseñó en algún momento de 2024+ y pasó
 contraseña por query params a un token único; el servicio SOAP viejo todavía pide
 usuario/contraseña pero no se usa acá, se usa el REST con `?token=`),
 `GITHUB_WRITE_TOKEN` (fine-grained PAT, solo permiso Contents R/W sobre este repo, usado por
-`web/api/watchlist.ts` y `web/api/tesis.ts`), `GITHUB_WRITE_TOKEN_PRIVADO` (fine-grained
-PAT distinto, permiso Contents R/W acotado *solo* al repo `inversiones-privado`, usado por
-`web/api/mi-inversion.ts` — separado del token de arriba a propósito, para no ampliarle el
-alcance a un token que ya escribe en el repo público), `WATCHLIST_EDIT_KEY` (clave
-compartida que protege el POST de esos tres endpoints — no es autenticación real, es el
-candado mínimo para una app de un solo usuario).
+`web/api/watchlist.ts`, `web/api/tesis.ts` y `web/api/paperinvesting.ts`),
+`GITHUB_WRITE_TOKEN_PRIVADO` (fine-grained PAT distinto, permiso Contents R/W acotado *solo*
+al repo `inversiones-privado`, usado por `web/api/mi-inversion.ts` — separado del token de
+arriba a propósito, para no ampliarle el alcance a un token que ya escribe en el repo
+público), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de esos cuatro
+endpoints — no es autenticación real, es el candado mínimo para una app de un solo usuario).
 
-## Pendiente (al cerrar la sesión del 2026-08-19)
+## Pendiente (al cerrar la sesión del 2026-08-20)
 
-Todo lo de abajo ya está commiteado y deployado a producción — lo que falta es que José lo
-pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
+Todo lo de abajo ya está commiteado — lo que falta es deployar (si no corrió solo) y que
+José lo pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
 aprobado para seguir sin que él confirme primero.
 
 - **Testeo pendiente del usuario** (nada bloqueante, solo falta que lo use): comprar/
   vender/editar/borrar en "mi inversión" (`MiInversion.tsx`) con clave real — el flujo
   completo solo se probó con clave incorrecta (401) porque no tengo el `WATCHLIST_EDIT_KEY`
   real; los recuadros "HOY"/"TU POSICIÓN" del header; el contraste del tooltip del gráfico;
-  el contexto nuevo en métricas avanzadas y Radar; los resúmenes de Mundo/Chile más largos
-  (esto último ya confirmado corriendo en `daily.json`, solo falta que él lo lea y opine).
+  los resúmenes de Mundo/Chile más largos (esto último ya confirmado corriendo en
+  `daily.json`, solo falta que él lo lea y opine).
 
-- **Contexto de métricas — iteración 2 (pendiente de decisión):** se implementó la
-  iteración 1 (rangos de referencia fijos tipo libro de texto, `web/src/lib/
-  referenciasMetricas.ts`). José pidió probar esa primero y evaluar después si vale la pena
-  una iteración 2 con explicación más larga generada por Gemini. No armar la iteración 2
-  hasta que él la pida explícitamente después de probar la 1.
+- **Contexto de métricas — ahora también en tus posiciones, no solo en Radar** (2026-08-20):
+  José notó que PEP (una card del Radar) mostraba "Ingresos: crecimiento saludable" etc. pero
+  sus posiciones reales no — el contexto (`referenciasMetricas.ts`) solo se había cableado en
+  `Radar.tsx`. Se agregó el mismo bloque de 3 líneas a `CardInversion.tsx` (visible apenas se
+  abre la card, no hace falta entrar a "métricas avanzadas"), más una fila nueva "Deuda /
+  patrimonio" dentro de "métricas avanzadas" (`metricas_avanzadas.deuda_patrimonio`, mismo
+  cálculo y misma excepción para bancos que ya usaba el Radar). Pendiente: que corra el
+  próximo cron horario para que `deuda_patrimonio` tenga dato real en `daily.json` — el resto
+  ya se ve apenas se despliegue.
 
-- **Semáforo de recomendación de compra (verde→rojo):** José lo propuso, se le explicó que
-  choca con la regla dura "el Radar nunca genera texto tipo 'deberías comprar'" y por qué
-  existe esa regla. Se ofreció como alternativa compatible el contexto de métricas de arriba,
-  y José lo aceptó en su lugar — pero nunca dijo explícitamente "no lo construyas nunca". Si
-  lo vuelve a pedir después de probar el contexto de métricas, aplica el protocolo de
-  siempre: señalar el choque con la regla, preguntar si de verdad quiere la excepción, y si
-  dice que sí, documentarla acá con fecha antes de construirla.
+- **Contexto de métricas — iteración 2 con Gemini (pendiente de decisión):** sigue sin
+  empezar, sin cambios respecto a la sesión anterior. No armar hasta que José la pida
+  explícitamente después de probar lo de arriba.
 
-- **Buscador de data avanzada para cualquier ticker** (sin necesidad de agregarlo a la
-  watchlist): idea de José, no empezada. Requeriría una función serverless que llame EDGAR/
-  Finnhub en vivo al buscar (Vercel no corre Python, así que habría que reimplementar en
-  TypeScript partes de lo que hoy hace el collector) — choca con la frase "el visor sigue sin
-  llamar APIs en vivo para mostrar datos" de la sección Stack. Factible en $0, pero es un
-  proyecto en sí mismo, no un ajuste rápido. Conversarlo con calma antes de empezar a picar
-  código, no asumir alcance.
+- **Simulador de cartera ficticia / "paper investing"** (2026-08-20, extra fuera del plan
+  madre, pestaña nueva "Simulador"): parte con US$5.000 ficticios
+  (`data/paperinvesting.json`, sembrado a mano) + un cron mensual nuevo
+  (`.github/workflows/paper_aporte_mensual.yml`, día 1 de cada mes) que suma US$100. Compra/
+  venta reusa `MiInversion.tsx` generalizado (`endpoint`/`permitirEditar` como props nuevas)
+  contra `web/api/paperinvesting.ts` (repo público, `GITHUB_WRITE_TOKEN` — a diferencia de
+  "mi inversión" real, acá no hay plata real que proteger). Universo comprable: watchlist +
+  candidatos del Radar (~18 tickers, los únicos con precio+`serie_precio` completos hoy en
+  `daily.json`) — José hizo notar que no hacía falta pedirle nada nuevo a Finnhub para esto,
+  se puede reusar tal cual. Si compras algo que luego deja de ser candidato del Radar (la
+  lista cambia semana a semana), la card se queda sin gráfico/precio fresco hasta que vuelva
+  a aparecer — limitación conocida de v1, no un bug. Sin gráfico de "valor total de la
+  cartera en el tiempo" todavía (necesitaría snapshots diarios, es v2 si lo pide). Sin acción
+  "editar" (acá no hay bróker externo con el que reconciliar). **Pendiente: que José lo
+  pruebe** (comprar algo de la watchlist y algo del Radar, vender una fracción) y que corra
+  la primera vez el cron mensual o que se confirme que el archivo semilla alcanza mientras
+  tanto.
 
-- **Extender "métricas avanzadas" completas al Radar** (Market Cap, EV, ROE, P/E, etc. —
-  hoy el Radar solo tiene los 3 campos de screening: `ingresos_var_pct`, `margen_op`,
-  `deuda_patrimonio`): se lo propuse a José como respuesta a "necesito más data para
-  decidir", pero la conversación se desvió hacia el contexto de métricas y nunca confirmó si
-  quiere esto también. Preguntar antes de construirlo — no es trabajo ya aprobado.
+- **Histórico de precio a 10 años (pendiente de decisión, no empezado):** José preguntó si
+  vale la pena extender el rango "5A" de los gráficos a 10 años — sí tiene sentido (el 5A
+  actual se pierde el crash de COVID, no hay razón de teoría de inversión para limitarse a 5
+  años). Yahoo Finance soporta pedir 10 años directo, sin costo. El detalle real: `DIAS_MAX`
+  en `collector/historico.py` **descarta** todo lo más viejo que 5 años en cada corrida, así
+  que ya no queda el histórico viejo de los tickers actuales en `historico_precios.json` —
+  no alcanza con cambiar el número, hace falta un script de backfill aparte que le pida a
+  Yahoo los 10 años completos y los mezcle con lo que ya hay (cuidando no perder la
+  resolución horaria de los últimos 45 días). No empezar sin que José lo confirme.
+
+- **Semáforo de recomendación de compra (verde→rojo):** sin cambios respecto a la sesión
+  anterior — José lo propuso, choca con la regla dura del Radar, se ofreció el contexto de
+  métricas como alternativa y lo aceptó por ahora, pero no cerró la puerta del todo. Mismo
+  protocolo si lo vuelve a pedir: señalar el choque, preguntar, documentar acá si dice que sí.
+
+- **Buscador de data avanzada para cualquier ticker:** sin cambios, sigue sin empezar.
+  Conversarlo con calma antes de picar código.
+
+- **Extender "métricas avanzadas" completas al Radar:** sin cambios, sigue sin confirmar.

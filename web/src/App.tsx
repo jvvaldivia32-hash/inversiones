@@ -15,9 +15,11 @@ import Radar from "./components/Radar";
 import PortafolioFintual from "./components/PortafolioFintual";
 import Diccionario from "./components/Diccionario";
 import Amigos from "./components/Amigos";
+import PaperInvesting from "./components/PaperInvesting";
 import ErroresFooter from "./components/ErroresFooter";
 import EstadoMercado from "./components/EstadoMercado";
 import type { MiInversionResumen } from "./components/MiInversion";
+import { preciosDisponibles } from "./lib/preciosDisponibles";
 import "./App.css";
 
 const daily = rawDaily as unknown as DailyData;
@@ -105,6 +107,8 @@ function App() {
     watchlist === null
       ? []
       : watchlist.filter((t) => !daily.posiciones.some((p) => p.ticker === t));
+
+  const precios = preciosDisponibles(daily);
 
   return (
     <>
@@ -194,6 +198,16 @@ function App() {
           <div className="vista-ancha-inner">
             <Seccion id="diccionario" titulo="Diccionario" compacta>
               <Diccionario />
+            </Seccion>
+          </div>
+        </div>
+      )}
+
+      {vista === "paper" && (
+        <div className="vista-ancha">
+          <div className="vista-ancha-inner">
+            <Seccion id="paper-investing" titulo="Simulador" compacta>
+              <PaperInvesting precios={precios} />
             </Seccion>
           </div>
         </div>

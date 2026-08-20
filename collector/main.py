@@ -135,7 +135,7 @@ def _obtener_metricas_avanzadas(
         print(f"  {ticker}: métricas avanzadas no se pudieron actualizar ({e})")
         return anterior
     nuevo = metricas_avanzadas.calcular_metricas(
-        fundamentales, balance, precio, hist_ticker, hist_mercado, ahora
+        ticker, fundamentales, balance, precio, hist_ticker, hist_mercado, ahora
     )
     return nuevo if nuevo is not None else anterior
 

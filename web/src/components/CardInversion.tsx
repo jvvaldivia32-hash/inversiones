@@ -8,7 +8,23 @@ import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
 import FormularioTesis from "./FormularioTesis";
 import MiInversion, { calcularEnVivo, type MiInversionResumen } from "./MiInversion";
+import {
+  contextoCrecimientoIngresos,
+  contextoMargenOperativo,
+  contextoDeudaPatrimonio,
+} from "../lib/referenciasMetricas";
 import "./CardInversion.css";
+
+// Mismo criterio que collector/radar_semanal.py: crecimiento YoY comparando el trimestre
+// más reciente contra el mismo trimestre 4 atrás (series[-1] vs series[-5]) — no contra el
+// trimestre inmediatamente anterior, que mezclaría estacionalidad con crecimiento real.
+function crecimientoIngresosYoY(serie: { valor: number }[] | undefined): number | null {
+  if (!serie || serie.length < 5) return null;
+  const actual = serie[serie.length - 1].valor;
+  const haceUnAno = serie[serie.length - 5].valor;
+  if (!haceUnAno) return null;
+  return (actual / haceUnAno - 1) * 100;
+}
 
 const ORDEN_SEMAFORO: Record<EstadoSemaforo, number> = { rojo: 0, ambar: 1, verde: 2 };
 
@@ -231,6 +247,13 @@ export default function CardInversion({
 // nombre y listo.
 const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nombre))];
 
+  const ingresosVarPct = crecimientoIngresosYoY(posicion.fundamentales?.series.ingresos_musd);
+  const margenOpSerie = posicion.fundamentales?.series.margen_operativo;
+  const margenOp =
+    margenOpSerie && margenOpSerie.length > 0 ? margenOpSerie[margenOpSerie.length - 1].valor : null;
+  const deudaPatrimonio = posicion.metricas_avanzadas?.deuda_patrimonio ?? null;
+  const hayContextoMetricas = ingresosVarPct !== null || margenOp !== null || deudaPatrimonio !== null;
+
   return (
     <article className="card-inversion">
       <header className="card-inversion-header">
@@ -298,6 +321,17 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
 
       {expandida && (
         <div className="card-inversion-expandida">
+          {hayContextoMetricas && (
+            <ul className="card-inversion-contexto">
+              {ingresosVarPct !== null && (
+                <li>Ingresos: {contextoCrecimientoIngresos(ingresosVarPct)}</li>
+              )}
+              {margenOp !== null && <li>Margen operativo: {contextoMargenOperativo(margenOp)}</li>}
+              {deudaPatrimonio !== null && (
+                <li>Deuda/patrimonio: {contextoDeudaPatrimonio(deudaPatrimonio)}</li>
+              )}
+            </ul>
+          )}
           <section>
             <h4>Mi inversión</h4>
             <MiInversion

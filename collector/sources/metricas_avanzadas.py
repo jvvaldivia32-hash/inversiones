@@ -51,6 +51,7 @@ def calcular_beta(serie_ticker: list[dict], serie_mercado: list[dict]) -> float 
 
 
 def calcular_metricas(
+    ticker: str,
     fundamentales: dict | None,
     balance: dict | None,
     precio: float,
@@ -97,6 +98,13 @@ def calcular_metricas(
 
     deuda_total_musd = deuda_lp_musd + deuda_cp_musd
     deuda_neta_musd = deuda_total_musd - caja_musd
+
+    # Igual criterio que radar.evaluar_sana(): en bancos la deuda es parte del modelo de
+    # negocio (captan depósitos), no una señal de salud — None en vez de un ratio que se
+    # leería como "alto" siempre y confundiría más de lo que ayuda.
+    deuda_patrimonio = (
+        None if ticker in radar.BANCOS else (deuda_total_musd / patrimonio_musd if patrimonio_musd else None)
+    )
 
     market_cap_musd = precio * acciones / 1_000_000 if acciones else None
     enterprise_value_musd = market_cap_musd + deuda_neta_musd if market_cap_musd is not None else None
@@ -168,6 +176,7 @@ def calcular_metricas(
         "enterprise_value_musd": enterprise_value_musd,
         "deuda_neta_musd": deuda_neta_musd,
         "deuda_neta_ebitda": deuda_neta_musd / ebitda_ttm if ebitda_ttm else None,
+        "deuda_patrimonio": round(deuda_patrimonio, 2) if deuda_patrimonio is not None else None,
         "margen_bruto_pct": margen_bruto_pct,
         "margen_ebit_pct": margen_ebit_pct,
         "roa_pct": roa_pct,

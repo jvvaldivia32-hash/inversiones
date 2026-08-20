@@ -25,6 +25,14 @@ interface Props {
   cargando: boolean;
   error: boolean;
   onGuardado: (ticker: string, datos: MiInversionResumen | null) => void;
+  // Generalizado para el simulador de "paper investing" (extra 2026-08-20): mismo
+  // componente, mismo modelo de compra/venta por costo promedio ponderado, pero apunta a
+  // otro endpoint. `permitirEditar=false` esconde "editar"/"cargar manual"/"borrar" — ahí
+  // no hay un bróker externo con el que reconciliar, la app misma es la fuente de verdad,
+  // así que esas acciones no tienen sentido (para cerrar una posición del todo, "vender
+  // todo" ya cubre el caso).
+  endpoint?: string;
+  permitirEditar?: boolean;
 }
 
 // Única fuente de verdad para pasar de (acciones, costo base) fijos a (valor actual,
@@ -61,6 +69,8 @@ export default function MiInversion({
   cargando,
   error,
   onGuardado,
+  endpoint = "/api/mi-inversion",
+  permitirEditar = true,
 }: Props) {
   const [modo, setModo] = useState<Modo>("idle");
   const [pendiente, setPendiente] = useState<Pendiente | null>(null);
@@ -169,7 +179,7 @@ export default function MiInversion({
     setEnviando(true);
     setErrorMsg(null);
     try {
-      const resp = await fetch("/api/mi-inversion", {
+      const resp = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ticker, accion, clave: claveAUsar, ...payload }),
@@ -411,9 +421,11 @@ export default function MiInversion({
           <button type="button" onClick={abrirComprar}>
             + comprar
           </button>
-          <button type="button" onClick={abrirEditar}>
-            cargar manual
-          </button>
+          {permitirEditar && (
+            <button type="button" onClick={abrirEditar}>
+              cargar manual
+            </button>
+          )}
         </div>
         {errorMsg && <p className="mi-inversion-error">{errorMsg}</p>}
         <p className="mi-inversion-nota">Sincronizado entre tus dispositivos, privado.</p>
@@ -455,12 +467,16 @@ export default function MiInversion({
         <button type="button" onClick={abrirVender} disabled={enviando}>
           − vender
         </button>
-        <button type="button" onClick={abrirEditar} disabled={enviando}>
-          editar
-        </button>
-        <button type="button" onClick={() => intentarEnviar("borrar")} disabled={enviando}>
-          borrar
-        </button>
+        {permitirEditar && (
+          <>
+            <button type="button" onClick={abrirEditar} disabled={enviando}>
+              editar
+            </button>
+            <button type="button" onClick={() => intentarEnviar("borrar")} disabled={enviando}>
+              borrar
+            </button>
+          </>
+        )}
       </div>
       <p className="mi-inversion-nota">Sincronizado entre tus dispositivos, privado.</p>
     </div>

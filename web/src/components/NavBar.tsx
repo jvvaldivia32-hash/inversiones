@@ -19,6 +19,7 @@ const SECCIONES_POR_VISTA: Record<Vista, { id: string; etiqueta: string }[]> = {
   inversion: SECCIONES_INVERSION,
   diccionario: [],
   amigos: [],
+  paper: [],
 };
 
 interface NavBarProps {
@@ -49,6 +50,15 @@ export default function NavBar({ vista, onIrA }: NavBarProps) {
           onClick={() => onIrA("mis-inversiones")}
         >
           Inversión
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={vista === "paper"}
+          className={vista === "paper" ? "activo" : ""}
+          onClick={() => onIrA("paper-investing")}
+        >
+          Simulador
         </button>
         <button
           type="button"
