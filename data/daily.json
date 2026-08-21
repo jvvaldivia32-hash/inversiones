@@ -1,11 +1,35 @@
 {
-  "generado": "2026-08-21T10:22:48.143920+00:00",
-  "errores": [],
+  "generado": "2026-08-21T11:19:25.071561+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Why the US economy is ringing alarm bells",
+        "titulo_neutral": "Global stocks set for biggest weekly fall since mid-July as bond yields, oil stay high - Reuters",
         "resumen": "",
+        "articulos": [
+          {
+            "titular": "Global stocks set for biggest weekly fall since mid-July as bond yields, oil stay high - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
+            "fecha": "2026-08-21T08:46:16+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Why the US economy is ringing alarm bells",
+        "resumen": "Estados Unidos ha alcanzado un nuevo hito en su endeudamiento público, lo que reaviva el debate sobre la estabilidad fiscal y las posibles repercusiones para la mayor economía del planeta. Analistas y expertos evalúan qué tan prudente es alarmarse ante el vertiginoso incremento de las obligaciones financieras del país norteamericano.",
         "articulos": [
           {
             "titular": "Why the US economy is ringing alarm bells",
@@ -26,52 +50,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "War-hit European markets are far from down and out - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "War-hit European markets are far from down and out - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnhLRk44Z05ZeGw4cWhLcEtkTVRNMnRuSDd0cTYwa2xJdWM0WEsxQS1MeG8yM0lnenM2QVpxc0pKVHdIaHI1TXhzMk40Z25WTDlzdkVTT2tmNlRORlc2eW9FRGpsWng3MEJ1OUZJVVpkUm1QTzV6Z2dkeTd2YjRtREtPdGZXTXAzeUdNaUNuaw?oc=5",
-            "fecha": "2026-08-21T04:01:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
-        "resumen": "El ex primer ministro pakistaní Imran Khan fue devuelto a prisión tras haber sido trasladado temporalmente para someterse a una evaluación médica. Esta medida se enmarca en la compleja situación judicial y política que enfrenta el líder político en el país asiático.",
-        "articulos": [
-          {
-            "titular": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
-            "fecha": "2026-08-21T03:08:09+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Intervención del Tesoro de Estados Unidos en el mercado de bonos y reacción de la Reserva Federal",
-        "resumen": "Moderna experimentó un notable incremento en el valor de sus acciones tras anunciar resultados favorables en las pruebas clínicas de una vacuna experimental contra el melanoma. Por su parte, el Departamento del Tesoro de Estados Unidos duplicará la recompra de bonos gubernamentales a largo plazo, generando movimientos en el mercado financiero. Además, el sector legal estadounidense enfrenta críticas por reclutar estudiantes durante sus primeros meses de formación, mientras los tradicionales pubs irlandeses continúan disminuyendo.",
+        "titulo_neutral": "Recompra de bonos del Tesoro de Estados Unidos",
+        "resumen": "Moderna experimentó un fuerte repunte en bolsa gracias a los buenos resultados de su vacuna experimental contra el melanoma. Por su parte, el Departamento del Tesoro de EE. UU. planea duplicar sus recompras de deuda soberana a largo plazo, una medida que ha generado preocupación sobre la valoración de la moneda estadounidense y ha provocado cautela entre los funcionarios de la Reserva Federal. Paralelamente, los bufetes de abogados estadounidenses enfrentan críticas por contratar estudiantes en sus primeros meses de carrera y las tradicionales tabernas irlandesas continúan cerrando.",
         "articulos": [
           {
             "titular": "Dollar wobbles as Treasury's bond-market buybacks raise fresh concerns - Reuters",
@@ -80,7 +60,16 @@
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFZuSmFFRlNlQUZPTlJaNnE2UUJzS29YTWZkWlhJNG1BSWEwbTNCWEVidHBISmc5VUpSMVh5YnRhNHBwMzhCRUZMX2RQalJCTjJhUWJTeFdQckZwbmxRZFgxdVBaTTg3NkZhOE9tZ2h3dHNNV1M5WEVSbTM4NTNsbXdNNnJyNTZHaTk5d25mWVB1eDB5c2RtQkpwVkVidDEtSkpCbA?oc=5",
-            "fecha": "2026-08-21T01:36:00+00:00"
+            "fecha": "2026-08-21T08:25:59+00:00"
+          },
+          {
+            "titular": "Treasury buyback renews dollar-debasement fears - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
+            "fecha": "2026-08-21T05:04:00+00:00"
           },
           {
             "titular": "Fed officials tread carefully after Treasury's bond market intervention - Reuters",
@@ -111,17 +100,17 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Global stocks set for biggest weekly fall since mid-July as bond yields, oil stay high - Reuters",
+        "titulo_neutral": "War-hit European markets are far from down and out - Reuters",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Global stocks set for biggest weekly fall since mid-July as bond yields, oil stay high - Reuters",
+            "titular": "War-hit European markets are far from down and out - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
-            "fecha": "2026-08-21T01:23:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnhLRk44Z05ZeGw4cWhLcEtkTVRNMnRuSDd0cTYwa2xJdWM0WEsxQS1MeG8yM0lnenM2QVpxc0pKVHdIaHI1TXhzMk40Z25WTDlzdkVTT2tmNlRORlc2eW9FRGpsWng3MEJ1OUZJVVpkUm1QTzV6Z2dkeTd2YjRtREtPdGZXTXAzeUdNaUNuaw?oc=5",
+            "fecha": "2026-08-21T04:16:24+00:00"
           }
         ],
         "leans_presentes": [
@@ -129,6 +118,28 @@
         ],
         "grupos_presentes": [
           "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
+        "resumen": "El ex primer ministro de Pakistán, Imran Khan, fue devuelto a un establecimiento penitenciario tras haber sido trasladado temporalmente a un centro médico para someterse a una evaluación de su estado de salud.",
+        "articulos": [
+          {
+            "titular": "Pakistan’s Imran Khan back to prison after evaluation at hospital",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
+            "fecha": "2026-08-21T03:08:09+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera"
         ],
         "cobertura_unilateral": true
       },
@@ -155,30 +166,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Iran war live: Tehran says planned US sanctions threaten global economy",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Iran war live: Tehran says planned US sanctions threaten global economy",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss",
-            "fecha": "2026-08-21T00:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
         "titulo_neutral": "Japan's core inflation accelerates in July, bolsters case for rate hike - Reuters",
-        "resumen": "La inflación subyacente en Japón experimentó una aceleración durante el mes de julio, lo que incrementa las expectativas sobre una posible subida de los tipos de interés por parte del banco central. Este indicador refleja un cambio en la dinámica de precios del país asiático que podría influir en las próximas decisiones de política monetaria.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Japan's core inflation accelerates in July, bolsters case for rate hike - Reuters",
@@ -197,11 +186,121 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Canada says trade deal with US is 'very close,' more work needed - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Canada says trade deal with US is 'very close,' more work needed - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcV90dGRFNXlmUWhKTk1uZExFRzhzNGF5VGNqcXJkcXFNNS1BUFlxeEhsbk02X1hYcVZnSUNDbjVSblNpTVpZaWZmbUV2Q3NXLWY0TXJNUDVRa0xYTmRwY0MwZlJHdVVhWUhOM0JYbUxoQVBhcnRlbjhveHFnd1R5S0U2ZEx2dGFWQWF4S3JReHFsckJPcmdmMkxCV21aeUJkTWFBLXJjQQ?oc=5",
+            "fecha": "2026-08-20T21:36:38+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "La decisión de última hora del gobierno que le propinó un fuerte golpe a la reforma de seguridad",
+        "titulo_neutral": "Reducción de tránsitos diarios en el Canal de Panamá por el fenómeno de El Niño",
+        "resumen": "Una importante ruta interoceánica que concentra un porcentaje significativo del transporte de mercancías a nivel global enfrenta problemas operativos debido a la escasez de lluvias. Esta situación impacta directamente en el suministro de agua dulce requerido para el funcionamiento de su sistema de esclusas. La continuidad del comercio internacional se ve desafiada por las condiciones climáticas adversas en la zona.",
+        "articulos": [
+          {
+            "titular": "El Canal de Panamá reducirá el número de tránsitos diarios ante el impacto de un El Niño cada vez más intenso en la región",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/ft/el-canal-de-panama-reducira-el-numero-de-transitos-diarios-ante-el-impacto",
+            "fecha": "2026-08-21T11:13:08+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Prioridades de la ministra Lincolao sobre inteligencia artificial en la modernización del Estado",
+        "resumen": "La ministra de Ciencia anunció que su gestión dará prioridad a la integración de inteligencia artificial para optimizar trámites ciudadanos, gestión de becas y asignación de fondos. Asimismo, indicó que en pocas semanas presentará una nueva iniciativa legislativa relacionada con estas materias. Estos cambios buscan modernizar los procesos internos y la interacción con la ciudadanía.",
+        "articulos": [
+          {
+            "titular": "Ministra Lincolao detalla el rol protagónico que tendrán los agentes de IA entre las prioridades para abordar las brechas en modernización del Estado",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-lab/tech-empresas/ministra-lincolao-detalla-las-prioridades-para-abordar-las-brechas-en",
+            "fecha": "2026-08-21T10:44:52+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Lanzamiento de la guía 2027 de Chambers sobre estudios y abogados en Chile",
+        "resumen": "La presencia femenina en el sector legal alcanza niveles bajos en comparación con el promedio de América Latina. No obstante, las estadísticas muestran un cambio generacional positivo, donde las mujeres superan la mitad de los cargos de asociadas entre los profesionales más jóvenes. Este fenómeno apunta a una gradual transformación en la composición de género dentro de las firmas.",
+        "articulos": [
+          {
+            "titular": "Chambers lanza guía 2027 de los mejores estudios y abogados de Chile: crece la especialización, pero el país exhibe la mayor brecha de género de la región",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/entre-codigos/chambers-lanza-guia-2027-de-los-mejores-estudios-y-abogados-de-chile-crece",
+            "fecha": "2026-08-21T10:36:38+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Comentarios de Fintual a la Superintendencia de Pensiones sobre el régimen de inversión de las AFP",
+        "resumen": "Una administradora general de fondos analiza su posible ingreso a un nuevo mercado, aunque advierte la existencia de obstáculos iniciales. Estas dificultades en la propuesta podrían limitar la competencia y dificultar la participación de nuevos actores en el sector. La evaluación de estos factores determinará la viabilidad del proyecto comercial.",
+        "articulos": [
+          {
+            "titular": "Los comentarios que envió Fintual a la Super de Pensiones por el nuevo régimen de inversión de las AFP",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/pensiones/los-comentarios-que-envio-fintual-a-la-super-de-pensiones-por-el-nuevo",
+            "fecha": "2026-08-21T10:30:10+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Decisión del gobierno sobre la reforma de seguridad",
         "resumen": "",
         "articulos": [
           {
@@ -223,8 +322,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Más de 50 panaderías, bakeries y conversatorios: vuelve Pan Comido al MUT",
-        "resumen": "El evento gastronómico enfocado en la cultura del pan regresa con una versión ampliada que contará con la participación de medio centenar de productores y panaderías artesanales. Las jornadas incluirán diversas actividades como conversatorios y degustaciones abiertas al público.",
+        "titulo_neutral": "Realización del evento Pan Comido en el MUT",
+        "resumen": "El festival gastronómico centrado en la cultura del pan regresará al Mercado Urbano Tobalaba con una versión de mayor envergadura. El evento reunirá a decenas de productores artesanales y panaderías para ofrecer degustaciones y charlas especializadas a los asistentes. Esta iniciativa busca destacar los oficios tradicionales ligados a la panadería.",
         "articulos": [
           {
             "titular": "Más de 50 panaderías, bakeries y conversatorios: vuelve Pan Comido al MUT",
@@ -241,28 +340,6 @@
         ],
         "grupos_presentes": [
           "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Chambers lanza guía 2027 de los mejores estudios y abogados de Chile: crece la especialización, pero el país exhibe la mayor brecha de género de la región",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Chambers lanza guía 2027 de los mejores estudios y abogados de Chile: crece la especialización, pero el país exhibe la mayor brecha de género de la región",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/entre-codigos/chambers-lanza-guia-2027-de-los-mejores-estudios-y-abogados-de-chile-crece",
-            "fecha": "2026-08-21T01:01:06+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
         ],
         "cobertura_unilateral": true
       },
@@ -309,104 +386,38 @@
           "Claro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "RECUPERAR LA CONFIANZA DEL SISTEMA DE CONCESIONES",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "RECUPERAR LA CONFIANZA DEL SISTEMA DE CONCESIONES",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/opinion/editorial/recuperar-la-confianza-del-sistema-de-concesiones",
-            "fecha": "2026-08-21T00:39:23+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Ya hay investigaciones y multas: gobierno activa plataforma que cruza datos para fiscalizar licencias médicas",
-        "resumen": "Una nueva plataforma gubernamental de vigilancia ha facilitado la entrega de antecedentes al Ministerio Público respecto a decenas de prestadores de salud y profesionales del área. Esta medida busca fiscalizar irregularidades y colaborar con las investigaciones judiciales en curso.",
-        "articulos": [
-          {
-            "titular": "Ya hay investigaciones y multas: gobierno activa plataforma que cruza datos para fiscalizar licencias médicas",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/laboral-personas/ya-hay-investigaciones-y-multas-gobierno-activa-plataforma-que-cruza-datos",
-            "fecha": "2026-08-21T00:33:46+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Las fallas de diseño de la reforma de Arrau y el fuerte contraste con la estrategia del Plan Quiroz",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Las fallas de diseño de la reforma de Arrau y el fuerte contraste con la estrategia del Plan Quiroz",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/politica/fallas-arrau-y-contraste-con-planquiroz/",
-            "fecha": "2026-08-21T00:29:59+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Cybercriminals perfect 'social engineering': 'Each hack feeds the chances of the next one succeeding",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/video/20260821-cybercriminals-perfect-social-engineering-each-hack-feeds-the-chances-of-the-next-one-succeeding",
-        "fecha": "2026-08-21T10:04:07+00:00"
+        "titular": "Charter plane crash near Alaskan military site kills 8",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8?traffic_source=rss",
+        "fecha": "2026-08-21T10:59:50+00:00"
       },
       {
-        "titular": "Bodies of two hikers missing for decades found after Swiss glacier melts",
+        "titular": "Russia ready for ‘new ideas’ on Ukraine war that match Putin’s goals",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/21/russia-ready-for-new-ideas-on-ukraine-war-that-match-putins-goals?traffic_source=rss",
+        "fecha": "2026-08-21T10:59:37+00:00"
+      },
+      {
+        "titular": "Serie A: Key talking points heading into the new 2026-27 season",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/8/21/serie-a-key-talking-points-heading-into-the-new-2026-27-season?traffic_source=rss",
+        "fecha": "2026-08-21T10:56:43+00:00"
+      },
+      {
+        "titular": "'We are devastated' - Nigerian villagers bury bodies after overloaded boat capsizes",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cd9w1jwdkkjo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-21T10:03:17+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cj035jg256no?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-21T10:48:01+00:00"
       },
       {
-        "titular": "Eight killed in plane crash at remote Alaskan military site, air force says",
+        "titular": "Pakistan ex-PM Imran Khan back in jail after hospital examination",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cj9dmw8183wo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-21T09:53:47+00:00"
-      },
-      {
-        "titular": "In Senegal's Saint-Louis, traces of slave-trading past fade away",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/video/20260821-in-senegal-s-saint-louis-traces-of-slave-trading-past-fade-away",
-        "fecha": "2026-08-21T09:50:38+00:00"
-      },
-      {
-        "titular": "France, Germany, UK and Italy condemn Israel's 'E1' West Bank plan",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/video/20260821-france-germany-uk-and-italy-condemn-israel-s-e1-west-bank-plan",
-        "fecha": "2026-08-21T09:48:52+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-21T10:46:09+00:00"
       }
     ]
   },
@@ -1284,6 +1295,10 @@
           },
           {
             "fecha": "2026-08-21T10:00:00",
+            "valor": 496.86
+          },
+          {
+            "fecha": "2026-08-21T11:00:00",
             "valor": 496.86
           }
         ],
@@ -4515,7 +4530,7 @@
       "noticias": [
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Is Transforming Berkshire Hathaway With This $43 Billion Investment (and I'm Not Talking About Alphabet)",
-          "extracto": "Aunque los analistas se centran en las nuevas inversiones en Alphabet, la verdadera transformación en el conglomerado de Berkshire comenzó hace siete años.",
+          "extracto": "A pesar de la atención actual en la inversión de Berkshire Hathaway en Alphabet, los cambios fundamentales bajo la gestión de Greg Abel comenzaron hace siete años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4524,7 +4539,7 @@
         },
         {
           "titular": "Berkshire Hathaway Just Bought More of This Brilliant Artificial Intelligence (AI) Stock",
-          "extracto": "Berkshire Hathaway incrementó notablemente su participación accionaria en la empresa matriz de Google durante el segundo trimestre.",
+          "extracto": "Durante el segundo trimestre, el conglomerado Berkshire Hathaway adquirió un paquete significativo de acciones de la empresa matriz de Google, Alphabet.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4533,7 +4548,7 @@
         },
         {
           "titular": "Warren Buffett’s Empire Just Made a Massive AI Bet Nobody Saw Coming",
-          "extracto": "A pesar de haber dejado el cargo de director ejecutivo, Warren Buffett confirmó que la masiva adquisición de acciones de Alphabet fue su iniciativa, elevando su participación a casi 106 millones de títulos.",
+          "extracto": "Warren Buffett aclaró que la millonaria adquisición de acciones de Alphabet fue su decisión antes de dejar el cargo, elevando la participación de Berkshire a casi 106 millones de títulos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4542,7 +4557,7 @@
         },
         {
           "titular": "Billionaire Stanley Druckenmiller Sold Broadcom and Bought the Same Artificial Intelligence (AI) Stock Berkshire Piled $17 Billion Into",
-          "extracto": "La firma de inversión dirigida por Stanley Druckenmiller vendió sus títulos de Broadcom para adquirir acciones de una de las principales empresas tecnológicas del grupo conocido como los \"Siete Magníficos\".",
+          "extracto": "La firma de inversión dirigida por Stanley Druckenmiller desinvirtió en Broadcom para adquirir acciones de una de las principales empresas tecnológicas del grupo conocido como los 'Siete Magníficos'.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4551,7 +4566,7 @@
         },
         {
           "titular": "US Debt Just Hit $40 Trillion and the 30-Year Yield Is Still Above 5%: Why Buffett’s Berkshire Owns Businesses, Not Bonds",
-          "extracto": "El aumento de la deuda federal y los intentos fallidos del Tesoro por estabilizar el mercado de bonos reflejan un panorama financiero complejo, cuyas implicaciones para los inversores conservadores aún no se dimensionan por completo.",
+          "extracto": "El incremento récord de la deuda federal y los problemas en el mercado de bonos contrastan con las recientes decisiones de inversión de Berkshire, señalando riesgos que muchos jubilados aún no anticipan.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5619,6 +5634,10 @@
           },
           {
             "fecha": "2026-08-21T10:00:00",
+            "valor": 269.13
+          },
+          {
+            "fecha": "2026-08-21T11:00:00",
             "valor": 269.13
           }
         ],
@@ -8850,7 +8869,7 @@
       "noticias": [
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento bursátil actual de las cadenas de restaurantes contradice las expectativas económicas tradicionales de los consumidores. Esto genera interrogantes sobre los factores que impulsan el éxito financiero en este sector.",
+          "extracto": "El mercado bursátil muestra valoraciones contrastantes entre cadenas de restaurantes, desafiando las previsiones económicas actuales sobre qué modelo de negocio resulta más rentable.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8859,7 +8878,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un reciente análisis financiero incluye a reconocidas corporaciones de comida rápida y café como McDonald's, Starbucks y Yum! Brands. El informe examina el rendimiento y las perspectivas de estas empresas en el mercado.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8868,7 +8887,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "McDonald's cuenta con una nueva iniciativa de bebidas que está superando las expectativas en todos los mercados donde se ha lanzado. Esta estrategia representa la oportunidad principal de la compañía para recuperarse tras un año de bajo rendimiento.",
+          "extracto": "McDonald's busca impulsar el valor de sus acciones tras un periodo de bajo rendimiento, impulsado por el buen desempeño inicial de una nueva línea de bebidas en los mercados donde opera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8886,7 +8905,7 @@
         },
         {
           "titular": "McDonald’s is One Dividend Hike Away from Becoming a Dividend King",
-          "extracto": "McDonald's se encuentra a un solo incremento anual de alcanzar el estatus de Rey del Dividendo tras haber aumentado sus pagos durante 49 años consecutivos. Los inversores evalúan ahora si la empresa posee la capacidad financiera necesaria para sostener este crecimiento a largo plazo.",
+          "extracto": "McDonald's se encuentra a un solo incremento anual de alcanzar el estatus de 'Rey del Dividendo', tras haber aumentado sus pagos a los accionistas durante 49 años consecutivos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10117,6 +10136,10 @@
           },
           {
             "fecha": "2026-08-21T10:00:00",
+            "valor": 481.15
+          },
+          {
+            "fecha": "2026-08-21T11:00:00",
             "valor": 481.15
           }
         ],
@@ -13348,7 +13371,7 @@
       "noticias": [
         {
           "titular": "This 2.7% ‘Dividend’ ETF Quietly Holds 28% Big Tech. Here’s Who Should Own It Anyway",
-          "extracto": "El fondo cotizado de alta rentabilidad por dividendo de Fidelity posee una composición interna que podría no cumplir con las expectativas habituales de los inversores en busca de ingresos pasivos. Analizar su funcionamiento real exige mirar más allá del simple rendimiento anunciado.",
+          "extracto": "El fondo cotizado de alta rentabilidad por dividendos de Fidelity posee una estrategia interna que difiere de las expectativas habituales de los inversores. Analizar su funcionamiento requiere mirar más allá del rendimiento financiero superficial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13357,7 +13380,7 @@
         },
         {
           "titular": "IREN Just Passed Its Biggest AI Test as Microsoft and Nvidia Bet Billions",
-          "extracto": "La compañía IREN ha puesto en marcha su primer centro de datos destinado a Microsoft, lo que demuestra la viabilidad financiera de su estrategia centrada en la inteligencia artificial. Este avance ofrece a los accionistas una validación temprana de la rentabilidad de sus grandes contratos.",
+          "extracto": "La empresa IREN puso en marcha su primer centro de datos destinado a Microsoft. Este hito demuestra la viabilidad económica de su transición hacia la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13366,7 +13389,7 @@
         },
         {
           "titular": "Meta Is Now One of Microsoft's Largest AI Customers",
-          "extracto": "Meta se ha convertido en uno de los principales clientes de los servicios en la nube Azure de Microsoft, con un gasto anual de cientos de millones de dólares en infraestructura de inteligencia artificial. Esta relación comercial ha generado ciertos interrogantes en el sector sobre prácticas financieras circulares entre gigantes tecnológicos.",
+          "extracto": "Meta destina cientos de millones de dólares anuales a los servicios en la nube de Microsoft, convirtiéndose en uno de sus principales clientes de inteligencia artificial. Esta relación comercial ha generado cuestionamientos sobre posibles prácticas circulares dentro del sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13375,7 +13398,7 @@
         },
         {
           "titular": "Up almost 20%, Here’s Why Microsoft Stock Could Rise Even Further",
-          "extracto": "Microsoft proyecta incrementar sus gastos de capital para el ejercicio fiscal 2027 con el fin de ampliar su infraestructura de inteligencia artificial y dar abasto a la demanda del mercado. No obstante, esta fuerte inversión viene acompañada de una aceleración en el crecimiento de sus ingresos.",
+          "extracto": "Microsoft proyecta incrementar sus gastos de capital hacia el año fiscal 2027 para ampliar su infraestructura tecnológica. A pesar de estas mayores inversiones, la compañía logra impulsar simultáneamente el crecimiento de sus ingresos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13384,7 +13407,7 @@
         },
         {
           "titular": "Automatic Data Processing vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?",
-          "extracto": "Un análisis financiero revela las diferencias en los modelos de creación de valor para el accionista entre ADP, que registra un margen neto del 20 % y 5.200 millones de dólares en flujo de caja libre, y Microsoft, que alcanza un margen del 40 % y genera 67.000 millones.",
+          "extracto": "Un análisis financiero revela diferencias sustanciales entre los modelos de negocio y la generación de capital de ADP y Microsoft. Mientras que Microsoft destaca por márgenes operativos y flujos de caja notablemente superiores, ambas demuestran enfoques distintos para remunerar al accionista.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14675,6 +14698,10 @@
           },
           {
             "fecha": "2026-08-21T10:00:00",
+            "valor": 701.01
+          },
+          {
+            "fecha": "2026-08-21T11:00:00",
             "valor": 701.01
           }
         ],
@@ -17906,7 +17933,7 @@
       "noticias": [
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "El fondo cotizado Vanguard S&P 500 ha demostrado un crecimiento financiero sólido y constante durante los últimos diez años.",
+          "extracto": "El fondo cotizado Vanguard S&P 500 ha demostrado un crecimiento financiero sólido y constante a lo largo de los últimos diez años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17915,7 +17942,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "extracto": "Las bajas comisiones del fondo VOO suelen desviar la atención de los compradores hacia un peligro estructural oculto que no aparece en las tablas comparativas de costos.",
+          "extracto": "A pesar de sus conocidos costos de gestión reducidos, este popular fondo de inversión esconde riesgos importantes que suelen pasar desapercibidos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17924,7 +17951,7 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF Be in 20 Years? History Has Good and Bad News for Investors.",
-          "extracto": "El principal fondo indexado del S&P 500 continúa siendo una opción financiera segura para quienes mantienen una estrategia a largo plazo.",
+          "extracto": "Este índice bursátil continúa consolidándose como una alternativa financiera sólida para quienes mantienen una estrategia a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17933,7 +17960,7 @@
         },
         {
           "titular": "VOO vs VTI: After Comparing the Two Funds Most Americans Actually Own, One Is the Better Buy for the Next 20 Years",
-          "extracto": "Aunque muchos jubilados consideran que los fondos VOO y VTI son equivalentes, la elección entre ambos puede generar diferencias financieras significativas a lo largo de dos décadas.",
+          "extracto": "Aunque frecuentemente se consideran equivalentes, elegir entre los fondos VOO y VTI puede generar diferencias monetarias significativas para los jubilados con horizontes temporales prolongados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17942,7 +17969,7 @@
         },
         {
           "titular": "Between Your Last Paycheck and Age 73 Are the Lowest Tax Years of Your Life. These 3 ETFs Are Where That Money Goes",
-          "extracto": "El período posterior a la jubilación ofrece una oportunidad fiscal clave que depende directamente de los activos seleccionados para aprovechar dicho beneficio antes de los retiros obligatorios.",
+          "extracto": "El periodo transcurrido entre el último salario y el retiro obligatorio de fondos ofrece una ventana fiscal estratégica cuyo aprovechamiento depende de los activos seleccionados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
