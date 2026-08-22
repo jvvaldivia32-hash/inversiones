@@ -1,11 +1,13 @@
 {
-  "generado": "2026-08-22T16:15:23.507881+00:00",
-  "errores": [],
+  "generado": "2026-08-22T17:14:24.046122+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Aranceles mutuos y tensiones comerciales entre Canadá y Estados Unidos",
-        "resumen": "El primer ministro canadiense declaró que su país interrumpió las negociaciones comerciales para salvaguardar su autonomía nacional. Esta postura se produce en medio de un repunte de las tensiones arancelarias entre Washington y Ottawa, tras la imposición de gravámenes punitivos por parte de Estados Unidos.",
+        "titulo_neutral": "Aranceles de Estados Unidos y respuesta de Canadá",
+        "resumen": "El primer ministro canadiense anunció que su país impondrá aranceles de represalia contra Estados Unidos, calificando la medida de inevitable tras acusar a Washington de iniciar una guerra comercial. Esta decisión escalan las tensiones económicas bilaterales y afectará a múltiples sectores industriales estadounidenses. La respuesta de Canadá busca presionar a la administración norteamericana para que reconsidere sus políticas proteccionistas.",
         "articulos": [
           {
             "titular": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
@@ -14,7 +16,7 @@
             "grupo": "BBC",
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-22T16:05:04+00:00"
+            "fecha": "2026-08-22T16:45:02+00:00"
           },
           {
             "titular": "Canada to impose retaliatory tariffs across a raft of US sectors, Carney says - Reuters",
@@ -24,15 +26,6 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2ZPTUg0NjVrWlY5aVBzbS1ucUhqc014UGZYMkhlX3R1bkpDMnlXMmZyT2hCVEs1dXZNbkE4Nlc1aXZQemtvNUJFWFVyLWJBb1BWelBfVmJBRVlUMk4tR2lNVWw5NW11NG5SOUtGZVZNZ0lIXzJYVlJsNFE0Vlh3TExaMnJmOGhJNmNWSkd1MkE1QmpjeHl1TXQwYUkydWRkSUVxU21UV3VBdHVJZUV2U05NaGI2d1RuNUJvMg?oc=5",
             "fecha": "2026-08-22T15:59:41+00:00"
-          },
-          {
-            "titular": "Canada says will match new US 50% tariffs 'dollar for dollar'",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/canada-says-will-match-new-us-50-tariffs-dollar-for-dollar",
-            "fecha": "2026-08-22T10:40:26+00:00"
           }
         ],
         "leans_presentes": [
@@ -40,14 +33,13 @@
         ],
         "grupos_presentes": [
           "BBC",
-          "Reuters",
-          "France24"
+          "Reuters"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Impacto de los aranceles de Estados Unidos en la política interna de Quebec",
-        "resumen": "Las recientes medidas arancelarias aplicadas desde la administración estadounidense han provocado un replanteamiento político en la región de Quebec. Como consecuencia de este impacto económico, el apoyo ciudadano hacia una independencia rápida de Canadá ha disminuido notablemente.",
+        "titulo_neutral": "Impacto de los aranceles de Estados Unidos en Quebec",
+        "resumen": "Los aranceles impuestos por la administración Trump han enfriado el entusiasmo en Quebec por una separación rápida de Canadá. La incertidumbre económica generada por las tensiones comerciales ha llevado a los ciudadanos y líderes locales a priorizar la estabilidad financiera frente a los objetivos independentistas. Como resultado, el debate sobre la soberanía de la provincia ha perdido impulso temporalmente ante la necesidad de enfrentar los desafíos económicos comunes.",
         "articulos": [
           {
             "titular": "Hit by Trump tariffs, Quebec loses appetite for quick separation from Canada - Reuters",
@@ -68,8 +60,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Investigación federal en instalaciones aeroportuarias de Texas",
-        "resumen": "Las autoridades de Texas han solicitado una investigación federal sobre las instalaciones de higiene aeroportuarias de la región. Esta iniciativa gubernamental ha generado el rechazo público de diversas organizaciones islámicas locales, que consideran la medida discriminatoria.",
+        "titulo_neutral": "Investigación en instalaciones aeroportuarias en Texas",
+        "resumen": "Las autoridades de Texas han solicitado una investigación federal sobre las instalaciones de lavado en aeropuertos, una medida que ha sido enérgicamente rechazada por organizaciones musulmanas. Estas agrupaciones denuncian que la iniciativa constituye un acto de discriminación y perfilado religioso hacia su comunidad. La controversia pone de relieve las crecientes tensiones en torno a la seguridad aeroportuaria y los derechos civiles en el estado.",
         "articulos": [
           {
             "titular": "Texas seeks federal probe of airport washing facilities, Muslim group denounces move - Reuters",
@@ -90,8 +82,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de Trump sobre la intervención en el mercado de bonos y acciones del Tesoro",
-        "resumen": "El presidente estadounidense negó haber dado instrucciones a sus funcionarios para influir de manera directa en los mercados de bonos. Por otro lado, las acciones de una importante farmacéutica repuntaron gracias a los avances positivos en las pruebas clínicas de una vacuna oncológica.",
+        "titulo_neutral": "Declaraciones de Trump sobre el mercado de bonos",
+        "resumen": "El presidente Donald Trump negó haber dado instrucciones a su asesor Scott Bessent para intervenir directamente en el mercado de bonos. Estas declaraciones buscan calmar la especulación financiera sobre la posible injerencia de la Casa Blanca en la política monetaria y de deuda. La aclaración llega en un momento de sensibilidad en los mercados, donde cualquier señal de intervención estatal genera inquietud entre los inversores.",
         "articulos": [
           {
             "titular": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
@@ -101,29 +93,19 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkFsc1FIR29sOXp1dmJuLTJFNHR0Z04taHhTaEZkd1QyRmhxN0hKTmZHYldObW5zV1J6c2ozT04xOXp0dlFMbWgwMHVUckdCeHNPRG1QTEE4bU9fckJmd1BnekhaZ0JCOUUwbDBCdWdRM3FRWEFJUHB4LW9KaTNPRDBmQ1lLYTdOUTJWa2wtckZ1Y0FFbjJVTkFjaUVKY2Zwdm05VENB?oc=5",
             "fecha": "2026-08-21T23:27:43+00:00"
-          },
-          {
-            "titular": "US Treasury tries to soothe the bond market",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
-            "fecha": "2026-08-20T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Conversaciones comerciales entre Estados Unidos y Brasil sobre aranceles",
-        "resumen": "El gobierno brasileño informó que el mandatario estadounidense propició un encuentro próximo entre funcionarios de ambos países. El objetivo principal de estas reuniones será debatir sobre las barreras comerciales y los aranceles bilaterales pendientes.",
+        "titulo_neutral": "Conversaciones entre Trump y Lula sobre aranceles",
+        "resumen": "El gobierno brasileño informó que el presidente Donald Trump propuso que funcionarios de ambos países se reúnan próximamente para abordar la política arancelaria. Este posible encuentro busca distender las relaciones comerciales bilaterales y negociar posibles exenciones o ajustes en los gravámenes. La iniciativa refleja el interés de Brasil por mantener canales de diálogo abiertos ante las medidas proteccionistas de Washington.",
         "articulos": [
           {
             "titular": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
@@ -144,8 +126,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Expectativas comerciales de México en relación con el acuerdo entre Estados Unidos y Canadá",
-        "resumen": "El gobierno mexicano expresó su confianza en alcanzar acuerdos comerciales favorables con la potencia del norte. Las expectativas apuntan a conseguir condiciones equiparables a las pactadas recientemente entre Washington y su vecino norteamericano.",
+        "titulo_neutral": "Expectativas comerciales de México",
+        "resumen": "México ha manifestado su expectativa de alcanzar acuerdos comerciales similares al nuevo pacto negociado entre Estados Unidos y Canadá. Las autoridades mexicanas confían en que su integración en la cadena de suministro norteamericana sirva de base para obtener condiciones favorables y estables. Esto permitiría blindar sectores clave de la economía mexicana frente a futuras turbulencias arancelarias.",
         "articulos": [
           {
             "titular": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
@@ -166,8 +148,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Propuesta de aranceles de la Unión Europea a los vehículos híbridos chinos",
-        "resumen": "Un influyente representante político alemán solicitó formalmente la imposición de aranceles comunitarios a los vehículos híbridos procedentes de China. Esta petición busca proteger a la industria automotriz europea frente al incremento de la competencia asiática.",
+        "titulo_neutral": "Solicitud de aranceles de la Unión Europea a vehículos chinos",
+        "resumen": "Un influyente político regional en Alemania ha remitido una carta en la que exige la imposición de aranceles europeos a los vehículos híbridos procedentes de China. La propuesta surge ante el temor de que la creciente competencia asiática desplace a los fabricantes locales y debilite la industria automotriz del bloque. Esta solicitud incrementa la presión sobre la Comisión Europea para adoptar medidas proteccionistas en el sector del motor.",
         "articulos": [
           {
             "titular": "German state politician calls for EU tariffs on Chinese hybrid cars, letter shows - Reuters",
@@ -188,8 +170,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Efectos del regreso de El Niño en el Canal de Panamá y el comercio global",
-        "resumen": "El retorno del fenómeno climático de El Niño plantea nuevos desafíos operativos para el funcionamiento del canal de Panamá. Estas alteraciones meteorológicas pueden generar importantes repercusiones logísticas en las cadenas de suministro y el comercio global.",
+        "titulo_neutral": "Efectos del fenómeno de El Niño en el Canal de Panamá",
+        "resumen": "El regreso del fenómeno climático de El Niño amenaza con reducir drásticamente el nivel de agua en el Canal de Panamá, afectando la navegación de buques de gran calado. Esta situación obligará a limitar el tránsito diario de barcos, lo que podría generar importantes retrasos y mayores costos en las cadenas de suministro globales. Como resultado, los mercados internacionales se preparan para posibles interrupciones en el comercio marítimo y un incremento en los precios de flete.",
         "articulos": [
           {
             "titular": "Explainer: What El Niño's return means for the Panama Canal — and global trade - Reuters",
@@ -212,8 +194,30 @@
     ],
     "chile": [
       {
-        "titulo_neutral": "Sernac oficia a empresas por venta de productos de pérdida de peso",
-        "resumen": "El Sernac inició un proceso de fiscalización a diversos sitios de comercio electrónico por la comercialización de artículos para bajar de peso que carecen de validación científica. La medida busca recabar antecedentes para resguardar los derechos de los compradores frente a mercancías potencialmente engañosas.",
+        "titulo_neutral": "Soko’s: la cervecería que partió en un garage en Requínoa y que bate récords (y el desafío de ser marca nacional)",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Soko’s: la cervecería que partió en un garage en Requínoa y que bate récords (y el desafío de ser marca nacional)",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/negocios/sokos-cerveceria-apunta-ser-marca-nacional/",
+            "fecha": "2026-08-22T16:28:28+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Sernac ofició a Mercado Libre, Falabella, París, Líder y Swiss Nature Labs por la venta de productos que prometen la pérdida de peso sin respaldo científico",
+        "resumen": "La agencia de protección al consumidor de Chile inició un procedimiento de fiscalización a diversas plataformas de comercio electrónico y laboratorios. El objetivo es indagar en la comercialización de artículos para bajar de peso que se ofertan sin contar con respaldo científico comprobable. Esta intervención busca salvaguardar los derechos de los compradores frente a posibles engaños publicitarios.",
         "articulos": [
           {
             "titular": "Sernac ofició a Mercado Libre, Falabella, París, Líder y Swiss Nature Labs por la venta de productos que prometen la pérdida de peso sin respaldo científico",
@@ -234,7 +238,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de los diputados Cicardini y Manouchehri",
+        "titulo_neutral": "Cicardini & Manouchehri: “No hemos hecho un show, sino que acciones con resultados políticos”",
         "resumen": "",
         "articulos": [
           {
@@ -256,8 +260,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Venta y fusiones de administradoras generales de fondos",
-        "resumen": "El mercado chileno de fondos de inversión experimentó un ciclo intenso de adquisiciones y fusiones entre gestoras independientes durante el último año. Diversas entidades concretaron compras y alianzas estratégicas para ganar tamaño en una industria que administra miles de millones de dólares, y se anticipan nuevas operaciones.",
+        "titulo_neutral": "Se venden AGF: la ola de M&A que redibujó la industria de fondos",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Se venden AGF: la ola de M&A que redibujó la industria de fondos",
@@ -278,7 +282,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Análisis sobre la candidatura de Michelle Bachelet a la ONU",
+        "titulo_neutral": "Por qué la candidatura de Michelle Bachelet a la ONU estaba condenada de antemano a una derrota",
         "resumen": "",
         "articulos": [
           {
@@ -300,8 +304,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Detención de un hombre en La Granja por comercialización de armas",
-        "resumen": "La policía detuvo en la comuna de La Granja a un individuo que mantenía un arsenal compuesto por pistolas y subametralladoras de origen extranjero. El arrestado, sin antecedentes previos, comercializaba armamento que exhibía inscripciones alusivas a las fuerzas armadas argentinas.",
+        "titulo_neutral": "PDI detiene en La Granja a hombre que comercializaba armas con grabados de las Fuerzas Armadas de Argentina",
+        "resumen": "Personal policial arrestó en una comuna de la Región Metropolitana a un individuo que se dedicaba a la venta ilegal de armamento. Durante el operativo se decomisaron pistolas y subametralladoras que portaban inscripciones de las fuerzas armadas de otro país. El aprehendido, de nacionalidad chilena, no registraba antecedentes penales previos ni órdenes pendientes.",
         "articulos": [
           {
             "titular": "PDI detiene en La Granja a hombre que comercializaba armas con grabados de las Fuerzas Armadas de Argentina",
@@ -322,8 +326,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Investigación sobre la empresa MA Botanics y la Operación Imperio Ámsterdam",
-        "resumen": "Un conocido empresario gastronómico fue situado por la Fiscalía como la presunta cabeza de una organización de tráfico de marihuana a gran escala. Las indagatorias apuntan a que una corporación vinculada a su red habría servido de fachada para desviar cannabis y mover millonarias ganancias ilícitas, aunque su defensa rechaza tales acusaciones.",
+        "titulo_neutral": "Investigación a MA Botanics por la Operación Imperio Ámsterdam",
+        "resumen": "Un conocido empresario gastronómico chileno se encuentra en el centro de una investigación judicial por presuntamente liderar una organización dedicada al tráfico de marihuana. Según las indagatorias, encabezaba una corporación con múltiples sucursales que habría funcionado como fachada para mover cientos de kilos de droga al mes. La defensa del imputado niega tajantemente las acusaciones de narcotráfico presentadas por la Fiscalía.",
         "articulos": [
           {
             "titular": "El auge y caída de MA Botanics, la empresa productora de la Operación Imperio Ámsterdam",
@@ -354,8 +358,8 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Acuerdo entre Sky Airline y Grupo Abra",
-        "resumen": "Se concretó la adquisición de la aerolínea Sky Airline por parte del grupo Abra, aunque los detalles sobre la participación accionaria de los antiguos dueños se mantuvieron reservados. Esta transacción modifica la composición patrimonial dentro del sector aerocomercial.",
+        "titulo_neutral": "Sky Airline cierra acuerdo con Grupo Abra para formar parte del conglomerado",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Sky Airline cierra acuerdo con Grupo Abra para formar parte del conglomerado",
@@ -374,60 +378,38 @@
           "Claro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Artículo sobre escritores singulares",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Escritores singulares y políticamente anómalos",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/opinion/escritores-singulares-y-anomalos-soto/",
-            "fecha": "2026-08-22T13:57:54+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Fontainebleau forest near Paris reopens after devastating wildfire",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
-        "fecha": "2026-08-22T15:57:29+00:00"
+        "titular": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-22T17:02:06+00:00"
       },
       {
-        "titular": "Walk-In “Human Fridges” are Japan’s newest heatwave weapon",
+        "titular": "US military newspaper editor voices censorship fears after being fired",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-22T16:57:19+00:00"
+      },
+      {
+        "titular": "Sanctioned by EU, Israeli settler steals and kills Palestinian donkey",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/walk-in-human-fridges-are-japans-newest-heatwave-weapon?traffic_source=rss",
-        "fecha": "2026-08-22T15:48:27+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-palestinian-donkey-killed-by-setllers-ps?traffic_source=rss",
+        "fecha": "2026-08-22T16:41:43+00:00"
       },
       {
-        "titular": "Did DOGE cuts make America’s food safety problem worse?",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-us-food-recalls-clip?traffic_source=rss",
-        "fecha": "2026-08-22T15:46:48+00:00"
-      },
-      {
-        "titular": "Settlers target Palestinian homes in Occupied West Bank’s Area B",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-reported-nida-live-westbank-ps?traffic_source=rss",
-        "fecha": "2026-08-22T15:45:40+00:00"
-      },
-      {
-        "titular": "Norris beats Russell to pole in Dutch hat-trick for McLaren - Reuters",
+        "titular": "South Africa's former world boxing champion Tete shot dead outside his home - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZV9Kak1OQVVXQVR4d2xmWnhyVkhZU1FzdUxxTjR3Y2sxMER0U0lOaTRTQUdEZlkzaWhDVVZIQUVuaFIwM0dUVkJSaW85blFqMmRWWmpIcFJvUTNoOU8zUnZrRGFscnMyYi1TQ2k2TXptME92aEtjVlltTUpZejZBbGxvcHdJUGVZVFBha2JpYw?oc=5",
-        "fecha": "2026-08-22T15:45:03+00:00"
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVDlRa1g4Rkd1OWVuOThwZWZ5STJ4eEtUbV9iWDhDb0x1cmtvRHAwcjNGWnZsSi1WYmxDd1ZKV2I2bzFRLTA1MWQ4Q1hUOGFkc3BfZXVibDhJNXVnRWdraGZ2Sy1VUW0tS0x1bElfbGJYTDA3TzRMd2FyclppVUhPanpWVkNrZlgxbUJsdXVRS0Vuc3hITzJuX0lmWVlMVHFzQ1BPaFJpOC1NV04zc0xBZVNqQ3NhWTNr?oc=5",
+        "fecha": "2026-08-22T16:31:06+00:00"
+      },
+      {
+        "titular": "Espanyol vs Real Madrid LIVE: La Liga",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/liveblog/2026/8/22/espanyol-vs-real-madrid-live-la-liga?traffic_source=rss",
+        "fecha": "2026-08-22T16:30:09+00:00"
       }
     ]
   },
@@ -1417,6 +1399,10 @@
           },
           {
             "fecha": "2026-08-22T16:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-22T17:00:00",
             "valor": 495.82
           }
         ],
@@ -4661,7 +4647,7 @@
         },
         {
           "titular": "Bill Gates pulls $818M from Berkshire to buy this giant",
-          "extracto": "La fundación de Bill Gates redujo su participación en Berkshire Hathaway e inició una inversión en una importante empresa de mejoras para el hogar. Este movimiento refleja ajustes estratégicos en la cartera de la organización filantrópica.",
+          "extracto": "La Fundación Gates redujo su inversión en Berkshire Hathaway e inició una nueva posición en una importante empresa de mejoras para el hogar. Este movimiento refleja ajustes estratégicos en la cartera de la organización benéfica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4670,7 +4656,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Stock Still Looks Cheap Relative To Fair Value",
-          "extracto": "Las acciones de Berkshire Hathaway lograron un rendimiento superior al 70 % en un quinquenio, respaldando la creación de riqueza a largo plazo. Diversos análisis sugieren que el valor actual de los títulos sigue cotizando por debajo de su valor intrínseco estimado.",
+          "extracto": "Las acciones de Berkshire Hathaway han generado un rendimiento sólido del 72,5% en cinco años, y los análisis actuales sugieren que aún cotizan por debajo de su valor intrínseco. La institución mantiene una asignación de capital activa en diversos sectores del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4679,7 +4665,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend",
-          "extracto": "Occidental Petroleum incrementó su dividendo impulsada por sólidos flujos de caja y un buen desempeño en el sector energético. Como una de las principales inversiones de Berkshire Hathaway, esta decisión atrae la atención sobre la estrategia de asignación de capital de la compañía.",
+          "extracto": "Occidental Petroleum incrementó su dividendo tras registrar un fuerte desempeño financiero y un flujo de caja saludable. Esta decisión mantiene el interés de los inversionistas sobre cómo esta empresa gestiona su capital en conjunto con los intereses de Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4688,7 +4674,7 @@
         },
         {
           "titular": "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-          "extracto": "Un documento regulatorio 13F reveló que Berkshire Hathaway disminuyó su inversión en una importante entidad bancaria. Esta modificación en su portafolio llamó la atención de los mercados debido al peso histórico de estas acciones en la cartera del conglomerado.",
+          "extracto": "Un informe regulatorio reveló que Berkshire Hathaway disminuyó su participación accionaria en una destacada entidad bancaria. La modificación forma parte de los ajustes recientes en las inversiones del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5868,6 +5854,10 @@
           },
           {
             "fecha": "2026-08-22T16:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-22T17:00:00",
             "valor": 270.95
           }
         ],
@@ -9103,7 +9093,7 @@
       "noticias": [
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contradice las expectativas económicas tradicionales de los consumidores. Esta discrepancia refleja cómo el mercado valora de forma muy distinta a competidores del mismo sector.",
+          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contradice las expectativas económicas habituales sobre el consumo. Esto demuestra cómo el mercado premia a ciertos negocios a pesar de la incertidumbre financiera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9112,7 +9102,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un análisis financiero reciente incluye a destacadas corporaciones de comida rápida y café como McDonald's, Starbucks y Yum! Brands. El reporte examina el rendimiento de estas marcas dentro del mercado actual.",
+          "extracto": "Un análisis reciente de mercado incluye a corporaciones de comida rápida y café como McDonald's, Starbucks y Yum! Brands. El informe evalúa el desempeño financiero y las perspectivas de estas grandes marcas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9121,7 +9111,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "McDonald's cuenta con una nueva línea de bebidas que está superando las expectativas comerciales en todos los mercados donde se ha lanzado. Esta innovación representa la oportunidad principal para recuperar el terreno perdido en bolsa durante el último año.",
+          "extracto": "McDonald's enfrenta una oportunidad de recuperación bursátil tras un año flojo, impulsada por el éxito de una nueva línea de bebidas. Este producto ha superado las expectativas iniciales en todos los mercados donde se ha lanzado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9139,7 +9129,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevas investigaciones contradicen el lema de que las políticas de diversidad, equidad e inclusión (DEI) arruinan a las empresas. El estudio demuestra que las compañías que mantuvieron estas iniciativas no sufrieron las consecuencias negativas pronosticadas por sectores conservadores.",
+          "extracto": "Nuevas investigaciones contradicen la advertencia de que eliminar programas de diversidad, equidad e inclusión perjudica financieramente a las empresas. El estudio analiza el impacto real de estas políticas corporativas frente a la presión conservadora.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10482,6 +10472,10 @@
           },
           {
             "fecha": "2026-08-22T16:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-22T17:00:00",
             "valor": 483.24
           }
         ],
@@ -13716,8 +13710,17 @@
       },
       "noticias": [
         {
+          "titular": "Microsoft Has Something Nvidia Doesn’t and Here’s Why it Matters",
+          "extracto": "Microsoft cuenta con un recurso estratégico que le permite transformar el entusiasmo por la inteligencia artificial en ingresos estables a gran escala, un factor que los mercados aún no valoran plenamente.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/22/microsoft-has-something-nvidia-doesnt-and-heres-why-it-matters/?.tsrc=rss",
+          "fecha": "2026-08-22T17:00:29+00:00"
+        },
+        {
           "titular": "3 AI Stocks Built for the Next Decade",
-          "extracto": "",
+          "extracto": "Los datos financieros actuales sobre la inversión en inteligencia artificial demuestran que tres empresas estadounidenses ya han asegurado ventajas competitivas duraderas que los inversores suelen subestimar.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13726,7 +13729,7 @@
         },
         {
           "titular": "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
-          "extracto": "Los analistas financieros proyectan un mayor potencial de crecimiento bursátil para Broadcom en comparación con Microsoft. No obstante, algunos inversionistas consideran a Microsoft como una alternativa más sólida dentro del sector tecnológico para los próximos años.",
+          "extracto": "A pesar de que Broadcom ofrece un mayor margen de revalorización en Wall Street que Microsoft, este último se perfila como una alternativa de inversión en inteligencia artificial más sólida de cara a 2026.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13735,7 +13738,7 @@
         },
         {
           "titular": "Microsoft Just Won One of Its Biggest AI Customers",
-          "extracto": "Las principales empresas del sector tecnológico están incrementando la adquisición mutua de servicios y tecnologías de inteligencia artificial. Esta tendencia refleja una mayor interdependencia entre los gigantes de la industria para desarrollar sus capacidades digitales.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13744,21 +13747,12 @@
         },
         {
           "titular": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
-          "extracto": "Microsoft planea lanzar este otoño su propio procesador de inteligencia artificial denominado Maia 300, buscando reducir su dependencia histórica de los semiconductores de Nvidia. Para la fabricación de este nuevo componente, la compañía se encuentra negociando con el fabricante taiwanés TSMC.",
+          "extracto": "Microsoft planea lanzar este otoño su nuevo microchip de inteligencia artificial denominado Maia 300, reduciendo así su dependencia histórica de los procesadores de Nvidia tras negociar su fabricación con TSMC.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-betting-big-own-201414728.html?.tsrc=rss",
           "fecha": "2026-08-21T20:14:14+00:00"
-        },
-        {
-          "titular": "Microsoft Rises as $678 Billion Backlog Defies Yield Pressure",
-          "extracto": "La alta demanda acumulada en los contratos de la plataforma en la nube Azure ha permitido a Microsoft mitigar el impacto negativo durante una semana complicada para las acciones tecnológicas sensibles a las tasas de interés.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-rises-678-billion-backlog-200956172.html?.tsrc=rss",
-          "fecha": "2026-08-21T20:09:56+00:00"
         }
       ],
       "fundamentales": {
@@ -15156,6 +15150,10 @@
           },
           {
             "fecha": "2026-08-22T16:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-22T17:00:00",
             "valor": 703.71
           }
         ],
@@ -18391,7 +18389,7 @@
       "noticias": [
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "La concentración del mercado bursátil ha alcanzado niveles históricos, con una cuarta parte de los principales fondos indexados concentrada en apenas cinco empresas. Esta tendencia refleja cómo un grupo reducido de gigantes tecnológicos domina el valor total de los principales índices financieros.",
+          "extracto": "La concentración de capital en los principales índices bursátiles ha alcanzado niveles históricos, con una porción masiva del mercado controlada por un puñado de grandes empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18400,7 +18398,7 @@
         },
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "El fondo cotizado Vanguard S&P 500 ETF ha registrado un crecimiento financiero extraordinario durante los últimos diez años. Este desempeño sostenido lo ha consolidado como una de las herramientas de inversión pasiva más rentables del mercado actual.",
+          "extracto": "Uno de los fondos cotizados basados en el S&P 500 más populares ha generado un crecimiento constante y significativo para los inversores durante los últimos diez años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18409,7 +18407,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "A pesar de ofrecer exactamente la misma cartera de acciones y dividendos, la mayoría de los inversionistas elige el fondo cotizado de State Street que cobra comisiones más altas. Esta paradoja financiera demuestra que muchos ahorradores no siempre seleccionan la opción más económica disponible.",
+          "extracto": "A pesar de ofrecer exactamente los mismos activos y rendimientos, muchos inversores eligen un fondo cotizado de State Street que resulta más costoso que su alternativa idéntica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18418,7 +18416,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "State Street modificó recientemente el nombre y el símbolo de cotización de un fondo clave para asemejarlo al producto más reconocido a nivel global. Esta estrategia comercial podría alterar profundamente la forma en que los pequeños ahorradores evalúan los costos de sus inversiones a largo plazo.",
+          "extracto": "Una gestora de fondos ha modificado la denominación y el código de cotización de un producto clave para imitar a un referente global, lo que podría alterar las decisiones de ahorro para la jubilación.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18427,7 +18425,7 @@
         },
         {
           "titular": "VOO vs VTI: After Comparing the Two Funds Most Americans Actually Own, One Is the Better Buy for the Next 20 Years",
-          "extracto": "Aunque muchos jubilados estadounidenses consideran que los fondos VOO y VTI son prácticamente idénticos, sus diferencias a largo plazo pueden generar variaciones significativas en el patrimonio. Elegir entre ambos productos requiere analizar cuidadosamente el horizonte temporal para maximizar los rendimientos futuros.",
+          "extracto": "Aunque dos de los fondos más populares entre los ahorradores estadounidenses parecen similares, la elección entre ellos genera diferencias financieras importantes a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
