@@ -1,12 +1,21 @@
 {
-  "generado": "2026-08-22T03:36:05.047661+00:00",
+  "generado": "2026-08-22T04:25:19.955220+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Negociaciones comerciales entre Canadá y Estados Unidos",
-        "resumen": "Los gobiernos de Estados Unidos y Canadá apuran las conversaciones de última hora para cerrar un entendimiento comercial. Las negociaciones ocurren bajo la presión de un inminente plazo fijado para el final de la semana.",
+        "titulo_neutral": "Negociaciones comerciales y aranceles entre Estados Unidos y Canadá",
+        "resumen": "El primer ministro de Canadá ha amenazado con aplicar aranceles de represalia equivalentes tras no alcanzar un pacto comercial con Estados Unidos. Las conversaciones de última hora se desarrollan bajo la presión de un inminente plazo límite fijado para el viernes por la noche. Esta situación refleja las tensiones persistentes en las relaciones comerciales norteamericanas y la dificultad para llegar a consensos bilaterales.",
         "articulos": [
+          {
+            "titular": "US imposes 50% tariffs on $20bn worth of Canadian goods after talks fail",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
+            "fecha": "2026-08-22T04:02:32+00:00"
+          },
           {
             "titular": "'We have more work to do', says Canada negotiator as US trade deadline looms",
             "extracto": "",
@@ -27,17 +36,19 @@
           }
         ],
         "leans_presentes": [
+          "sin-clasificar",
           "centro"
         ],
         "grupos_presentes": [
+          "Al Jazeera",
           "BBC",
           "Reuters"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
-        "resumen": "El expresidente estadounidense Donald Trump aclaró que no impartió instrucciones para que el secretario del Tesoro, Scott Bessent, intervenga en el mercado de bonos. Estas declaraciones surgen en un contexto de alta volatilidad y preocupación financiera sobre la gestión de la deuda pública.",
+        "titulo_neutral": "Declaraciones de Donald Trump sobre Scott Bessent y el mercado de bonos",
+        "resumen": "El presidente estadounidense ha negado haber dado instrucciones a Bessent para intervenir en el mercado de bonos. La aclaración busca disipar los rumores sobre una presunta directriz gubernamental en la gestión de la deuda soberana. Este tipo de declaraciones oficiales suele influir de forma notable en la confianza de los inversores.",
         "articulos": [
           {
             "titular": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
@@ -58,8 +69,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
-        "resumen": "El gobierno brasileño informó que Donald Trump mantuvo una conversación con Luiz Inácio Lula da Silva en la que sugirió la realización de encuentros bilaterales próximos. El objetivo de estas reuniones sería abordar de manera directa asuntos arancelarios y comerciales entre ambas naciones.",
+        "titulo_neutral": "Conversaciones sobre aranceles entre Donald Trump y Luiz Inácio Lula da Silva",
+        "resumen": "El gobierno brasileño informó que el mandatario estadounidense sugirió organizar próximamente un encuentro entre funcionarios de ambos países para debatir sobre aranceles. La propuesta busca abrir canales de diálogo bilaterales enfocados en asuntos comerciales prioritarios. Este acercamiento podría marcar el inicio de nuevas negociaciones para suavizar tensiones económicas.",
         "articulos": [
           {
             "titular": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
@@ -80,8 +91,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
-        "resumen": "Las autoridades mexicanas anticipan alcanzar acuerdos comerciales equivalentes al entendimiento que actualmente negocian Estados Unidos y Canadá. Esta postura refleja la intención de mantener la estabilidad económica regional frente a los cambios arancelarios.",
+        "titulo_neutral": "Expectativas comerciales de México en relación con el acuerdo entre Estados Unidos y Canadá",
+        "resumen": "México anticipa alcanzar acuerdos comerciales similares al entendimiento que se gesta entre Estados Unidos y Canadá. Las autoridades mexicanas confían en alinear sus condiciones a los estándares negociados por sus socios norteamericanos. Esto garantizaría una mayor estabilidad y certidumbre para la economía de la región.",
         "articulos": [
           {
             "titular": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
@@ -102,8 +113,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Recompra de deuda del Tesoro de Estados Unidos y su impacto en el dólar",
-        "resumen": "Las acciones de Moderna repuntaron de manera notable tras anunciar progresos clínicos favorables en una vacuna oncológica experimental. Paralelamente, el Departamento del Tesoro estadounidense se dispone a incrementar sustancialmente sus operaciones de recompra de deuda soberana a largo plazo, lo que ha generado inquietud en los mercados.",
+        "titulo_neutral": "Fluctuaciones del dólar y recompra de bonos del Tesoro",
+        "resumen": "La divisa estadounidense ha descendido hasta su nivel más bajo en tres trimestres debido a la inquietud generada por los planes de recompra de deuda del Tesoro. Esta medida económica ha despertado temores de una posible depreciación a largo plazo de la moneda. Los mercados financieros reaccionan con cautela ante estas políticas monetarias.",
         "articulos": [
           {
             "titular": "Dollar falls to three-month low on Treasury buyback worries - Reuters",
@@ -122,38 +133,19 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
             "fecha": "2026-08-21T14:03:54+00:00"
-          },
-          {
-            "titular": "Morning Bid: Big, bad bond market - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFpiZTBOeUlBMDlVbWNNTlFiMmFtVjhHMVkxRmVqaE9zSUMzZkhCcUJHWFdlZlo0VDQyZzRfNEpORWE3azJPTDJncEFQWHItcy1tYkFfeE1yVnRjYXhGb3JhQURsSlNFeHBaLW1PQVgyMEhWY25VYTlJRFY2elAxdHM1UENHYzFwdTdJUTVfaGZNUnBYV1hj?oc=5",
-            "fecha": "2026-08-21T10:40:44+00:00"
-          },
-          {
-            "titular": "US Treasury tries to soothe the bond market",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
-            "fecha": "2026-08-20T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Bolivia’s President Rodrigo Paz fires economy minister amid unrest",
-        "resumen": "José Gabriel Espinoza fue destituido de su cargo pocos días después de recibir una censura formal por parte del poder legislativo. Su salida se produce en medio de un clima de marcada inestabilidad política y tensiones vinculadas a la aplicación de reformas económicas.",
+        "titulo_neutral": "Destitución del ministro de Economía en Bolivia",
+        "resumen": "Jose Gabriel Espinoza ha sido destituido de su cargo pocos días después de recibir una censura formal por parte del poder legislativo. Su salida se produce en un contexto de agitación política y profundos debates en torno a la implementación de reformas económicas. La medida evidencia la inestabilidad institucional que afecta al sector financiero del país.",
         "articulos": [
           {
             "titular": "Bolivia’s President Rodrigo Paz fires economy minister amid unrest",
@@ -174,8 +166,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Trump to temporarily ease US beef tariffs, irking cattle producers - Reuters",
-        "resumen": "La administración estadounidense decidió reducir temporalmente los gravámenes a las importaciones de carne vacua. Esta medida ha generado un fuerte malestar entre los ganaderos locales, quienes consideran que perjudica su competitividad en el mercado interno.",
+        "titulo_neutral": "Modificación temporal de aranceles a la carne vacuna en Estados Unidos",
+        "resumen": "La administración de Trump planea relajar de manera temporal los aranceles aplicados a la importación de carne vacuna estadounidense. Esta decisión ha generado un fuerte malestar entre los productores locales de ganado, quienes temen una afectación a sus ingresos. La medida busca equilibrar el suministro interno frente a las presiones del mercado.",
         "articulos": [
           {
             "titular": "Trump to temporarily ease US beef tariffs, irking cattle producers - Reuters",
@@ -196,17 +188,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
-        "resumen": "La firma de capital privado Vista analiza la desinversión de Allvue, una empresa proveedora de datos para mercados financieros, por un valor estimado en tres mil millones de dólares. Diversas fuentes cercanas a la operación señalan que el proceso se encuentra en fase de evaluación.",
+        "titulo_neutral": "Solicitud de aranceles a vehículos híbridos chinos en la Unión Europea",
+        "resumen": "Un político estatal alemán ha solicitado formalmente mediante una carta la imposición de aranceles comunitarios a los vehículos híbridos procedentes de China. La iniciativa busca proteger la industria automotriz europea frente a la creciente competencia asiática. Esta propuesta refleja el proteccionismo económico que gana fuerza dentro de la Unión Europea.",
         "articulos": [
           {
-            "titular": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
+            "titular": "German state politician calls for EU tariffs on Chinese hybrid cars, letter shows - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUWZvOEdKLWNvVGVFdjVVVmVscElRTHRudGZNakI1N0RQaXpqaDdDX29XclZqQkREeWNMVmlNa29KZVdWSFlNOEh6cl9Ldklka3N1cWxONGE0MFVOSl9LRURmckpFNHFRbko3eTNabUVrUmN1S3NrUDVFZW9WR2JzRVZfbzA4b3BUQ1FYcTI3THRmb09CcnZ4WmxRTzlEMWVsT3ZkWDVGWkFfaHR5cmxkMzJNdlY0ODdET3QxcWJzUGkwMlNkOGlyTUZRMA?oc=5",
-            "fecha": "2026-08-21T15:55:43+00:00"
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUURnbnNMX3ZZUFNzdFEzSlQ2SV9aelhVaHhBYUdhTHRHMjhVdHVkS1RCUm1FSE1NdDVkYTdFS1NEbTlMeHRxdGxHTlhTZ2hDMFhXYlh0M0RQNWhyTFZ2bWFpZ0x5dWpqRHZvWEo2eXlJNXZRTUs2TDdjcHFLNTFnOVdoNVF0SzIwT19BZXdOUHFld0F0eG5xdHUtUm9ybmpkWE9DQnpLM09mTUxDcWFXMEZTTWRwMkJ2S0lZUXlR?oc=5",
+            "fecha": "2026-08-21T18:24:41+00:00"
           }
         ],
         "leans_presentes": [
@@ -219,6 +211,72 @@
       }
     ],
     "chile": [
+      {
+        "titulo_neutral": "“Los gendarmes se abalanzaron”, que “coman un sándwich” y “no va a ir a una unidad común”: la trastienda del caso Sartor",
+        "resumen": "Tras finalizar una maratónica audiencia de formalización por delitos económicos, un tribunal dictó prisión preventiva para cuatro personas involucradas. Mientras la defensa exigía mayores resguardos para los imputados, la magistrada a cargo aclaró que las decisiones sobre reclusión y separación de reos corresponden exclusivamente a Gendarmería según el marco legal vigente.",
+        "articulos": [
+          {
+            "titular": "“Los gendarmes se abalanzaron”, que “coman un sándwich” y “no va a ir a una unidad común”: la trastienda del caso Sartor",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-mas/por-dentro/los-gendarmes-se-abalanzaron-que-coman-un-sandwich-y-no-va-a-ir-a-una",
+            "fecha": "2026-08-22T04:07:29+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Codelco se enfrenta con el Fisco en defensa de su edificio corporativo",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Codelco se enfrenta con el Fisco en defensa de su edificio corporativo",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-mas/coffee-break/codelco-se-enfrenta-con-el-fisco-en-defensa-de-su-edificio-corporativo",
+            "fecha": "2026-08-22T03:49:14+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El auge y caída de MA Botanics, la empresa productora de la Operación Imperio Ámsterdam",
+        "resumen": "Una empresa que recibió financiamiento estatal inicial es señalada por el Ministerio Público como un eslabón logístico dentro de una red ilícita recientemente desarticulada. La investigación apunta a que la firma habría desviado sustancias ilícitas hacia un centro de distribución específico.",
+        "articulos": [
+          {
+            "titular": "El auge y caída de MA Botanics, la empresa productora de la Operación Imperio Ámsterdam",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-mas/coffee-break/el-auge-y-caida-de-ma-botanics-la-empresa-productora-de-la-operacion",
+            "fecha": "2026-08-22T03:36:47+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
       {
         "titulo_neutral": "El profesor que sacó las clases de las salas en Escocia viene a conocer Tricao",
         "resumen": "",
@@ -243,7 +301,7 @@
       },
       {
         "titulo_neutral": "Los Kunstmann y Charlie D’Olbek “on the road” por el norte de Chile",
-        "resumen": "Armin Kunstmann, pionero de la industria cervecera nacional, emprendió un nuevo viaje hacia el norte del país a bordo del mismo vehículo que utilizó hace más de dos décadas. En esta travesía lo acompañan su hijo y otros referentes históricos de la actividad cervecera chilena. La expedición busca rememorar los inicios del sector y convocar a los actores fundacionales.",
+        "resumen": "Un conocido empresario cervecero emprendió nuevamente una travesía automovilística por las regiones del norte chileno, repitiendo el recorrido que realizó hace más de dos décadas. En esta ocasión, el viaje cuenta con la participación de su hijo y de otros pioneros de la industria cervecera nacional.",
         "articulos": [
           {
             "titular": "Los Kunstmann y Charlie D’Olbek “on the road” por el norte de Chile",
@@ -265,7 +323,7 @@
       },
       {
         "titulo_neutral": "Startup chilena Vambe continúa con su acelerado crecimiento y proyecta superar los US$2 millones en nuevas ventas mensuales durante el tercer trimestre",
-        "resumen": "La empresa emergente chilena Vambe experimentó un fuerte incremento en su facturación durante la primera mitad del año gracias a sus servicios de inteligencia artificial para negocios. Ante esta expansión comercial, la compañía proyecta superar los dos millones de dólares mensuales en ventas y ha nombrado a un nuevo gerente general para liderar sus operaciones en el país.",
+        "resumen": "Una compañía tecnológica nacional especializada en soluciones de inteligencia artificial para negocios experimentó un fuerte incremento en sus transacciones comerciales durante el primer semestre. Debido a esta rápida expansión operativa, la firma decidió incorporar una nueva gerencia general para liderar sus operaciones locales y sus metas de facturación.",
         "articulos": [
           {
             "titular": "Startup chilena Vambe continúa con su acelerado crecimiento y proyecta superar los US$2 millones en nuevas ventas mensuales durante el tercer trimestre",
@@ -287,7 +345,7 @@
       },
       {
         "titulo_neutral": "Seis de los siete sectores del Mall de Zofri todavía no tienen fecha de reapertura tras daños en sistema eléctrico por lluvias",
-        "resumen": "Varias zonas del complejo franco zofri permanecerán sin operaciones debido a daños sufridos tras un reciente evento meteorológico. La administración del recinto comercial se encuentra activando los protocolos con las compañías aseguradoras para hacer frente a la contingencia. Por su parte, los locatarios reportan daños económicos de consideración a raíz de esta paralización temporal.",
+        "resumen": "Varias secciones de un centro comercial y de almacenamiento franco permanecerán inoperativas temporalmente mientras se instalan fuentes de energía provisionales tras los daños climáticos. Los locatarios del sector afectado estiman pérdidas económicas considerables y ya iniciaron los trámites con las compañías aseguradoras.",
         "articulos": [
           {
             "titular": "Seis de los siete sectores del Mall de Zofri todavía no tienen fecha de reapertura tras daños en sistema eléctrico por lluvias",
@@ -328,75 +386,15 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Por amor al arte: Empresarios coleccionistas",
-        "resumen": "Diversos coleccionistas y mecenas nacionales han acumulado a lo largo del tiempo importantes conjuntos de obras pertenecientes al circuito artístico contemporáneo. Estos actores han decidido abrir sus colecciones personales al público mediante exposiciones en instituciones culturales y galerías. De este modo, contribuyen activamente a la difusión y preservación del patrimonio visual del país.",
-        "articulos": [
-          {
-            "titular": "Por amor al arte: Empresarios coleccionistas",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/capital/cultura/por-amor-al-arte-empresarios-coleccionistas",
-            "fecha": "2026-08-22T01:50:27+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "[Telón de fondo] La reforma de seguridad se está hundiendo desde dentro. Por Cristián Bofill",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "[Telón de fondo] La reforma de seguridad se está hundiendo desde dentro. Por Cristián Bofill",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/politica/reforma-seguridad-hundiendo-bofill/",
-            "fecha": "2026-08-22T01:49:15+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Alejandra García: “El cine es una herramienta muy poderosa para mostrar Chile al mundo”",
-        "resumen": "La realizadora Manuela Martelli estrena su segundo largometraje, titulado El deshielo, marcando además el debut formal de la productora audiovisual Ronda Cine. En declaraciones recientes, la cineasta aborda los retos logísticos del rodaje, el camino hacia la independencia productiva y la complejidad de conectar con las audiencias locales. El proyecto consolida su trayectoria en la industria cinematográfica nacional.",
-        "articulos": [
-          {
-            "titular": "Alejandra García: “El cine es una herramienta muy poderosa para mostrar Chile al mundo”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/personaje/alejandra-garcia-el-cine-es-una-herramienta-muy-poderosa-para-mostrar",
-            "fecha": "2026-08-22T01:49:12+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
+      {
+        "titular": "US, Iran keep up hostile rhetoric ahead of new sanctions - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
+        "fecha": "2026-08-22T04:11:03+00:00"
+      },
       {
         "titular": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
         "medio": "Al Jazeera",
@@ -420,12 +418,6 @@
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/8/22/palestinian-british-girl-6-dies-days-after-family-drowned-off-uk-coast?traffic_source=rss",
         "fecha": "2026-08-22T01:42:33+00:00"
-      },
-      {
-        "titular": "US judge strikes down policy suspending immigrant visa processing for 75 nations - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT0F2RlpfcnFUWko2OFFTZzBmUG9TcWJJZDJYMXhPU1oyVEx4cV9jSXhiZDdiU3E3Q1ctcExuWFh2UERJWkd2dWVKQ0tJZlk1eDlJT01OSk9nMkZzQWozcXgxVktwajN1cE1YQ0pxWUNBYXNCU3BHSUlOWFlqS0JIRW16VWxRbjJfSlExc3kyaS1jcUdxeFhaSUQ3V3V0NzlKTU1rbEFtTWxQRnNDVHpNZkhPbmhyTzhKSGxZLVY4WXZiMjNZRVRzTg?oc=5",
-        "fecha": "2026-08-22T01:28:00+00:00"
       }
     ]
   },
@@ -1363,6 +1355,10 @@
           },
           {
             "fecha": "2026-08-22T03:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-22T04:00:00",
             "valor": 495.82
           }
         ],
@@ -4598,7 +4594,7 @@
       "noticias": [
         {
           "titular": "Bill Gates pulls $818M from Berkshire to buy this giant",
-          "extracto": "La fundación de Bill y Gates redujo su participación en Berkshire Hathaway y adquirió acciones de una importante empresa de mejoras para el hogar. Esta decisión refleja un ajuste en su estrategia de inversión dentro del mercado accionario.",
+          "extracto": "La fundación de Bill y Gates redujo su participación en Berkshire Hathaway y adquirió acciones de una importante empresa de mejoras para el hogar. Este movimiento refleja ajustes estratégicos en su cartera de inversiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4607,7 +4603,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Stock Still Looks Cheap Relative To Fair Value",
-          "extracto": "Las acciones de Berkshire Hathaway han generado ganancias significativas en cinco años, y los análisis indican que su valor actual sigue siendo atractivo. La empresa mantiene inversiones estratégicas en diversos sectores industriales y tecnológicos.",
+          "extracto": "Las acciones de Berkshire Hathaway han generado ganancias significativas en cinco años, y los análisis sugieren que aún cotizan por debajo de su valor real. Esto respalda la asignación continua de capital hacia diversos gigantes corporativos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4616,7 +4612,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend",
-          "extracto": "Occidental Petroleum aumentó la remuneración a sus accionistas gracias a sus sólidos flujos de caja y resultados financieros favorables. Este movimiento mantiene el interés del mercado debido a que Berkshire Hathaway posee una participación relevante en dicha compañía.",
+          "extracto": "Occidental Petroleum aumentó su dividendo gracias a un sólido flujo de caja, lo que mantiene el interés de los inversores debido a su peso en la cartera de Berkshire Hathaway. La medida evidencia la estrategia de la petrolera para equilibrar la remuneración a los accionistas y la gestión financiera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4625,7 +4621,7 @@
         },
         {
           "titular": "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-          "extracto": "Un reporte regulatorio reciente reveló que el conglomerado disminuyó su inversión en una destacada entidad bancaria. Este tipo de transacciones suelen atraer la atención de los mercados financieros por el peso de la firma inversora.",
+          "extracto": "Un informe regulatorio reciente reveló que Berkshire Hathaway disminuyó su inversión en una destacada entidad bancaria. Esta decisión forma parte de los ajustes periódicos en las tenencias financieras del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4634,7 +4630,7 @@
         },
         {
           "titular": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
-          "extracto": "Durante el último trimestre, el nuevo director ejecutivo del conglomerado continuó liquidando acciones bancarias y adquirió títulos de una aerolínea de la cual la firma se había desprendido anteriormente. Estos movimientos muestran un cambio en la gestión de la cartera respecto a decisiones pasadas.",
+          "extracto": "El nuevo director ejecutivo del conglomerado continuó desinvirtiendo en un banco que Warren Buffett ya venía vendiendo y, al mismo tiempo, retomó posiciones en una aerolínea que había sido descartada años atrás. Estos cambios marcan un contraste en la gestión de la cartera respecto a las decisiones históricas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5762,6 +5758,10 @@
           },
           {
             "fecha": "2026-08-22T03:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-22T04:00:00",
             "valor": 270.95
           }
         ],
@@ -9006,7 +9006,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un reciente análisis financiero incluye a marcas globales como McDonald's, Starbucks y Yum! Brands entre sus temas de estudio.",
+          "extracto": "Un reciente análisis financiero incluye a marcas globales como McDonald's, Starbucks y Yum! Brands dentro de sus evaluaciones de mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9015,7 +9015,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "La introducción exitosa de una nueva línea de bebidas en múltiples mercados proporciona a McDonald's una oportunidad clara para repuntar tras un año de resultados bursátiles desfavorables.",
+          "extracto": "La introducción exitosa de una nueva línea de bebidas en todos sus mercados actuales proporciona a McDonald's una oportunidad clara de recuperación bursátil tras un período de bajo rendimiento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9033,7 +9033,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevas investigaciones contradicen el argumento de que abandonar las políticas de diversidad, equidad e inclusión beneficia financieramente a las empresas estadounidenses.",
+          "extracto": "Estudios recientes demuestran que las empresas que han decidido mantener sus programas de diversidad, equidad e inclusión no han sufrido las consecuencias negativas pronosticadas por los sectores conservadores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10324,6 +10324,10 @@
           },
           {
             "fecha": "2026-08-22T03:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-22T04:00:00",
             "valor": 483.24
           }
         ],
@@ -13559,7 +13563,7 @@
       "noticias": [
         {
           "titular": "Microsoft Just Won One of Its Biggest AI Customers",
-          "extracto": "",
+          "extracto": "Las grandes empresas tecnológicas están colaborando cada vez más entre sí para adquirir tecnología de inteligencia artificial, diversificando sus proveedores más allá del desarrollo interno.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13568,7 +13572,7 @@
         },
         {
           "titular": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
-          "extracto": "Microsoft planea lanzar su nuevo procesador de inteligencia artificial denominado Maia 300 este otoño. Este movimiento busca reducir su dependencia actual de los semiconductores fabricados por Nvidia.",
+          "extracto": "Microsoft planea lanzar su propio microprocesador de inteligencia artificial llamado Maia 300 este otoño boreal, reduciendo así su dependencia histórica de los componentes fabricados por Nvidia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13595,7 +13599,7 @@
         },
         {
           "titular": "Microsoft vs. Nvidia: Which AI Giant Is More Likely to Double Your Money?",
-          "extracto": "",
+          "extracto": "A pesar de que tanto Microsoft como Nvidia reportaron fuertes ganancias impulsadas por la inteligencia artificial, los analistas debaten cuál de las dos empresas ofrece un mayor potencial de crecimiento futuro para los accionistas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14946,6 +14950,10 @@
           },
           {
             "fecha": "2026-08-22T03:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-22T04:00:00",
             "valor": 703.71
           }
         ],
@@ -18181,7 +18189,7 @@
       "noticias": [
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "El fondo cotizado Vanguard S&P 500 ha demostrado un crecimiento financiero notable durante los últimos diez años. Este desempeño lo ha consolidado como un instrumento clave para la acumulación de capital a largo plazo.",
+          "extracto": "El fondo cotizado Vanguard S&P 500 ha generado un crecimiento constante y significativo a lo largo de los últimos diez años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18190,7 +18198,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "extracto": "Las bajas comisiones de este popular fondo de inversión a menudo desvían la atención de los compradores hacia otros aspectos. Sin embargo, en el interior del producto financiero existen peligros ocultos que no se reflejan en las tablas comparativas de costos.",
+          "extracto": "A pesar de su bajo costo operativo, el fondo VOO esconde riesgos estructurales importantes que no suelen aparecer en las tablas comparativas de comisiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18199,7 +18207,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "Una gestora de activos administra dos fondos basados en el mismo índice bursátil que ofrecen idénticos rendimientos y distribuciones. A pesar de esto, una gran parte del público elige sistemáticamente la opción que cobra comisiones más elevadas.",
+          "extracto": "Muchos inversores eligen un fondo cotizado de State Street más costoso a pesar de que posee la misma composición y rentabilidad que otra alternativa idéntica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18208,7 +18216,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "Una empresa financiera modificó el nombre y la clave de pizarra de un producto importante para asemejarlo al fondo más reconocido del mercado. Esta discrepancia en las tarifas podría alterar profundamente la perspectiva de los ahorradores sobre los fondos indexados.",
+          "extracto": "State Street renombró un fondo principal con un identificador muy similar al del fondo más popular del mundo, una estrategia de comisiones que podría transformar el ahorro para la jubilación.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18217,7 +18225,7 @@
         },
         {
           "titular": "VOO vs VTI: After Comparing the Two Funds Most Americans Actually Own, One Is the Better Buy for the Next 20 Years",
-          "extracto": "Dos de los fondos más populares sirven como base para los planes de retiro de numerosos ciudadanos, quienes suelen considerarlos equivalentes. No obstante, la selección entre ambos genera variaciones económicas significativas tras un horizonte temporal prolongado.",
+          "extracto": "Aunque los fondos VOO y VTI suelen considerarse equivalentes en cuentas de retiro, sus diferencias a largo plazo pueden representar una suma considerable de dinero para los jubilados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
