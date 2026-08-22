@@ -1,14 +1,52 @@
 {
-  "generado": "2026-08-22T11:14:33.446146+00:00",
-  "errores": [
-    "Reuters: feed sin respuesta o vacío",
-    "France24: feed sin respuesta o vacío"
-  ],
+  "generado": "2026-08-22T12:24:37.283915+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Aranceles de Estados Unidos a productos canadienses y respuesta de Canadá",
-        "resumen": "Estados Unidos ha implementado aranceles del 50 % a importaciones canadienses valoradas en 20 000 millones de dólares tras el fracaso de las negociaciones comerciales bilaterales. En respuesta, el primer ministro de Canadá anunció que su gobierno replicará estas medidas arancelarias de manera recíproca. Aunque la decisión genera tensión económica, los expertos consideran poco probable que logre desestabilizar gravemente la economía canadiense.",
+        "titulo_neutral": "Canadá anuncia represalias arancelarias contra Estados Unidos tras el fracaso de las negociaciones comerciales",
+        "resumen": "Estados Unidos ha implementado aranceles del 50% sobre miles de millones de dólares en importaciones canadienses tras el fracaso de las negociaciones comerciales de última hora. En respuesta, el primer ministro canadiense, Mark Carney, anunció que su gobierno aplicará gravámenes recíprocos de la misma magnitud para defender los intereses económicos nacionales. Esta medida marca una nueva escalada en las tensiones económicas entre Washington y Ottawa.",
+        "articulos": [
+          {
+            "titular": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-22T12:20:46+00:00"
+          },
+          {
+            "titular": "Canada says will match new US 50% tariffs 'dollar for dollar'",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/canada-says-will-match-new-us-50-tariffs-dollar-for-dollar",
+            "fecha": "2026-08-22T10:40:26+00:00"
+          },
+          {
+            "titular": "Canada vows to match US tariffs 'dollar for dollar' after failed trade negotiations",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/americas/20260822-carney-says-canada-will-match-us-tariffs-dollar-for-dollar-after-failed-trade-negotiations",
+            "fecha": "2026-08-22T04:29:13+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC",
+          "France24"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "How will Trump’s tariffs affect Canada’s economy?",
+        "resumen": "La Casa Blanca ha aplicado aranceles severos a sectores estratégicos canadienses tras el fracaso de las recientes negociaciones comerciales. Pese al impacto de estas medidas proteccionistas, los analistas consideran improbable que logren desestabilizar significativamente la economía de Canadá. La situación mantiene la incertidumbre sobre el futuro de las relaciones económicas transfronterizas.",
         "articulos": [
           {
             "titular": "How will Trump’s tariffs affect Canada’s economy?",
@@ -18,39 +56,19 @@
             "lean": "sin-clasificar",
             "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/how-will-trumps-tariffs-affect-canadas-economy?traffic_source=rss",
             "fecha": "2026-08-22T08:01:55+00:00"
-          },
-          {
-            "titular": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-22T04:46:33+00:00"
-          },
-          {
-            "titular": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
-            "fecha": "2026-08-22T04:02:32+00:00"
           }
         ],
         "leans_presentes": [
-          "sin-clasificar",
-          "centro"
+          "sin-clasificar"
         ],
         "grupos_presentes": [
-          "Al Jazeera",
-          "BBC"
+          "Al Jazeera"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Libya’s brain drain, 15 years after Tripoli fell",
-        "resumen": "Aquellos profesionales que abandonaron Libia debido a la inestabilidad política expresan su escepticismo sobre la posibilidad de regresar a su nación de origen. Al mismo tiempo, persiste la preocupación de que más ciudadanos planeen emigrar ante la falta de perspectivas de mejora en el país.",
+        "resumen": "Diversos profesionales que abandonaron una nación sumida en una grave crisis política y social descartan regresar en el corto plazo. Esta reticencia se ve agravada por el hecho de que un número creciente de ciudadanos evalúa dejar el territorio debido a la inestabilidad persistente. La situación refleja la falta de confianza en una pronta recuperación institucional.",
         "articulos": [
           {
             "titular": "Libya’s brain drain, 15 years after Tripoli fell",
@@ -72,7 +90,7 @@
       },
       {
         "titulo_neutral": "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
-        "resumen": "El conflicto prolongado con Israel ha obstaculizado significativamente la recuperación económica del Líbano, según advierte una importante institución financiera internacional. Como consecuencia de las hostilidades, el país registra un repunte en la inflación y un encarecimiento generalizado de los precios para los consumidores.",
+        "resumen": "Un organismo financiero internacional advirtió que el enfrentamiento bélico con Israel ha obstaculizado la recuperación económica de Líbano. Este conflicto ha provocado un repunte significativo en la inflación y en el costo de los productos de consumo básico para la población. La crisis profundiza los desafíos financieros que enfrenta el país en medio de la inestabilidad regional.",
         "articulos": [
           {
             "titular": "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
@@ -93,369 +111,313 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US Treasury tries to soothe the bond market",
-        "resumen": "Las acciones de la farmacéutica Moderna experimentaron un repunte bursátil tras anunciar resultados clínicos favorables en el desarrollo de una vacuna experimental contra el cáncer. En el ámbito macroeconómico, el Departamento del Tesoro estadounidense planea incrementar de forma notable sus recompras de deuda pública a largo plazo. Además, se ha generado controversia en Estados Unidos debido a las prácticas de contratación temprana de estudiantes de derecho por parte de grandes firmas legales.",
+        "titulo_neutral": "Estados Unidos impone aranceles a productos canadienses tras el fracaso de las negociaciones",
+        "resumen": "El gobierno de Canadá ha advertido que responderá con aranceles equivalentes después de que fracasaran las conversaciones bilaterales con las autoridades estadounidenses. Como resultado de este estancamiento, la administración norteamericana decidió aplicar gravámenes punitivos a los productos del país vecino. La medida intensifica la disputa comercial entre ambas naciones norteamericanas.",
         "articulos": [
           {
-            "titular": "US Treasury tries to soothe the bond market",
+            "titular": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
             "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
-            "fecha": "2026-08-20T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Financial Times"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
-        "resumen": "Los inversores de la empresa de inteligencia artificial Anthropic estiman que su futura salida a bolsa podría alcanzar una valoración histórica récord. En el plano económico estadounidense, la tasa de inflación experimentó una ligera disminución impulsada por la bajada en los precios de los combustibles. Paralelamente, la ciudadanía y los negocios en Irán recurren cada vez más a modalidades de pago aplazado para hacer frente a la severa crisis en el coste de la vida.",
-        "articulos": [
-          {
-            "titular": "Anthropic’s anticipated $2tn IPO",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
-            "fecha": "2026-08-13T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Financial Times"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Decisiones y expectativas sobre las tasas de interés de la Reserva Federal",
-        "resumen": "Los mercados financieros globales reaccionaron a los informes de ganancias de grandes tecnológicas como Meta y Microsoft, mientras los inversores evalúan el impacto del elevado gasto en inteligencia artificial. Paralelamente, la Reserva Federal de Estados Unidos decidió mantener los tipos de interés sin cambios a pesar de las presiones inflacionarias derivadas de conflictos internacionales. Por su parte, varias empresas energéticas en el Reino Unido y otras regiones están redirigiendo sus inversiones hacia oportunidades en el extranjero.",
-        "articulos": [
-          {
-            "titular": "Fed holds rates as inflation fears grow",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
-            "fecha": "2026-07-30T04:00:00+00:00"
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
+            "fecha": "2026-08-22T04:02:32+00:00"
           },
           {
-            "titular": "Hike or hold: Investors split ahead of Fed decision",
+            "titular": "US hits Canadian goods with 50% tariffs after trade talks fail - Reuters",
             "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
-            "fecha": "2026-07-27T04:00:00+00:00"
-          },
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHUybEFVcFlsU2tZSVAyZGoxZ1g3ZmZSZjAybE9pbjRURDdFem04SXhZVnZIQW5iUEVscGFmbXNOR2w3d0Y2OEVZSVRlS3JOVXBmamwyWUU0WmRsZlRuZm5Xc01zRnVYV1pYZ2Rfb1pDbnlSM0JZamhsWjUxa083eWZRU2hzZzJIWXRrUlFpajg4a0ZHbk5wYWZlRVZ2SFZQZlVJV24zakhlYVE4?oc=5",
+            "fecha": "2026-08-21T13:24:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar",
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera",
+          "Reuters"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
+        "resumen": "El mandatario estadounidense ha negado haber dado instrucciones a su secretario de Estado o colaboradores económicos para intervenir de manera directa en el mercado de bonos. Estas declaraciones buscan calmar las especulaciones sobre una posible manipulación gubernamental de los instrumentos de deuda pública. La postura oficial intenta proyectar estabilidad frente a las preocupaciones de los inversores.",
+        "articulos": [
           {
-            "titular": "Federal Reserve gears up for change",
+            "titular": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
             "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
-            "fecha": "2026-06-18T04:00:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkFsc1FIR29sOXp1dmJuLTJFNHR0Z04taHhTaEZkd1QyRmhxN0hKTmZHYldObW5zV1J6c2ozT04xOXp0dlFMbWgwMHVUckdCeHNPRG1QTEE4bU9fckJmd1BnekhaZ0JCOUUwbDBCdWdRM3FRWEFJUHB4LW9KaTNPRDBmQ1lLYTdOUTJWa2wtckZ1Y0FFbjJVTkFjaUVKY2Zwdm05VENB?oc=5",
+            "fecha": "2026-08-21T23:27:43+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Financial Times"
+          "Reuters"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Germany’s twin crises: football and the economy",
-        "resumen": "El crecimiento del empleo en Estados Unidos durante el mes de junio quedó por debajo de las previsiones de los analistas financieros al registrarse una modesta creación de puestos de trabajo. En Corea del Sur, los beneficios obtenidos por inversiones en acciones tecnológicas se están canalizando hacia un mercado inmobiliario que ya muestra signos de sobrecalentamiento. Por otra parte, la gestora Blue Owl Capital enfrentó solicitudes masivas de reembolso por parte de inversores que buscaban retirar su capital de sus fondos de crédito privado.",
+        "titulo_neutral": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
+        "resumen": "El gobierno brasileño informó que el presidente estadounidense sugirió que funcionarios de ambos países se reúnan próximamente para debatir asuntos arancelarios. Este posible encuentro bilateral busca abordar las diferencias comerciales existentes entre las dos potencias americanas. La iniciativa abre un canal de diálogo para tratar políticas proteccionistas.",
         "articulos": [
           {
-            "titular": "Germany’s twin crises: football and the economy",
+            "titular": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
             "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/germanys-twin-crises-football-and-the-economy",
-            "fecha": "2026-07-03T04:00:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSHFjdVZGTkJSOTJTQzFQWXkyOHFQa2NRaEFienkzTWthdl9NY29lTmpPMzVlM3JVaGd5Ui1QTEdPT0xGaHRGampuaUdxdTFXZDNxdHV3MDVMdkNlbzltbGlOM1FDdl9IcVo1X2x4T1FQYWI0U2VWcHVsaVo2RTRRS01OVGkxd0FjU0hNaDliWUlYQVZtXzljU3FYVmt6TTN1ZGc?oc=5",
+            "fecha": "2026-08-21T21:46:19+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Financial Times"
+          "Reuters"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US Supreme Court blocks firing of Fed governor",
-        "resumen": "El Tribunal Supremo de Estados Unidos dictaminó una resolución que impide al presidente Donald Trump destituir a la gobernadora de la Reserva Federal Lisa Cook. En los mercados financieros, los inversores han comenzado a diversificar sus carteras retirando capital de las grandes empresas tecnológicas conocidas como los 'Siete Magníficos'. Asimismo, los inversores extranjeros muestran inquietud ante la posibilidad de que el gobierno de Japón frene o revierta las reformas corporativas implementadas recientemente.",
+        "titulo_neutral": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
+        "resumen": "Las autoridades mexicanas anticipan alcanzar acuerdos comerciales con Estados Unidos que sigan parámetros similares a los pactados recientemente con Canadá. Este optimismo refleja la intención de alinear las normativas regionales bajo un marco de entendimiento económico común. El gobierno busca estabilidad para sus exportaciones en medio de los cambios arancelarios norteamericanos.",
         "articulos": [
           {
-            "titular": "US Supreme Court blocks firing of Fed governor",
+            "titular": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
             "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-supreme-court-blocks-firing-of-fed-governor",
-            "fecha": "2026-06-30T04:00:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkVrQzlDMElqOXJFZVRDeDlxZ1hINWVldEpqdlZab1lzTXVZcHRoaExyVElrZzF0bDdjV2R3NTIzZDlvd0JuQTJ0SUZKUEJ3OEtKUm5CbTVoV3ItM3Rqb3lXNVBfclJ4M0l3S1dPaXI3ZlJ5WW1IMEdRVFVTZjQ5ZU92ZWxCd2k5NGNocy1MWm9MRVRubExQM0tma0pwYW1RTzQ2NXZR?oc=5",
+            "fecha": "2026-08-21T20:40:56+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Financial Times"
+          "Reuters"
         ],
         "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Crisis financiera de la empresa Sartor",
-        "resumen": "Un tribunal decretó la prisión preventiva para cuatro exejecutivos vinculados al caso financiero Sartor tras una extensa audiencia de formalización. Paralelamente, la justicia ordenó la liquidación forzosa de Emprender Capital debido a millonarias deudas en pagarés. Estos acontecimientos judiciales coincidieron con discusiones sobre la seguridad penitenciaria asignada a los imputados.",
+        "titulo_neutral": "Columna de Isabel Plant: Queremos puro opinar de cuerpos ajenos",
+        "resumen": "Una reciente columna de opinión aborda la persistente tendencia social a emitir juicios sobre los cuerpos ajenos. El texto señala que antes de adoptar discursos de aceptación corporal, resulta necesario superar la propia severidad en las autoevaluaciones físicas. Se mencionan diversas polémicas públicas recientes para ilustrar cómo el escrutinio sobre la apariencia sigue vigente.",
         "articulos": [
           {
-            "titular": "Lo que debes saber al terminar la semana I PIB, bonos, Sartor y alianza Codelco-Pucobre",
+            "titular": "Columna de Isabel Plant: Queremos puro opinar de cuerpos ajenos",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/doble-shot/pib-bonos-sartor-y-alianza-codelco-pucobre-marcaron-la-semana",
-            "fecha": "2026-08-22T09:17:08+00:00"
-          },
-          {
-            "titular": "ECapital, el factoring clave en la crisis de Sartor se va a la quiebra",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/datos-de-sobremesa/ecapital-el-factoring-clave-en-la-crisis-de-sartor-se-va-a-la-quiebra",
-            "fecha": "2026-08-22T08:51:27+00:00"
-          },
-          {
-            "titular": "“Los gendarmes se abalanzaron”, que “coman un sándwich” y “no va a ir a una unidad común”: la trastienda del caso Sartor",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/por-dentro/los-gendarmes-se-abalanzaron-que-coman-un-sandwich-y-no-va-a-ir-a-una",
-            "fecha": "2026-08-22T04:07:29+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/columna-de-isabel-plant-queremos-puro-opinar-de-cuerpos-ajenos/",
+            "fecha": "2026-08-22T12:23:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "La minuta del Congreso | El desafío del gobierno de ordenar a sus filas",
-        "resumen": "El Poder Ejecutivo dispone de un breve plazo para reorganizar a sus parlamentarios y coaliciones. El objetivo es lograr acuerdos internos antes de iniciar la tramitación legislativa de la reforma de seguridad.",
+        "titulo_neutral": "Paulo Londra, sobre el regreso a Chile y su nueva música: “Me gusta mucho el reguetón que hacen acá, está bueno”",
+        "resumen": "El artista argentino Paulo Londra se presentó ante una masiva audiencia en Santiago tras su paso por un conocido festival musical local. En la previa del evento, el músico reflexionó sobre su evolución artística, su vínculo con la espiritualidad y su interés por colaborar con exponentes de la escena urbana chilena. Su actuación reafirmó la sólida base de seguidores que mantiene en el país desde el inicio de su carrera.",
         "articulos": [
           {
-            "titular": "La minuta del Congreso | El desafío del gobierno de ordenar a sus filas",
+            "titular": "Paulo Londra, sobre el regreso a Chile y su nueva música: “Me gusta mucho el reguetón que hacen acá, está bueno”",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/la-minuta/el-desafio-del-gobierno-de-ordenar-a-sus-filas",
-            "fecha": "2026-08-22T09:05:07+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/paulo-londra-sobre-su-regreso-a-chile-y-su-nueva-musica-me-gusta-mucho-el-regueton-que-hacen-aca-esta-bueno/",
+            "fecha": "2026-08-22T12:22:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Iniciativas y declaraciones del cardenal Fernando Chomali",
-        "resumen": "Cientos de líderes empresariales y figuras del ámbito económico se reunieron con la máxima autoridad de la Iglesia chilena para analizar su mensaje social. Durante el encuentro, se destacó la iniciativa orientada a brindar apoyo integral y oportunidades educativas a los hijos de personas privadas de libertad. El programa busca visibilizar una problemática frecuentemente ignorada por la sociedad.",
+        "titulo_neutral": "Inteligencia artificial y el primer empleo: ¿el primer peldaño roto?",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "La masiva acogida del empresariado a la carta del cardenal Fernando Chomali",
+            "titular": "Inteligencia artificial y el primer empleo: ¿el primer peldaño roto?",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/el-deal/la-masiva-acogida-del-empresariado-a-la-carta-del-cardenal-fernando-chomali",
-            "fecha": "2026-08-22T09:02:49+00:00"
-          },
-          {
-            "titular": "La cruzada del Cardenal Chomali por acompañar a los hijos de las personas privadas de libertad",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/por-dentro/la-cruzada-del-cardenal",
-            "fecha": "2026-08-22T01:07:00+00:00"
+            "url": "https://www.ex-ante.cl/opinion/ia-y-empleo-primer-peldano-roto/",
+            "fecha": "2026-08-22T12:21:31+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Paltas y avellanas lideran el ranking frutícola y proyectan su dominio para la próxima temporada",
-        "resumen": "Las exportaciones de frutos secos experimentaron un crecimiento significativo durante la temporada, impulsadas principalmente por el fuerte incremento en la comercialización de avellanas. En el segmento de frutas frescas, las paltas destacaron con un aumento moderado pero relevante en sus envíos al exterior.",
+        "titulo_neutral": "El mundo laboral después de los 50, la edad más difícil para quedar sin trabajo: “No me hacía problema con jefes jóvenes, pero se notaban incómodos”",
+        "resumen": "Los trabajadores mayores de 55 años enfrentan crecientes dificultades para reinsertarse laboralmente, experimentando periodos de cesantía que superan los diez meses. Este grupo etario ha visto un incremento sostenido en las cifras de desempleo durante los últimos años. Las experiencias de distintos profesionales reflejan la compleja adaptación a un mercado donde la edad avanzada suele generar resistencia.",
         "articulos": [
           {
-            "titular": "Paltas y avellanas lideran el ranking frutícola y proyectan su dominio para la próxima temporada",
+            "titular": "El mundo laboral después de los 50, la edad más difícil para quedar sin trabajo: “No me hacía problema con jefes jóvenes, pero se notaban incómodos”",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/el-deal/paltas-y-avellanas-lideran-el-ranking-fruticola-y-proyectan-su-dominio-para",
-            "fecha": "2026-08-22T09:01:22+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/el-mundo-laboral-despues-de-los-50-la-edad-mas-dificil-para-quedar-sin-trabajo-no-me-hacia-problema-con-jefes-jovenes-pero-se-notaban-incomodos/",
+            "fecha": "2026-08-22T12:16:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Seis Redes: el plan que impulsa una nueva era para la demanda china de cobre",
-        "resumen": "Nuevas proyecciones económicas estiman que tanto la expansión de la infraestructura eléctrica como el desarrollo de centros de datos generarán una demanda adicional masiva de cobre a nivel global. Estas previsiones se alinean con planes quinquenales que contemplan inversiones millonarias en sectores estratégicos y tecnológicos.",
+        "titulo_neutral": "De perder las manos a construir muebles: la historia de Hernán Sepúlveda, el maestro de Cerro Navia que convirtió una tragedia en un nuevo oficio familiar",
+        "resumen": "Un grave accidente laboral ocurrido en 2008 obligó a un antiguo contratista a readaptarse tras perder sus extremidades superiores. Años más tarde, logró reconvertir su trayectoria al incursionar en la carpintería junto a su núcleo familiar. Este nuevo oficio consolidó un emprendimiento propio desde su comuna de origen.",
         "articulos": [
           {
-            "titular": "Seis Redes: el plan que impulsa una nueva era para la demanda china de cobre",
+            "titular": "De perder las manos a construir muebles: la historia de Hernán Sepúlveda, el maestro de Cerro Navia que convirtió una tragedia en un nuevo oficio familiar",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/senales-financieras/seis-redes-el-plan-que-impulsa-una-nueva-era-para-la-demanda-china-de",
-            "fecha": "2026-08-22T08:59:07+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/de-perder-las-manos-a-construir-muebles-la-historia-de-hernan-sepulveda-el-maestro-de-cerro-navia-que-convirtio-una-tragedia-en-un-nuevo-oficio-familiar/",
+            "fecha": "2026-08-22T12:12:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "La apuesta de hard discount de Femsa y su plan de expansión: ¿llegará a Chile?",
-        "resumen": "Un grupo empresarial minorista registró un notable incremento en sus ingresos trimestrales, respaldado por la apertura de numerosos establecimientos. La estrategia de expansión, centrada en el impulso de marcas propias y un formato específico, ha consolidado su presencia en el mercado mexicano.",
+        "titulo_neutral": "Juan Pablo Luna, sociólogo, sobre la propuesta del gobierno de Kast en seguridad: “A mí me parece confirmatoria de un fanatismo ideológico”",
+        "resumen": "Un análisis sociológico advierte sobre una creciente brecha entre la ciudadanía y las instituciones políticas tradicionales en el contexto del debate sobre seguridad. El especialista cuestiona la adopción de medidas punitivas de corte autoritario y califica las recientes propuestas constitucionales del Ejecutivo como de naturaleza iliberal. Estas señales reflejarían una profundización ideológica en la estrategia gubernamental contra la criminalidad.",
         "articulos": [
           {
-            "titular": "La apuesta de hard discount de Femsa y su plan de expansión: ¿llegará a Chile?",
+            "titular": "Juan Pablo Luna, sociólogo, sobre la propuesta del gobierno de Kast en seguridad: “A mí me parece confirmatoria de un fanatismo ideológico”",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/el-deal/la-apuesta-de-hard-discount-de-femsa-y-su-plan-de-expansion-llegara-a",
-            "fecha": "2026-08-22T08:57:33+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/juan-pablo-luna-sociologo-sobre-la-propuesta-del-gobierno-de-kast-en-seguridad-a-mi-me-parece-confirmatoria-de-un-fanatismo-ideologico/",
+            "fecha": "2026-08-22T12:05:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "¿Es Nvidia demasiado grande... para todos?",
-        "resumen": "La compañía con mayor peso bursátil en los principales índices tecnológicos de Estados Unidos se prepara para divulgar sus estados financieros. Debido a su tamaño e influencia en el mercado, la publicación de sus resultados genera gran expectación y se interpreta como un evento de relevancia macroeconómica.",
+        "titulo_neutral": "El “Rey de la Weed”: un viaje a Australia, restaurantes, millones y kilos de marihuana en la historia del empresario situado en la cima de la operación Amsterdam",
+        "resumen": "La investigación judicial denominada Operación Amsterdam situó a un conocido empresario gastronómico en la cúspide de una red de narcotráfico a gran escala. Las indagatorias de la Fiscalía señalan que una corporación vinculada al imputado operaba como fachada para el tráfico mensual de cientos de kilogramos de sustancias ilícitas. Pese a los antecedentes recopilados por las escuchas telefónicas, la defensa ha negado categóricamente la existencia de una organización criminal.",
         "articulos": [
           {
-            "titular": "¿Es Nvidia demasiado grande... para todos?",
+            "titular": "El “Rey de la Weed”: un viaje a Australia, restaurantes, millones y kilos de marihuana en la historia del empresario situado en la cima de la operación Amsterdam",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/senales-financieras/es-nvidia-demasiado-grande-para-todos",
-            "fecha": "2026-08-22T08:56:42+00:00"
+            "url": "https://www.theclinic.cl/2026/08/22/el-rey-de-la-weed-un-viaje-a-australia-restaurantes-millones-y-kilos-de-marihuana-en-la-historia-del-empresario-situado-en-la-cima-de-la-operacion-amsterdam/",
+            "fecha": "2026-08-22T12:01:00+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Diego Celedón, JPMorgan: \"No será solo un rebote, vemos condiciones para que Chile crezca a tasas del 3% por varios años\"",
-        "resumen": "Analistas financieros prevén que la actual contracción económica chilena será temporal y confían en una reactivación impulsada por el sector minero y las prioridades gubernamentales. No obstante, las preferencias de inversión en la región se inclinan hacia otros mercados sudamericanos.",
+        "titulo_neutral": "El casino que no existe: sancionando a influencers",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Diego Celedón, JPMorgan: \"No será solo un rebote, vemos condiciones para que Chile crezca a tasas del 3% por varios años\"",
+            "titular": "El casino que no existe: sancionando a influencers",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "CIPER",
+            "grupo": "sin fines de lucro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/factor-economico/diego-celedon-jpmorgan-no-sera-solo-un-rebote-vemos-condiciones-para",
-            "fecha": "2026-08-22T08:55:13+00:00"
+            "url": "https://www.ciperchile.cl/2026/08/22/el-casino-que-no-existe-sancionando-a-influencers/?utm_source=rss&utm_medium=rss&utm_campaign=el-casino-que-no-existe-sancionando-a-influencers",
+            "fecha": "2026-08-22T12:00:54+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "sin fines de lucro"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DR Congo",
+        "titular": "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo?traffic_source=rss",
-        "fecha": "2026-08-22T10:13:56+00:00"
+        "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack?traffic_source=rss",
+        "fecha": "2026-08-22T12:09:09+00:00"
       },
       {
-        "titular": "Pakistan’s PTI seeks contempt action over jailed Imran Khan’s hospital move",
+        "titular": "Hundreds of children take part in swimming class on Gaza’s shore",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/22/pakistans-pti-seeks-contempt-action-over-jailed-imran-khans-hospital?traffic_source=rss",
-        "fecha": "2026-08-22T10:13:48+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/hundreds-of-children-take-part-in-swimming-class-on-gazas-shore?traffic_source=rss",
+        "fecha": "2026-08-22T11:58:55+00:00"
       },
       {
-        "titular": "Manchester City preview: Five key questions heading into 2026-27 season",
+        "titular": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/22/manchester-city-preview-five-key-questions-heading-into-2026-27-season?traffic_source=rss",
-        "fecha": "2026-08-22T10:09:11+00:00"
+        "url": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games?traffic_source=rss",
+        "fecha": "2026-08-22T11:30:51+00:00"
       },
       {
-        "titular": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-22T10:01:22+00:00"
+        "titular": "Ebola continues to spread in the DRC as 16,000 vaccine doses arrive",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/ebola-continues-to-spread-in-the-drc-as-16000-vaccine-doses-arrive?traffic_source=rss",
+        "fecha": "2026-08-22T11:15:39+00:00"
       },
       {
-        "titular": "Former world champion boxer Zolani Tete shot and killed in South Africa",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/8/22/former-world-champion-boxer-zolani-tete-shot-and-killed-in-south-africa?traffic_source=rss",
-        "fecha": "2026-08-22T09:51:50+00:00"
+        "titular": "Antwerp's 'human zoo': Belgium confronts shame of colonial past",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20260822-antwerp-s-human-zoo-belgium-confronts-shame-of-colonial-past-1",
+        "fecha": "2026-08-22T11:05:57+00:00"
       }
     ]
   },
@@ -1425,6 +1387,10 @@
           },
           {
             "fecha": "2026-08-22T11:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-22T12:00:00",
             "valor": 495.82
           }
         ],
@@ -4660,7 +4626,7 @@
       "noticias": [
         {
           "titular": "Bill Gates pulls $818M from Berkshire to buy this giant",
-          "extracto": "La fundación de Bill y Gates redujo su participación en el conglomerado de Warren Buffett y adquirió acciones de una importante empresa de mejoras para el hogar. Este movimiento refleja ajustes estratégicos en su cartera de inversiones a largo plazo.",
+          "extracto": "La fundación de Bill y Gates redujo su participación en Berkshire Hathaway al mismo tiempo que adquirió acciones de una importante empresa de mejoras para el hogar. Este movimiento refleja un ajuste en su estrategia de inversión dentro de su cartera diversificada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4669,7 +4635,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Stock Still Looks Cheap Relative To Fair Value",
-          "extracto": "Las acciones de Berkshire Hathaway han generado ganancias significativas en los últimos cinco años, y los análisis financieros sugieren que aún cotizan por debajo de su valor intrínseco real. Esta situación respalda la asignación continua de capital hacia diversos sectores económicos.",
+          "extracto": "Las acciones de Berkshire Hathaway han generado ganancias significativas para los inversores a largo plazo, y los análisis actuales sugieren que su cotización se mantiene por debajo de su valor intrínseco. Esto ha motivado nuevas inversiones en diversos sectores económicos importantes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4678,7 +4644,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend",
-          "extracto": "Occidental Petroleum incrementó la retribución a sus accionistas gracias a un sólido flujo de caja y al buen momento del sector energético. Como importante inversor en la compañía, Berkshire Hathaway vigila de cerca estas decisiones de asignación de capital.",
+          "extracto": "Occidental Petroleum incrementó la retribución a sus accionistas gracias a un sólido flujo de caja y un buen desempeño en el sector. Esta decisión mantiene el interés del mercado sobre cómo esta petrolera equilibra el pago de dividendos y la gestión de su deuda, siendo una participación clave para Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4687,7 +4653,7 @@
         },
         {
           "titular": "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-          "extracto": "Un informe regulatorio reciente reveló que el conglomerado de inversión disminuyó su participación en una de las principales instituciones bancarias. Esta reducción forma parte de los ajustes periódicos en su cartera de activos.",
+          "extracto": "Los registros regulatorios recientes revelaron que Berkshire Hathaway disminuyó su inversión en una destacada entidad bancaria. Esta venta forma parte de los ajustes trimestrales en la cartera de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4696,7 +4662,7 @@
         },
         {
           "titular": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
-          "extracto": "Durante el segundo trimestre, el nuevo director ejecutivo del conglomerado continuó liquidando acciones de un banco y, al mismo tiempo, apostó por una aerolínea de la cual Buffett se había desprendido anteriormente. Estos movimientos muestran diferencias en la gestión actual respecto a decisiones previas.",
+          "extracto": "El nuevo director ejecutivo del conglomerado continuó desinvirtiendo en una institución financiera y retomó la compra de acciones en una aerolínea. Estas operaciones muestran un cambio en la dirección respecto a las decisiones tomadas previamente por Warren Buffett.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5856,6 +5822,10 @@
           },
           {
             "fecha": "2026-08-22T11:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-22T12:00:00",
             "valor": 270.95
           }
         ],
@@ -9091,7 +9061,7 @@
       "noticias": [
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contradice las expectativas económicas tradicionales de los consumidores sobre qué modelo de negocio debería tener éxito.",
+          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contradice las previsiones económicas tradicionales para un consumidor debilitado. Esta divergencia en el mercado genera incertidumbre sobre qué modelo de negocio prevalecerá.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9100,7 +9070,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un análisis reciente de mercado incluye a las corporaciones McDonald's, Starbucks y Yum! Brands en sus perspectivas financieras.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9109,7 +9079,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "McDonald's identifica una nueva línea de bebidas como su principal oportunidad para superar un periodo de rendimiento bursátil desfavorable, respaldada por buenos resultados iniciales en todos los mercados.",
+          "extracto": "McDonald's busca impulsar el valor de sus acciones tras un año de bajo rendimiento gracias al éxito de una nueva plataforma de bebidas. Este producto está superando las expectativas iniciales en todos los mercados donde se ha lanzado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9127,7 +9097,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevas investigaciones contradicen el lema de que promover la diversidad corporativa perjudica las finanzas, a pesar de la presión política y conservadora para eliminar estas iniciativas.",
+          "extracto": "Nuevas investigaciones contradicen el lema conservador de que las políticas de diversidad corporativa llevan a la ruina financiera. Los datos indican que las empresas que mantuvieron estas iniciativas no sufrieron los perjuicios económicos pronosticados por sus críticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10450,6 +10420,10 @@
           },
           {
             "fecha": "2026-08-22T11:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-22T12:00:00",
             "valor": 483.24
           }
         ],
@@ -13685,7 +13659,7 @@
       "noticias": [
         {
           "titular": "3 AI Stocks Built for the Next Decade",
-          "extracto": "",
+          "extracto": "Los datos actuales de ingresos muestran que tres empresas cotizadas en Estados Unidos han asegurado ventajas competitivas duraderas dentro del ciclo de capital de la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13694,7 +13668,7 @@
         },
         {
           "titular": "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
-          "extracto": "Analistas financieros debaten sobre el potencial bursátil de las grandes tecnológicas, comparando los márgenes de crecimiento proyectados para empresas como Broadcom y Microsoft de cara al año 2026.",
+          "extracto": "A pesar de que Broadcom presenta un potencial de revalorización bursátil superior según los analistas, Microsoft sigue siendo considerada por algunos inversores como una opción más sólida para el año 2026.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13703,7 +13677,7 @@
         },
         {
           "titular": "Microsoft Just Won One of Its Biggest AI Customers",
-          "extracto": "Las principales empresas tecnológicas del sector están incrementando la adquisición mutua de servicios e infraestructura de inteligencia artificial para sostener su desarrollo.",
+          "extracto": "Las grandes empresas tecnológicas están incrementando la adquisición mutua de servicios y tecnologías de inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13712,7 +13686,7 @@
         },
         {
           "titular": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
-          "extracto": "Microsoft planea lanzar este otoño su propio procesador de inteligencia artificial llamado Maia 300, fabricado en colaboración con TSMC, para reducir su dependencia histórica de los semiconductores de Nvidia.",
+          "extracto": "Microsoft planea lanzar su nuevo procesador de inteligencia artificial denominado Maia 300 este otoño boreal, reduciendo así su dependencia histórica de los semiconductores de Nvidia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13721,7 +13695,7 @@
         },
         {
           "titular": "Is Microsoft a Screaming Buy Under $500 Per Share?",
-          "extracto": "",
+          "extracto": "Las acciones de Microsoft se han recuperado de las caídas registradas a principios de año, lo que genera incertidumbre sobre si mantendrán su tendencia alcista.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15104,6 +15078,10 @@
           },
           {
             "fecha": "2026-08-22T11:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-22T12:00:00",
             "valor": 703.71
           }
         ],
@@ -18339,7 +18317,7 @@
       "noticias": [
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "",
+          "extracto": "La concentración de riqueza en los principales índices bursátiles ha alcanzado niveles históricos, donde un puñado de grandes empresas acapara una parte masiva del valor total. Este fenómeno refleja un cambio significativo en la dinámica del mercado durante 2024.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18348,7 +18326,7 @@
         },
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "El fondo cotizado Vanguard S&amp;P 500 ETF ha generado un crecimiento constante y significativo durante los últimos diez años. Este rendimiento ha consolidado su posición central en las carteras de inversión a largo plazo.",
+          "extracto": "El fondo cotizado de Vanguard enfocado en el S&P 500 ha demostrado un crecimiento financiero extraordinario a lo largo de los últimos diez años. Su rendimiento constante lo ha consolidado como una herramienta de inversión fundamental.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18357,7 +18335,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "A pesar de gestionar carteras idénticas con idénticas rentabilidades y dividendos, la mayoría de los inversores de State Street eligen la opción con comisiones más elevadas. Esta tendencia destaca la desconexión entre los costos de los productos y las decisiones financieras de los usuarios.",
+          "extracto": "A pesar de ofrecer exactamente la misma cartera de acciones y dividendos, dos fondos idénticos gestionados por State Street captan la mayor parte del capital en la opción más costosa. Esta paradoja afecta negativamente los rendimientos a largo plazo de los ahorradores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18366,7 +18344,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "La modificación del nombre y el símbolo bursátil de un fondo principal por parte de State Street busca asemejarlo al producto más reconocido del mercado. Esta estrategia de tarifas diferenciadas tiene el potencial de transformar las decisiones de ahorro para la jubilación de gran parte de la población.",
+          "extracto": "Una gestora modificó discretamente el nombre y el símbolo bursátil de su fondo principal para asemejarlo al producto más famoso del mercado. Esta estrategia de tarifas diferenciadas podría transformar profundamente las decisiones financieras de los pequeños inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18375,7 +18353,7 @@
         },
         {
           "titular": "VOO vs VTI: After Comparing the Two Funds Most Americans Actually Own, One Is the Better Buy for the Next 20 Years",
-          "extracto": "Los fondos VOO y VTI son pilares fundamentales en las cuentas de retiro de numerosos ahorradores estadounidenses, quienes suelen considerarlos equivalentes. Sin embargo, la selección entre ambos genera variaciones financieras considerables que se acumulan de forma notable a lo largo de décadas.",
+          "extracto": "Aunque suelen considerarse sustitutos, los dos fondos principales de Vanguard presentan diferencias a largo plazo que impactan de manera tangible el patrimonio de los jubilados. Elegir adecuadamente entre ellos representa una ganancia significativa de dinero tras varias décadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
