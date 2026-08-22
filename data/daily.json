@@ -1,12 +1,23 @@
 {
-  "generado": "2026-08-22T07:25:33.113067+00:00",
-  "errores": [],
+  "generado": "2026-08-22T08:20:19.092820+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Canadá anuncia represalias arancelarias contra Estados Unidos tras el fracaso de las negociaciones comerciales",
-        "resumen": "Canadá ha impuesto gravámenes de represalia sobre productos estadounidenses por valor de miles de millones de dólares. Esta decisión responde al fracaso en las negociaciones comerciales bilaterales y a los aranceles previos aplicados por la administración de Estados Unidos. El primer ministro canadiense aseguró que su país protegerá firmemente sus industrias locales.",
+        "titulo_neutral": "Impuestos aduaneros de Estados Unidos a productos de Canadá y respuesta de Canadá",
+        "resumen": "Tras fracasar las negociaciones comerciales bilaterales, Estados Unidos ha implementado aranceles del 50% sobre importaciones canadienses valoradas en unos 20.000 millones de dólares. En respuesta a esta medida punitiva, el gobierno de Canadá ha anunciado que aplicará gravámenes equivalentes de manera recíproca. Aunque la disputa escala las tensiones económicas entre ambos vecinos, los analistas estiman que el impacto general no llegará a paralizar la economía canadiense.",
         "articulos": [
+          {
+            "titular": "How will Trump’s tariffs affect Canada’s economy?",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/how-will-trumps-tariffs-affect-canadas-economy?traffic_source=rss",
+            "fecha": "2026-08-22T08:01:55+00:00"
+          },
           {
             "titular": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
             "extracto": "",
@@ -15,15 +26,6 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-08-22T04:46:33+00:00"
-          },
-          {
-            "titular": "Carney says Canada will match US tariffs 'dollar for dollar' after failed trade negotiations",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/americas/20260822-carney-says-canada-will-match-us-tariffs-dollar-for-dollar-after-failed-trade-negotiations",
-            "fecha": "2026-08-22T04:29:13+00:00"
           },
           {
             "titular": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
@@ -45,20 +47,63 @@
           }
         ],
         "leans_presentes": [
-          "centro",
-          "sin-clasificar"
+          "sin-clasificar",
+          "centro"
         ],
         "grupos_presentes": [
-          "BBC",
-          "France24",
           "Al Jazeera",
+          "BBC",
           "Reuters"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Declaraciones de Donald Trump sobre la intervención en el mercado de bonos",
-        "resumen": "Las acciones de la farmacéutica Moderna experimentaron un fuerte repunte tras anunciar avances positivos en las pruebas clínicas de una vacuna oncológica. Por otro lado, el Departamento del Tesoro estadounidense planea ampliar significativamente la recompra de deuda soberana a largo plazo. Asimismo, se han generado controversias en el sector legal por las prácticas de contratación temprana de estudiantes.",
+        "titulo_neutral": "‘Young want to leave’: Libya’s brain drain, 15 years after Tripoli fell",
+        "resumen": "Diversos profesionales que abandonaron Libia a raíz de la inestabilidad política y social descartan regresar al país en el corto plazo. Asimismo, crece la preocupación debido a que un número mayor de ciudadanos evalúa la posibilidad de emigrar. La persistente crisis económica y de seguridad continúa impulsando la fuga de talento local.",
+        "articulos": [
+          {
+            "titular": "‘Young want to leave’: Libya’s brain drain, 15 years after Tripoli fell",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/8/22/young-want-to-leave-libyas-brain-drain-15-years-after-tripoli-fell?traffic_source=rss",
+            "fecha": "2026-08-22T07:41:10+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
+        "resumen": "La escalada del conflicto bélico con Israel ha truncado las perspectivas de recuperación económica para el Líbano, según advierte una importante entidad financiera internacional. Como consecuencia directa de las hostilidades, el país registra un repunte significativo en la inflación y en el costo de los bienes de consumo. Esta situación profundiza la vulnerabilidad financiera de los hogares libaneses.",
+        "articulos": [
+          {
+            "titular": "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/8/22/world-bank-projects-war-hit-lebanons-economy-to-contract-by-6-4-percent?traffic_source=rss",
+            "fecha": "2026-08-22T07:35:08+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Declaraciones de Trump sobre la intervención en el mercado de bonos",
+        "resumen": "El mandatario estadounidense aclaró públicamente que no impartió instrucciones para que Bessent interviniera en el mercado de bonos. Con estas declaraciones, el presidente busca disipar los rumores sobre una supuesta orden ejecutiva en dicha dirección. La aclaración se produce en un contexto de atención financiera hacia las actuaciones de altos cargos.",
         "articulos": [
           {
             "titular": "Trump says he did not direct Bessent to intervene in bond market - Reuters",
@@ -68,38 +113,19 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkFsc1FIR29sOXp1dmJuLTJFNHR0Z04taHhTaEZkd1QyRmhxN0hKTmZHYldObW5zV1J6c2ozT04xOXp0dlFMbWgwMHVUckdCeHNPRG1QTEE4bU9fckJmd1BnekhaZ0JCOUUwbDBCdWdRM3FRWEFJUHB4LW9KaTNPRDBmQ1lLYTdOUTJWa2wtckZ1Y0FFbjJVTkFjaUVKY2Zwdm05VENB?oc=5",
             "fecha": "2026-08-21T23:27:43+00:00"
-          },
-          {
-            "titular": "Morning Bid: Big, bad bond market - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFpiZTBOeUlBMDlVbWNNTlFiMmFtVjhHMVkxRmVqaE9zSUMzZkhCcUJHWFdlZlo0VDQyZzRfNEpORWE3azJPTDJncEFQWHItcy1tYkFfeE1yVnRjYXhGb3JhQURsSlNFeHBaLW1PQVgyMEhWY25VYTlJRFY2elAxdHM1UENHYzFwdTdJUTVfaGZNUnBYV1hj?oc=5",
-            "fecha": "2026-08-21T10:40:44+00:00"
-          },
-          {
-            "titular": "US Treasury tries to soothe the bond market",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
-            "fecha": "2026-08-20T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
-        "resumen": "El gobierno brasileño informó que el presidente estadounidense sugirió realizar encuentros oficiales próximamente. El objetivo principal de estas reuniones será dialogar sobre las políticas arancelarias entre ambas naciones. Esto ocurre en un contexto de tensiones comerciales en la región.",
+        "titulo_neutral": "Reunión y discusiones sobre aranceles entre Estados Unidos y Brasil",
+        "resumen": "El gobierno brasileño informó que el presidente estadounidense sugirió organizar próximamente un encuentro oficial entre representantes de ambas naciones. El objetivo principal de estas futuras conversaciones será abordar y negociar cuestiones relacionadas con los aranceles comerciales. Este acercamiento busca abrir un canal de diálogo directo para tratar asuntos económicos bilaterales pendientes.",
         "articulos": [
           {
             "titular": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says - Reuters",
@@ -121,7 +147,7 @@
       },
       {
         "titulo_neutral": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
-        "resumen": "Las autoridades mexicanas manifestaron su confianza en alcanzar acuerdos comerciales bilaterales similares al pacto reciente entre Estados Unidos y Canadá. La expectativa busca mantener la estabilidad económica y proteger el intercambio transfronterizo de mercancías. Esto refleja la interdependencia de las economías norteamericanas.",
+        "resumen": "El gobierno mexicano ha manifestado su confianza en alcanzar acuerdos comerciales bilaterales equiparables al pacto recientemente negociado entre Estados Unidos y Canadá. Las autoridades buscan mantener condiciones competitivas similares en sus relaciones económicas norteamericanas. Esto garantizaría certidumbre para los sectores exportadores del país.",
         "articulos": [
           {
             "titular": "Mexico expects trade outcomes similar to emerging US-Canada deal - Reuters",
@@ -142,8 +168,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Trump to temporarily ease US beef tariffs, irking cattle producers - Reuters",
-        "resumen": "El gobierno de Estados Unidos implementará una reducción temporal en los gravámenes aplicados a la importación de carne vacuna. Esta medida ha generado un fuerte malestar entre los productores ganaderos locales, quienes temen una afectación a sus ingresos. La decisión busca incidir en los precios del mercado interno.",
+        "titulo_neutral": "Modificación temporal de aranceles a la carne de res por parte de Estados Unidos",
+        "resumen": "La administración estadounidense ha decidido flexibilizar temporalmente las tasas arancelarias aplicadas a la importación de carne vacuna. Esta decisión ha generado un fuerte descontento y malestar entre los productores ganaderos locales. El sector teme que la medida afecte su competitividad frente al producto extranjero en el mercado interno.",
         "articulos": [
           {
             "titular": "Trump to temporarily ease US beef tariffs, irking cattle producers - Reuters",
@@ -165,7 +191,7 @@
       },
       {
         "titulo_neutral": "German state politician calls for EU tariffs on Chinese hybrid cars, letter shows - Reuters",
-        "resumen": "Un legislador alemán solicitó formalmente a la Unión Europea la aplicación de aranceles específicos a los vehículos híbridos procedentes de China. La petición busca proteger la industria automotriz comunitaria frente a la creciente competencia asiática. Esta medida refleja las crecientes tensiones proteccionistas en el mercado europeo.",
+        "resumen": "Un influyente legislador estatal de Alemania ha solicitado formalmente a la Unión Europea la imposición de aranceles a los vehículos híbridos procedentes de China. La petición busca proteger la industria automotriz europea frente a lo que consideran una competencia desleal por parte del gigante asiático. La iniciativa refleja la creciente presión política en el bloque comunitario sobre los subsidios extranjeros.",
         "articulos": [
           {
             "titular": "German state politician calls for EU tariffs on Chinese hybrid cars, letter shows - Reuters",
@@ -184,56 +210,12 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Explainer: What El Niño's return means for the Panama Canal — and global trade - Reuters",
-        "resumen": "El regreso del fenómeno climático El Niño plantea nuevos retos operativos para el paso de embarcaciones por el Canal de Panamá. Las variaciones en los niveles de agua amenazan con ralentizar el tránsito de mercancías a escala global. Esto podría generar nuevas presiones en las cadenas de suministro internacionales.",
-        "articulos": [
-          {
-            "titular": "Explainer: What El Niño's return means for the Panama Canal — and global trade - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMWZLckNpd0p0X1hFRE1PNkowRC03X2ZuMzE4a0xlUjhhN2hKN3B0VFN5cWhDZGk5SzJ2MWkyUmZORG9iN19tdm44ZXJVOFdtWjdUSWs1c2Q3OXBZTEIzdGdzMFlvekJWMkw4Z2kyby1tXzB4RW1nWFJhdG9DV0NfWjJDX1dnTzBBMjhqbTFRR1RRNzA4Skx4U3VyOXgwSFBwSkQ1Mk9rckFkZ05y?oc=5",
-            "fecha": "2026-08-21T18:10:52+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-        "resumen": "Los mercados bursátiles internacionales concluyeron una semana complicada marcados por la persistencia de elevados rendimientos en los bonos y precios altos del petróleo. Esta situación refleja la cautela de los inversores ante un escenario macroeconómico complejo. Las tensiones inflacionarias continúan pesando sobre la confianza global.",
-        "articulos": [
-          {
-            "titular": "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
-            "fecha": "2026-08-21T16:18:54+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Negociación de aranceles entre Estados Unidos y Canadá",
-        "resumen": "Mark Carney rechazó públicamente los términos de un pacto que considera perjudicial. Por su parte, un alto diplomático estadounidense calificó el fracaso de las negociaciones como una oportunidad desaprovechada.",
+        "titulo_neutral": "Negociación de aranceles y relaciones comerciales entre Estados Unidos, Canadá y Chile",
+        "resumen": "Mark Carney desestimó un convenio comercial al que calificó de desequilibrado, mientras diplomáticos estadounidenses cuestionaron la falta de entendimiento. Esta postura ocurre a pocas semanas de que Washington aplicara aranceles a productos chilenos, en medio de negociaciones bilaterales para modificar las pautas de intercambio.",
         "articulos": [
           {
             "titular": "Canadá promete igualar los aranceles estadounidenses tras el fracaso de las negociaciones comerciales",
@@ -243,6 +225,15 @@
             "lean": "no aplica",
             "url": "http://www.df.cl/internacional/economia/canada-promete-igualar-los-aranceles-estadounidenses-tras-el-fracaso-de-las",
             "fecha": "2026-08-22T06:37:53+00:00"
+          },
+          {
+            "titular": "Número dos del USTR visita Chile este lunes y martes en medio de la negociación arancelaria",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/comercio-exterior/numero-dos-del-ustr-visita-chile-este-lunes-y-martes-en-medio-de-la",
+            "fecha": "2026-08-22T00:27:23+00:00"
           }
         ],
         "leans_presentes": [
@@ -254,8 +245,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Trastienda del caso judicial de Sartor",
-        "resumen": "Concluyó una extensa audiencia de formalización por un caso financiero que culminó con cuatro personas en prisión preventiva. Tres de los imputados fueron enviados a la cárcel de Santiago I y uno a Capitán Yáber. Durante la sesión se desató un cruce de declaraciones entre los defensores y la jueza respecto a las garantías de seguridad penitenciaria.",
+        "titulo_neutral": "“Los gendarmes se abalanzaron”, que “coman un sándwich” y “no va a ir a una unidad común”: la trastienda del caso Sartor",
+        "resumen": "Una extensa audiencia judicial por un caso financiero concluyó con la imposición de prisión preventiva para cuatro personas vinculadas al proceso. Durante la sesión se produjo un debate entre la magistratura y la defensa sobre las medidas de resguardo necesarias, señalando que Gendarmería opera dentro de los márgenes legales establecidos.",
         "articulos": [
           {
             "titular": "“Los gendarmes se abalanzaron”, que “coman un sándwich” y “no va a ir a una unidad común”: la trastienda del caso Sartor",
@@ -276,8 +267,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Disputa legal y tributaria entre Codelco y el Fisco por edificio corporativo",
-        "resumen": "Se presentó una demanda contra el Estado en el marco de unas faenas realizadas en el antiguo Edificio de La Nación. El demandante advierte que dichas intervenciones podrían comprometer la estabilidad estructural del inmueble.",
+        "titulo_neutral": "Codelco se enfrenta con el Fisco en defensa de su edificio corporativo",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Codelco se enfrenta con el Fisco en defensa de su edificio corporativo",
@@ -298,8 +289,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Historia de la empresa MA Botanics y la Operación Imperio Ámsterdam",
-        "resumen": "Una empresa que en el pasado recibió fondos públicos para su desarrollo es señalada ahora por el Ministerio Público como un eslabón logístico clave dentro de una red ilícita. La investigación la acusa de desviar cannabis con THC hacia el Dispensario Nacional.",
+        "titulo_neutral": "El auge y caída de MA Botanics, la empresa productora de la Operación Imperio Ámsterdam",
+        "resumen": "Una entidad que recibió fondos estatales de fomento es señalada por el Ministerio Público como un eslabón logístico dentro de una red ilícita investigada. Según la indagatoria, la organización habría desviado sustancias psicotrópicas hacia un centro de distribución específico.",
         "articulos": [
           {
             "titular": "El auge y caída de MA Botanics, la empresa productora de la Operación Imperio Ámsterdam",
@@ -320,8 +311,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Visita a Tricao del profesor escocés que imparte clases al aire libre",
-        "resumen": "Un destacado académico de la Universidad de Edimburgo y referente internacional en pedagogía al aire libre realizará una visita oficial al Parque Tricao. Su recorrido busca fomentar los modelos de aprendizaje en contacto directo con el entorno natural.",
+        "titulo_neutral": "El profesor que sacó las clases de las salas en Escocia viene a conocer Tricao",
+        "resumen": "",
         "articulos": [
           {
             "titular": "El profesor que sacó las clases de las salas en Escocia viene a conocer Tricao",
@@ -342,8 +333,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Viaje de los Kunstmann y Charlie D’Olbek por el norte de Chile",
-        "resumen": "Un conocido empresario cervecero emprendió nuevamente una travesía por el norte del país a bordo del vehículo clásico que utilizó hace más de dos décadas. En esta ocasión, el viaje cuenta con la participación de su descendiente y otros pioneros de la industria cervecera nacional.",
+        "titulo_neutral": "Los Kunstmann y Charlie D’Olbek “on the road” por el norte de Chile",
+        "resumen": "Un conocido empresario de la industria cervecera nacional emprendió nuevamente una travesía hacia el norte del país a bordo del vehículo histórico que empleó hace más de dos décadas. En esta ocasión, el recorrido cuenta con la participación de su descendiente y otros pioneros del rubro, replicando aquella experiencia rutera.",
         "articulos": [
           {
             "titular": "Los Kunstmann y Charlie D’Olbek “on the road” por el norte de Chile",
@@ -364,8 +355,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Proyecciones de crecimiento y ventas de la startup chilena Vambe",
-        "resumen": "La compañía tecnológica nacional enfocada en optimizar la expansión corporativa mediante inteligencia artificial experimentó un fuerte incremento en sus ingresos durante el primer semestre. Ante este contexto de rápida expansión, la empresa creó la posición de gerente general para sus operaciones locales, la cual será ocupada por Benjamín Frascaroli.",
+        "titulo_neutral": "Startup chilena Vambe continúa con su acelerado crecimiento y proyecta superar los US$2 millones en nuevas ventas mensuales durante el tercer trimestre",
+        "resumen": "La empresa tecnológica chilena Vambe nombró a un nuevo gerente general en el país tras experimentar un fuerte incremento en su facturación durante la primera mitad del año. Con este impulso operativo, la compañía proyecta alcanzar ingresos mensuales superiores a los dos millones de dólares durante el próximo trimestre.",
         "articulos": [
           {
             "titular": "Startup chilena Vambe continúa con su acelerado crecimiento y proyecta superar los US$2 millones en nuevas ventas mensuales durante el tercer trimestre",
@@ -386,8 +377,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Estado de reapertura del Mall de Zofri tras daños por lluvias",
-        "resumen": "Las primeras seis zonas del recinto permanecerán inoperativas temporalmente mientras se instalan esquemas provisionales de abastecimiento eléctrico. Los locatarios estiman pérdidas económicas significativas a raíz de los daños provocados por las recientes precipitaciones y vientos.",
+        "titulo_neutral": "Seis de los siete sectores del Mall de Zofri todavía no tienen fecha de reapertura tras daños en sistema eléctrico por lluvias",
+        "resumen": "Varias zonas operativas de Zofri permanecerán inhabilitadas temporalmente mientras se instalan mecanismos alternativos de energía eléctrica tras las recientes inclemencias climáticas. Los locatarios del lugar estiman pérdidas económicas cuantiosas y la administración ya inició los trámites correspondientes con las compañías de seguros.",
         "articulos": [
           {
             "titular": "Seis de los siete sectores del Mall de Zofri todavía no tienen fecha de reapertura tras daños en sistema eléctrico por lluvias",
@@ -410,34 +401,34 @@
     ],
     "actualidad": [
       {
+        "titular": "Panama Canal to reduce shipping as ‘extreme’ El Nino approaches",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/panama-canal-to-reduce-shipping-as-extreme-el-nino-approaches?traffic_source=rss",
+        "fecha": "2026-08-22T08:00:30+00:00"
+      },
+      {
+        "titular": "Lionel Messi fined for striking opponent in Inter Miami MLS game",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/8/22/messi-fined-for-striking-opponent-in-inter-miami-mls-game?traffic_source=rss",
+        "fecha": "2026-08-22T07:41:21+00:00"
+      },
+      {
+        "titular": "Somalia child hunger crisis deepens after aid cuts, UNICEF says",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/22/somalia-child-hunger-crisis-deepens-after-aid-cuts-unicef-says?traffic_source=rss",
+        "fecha": "2026-08-22T07:11:27+00:00"
+      },
+      {
+        "titular": "Let there be sunlight: Vatican plans solar and agriculture plant to cover its electricity needs - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGw0X0lOUmZESVVqMWhVeV84V3ptaFJTWDhqSzdPUm9CUEF5QmppQUExYWVwN09OZjhqYnpOcUxaRDZHdngzTHNaWWtPZy1namVHODNULWtCNkpSV0hvSmRfMkRFeXQ2bkNIR05qQUFSdzc4bWV4ZFZud0ppWWVGQVVnbTR0ZXhSMUVWQ3Y5ZXluc1VrUXh6NUhmNEJ2RDAzdElkMjZKS3lqMXNHdHR1ZlJB?oc=5",
+        "fecha": "2026-08-22T07:07:29+00:00"
+      },
+      {
         "titular": "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
         "medio": "BBC",
         "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
         "fecha": "2026-08-22T06:40:30+00:00"
-      },
-      {
-        "titular": "Russian strikes in Ukraine kill at least two people, injure several others",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-        "fecha": "2026-08-22T06:02:27+00:00"
-      },
-      {
-        "titular": "China’s new moon mission could unlock secret of lunar ice: Why that matters",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/22/chinas-new-moon-mission-could-unlock-secret-of-lunar-ice-why-that-matters?traffic_source=rss",
-        "fecha": "2026-08-22T05:36:39+00:00"
-      },
-      {
-        "titular": "‘It was a tsunami’: Floods leave death trail in India’s Assam",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/22/it-was-a-tsunami-floods-leave-death-trail-in-indias-assam?traffic_source=rss",
-        "fecha": "2026-08-22T05:35:50+00:00"
-      },
-      {
-        "titular": "Trump heads into midterms short on foreign policy wins - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
-        "fecha": "2026-08-22T05:04:00+00:00"
       }
     ]
   },
@@ -1391,6 +1382,10 @@
           },
           {
             "fecha": "2026-08-22T07:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-22T08:00:00",
             "valor": 495.82
           }
         ],
@@ -4626,7 +4621,7 @@
       "noticias": [
         {
           "titular": "Bill Gates pulls $818M from Berkshire to buy this giant",
-          "extracto": "La fundación de Bill y Gates redujo su participación en Berkshire Hathaway y adquirió acciones de una importante empresa de mejoras para el hogar. Este movimiento refleja un ajuste en la estrategia de inversión de la organización filantrópica.",
+          "extracto": "La fundación de Bill y Gates redujo su participación en Berkshire Hathaway para adquirir acciones de una importante empresa de mejoras para el hogar. Este movimiento refleja un ajuste estratégico en su cartera de inversiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4635,7 +4630,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Stock Still Looks Cheap Relative To Fair Value",
-          "extracto": "Las acciones de Berkshire Hathaway han generado ganancias significativas en cinco años y los análisis sugieren que su cotización actual se mantiene por debajo de su valor real. Esto demuestra una creación constante de riqueza para los inversores a largo plazo, respaldada por inversiones en diversos sectores.",
+          "extracto": "Las acciones de Berkshire Hathaway han generado un rendimiento sólido a largo plazo, y los análisis sugieren que su cotización actual sigue por debajo de su valor intrínseco. Esto ha motivado nuevas inversiones en diversos sectores del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4644,7 +4639,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend",
-          "extracto": "Occidental Petroleum incrementó el pago de dividendos a sus accionistas gracias a un sólido desempeño financiero y alta liquidez. Esta decisión mantiene el interés del mercado sobre cómo gestiona su capital esta empresa respaldada por Berkshire Hathaway.",
+          "extracto": "Occidental Petroleum incrementó su dividendo tras registrar un sólido flujo de caja, manteniendo el interés de los inversores dado su peso en la cartera de Berkshire Hathaway. La medida refleja la estrategia de la compañía para equilibrar la remuneración a los accionistas con la gestión financiera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4653,7 +4648,7 @@
         },
         {
           "titular": "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-          "extracto": "Un reporte regulatorio reciente reveló que el conglomerado de Warren Buffett disminuyó su inversión en una destacada institución bancaria. Esta reducción forma parte de los ajustes periódicos en la cartera de activos de la compañía.",
+          "extracto": "Un informe regulatorio reveló que Berkshire Hathaway disminuyó su inversión en una destacada entidad bancaria. Esta decisión forma parte de los ajustes recientes en la cartera del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4662,7 +4657,7 @@
         },
         {
           "titular": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
-          "extracto": "El nuevo director ejecutivo del conglomerado continuó liquidando acciones de un banco que su predecesor ya venía vendiendo y decidió adquirir títulos de una aerolínea de la cual se había desinvertido en 2020. Estos cambios muestran un viraje en la gestión de las inversiones de la firma.",
+          "extracto": "El nuevo director ejecutivo del conglomerado continuó desinvirtiendo en una entidad bancaria y, en contraste, apostó por una aerolínea de la cual Warren Buffett se había deshecho previamente. Estos cambios marcan una nueva dirección en la gestión de la cartera de inversiones de la firma.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -5806,6 +5801,10 @@
           },
           {
             "fecha": "2026-08-22T07:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-22T08:00:00",
             "valor": 270.95
           }
         ],
@@ -9041,7 +9040,7 @@
       "noticias": [
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contradice las expectativas económicas tradicionales para un consumidor debilitado. Esto genera incertidumbre sobre qué modelo de negocio logra superar la crisis actual.",
+          "extracto": "El mercado bursátil muestra un comportamiento inesperado al valorar de forma muy diferente a dos cadenas de restaurantes, desafiando las previsiones económicas actuales sobre el consumo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9050,7 +9049,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un análisis financiero reciente menciona el desempeño bursátil de reconocidas corporaciones de comida rápida y bebidas. El reporte evalúa las perspectivas de estas grandes marcas dentro del mercado actual.",
+          "extracto": "Un reciente análisis financiero incluye a reconocidas corporaciones multinacionales del sector de comida rápida y bebidas entre sus temas destacados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9059,7 +9058,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "McDonald's confía en el buen rendimiento internacional de una nueva línea de bebidas para recuperar su valor en bolsa. Esta estrategia representa la oportunidad más sólida de la compañía para superar un periodo de resultados financieros discretos.",
+          "extracto": "McDonald's busca recuperar terreno financiero tras un año difícil, impulsado por el buen desempeño inicial de una nueva línea de bebidas en los mercados donde se ha lanzado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9077,7 +9076,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevos estudios contradicen el argumento de que eliminar programas de diversidad empresarial beneficia financieramente a las compañías. La investigación demuestra que las empresas que mantuvieron estas políticas no sufrieron las pérdidas económicas pronosticadas por sus críticos.",
+          "extracto": "Nuevas investigaciones contradicen la advertencia de que las políticas de diversidad corporativa conducen al fracaso financiero, a pesar de la presión conservadora para eliminarlas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10384,6 +10383,10 @@
           },
           {
             "fecha": "2026-08-22T07:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-22T08:00:00",
             "valor": 483.24
           }
         ],
@@ -13619,7 +13622,7 @@
       "noticias": [
         {
           "titular": "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
-          "extracto": "A pesar de que Broadcom presenta un potencial de crecimiento bursátil superior al de Microsoft, algunos analistas consideran que esta última sigue siendo una opción más sólida para invertir en inteligencia artificial de cara a 2026.",
+          "extracto": "Los analistas estiman un potencial de crecimiento mayor para Broadcom que para Microsoft en el mercado bursátil. Sin embargo, diversos expertos consideran que Microsoft sigue siendo una opción de inversión más sólida y estratégica en inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13628,7 +13631,7 @@
         },
         {
           "titular": "Microsoft Just Won One of Its Biggest AI Customers",
-          "extracto": "Las grandes empresas tecnológicas están incrementando la adquisición mutua de tecnologías y servicios relacionados con la inteligencia artificial.",
+          "extracto": "Las principales empresas tecnológicas rivales están incrementando la adquisición mutua de tecnologías y servicios de inteligencia artificial. Esta tendencia refleja una mayor interdependencia entre los gigantes del sector para desarrollar sus capacidades.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13637,7 +13640,7 @@
         },
         {
           "titular": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
-          "extracto": "Tras años de depender exclusivamente de Nvidia, Microsoft planea lanzar este otoño su propio chip de inteligencia artificial denominado Maia 300, para lo cual ya mantiene conversaciones con el fabricante TSMC.",
+          "extracto": "Microsoft planea lanzar este otoño su nuevo chip de inteligencia artificial denominado Maia 300 para reducir su dependencia de Nvidia. Para ello, la compañía ya se encuentra en negociaciones avanzadas con el fabricante taiwanés TSMC.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13646,7 +13649,7 @@
         },
         {
           "titular": "Is Microsoft a Screaming Buy Under $500 Per Share?",
-          "extracto": "Las acciones de Microsoft se han recuperado de las caídas registradas a principios de año, lo que genera incertidumbre sobre si su cotización continuará al alza.",
+          "extracto": "Las acciones de Microsoft se han recuperado de las caídas registradas a principios de año, lo que genera interrogantes sobre la sostenibilidad de su tendencia alcista. Los inversores evalúan si la compañía cuenta con el impulso necesario para alcanzar nuevas valoraciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15022,6 +15025,10 @@
           },
           {
             "fecha": "2026-08-22T07:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-22T08:00:00",
             "valor": 703.71
           }
         ],
@@ -18257,7 +18264,7 @@
       "noticias": [
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "El fondo cotizado Vanguard S&P 500 ha generado un crecimiento constante y significativo durante los últimos diez años.",
+          "extracto": "El fondo cotizado Vanguard S&P 500 ha mostrado un sólido crecimiento financiero durante los últimos diez años. Este desempeño ha consolidado su posición como una herramienta clave para la acumulación de capital a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18266,7 +18273,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "extracto": "La baja comisión del fondo VOO oculta una vulnerabilidad interna importante que las tablas de costos tradicionales no revelan a los inversionistas.",
+          "extracto": "Bajo costo de gestión del fondo VOO suele desviar la atención de los compradores hacia otros riesgos financieros. Estos peligros estructurales pasan desapercibidos en las tablas comparativas tradicionales de comisiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18275,7 +18282,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "A pesar de gestionar dos fondos idénticos en composición y dividendos, State Street observa cómo la mayoría del capital se concentra en la opción más costosa.",
+          "extracto": "State Street administra dos fondos indexados al S&P 500 con carteras y dividendos idénticos, pero con costos diferentes. Irónicamente, la mayoría del capital de los ahorradores se concentra en la opción más cara.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18284,7 +18291,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "State Street modificó el nombre y el código bursátil de un fondo principal para asemejarlo al índice más conocido, una medida de costos que podría alterar el ahorro para la jubilación.",
+          "extracto": "Una gestora modificó el nombre y el símbolo bursátil de un fondo principal para asemejarlo al producto más popular del mercado. Esta estrategia de diferenciación en las tarifas podría transformar la manera en que los pequeños inversores eligen sus vehículos de ahorro.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18293,7 +18300,7 @@
         },
         {
           "titular": "VOO vs VTI: After Comparing the Two Funds Most Americans Actually Own, One Is the Better Buy for the Next 20 Years",
-          "extracto": "Aunque suelen considerarse similares al ser base de cuentas de retiro, elegir entre VOO y VTI genera una diferencia económica sustancial a largo plazo para los jubilados.",
+          "extracto": "Los fondos VOO y VTI forman la base de numerosos planes de jubilación estadounidenses bajo la falsa creencia de que son casi idénticos. Sin embargo, la selección entre ambos genera variaciones financieras considerables a lo largo de un horizonte de dos décadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
