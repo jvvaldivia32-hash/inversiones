@@ -1,11 +1,11 @@
 {
-  "generado": "2026-08-23T19:17:30.086399+00:00",
+  "generado": "2026-08-23T20:14:35.580816+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Disputa comercial y aranceles entre Estados Unidos y Canadá",
-        "resumen": "El primer ministro canadiense anunció gravámenes de represalia contra Estados Unidos, calificándolo como el inicio de una guerra comercial. Esta medida se produjo después de que Washington impusiera aranceles elevados sobre miles de millones de dólares en productos procedentes de Canadá, tras el fracaso de las negociaciones bilaterales.",
+        "titulo_neutral": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+        "resumen": "El primer ministro de Canadá anunció aranceles de represalia de manera reacia y culpó a Estados Unidos de desencadenar una confrontación comercial. Esta medida refleja el deterioro de las relaciones diplomáticas y económicas entre ambos países vecinos.",
         "articulos": [
           {
             "titular": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
@@ -15,7 +15,20 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-08-23T19:11:30+00:00"
-          },
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
+        "resumen": "Ambas naciones sufrirán las consecuencias de esta guerra comercial debido al incremento en los costos operativos para las empresas y a precios más altos para los consumidores. Estas repercusiones amenazan con ralentizar la actividad económica general y reducir el poder adquisitivo.",
+        "articulos": [
           {
             "titular": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
             "extracto": "",
@@ -24,47 +37,13 @@
             "lean": "sin-clasificar",
             "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies?traffic_source=rss",
             "fecha": "2026-08-23T15:54:36+00:00"
-          },
-          {
-            "titular": "US-Canada trade dispute escalates after Carney announces retaliatory tariffs",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/us-canada-trade-dispute-escalates-after-carney-announces-retaliatory-tariffs",
-            "fecha": "2026-08-23T09:02:22+00:00"
           }
         ],
         "leans_presentes": [
-          "centro",
           "sin-clasificar"
         ],
         "grupos_presentes": [
-          "BBC",
-          "Al Jazeera",
-          "France24"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Germany's AfD eyes Saxony-Anhalt win as first step toward federal power - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Germany's AfD eyes Saxony-Anhalt win as first step toward federal power - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1QwRkhISG1DMjBJZGtwSFpwNmZ3NEw3MWVKbkZLc1BITXNvSE9EaTVrR19vdU0yclExWUZPX2tfX0t4R0NaaTBaN3hiQkFBbWcyNm9RSWhTVGk5MThkZGFvWlNMLWI5a19oQXRwMWpOVE9jMGZMWmlnRmtlajlhczFyQUdOMmpkZS1BU1Z0TFZ6MGItNXFrMHhDcFRiWkZ5YjZNT2VzMm1wYTFKcmc?oc=5",
-            "fecha": "2026-08-23T16:43:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
+          "Al Jazeera"
         ],
         "cobertura_unilateral": true
       },
@@ -91,30 +70,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "AI fraud costing victims millions of dollars",
-        "resumen": "Las estafas basadas en tecnología deepfake representan un desafío creciente para la seguridad digital debido al uso malintencionado de sistemas automatizados. Los estafadores emplean estas herramientas avanzadas para suplantar con gran realismo la identidad de figuras públicas y autoridades gubernamentales.",
-        "articulos": [
-          {
-            "titular": "AI fraud costing victims millions of dollars",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/ai-fraud-costing-victims-millions-of-dollars?traffic_source=rss",
-            "fecha": "2026-08-23T13:08:06+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
         "titulo_neutral": "US Treasury tries to soothe the bond market",
-        "resumen": "Las acciones de la farmacéutica Moderna experimentaron un repunte significativo tras anunciar resultados alentadores en las pruebas clínicas de una vacuna experimental contra el cáncer. Asimismo, el Departamento del Tesoro estadounidense incrementó sustancialmente sus adquisiciones de deuda pública a largo plazo, mientras crecen las críticas hacia los procesos de contratación temprana en bufetes jurídicos de EE. UU.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "US Treasury tries to soothe the bond market",
@@ -136,7 +93,7 @@
       },
       {
         "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
-        "resumen": "La tasa de inflación en Estados Unidos experimentó una ligera disminución impulsada por el abaratamiento de los combustibles en el mercado interno. Por otro lado, inversores de empresas emergentes de inteligencia artificial anticipan una de las valoraciones bursátiles más altas registradas en una oferta pública inicial.",
+        "resumen": "Los inversores de Anthropic anticipan que la salida a bolsa de la empresa de inteligencia artificial romperá récords históricos de valoración. Por otro lado, la inflación en Estados Unidos experimentó un ligero descenso en julio gracias a la caída de los precios de los combustibles.",
         "articulos": [
           {
             "titular": "Anthropic’s anticipated $2tn IPO",
@@ -157,8 +114,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Decisiones y liderazgo en la Reserva Federal de Estados Unidos",
-        "resumen": "Las principales bolsas del Golfo registraron ganancias impulsadas por el encarecimiento global del petróleo, lo que elevó el optimismo de los inversores. Este incremento en los precios de los energéticos generó presión adicional sobre los mercados financieros internacionales y las expectativas de política monetaria.",
+        "titulo_neutral": "Fed holds rates as inflation fears grow",
+        "resumen": "Meta y Microsoft presentaron sus informes trimestrales de ganancias en medio de una creciente preocupación de los inversores por los elevados gastos en inteligencia artificial. Asimismo, la Reserva Federal de Estados Unidos decidió mantener los tipos de interés sin cambios.",
         "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -168,7 +125,20 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
             "fecha": "2026-07-30T04:00:00+00:00"
-          },
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Hike or hold: Investors split ahead of Fed decision",
+        "resumen": "Los inversores incrementaron sus apuestas sobre una posible subida de tipos por parte de la Reserva Federal tras el reciente repunte de los precios del petróleo. En paralelo, los servicios de emergencia en Francia y España intensificaron sus labores para contener graves incendios forestales.",
+        "articulos": [
           {
             "titular": "Hike or hold: Investors split ahead of Fed decision",
             "extracto": "",
@@ -177,33 +147,6 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
             "fecha": "2026-07-27T04:00:00+00:00"
-          },
-          {
-            "titular": "Federal Reserve gears up for change",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
-            "fecha": "2026-06-18T04:00:00+00:00"
-          },
-          {
-            "titular": "Senior Republican clears path for next Fed chair",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/senior-republican-clears-path-for-next-fed-chair",
-            "fecha": "2026-04-27T04:00:00+00:00"
-          },
-          {
-            "titular": "Senators grill Kevin Warsh in Fed chair hearing",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/senators-grill-kevin-warsh-in-fed-chair-hearing",
-            "fecha": "2026-04-22T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -216,7 +159,7 @@
       },
       {
         "titulo_neutral": "Germany’s twin crises: football and the economy",
-        "resumen": "El mercado laboral estadounidense creó menos puestos de trabajo de lo previsto por los analistas financieros durante el mes de junio, reflejando un enfriamiento económico. En paralelo, inversores surcoreanos redirigieron las ganancias obtenidas en el sector tecnológico hacia un mercado inmobiliario sobrecalentado.",
+        "resumen": "La economía estadounidense se quedó por debajo de las previsiones de Wall Street al registrar una modesta creación de empleo durante el mes de junio. Esta desaceleración laboral genera nuevas dudas sobre el ritmo de crecimiento económico del país.",
         "articulos": [
           {
             "titular": "Germany’s twin crises: football and the economy",
@@ -238,6 +181,59 @@
       }
     ],
     "chile": [
+      {
+        "titulo_neutral": "Conflicto comercial entre Estados Unidos y Canadá",
+        "resumen": "El colapso de las negociaciones comerciales amenaza con impulsar nuevas alzas de precios poco antes de los comicios legislativos de mitad de período. Las autoridades responsabilizan a Donald Trump por agravar innecesariamente la disputa arancelaria.",
+        "articulos": [
+          {
+            "titular": "Acusan a Trump de arriesgar más sufrimiento para los estadounidenses con la guerra comercial con Canadá",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/acusan-a-trump-de-arriesgar-mas-sufrimiento-para-los-estadounidenses-con-la",
+            "fecha": "2026-08-23T19:45:53+00:00"
+          },
+          {
+            "titular": "Mark Carney afirma que Canadá está en guerra con EEUU por nueva ofensiva comercial",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/ft/mark-carney-afirma-que-canada-esta-en-guerra-con-eeuu-por-nueva-ofensiva",
+            "fecha": "2026-08-23T15:30:31+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Biministro Alvarado defiende propuesta de reforma constitucional en seguridad y rechaza abandonar el Convenio 169 de la OIT",
+        "resumen": "El ministro del Interior aclaró que las atribuciones de una proyectada reforma constitucional en seguridad requerirán una ley orgánica específica y descartó su empleo contra manifestaciones públicas. Asimismo, desestimó la posibilidad de que el país abandone el Convenio 169 de la OIT, distanciándose de posturas de Defensa.",
+        "articulos": [
+          {
+            "titular": "Biministro Alvarado defiende propuesta de reforma constitucional en seguridad y rechaza abandonar el Convenio 169 de la OIT",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/23/biministro-alvarado-defiende-propuesta-de-reforma-constitucional-en-seguridad-y-rechaza-abandonar-el-convenio-169-de-la-oit/",
+            "fecha": "2026-08-23T19:19:31+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
       {
         "titulo_neutral": "Los 18 edificios imprescindibles de Santiago que eligió influyente medio francés de arquitectura",
         "resumen": "",
@@ -262,7 +258,7 @@
       },
       {
         "titulo_neutral": "George Anastassiou conversa con su hija Antonia: el legado griego, la empresa familiar y la carrera de postas",
-        "resumen": "El empresario, arquitecto y filántropo George Anastassiou conversó sobre su trayectoria en empresas familiares como Molymet y en la Fundación Mustakis. En el primer episodio del podcast de DF MAS, abordó los desafíos de la sucesión generacional junto a su hija Antonia. Su testimonio destaca el legado empresarial y filantrópico de su familia.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "George Anastassiou conversa con su hija Antonia: el legado griego, la empresa familiar y la carrera de postas",
@@ -284,7 +280,7 @@
       },
       {
         "titulo_neutral": "Quién es Juan Pablo Rojas,  el “Joker del CAE”, el defensor de morosos del crédito estudiantil que llevó a 15 mil personas a su “Plan Moratorio”",
-        "resumen": "",
+        "resumen": "Un conocido asesor legal de deudores educacionales enfrenta múltiples denuncias por supuestos incumplimientos de contrato tras cobrar sumas considerables a miles de personas. Varios afectados afirman haber quedado en completa indefensión jurídica luego de contratar sus servicios de morosidad.",
         "articulos": [
           {
             "titular": "Quién es Juan Pablo Rojas,  el “Joker del CAE”, el defensor de morosos del crédito estudiantil que llevó a 15 mil personas a su “Plan Moratorio”",
@@ -369,82 +365,38 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Mara Sedini por dichos en Sin Filtros: “Yo en esa entrevista en ningún minuto dije una falsedad. Simplemente conté mi historia”",
-        "resumen": "La ex secretaria general de Gobierno, Mara Sedini, defendió sus recientes declaraciones emitidas en un programa de televisión y aseguró que relató vivencias personales verdaderas. Afirmó su respaldo absoluto a la administración del Presidente José Antonio Kast y su disposición a enfrentar las críticas de la oposición. Como figura independiente, reafirmó su rol en la defensa pública del Ejecutivo.",
-        "articulos": [
-          {
-            "titular": "Mara Sedini por dichos en Sin Filtros: “Yo en esa entrevista en ningún minuto dije una falsedad. Simplemente conté mi historia”",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/23/mara-sedini-por-dichos-en-sin-filtros-yo-en-esa-entrevista-en-ningun-minuto-dije-una-falsedad-simplemente-conte-mi-historia/",
-            "fecha": "2026-08-23T16:09:37+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Mark Carney afirma que Canadá está en guerra con EEUU por nueva ofensiva comercial",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Mark Carney afirma que Canadá está en guerra con EEUU por nueva ofensiva comercial",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/ft/mark-carney-afirma-que-canada-esta-en-guerra-con-eeuu-por-nueva-ofensiva",
-            "fecha": "2026-08-23T15:30:31+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Russell defends Mercedes team orders against himself - Reuters",
+        "titular": "Hugging Face exploring sale valuing it at $13 billion, Business Insider says - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVVZ5MlJfRUJ6eUIweHN0WTYyTUNJN0JlYXEwblhlZE5NaGJzZkVNN1BYcGxodnBSdS1YZGZSdHhaX08xYXJZWlhKSG1FMVVFTFpEM1JYR0N6RTF2ZXpjVjhId0I4TkVNZF94N3QwSnB4cXpSUldwV3VoX21NckIyemZwUVlZZ1k4RzZLVUotYmM1aVc1ZzNmSlVuckl0NzAzQWwzcFFYNA?oc=5",
-        "fecha": "2026-08-23T19:09:43+00:00"
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY19MMXU5dkxmN1UwRXQ1QWcycjNrZnN3QVhHZmVEQ1Z2bzEtakxkMkdlbVFsem1uRUYtbVFnT09TN2EybmNsa1ZuY3hMeC0tS3phQW5Db3VUQkIxUzdDQk1uVWo2NFkwMTZUSXh6R2p1eVEyVzVnclpaWVdmQVZialRocXJEd2lReWxxdU52M0VUM00yNnFicnJmMThuWU5JTEI0WVRkaW5LTmZxOE5XM0F4UnZtSU0?oc=5",
+        "fecha": "2026-08-23T20:00:36+00:00"
       },
       {
-        "titular": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
+        "titular": "Severe winds toss four aircraft across Italian airport tarmac",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/video-thousands-of-families-flee-fighting-in-sudans-north-kordofan-state?traffic_source=rss",
-        "fecha": "2026-08-23T18:27:46+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/severe-winds-toss-four-aircraft-across-italian-airport-tarmac?traffic_source=rss",
+        "fecha": "2026-08-23T20:00:22+00:00"
       },
       {
-        "titular": "Norris wins Dutch GP as Antonelli stretches his F1 lead - Reuters",
+        "titular": "Crans-Montana bar owner detained over alleged domestic abuse",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/europe/20260823-crans-montana-bar-owner-detained-over-alleged-domestic-abuse",
+        "fecha": "2026-08-23T19:57:30+00:00"
+      },
+      {
+        "titular": "Photos: IndyCars speed past Washington landmarks as part of Freedom 250",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/gallery/2026/8/23/photos-indycars-speed-past-washington-landmarks-ahead-of-freedom-250?traffic_source=rss",
+        "fecha": "2026-08-23T19:52:12+00:00"
+      },
+      {
+        "titular": "Missouri All-America RB Ahmad Hardy (gunshot) to miss opener - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTGhkM3pQeDVOdENTQ1ZQVVBEcWNENzdhODA5TEI1cTYxZXhMemtGNG5yS0pzYWtBZFJucW9IcHBvbjU4MDZNU1ZadmhDalZPVkxFUTNTUjdMN29rOW5CQ0hTREpqangtY055VjRuWnhoRlNDS2FGcmctUldfaUFQN21qODQ5ZUlZbEhwRy1PUHc2TUxlRUNpUThyTmowbHRu?oc=5",
-        "fecha": "2026-08-23T18:18:15+00:00"
-      },
-      {
-        "titular": "Guinea rubbish landfill collapse kills 30",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-23T18:17:37+00:00"
-      },
-      {
-        "titular": "Trump waves green flag kicking off high-speed IndyCar race through Washington",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c0qvq24vlj4o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-23T18:17:34+00:00"
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRUY0eHdxdUVqdkRWRlpHaGJDRDlJeVN5WkFYbXlHam1TaU5HdUx2NURUdFJCU3YzYjJacl9ha0I5bFNkS0l5dUlTakNUbWhlcllYb0lsX3NDank3V1Rxd2xwM2NvSV9WbUcyaFcxQVgya2ZQTmZSZnczc1hOYWVvS3RXdlJnRndtbmhjS0txT2NpOHV2SjlZczhMQldvaEkxR0JvcWFB?oc=5",
+        "fecha": "2026-08-23T19:48:09+00:00"
       }
     ]
   },
@@ -1534,6 +1486,10 @@
           },
           {
             "fecha": "2026-08-23T19:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-23T20:00:00",
             "valor": 495.82
           }
         ],
@@ -4777,7 +4733,7 @@
       "noticias": [
         {
           "titular": "Greg Abel Just Spent $23.5 Billion on 9 Stocks for Berkshire Hathaway. Here's the Best of the Bunch.",
-          "extracto": "Por primera vez desde 2022, el conglomerado Berkshire Hathaway adquirió más acciones de las que vendió en el mercado. Este cambio refleja una nueva postura inversora de la compañía.",
+          "extracto": "Por primera vez desde 2022, el conglomerado Berkshire Hathaway adquirió más acciones de las que vendió en el mercado. Este cambio en su estrategia financiera refleja una renovada confianza en la inversión bursátil.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4786,7 +4742,7 @@
         },
         {
           "titular": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con la capacidad financiera necesaria para realizar adquisiciones importantes. Su primera operación comercial anticipa la estrategia que utilizará en futuras transacciones.",
+          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con la capacidad financiera necesaria para concretar adquisiciones importantes. Su primera transacción ofrece indicios claros sobre la estrategia que adoptará en futuras operaciones corporativas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4795,7 +4751,7 @@
         },
         {
           "titular": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
-          "extracto": "Un reporte financiero reveló que las cuentas asociadas al presidente Trump realizaron más de mil operaciones bursátiles en un mes, coincidiendo con un acuerdo geopolítico. Una nueva ley aprobada por el Congreso excluye esta situación de posibles restricciones.",
+          "extracto": "Las cuentas asociadas al presidente Trump realizaron más de un millar de operaciones bursátiles en un mes, incluyendo movimientos previos a un acuerdo geopolítico. Ante esta situación, el Congreso aprobó una normativa correctiva que excluye expresamente al mandatario.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4804,7 +4760,7 @@
         },
         {
           "titular": "Does Greg Abel Know Something Wall Street Doesn't? New Berkshire Hathaway CEO Doubles Down On a Legacy Department Store Stock With a 3.3% Dividend Yield",
-          "extracto": "Greg Abel ha estado ampliando la participación financiera de Berkshire en una empresa mediana de menor visibilidad pública. Este movimiento sugiere un enfoque diversificado en las inversiones del conglomerado.",
+          "extracto": "Greg Abel ha estado ampliando la participación de Berkshire Hathaway en una empresa de mediana capitalización que suele recibir menor atención mediática. Esta decisión apunta a una diversificación táctica dentro de la cartera del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4813,7 +4769,7 @@
         },
         {
           "titular": "Trump’s Stock Disclosure Shows More Than 1,000 Trades in June",
-          "extracto": "De acuerdo con una divulgación financiera dada a conocer un sábado, el presidente Donald Trump ejecutó más de un millar de transacciones con valores durante el mes de junio. Entre las compras destacadas se encuentran acciones de reconocidas corporaciones como Visa, Mastercard y Berkshire Hathaway.",
+          "extracto": "Un informe financiero publicado recientemente reveló que el presidente Donald Trump ejecutó más de mil transacciones de valores durante el mes de junio. Entre las adquisiciones destacadas se encuentran acciones de reconocidas corporaciones como Berkshire Hathaway, Visa, Mastercard y Cintas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6093,6 +6049,10 @@
           },
           {
             "fecha": "2026-08-23T19:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-23T20:00:00",
             "valor": 270.95
           }
         ],
@@ -9336,7 +9296,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-          "extracto": "La introducción de bebidas energéticas por parte de McDonald's podría impulsar sus acciones, las cuales han sufrido una caída cercana al 11% en 2026. Este nuevo producto representa un catalizador clave para la recuperación financiera de la compañía tras un período de bajo rendimiento.",
+          "extracto": "La introducción de una nueva bebida energética podría impulsar las acciones de McDonald's tras registrar una caída cercana al 11% en 2026. Este nuevo producto representa un catalizador clave para la recuperación financiera de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9345,7 +9305,7 @@
         },
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento actual del mercado bursátil en el sector restaurantero muestra contrastes inesperados ante un consumidor debilitado. Mientras una cadena registra valoraciones extremadamente altas, otra acumula pérdidas de dos dígitos en lo que va del año.",
+          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes contrasta de forma inesperada con las previsiones económicas para un consumidor debilitado. Una de las empresas mantiene una valoración extremadamente alta mientras la otra sufre pérdidas de dos dígitos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9354,7 +9314,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un reciente análisis financiero incluye a destacadas empresas de comida rápida como McDonald's, Starbucks y Yum! Brands. El informe examina el desempeño y las perspectivas de estas grandes corporaciones dentro del mercado actual.",
+          "extracto": "Un análisis reciente de mercado incluye a destacadas corporaciones del sector de comida rápida y bebidas, como McDonald's, Starbucks y Yum! Brands. El informe evalúa el desempeño financiero y las perspectivas de estas grandes cadenas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9363,7 +9323,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "El exitoso lanzamiento de una nueva plataforma de bebidas en diversos mercados proporciona a McDonald's una oportunidad concreta de crecimiento bursátil. Esto contrasta positivamente con los resultados negativos acumulados por la empresa durante el año anterior.",
+          "extracto": "La expansión de una nueva plataforma de bebidas, que cumple o supera las expectativas en todos los mercados donde opera, ofrece a McDonald's una oportunidad concreta de crecimiento. Esto contrasta con el bajo rendimiento bursátil que la empresa ha experimentado durante el último año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9372,7 +9332,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "A pesar de la presión política y conservadora para eliminar las políticas de diversidad, equidad e inclusión (DEI) en el sector corporativo, estudios recientes cuestionan la premisa de que estas iniciativas perjudican el rendimiento financiero de las empresas.",
+          "extracto": "A pesar de la presión política y conservadora para eliminar los programas corporativos de diversidad, equidad e inclusión (DEI), estudios recientes revelan resultados inesperados. Las empresas que decidieron mantener estas iniciativas no sufrieron las consecuencias económicas negativas que predecían los críticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10815,6 +10775,10 @@
           },
           {
             "fecha": "2026-08-23T19:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-23T20:00:00",
             "valor": 483.24
           }
         ],
@@ -14058,7 +14022,7 @@
       "noticias": [
         {
           "titular": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-          "extracto": "Microsoft enfrenta nuevas regulaciones de pago a medios en Australia que impactan a LinkedIn, mientras afianza su alianza de inteligencia artificial con Meta y lanza herramientas automatizadas para la publicidad digital.",
+          "extracto": "Microsoft enfrenta nuevas regulaciones de pago a medios en Australia que impactan a LinkedIn, mientras afianza su relación con Meta como cliente clave de su infraestructura de inteligencia artificial en Azure. Asimismo, la compañía lanzó herramientas de IA orientadas a transformar la gestión de campañas publicitarias y de comercio digital.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14076,7 +14040,7 @@
         },
         {
           "titular": "4 Low-Cost ETFs Every Investor Should Own",
-          "extracto": "Una cartera compuesta por cuatro fondos seleccionados estratégicamente permite cubrir el mercado estadounidense de forma integral y con costos muy reducidos.",
+          "extracto": "Una cartera compuesta por cuatro fondos seleccionados estratégicamente permite cubrir de manera integral el mercado estadounidense con costos mínimos. El éxito de esta estrategia radica en la correcta combinación de los activos más que en la elección individual de cada fondo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14085,7 +14049,7 @@
         },
         {
           "titular": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
-          "extracto": "Un analista de Rosenblatt inició la cobertura de Amazon con una perspectiva muy favorable sobre su división de inteligencia artificial y proyectó un crecimiento acelerado para AWS hacia finales de 2026.",
+          "extracto": "La firma de análisis Rosenblatt inició la cobertura de Amazon con un precio objetivo de 335 dólares, argumentando que el liderazgo de la empresa en inteligencia artificial está subestimado por el mercado. Además, la entidad proyecta que el negocio de servicios en la nube (AWS) alcanzará una tasa de crecimiento del 45% para finales de 2026.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15597,6 +15561,10 @@
           },
           {
             "fecha": "2026-08-23T19:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-23T20:00:00",
             "valor": 703.71
           }
         ],
@@ -18840,7 +18808,7 @@
       "noticias": [
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "",
+          "extracto": "Los inversores que buscan aprovechar el crecimiento a largo plazo del índice S&P 500 deben considerar ciertos factores esenciales. Esto ayuda a optimizar las ganancias compuestas a lo largo del tiempo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18849,7 +18817,7 @@
         },
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "La composición de los principales fondos indexados ha cambiado notablemente este año, con una cuarta parte de su valor concentrada en tan solo cinco grandes empresas. Esta concentración refleja un cambio importante en la distribución del mercado actual.",
+          "extracto": "La jerarquía entre los principales fondos cotizados experimentó modificaciones significativas durante el año. Actualmente, una fracción sustancial del capital total se concentra en un grupo reducido de empresas tecnológicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18858,7 +18826,7 @@
         },
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "",
+          "extracto": "Un fondo cotizado emblemático vinculado al índice bursátil estadounidense ha demostrado un rendimiento financiero sobresaliente en los últimos diez años. Este crecimiento sostenido atrae constantemente a nuevos inversionistas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18867,7 +18835,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "A pesar de ofrecer exactamente los mismos rendimientos y activos, muchos inversores eligen un fondo cotizado de State Street que resulta considerablemente más caro que su alternativa idéntica. Esta elección genera costos innecesarios para el patrimonio de los ahorradores.",
+          "extracto": "Una gestora de activos administra dos fondos idénticos que replican las mismas acciones y dividendos, aunque uno resulta considerablemente más costoso. Sorprendentemente, la mayoría del capital de los clientes se destina a esta opción más cara.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -18876,7 +18844,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "State Street modificó discretamente el nombre y el código de cotización de un fondo clave para asemejarlo al producto más famoso del sector. Esta estrategia de diferenciación en las comisiones podría transformar la forma en que los particulares gestionan sus ahorros para el retiro.",
+          "extracto": "Una importante empresa financiera modificó el nombre y el código de cotización de un fondo para asemejarlo al producto más famoso del mercado. Esta estrategia de tarifas diferenciadas podría alterar la forma en que los ahorradores eligen sus instrumentos de jubilación.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
