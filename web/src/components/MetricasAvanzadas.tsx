@@ -1,5 +1,7 @@
 import type { MetricasAvanzadas as TipoMetricasAvanzadas } from "../types";
+import SenalMetrica from "./SenalMetrica";
 import { formatMusd, formatNumeroCL, formatUSD } from "../lib/format";
+import type { Lectura } from "../lib/referenciasMetricas";
 import {
   contextoRoe,
   contextoRoicRoce,
@@ -17,7 +19,7 @@ type Metrica = {
   etiqueta: string;
   valor: number | null;
   formatear: (v: number) => string;
-  contexto?: (v: number) => string;
+  contexto?: (v: number) => Lectura;
 };
 
 const formatX = (v: number) => `${formatNumeroCL(v, 2)}x`;
@@ -123,7 +125,9 @@ export default function MetricasAvanzadas({ metricas }: { metricas: TipoMetricas
                 <dt>{m.etiqueta}</dt>
                 <dd>{m.formatear(m.valor as number)}</dd>
                 {m.contexto && (
-                  <p className="metricas-avanzadas-contexto">{m.contexto(m.valor as number)}</p>
+                  <p className="metricas-avanzadas-contexto">
+                    <SenalMetrica lectura={m.contexto(m.valor as number)} />
+                  </p>
                 )}
               </div>
             ))}

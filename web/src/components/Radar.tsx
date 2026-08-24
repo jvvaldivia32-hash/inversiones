@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { RadarCandidato, RadarData, RangoPrecio, Tesis } from "../types";
 import GraficoPrecio from "./GraficoPrecio";
+import SenalMetrica from "./SenalMetrica";
 import {
   contextoCrecimientoIngresos,
   contextoMargenOperativo,
@@ -70,12 +71,21 @@ function CandidatoItem({
           />
           <ul className="radar-candidato-contexto">
             <li>
-              Ingresos: {contextoCrecimientoIngresos(candidato.metricas.ingresos_var_pct)}
+              Ingresos:{" "}
+              <SenalMetrica
+                lectura={contextoCrecimientoIngresos(candidato.metricas.ingresos_var_pct)}
+              />
             </li>
-            <li>Margen operativo: {contextoMargenOperativo(candidato.metricas.margen_op)}</li>
+            <li>
+              Margen operativo:{" "}
+              <SenalMetrica lectura={contextoMargenOperativo(candidato.metricas.margen_op)} />
+            </li>
             {candidato.metricas.deuda_patrimonio !== null && (
               <li>
-                Deuda/patrimonio: {contextoDeudaPatrimonio(candidato.metricas.deuda_patrimonio)}
+                Deuda/patrimonio:{" "}
+                <SenalMetrica
+                  lectura={contextoDeudaPatrimonio(candidato.metricas.deuda_patrimonio)}
+                />
               </li>
             )}
           </ul>

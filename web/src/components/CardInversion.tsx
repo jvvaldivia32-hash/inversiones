@@ -6,6 +6,7 @@ import Semaforo from "./Semaforo";
 import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
+import SenalMetrica from "./SenalMetrica";
 import FormularioTesis from "./FormularioTesis";
 import MiInversion, { calcularEnVivo, type MiInversionResumen } from "./MiInversion";
 import {
@@ -324,11 +325,19 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
           {hayContextoMetricas && (
             <ul className="card-inversion-contexto">
               {ingresosVarPct !== null && (
-                <li>Ingresos: {contextoCrecimientoIngresos(ingresosVarPct)}</li>
+                <li>
+                  Ingresos: <SenalMetrica lectura={contextoCrecimientoIngresos(ingresosVarPct)} />
+                </li>
               )}
-              {margenOp !== null && <li>Margen operativo: {contextoMargenOperativo(margenOp)}</li>}
+              {margenOp !== null && (
+                <li>
+                  Margen operativo: <SenalMetrica lectura={contextoMargenOperativo(margenOp)} />
+                </li>
+              )}
               {deudaPatrimonio !== null && (
-                <li>Deuda/patrimonio: {contextoDeudaPatrimonio(deudaPatrimonio)}</li>
+                <li>
+                  Deuda/patrimonio: <SenalMetrica lectura={contextoDeudaPatrimonio(deudaPatrimonio)} />
+                </li>
               )}
             </ul>
           )}
