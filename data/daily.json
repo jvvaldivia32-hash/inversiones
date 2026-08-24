@@ -1,11 +1,11 @@
 {
-  "generado": "2026-08-24T10:31:15.913552+00:00",
+  "generado": "2026-08-24T11:20:27.660429+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "'Half my business will be gone' - Firms in Canada and US fear trade war",
-        "resumen": "",
+        "titulo_neutral": "Preocupación de empresas de Canadá y Estados Unidos por posible guerra comercial",
+        "resumen": "Los dueños de negocios en Canadá y Estados Unidos enfrentan un clima de gran incertidumbre debido al escalamiento de los aranceles comerciales entre ambas naciones. Ottawa decidió suspender las negociaciones comerciales después de que se impusieran gravámenes del 50%, prometiendo aplicar medidas de reciprocidad económica de manera directa.",
         "articulos": [
           {
             "titular": "'Half my business will be gone' - Firms in Canada and US fear trade war",
@@ -15,42 +15,7 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cy0j0zz8l83o?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-08-24T09:47:22+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "BBC"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Shein aims for almost $27bn valuation in stock market debut",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Shein aims for almost $27bn valuation in stock market debut",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-08-24T07:00:53+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "BBC"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Canada-US trade war: Who wins? Who loses?",
-        "resumen": "",
-        "articulos": [
+          },
           {
             "titular": "Canada-US trade war: Who wins? Who loses?",
             "extracto": "",
@@ -62,17 +27,28 @@
           }
         ],
         "leans_presentes": [
+          "centro",
           "sin-clasificar"
         ],
         "grupos_presentes": [
+          "BBC",
           "Al Jazeera"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Breakingviews - Shein fashions bizarre upside-down IPO - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Oferta pública de venta de acciones de Shein y su valoración en el mercado",
+        "resumen": "La plataforma de moda rápida Shein se prepara para cotizar en la bolsa de Hong Kong a principios de septiembre. La compañía ha ajustado su valoración estimada a unos 27.000 millones de dólares y planea destinar sumas millonarias a ciertos inversores previos a su oferta pública.",
         "articulos": [
+          {
+            "titular": "Shein aims for almost $27bn valuation in stock market debut",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-24T07:00:53+00:00"
+          },
           {
             "titular": "Breakingviews - Shein fashions bizarre upside-down IPO - Reuters",
             "extracto": "",
@@ -114,13 +90,14 @@
           "centro"
         ],
         "grupos_presentes": [
+          "BBC",
           "Reuters"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Gold climbs to more than three-month high as markets await US inflation data - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Precio del oro alcanza su nivel más alto en más de tres meses a la espera de datos de inflación en Estados Unidos",
+        "resumen": "El precio del oro alcanzó su nivel más alto en más de tres meses en los mercados internacionales. Este repunte responde a la expectativa generalizada de los inversionistas ante la publicación de los próximos datos de inflación en Estados Unidos.",
         "articulos": [
           {
             "titular": "Gold climbs to more than three-month high as markets await US inflation data - Reuters",
@@ -141,8 +118,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Comentarios matutinos sobre conflictos económicos y guerras comerciales",
+        "resumen": "Los analistas económicos advierten sobre el complejo escenario global actual, donde se entrelazan crisis económicas, conflictos comerciales y enfrentamientos bélicos directos. Esta combinación de factores genera una alta volatilidad en los mercados financieros internacionales.",
         "articulos": [
           {
             "titular": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
@@ -163,8 +140,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Indian central bank likely intervenes, anchoring rupee in face of global ructions, traders say - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Intervención del banco central de India y evolución de la rupia frente a sanciones a Irán",
+        "resumen": "El banco central de India intervino en los mercados cambiarios para mantener la estabilidad de la rupia frente a la volatilidad global. Esta medida busca proteger la economía local ante la incertidumbre generada por posibles sanciones internacionales a Irán y tensiones geopolíticas.",
         "articulos": [
           {
             "titular": "Indian central bank likely intervenes, anchoring rupee in face of global ructions, traders say - Reuters",
@@ -173,7 +150,16 @@
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYktHT1AtVS13NThNNDU5M0tTdzJRYUZxUDlnUFhCdlZpckZKSkU1SC1SYXdDVGdEakJZTWVvLUt3TGtBZUcwRUNnQUF2VkJLRTJQRXVQNjQ1WGdEY2lNUlBBdXdDclpxc3VuaWlERUl4ZkFVOEV4UEwyeXoxT0xvUTlQb3BBOC1qUWptTGkyWk40dVY3X29sMkV3cWp0SklmUkV2NUR2NURFTm03ZjRkbWdqOXoyaGVHdGxyMUwwOA?oc=5",
-            "fecha": "2026-08-24T03:53:24+00:00"
+            "fecha": "2026-08-24T03:53:00+00:00"
+          },
+          {
+            "titular": "Interventions hold rupee on narrow leash, traders await US sanctions on Iran - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTRWMGpMTzlmX3RQR0Y5dzctZjZ5LVFqeEMxT1FydzQybE84MjB0aUlqdkZXLTRESXJzZnZwbDR0QndhN3VnaVRIVVIwLVBOVENWNXZ6MlNmTm5qd1dINmY0TlVjdjJSQm8yOVhYelVUb054c0wwWjMxWW1XQUttQ2N0VXU4Y2hqc1dudkdnSGJKVFdaclRUSThRZ1AwTHlpLWtPRmcyRV9XZGUyd2I2RXB3dE5KMGYz?oc=5",
+            "fecha": "2026-08-24T02:37:00+00:00"
           },
           {
             "titular": "Indian shares extend cautious trade on concerns over Iran sanctions - Reuters",
@@ -194,8 +180,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Nvidia discusses Perplexity investment at $30 billion-plus valuation, The Information reports - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Nvidia negocia inversión en Perplexity",
+        "resumen": "Nvidia se encuentra en conversaciones para participar en una ronda de inversión en la startup Perplexity, la cual apunta a una valoración de mercado superior a los 30.000 millones de dólares. Este movimiento refleja el constante interés de los gigantes tecnológicos en respaldar plataformas innovadoras de inteligencia artificial.",
         "articulos": [
           {
             "titular": "Nvidia discusses Perplexity investment at $30 billion-plus valuation, The Information reports - Reuters",
@@ -214,21 +200,75 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Cotización del dólar y situación del mercado de deuda en Estados Unidos",
+        "resumen": "Los mercados financieros reaccionaron positivamente a varios acontecimientos corporativos y económicos recientes. Entre los eventos destacados figuran los alentadores resultados en ensayos médicos para una vacuna contra el cáncer y los ajustes en la recompra de bonos de larga duración por parte del Tesoro estadounidense.",
+        "articulos": [
+          {
+            "titular": "Dollar pinned at multi-month lows as debt nerves unnerve investors - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
+            "fecha": "2026-08-24T01:48:00+00:00"
+          },
+          {
+            "titular": "US Treasury tries to soothe the bond market",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
+            "fecha": "2026-08-20T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "KPMG Australia anuncia recortes de empleos",
+        "resumen": "La filial australiana de la firma de servicios profesionales KPMG anunció un recorte cercano a los 400 puestos de trabajo. La decisión responde a un entorno de mercado adverso y complicado que afecta la rentabilidad de la compañía.",
+        "articulos": [
+          {
+            "titular": "Scandal-hit KPMG Australia to cut nearly 400 jobs, warns of difficult market - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFBwUmVUQ2FIYkhmeTVfb2xYQ3JjU2ZsSzJkQ3ZlUzhaY1VtUlVIZnhtMnF6VUZuTXZxMWltMkNRRUF0ZEQxaC11NGliS2wzRGNpRTZza0VfdkRlSXZhTm1fSk16ZnJVZjRaVDRXaE1Rd1ZPU3llSFBaRTVKQVhvU0VwOFVidzNNc1RSZTVOUFh1SjF0LV9vdlRlcUJESGgxeDhRV0NWZldQV0Q0eVNKV1FBOTdIeEFNV0ozcA?oc=5",
+            "fecha": "2026-08-24T01:02:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Rosario Navarro, presidenta de Sofofa: “No sé si existe mejor momento que el que estamos viviendo hoy para invertir”",
-        "resumen": "Una representante del sector empresarial valoró la reciente normativa orientada a reactivar la economía, señalando que entrega señales de confianza para las inversiones corporativas. Sin embargo, advirtió que las autoridades todavía deben legislar en materia de flexibilidad laboral para completar las mejoras necesarias.",
+        "titulo_neutral": "Nicolás Szekasy cofundador y managing partner de Kaszek: “Debería haber compañías de IA chilenas que sean las mejores del mundo en minería”",
+        "resumen": "Un exdirectivo de MercadoLibre aseguró que la turbulencia financiera posterior a 2021 quedó atrás. Además, pronosticó la llegada de nuevas ofertas públicas de venta latinoamericanas a Estados Unidos y destacó que el sector energético posiciona favorablemente a la región en el ámbito tecnológico.",
         "articulos": [
           {
-            "titular": "Rosario Navarro, presidenta de Sofofa: “No sé si existe mejor momento que el que estamos viviendo hoy para invertir”",
+            "titular": "Nicolás Szekasy cofundador y managing partner de Kaszek: “Debería haber compañías de IA chilenas que sean las mejores del mundo en minería”",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/laboral-personas/rosario-navarro-presidenta-de-la-sociedad-de-fomento-fabril-sofofa-no",
-            "fecha": "2026-08-24T10:31:03+00:00"
+            "url": "http://www.df.cl/df-lab/tech-empresas/nicolas-szekasy-cofundador-y-managing-partner-de-kaszek-deberia-haber",
+            "fecha": "2026-08-24T11:19:33+00:00"
           }
         ],
         "leans_presentes": [
@@ -240,17 +280,83 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "MOP alista cambio legal para crear un panel queresuelva controversias en las obras públicas",
-        "resumen": "Actualmente existen mecanismos para dirimir controversias entre el Estado y las empresas concesionarias, pero carecen de jurisdicción sobre la infraestructura pública tradicional. Por esta razón, el Ejecutivo planea iniciar un debate legislativo en septiembre para solucionar este vacío normativo.",
+        "titulo_neutral": "El petróleo cae antes de anuncio de EEUU de nuevas sanciones económicas contra Irán este lunes",
+        "resumen": "El secretario del Tesoro estadounidense, Scott Bessent, anunciará los detalles específicos de una nueva estrategia económica durante una conferencia de prensa programada para la tarde.",
         "articulos": [
           {
-            "titular": "MOP alista cambio legal para crear un panel queresuelva controversias en las obras públicas",
+            "titular": "El petróleo cae antes de anuncio de EEUU de nuevas sanciones económicas contra Irán este lunes",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/commodities/el-petroleo-cae-antes-de-anuncio-de-eeuu-de-nuevas-sanciones-economicas",
+            "fecha": "2026-08-24T11:16:54+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "MOP alista cambio legal para crear un panel que resuelva controversias en las obras públicas",
+        "resumen": "Actualmente existen mecanismos arbitrales para dirimir conflictos entre el gobierno y las empresas concesionarias, pero estos no contemplan proyectos de obra pública tradicional. Por ello, el Ejecutivo pretende impulsar esta discusión en el Congreso durante septiembre.",
+        "articulos": [
+          {
+            "titular": "MOP alista cambio legal para crear un panel que resuelva controversias en las obras públicas",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/empresas/construccion/mop-alista-cambio-legal-para-crear-un-panel-queresuelva-controversias-en",
-            "fecha": "2026-08-24T10:27:43+00:00"
+            "fecha": "2026-08-24T10:36:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Fondos familiares privados: la nueva estructura que gana terreno entre los family offices chilenos",
+        "resumen": "Esta estrategia metodológica busca ordenar estructuras patrimoniales complejas y simplificar el traspaso generacional de bienes. Asimismo, apunta a profesionalizar la administración de los capitales familiares.",
+        "articulos": [
+          {
+            "titular": "Fondos familiares privados: la nueva estructura que gana terreno entre los family offices chilenos",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/bolsa-monedas/fondos-familiares-privados-la-nueva-estructura-que-gana-terreno-entre-los",
+            "fecha": "2026-08-24T10:32:13+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Rosario Navarro, presidenta de Sofofa: “No sé si existe mejor momento que el que estamos viviendo hoy para invertir”",
+        "resumen": "Una referente del sector empresarial valoró la reciente aprobación de la ley orientada a reactivar la economía para incentivar la inversión privada. Sin embargo, advirtió que todavía es imperativo discutir modificaciones que otorguen mayor flexibilidad laboral.",
+        "articulos": [
+          {
+            "titular": "Rosario Navarro, presidenta de Sofofa: “No sé si existe mejor momento que el que estamos viviendo hoy para invertir”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/laboral-personas/rosario-navarro-presidenta-de-la-sociedad-de-fomento-fabril-sofofa-no",
+            "fecha": "2026-08-24T10:31:17+00:00"
           }
         ],
         "leans_presentes": [
@@ -263,7 +369,7 @@
       },
       {
         "titulo_neutral": "La isapre del Grupo Alemana se lanza a masificar su modelo de salud",
-        "resumen": "El máximo ejecutivo de la empresa Esencial afirmó que la reciente legislación abre un escenario extraordinario para transformar los esquemas de financiamiento en este mercado. Según indicó, la industria cuenta con una oportunidad irrepetible para modificar sus estructuras financieras actuales.",
+        "resumen": "El máximo ejecutivo de Esencial afirmó que la reciente implementación de la ley corta representa una ocasión inmejorable para transformar los mecanismos de financiamiento del sector. Este cambio normativo abriría la puerta a una reestructuración profunda en la industria.",
         "articulos": [
           {
             "titular": "La isapre del Grupo Alemana se lanza a masificar su modelo de salud",
@@ -285,7 +391,7 @@
       },
       {
         "titulo_neutral": "Sky Airline cierra acuerdo con Grupo Abra para formar parte del conglomerado",
-        "resumen": "Durante el reciente fin de semana se concretó la adquisición de la aerolínea Sky Airline por parte del conglomerado Abra. No obstante, las partes involucradas decidieron mantener en reserva la proporción exacta de acciones que los antiguos dueños mantendrán en la nueva entidad.",
+        "resumen": "El grupo Abra completó la adquisición de la aerolínea Sky Airline tras formalizar el acuerdo este fin de semana. No obstante, los detalles financieros y la proporción accionaria con la que los dueños de la compañía chilena se integrarán al conglomerado se mantuvieron en reserva.",
         "articulos": [
           {
             "titular": "Sky Airline cierra acuerdo con Grupo Abra para formar parte del conglomerado",
@@ -306,30 +412,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Fondos familiares privados: la nueva estructura que gana terreno entre los family offices chilenos",
-        "resumen": "Esta herramienta estratégica está diseñada para simplificar estructuras patrimoniales altamente complejos y optimizar los procesos de traspaso generacional. Asimismo, su implementación apunta a elevar los estándares profesionales en la administración de carteras y capitales.",
-        "articulos": [
-          {
-            "titular": "Fondos familiares privados: la nueva estructura que gana terreno entre los family offices chilenos",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/fondos-familiares-privados-la-nueva-estructura-que-gana-terreno-entre-los",
-            "fecha": "2026-08-24T10:18:56+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
         "titulo_neutral": "Rodrigo O’Ryan, presidente de Corma: “La forestación de los pequeños y medianos propietarios en Chile está siendo cero”",
-        "resumen": "Las estadísticas gremiales muestran que de las ochenta mil hectáreas reforestadas recientemente, una porción mínima corresponde a cultivos nuevos. Este bajo nivel de nuevas siembras preocupa al sector debido a la magnitud de los daños que previamente sufrieron los propietarios de los terrenos.",
+        "resumen": "El gremio forestal reporta decenas de miles de hectáreas reforestadas, pero una fracción mínima corresponde a plantaciones completamente nuevas. Esta cifra resulta sumamente insuficiente frente a la magnitud de los daños que han soportado los propietarios del sector.",
         "articulos": [
           {
             "titular": "Rodrigo O’Ryan, presidente de Corma: “La forestación de los pequeños y medianos propietarios en Chile está siendo cero”",
@@ -348,82 +432,38 @@
           "Claro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Cadem: Solo un 10% piensa que el gobierno debe mantener proyecto de seguridad tal como está (Lea encuesta completa)",
-        "resumen": "Una encuesta de Cadem reveló que la mayoría de los consultados prefiere que el Ejecutivo retire la iniciativa de seguridad para dialogar, alcanzar consensos y aplicar modificaciones antes de insistir con su tramitación. Un porcentaje menor apoya que la propuesta siga su curso sin cambios.",
-        "articulos": [
-          {
-            "titular": "Cadem: Solo un 10% piensa que el gobierno debe mantener proyecto de seguridad tal como está (Lea encuesta completa)",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/cadem-10-piensa-gobierno-mantenga-proyecto/",
-            "fecha": "2026-08-24T02:13:11+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Fernando Barros: “A los tres meses ya la gente se siente decepcionada, ¿con qué derecho?”",
-        "resumen": "El ministro de Defensa ha generado diversas reacciones tras cuestionar abiertamente las tarifas comerciales aplicadas por Estados Unidos y oponerse firmemente al impuesto digital a los casinos. Además, aprovechó la instancia para proponer la salida del país del Convenio 169 de la Organización Internacional del Trabajo.",
-        "articulos": [
-          {
-            "titular": "Fernando Barros: “A los tres meses ya la gente se siente decepcionada, ¿con qué derecho?”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/politica/fernando-barros-a-los-tres-meses-ya-la-gente-se-siente-decepcionada-con",
-            "fecha": "2026-08-24T01:59:55+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Volkswagen warns Germany's car-making industry is in jeopardy",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/volkswagen-warns-germany-s-car-making-industry-is-in-jeopardy",
-        "fecha": "2026-08-24T10:19:36+00:00"
-      },
-      {
-        "titular": "'Scared to death': Over 40,000 people evacuated as Nevada's Hawk fire spreads",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/scared-to-death-over-40-000-people-evacuated-as-nevada-s-hawk-fire-spreads",
-        "fecha": "2026-08-24T10:10:48+00:00"
-      },
-      {
-        "titular": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
+        "titular": "Access to Zambian courts prevented as election petition deadline looms",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-24T10:08:40+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-24T11:17:28+00:00"
       },
       {
-        "titular": "'Scared to death': Thousands evacuate Nevada homes as wildfire spreads",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/cy0zr8lkr8lo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-24T10:05:22+00:00"
-      },
-      {
-        "titular": "France and Saudi Arabia hold talks ranging from Middle East to esports",
+        "titular": "Humanoid robot beats Usain Bolt's 100m world record",
         "medio": "France24",
-        "url": "https://www.france24.com/en/france-and-saudi-arabia-hold-talks-ranging-from-middle-east-to-esports",
-        "fecha": "2026-08-24T10:03:01+00:00"
+        "url": "https://www.france24.com/en/video/20260824-humanoid-robot-beats-usain-bolt-s-100m-world-record",
+        "fecha": "2026-08-24T10:58:10+00:00"
+      },
+      {
+        "titular": "India used pellets, grenades on Gen Z protests: What Amnesty report reveals",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/features/2026/8/24/india-used-pellets-grenades-on-gen-z-protests-what-amnesty-report-reveals?traffic_source=rss",
+        "fecha": "2026-08-24T10:53:21+00:00"
+      },
+      {
+        "titular": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
+        "fecha": "2026-08-24T10:49:47+00:00"
+      },
+      {
+        "titular": "Dutch public broadcaster to boycott ‘no longer’ neutral Eurovision",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/24/dutch-public-broadcaster-to-boycott-no-longer-neutral-eurovision?traffic_source=rss",
+        "fecha": "2026-08-24T10:42:16+00:00"
       }
     ]
   },
@@ -1569,6 +1609,10 @@
           },
           {
             "fecha": "2026-08-24T10:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-24T11:00:00",
             "valor": 495.82
           }
         ],
@@ -4824,7 +4868,7 @@
       "noticias": [
         {
           "titular": "Greg Abel Just Spent $23.5 Billion on 9 Stocks for Berkshire Hathaway. Here's the Best of the Bunch.",
-          "extracto": "Por primera vez desde 2022, el conglomerado Berkshire Hathaway adquirió más acciones de las que vendió en el mercado. Este cambio refleja una nueva postura de inversión por parte de la compañía.",
+          "extracto": "El conglomerado Berkshire Hathaway volvió a comprar más acciones de las que vendió en el mercado, un movimiento que no realizaba desde 2022. Esto indica un cambio en la estrategia de inversión de la compañía bajo su dirección actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4833,7 +4877,7 @@
         },
         {
           "titular": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con la capacidad financiera necesaria para concretar adquisiciones importantes. Su primera operación ofrece indicios sobre la estrategia que utilizará en futuras transacciones corporativas.",
+          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con los recursos necesarios para concretar transacciones corporativas de gran envergadura. Su primera operación ofrece indicios sobre la metodología que planea implementar en futuras adquisiciones estratégicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4842,7 +4886,7 @@
         },
         {
           "titular": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
-          "extracto": "Una revelación financiera indicó que las cuentas asociadas a Donald Trump realizaron más de un millar de transacciones bursátiles en un solo mes. Entre las operaciones destacó la compra de acciones de una empresa de defensa poco antes de un anuncio geopolítico clave, mientras el Congreso aprobó una nueva normativa que excluye al mandatario de dichas restricciones.",
+          "extracto": "Las cuentas vinculadas al presidente Trump realizaron más de un millar de operaciones bursátiles en un mes, incluyendo inversiones en una empresa de defensa poco antes de un acuerdo geopolítico. Estas transacciones ocurrieron en un contexto donde el Congreso aprobó una normativa que lo excluye de ciertas restricciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4851,7 +4895,7 @@
         },
         {
           "titular": "Does Greg Abel Know Something Wall Street Doesn't? New Berkshire Hathaway CEO Doubles Down On a Legacy Department Store Stock With a 3.3% Dividend Yield",
-          "extracto": "Greg Abel ha estado ampliando la participación financiera de Berkshire Hathaway en una empresa de mediana capitalización que suele recibir menor atención mediática. Esta maniobra destaca dentro de la gestión de la cartera del conglomerado.",
+          "extracto": "Greg Abel ha estado ampliando la participación financiera de Berkshire Hathaway en una empresa de mediana capitalización que suele recibir menor atención mediática. Esta decisión refleja la diversificación de la cartera de inversiones del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4860,7 +4904,7 @@
         },
         {
           "titular": "Trump’s Stock Disclosure Shows More Than 1,000 Trades in June",
-          "extracto": "Un informe financiero publicado recientemente reveló que el presidente Donald Trump ejecutó más de mil operaciones con valores bursátiles durante el mes de junio. Las transacciones incluyeron adquisiciones considerables de acciones en importantes corporaciones como Berkshire Hathaway, Visa, Mastercard y Cintas.",
+          "extracto": "Un informe financiero difundido recientemente reveló que el presidente Donald Trump efectuó más de mil transacciones bursátiles durante el mes de junio. Entre las operaciones destacan adquisiciones relevantes de acciones en destacadas corporaciones estadounidenses como Berkshire Hathaway, Visa, Mastercard y Cintas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6196,6 +6240,10 @@
           },
           {
             "fecha": "2026-08-24T10:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-24T11:00:00",
             "valor": 270.95
           }
         ],
@@ -9451,7 +9499,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-          "extracto": "La introducción de bebidas energéticas por parte de McDonald's podría impulsar sus acciones, ayudando a revertir la caída de aproximadamente 11% registrada en 2026. Esta nueva línea de productos ofrece una oportunidad clave para mejorar el rendimiento bursátil de la compañía.",
+          "extracto": "La incursión de McDonald's en el mercado de las bebidas energéticas podría impulsar el valor de sus acciones tras el descenso acumulado durante el año. Este nuevo producto ofrece una perspectiva positiva para la recuperación financiera de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9460,7 +9508,7 @@
         },
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento actual del mercado bursátil en el sector de restaurantes muestra contrastes inesperados en las valoraciones de las empresas. Una de las cadenas cotiza con múltiplos muy altos, mientras otra registra pérdidas de doble dígito este año, desafiando las previsiones económicas.",
+          "extracto": "El comportamiento bursátil actual de ciertas cadenas de restauración desafía las expectativas económicas tradicionales de los consumidores. Mientras unas empresas registran cotizaciones extremadamente altas, otras sufren pérdidas significativas en su valor de mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9469,7 +9517,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Un reciente informe de análisis financiero incluye entre sus temas de evaluación a reconocidas cadenas de comida rápida como McDonald's, Starbucks y Yum! Brands. El documento examina el desempeño y las perspectivas de estas empresas dentro del mercado actual.",
+          "extracto": "Un análisis reciente de mercado incluye a destacadas corporaciones de comida rápida y bebidas entre sus temas de evaluación. El informe examina el rendimiento financiero de estas grandes marcas del sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9478,7 +9526,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "El buen rendimiento inicial de una nueva plataforma de bebidas en todos los mercados donde se ha lanzado representa el estímulo más sólido para la recuperación de McDonald's. Esto podría compensar los resultados desfavorables acumulados por la firma durante el último año.",
+          "extracto": "El lanzamiento de una nueva línea de bebidas está cumpliendo o superando las expectativas en todos los territorios donde se comercializa. Este éxito comercial representa la oportunidad más sólida para que McDonald's supere un periodo de baja rentabilidad bursátil.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9487,7 +9535,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevas investigaciones indican que las empresas que decidieron mantener sus iniciativas de diversidad, equidad e inclusión no sufrieron consecuencias negativas, a pesar de la presión conservadora para eliminarlas. Los datos contradicen el argumento de que adoptar estas políticas perjudica el desempeño financiero corporativo.",
+          "extracto": "A pesar de la presión política y conservadora para eliminar los programas corporativos de diversidad, equidad e inclusión, estudios recientes contradicen el supuesto fracaso financiero de estas políticas. Las empresas que mantuvieron dichas iniciativas demuestran resultados que desafían las advertencias de los críticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10986,6 +11034,10 @@
           },
           {
             "fecha": "2026-08-24T10:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-24T11:00:00",
             "valor": 483.24
           }
         ],
@@ -14241,7 +14293,7 @@
       "noticias": [
         {
           "titular": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
-          "extracto": "Microsoft distribuyó miles de millones de dólares a sus accionistas mientras mantiene inversiones masivas en inteligencia artificial. Esta situación genera dudas entre los inversores sobre la sostenibilidad de los dividendos a largo plazo.",
+          "extracto": "Microsoft distribuyó miles de millones de dólares a sus accionistas mientras enfrenta enormes costos en infraestructura de inteligencia artificial. Los analistas debaten si la empresa podrá mantener los pagos a inversionistas ante este nivel récord de gasto.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14250,7 +14302,7 @@
         },
         {
           "titular": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-          "extracto": "Microsoft debe cumplir con una nueva legislación en Australia que obliga a las plataformas digitales a remunerar a los medios locales, lo que impacta en la distribución de noticias de LinkedIn. Paralelamente, la compañía avanza en contratos de infraestructura de IA y en la automatización de campañas publicitarias.",
+          "extracto": "La compañía tecnológica debe cumplir con una nueva normativa en Australia que exige pagos a medios locales por la distribución de contenidos periodísticos. Paralelamente, la corporación impulsa iniciativas comerciales basadas en inteligencia artificial y afianza contratos corporativos clave.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14268,7 +14320,7 @@
         },
         {
           "titular": "4 Low-Cost ETFs Every Investor Should Own",
-          "extracto": "Una cartera compuesta por cuatro fondos indexados de bajo costo permite abarcar todo el mercado estadounidense de forma diversificada. Lo fundamental de esta estrategia radica en la selección adecuada de los fondos y en cómo se complementan entre sí.",
+          "extracto": "Una estrategia de inversión basada en cuatro fondos específicos permite cubrir integralmente el mercado estadounidense con costos operativos mínimos. La clave de esta metodología radica en la selección conjunta de los instrumentos financieros para optimizar el rendimiento global.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14277,7 +14329,7 @@
         },
         {
           "titular": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
-          "extracto": "La firma de análisis Rosenblatt inició la cobertura de las acciones de Amazon con una perspectiva optimista sobre su división de inteligencia artificial. El pronóstico anticipa un fuerte aceleramiento en el crecimiento de AWS para finales de 2026.",
+          "extracto": "Una firma de análisis financiero considera que el liderazgo de Amazon en el sector de la inteligencia artificial está subestimado en el mercado actual. Por esta razón, la entidad estableció un objetivo de precio elevado para las acciones de la compañía respaldado por las proyecciones de crecimiento de su división en la nube.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15836,6 +15888,10 @@
           },
           {
             "fecha": "2026-08-24T10:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-24T11:00:00",
             "valor": 703.71
           }
         ],
@@ -19091,7 +19147,7 @@
       "noticias": [
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Los inversores que buscan aprovechar el crecimiento a largo plazo del índice S&P 500 deben considerar ciertos factores fundamentales para maximizar sus ganancias. Esta estrategia permite acumular rendimientos compuestos significativos a lo largo de los años si se gestiona adecuadamente.",
+          "extracto": "Los inversores deben considerar ciertos factores clave para maximizar los beneficios a largo plazo al invertir en el índice S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19100,7 +19156,7 @@
         },
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "El liderazgo financiero dentro de los principales fondos indexados ha experimentado modificaciones importantes recientemente, con una concentración notable del capital en solo cinco compañías. Esta situación demuestra cómo un pequeño grupo de empresas tecnológicas y de gran capitalización domina el valor total del mercado.",
+          "extracto": "Una cuarta parte del fondo cotizado más grande está concentrada en solo cinco empresas, tras importantes cambios de liderazgo en 2024.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19109,7 +19165,7 @@
         },
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "Uno de los fondos cotizados en bolsa más populares basados en el S&P 500 ha demostrado una capacidad sobresaliente para generar riqueza mediante el interés compuesto durante los últimos diez años. Este desempeño constante atrae de forma continua a inversores enfocados en la acumulación patrimonial a largo plazo.",
+          "extracto": "El fondo cotizado Vanguard S&P 500 ETF ha demostrado un crecimiento financiero constante y significativo durante los últimos diez años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19118,7 +19174,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "Una gestora de fondos ofrece dos productos financieros idénticos en su composición y dividendos, aunque los inversores suelen elegir la opción con comisiones más elevadas. Esta aparente contradicción en el comportamiento del mercado destaca la falta de atención a los costos operativos por parte de muchos ahorradores.",
+          "extracto": "Muchos inversores eligen un fondo de State Street que es notablemente más costoso, a pesar de tener idéntica composición y dividendos que otra opción.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19127,7 +19183,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "Una firma financiera modificó el nombre y el código de cotización de un fondo importante para asemejarlo al producto más reconocido del sector, lo que podría influir en las decisiones de millones de ahorradores. Esta estrategia comercial pone de relieve la importancia de revisar las tarifas al planificar inversiones para la jubilación.",
+          "extracto": "State Street modificó el nombre y el código de un fondo clave para asemejarlo al producto más famoso del mercado, lo que podría influir en millones de ahorradores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
