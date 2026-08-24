@@ -97,7 +97,7 @@ arriba a propósito, para no ampliarle el alcance a un token que ya escribe en e
 público), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de esos cuatro
 endpoints — no es autenticación real, es el candado mínimo para una app de un solo usuario).
 
-## Pendiente (al cerrar la sesión del 2026-08-20)
+## Pendiente (al cerrar la sesión del 2026-08-24)
 
 Todo lo de abajo ya está commiteado — lo que falta es deployar (si no corrió solo) y que
 José lo pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
@@ -116,9 +116,8 @@ aprobado para seguir sin que él confirme primero.
   `Radar.tsx`. Se agregó el mismo bloque de 3 líneas a `CardInversion.tsx` (visible apenas se
   abre la card, no hace falta entrar a "métricas avanzadas"), más una fila nueva "Deuda /
   patrimonio" dentro de "métricas avanzadas" (`metricas_avanzadas.deuda_patrimonio`, mismo
-  cálculo y misma excepción para bancos que ya usaba el Radar). Pendiente: que corra el
-  próximo cron horario para que `deuda_patrimonio` tenga dato real en `daily.json` — el resto
-  ya se ve apenas se despliegue.
+  cálculo y misma excepción para bancos que ya usaba el Radar). **Confirmado 2026-08-24:**
+  `deuda_patrimonio` ya viene con dato real en `daily.json`, así que esto quedó cerrado.
 
 - **Contexto de métricas — iteración 2 con Gemini (pendiente de decisión):** sigue sin
   empezar, sin cambios respecto a la sesión anterior. No armar hasta que José la pida
@@ -142,20 +141,43 @@ aprobado para seguir sin que él confirme primero.
   la primera vez el cron mensual o que se confirme que el archivo semilla alcanza mientras
   tanto.
 
-- **Histórico de precio a 10 años (pendiente de decisión, no empezado):** José preguntó si
-  vale la pena extender el rango "5A" de los gráficos a 10 años — sí tiene sentido (el 5A
-  actual se pierde el crash de COVID, no hay razón de teoría de inversión para limitarse a 5
-  años). Yahoo Finance soporta pedir 10 años directo, sin costo. El detalle real: `DIAS_MAX`
-  en `collector/historico.py` **descarta** todo lo más viejo que 5 años en cada corrida, así
-  que ya no queda el histórico viejo de los tickers actuales en `historico_precios.json` —
-  no alcanza con cambiar el número, hace falta un script de backfill aparte que le pida a
-  Yahoo los 10 años completos y los mezcle con lo que ya hay (cuidando no perder la
-  resolución horaria de los últimos 45 días). No empezar sin que José lo confirme.
+- **Histórico de precio a 10 años (hecho y commiteado 2026-08-24):** el gráfico tiene rango
+  "10A" además de "5A". `compactar()` en `collector/historico.py` pasó a tres tramos
+  (horario 45d / diario 2a / semanal 10a) en vez de dos: el gráfico ya dibujaba 5A con un
+  punto por semana, así que guardar 250 puntos por año para dibujar 52 era peso puro — con
+  la escalera nueva el archivo queda en ~1.270 puntos por ticker, casi lo mismo que ocupaban
+  5 años diarios, con el doble de historia. `collector/backfill_10a.py` es el script de una
+  sola vez que le vuelve a pedir los 10 años a Yahoo (no está en ningún workflow a
+  propósito): ya se corrió sobre los 83 tickers y respondieron los 83. Ante choque de
+  timestamp **gana lo ya guardado**, para no pisar la resolución horaria propia del cron con
+  el cierre ajustado de Yahoo; se verificó que ningún ticker perdió puntos de los últimos 45
+  días. EA, LTM y RBLX no llegan a 10 años porque cotizan desde después de 2016 — no es un
+  bug. Pendiente: que corra el próximo cron para que `serie_precio` en `daily.json` traiga la
+  clave `10A` (hasta entonces el botón "10A" del gráfico no dibuja nada), y que José lo mire.
 
-- **Semáforo de recomendación de compra (verde→rojo):** sin cambios respecto a la sesión
-  anterior — José lo propuso, choca con la regla dura del Radar, se ofreció el contexto de
-  métricas como alternativa y lo aceptó por ahora, pero no cerró la puerta del todo. Mismo
-  protocolo si lo vuelve a pedir: señalar el choque, preguntar, documentar acá si dice que sí.
+- **Señal verde/ámbar/rojo por métrica (hecho y commiteado 2026-08-24):** la versión acotada
+  del semáforo que José pidió — "no explícitamente COMPRA, sino buen X / mal X en datos
+  específicos". Cada lectura de `referenciasMetricas.ts` devuelve ahora `{texto, nivel}` y
+  `SenalMetrica.tsx` la pinta como punto de color en Radar, `CardInversion` y
+  `MetricasAvanzadas`. **Es por métrica y nada más:** no se suman los niveles ni se deriva de
+  ellos un veredicto agregado tipo "7 de 10" — eso choca con la regla dura del Radar y es
+  otra decisión, hay que preguntarle antes. `neutro` no pinta color (el color es solo señal, y
+  "está en el rango normal" es la ausencia de una). Ámbar vs. rojo: valoración cara, deuda
+  alta o volatilidad son ámbar (elecciones de perfil, no defectos del negocio); rojo solo para
+  "pierde plata o se está encogiendo". De paso se arregló un bug de `banda()`: cuando ningún
+  tramo cubría el valor devolvía el tramo más bajo, así que MCD con deuda/patrimonio −38,97
+  salía como "deuda baja". Pendiente: que José lo vea desplegado y diga si los umbrales le
+  hacen sentido.
+
+- **Atajo "Actualidad" del nav, solo en mobile (hecho y commiteado 2026-08-24):** desde
+  960px Actualidad ya es la columna izquierda sticky de la vista "Hoy", así que el botón del
+  nav no llevaba a ningún lado que no se viera ya. En mobile sigue.
+
+- **Semáforo de recomendación de compra (verde→rojo):** parcialmente resuelto por la señal
+  por métrica de arriba, que es hasta dónde llega sin chocar con la regla dura del Radar. Lo
+  que sigue prohibido sin preguntarle primero es el paso siguiente: sumar esas señales en un
+  puntaje o veredicto único por ticker. Mismo protocolo si lo vuelve a pedir: señalar el
+  choque, preguntar, documentar acá si dice que sí.
 
 - **Buscador de data avanzada para cualquier ticker:** sin cambios, sigue sin empezar.
   Conversarlo con calma antes de picar código.
