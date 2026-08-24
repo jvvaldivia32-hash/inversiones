@@ -1,74 +1,35 @@
 {
-  "generado": "2026-08-24T02:19:47.649254+00:00",
-  "errores": [],
+  "generado": "2026-08-24T03:48:18.229017+00:00",
+  "errores": [
+    "Reuters: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Evolución del mercado de valores y ofertas públicas de venta",
-        "resumen": "Los mercados financieros se preparan para una ola masiva de actividad bursátil impulsada por las próximas salidas a bolsa de importantes compañías tecnológicas. Paralelamente, un tribunal turco ordenó la destitución de la cúpula directiva del principal partido opositor del país. Estas acciones ocurren en un contexto de creciente consolidación de poder político por parte del liderazgo nacional.",
-        "articulos": [
-          {
-            "titular": "Fast fashion giant Shein valued at up to $27 billion in Hong Kong IPO - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTVYVnd5QjJpb1dJZXZhOVFLbjJfbFZRa3Y4YkpSMmJ3WjZfbE15VFB5THdHbEdSVkdsQjlGSFJwSjcyNjQ2M2U2bGNjYmdOc1hzWVA0bTdsdzlnQWo5YVNONkU5aENDQ0xvMWRyQkxxQVowZFp4TlFicnNzc1Vad1hqQ3VRdFZ6SDdkNUlFZjZzOW5XQkt1ZG12QjB3bHRERnY2UXFn?oc=5",
-            "fecha": "2026-08-23T22:25:00+00:00"
-          },
-          {
-            "titular": "Anthropic’s anticipated $2tn IPO",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
-            "fecha": "2026-08-13T04:00:00+00:00"
-          },
-          {
-            "titular": "Blockbuster IPOs to take Wall Street by storm",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/blockbuster-ipos-to-take-wall-street-by-storm",
-            "fecha": "2026-05-22T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Europe EV market share tops 25% in July as France, Germany drive growth - Reuters",
+        "titulo_neutral": "Shein aims for almost $27bn valuation in stock market debut",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Europe EV market share tops 25% in July as France, Germany drive growth - Reuters",
+            "titular": "Shein aims for almost $27bn valuation in stock market debut",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "BBC",
+            "grupo": "BBC",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONDBHVU1CRk11cEJVVlNPQS03dldaSzZGLVpBNGh3blkxTmJUZkw0WTRpSjAyY1pxTWh3THJKTFlyMUFJQVVqUlVzV0dVMWtuTXpoOUFicGgyR2tKalN6T05Na0RsWHM3Vi1pRkUzbnJYRkRFVVdaS09pMkxwN0pXazI2YXYwM2RoMWU4cVRxa2IzTzhDazJvMVp3WmJieFlfYy1vZWh3SE8tN1ZYdy16UDFoVWM3RTNkb2t2amo0YUhUZGlXWHgwSQ?oc=5",
-            "fecha": "2026-08-23T22:06:12+00:00"
+            "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-24T02:05:04+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "BBC"
         ],
         "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-        "resumen": "El primer ministro canadiense anunció con reticencia la implementación de aranceles de represalia frente a las medidas comerciales adoptadas por el país vecino. Durante su declaración, responsabilizó directamente a la administración estadounidense de dar inicio a una confrontación arancelaria internacional. Esta decisión marca un nuevo punto de fricción en las relaciones económicas bilaterales de América del Norte.",
+        "resumen": "El primer ministro de Canadá anunció aranceles de represalia y culpó a Estados Unidos de iniciar un conflicto comercial. Esta medida profundiza las tensiones bilaterales en materia de comercio exterior y aranceles industriales. Los analistas advierten sobre las posibles consecuencias negativas para ambas economías norteamericanas.",
         "articulos": [
           {
             "titular": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
@@ -89,62 +50,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Germany's AfD eyes Saxony-Anhalt win as first step toward federal power - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Germany's AfD eyes Saxony-Anhalt win as first step toward federal power - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1QwRkhISG1DMjBJZGtwSFpwNmZ3NEw3MWVKbkZLc1BITXNvSE9EaTVrR19vdU0yclExWUZPX2tfX0t4R0NaaTBaN3hiQkFBbWcyNm9RSWhTVGk5MThkZGFvWlNMLWI5a19oQXRwMWpOVE9jMGZMWmlnRmtlajlhczFyQUdOMmpkZS1BU1Z0TFZ6MGItNXFrMHhDcFRiWkZ5YjZNT2VzMm1wYTFKcmc?oc=5",
-            "fecha": "2026-08-23T16:43:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Fluctuaciones en el mercado petrolero y su impacto financiero",
-        "resumen": "La tregua negociada en Oriente Medio atraviesa momentos de tensión debido a recientes operaciones militares y ataques contra infraestructura energética clave en la región. Como consecuencia de esta inestabilidad, los precios del petróleo han experimentado fluctuaciones significativas que preocupan a los mercados internacionales. En este escenario, Pakistán ha asumido un rol diplomático intermedio para facilitar el diálogo entre Washington y Teherán.",
-        "articulos": [
-          {
-            "titular": "Gulf markets rise as oil gains lift sentiment - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUctUXh6RjdKQkdiR0xZYTBaX0QwbXNLMUJ0NjNLX21UczhJUFozTDFWMzdkQlJaSnRuVTBFWDdLOG5nUTdHa2JXV3JLVW1oVld0MG9nUWFpRWlEUHJBWXpJLWVGQkx6YkgteHZMVVp0VHlJM0ZEU0xmcUE3dUVBMEJfc3VyMWJ4ekxwZF9XdUx3LUJ5YV9MTTN6NE0?oc=5",
-            "fecha": "2026-08-23T13:13:45+00:00"
-          },
-          {
-            "titular": "The oil market navigates a shaky ceasefire",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/the-oil-market-navigates-a-shaky-ceasefire",
-            "fecha": "2026-04-09T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Decisiones y expectativas sobre las tasas de interés de la Reserva Federal",
-        "resumen": "Varias grandes empresas tecnológicas publicaron sus informes financieros trimestrales en medio de crecientes dudas de los mercados sobre el volumen de gastos destinados a la inteligencia artificial. Mientras tanto, el banco central de Estados Unidos decidió mantener sin cambios sus tasas de interés actuales. Por su parte, la banca central japonesa también se prepara para conservar su política monetaria sin modificaciones, y las corporaciones petroleras británicas buscan oportunidades de inversión fuera del Mar del Norte.",
+        "titulo_neutral": "US Treasury tries to soothe the bond market",
+        "resumen": "Los títulos de una importante farmacéutica repuntaron con fuerza tras conocerse los avances positivos en un ensayo médico experimental. Paralelamente, las autoridades financieras estadounidenses anunciaron planes para incrementar significativamente la recompra de deuda soberana a largo plazo. En el sector legal, los principales bufetes enfrentan críticas por acelerar excesivamente los procesos de contratación de estudiantes universitarios.",
         "articulos": [
           {
             "titular": "US Treasury tries to soothe the bond market",
@@ -154,7 +61,42 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
             "fecha": "2026-08-20T04:00:00+00:00"
-          },
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
+        "resumen": "Inversores de una conocida empresa de inteligencia artificial prevén una valoración histórica ante una posible salida a bolsa. Al mismo tiempo, la inflación en Estados Unidos experimentó una ligera moderación impulsada por la caída en los costes de los combustibles. En el ámbito internacional, los consumidores iraníes recurren cada vez más a modalidades de financiación aplazada para afrontar la crisis.",
+        "articulos": [
+          {
+            "titular": "Anthropic’s anticipated $2tn IPO",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
+            "fecha": "2026-08-13T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "La Reserva Federal toma decisiones sobre los tipos de interés",
+        "resumen": "Grandes empresas tecnológicas presentaron sus informes financieros recientes mientras los mercados observan de cerca las inversiones en inteligencia artificial. Por su parte, la Reserva Federal de Estados Unidos decidió mantener los tipos de interés estables en medio de preocupaciones inflacionarias persistentes. Estas medidas reflejan la cautela de los bancos centrales ante un entorno macroeconómico global marcado por tensiones geopolíticas y energéticas.",
+        "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
             "extracto": "",
@@ -172,24 +114,6 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
             "fecha": "2026-07-27T04:00:00+00:00"
-          },
-          {
-            "titular": "Federal Reserve gears up for change",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
-            "fecha": "2026-06-18T04:00:00+00:00"
-          },
-          {
-            "titular": "War, inflation and how central banks are handling it all",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/war-inflation-and-how-central-banks-are-handling-it-all",
-            "fecha": "2026-05-01T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -202,7 +126,7 @@
       },
       {
         "titulo_neutral": "Germany’s twin crises: football and the economy",
-        "resumen": "La economía estadounidense reportó un crecimiento en la creación de empleo inferior a las previsiones de los analistas financieros durante el mes de junio. En Corea del Oriente, los beneficios obtenidos en el mercado tecnológico se están canalizando hacia un sector inmobiliario altamente inflado. Además, los inversores de Blue Owl Capital intentaron retirar miles de millones de dólares de sus fondos de crédito privado, reflejando una persistente salida de capitales.",
+        "resumen": "El crecimiento del empleo en Estados Unidos quedó por debajo de las previsiones de los analistas durante el último periodo. En Corea del Oriente, los beneficios obtenidos en el sector tecnológico se están canalizando hacia un mercado inmobiliario sobrecalentado. Por otro lado, grandes fondos de inversión en crédito privado han recibido solicitudes masivas de reembolso por parte de los inversores.",
         "articulos": [
           {
             "titular": "Germany’s twin crises: football and the economy",
@@ -223,8 +147,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Audiencias de confirmación y liderazgo en la Reserva Federal",
-        "resumen": "El máximo tribunal estadounidense impidió al presidente Donald Trump destituir a una alta funcionaria de la Reserva Federal. En paralelo, los inversores comenzaron a retirar capitales de las siete gigantescas empresas tecnológicas de Wall Street. Asimismo, creció la inquietud entre el empresariado extranjero ante el riesgo de que la administración nipona abandone sus recientes iniciativas de reforma corporativa.",
+        "titulo_neutral": "Audiencias de confirmación y cambios en la presidencia de la Reserva Federal",
+        "resumen": "El Tribunal Supremo de Estados Unidos frenó un intento del presidente Donald Trump para destituir a un alto cargo de la Reserva Federal. En los mercados financieros, los inversores retiraron capitales de las grandes empresas tecnológicas tras un periodo de valoraciones récord. Mientras tanto, crecen las dudas internacionales respecto a la continuidad de las políticas de reforma corporativa en Japón.",
         "articulos": [
           {
             "titular": "US Supreme Court blocks firing of Fed governor",
@@ -234,6 +158,15 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-supreme-court-blocks-firing-of-fed-governor",
             "fecha": "2026-06-30T04:00:00+00:00"
+          },
+          {
+            "titular": "Federal Reserve gears up for change",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
+            "fecha": "2026-06-18T04:00:00+00:00"
           },
           {
             "titular": "Senior Republican clears path for next Fed chair",
@@ -261,20 +194,42 @@
           "Financial Times"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "European defence stocks face uncertainty",
+        "resumen": "Una destacada empresa de inteligencia artificial denunció accesos no autorizados a sus modelos tecnológicos avanzados por parte de firmas extranjeras. Asimismo, los planes de grandes corporaciones tecnológicas para automatizar la moderación de contenidos generan nuevos debates sobre el uso de la inteligencia artificial. En el ámbito europeo, los cambios políticos en materia de defensa nacional están afectando al sector industrial.",
+        "articulos": [
+          {
+            "titular": "European defence stocks face uncertainty",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/european-defence-stocks-face-uncertainty",
+            "fecha": "2026-06-25T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Encuesta Cadem sobre Estado de Excepción",
+        "titulo_neutral": "Cadem: Solo un 10% piensa que el gobierno debe mantener proyecto de seguridad tal como está (Lea encuesta completa)",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Cadem: 49% en desacuerdo con nuevo Estado de Excepción y 44% la respalda (Lea aquí la encuesta)",
+            "titular": "Cadem: Solo un 10% piensa que el gobierno debe mantener proyecto de seguridad tal como está (Lea encuesta completa)",
             "extracto": "",
             "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/cadem-49-desacuerdo-nuevo-estado-excepcion/",
+            "url": "https://www.ex-ante.cl/nacional/cadem-10-piensa-gobierno-mantenga-proyecto/",
             "fecha": "2026-08-24T02:13:11+00:00"
           }
         ],
@@ -287,8 +242,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de Fernando Barros sobre el gobierno",
-        "resumen": "El ministro de Defensa ha generado debate tras cuestionar los aranceles de Estados Unidos y rechazar el cobro de IVA a los casinos en línea. Asimismo, propuso la salida de Chile del Convenio 169 de la Organización Internacional del Trabajo. Estas declaraciones han marcado su llegada al cargo y reflejan su postura en temas económicos y políticos.",
+        "titulo_neutral": "Fernando Barros: “A los tres meses ya la gente se siente decepcionada, ¿con qué derecho?”",
+        "resumen": "El ministro de Defensa generó controversia al criticar los tributos a plataformas de apuestas digitales y cuestionar la vigencia de un tratado internacional sobre pueblos originarios. Asimismo, ratificó su postura crítica frente a las decisiones comerciales adoptadas por Estados Unidos.",
         "articulos": [
           {
             "titular": "Fernando Barros: “A los tres meses ya la gente se siente decepcionada, ¿con qué derecho?”",
@@ -309,8 +264,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Situación de los estudios de abogados en Chile",
-        "resumen": "El sector legal en Chile ha experimentado numerosas fusiones, divisiones y salidas de socios en el último año. Los expertos señalan que esta tendencia responde a la concentración de la demanda en las firmas más grandes y las boutiques especializadas. Como resultado, las oficinas de tamaño mediano enfrentan dificultades significativas para mantener su crecimiento.",
+        "titulo_neutral": "La \"tormenta perfecta\" que enfrentan los estudios de abogados en Chile",
+        "resumen": "El sector de asesoría jurídica en Chile experimenta un proceso de transformación marcado por la concentración de mercado. Mientras los grandes bufetes y firmas especializadas acaparan la mayor parte de las transacciones, las oficinas de mediana escala enfrentan serias dificultades para sostener su expansión.",
         "articulos": [
           {
             "titular": "La \"tormenta perfecta\" que enfrentan los estudios de abogados en Chile",
@@ -331,7 +286,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Inauguración de local de Starbucks en Santiago",
+        "titulo_neutral": "El local más opulento de Starbucks en América Latina abrió en el centro de Santiago (y ya está lleno)",
         "resumen": "",
         "articulos": [
           {
@@ -353,8 +308,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Expansión del modelo de salud de la isapre del Grupo Alemana",
-        "resumen": "El nuevo gerente general de la empresa Esencial afirmó que la reciente ley corta representa una oportunidad inigualable para transformar los mecanismos de financiamiento de la industria. Según el ejecutivo, esta normativa abre un espacio clave para modernizar el sector y superar los desafíos económicos actuales.",
+        "titulo_neutral": "La isapre del Grupo Alemana se lanza a masificar su modelo de salud",
+        "resumen": "El máximo ejecutivo de la aseguradora Esencial señaló que la reciente normativa sectorial abre un escenario propicio para modificar los mecanismos de financiamiento sanitario. A su juicio, esto representa una oportunidad inédita para modernizar el modelo de la industria.",
         "articulos": [
           {
             "titular": "La isapre del Grupo Alemana se lanza a masificar su modelo de salud",
@@ -375,8 +330,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Realización del evento Mercado de Colores en el Barrio Yungay",
-        "resumen": "La comuna de Santiago fue sede de la cuarta edición del evento cultural y comercial Mercado de Colores, que reunió a un centenar de expositores y decenas de emprendimientos locales. La iniciativa, de acceso gratuito, buscó dinamizar la economía de barrio y enriquecer la oferta artística del sector.",
+        "titulo_neutral": "“Mercado de Colores” reunió este sábado a más de 100 expositores y 70 emprendimientos en el Barrio Yungay",
+        "resumen": "Con apoyo de diversas instituciones públicas y gremiales, se llevó a cabo una nueva edición de un evento comercial y cultural en un tradicional sector de la capital. La actividad congregó a un centenar de participantes con el propósito de impulsar la economía de proximidad.",
         "articulos": [
           {
             "titular": "“Mercado de Colores” reunió este sábado a más de 100 expositores y 70 emprendimientos en el Barrio Yungay",
@@ -397,8 +352,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Críticas a Donald Trump por la guerra comercial con Canadá",
-        "resumen": "El fracaso en las negociaciones políticas incrementa el riesgo de un nuevo repunte en el costo de vida a pocos meses de las elecciones de medio término. En este contexto, el líder del Ejecutivo advirtió que la profundización del conflicto arancelario por parte de la administración estadounidense fue una decisión equivocada.",
+        "titulo_neutral": "Declaraciones de Mark Carney sobre la guerra comercial entre Canadá y Estados Unidos",
+        "resumen": "La falta de acuerdos comerciales podría generar un incremento en el costo de vida poco antes de los comicios legislativos. Un alto funcionario responsabilizó directamente a la administración estadounidense por profundizar la disputa arancelaria.",
         "articulos": [
           {
             "titular": "Acusan a Trump de arriesgar más sufrimiento para los estadounidenses con la guerra comercial con Canadá",
@@ -428,8 +383,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultado del partido de Colo Colo en el Superclásico",
-        "resumen": "En una nueva edición del Superclásico del fútbol chileno, el equipo visitante venció por dos goles a uno en el Estadio Nacional. Con este resultado, el club vencedor consolida su ventaja en la parte alta de la tabla de posiciones del torneo de Primera División.",
+        "titulo_neutral": "Colo Colo gana 2-1 el Superclásico 200 y estira su ventaja en la cima de la liga de Primera",
+        "resumen": "En una nueva edición del clásico del fútbol nacional, el conjunto visitante se impuso por la cuenta mínima tras un disputado encuentro en el estadio principal. Con este resultado, el equipo ganador consolida su liderazgo en la parte alta de la tabla de posiciones.",
         "articulos": [
           {
             "titular": "Colo Colo gana 2-1 el Superclásico 200 y estira su ventaja en la cima de la liga de Primera",
@@ -452,34 +407,34 @@
     ],
     "actualidad": [
       {
+        "titular": "Nearly 3 million Teslas recalled in China over hidden door handles",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-24T03:27:11+00:00"
+      },
+      {
+        "titular": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss",
+        "fecha": "2026-08-24T02:55:39+00:00"
+      },
+      {
+        "titular": "Can Kenya’s AI ambitions coexist with Naivasha’s water needs?",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2026/8/24/can-kenyas-ai-ambitions-coexist-with-naivashas-water-needs?traffic_source=rss",
+        "fecha": "2026-08-24T02:09:40+00:00"
+      },
+      {
+        "titular": "Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/24/ebola-cases-in-drc-top-5515-as-pope-leo-urges-global-action-to-save-lives?traffic_source=rss",
+        "fecha": "2026-08-24T02:02:28+00:00"
+      },
+      {
         "titular": "India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi",
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/india-crushes-cockroach-dissent-as-fix-schools-campaign-riles-modi?traffic_source=rss",
         "fecha": "2026-08-24T01:51:40+00:00"
-      },
-      {
-        "titular": "(SLYV.N) | Stock Price & Latest News - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QeFN3TkQyS0tLbDMydG9mNlNJVllRVzlndm5FTjdQMk9jdHhlOE5ITm5kc0JrWDhmV0Y0UzlPcWlnWldvNGpJNm8xN3RLclBkZ0ZSak5xUURzeTg3bUotOW5mQQ?oc=5",
-        "fecha": "2026-08-24T01:02:17+00:00"
-      },
-      {
-        "titular": "(SEPQ.OQ) | Stock Price & Latest News - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmckp2Y1VZcXpBeEl2NTdwc3kxZWw5VlFvNHNXdllMekJHMlhKZFU3X3NHNVp4aGI1bTFUQVlNSlN6VnFXWHhfQTJqdDNzbTVldy1oc3NGSDdxbEsxdEVRWTZyV1FjYlkxejVqSGhB?oc=5",
-        "fecha": "2026-08-24T00:59:21+00:00"
-      },
-      {
-        "titular": "Shares flat in Asia before Iran sanctions news, Nvidia results - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
-        "fecha": "2026-08-24T00:49:00+00:00"
-      },
-      {
-        "titular": "Australian shark attack victim grateful for 'second chance at life'",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-24T00:34:59+00:00"
       }
     ]
   },
@@ -1593,6 +1548,10 @@
           },
           {
             "fecha": "2026-08-24T02:00:00",
+            "valor": 495.82
+          },
+          {
+            "fecha": "2026-08-24T03:00:00",
             "valor": 495.82
           }
         ],
@@ -4848,7 +4807,7 @@
       "noticias": [
         {
           "titular": "Greg Abel Just Spent $23.5 Billion on 9 Stocks for Berkshire Hathaway. Here's the Best of the Bunch.",
-          "extracto": "Berkshire Hathaway volvió a ser un comprador neto de acciones, marcando un cambio de tendencia que no se veía desde 2022. Este movimiento refleja una renovada confianza en el mercado bursátil por parte del conglomerado.",
+          "extracto": "Por primera vez desde 2022, el conglomerado Berkshire Hathaway adquirió más acciones de las que vendió en el mercado. Este cambio en su estrategia inversora refleja una nueva perspectiva sobre las oportunidades bursátiles actuales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4857,7 +4816,7 @@
         },
         {
           "titular": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con los recursos financieros necesarios para realizar transacciones de gran envergadura. Su primera operación ofrece indicios sobre la estrategia que planea seguir en futuras adquisiciones corporativas.",
+          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway cuenta con los recursos financieros necesarios para realizar transacciones de gran envergadura. Su primera operación ofrece indicios claros sobre cuál será su metodología en futuras adquisiciones empresariales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4866,7 +4825,7 @@
         },
         {
           "titular": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
-          "extracto": "Las cuentas asociadas al presidente Trump realizaron más de un millar de operaciones bursátiles en un mes, incluyendo transacciones sospechosamente cercanas a acuerdos geopolíticos. Ante esta situación, el Congreso aprobó una normativa correctiva que excluye deliberadamente al mandatario.",
+          "extracto": "Una revelación financiera indicó que cuentas vinculadas al presidente Trump realizaron más de un millar de operaciones bursátiles en un mes, coincidiendo una de ellas con un acuerdo geopolítico. A raíz de esto, el poder legislativo aprobó una normativa que excluye al mandatario de dichas restricciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4875,7 +4834,7 @@
         },
         {
           "titular": "Does Greg Abel Know Something Wall Street Doesn't? New Berkshire Hathaway CEO Doubles Down On a Legacy Department Store Stock With a 3.3% Dividend Yield",
-          "extracto": "Abel ha estado incrementando la participación de Berkshire en una empresa de mediana capitalización que suele recibir menor atención mediática. Esta inversión apunta a diversificar la cartera hacia activos menos tradicionales para el conglomerado.",
+          "extracto": "Greg Abel ha estado incrementando la participación de Berkshire en una empresa mediana que suele recibir menor atención mediática. Esta maniobra demuestra su interés en diversificar la cartera hacia segmentos menos convencionales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -4884,7 +4843,7 @@
         },
         {
           "titular": "Trump’s Stock Disclosure Shows More Than 1,000 Trades in June",
-          "extracto": "Una declaración financiera divulgada recientemente revela que el presidente Donald Trump ejecutó más de un millar de transacciones de valores en junio. Entre las adquisiciones destacan importantes participaciones en reconocidas corporaciones como Berkshire Hathaway, Visa, Mastercard y Cintas.",
+          "extracto": "Un informe financiero difundido recientemente reveló que el presidente Donald Trump efectuó más de mil transacciones de valores durante el mes de junio. Entre las inversiones destacaron compras considerables de acciones en corporaciones reconocidas como Berkshire Hathaway, Visa, Mastercard y Cintas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6188,6 +6147,10 @@
           },
           {
             "fecha": "2026-08-24T02:00:00",
+            "valor": 270.95
+          },
+          {
+            "fecha": "2026-08-24T03:00:00",
             "valor": 270.95
           }
         ],
@@ -9443,7 +9406,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-          "extracto": "La introducción de bebidas energéticas por parte de McDonald's podría impulsar las acciones de la compañía tras registrar una caída anual cercana al 11%. Esta nueva oferta de bebidas representa un catalizador financiero clave para revertir el rendimiento negativo reciente de la empresa.",
+          "extracto": "La introducción de una nueva bebida energética podría impulsar las acciones de McDonald's tras registrar una caída anual cercana al 11%. Este nuevo producto representa una oportunidad clave para revitalizar el valor bursátil de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9452,7 +9415,7 @@
         },
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "El comportamiento bursátil actual de ciertas cadenas de restaurantes contradice las expectativas económicas tradicionales de los consumidores. Mientras una empresa mantiene valoraciones extremadamente altas, otra registra pérdidas de dos dígitos en lo que va del año.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9461,7 +9424,7 @@
         },
         {
           "titular": "The Zacks Analyst Blog Highlights McDonald's, Starbucks and Yum! Brands",
-          "extracto": "Las corporaciones McDonald's, Starbucks y Yum! Brands figuran en un análisis reciente del mercado bursátil. Este reporte examina el desempeño financiero y las perspectivas de inversión de estas reconocidas cadenas de comida rápida.",
+          "extracto": "Las corporaciones McDonald's, Starbucks y Yum! Brands fueron mencionadas en un reciente análisis de mercado. El informe evalúa el desempeño financiero y bursátil de estas importantes cadenas de comida rápida.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9470,7 +9433,7 @@
         },
         {
           "titular": "What Could Power The Next Rally In McDonald's Stock",
-          "extracto": "La expansión de una nueva plataforma de bebidas de McDonald's ha superado las expectativas en todos los mercados donde se ha implementado. Este éxito comercial proporciona a los inversionistas una señal clara de recuperación frente al estancamiento bursátil previo de la marca.",
+          "extracto": "El éxito inicial de una nueva plataforma de bebidas en todos sus mercados actuales ofrece a McDonald's una vía concreta para superar un período previo de bajo rendimiento financiero. Esto podría mejorar significativamente la perspectiva de sus inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -9479,7 +9442,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "A pesar de la presión política para eliminar los programas de diversidad, equidad e inclusión (DEI) en el sector corporativo, estudios recientes revelan que las empresas que mantuvieron estas políticas no sufrieron pérdidas financieras. Los datos desafían la premisa de que implementar dichas iniciativas perjudica la rentabilidad empresarial.",
+          "extracto": "Estudios recientes contradicen la advertencia de que abandonar las iniciativas de diversidad perjudica económicamente a las empresas. Los datos muestran que aquellas organizaciones que mantuvieron estas políticas no sufrieron las consecuencias negativas pronosticadas por sectores conservadores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -10946,6 +10909,10 @@
           },
           {
             "fecha": "2026-08-24T02:00:00",
+            "valor": 483.24
+          },
+          {
+            "fecha": "2026-08-24T03:00:00",
             "valor": 483.24
           }
         ],
@@ -14201,7 +14168,7 @@
       "noticias": [
         {
           "titular": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
-          "extracto": "Microsoft distribuyó casi 7.000 millones de dólares a sus accionistas en un solo día, mientras mantiene un ritmo de inversión sin precedentes en inteligencia artificial. Analistas e inversores evalúan la sostenibilidad de estos dividendos frente al elevado gasto de capital de la compañía.",
+          "extracto": "Microsoft distribuyó miles de millones de dólares a sus accionistas mientras mantiene inversiones masivas en inteligencia artificial. Analistas financieros evalúan la sostenibilidad de estos dividendos frente al elevado gasto de capital de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14210,7 +14177,7 @@
         },
         {
           "titular": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-          "extracto": "La compañía tecnológica debe cumplir con una nueva normativa australiana que exige pagos a los medios locales por la difusión de noticias, lo que impacta directamente en la plataforma LinkedIn. Paralelamente, la empresa avanza en su negocio publicitario mediante herramientas automatizadas de inteligencia artificial y afianza acuerdos comerciales con grandes clientes del sector.",
+          "extracto": "Microsoft debe cumplir con una nueva legislación en Australia que obliga a las grandes plataformas digitales a compensar a los medios locales por su contenido periodístico. Paralelamente, la empresa avanza en acuerdos comerciales y herramientas de publicidad basadas en inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14228,7 +14195,7 @@
         },
         {
           "titular": "4 Low-Cost ETFs Every Investor Should Own",
-          "extracto": "Una estrategia de inversión basada en cuatro fondos permite diversificar el capital en todo el mercado estadounidense con costos operativos mínimos. La clave de este enfoque radica en la selección adecuada de los instrumentos financieros y en la interacción conjunta de la cartera.",
+          "extracto": "Una estrategia de inversión compuesta por cuatro fondos seleccionados permite cubrir el mercado estadounidense de manera eficiente y con costos mínimos. La clave de este enfoque radica en la complementación de los activos elegidos más que en el rendimiento individual de cada uno.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14237,7 +14204,7 @@
         },
         {
           "titular": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
-          "extracto": "Un análisis reciente de la firma Rosenblatt destaca que el papel de Amazon en el sector de la inteligencia artificial está subestimado en el mercado actual. La entidad financiera fijó un precio objetivo ambicioso para las acciones, respaldado por las proyecciones de fuerte expansión de su división de servicios en la nube.",
+          "extracto": "Una firma de análisis financiero inició la cobertura de Amazon con una perspectiva muy favorable sobre su división de inteligencia artificial y la nube. El informe proyecta un crecimiento acelerado para AWS hacia el año 2026.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15764,6 +15731,10 @@
           },
           {
             "fecha": "2026-08-24T02:00:00",
+            "valor": 703.71
+          },
+          {
+            "fecha": "2026-08-24T03:00:00",
             "valor": 703.71
           }
         ],
@@ -19019,7 +18990,7 @@
       "noticias": [
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Los inversores que buscan aprovechar el crecimiento acumulativo del índice S&P 500 deben considerar ciertos factores esenciales. Esto ayuda a optimizar las decisiones financieras a largo plazo en el mercado de valores.",
+          "extracto": "Los inversores deben considerar ciertos aspectos fundamentales para maximizar el rendimiento a largo plazo al invertir en el índice S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19028,7 +18999,7 @@
         },
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "La jerarquía entre los principales fondos cotizados ha experimentado modificaciones notables, con una gran parte del valor concentrada en apenas un puñado de corporaciones. Dicha concentración influye directamente en el comportamiento general de estas carteras.",
+          "extracto": "El liderazgo dentro de los principales fondos indexados ha experimentado cambios notables recientemente, con una concentración significativa del capital en apenas un puñado de grandes empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19037,7 +19008,7 @@
         },
         {
           "titular": "1 Unstoppable Vanguard ETF I Wish I'd Bought 10 Years Ago",
-          "extracto": "Un conocido fondo vinculado al S&P 500 administrado por Vanguard ha mostrado un rendimiento financiero sobresaliente durante la última década. Este crecimiento sostenido atrae constantemente el interés de quienes buscan rentabilidad a largo plazo.",
+          "extracto": "Un fondo cotizado en bolsa que replica el S&P 500 gestionado por Vanguard ha demostrado un crecimiento financiero sólido y constante a lo largo de los últimos diez años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19046,7 +19017,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "State Street opera dos fondos idénticos en su composición y dividendos, pero la mayoría del capital se concentra sorprendentemente en la opción más cara. Esta tendencia demuestra que muchos ahorradores no siempre eligen la alternativa más económica.",
+          "extracto": "Una gestora ofrece dos fondos idénticos que replican el mismo índice con las mismas condiciones, pero una gran parte del capital de los ahorradores se concentra curiosamente en la opción con comisiones más altas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19055,7 +19026,7 @@
         },
         {
           "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "Una gestora modificó el nombre y el código de cotización de un fondo para asemejarlo al producto más famoso del sector. Este cambio de estrategia podría transformar la manera en que los ahorradores para el retiro seleccionan sus inversiones pasivas.",
+          "extracto": "La modificación en la denominación y nomenclatura de un fondo de inversión por parte de una gestora podría transformar la manera en que los pequeños ahorradores evalúan los costes en la inversión indexada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
