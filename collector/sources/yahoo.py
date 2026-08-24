@@ -20,10 +20,12 @@ def _rango_para(dias: int) -> str:
         return "6mo"
     if dias <= 365:
         return "1y"
-    return "5y"
+    if dias <= 1825:
+        return "5y"
+    return "10y"
 
 
-def descargar_historico(ticker: str, dias: int = 1825) -> list[dict]:
+def descargar_historico(ticker: str, dias: int = 3650) -> list[dict]:
     """Histórico diario de cierre vía el endpoint no oficial de gráficos de Yahoo Finance
     — la misma fuente que usa la librería yfinance. Sin key, sin registro. Se usa **solo**
     para sembrar un ticker que todavía no tiene ninguna entrada en historico_precios.json;

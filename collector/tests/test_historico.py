@@ -56,6 +56,54 @@ def test_compactar_mantiene_resolucion_horaria_reciente():
     assert len(h["MSFT"]) == 2
 
 
+def test_compactar_colapsa_a_semanal_mas_alla_de_dias_diarios():
+    """Tramo nuevo (2026-08-21): pasados ~2 años se guarda un punto por semana, no uno por
+    día. Cinco días hábiles de la misma semana ISO tienen que quedar en uno solo."""
+    ahora = datetime.datetime(2026, 8, 11, 12, 0)
+    lunes_viejo = ahora - datetime.timedelta(days=historico.DIAS_DIARIOS + 100)
+    while lunes_viejo.weekday() != 0:
+        lunes_viejo += datetime.timedelta(days=1)
+    h = {
+        "MSFT": [
+            {"ts": (lunes_viejo + datetime.timedelta(days=d)).isoformat(), "valor": 100.0 + d}
+            for d in range(5)
+        ]
+    }
+    historico.compactar(h, ahora)
+    assert len(h["MSFT"]) == 1
+    assert h["MSFT"][0]["valor"] == 104.0  # el último de la semana, igual que el tramo diario
+
+
+def test_compactar_no_toca_lo_diario_dentro_de_dias_diarios():
+    """El corte semanal no puede comerse el tramo diario: dos días distintos a un año de
+    distancia siguen siendo dos puntos."""
+    ahora = datetime.datetime(2026, 8, 11, 12, 0)
+    hace_un_anio = ahora - datetime.timedelta(days=365)
+    h = {
+        "MSFT": [
+            {"ts": hace_un_anio.isoformat(), "valor": 100.0},
+            {"ts": (hace_un_anio + datetime.timedelta(days=1)).isoformat(), "valor": 101.0},
+        ]
+    }
+    historico.compactar(h, ahora)
+    assert len(h["MSFT"]) == 2
+
+
+def test_compactar_deja_la_serie_ordenada_entre_tramos():
+    """Los tres tramos se concatenan semanal + diario + horario; si alguno quedara fuera de
+    orden, derivar_rangos y el gráfico dibujarían la línea saltando para atrás."""
+    ahora = datetime.datetime(2026, 8, 11, 12, 0)
+    h = {
+        "MSFT": [
+            {"ts": (ahora - datetime.timedelta(days=1)).isoformat(), "valor": 3.0},
+            {"ts": (ahora - datetime.timedelta(days=1500)).isoformat(), "valor": 1.0},
+            {"ts": (ahora - datetime.timedelta(days=300)).isoformat(), "valor": 2.0},
+        ]
+    }
+    historico.compactar(h, ahora)
+    assert [p["valor"] for p in h["MSFT"]] == [1.0, 2.0, 3.0]
+
+
 def test_compactar_descarta_puntos_mas_viejos_que_dias_max():
     ahora = datetime.datetime(2026, 8, 11, 12, 0)
     viejisimo = ahora - datetime.timedelta(days=historico.DIAS_MAX + 10)
@@ -72,7 +120,7 @@ def test_derivar_rangos_shape():
         {"ts": "2026-08-11T09:00:00", "valor": 503.0},
     ]
     rangos = historico.derivar_rangos(serie, ahora)
-    assert set(rangos.keys()) == {"1M", "6M", "YTD", "1A", "5A"}
+    assert set(rangos.keys()) == {"1M", "6M", "YTD", "1A", "5A", "10A"}
     assert len(rangos["1M"]) == 3
     assert len(rangos["6M"]) == 2
 

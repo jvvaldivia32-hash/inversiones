@@ -27,15 +27,15 @@ export function formatFechaCorta(iso: string): string {
 
 // En el rango de 5 años, "día-mes" es ambiguo — los meses se repiten cada año y no hay
 // forma de saber a cuál corresponde cada punto. Ahí el eje muestra el año directamente.
-export function formatFechaEje(iso: string, esRango5A: boolean): string {
-  if (esRango5A) {
+export function formatFechaEje(iso: string, esRangoLargo: boolean): string {
+  if (esRangoLargo) {
     return new Intl.DateTimeFormat("es-CL", { year: "numeric" }).format(new Date(iso));
   }
   return formatFechaCorta(iso);
 }
 
-export function formatFechaTooltip(iso: string, esRango5A: boolean): string {
-  if (esRango5A) {
+export function formatFechaTooltip(iso: string, esRangoLargo: boolean): string {
+  if (esRangoLargo) {
     return new Intl.DateTimeFormat("es-CL", {
       day: "2-digit",
       month: "short",

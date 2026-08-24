@@ -12,7 +12,7 @@ import type { PuntoPrecio, RangoPrecio, SeriePrecio } from "../types";
 import { formatFechaEje, formatFechaTooltip, formatUSD } from "../lib/format";
 import "./GraficoPrecio.css";
 
-const RANGOS: RangoPrecio[] = ["1M", "6M", "YTD", "1A", "5A"];
+const RANGOS: RangoPrecio[] = ["1M", "6M", "YTD", "1A", "5A", "10A"];
 
 function formatEjeY(valor: number): string {
   return `US$${Math.round(valor).toLocaleString("es-CL")}`;
@@ -47,17 +47,26 @@ function combinarComparacion(principal: PuntoPrecio[], comparado: PuntoPrecio[])
   return [...porFecha.values()].sort((a, b) => a.fecha.localeCompare(b.fecha));
 }
 
-// Para 5A, un tick automático por posición de pixel (minTickGap) puede caer dos veces
+// Para 5A/10A, un tick automático por posición de pixel (minTickGap) puede caer dos veces
 // dentro del mismo año una vez que la etiqueta es solo "2024" — más corta que "12-ago",
 // entran más ticks en el mismo ancho. Se fuerza un tick por año en vez de dejarlo al
 // cálculo automático de Recharts.
-function ticksPorAnio(datos: { fecha: string }[]): string[] {
+//
+// `cadaNAnios` existe por el rango 10A: once etiquetas de año no entran en el ancho de un
+// celular sin encimarse, así que ahí se rotula año por medio. El dato dibujado es el mismo,
+// cambia solo cuántas etiquetas se escriben abajo.
+function ticksPorAnio(datos: { fecha: string }[], cadaNAnios = 1): string[] {
   const primeraFechaPorAnio = new Map<number, string>();
   for (const { fecha } of datos) {
     const anio = new Date(fecha).getFullYear();
     if (!primeraFechaPorAnio.has(anio)) primeraFechaPorAnio.set(anio, fecha);
   }
-  return [...primeraFechaPorAnio.values()];
+  const anios = [...primeraFechaPorAnio.keys()].sort((a, b) => a - b);
+  // Se recorre de atrás para adelante para que el año más reciente siempre quede rotulado
+  // (es el que el ojo busca primero); el que puede quedar sin etiqueta es el más viejo.
+  return anios
+    .filter((_, i) => (anios.length - 1 - i) % cadaNAnios === 0)
+    .map((anio) => primeraFechaPorAnio.get(anio) as string);
 }
 
 interface SelectorRangoProps {
@@ -119,7 +128,10 @@ export default function GraficoPrecio({
 }: GraficoPrecioProps) {
   const idGradiente = `grafico-degradado-${useId()}`;
   const datos = serie[rango];
-  const es5A = rango === "5A";
+  // 5A y 10A comparten formato de eje (solo el año) y de tooltip (día-mes-año): los dos
+  // dibujan puntos semanales, donde "12-ago" a secas no dice de qué año es.
+  const esRangoLargo = rango === "5A" || rango === "10A";
+  const aniosPorTick = rango === "10A" ? 2 : 1;
 
   if (comparar) {
     const datosComparados = combinarComparacion(datos, comparar.serie[rango]);
@@ -130,8 +142,8 @@ export default function GraficoPrecio({
           <ComposedChart data={datosComparados} margin={{ top: 4, right: 8, bottom: 0, left: 4 }}>
             <XAxis
               dataKey="fecha"
-              ticks={es5A ? ticksPorAnio(datosComparados) : undefined}
-              tickFormatter={(iso) => formatFechaEje(iso, es5A)}
+              ticks={esRangoLargo ? ticksPorAnio(datosComparados, aniosPorTick) : undefined}
+              tickFormatter={(iso) => formatFechaEje(iso, esRangoLargo)}
               tick={ejeTick}
               axisLine={{ stroke: "var(--linea)" }}
               tickLine={false}
@@ -147,7 +159,7 @@ export default function GraficoPrecio({
             />
             <Tooltip
               formatter={(valor) => formatPct(Number(valor))}
-              labelFormatter={(label) => formatFechaTooltip(String(label), es5A)}
+              labelFormatter={(label) => formatFechaTooltip(String(label), esRangoLargo)}
               contentStyle={tooltipEstilo}
               labelStyle={tooltipEstiloEtiqueta}
             />
@@ -194,8 +206,8 @@ export default function GraficoPrecio({
           </defs>
           <XAxis
             dataKey="fecha"
-            ticks={es5A ? ticksPorAnio(datos) : undefined}
-            tickFormatter={(iso) => formatFechaEje(iso, es5A)}
+            ticks={esRangoLargo ? ticksPorAnio(datos, aniosPorTick) : undefined}
+            tickFormatter={(iso) => formatFechaEje(iso, esRangoLargo)}
             tick={ejeTick}
             axisLine={{ stroke: "var(--linea)" }}
             tickLine={false}
@@ -211,7 +223,7 @@ export default function GraficoPrecio({
           />
           <Tooltip
             formatter={(valor) => formatUSD(Number(valor))}
-            labelFormatter={(label) => formatFechaTooltip(String(label), es5A)}
+            labelFormatter={(label) => formatFechaTooltip(String(label), esRangoLargo)}
             contentStyle={tooltipEstilo}
           />
           <Area

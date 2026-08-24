@@ -2,8 +2,19 @@ import datetime
 import json
 from pathlib import Path
 
+# Escalera de resolución (cambiada 2026-08-21, pedido de José de llegar a 10 años). La
+# idea: guardar solo la resolución que el gráfico realmente dibuja en cada tramo. El rango
+# "5A"/"10A" ya se dibujaba con un punto por semana (ver _un_punto_por_semana), así que
+# guardar 250 puntos por año para dibujar 52 era peso puro. Con esta escalera el archivo
+# queda en ~1.270 puntos por ticker — prácticamente lo mismo que ocupaba con 5 años a un
+# punto diario — pero con el doble de historia.
+#
+# Nada de lo que consume estos datos pierde precisión: radar.computar_castigada solo mira
+# 52 semanas y la media de 200 días, metricas_avanzadas.calcular_beta usa los retornos
+# diarios del año corrido, y derivar_rangos ya colapsaba a semanal de 1 año para arriba.
 DIAS_RECIENTES = 45  # ventana con resolución horaria completa
-DIAS_MAX = 1825  # ~5 años, después se descarta
+DIAS_DIARIOS = 730  # ~2 años: de acá para atrás se guarda un punto por semana
+DIAS_MAX = 3650  # ~10 años, después se descarta
 
 
 def _sin_tz(momento: datetime.datetime) -> datetime.datetime:
@@ -45,30 +56,39 @@ def compactar(
     historico: dict,
     ahora: datetime.datetime,
     dias_recientes: int = DIAS_RECIENTES,
+    dias_diarios: int = DIAS_DIARIOS,
     dias_max: int = DIAS_MAX,
 ) -> None:
-    """Mantenimiento: puntos de los últimos `dias_recientes` quedan con resolución horaria
-    completa; más viejos que eso se colapsan a un punto por día; más viejos que `dias_max`
-    se descartan."""
+    """Mantenimiento en tres tramos: los últimos `dias_recientes` quedan con resolución
+    horaria completa; entre ahí y `dias_diarios` se colapsa a un punto por día; entre ahí y
+    `dias_max` a un punto por semana; más viejo que `dias_max` se descarta."""
     ahora = _sin_tz(ahora)
     corte_reciente = ahora - datetime.timedelta(days=dias_recientes)
+    corte_diario = ahora - datetime.timedelta(days=dias_diarios)
     corte_max = ahora - datetime.timedelta(days=dias_max)
 
     for ticker, serie in historico.items():
         recientes = []
         ultimo_del_dia: dict[str, dict] = {}
+        ultimo_de_la_semana: dict[tuple, dict] = {}
         for punto in serie:
             ts = datetime.datetime.fromisoformat(punto["ts"])
             if ts < corte_max:
                 continue
             if ts >= corte_reciente:
                 recientes.append(punto)
-            else:
+            elif ts >= corte_diario:
                 ultimo_del_dia[ts.date().isoformat()] = punto
+            else:
+                # isocalendar()[:2] = (año ISO, semana ISO) — misma clave de semana que usa
+                # _un_punto_por_semana, así que lo que se guarda calza exactamente con lo
+                # que el gráfico va a dibujar en "5A"/"10A".
+                ultimo_de_la_semana[ts.date().isocalendar()[:2]] = punto
 
-        antiguos = sorted(ultimo_del_dia.values(), key=lambda p: p["ts"])
+        semanales = sorted(ultimo_de_la_semana.values(), key=lambda p: p["ts"])
+        diarios = sorted(ultimo_del_dia.values(), key=lambda p: p["ts"])
         recientes.sort(key=lambda p: p["ts"])
-        historico[ticker] = antiguos + recientes
+        historico[ticker] = semanales + diarios + recientes
 
 
 def _un_punto_por_dia(puntos: list[dict]) -> list[dict]:
@@ -86,7 +106,7 @@ def _un_punto_por_semana(puntos: list[dict]) -> list[dict]:
 
 
 def derivar_rangos(serie_completa: list[dict], ahora: datetime.datetime) -> dict:
-    """Arma las 5 claves que espera SeriePrecio en web/src/types.ts, sin cambiar ese
+    """Arma las 6 claves que espera SeriePrecio en web/src/types.ts, sin cambiar ese
     contrato: {fecha, valor}[] para cada rango. 1M usa timestamp completo como `fecha`
     (formatFechaCorta del frontend igual solo muestra día/mes) para que cada punto horario
     quede como una categoría distinta en el eje X — si se truncara a fecha, los puntos de
@@ -106,5 +126,6 @@ def derivar_rangos(serie_completa: list[dict], ahora: datetime.datetime) -> dict
             [p for p in serie_completa if p["ts"][:10] >= f"{ahora.year}-01-01"]
         ),
         "1A": _un_punto_por_dia(filtrar(365)),
-        "5A": _un_punto_por_semana(filtrar(DIAS_MAX)),
+        "5A": _un_punto_por_semana(filtrar(1825)),
+        "10A": _un_punto_por_semana(filtrar(DIAS_MAX)),
     }
