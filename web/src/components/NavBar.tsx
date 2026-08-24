@@ -1,11 +1,15 @@
 import type { Vista } from "../lib/navegacion";
 import "./NavBar.css";
 
+// `soloMovil`: a partir de 960px Actualidad es la columna izquierda sticky de la vista
+// "Hoy" (ver .vista-hoy-sidebar en App.css) — está siempre a la vista, así que el atajo
+// del nav no lleva a ningún lado que no se vea ya. En mobile las secciones se apilan y
+// Actualidad queda al final de todo, ahí el atajo sí sirve. Pedido del usuario 2026-08-21.
 const SECCIONES_DIA = [
   { id: "referencias", etiqueta: "Referencias" },
   { id: "mundo", etiqueta: "Mundo" },
   { id: "chile", etiqueta: "Chile" },
-  { id: "actualidad", etiqueta: "Actualidad" },
+  { id: "actualidad", etiqueta: "Actualidad", soloMovil: true },
 ];
 
 const SECCIONES_INVERSION = [
@@ -14,7 +18,9 @@ const SECCIONES_INVERSION = [
   { id: "radar", etiqueta: "Radar" },
 ];
 
-const SECCIONES_POR_VISTA: Record<Vista, { id: string; etiqueta: string }[]> = {
+type SeccionNav = { id: string; etiqueta: string; soloMovil?: boolean };
+
+const SECCIONES_POR_VISTA: Record<Vista, SeccionNav[]> = {
   dia: SECCIONES_DIA,
   inversion: SECCIONES_INVERSION,
   diccionario: [],
@@ -85,7 +91,12 @@ export default function NavBar({ vista, onIrA }: NavBarProps) {
           <span className="nav-bar-divisor" aria-hidden="true" />
           <div className="nav-bar-secciones">
             {secciones.map((s) => (
-              <button key={s.id} type="button" onClick={() => onIrA(s.id)}>
+              <button
+                key={s.id}
+                type="button"
+                className={s.soloMovil ? "nav-bar-solo-movil" : undefined}
+                onClick={() => onIrA(s.id)}
+              >
                 {s.etiqueta}
               </button>
             ))}

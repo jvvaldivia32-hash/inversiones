@@ -57,3 +57,11 @@
   display: flex;
   gap: 0.15rem;
 }
+
+/* Mismo breakpoint que el layout de dos columnas de "Hoy" en App.css: desde 960px
+   Actualidad ya es la columna izquierda sticky, así que su atajo del nav sobra. */
+@media (min-width: 960px) {
+  .nav-bar-solo-movil {
+    display: none;
+  }
+}
