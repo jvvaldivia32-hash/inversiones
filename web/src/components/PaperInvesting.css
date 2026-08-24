@@ -90,6 +90,24 @@
   gap: 1rem;
 }
 
+/* Mismo breakpoint y misma medida que .posiciones-lista en App.css: el simulador ya vive
+   dentro del breakout ancho (.vista-ancha, 1200px), así que estirar cada card a todo el
+   ancho dejaba el gráfico de precio demasiado gordo. Con minmax(380px) entran dos por fila
+   y no tres — igual que en "Inversión". */
+@media (min-width: 960px) {
+  .paper-investing-posiciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    align-items: start;
+  }
+
+  /* El aviso de "todavía no compraste nada" es hijo del mismo contenedor: sin esto queda
+     encajonado en una columna de media pantalla. */
+  .paper-investing-posiciones > p {
+    grid-column: 1 / -1;
+  }
+}
+
 .paper-posicion {
   border: 1px solid var(--linea);
   border-radius: 8px;
