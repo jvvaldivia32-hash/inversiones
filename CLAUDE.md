@@ -97,11 +97,17 @@ arriba a propósito, para no ampliarle el alcance a un token que ya escribe en e
 público), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de esos cuatro
 endpoints — no es autenticación real, es el candado mínimo para una app de un solo usuario).
 
-## Pendiente (al cerrar la sesión del 2026-08-24)
+## Pendiente (al cerrar la sesión del 2026-08-24, ya de madrugada del 25)
 
 Todo lo de abajo ya está commiteado — lo que falta es deployar (si no corrió solo) y que
 José lo pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
 aprobado para seguir sin que él confirme primero.
+
+- **Lo primero al retomar (2026-08-25):** José todavía no vio nada de lo del 24 en el
+  celular. Antes de picar código nuevo, preguntarle qué le pareció: el rango "10A" del
+  gráfico (¿se lee bien el eje rotulando año por medio?), los puntos de color por métrica
+  (¿los umbrales le hacen sentido, sobre todo qué quedó ámbar vs. rojo?) y las dos cards por
+  fila del simulador. Todo eso está pusheado y desplegado.
 
 - **Testeo pendiente del usuario** (nada bloqueante, solo falta que lo use): comprar/
   vender/editar/borrar en "mi inversión" (`MiInversion.tsx`) con clave real — el flujo
@@ -172,6 +178,13 @@ aprobado para seguir sin que él confirme primero.
 - **Atajo "Actualidad" del nav, solo en mobile (hecho y commiteado 2026-08-24):** desde
   960px Actualidad ya es la columna izquierda sticky de la vista "Hoy", así que el botón del
   nav no llevaba a ningún lado que no se viera ya. En mobile sigue.
+
+- **Simulador: dos cards por fila (hecho y commiteado 2026-08-24):** el simulador ya vivía
+  dentro del breakout ancho (`.vista-ancha`, 1200px) pero apilaba las posiciones en una sola
+  columna, así que cada card se estiraba a todo el ancho y el gráfico quedaba demasiado
+  gordo. Ahora usa el mismo breakpoint y la misma medida que `.posiciones-lista` de
+  "Inversión" (`minmax(380px, 1fr)`, que a 1200px da dos columnas y no tres) para que las
+  dos vistas se vean igual. Si alguna vez se toca una de las dos medidas, tocar la otra.
 
 - **Semáforo de recomendación de compra (verde→rojo):** parcialmente resuelto por la señal
   por métrica de arriba, que es hasta dónde llega sin chocar con la regla dura del Radar. Lo
