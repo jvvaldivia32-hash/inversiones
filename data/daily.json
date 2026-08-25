@@ -1,13 +1,11 @@
 {
-  "generado": "2026-08-25T00:53:25.701304+00:00",
-  "errores": [
-    "France24: feed sin respuesta o vacío"
-  ],
+  "generado": "2026-08-25T02:15:05.073551+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
         "titulo_neutral": "Aranceles y tensiones comerciales entre Estados Unidos y Canadá",
-        "resumen": "Canadá enfrenta una profunda incertidumbre económica en medio de una escalada de disputas arancelarias impulsada por Washington. Las recientes amenazas de imponer gravámenes severos a los vehículos fabricados en territorio canadiense han encendido las alarmas entre los empresarios de ambas naciones. Esta situación pone de relieve la vulnerabilidad de la economía canadiense, dado que una parte abrumadora de sus exportaciones tiene como destino el mercado estadounidense.",
+        "resumen": "El presidente estadounidense Donald Trump anunció un incremento arancelario del 50% para vehículos, autopartes y acero provenientes de Canadá a partir de 2027. La medida intensifica un conflicto comercial bilateral después de que fracasaran las rondas de negociación entre ambas naciones. Por su parte, el primer ministro canadiense, Mark Carney, advirtió que su administración no aceptará un acuerdo a cualquier precio.",
         "articulos": [
           {
             "titular": "How Canada could hit back to hurt the US economy - and Trump",
@@ -28,6 +26,15 @@
             "fecha": "2026-08-24T18:44:53+00:00"
           },
           {
+            "titular": "‘We don’t need Canada’: Trump threatens to double auto tariffs after trade talks collapse",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/americas/20260824-canada-trump-threatens-double-auto-tariffs-after-trade-talks-collapse",
+            "fecha": "2026-08-24T14:55:13+00:00"
+          },
+          {
             "titular": "'Half my business will be gone' - firms in Canada and US fear trade war",
             "extracto": "",
             "medio": "BBC",
@@ -42,13 +49,14 @@
         ],
         "grupos_presentes": [
           "BBC",
-          "Reuters"
+          "Reuters",
+          "France24"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Sanciones de Estados Unidos a Irán y efectos económicos",
-        "resumen": "El gobierno de Estados Unidos ha instado a varios países a distanciarse de Teherán, advirtiendo sobre represalias comerciales a quienes mantengan vínculos con Irán. Estas medidas punitivas afectan directamente a sectores clave como la aviación, la tecnología y el transporte marítimo iraníes. Como resultado, estas tensiones geopolíticas han generado repercusiones en los mercados financieros globales y en las cotizaciones de la energía.",
+        "titulo_neutral": "Sanciones de Estados Unidos contra Irán y sus efectos en los mercados",
+        "resumen": "Estados Unidos ha instado a la comunidad internacional a distanciarse comercialmente de Teherán, advirtiendo sobre represalias a quienes mantengan vínculos con el país persa. Como parte de esta presión, Washington implementó nuevas sanciones dirigidas a los sectores aeronáutico, tecnológico y marítimo iraníes. Estas restricciones buscan debilitar la economía de Irán, aunque generan repercusiones directas en los mercados globales y en el costo de la energía.",
         "articulos": [
           {
             "titular": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
@@ -76,24 +84,6 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
             "fecha": "2026-08-24T22:26:01+00:00"
-          },
-          {
-            "titular": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zYlNwM05renFqUDNLaGZkdl9sa0cxLXJDTmhLcXYwRG1aYjlLR1c4QjlGbGtqY3pNaXhMR1E4cnJLLU1VcjNfR2h4anE4RTFqVDk2Y3AwWTY5TVZnZnFkRjZVR0tGaGQ0REJpZXljSElWQWFsRnZGY2NUT0t1M1k?oc=5",
-            "fecha": "2026-08-24T04:34:00+00:00"
-          },
-          {
-            "titular": "Dollar higher after Iran sanctions, loonie drops after US announces tariff increases - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
-            "fecha": "2026-08-24T01:48:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -107,8 +97,30 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "TRADING DAY Tech, tariffs & Treasuries - Reuters",
+        "titulo_neutral": "Salida a bolsa de Shein y desafíos de sostenibilidad",
         "resumen": "",
+        "articulos": [
+          {
+            "titular": "Shein's stock market listing will not mask sustainability challenges - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVWlVQm1XNmhOeHkwYm5qZ3gyR1k2UDA4anFkeThSeTNrT2JuNGRBb1M2c3VVYmRpVUQ3LUpWRjR4bEhONkI0SzFuNkdIR1V1SW5tdWEzTGdoWk8xTGU1bkI4MzZiRzQ0TU4xaU5QOHhVUVNKWm5zZ0Jka1hEdWlkWWxCUjR1Ykw1VVQ3OEZpS0JRRkNtbkJ4ckhBSlhqRTAzNUtTeE9MNU1wYlpWRl9xVGc5WllJRTU2OVRyT05YMVVNeHZqenpJ?oc=5",
+            "fecha": "2026-08-24T23:05:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Mercado bursátil, tecnológico y de bonos",
+        "resumen": "La farmacéutica Moderna registró un fuerte incremento bursátil tras anunciar resultados positivos en las pruebas de una vacuna experimental contra el cáncer. Paralelamente, el Departamento del Tesoro de Estados Unidos duplicará sus adquisiciones de deuda pública a largo plazo para estabilizar el mercado. Estas noticias financieras coinciden con debates en torno a políticas arancelarias y tensiones económicas internacionales.",
         "articulos": [
           {
             "titular": "TRADING DAY Tech, tariffs & Treasuries - Reuters",
@@ -118,20 +130,7 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUmpoclpIbHRCNUVXQ0IyQ1ZQbDJoR0VQQ0JuN2k4YVJuekdBQ05YcHI5WnVtc0JNSzN6MDhFSzRSS2dvbWRzUnFxSEJ5TURVVEFuc3Vha0sxdGhSbUZ6TllJSkU0c0JrMFFOb2dsN3VLRTItYnE4MVNVWVJQR3o3alhlSFAzVXNla1pBcXNnTnNwencyLWtpRmJteWVFYnJtS0IzbzZR?oc=5",
             "fecha": "2026-08-24T21:13:38+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters",
-        "resumen": "",
-        "articulos": [
+          },
           {
             "titular": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters",
             "extracto": "",
@@ -140,18 +139,37 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
             "fecha": "2026-08-24T21:07:43+00:00"
+          },
+          {
+            "titular": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zYlNwM05renFqUDNLaGZkdl9sa0cxLXJDTmhLcXYwRG1aYjlLR1c4QjlGbGtqY3pNaXhMR1E4cnJLLU1VcjNfR2h4anE4RTFqVDk2Y3AwWTY5TVZnZnFkRjZVR0tGaGQ0REJpZXljSElWQWFsRnZGY2NUT0t1M1k?oc=5",
+            "fecha": "2026-08-24T04:34:00+00:00"
+          },
+          {
+            "titular": "US Treasury tries to soothe the bond market",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
+            "fecha": "2026-08-20T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Reuters",
+          "Financial Times"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Federer playing Flushing Meadows exhibition in long overdue US Open sendoff - Reuters",
+        "titulo_neutral": "Exhibición de Roger Federer en el Abierto de Estados Unidos",
         "resumen": "",
         "articulos": [
           {
@@ -173,7 +191,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US eyes China overcapacity tariffs of 7.5% before Xi-Trump talks, Bloomberg News reports - Reuters",
+        "titulo_neutral": "Aranceles de Estados Unidos a China",
         "resumen": "",
         "articulos": [
           {
@@ -195,7 +213,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Oil stocks in US Strategic Petroleum Reserve fall by 3.7 million barrels to lowest level since 1982 - Reuters",
+        "titulo_neutral": "Nivel de las reservas estratégicas de petróleo en Estados Unidos",
         "resumen": "",
         "articulos": [
           {
@@ -217,32 +235,142 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Gold rally gains momentum ahead of US inflation data, Jackson Hole event - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Guerra entre Ucrania y Rusia",
+        "resumen": "Los países europeos continúan incrementando su respaldo institucional a Ucrania, aunque diversos analistas advierten que resulta insuficiente para neutralizar su vulnerabilidad estructural. Desde el inicio de la intervención militar rusa, los aliados occidentales han descartado la instauración de una zona de exclusión aérea. El principal temor de la OTAN es que una intervención militar directa desencadene una confrontación bélica a gran escala con Moscú.",
         "articulos": [
           {
-            "titular": "Gold rally gains momentum ahead of US inflation data, Jackson Hole event - Reuters",
+            "titular": "Ukraine showing ‘remarkable innovation’: Kyiv ‘holding front line’ while striking Russia’s economy",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "France24",
+            "grupo": "France24",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
-            "fecha": "2026-08-24T04:39:00+00:00"
+            "url": "https://www.france24.com/en/ukraine-showing-remarkable-innovation-kyiv-holding-front-line-while-striking-russia-s-economy",
+            "fecha": "2026-08-24T13:32:21+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "France24"
         ],
         "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Controversia y discusiones en el Congreso sobre la reforma de seguridad",
-        "resumen": "Líderes de las agrupaciones políticas oficialistas sostuvieron un tenso encuentro con ministros de Estado para manifestar su descontento con la estrategia legislativa relacionada con la reforma constitucional de seguridad. Durante la reunión, los timoneles criticaron el diseño propuesto por el Ejecutivo y exigieron modificaciones profundas al texto original. Asimismo, advirtieron sobre los riesgos de debilitar los equilibrios políticos institucionales en el proceso.",
+        "titulo_neutral": "Ana de Armas en Chile: acompaña al vocalista de Rawayana en su gira por Latinoamérica y es captada bailando en el Movistar Arena",
+        "resumen": "La reconocida actriz visitó el país acompañando a un conocido músico que finalizó una serie de presentaciones en un importante recinto de eventos. Durante su estancia, fue registrada disfrutando de expresiones artísticas locales y adelantó que volverá próximamente para participar en una producción cinematográfica.",
+        "articulos": [
+          {
+            "titular": "Ana de Armas en Chile: acompaña al vocalista de Rawayana en su gira por Latinoamérica y es captada bailando en el Movistar Arena",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/24/ana-de-armas-en-chile-junto-a-beto-de-rawayana/",
+            "fecha": "2026-08-25T02:11:05+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Reconocer, llamar al 131 y comprimir: la cadena de auxilio que reduce la mortalidad por paro cardíaco",
+        "resumen": "La intervención inmediata mediante maniobras de reanimación por parte de ciudadanos comunes resulta vital ante emergencias cardíacas repentinas. Especialistas detallan los pasos esenciales para identificar este tipo de cuadros críticos y activar eficientemente los servicios de urgencia para incrementar las probabilidades de sobrevivencia.",
+        "articulos": [
+          {
+            "titular": "Reconocer, llamar al 131 y comprimir: la cadena de auxilio que reduce la mortalidad por paro cardíaco",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/24/reconocer-llamar-al-131-y-comprimir-la-cadena-de-auxilio-que-reduce-la-mortalidad-por-paro-cardiaco/",
+            "fecha": "2026-08-25T01:52:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Testigo cuenta cómo fue fatal atropello de hermana de María José Prieto, Paz Ramírez: “Oré al lado de ella”",
+        "resumen": "Un testigo entregó detalles sobre los instantes posteriores al trágico atropello que cobró la vida de una mujer mientras se dirigía a buscar a su mascota. El conductor responsable escapó del sitio del suceso y las autoridades aún buscan dar con su paradero e identidad.",
+        "articulos": [
+          {
+            "titular": "Testigo cuenta cómo fue fatal atropello de hermana de María José Prieto, Paz Ramírez: “Oré al lado de ella”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/08/24/testigo-cuenta-como-fue-fatal-atropello-de-hermana-de-maria-jose-prieto-paz-ramirez-ore-al-lado-de-ella/",
+            "fecha": "2026-08-25T01:34:48+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "A horas de definición del TC, transmisoras eléctricas apoyan a gremios de servicios básicos por norma que obliga a reconectar clientes morosos",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "A horas de definición del TC, transmisoras eléctricas apoyan a gremios de servicios básicos por norma que obliga a reconectar clientes morosos",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/energia/a-horas-de-definicion-del-tc-transmisoras-electricas-apoyan-a-gremios-de",
+            "fecha": "2026-08-25T01:08:16+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Mayores contratos mineros elevan las ganancias de Schwager al primer semestre",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Mayores contratos mineros elevan las ganancias de Schwager al primer semestre",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/mineria/mayores-contratos-mineros-elevan-en-71-las-ganancias-de-schwager-al-primer",
+            "fecha": "2026-08-25T00:55:54+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Plan de seguridad: La versión que no ha salido a la luz sobre el origen del vapuleado estado de excepción",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Plan de seguridad: La versión que no ha salido a la luz sobre el origen del vapuleado estado de excepción",
@@ -252,38 +380,19 @@
             "lean": "no aplica",
             "url": "https://www.ex-ante.cl/politica/estado-de-excepcion-origen-120-dias/",
             "fecha": "2026-08-25T00:37:47+00:00"
-          },
-          {
-            "titular": "Oposición aumenta la presión sobre el gobierno y exige retirar del Congreso la reforma de seguridad",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/congreso/oposicion-aumenta-la-presion-sobre-el-gobierno-y-exige-retirar-del-congreso",
-            "fecha": "2026-08-25T00:20:17+00:00"
-          },
-          {
-            "titular": "“Hay que dar vuelta la página”: El duro cara a cara entre La Moneda y los timoneles oficialistas por la reforma de seguridad",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/24/hay-que-dar-vuelta-la-pagina-el-duro-cara-a-cara-entre-la-moneda-y-los-timoneles-oficialistas-por-la-reforma-de-seguridad/",
-            "fecha": "2026-08-24T22:51:35+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente",
-          "Claro"
+          "independiente"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Nota de protesta del gobierno chileno a Argentina por declaraciones de general argentino sobre soberanía",
-        "resumen": "El Ejecutivo chileno enviará una queja formal a la administración argentina debido a los dichos de un alto oficial militar de ese país que pusieron en duda la jurisdicción nacional sobre el Estrecho de Magallanes. Autoridades y parlamentarios locales recalcaron que los límites territoriales en la zona se encuentran amparados por acuerdos internacionales vigentes. Este incidente marca el segundo cuestionamiento de esta naturaleza por parte de autoridades castrenses vecinas en los últimos meses.",
+        "titulo_neutral": "Nota de protesta y reacciones de autoridades de Chile por declaraciones de general argentino sobre la soberanía",
+        "resumen": "El gobierno chileno decidió enviar una queja formal a la administración argentina por comentarios emitidos por un alto mando militar de ese país. Las declaraciones ponían en duda la jurisdicción nacional sobre el Estrecho de Magallanes. Las autoridades locales enfatizaron que los límites territoriales están respaldados por acuerdos históricos.",
         "articulos": [
           {
             "titular": "Trasfondo: el grave cuestionamiento de general argentino a soberanía chilena y la nota de protesta de cancillería",
@@ -333,7 +442,7 @@
       },
       {
         "titulo_neutral": "CFL Inmobiliaria avanza en su expansión regional con proyecto de US$ 35 millones en Rancagua",
-        "resumen": "",
+        "resumen": "Un nuevo proyecto inmobiliario mixto se desarrollará en la capital de la región de O'Higgins, incorporando cientos de viviendas y espacios comerciales. Se proyecta que las obras concluyan y comiencen las entregas a finales de la década.",
         "articulos": [
           {
             "titular": "CFL Inmobiliaria avanza en su expansión regional con proyecto de US$ 35 millones en Rancagua",
@@ -352,168 +461,38 @@
           "Claro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Reuniones entre Chile y Estados Unidos para revisar aranceles",
-        "resumen": "Representantes comerciales de Estados Unidos y autoridades nacionales iniciaron conversaciones en Santiago para revisar los gravámenes del 12,5% impuestos a mercancías chilenas como salmones y frutas. Diversos sectores productivos locales expresaron su preocupación por el impacto económico de estas medidas y manifestaron su expectativa de lograr exenciones adicionales. Las negociaciones buscan mitigar los efectos negativos en el intercambio comercial bilateral.",
-        "articulos": [
-          {
-            "titular": "Parte proceso de extradición desde EE. UU. de dos venezolanos acusados en la «Operación Tokio»; funcionario de tribunal es detenido por presunta filtración de información a banda criminal, y parten reuniones para revisar aranceles de Estados Unidos",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/08/24/radar-24-08-2026/?utm_source=rss&utm_medium=rss&utm_campaign=radar-24-08-2026",
-            "fecha": "2026-08-25T00:26:17+00:00"
-          },
-          {
-            "titular": "Aranceles: Chile y EEUU se reúnen con foco en revisión de prioridades de la canasta exportadora chilena y acuerdan seguir conversaciones",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/comercio-exterior/inicia-la-negociacion-presencial-entre-la-subrei-y-el-ustr-por-arancel-de",
-            "fecha": "2026-08-24T23:23:22+00:00"
-          },
-          {
-            "titular": "Chile y EEUU abren negociación por aranceles y gremios piden ampliar exclusiones",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/24/chile-y-eeuu-abren-negociacion-por-aranceles-y-gremios-piden-ampliar-exclusiones/",
-            "fecha": "2026-08-24T22:40:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "sin fines de lucro",
-          "Claro",
-          "independiente"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Mayores contratos mineros elevan las ganancias de Schwager al primer semestre",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Mayores contratos mineros elevan las ganancias de Schwager al primer semestre",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/mineria/mayores-contratos-mineros-elevan-en-71-las-ganancias-de-schwager-al-primer",
-            "fecha": "2026-08-25T00:21:42+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Más de 60 proveedores arremeten contra la española OHLA y cuestionan cómo se selecciona a firmas extranjeras para obras públicas",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Más de 60 proveedores arremeten contra la española OHLA y cuestionan cómo se selecciona a firmas extranjeras para obras públicas",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/construccion/mas-de-60-proveedores-arremeten-contra-la-espanola-ohla-y-cuestionan-como",
-            "fecha": "2026-08-24T23:58:11+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Gobierno le subirá la vara de eficiencia a los hospitales públicos para revertir su histórica sobreejecución",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Gobierno le subirá la vara de eficiencia a los hospitales públicos para revertir su histórica sobreejecución",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/gobierno-le-subira-la-vara-de-eficiencia-a-los-hospitales-publicos-para",
-            "fecha": "2026-08-24T23:53:56+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Más alto que el Costanera Center: así será el mirador 360° que se construirá en el cerro Renca",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Más alto que el Costanera Center: así será el mirador 360° que se construirá en el cerro Renca",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/24/mas-alto-que-el-costanera-center-asi-sera-el-mirador-360-que-se-construira-en-el-cerro-renca/",
-            "fecha": "2026-08-24T23:30:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "DRC’s constitutional battle: The fight over the 2028 vote",
+        "titular": "Man killed in world’s largest annual bullfighting event in Mexico",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/25/drcs-constitutional-battle-the-fight-over-the-2028-vote?traffic_source=rss",
-        "fecha": "2026-08-25T00:34:29+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/man-killed-in-worlds-largest-annual-bullfighting-event-in-mexico?traffic_source=rss",
+        "fecha": "2026-08-25T01:51:16+00:00"
       },
       {
-        "titular": "Search continues in Tunisia as migrant boat sinking sparks protests",
+        "titular": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-25T01:48:24+00:00"
+      },
+      {
+        "titular": "Brutal gang attack on strategic Haiti hillside leaves at least 30 dead",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/25/search-continues-in-tunisia-after-migrant-boat-sinking-sparks-protests?traffic_source=rss",
-        "fecha": "2026-08-25T00:18:42+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/brutal-gang-attack-on-strategic-haiti-hillside-leaves-at-least-30-dead?traffic_source=rss",
+        "fecha": "2026-08-25T01:46:26+00:00"
       },
       {
-        "titular": "US removes Syria from list of state sponsors of terrorism",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-25T00:17:25+00:00"
+        "titular": "Oil prices steady as investors weigh impact of expanded US sanctions against Iran - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
+        "fecha": "2026-08-25T01:16:00+00:00"
       },
       {
-        "titular": "Moment tornado tears through southern France",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-25T00:16:35+00:00"
-      },
-      {
-        "titular": "Nearly three million Teslas recalled in China over hidden door handles",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-08-24T23:53:32+00:00"
+        "titular": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
+        "fecha": "2026-08-25T01:01:44+00:00"
       }
     ]
   },
@@ -1723,6 +1702,10 @@
           },
           {
             "fecha": "2026-08-25T00:00:00",
+            "valor": 504.32
+          },
+          {
+            "fecha": "2026-08-25T02:00:00",
             "valor": 504.32
           }
         ],
@@ -7071,8 +7054,17 @@
       },
       "noticias": [
         {
+          "titular": "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
+          "extracto": "Ante la inestabilidad en el sector de la inteligencia artificial, los inversores canalizaron capital hacia empresas colosales cuyos ingresos no dependen de dicha infraestructura. Este movimiento destaca la búsqueda de refugios financieros más seguros y consolidados en el mercado tecnológico.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/08/24/berkshire-hathaway-rose-while-every-major-chip-stock-fell-monday/?.tsrc=rss",
+          "fecha": "2026-08-25T01:07:01+00:00"
+        },
+        {
           "titular": "Berkshire Hathaway Hasn’t Done This in Over 3 Years",
-          "extracto": "Por primera vez en casi cuatro años, Berkshire Hathaway ha comprado más acciones de las que ha vendido, aunque su nuevo director ejecutivo, Greg Abel, realizó algunas ventas inesperadas durante el trimestre. Este cambio marca una nueva etapa en la gestión de la cartera del conglomerado.",
+          "extracto": "Por primera vez en casi cuatro años, Berkshire Hathaway ha vuelto a adquirir más acciones de las que vende, aunque el nuevo director ejecutivo, Greg Abel, sorprendió al desprenderse de algunos títulos específicos este trimestre. Estos ajustes señalan un cambio táctico en la gestión de la cartera bajo la nueva dirección.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7081,7 +7073,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK-B)’s Cash Pile Just Shrank for the First Time in Years. Is Greg Abel Finally Spending?",
-          "extracto": "Bajo la dirección de su nuevo consejero delegado, Greg Abel, Berkshire Hathaway redujo sus reservas de efectivo y letras del Tesoro a 364.700 millones de dólares a mediados de 2026. Esta disminución representa una caída del 4% en comparación con el trimestre anterior, reflejando un cambio en la estrategia financiera.",
+          "extracto": "Bajo la dirección de Greg Abel, quien asumió el cargo a principios de 2026, Berkshire Hathaway redujo sus reservas de efectivo y letras del Tesoro a 364.700 millones de dólares a mediados de año. Esta disminución refleja el inicio de un despliegue de capital tras años de acumulación récord por parte de Warren Buffett.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7090,7 +7082,7 @@
         },
         {
           "titular": "Warren Buffett Called Airlines the “Worst Sort of Business.” His Successor Just Built a $5.4 Billion Position Anyway.",
-          "extracto": "El sucesor designado por Warren Buffett ha invertido miles de millones de dólares en la industria aeronáutica, a pesar del escepticismo histórico que el propio Buffett manifestaba hacia dicho sector. Esta decisión destaca un giro notable en la estrategia de inversión tradicional de la compañía.",
+          "extracto": "A pesar de la histórica aversión de Warren Buffett hacia la industria aérea, su sucesor designado ha invertido miles de millones de dólares en este sector. Esta decisión marca un giro notable respecto a la filosofía de inversión tradicional del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7105,15 +7097,6 @@
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/24/fidelitys-magellan-fund-manager-peter-lynch-was-a/?.tsrc=rss",
           "fecha": "2026-08-24T13:50:00+00:00"
-        },
-        {
-          "titular": "Greg Abel Just Spent $23.5 Billion on 9 Stocks for Berkshire Hathaway. Here's the Best of the Bunch.",
-          "extracto": "El conglomerado dirigido por Warren Buffett volvió a adquirir más acciones de las que vendió en el mercado, algo que no ocurría desde el año 2022. Este movimiento indica un renovado apetito por el riesgo bursátil por parte de la empresa.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/23/warren-greg-abel-just-spent-23-billion-on-9-stocks/?.tsrc=rss",
-          "fecha": "2026-08-23T16:20:00+00:00"
         }
       ],
       "fundamentales": {
@@ -8508,6 +8491,10 @@
           },
           {
             "fecha": "2026-08-25T00:00:00",
+            "valor": 272.54
+          },
+          {
+            "fecha": "2026-08-25T02:00:00",
             "valor": 272.54
           }
         ],
@@ -13857,7 +13844,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-          "extracto": "La incursión de McDonald's en el mercado de las bebidas energéticas podría impulsar el valor de sus acciones tras la caída experimentada en 2026. Esta estrategia busca revitalizar el crecimiento financiero de la compañía.",
+          "extracto": "La incursión de McDonald's en el mercado de las bebidas energéticas podría impulsar el valor de sus acciones tras la caída experimentada este año. Esta estrategia busca reactivar el crecimiento financiero de la compañía en el sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13866,7 +13853,7 @@
         },
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "Las valoraciones contrastantes en el sector de la restauración muestran tendencias inesperadas en el comportamiento bursátil actual. Estas dinámicas desafían las previsiones económicas tradicionales sobre qué marcas dominan durante contextos de consumo volátil.",
+          "extracto": "El comportamiento bursátil actual de las grandes cadenas de restaurantes desafía las expectativas económicas tradicionales frente a un consumidor debilitado. Las valoraciones del mercado muestran contrastes inesperados entre el éxito y la caída de estas empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13875,7 +13862,7 @@
         },
         {
           "titular": "THE WENDY'S COMPANY NAMES TARIQ HASSAN CHIEF MARKETING AND CUSTOMER GROWTH OFFICER",
-          "extracto": "La cadena de comida rápida Wendy's nombró a Tariq Hassan como su nuevo director de marketing y crecimiento del cliente. En este puesto de nueva creación, Hassan supervisará las estrategias comerciales mientras la anterior directora se prepara para dejar la empresa.",
+          "extracto": "Wendy's nombró a Tariq Hassan como su nuevo director de marketing y crecimiento de clientes, un puesto de nueva creación en la empresa. Hassan asumirá el liderazgo ejecutivo inmediato, mientras que la anterior directora de marketing en EE. UU., Lindsay Radkoski, dejará la organización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13884,7 +13871,7 @@
         },
         {
           "titular": "Wendy’s hires ex-McDonald’s CMO as chief marketing, customer growth officer",
-          "extracto": "Tariq Hassan asumirá el liderazgo de las estrategias de mercadotecnia en sustitución de Lindsay Radkoski. Este cambio forma parte de los esfuerzos continuos de reestructuración y recuperación de la marca.",
+          "extracto": "Tariq Hassan reemplazará a Lindsay Radkoski en la dirección de marketing de Wendy's en Estados Unidos. Este cambio directivo forma parte de la estrategia continua de la cadena para relanzar su negocio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13893,7 +13880,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "A pesar de las presiones políticas para eliminar los programas de diversidad, equidad e inclusión, estudios recientes revelan datos sobre el rendimiento de las empresas que mantuvieron estas políticas. Los hallazgos cuestionan la narrativa de que adoptar dichas iniciativas perjudica la estabilidad financiera corporativa.",
+          "extracto": "Nuevas investigaciones indican que las empresas que mantuvieron sus programas de diversidad, equidad e inclusión desmienten la narrativa de que tales políticas perjudican el rendimiento financiero. Estos hallazgos cuestionan las presiones políticas dirigidas a eliminar dichas iniciativas corporativas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15456,6 +15443,10 @@
           },
           {
             "fecha": "2026-08-25T00:00:00",
+            "valor": 487.31
+          },
+          {
+            "fecha": "2026-08-25T02:00:00",
             "valor": 487.31
           }
         ],
@@ -20805,7 +20796,7 @@
       "noticias": [
         {
           "titular": "Microsoft Rises as $678 Billion Backlog Defies Tech Selloff",
-          "extracto": "La alta demanda contratada en el servicio Azure permite que Microsoft destaque en el mercado, en un contexto de dudas de los inversores sobre el financiamiento general de la inteligencia artificial. Esto demuestra solidez financiera frente a la incertidumbre del sector tecnológico.",
+          "extracto": "La fuerte demanda contratada en el servicio Azure permite que Microsoft destaque positivamente frente al escepticismo de los inversores sobre el financiamiento general en inteligencia artificial. Esto demuestra solidez comercial en un sector donde el mercado cuestiona la sostenibilidad económica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20814,7 +20805,7 @@
         },
         {
           "titular": "Can NOW's Tech Mahindra Deal Boost Its AI Edge Over CRM & MSFT?",
-          "extracto": "La ampliación de la alianza entre ServiceNow y Tech Mahindra busca impulsar la inteligencia artificial empresarial, mejorar la gobernanza y facilitar su monetización. Este movimiento responde a la creciente competencia en el mercado de soluciones tecnológicas.",
+          "extracto": "ServiceNow amplió su alianza con Tech Mahindra para escalar la inteligencia artificial empresarial, mejorar la gobernanza y facilitar su monetización. Este movimiento busca responder a un entorno de mayor competencia tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20823,7 +20814,7 @@
         },
         {
           "titular": "Microsoft Stock in 2027: My Prediction Is That It Still Beats the Market",
-          "extracto": "Se considera que Microsoft representa una oportunidad atractiva de inversión debido a su transformación en una plataforma central de inteligencia artificial. Esta evolución consolida su posición competitiva a largo plazo en el ecosistema digital.",
+          "extracto": "Microsoft se posiciona como una opción de inversión atractiva tras consolidarse como una plataforma fundamental de inteligencia artificial. Su evolución estructural le otorga una ventaja competitiva clave en el mercado actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20832,7 +20823,7 @@
         },
         {
           "titular": "Microsoft Stock's Upside Now Runs Through Its Data Center Build",
-          "extracto": "El principal argumento optimista sobre Microsoft no depende de que surja más demanda de inteligencia artificial, sino de la velocidad con la que la compañía logre despachar los pedidos ya confirmados. La capacidad operativa es clave para cumplir con las expectativas del mercado.",
+          "extracto": "El argumento optimista sobre Microsoft se centra en su capacidad operativa para despachar con rapidez los pedidos de inteligencia artificial ya contratados. La prioridad ya no es generar demanda, sino cumplir con la entrega de los compromisos previos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20841,7 +20832,7 @@
         },
         {
           "titular": "This Tech Stock Is Being Highly Overlooked in the AI Race",
-          "extracto": "Aunque Nvidia acapara la atención mediática sobre la inteligencia artificial, una importante empresa de software está consolidando una posición empresarial altamente competitiva y protegida. Su actual valoración bursátil difiere notablemente de la percepción general del mercado.",
+          "extracto": "A pesar del protagonismo mediático de Nvidia, una empresa de software está estableciendo una posición sólida y defendible en el sector de la inteligencia artificial corporativa. Su valoración actual en el mercado difiere notablemente de la percepción popular.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22464,6 +22455,10 @@
           },
           {
             "fecha": "2026-08-25T00:00:00",
+            "valor": 701.83
+          },
+          {
+            "fecha": "2026-08-25T02:00:00",
             "valor": 701.83
           }
         ],
@@ -27812,8 +27807,17 @@
       },
       "noticias": [
         {
+          "titular": "Vanguard 500 Index Fund Admiral Shares (VFIAX): What Investors Should Know",
+          "extracto": "A pesar de sus bajas comisiones y apariencia diversificada, este popular fondo de Vanguard esconde riesgos significativos debido a una alta concentración en pocos activos. Esto puede sorprender a quienes buscan una inversión completamente pasiva.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/08/24/vanguard-500-index-fund-admiral-shares-vfiax-what-investors-should-know/?.tsrc=rss",
+          "fecha": "2026-08-25T01:20:50+00:00"
+        },
+        {
           "titular": "Fidelity 500 Index Fund (FXAIX): What Investors Should Know",
-          "extracto": "Un fondo mutuo masivo de bajo costo esconde una estructura financiera que genera inesperadas complicaciones fiscales para los inversionistas. Este problema suele pasar desapercibido hasta que impacta los rendimientos.",
+          "extracto": "Uno de los fondos mutuos más grandes del mundo ofrece costos mínimos de gestión, pero oculta una estructura interna capaz de generar inconvenientes fiscales inesperados para los partícipes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27822,7 +27826,7 @@
         },
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Para maximizar el crecimiento a largo plazo mediante el índice S&P 500, resulta indispensable considerar ciertos factores técnicos y estratégicos. Comprender su funcionamiento ayuda a evitar errores comunes de gestión.",
+          "extracto": "Para aprovechar al máximo el crecimiento a largo plazo que ofrece la inversión en el índice S&P 500, es fundamental que los ahorradores tengan en cuenta ciertos factores determinantes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27831,7 +27835,7 @@
         },
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "El liderazgo entre los fondos indexados más grandes experimentó cambios recientes, con una alta concentración del capital en apenas un puñado de empresas. Esta marcada diferencia de valor y peso corporativo altera la dinámica del mercado.",
+          "extracto": "El liderazgo de este fondo indexado ha cambiado drásticamente en los últimos años, con una brecha de cientos de miles de millones de dólares. Actualmente, una cuarta parte de su capital total se concentra en tan solo cinco empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27840,21 +27844,12 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "A pesar de ofrecer idénticas carteras, ponderaciones y dividendos, dos fondos cotizados de State Street con comisiones muy distintas atraen volúmenes de capital desiguales. La mayoría del dinero de los ahorristas se concentra paradójicamente en la opción más costosa.",
+          "extracto": "State Street administra dos fondos cotizados que replican exactamente el mismo índice bursátil con idénticos rendimientos, aunque la mayoría de los inversores optan por la alternativa más cara.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://247wallst.com/investing/etf/2026/08/21/spy-has-a-nearly-identical-twin-that-costs-80-percent-less-and-pays-the-same-dividends/?.tsrc=rss",
           "fecha": "2026-08-21T21:05:02+00:00"
-        },
-        {
-          "titular": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-          "extracto": "State Street modificó el nombre y la clave de pizarra de un fondo clave para asemejarlo al producto líder del mercado. Esta estrategia de tarifas diferenciadas podría alterar profundamente las decisiones financieras de millones de ahorradores.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/etf/2026/08/21/there-are-two-spy-etfs-now-and-you-probably-own-the-wrong-one/?.tsrc=rss",
-          "fecha": "2026-08-21T14:20:32+00:00"
         }
       ]
     }
