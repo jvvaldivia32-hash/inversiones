@@ -1,11 +1,13 @@
 {
-  "generado": "2026-08-25T03:42:14.005433+00:00",
-  "errores": [],
+  "generado": "2026-08-25T04:32:14.463705+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Amenazas de aranceles de Estados Unidos a Canadá y reacción comercial",
-        "resumen": "El presidente Donald Trump anunció la imposición de aranceles del 50% a todos los vehículos y componentes de acero provenientes de Canadá a partir de 2027. Las negociaciones comerciales entre ambos países colapsaron tras desacuerdos profundos sobre las condiciones del intercambio. Esta escalada arancelaria genera gran preocupación entre los empresarios de ambas naciones debido al impacto financiero que podría desencadenar.",
+        "titulo_neutral": "Aranceles de Estados Unidos a Canadá y tensión comercial",
+        "resumen": "",
         "articulos": [
           {
             "titular": "How Canada could hit back to hurt the US economy - and Trump",
@@ -26,15 +28,6 @@
             "fecha": "2026-08-24T18:44:53+00:00"
           },
           {
-            "titular": "‘We don’t need Canada’: Trump threatens to double auto tariffs after trade talks collapse",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/americas/20260824-canada-trump-threatens-double-auto-tariffs-after-trade-talks-collapse",
-            "fecha": "2026-08-24T14:55:13+00:00"
-          },
-          {
             "titular": "'Half my business will be gone' - firms in Canada and US fear trade war",
             "extracto": "",
             "medio": "BBC",
@@ -49,14 +42,13 @@
         ],
         "grupos_presentes": [
           "BBC",
-          "Reuters",
-          "France24"
+          "Reuters"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Sanciones de Estados Unidos a Irán y efectos en los mercados financieros",
-        "resumen": "Nuevas medidas restrictivas de Estados Unidos contra Irán han afectado a los sectores de aviación, tecnología y transporte marítimo. Esta situación ha generado incertidumbre en los mercados internacionales y ha provocado fluctuaciones en el valor del dólar frente a otras divisas. Los analistas siguen de cerca el impacto que estas tensiones geopolíticas tendrán sobre los precios globales de la energía.",
+        "titulo_neutral": "Sanciones de Estados Unidos a Irán y su impacto financiero",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks - Reuters",
@@ -86,15 +78,6 @@
             "fecha": "2026-08-24T22:46:02+00:00"
           },
           {
-            "titular": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-            "fecha": "2026-08-24T22:26:01+00:00"
-          },
-          {
             "titular": "Dollar higher after Iran sanctions, loonie drops after US announces tariff increases - Reuters",
             "extracto": "",
             "medio": "Reuters",
@@ -102,6 +85,15 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
             "fecha": "2026-08-24T19:16:36+00:00"
+          },
+          {
+            "titular": "Interventions hold rupee on narrow leash, traders await US sanctions on Iran - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTRWMGpMTzlmX3RQR0Y5dzctZjZ5LVFqeEMxT1FydzQybE84MjB0aUlqdkZXLTRESXJzZnZwbDR0QndhN3VnaVRIVVIwLVBOVENWNXZ6MlNmTm5qd1dINmY0TlVjdjJSQm8yOVhYelVUb054c0wwWjMxWW1XQUttQ2N0VXU4Y2hqc1dudkdnSGJKVFdaclRUSThRZ1AwTHlpLWtPRmcyRV9XZGUyd2I2RXB3dE5KMGYz?oc=5",
+            "fecha": "2026-08-24T10:07:35+00:00"
           }
         ],
         "leans_presentes": [
@@ -126,6 +118,28 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVWlVQm1XNmhOeHkwYm5qZ3gyR1k2UDA4anFkeThSeTNrT2JuNGRBb1M2c3VVYmRpVUQ3LUpWRjR4bEhONkI0SzFuNkdIR1V1SW5tdWEzTGdoWk8xTGU1bkI4MzZiRzQ0TU4xaU5QOHhVUVNKWm5zZ0Jka1hEdWlkWWxCUjR1Ykw1VVQ3OEZpS0JRRkNtbkJ4ckhBSlhqRTAzNUtTeE9MNU1wYlpWRl9xVGc5WllJRTU2OVRyT05YMVVNeHZqenpJ?oc=5",
             "fecha": "2026-08-24T23:05:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+            "fecha": "2026-08-24T22:26:01+00:00"
           }
         ],
         "leans_presentes": [
@@ -223,34 +237,12 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "US eyes China overcapacity tariffs of 7.5% before Xi-Trump talks, Bloomberg News reports - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "US eyes China overcapacity tariffs of 7.5% before Xi-Trump talks, Bloomberg News reports - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONVZLUTRjNDFCbG9qX21DUWdHYkNMb3hzYXREb3BhX0lXNGF6MEdxNExNZ1hqYkRxRWU3OUdGY3hKRHdnYm9YOEZkOVRhSnp4bG52bUtWSU10NjQyQTE3Z1ZFRlVRelBSMF9vTGswcTFJRDMzQnkwVGlpeThzeGRlZ3FSd1IwNlBmOVNWeERLaHQtWWZiazQ3OTJyaXJGQmpVb2FKN2RjTlNseDBoNXRrUFJrRnc2MWdoQUhwcnpiQQ?oc=5",
-            "fecha": "2026-08-24T16:04:15+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Ana de Armas acompaña a Rawayana en Chile",
-        "resumen": "La reconocida intérprete viajó a territorio nacional en compañía del músico venezolano conocido artífice del grupo Rawayana, quien culminó una serie de presentaciones en un conocido recinto capitalino. Durante su estancia, la artista fue captada disfrutando de la música local y adelantó que volverá próximamente para participar en una filmación cinematográfica.",
+        "titulo_neutral": "Ana de Armas acompaña al vocalista de Rawayana en Chile",
+        "resumen": "La actriz de origen cubano visitó territorio nacional acompañada por el artista musical que lidera la agrupación Rawayana, quien finalizó sus presentaciones en un conocido recinto capitalino. Durante su estadía, la intérprete disfrutó de expresiones artísticas locales y adelantó su retorno para participar en una producción cinematográfica.",
         "articulos": [
           {
             "titular": "Ana de Armas en Chile: acompaña al vocalista de Rawayana en su gira por Latinoamérica y es captada bailando en el Movistar Arena",
@@ -271,8 +263,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Cadena de auxilio ante paro cardíaco",
-        "resumen": "Aplicar maniobras de reanimación de forma inmediata por parte de personas presentes ante una emergencia cardíaca resulta fundamental mientras arriba el personal médico especializado. Diversos expertos insisten en la importancia de identificar los síntomas con rapidez, comunicarse con los servicios de urgencia y realizar compresiones para elevar las probabilidades de supervivencia.",
+        "titulo_neutral": "Cadena de auxilio para reducir la mortalidad por paro cardíaco",
+        "resumen": "Efectuar maniobras de reanimación cardiopulmonar de manera inmediata puede resultar vital frente a un ataque al corazón mientras arriba la asistencia médica especializada. Expertos en la materia detallan los protocolos iniciales y la importancia de comunicarse con los servicios de urgencia para incrementar las probabilidades de sobrevivencia del afectado.",
         "articulos": [
           {
             "titular": "Reconocer, llamar al 131 y comprimir: la cadena de auxilio que reduce la mortalidad por paro cardíaco",
@@ -293,8 +285,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Testimonio sobre atropello de Paz Ramírez",
-        "resumen": "Un testigo directo entregó detalles sobre los instantes posteriores al trágico atropello que cobró la vida de Paz Ramírez, pariente de una conocida figura pública, mientras se dirigía a buscar a su mascota. El conductor responsable escapó del sitio del suceso sin que hasta el momento se tengan datos sobre su identidad.",
+        "titulo_neutral": "Testimonio sobre el atropello de Paz Ramírez",
+        "resumen": "Un testigo directo entregó detalles sobre el trágico incidente vial que cobró la vida de Paz Ramírez cuando se dirigía a buscar a su mascota. El responsable del atropello escapó del lugar sin que hasta el momento las autoridades hayan podido identificarlo.",
         "articulos": [
           {
             "titular": "Testigo cuenta cómo fue fatal atropello de hermana de María José Prieto, Paz Ramírez: “Oré al lado de ella”",
@@ -315,7 +307,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Apoyo de transmisoras eléctricas a norma de reconexión de clientes",
+        "titulo_neutral": "Apoyo de transmisoras eléctricas a gremios de servicios básicos ante norma sobre reconexión de clientes",
         "resumen": "",
         "articulos": [
           {
@@ -337,8 +329,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Ganancias del primer semestre de Schwager",
-        "resumen": "La corporación reportó una considerable alza en sus ventas totales, impulsada principalmente por un incremento sustancial en sus ganancias operativas. El sector de extracción de minerales concentró la gran mayoría de los ingresos globales de la organización.",
+        "titulo_neutral": "Resultados financieros de Schwager en el primer semestre",
+        "resumen": "La compañía reportó un crecimiento financiero significativo, impulsada principalmente por su sector operativo minero, el cual concentró la gran mayoría de las ventas totales del período. Estas cifras reflejan una expansión importante tanto en sus ingresos consolidados como en sus ganancias antes de impuestos.",
         "articulos": [
           {
             "titular": "Mayores contratos mineros elevan las ganancias de Schwager al primer semestre",
@@ -381,8 +373,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de oficial argentino sobre la soberanía en Magallanes y respuesta del gobierno chileno",
-        "resumen": "El gobierno chileno anunció el envío formal de una queja diplomática a la nación vecina tras las cuestionables afirmaciones de un alto mando militar extranjero sobre la soberanía territorial austral. Desde la Cancillería recordaron la vigencia de los pactos limítrofes y remarcaron la absoluta jurisdicción nacional sobre dicha zona estratégica.",
+        "titulo_neutral": "Nota de protesta del gobierno chileno a Argentina por declaraciones de un alto oficial sobre el Estrecho de Magallanes",
+        "resumen": "El gobierno chileno anunció el envío formal de una queja diplomática al país vecino tras las cuestionables afirmaciones de un alto mando militar extranjero sobre los límites territoriales australes. Las autoridades nacionales recordaron la vigencia de los acuerdos bilaterales que reafirman la jurisdicción soberana sobre dicha zona geográfica.",
         "articulos": [
           {
             "titular": "Magallanes: lo que hay detrás del nuevo cuestionamiento de un alto oficial argentino a soberanía chilena",
@@ -432,7 +424,7 @@
       },
       {
         "titulo_neutral": "Proyecto inmobiliario de CFL Inmobiliaria en Rancagua",
-        "resumen": "Un nuevo proyecto inmobiliario mixto en la capital de la Región de O'Higgins contempla la construcción de cientos de unidades habitacionales y espacios comerciales. Se proyecta que las primeras entregas de este complejo comiencen a realizarse a finales de la presente década.",
+        "resumen": "Un nuevo proyecto inmobiliario de gran envergadura se desarrollará en la capital de la región de O'Higgins, integrando cientos de viviendas y espacios comerciales. Se proyecta que las primeras unidades habitacionales comiencen a ser entregadas a finales de la presente década.",
         "articulos": [
           {
             "titular": "CFL Inmobiliaria avanza en su expansión regional con proyecto de US$ 35 millones en Rancagua",
@@ -455,34 +447,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Mideast live: Oil tanker struck by projectile in Strait of Hormuz off Oman",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman",
-        "fecha": "2026-08-25T03:31:45+00:00"
+        "titular": "US threatens Iran’s economic partners",
+        "medio": "Financial Times",
+        "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-threatens-irans-economic-partners",
+        "fecha": "2026-08-25T04:00:00+00:00"
+      },
+      {
+        "titular": "Rare tornado near Carcassonne in France causes damage and injuries",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/rare-tornado-near-carcassonne-in-france-causes-damage-and-injuries?traffic_source=rss",
+        "fecha": "2026-08-25T03:56:30+00:00"
+      },
+      {
+        "titular": "Iran says it is ready for what US calls 'greatest financial offensive ever'",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-25T03:50:06+00:00"
+      },
+      {
+        "titular": "NZ religious sect leader jailed over death of Chinese follower",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c3d79z4z953o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-08-25T03:07:34+00:00"
       },
       {
         "titular": "Israel’s Netanyahu claims Iran tried to kill one of his sons",
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss",
         "fecha": "2026-08-25T02:54:40+00:00"
-      },
-      {
-        "titular": "Amnesty says India used lethal weapons on ‘Cockroach’ protesters",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/amnesty-says-india-used-lethal-weapons-on-cockroach-protesters?traffic_source=rss",
-        "fecha": "2026-08-25T02:53:48+00:00"
-      },
-      {
-        "titular": "Nevada wildfire forces tens of thousands to evacuate as blaze threatens city of Reno",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/americas/20260825-nevada-wildfire-reno-evacuations",
-        "fecha": "2026-08-25T02:45:28+00:00"
-      },
-      {
-        "titular": "Haiti gang members kill around 40 displaced people in church attack near capital",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/americas/20260825-haiti-gang-members-kill-40-displaced-people-church-attack",
-        "fecha": "2026-08-25T02:25:09+00:00"
       }
     ]
   },
@@ -1700,6 +1692,10 @@
           },
           {
             "fecha": "2026-08-25T03:00:00",
+            "valor": 504.32
+          },
+          {
+            "fecha": "2026-08-25T04:00:00",
             "valor": 504.32
           }
         ],
@@ -7049,7 +7045,7 @@
       "noticias": [
         {
           "titular": "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
-          "extracto": "",
+          "extracto": "Ante la inestabilidad en el sector de la inteligencia artificial, los inversores canalizaron su capital hacia corporaciones cuyos beneficios no dependen de dicha infraestructura. Este movimiento destaca la búsqueda de estabilidad financiera en el mercado tecnológico actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7058,7 +7054,7 @@
         },
         {
           "titular": "Berkshire Hathaway Hasn’t Done This in Over 3 Years",
-          "extracto": "",
+          "extracto": "Por primera vez en casi cuatro años, Berkshire Hathaway volvió a ser un comprador neto de acciones. Sin embargo, el nuevo director ejecutivo, Greg Abel, sorprendió al mercado al desprenderse de algunos títulos durante el trimestre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7067,7 +7063,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK-B)’s Cash Pile Just Shrank for the First Time in Years. Is Greg Abel Finally Spending?",
-          "extracto": "",
+          "extracto": "Bajo la dirección de Greg Abel, quien asumió el cargo a principios de 2026, Berkshire Hathaway redujo sus reservas de efectivo y letras del Tesoro a 364.700 millones de dólares a mediados de año. Esta disminución marca un cambio notable en la estrategia de liquidez que caracterizó a la gestión anterior.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7076,7 +7072,7 @@
         },
         {
           "titular": "Warren Buffett Called Airlines the “Worst Sort of Business.” His Successor Just Built a $5.4 Billion Position Anyway.",
-          "extracto": "",
+          "extracto": "A pesar del histórico escepticismo de Warren Buffett hacia el sector de la aviación, el sucesor elegido por él invirtió recientemente miles de millones en una aerolínea. Esta decisión representa un giro inesperado respecto a la tradicional filosofía de inversión del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8493,6 +8489,10 @@
           },
           {
             "fecha": "2026-08-25T03:00:00",
+            "valor": 272.54
+          },
+          {
+            "fecha": "2026-08-25T04:00:00",
             "valor": 272.54
           }
         ],
@@ -13842,7 +13842,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-          "extracto": "La incursión de McDonald's en el mercado de las bebidas energéticas podría impulsar el valor de sus acciones tras una caída acumulada en 2026. Este nuevo producto representa una oportunidad clave para revitalizar el desempeño bursátil de la compañía.",
+          "extracto": "La incursión de McDonald's en el mercado de las bebidas energéticas podría impulsar sus acciones, las cuales han registrado un descenso de aproximadamente un 11% en 2026. Esta nueva estrategia busca reactivar el interés financiero en la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13851,7 +13851,7 @@
         },
         {
           "titular": "Which Restaurant Stock Is Dominating in 2026: McDonald’s, Chipotle, or Starbucks?",
-          "extracto": "Las valoraciones contrastantes de dos cadenas de restaurantes desafían las expectativas económicas actuales sobre el comportamiento del consumidor. El mercado muestra preferencias inusuales al valorar de manera muy distinta a competidores del mismo sector.",
+          "extracto": "El comportamiento bursátil actual de dos cadenas de restaurantes desafía las expectativas económicas tradicionales ante un consumidor debilitado. Mientras una de las empresas mantiene una valoración extremadamente alta, la otra ha sufrido caídas de doble dígito en lo que va del año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13860,7 +13860,7 @@
         },
         {
           "titular": "THE WENDY'S COMPANY NAMES TARIQ HASSAN CHIEF MARKETING AND CUSTOMER GROWTH OFFICER",
-          "extracto": "Wendy's nombró a Tariq Hassan como su nuevo Director de Marketing y Crecimiento del Cliente para liderar la estrategia comercial de la marca. Como parte de esta reestructuración, la anterior directora de marketing en EE. UU., Lindsay Radkoski, dejará la empresa.",
+          "extracto": "Wendy's nombró a Tariq Hassan como su nuevo director de marketing y crecimiento del cliente, un puesto de nueva creación. Hassan asumirá sus funciones de inmediato y reportará directamente al director ejecutivo, reemplazando a la saliente directora de marketing en EE. UU.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13869,7 +13869,7 @@
         },
         {
           "titular": "Wendy’s hires ex-McDonald’s CMO as chief marketing, customer growth officer",
-          "extracto": "Tariq Hassan reemplazará a Lindsay Radkoski en la dirección de marketing de Wendy's en EE. UU. en el marco de la estrategia de recuperación financiera de la cadena.",
+          "extracto": "Tariq Hassan reemplazará a la anterior directora de marketing en Estados Unidos dentro de la estructura de la cadena de restaurantes. Este cambio forma parte de los esfuerzos continuos de la empresa para implementar su estrategia de reestructuración.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13878,7 +13878,7 @@
         },
         {
           "titular": "Pro-DEI Companies Are Doing Just Fine According To New Study",
-          "extracto": "Nuevos estudios revelan que las empresas que mantuvieron sus programas de diversidad, equidad e inclusión superaron las advertencias de boicot político. Los datos indican que estas iniciativas no afectaron negativamente el rendimiento financiero de las corporaciones que las conservaron.",
+          "extracto": "Nuevas investigaciones contradicen la advertencia de que las políticas de diversidad, equidad e inclusión perjudican el rendimiento financiero de las empresas. Esto ocurre a pesar de la presión conservadora actual para eliminar dichas iniciativas en el sector corporativo estadounidense.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15449,6 +15449,10 @@
           },
           {
             "fecha": "2026-08-25T03:00:00",
+            "valor": 487.31
+          },
+          {
+            "fecha": "2026-08-25T04:00:00",
             "valor": 487.31
           }
         ],
@@ -20798,7 +20802,7 @@
       "noticias": [
         {
           "titular": "Microsoft Rises as $678 Billion Backlog Defies Tech Selloff",
-          "extracto": "La fuerte demanda contratada en los servicios de Azure permite que Microsoft destaque positivamente, a pesar de las dudas de los inversores sobre el financiamiento general en el sector de la inteligencia artificial. Esto demuestra solidez financiera en un mercado cauteloso.",
+          "extracto": "La fuerte demanda contratada en los servicios de Azure permite a Microsoft destacar financieramente, en un contexto de dudas de los inversores sobre el financiamiento general de la inteligencia artificial. Esto demuestra la solidez comercial de la compañía en el sector tecnológico actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20807,7 +20811,7 @@
         },
         {
           "titular": "Can NOW's Tech Mahindra Deal Boost Its AI Edge Over CRM & MSFT?",
-          "extracto": "ServiceNow amplió su alianza estratégica con Tech Mahindra para expandir el uso de inteligencia artificial en el ámbito empresarial. El acuerdo busca mejorar la regulación y facilitar la monetización tecnológica frente al incremento de la competencia.",
+          "extracto": "ServiceNow amplió su alianza con Tech Mahindra con el propósito de expandir la adopción empresarial de la inteligencia artificial, mejorar su regulación y facilitar la generación de ingresos. Este movimiento busca consolidar su posición frente a una competencia cada vez más intensa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20816,7 +20820,7 @@
         },
         {
           "titular": "Microsoft Stock in 2027: My Prediction Is That It Still Beats the Market",
-          "extracto": "Analistas consideran que Microsoft representa una oportunidad atractiva de inversión gracias a su transformación en una plataforma central de inteligencia artificial. Esta evolución consolida su posición competitiva a largo plazo.",
+          "extracto": "Microsoft se posiciona como una opción de inversión atractiva debido a su transformación en una infraestructura central para el desarrollo de inteligencia artificial. Esta evolución consolida su relevancia a largo plazo dentro del mercado tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20825,7 +20829,7 @@
         },
         {
           "titular": "Microsoft Stock's Upside Now Runs Through Its Data Center Build",
-          "extracto": "El optimismo financiero en torno a Microsoft depende principalmente de la velocidad con la que la compañía logre cumplir con los pedidos ya contratados. La capacidad de entrega es el factor clave para mantener la confianza del mercado.",
+          "extracto": "El principal argumento a favor del crecimiento financiero de Microsoft ya no depende de la aparición de nuevos clientes, sino de la velocidad con la que la empresa logre entregar los pedidos ya contratados. La capacidad operativa es el factor clave para materializar sus ingresos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20834,7 +20838,7 @@
         },
         {
           "titular": "This Tech Stock Is Being Highly Overlooked in the AI Race",
-          "extracto": "A pesar de que Nvidia acapara la atención mediática en inteligencia artificial, una empresa de software ha desarrollado una sólida posición en el sector corporativo. Su actual valoración bursátil difiere notablemente de la percepción general del mercado.",
+          "extracto": "A pesar del protagonismo mediático de NVIDIA, una empresa de software ha consolidado una de las posiciones más seguras en el mercado de la inteligencia artificial corporativa. Su valoración actual en el mercado difiere notablemente de la percepción pública predominante.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22465,6 +22469,10 @@
           },
           {
             "fecha": "2026-08-25T03:00:00",
+            "valor": 701.83
+          },
+          {
+            "fecha": "2026-08-25T04:00:00",
             "valor": 701.83
           }
         ],
@@ -27814,7 +27822,7 @@
       "noticias": [
         {
           "titular": "Vanguard 500 Index Fund Admiral Shares (VFIAX): What Investors Should Know",
-          "extracto": "A pesar de su bajo coste y enorme patrimonio, este popular fondo de Vanguard presenta un riesgo de concentración oculto que contradice su aparente diversificación. Esta vulnerabilidad es crucial para los inversores que buscan estrategias verdaderamente equilibradas.",
+          "extracto": "A pesar de sus bajas comisiones y su apariencia diversificada, este popular fondo indexado de Vanguard esconde un alto riesgo de concentración en pocos activos. Esto puede vulnerar a los inversores que buscan una cartera verdaderamente equilibrada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27823,7 +27831,7 @@
         },
         {
           "titular": "Fidelity 500 Index Fund (FXAIX): What Investors Should Know",
-          "extracto": "Uno de los fondos mutuos más grandes del mundo ofrece comisiones mínimas, pero su diseño interno genera complicaciones fiscales imprevistas para los accionistas. Este inconveniente suele pasar desapercibido hasta que impacta la rentabilidad final.",
+          "extracto": "Uno de los fondos mutuos más grandes del mundo ofrece costos de gestión mínimos, pero oculta una estructura interna que genera inconvenientes fiscales imprevistos para los accionistas. Este detalle tributario suele pasar desapercibido hasta que impacta en los rendimientos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27832,7 +27840,7 @@
         },
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "Para aprovechar al máximo el crecimiento a largo plazo que ofrece el índice S&P 500, es fundamental que los inversores consideren ciertos factores estratégicos. Conocer estos elementos ayuda a maximizar los rendimientos mediante el interés compuesto.",
+          "extracto": "Para aprovechar al máximo el crecimiento a largo plazo que ofrece la inversión en el índice S&P 500, los ahorradores deben considerar ciertos factores fundamentales. Conocer estas variables ayuda a evitar errores comunes en la gestión del capital.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27841,7 +27849,7 @@
         },
         {
           "titular": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
-          "extracto": "El liderazgo en los grandes fondos indexados cambió recientemente y la brecha económica actual es considerable. Además, una cuarta parte del valor total de estos vehículos financieros se concentra en apenas cinco empresas.",
+          "extracto": "El liderazgo entre los principales fondos indexados cambió a partir de 2024 y la brecha actual asciende a cientos de miles de millones de dólares. Además, una cuarta parte de los activos de este fondo gigante se concentra en solo cinco empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27850,7 +27858,7 @@
         },
         {
           "titular": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-          "extracto": "State Street administra dos fondos cotizados del S&P 500 con carteras y dividendos idénticos, pero la mayoría del capital se concentra en la opción más cara. Esta preferencia irracional de los inversores encarece innecesariamente la gestión de sus carteras.",
+          "extracto": "State Street administra dos fondos cotizados del S&P 500 con carteras, ponderaciones y dividendos idénticos, pero la mayoría del capital se concentra en la opción más cara. Esta preferencia de los inversores desafía la lógica de buscar siempre los menores costos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
