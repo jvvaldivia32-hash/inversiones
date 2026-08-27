@@ -2,10 +2,15 @@ name: Radar (semanal)
 
 on:
   schedule:
-    - cron: '0 6 * * 1'   # lunes 06:00 UTC — los fundamentales del universo (~80 tickers)
+    - cron: '23 6 * * 1'   # lunes 06:23 UTC — los fundamentales del universo (~80 tickers)
                           # cambian ~4 veces al año, no tiene sentido evaluarlos cada hora
                           # como al resto del collector (sección 3.2 del plan madre, "~90
                           # tickers, refrescado semanal").
+                          #
+                          # El minuto no es en punto a propósito: GitHub bota eventos
+                          # `schedule` cuando su cola está cargada y :00/:30 son los minutos
+                          # más congestionados (ver la nota larga en daily.yml).
+
   workflow_dispatch:       # botón manual
 
 jobs:

@@ -2,8 +2,13 @@ name: Paper investing (aporte mensual)
 
 on:
   schedule:
-    - cron: '0 6 1 * *'   # día 1 de cada mes, 06:00 UTC — simula el "sueldo" mensual del
+    - cron: '33 6 1 * *'   # día 1 de cada mes, 06:33 UTC — simula el "sueldo" mensual del
                           # simulador de cartera ficticia, no tiene sentido más seguido.
+                          #
+                          # El minuto no es en punto a propósito: GitHub bota eventos
+                          # `schedule` cuando su cola está cargada y :00/:30 son los minutos
+                          # más congestionados (ver la nota larga en daily.yml).
+
   workflow_dispatch:       # botón manual
 
 jobs:

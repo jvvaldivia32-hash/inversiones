@@ -2,9 +2,19 @@ name: Recolector (cada hora)
 
 on:
   schedule:
-    - cron: '0 * * * *'   # cada hora, todo el día — decisión consciente del usuario,
-                          # ver nota en docs/plan-app-inversiones.md junto a la sección 4.1
-  workflow_dispatch:       # botón manual
+    # Dos horarios por hora, no dos recolecciones: el de :17 es el principal y el de :47 el
+    # respaldo, que solo trabaja si el principal no dejó dato fresco (ver paso "frescura").
+    #
+    # Por qué no está en :00 como antes: GitHub bota eventos `schedule` sin avisar cuando su
+    # cola está cargada, y el minuto :00 es el más congestionado de todo GitHub. Pasó el
+    # 26-27 de agosto de 2026 — de ~24 runs al día a 2, con todos los runs que sí corrieron
+    # en `success`, los 5 workflows `active`, repo público (minutos ilimitados) y sin
+    # incidente abierto en githubstatus.com. La cadencia horaria sigue siendo la decisión
+    # consciente del usuario (ver nota en docs/plan-app-inversiones.md junto a la sección 4.1);
+    # esto solo la defiende de que GitHub la deje caer.
+    - cron: '17 * * * *'   # principal
+    - cron: '47 * * * *'   # respaldo
+  workflow_dispatch:       # botón manual — siempre recolecta, se saltea el chequeo de frescura
 
 jobs:
   recolectar:
@@ -16,16 +26,50 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install -r collector/requirements.txt
+      # El tramo horario de `historico_precios.json` guarda todos los puntos que le llegan
+      # (ver compactar() en collector/historico.py), así que recolectar dos veces por hora
+      # duplicaría ese archivo — 5,1 MB hoy — a cambio de nada. Este paso hace que el run de
+      # respaldo salga en ~10 segundos cuando el principal ya hizo el trabajo.
+      - id: frescura
+        env:
+          # Cualquier disparo que no sea el cron (el botón manual) recolecta igual.
+          FORZAR: ${{ github.event_name != 'schedule' && '1' || '' }}
+        run: |
+          python - <<'PY' | tee -a "$GITHUB_OUTPUT"
+          import datetime, json, os, pathlib
 
-      - run: python collector/main.py
+          # Los dos crons están a 30 min de distancia: si el principal corrió, acá el dato
+          # tiene 30 min y el respaldo se saltea; si lo botaron, tiene 60+ y hay que correr.
+          MAX_MIN = 45
+
+          if os.environ.get("FORZAR"):
+              minutos = float("inf")
+          else:
+              try:
+                  generado = json.loads(pathlib.Path("data/daily.json").read_text())["generado"]
+                  ahora = datetime.datetime.now(datetime.timezone.utc)
+                  minutos = (ahora - datetime.datetime.fromisoformat(generado)).total_seconds() / 60
+              except Exception:
+                  minutos = float("inf")  # sin archivo, ilegible o sin fecha: recolectar igual
+
+              print(f"# daily.json generado hace {minutos:.0f} min (umbral: {MAX_MIN})")
+
+          print(f"correr={'si' if minutos >= MAX_MIN else 'no'}")
+          PY
+
+      - if: steps.frescura.outputs.correr == 'si'
+        run: pip install -r collector/requirements.txt
+
+      - if: steps.frescura.outputs.correr == 'si'
+        run: python collector/main.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           BCCH_API_KEY: ${{ secrets.BCCH_API_KEY }}
 
-      - run: |
+      - if: steps.frescura.outputs.correr == 'si'
+        run: |
           git config user.name "recolector"
           git config user.email "bot@users.noreply.github.com"
           git add data/historico_precios.json data/daily.json

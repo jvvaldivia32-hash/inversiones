@@ -2,9 +2,14 @@ name: Fintual (diario)
 
 on:
   schedule:
-    - cron: '0 13 * * *'   # 13:00 UTC ~ 10:00 Chile (verano) / 09:00 (invierno) — el
+    - cron: '13 13 * * *'   # 13:13 UTC ~ 10:13 Chile (verano) / 09:13 (invierno) — el
                           # valor cuota de un fondo mutuo chileno se actualiza una vez
                           # al día, no cada hora como el resto del collector.
+                          #
+                          # El minuto no es en punto a propósito: GitHub bota eventos
+                          # `schedule` cuando su cola está cargada y :00/:30 son los minutos
+                          # más congestionados (ver la nota larga en daily.yml).
+
   workflow_dispatch:       # botón manual
 
 jobs:
