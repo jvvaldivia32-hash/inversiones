@@ -54,8 +54,10 @@ Nunca sobreescribir los umbrales de una tesis existente.
 
 ## Stack
 
-Recolector: Python, corre en GitHub Actions por cron. Visor: React + Vite, deploy en
-Vercel. Un repo, dos carpetas (`collector/`, `web/`). El visor sigue sin llamar APIs en vivo
+Recolector: Python, corre en GitHub Actions por cron (seis workflows: el horario
+`daily.yml`, más Radar semanal, Fintual diario, Amigos diario, el aporte mensual del
+simulador y el resumen matutino de Telegram). Visor: React + Vite, deploy en Vercel.
+Un repo, dos carpetas (`collector/`, `web/`). El visor sigue sin llamar APIs en vivo
 para *mostrar* datos de mercado — precios, noticias, fundamentales vienen únicamente de
 `data/daily.json`. La excepción son caminos acotados de lectura/escritura de datos propios
 del usuario, cada uno una función serverless de Vercel que habla directo con la API de
@@ -95,104 +97,164 @@ usuario/contraseña pero no se usa acá, se usa el REST con `?token=`),
 al repo `inversiones-privado`, usado por `web/api/mi-inversion.ts` — separado del token de
 arriba a propósito, para no ampliarle el alcance a un token que ya escribe en el repo
 público), `WATCHLIST_EDIT_KEY` (clave compartida que protege el POST de esos cuatro
-endpoints — no es autenticación real, es el candado mínimo para una app de un solo usuario).
+endpoints — no es autenticación real, es el candado mínimo para una app de un solo usuario),
+`TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` (el bot que manda las alertas de movimiento fuerte
+y el resumen de la mañana; si falta cualquiera de los dos, todo el camino de Telegram es un
+no-op silencioso y el recolector sigue igual — nunca tumba una corrida por un aviso).
 
-## Pendiente (al cerrar la sesión del 2026-08-24, ya de madrugada del 25)
+Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que solo agrega el
+link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
+→ Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-Todo lo de abajo ya está commiteado — lo que falta es deployar (si no corrió solo) y que
-José lo pruebe desde su celular y decida los próximos pasos. No asumir que algo de esto está
-aprobado para seguir sin que él confirme primero.
+## Pendiente (al cerrar la sesión del 2026-08-27, ya de madrugada del 28)
 
-- **Lo primero al retomar (2026-08-25):** José todavía no vio nada de lo del 24 en el
-  celular. Antes de picar código nuevo, preguntarle qué le pareció: el rango "10A" del
-  gráfico (¿se lee bien el eje rotulando año por medio?), los puntos de color por métrica
-  (¿los umbrales le hacen sentido, sobre todo qué quedó ámbar vs. rojo?) y las dos cards por
-  fila del simulador. Todo eso está pusheado y desplegado.
+**Contexto de arranque:** José sigue sin haber visto nada de lo del 24 *ni* de lo del 27 —
+lo dijo explícitamente al cerrar esta sesión ("no he leído nada de lo que hemos hecho").
+Todo lo de abajo está commiteado y pusheado. No asumir que algo está aprobado para seguir
+sin que él lo mire y confirme primero.
 
-- **Testeo pendiente del usuario** (nada bloqueante, solo falta que lo use): comprar/
-  vender/editar/borrar en "mi inversión" (`MiInversion.tsx`) con clave real — el flujo
-  completo solo se probó con clave incorrecta (401) porque no tengo el `WATCHLIST_EDIT_KEY`
-  real; los recuadros "HOY"/"TU POSICIÓN" del header; el contraste del tooltip del gráfico;
-  los resúmenes de Mundo/Chile más largos (esto último ya confirmado corriendo en
-  `daily.json`, solo falta que él lo lea y opine).
+### 1. Lo primero al retomar: los dos secrets de Telegram
 
-- **Contexto de métricas — ahora también en tus posiciones, no solo en Radar** (2026-08-20):
-  José notó que PEP (una card del Radar) mostraba "Ingresos: crecimiento saludable" etc. pero
-  sus posiciones reales no — el contexto (`referenciasMetricas.ts`) solo se había cableado en
-  `Radar.tsx`. Se agregó el mismo bloque de 3 líneas a `CardInversion.tsx` (visible apenas se
-  abre la card, no hace falta entrar a "métricas avanzadas"), más una fila nueva "Deuda /
-  patrimonio" dentro de "métricas avanzadas" (`metricas_avanzadas.deuda_patrimonio`, mismo
-  cálculo y misma excepción para bancos que ya usaba el Radar). **Confirmado 2026-08-24:**
-  `deuda_patrimonio` ya viene con dato real en `daily.json`, así que esto quedó cerrado.
+Nada de lo que se construyó esta sesión llega al celular hasta que José haga esto. Son
+cinco minutos y es 100% de él, no se puede hacer desde acá:
 
-- **Contexto de métricas — iteración 2 con Gemini (pendiente de decisión):** sigue sin
-  empezar, sin cambios respecto a la sesión anterior. No armar hasta que José la pida
-  explícitamente después de probar lo de arriba.
+1. En Telegram, hablarle a **@BotFather** → `/newbot` → elegir nombre. Devuelve un token
+   tipo `8123456789:AAH...`.
+2. Escribirle *algo* al bot recién creado (un "hola") — sin eso Telegram no deja que el bot
+   inicie la conversación.
+3. Sacar el chat id: abrir `https://api.telegram.org/bot<TOKEN>/getUpdates` en el navegador
+   y copiar `result[0].message.chat.id`.
+4. Repo → Settings → Secrets and variables → Actions → New repository secret, dos veces:
+   `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID`.
+5. Opcional: en la pestaña **Variables** (no Secrets), `APP_URL` con la URL de Vercel, para
+   que el resumen traiga el link "Ver todo en la app". La URL no está en el repo — hay que
+   preguntársela.
 
-- **Simulador de cartera ficticia / "paper investing"** (2026-08-20, extra fuera del plan
-  madre, pestaña nueva "Simulador"): parte con US$5.000 ficticios
-  (`data/paperinvesting.json`, sembrado a mano) + un cron mensual nuevo
-  (`.github/workflows/paper_aporte_mensual.yml`, día 1 de cada mes) que suma US$100. Compra/
-  venta reusa `MiInversion.tsx` generalizado (`endpoint`/`permitirEditar` como props nuevas)
-  contra `web/api/paperinvesting.ts` (repo público, `GITHUB_WRITE_TOKEN` — a diferencia de
-  "mi inversión" real, acá no hay plata real que proteger). Universo comprable: watchlist +
-  candidatos del Radar (~18 tickers, los únicos con precio+`serie_precio` completos hoy en
-  `daily.json`) — José hizo notar que no hacía falta pedirle nada nuevo a Finnhub para esto,
-  se puede reusar tal cual. Si compras algo que luego deja de ser candidato del Radar (la
-  lista cambia semana a semana), la card se queda sin gráfico/precio fresco hasta que vuelva
-  a aparecer — limitación conocida de v1, no un bug. Sin gráfico de "valor total de la
-  cartera en el tiempo" todavía (necesitaría snapshots diarios, es v2 si lo pide). Sin acción
-  "editar" (acá no hay bróker externo con el que reconciliar). **Pendiente: que José lo
-  pruebe** (comprar algo de la watchlist y algo del Radar, vender una fracción) y que corra
-  la primera vez el cron mensual o que se confirme que el archivo semilla alcanza mientras
-  tanto.
+Para probar sin esperar: Actions → "Resumen por Telegram (mañana)" → Run workflow. Ya se
+corrió así el 2026-08-28T03:42 **sin** los secrets y salió limpio (`Telegram sin configurar
+(falta TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID)`, exit 0) — o sea el workflow está validado
+contra la infra real, lo único que falta son las credenciales.
 
-- **Histórico de precio a 10 años (hecho y commiteado 2026-08-24):** el gráfico tiene rango
-  "10A" además de "5A". `compactar()` en `collector/historico.py` pasó a tres tramos
-  (horario 45d / diario 2a / semanal 10a) en vez de dos: el gráfico ya dibujaba 5A con un
-  punto por semana, así que guardar 250 puntos por año para dibujar 52 era peso puro — con
-  la escalera nueva el archivo queda en ~1.270 puntos por ticker, casi lo mismo que ocupaban
-  5 años diarios, con el doble de historia. `collector/backfill_10a.py` es el script de una
-  sola vez que le vuelve a pedir los 10 años a Yahoo (no está en ningún workflow a
-  propósito): ya se corrió sobre los 83 tickers y respondieron los 83. Ante choque de
-  timestamp **gana lo ya guardado**, para no pisar la resolución horaria propia del cron con
-  el cierre ajustado de Yahoo; se verificó que ningún ticker perdió puntos de los últimos 45
-  días. EA, LTM y RBLX no llegan a 10 años porque cotizan desde después de 2016 — no es un
-  bug. Pendiente: que corra el próximo cron para que `serie_precio` en `daily.json` traiga la
-  clave `10A` (hasta entonces el botón "10A" del gráfico no dibuja nada), y que José lo mire.
+### 2. GitHub dejó de disparar los cron — arreglado a medias, SIN VERIFICAR
 
-- **Señal verde/ámbar/rojo por métrica (hecho y commiteado 2026-08-24):** la versión acotada
-  del semáforo que José pidió — "no explícitamente COMPRA, sino buen X / mal X en datos
-  específicos". Cada lectura de `referenciasMetricas.ts` devuelve ahora `{texto, nivel}` y
-  `SenalMetrica.tsx` la pinta como punto de color en Radar, `CardInversion` y
-  `MetricasAvanzadas`. **Es por métrica y nada más:** no se suman los niveles ni se deriva de
-  ellos un veredicto agregado tipo "7 de 10" — eso choca con la regla dura del Radar y es
-  otra decisión, hay que preguntarle antes. `neutro` no pinta color (el color es solo señal, y
-  "está en el rango normal" es la ausencia de una). Ámbar vs. rojo: valoración cara, deuda
-  alta o volatilidad son ámbar (elecciones de perfil, no defectos del negocio); rojo solo para
-  "pierde plata o se está encogiendo". De paso se arregló un bug de `banda()`: cuando ningún
-  tramo cubría el valor devolvía el tramo más bajo, así que MCD con deuda/patrimonio −38,97
-  salía como "deuda baja". Pendiente: que José lo vea desplegado y diga si los umbrales le
-  hacen sentido.
+Esto es lo que motivó toda la sesión: José vio que la app llevaba horas sin actualizarse.
 
-- **Atajo "Actualidad" del nav, solo en mobile (hecho y commiteado 2026-08-24):** desde
-  960px Actualidad ya es la columna izquierda sticky de la vista "Hoy", así que el botón del
-  nav no llevaba a ningún lado que no se viera ya. En mobile sigue.
+**Diagnóstico (con datos, no con corazonada):** GitHub está botando los eventos `schedule`
+de este repo. Hasta el 26-08 14:00 UTC el recolector corría casi cada hora; después se
+degradó (16, 18, 21 → dos runs el 27 → nada). El último run *programado* de cualquier
+workflow fue el 2026-08-27T13:28 UTC; a las 03:41 UTC del 28 seguía sin haber ninguno, o sea
+14+ horas de silencio total, incluidos los daily de Fintual y Amigos. Descartado uno por uno:
+no es el collector (todos los runs que sí corrieron terminaron `success`), no es cuota (repo
+público, minutos ilimitados), no son los workflows (los cinco `active`), no es un incidente
+(githubstatus.com decía Actions operacional). Y los runs que sí llegaban arrancaban a minutos
+random (:12, :28, :37, :46, :54) en vez de :00 — la firma clásica de la cola de Actions.
 
-- **Simulador: dos cards por fila (hecho y commiteado 2026-08-24):** el simulador ya vivía
-  dentro del breakout ancho (`.vista-ancha`, 1200px) pero apilaba las posiciones en una sola
-  columna, así que cada card se estiraba a todo el ancho y el gráfico quedaba demasiado
-  gordo. Ahora usa el mismo breakpoint y la misma medida que `.posiciones-lista` de
-  "Inversión" (`minmax(380px, 1fr)`, que a 1200px da dos columnas y no tres) para que las
-  dos vistas se vean igual. Si alguna vez se toca una de las dos medidas, tocar la otra.
+**Lo que se hizo** (commit `2b3a851`): ninguno de los cinco workflows arranca ya en :00 ni
+:30, los dos minutos más congestionados de GitHub. Y `daily.yml` pasó a tener dos horarios
+por hora — `:17` principal y `:47` respaldo — donde el respaldo sale en ~10 segundos si
+`data/daily.json` tiene menos de 45 minutos (paso `frescura`). No son dos recolecciones:
+el tramo horario de `historico_precios.json` guarda todos los puntos que le llegan, así que
+recolectar dos veces por hora duplicaría ese archivo (5,1 MB hoy) a cambio de nada.
 
-- **Semáforo de recomendación de compra (verde→rojo):** parcialmente resuelto por la señal
-  por métrica de arriba, que es hasta dónde llega sin chocar con la regla dura del Radar. Lo
-  que sigue prohibido sin preguntarle primero es el paso siguiente: sumar esas señales en un
-  puntaje o veredicto único por ticker. Mismo protocolo si lo vuelve a pedir: señalar el
-  choque, preguntar, documentar acá si dice que sí.
+**Ojo — esto todavía no se probó que funcione.** Entre el push (2026-08-27 ~22:15 UTC) y el
+cierre de sesión (03:41 UTC del 28) no se disparó **ni un solo** cron, así que no hay
+evidencia de que cambiar el minuto ayude. Importante para no confundirse mañana: los runs
+programados ya estaban muertos *antes* de tocar los YAML (último: 13:28 UTC), así que el
+silencio no lo causó este cambio.
 
-- **Buscador de data avanzada para cualquier ticker:** sin cambios, sigue sin empezar.
-  Conversarlo con calma antes de picar código.
+**Qué hacer al retomar, en orden:**
 
-- **Extender "métricas avanzadas" completas al Radar:** sin cambios, sigue sin confirmar.
+- Mirar `gh run list --limit 20` y ver si hubo runs con `event=schedule` durante la noche.
+- Si volvieron: listo, el cambio de minuto alcanzó. Nada más que hacer.
+- Si **siguen sin correr**: la respuesta es la opción que quedó en la manga, un **disparador
+  externo** — un cron gratis fuera de GitHub (cron-job.org u otro) que llame por API al
+  `workflow_dispatch` de `daily.yml`. `workflow_dispatch` no sufre este throttling, se
+  comprobó esta misma sesión (todos los disparos manuales corrieron al toque). Cuesta $0 pero
+  mete una pieza de terceros y un PAT viviendo fuera del repo, así que **preguntarle antes**:
+  ya se le ofreció el 27 y eligió empezar por lo barato.
+
+De paso se endureció el push de `daily.yml`: antes hacía `git pull --rebase` a secas y si dos
+runs se pisaban, el segundo moría con un conflicto en `daily.json` (pasó de verdad el 27,
+disparando dos runs manuales a la vez). Ahora el snapshot recién generado gana: se rearma
+sobre `origin/main` y reintenta hasta 3 veces.
+
+Para desatascar la data esa noche se corrió el recolector a mano — `daily.json` quedó en
+2026-08-27T21:26 UTC (17:26 Chile).
+
+### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
+
+Lo pidió José a mitad de sesión. Los parámetros los eligió él el 2026-08-27: **las dos
+cosas**, umbral **±5%**, sobre **watchlist + candidatos del Radar** (descartó explícitamente
+el simulador y sus posiciones reales — o sea *no* hubo que darle al repo público un token de
+lectura sobre `inversiones-privado`, la excepción #3 sigue intacta).
+
+- **Alertas** (`collector/alertas.py`, enganchado al final de `collector/main.py`): corre
+  pegado al recolector horario, así que el aviso sale en el mismo run que detecta el
+  movimiento — no hay un segundo cron esperando. Antiduplicado en
+  `data/alertas_enviadas.json`: un ticker no repite el mismo día *salvo* que se mueva otro 5%
+  entero (5% → 10% → 15%), y el día se cuenta según Nueva York, no según UTC, para que un run
+  de las 00:30 UTC no reinicie la sesión de ayer y reavise todo. Si el envío falla no se
+  guarda el estado, así el próximo run reintenta en vez de dar por avisado algo que nunca
+  llegó.
+- **Resumen matutino** (`collector/resumen_telegram.py` + `.github/workflows/
+  resumen_telegram.yml`, 11:38 UTC lun-vie ≈ 07:38 Chile, antes de que abra el mercado): tus
+  tickers ordenados por cuánto se movieron, índices, referencias de Chile y dos titulares de
+  cada bloque. Sale entero de `daily.json`, sin `pip install` ni una sola llamada a APIs.
+  Renderizado contra la data real: 1.434 caracteres, cómodo bajo el tope de 4.096 de Telegram.
+- **Ninguno de los dos aconseja nada** — precio, variación y el titular con link, igual que el
+  Radar. Los extractos son los que Gemini ya reescribió, nunca texto copiado (reglas duras de
+  Radar y de copyright).
+- La watchlist ya trae `var_dia_pct` en `daily.json`; los candidatos del Radar **no** (su
+  `serie_precio` solo se refresca en el cron semanal), así que se les pide la quote a Finnhub:
+  ~16 llamadas por hora, muy dentro del free tier de 60 por minuto, y **no** se guardan en el
+  histórico para no engordarlo con tickers que el Radar puede sacar la semana que viene.
+- 29 tests nuevos (`test_alertas.py`, `test_resumen_telegram.py`); la suite entera queda en
+  183 pasando. Los 3 módulos que no corren localmente (`test_amigos`, `test_noticias`,
+  `test_rss`) es solo que falta `feedparser` en esta máquina — nada que ver con esto.
+
+**Pendiente:** que José ponga los secrets (punto 1) y después diga si el umbral de 5% le
+suena bien en la práctica y si el resumen de las 07:38 trae lo que quiere ver. El umbral es
+una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
+
+### 4. Bug encontrado de paso, sin arreglar (necesita su decisión)
+
+`collector/main.py` llama a `_guardar_tesis()` en cada corrida, pero `daily.yml` nunca
+commitea `data/tesis.json` — solo `daily.json`, `historico_precios.json` y ahora
+`alertas_enviadas.json`. O sea: cada revisión automática de tesis que hace el collector
+(`_revisar_tesis_ticker`, el semáforo pasando a ámbar o a roto) se escribe en el runner y se
+tira a la basura. Las tesis que crea José desde la web sí persisten, porque `web/api/tesis.ts`
+escribe directo contra la API de GitHub. Confirmado: `tesis.json` tiene un solo commit en toda
+su historia, el del día que se construyó la feature.
+
+No se tocó porque es Fase 7 y la regla dura dice que una tesis es inmutable — hay que
+entender bien qué campos toca `_revisar_tesis_ticker` antes de empezar a persistirlos.
+Preguntarle a José si quiere que se arregle.
+
+### 5. Lo del 24 de agosto, todavía sin mirar
+
+Sigue igual que como quedó esa noche — José no lo ha visto. Antes de picar código nuevo,
+preguntarle:
+
+- **Rango "10A" del gráfico**: ¿se lee bien el eje rotulando año por medio? (Confirmado el 27:
+  `daily.json` ya trae la clave `10A`, 522 puntos por ticker, así que el botón ya dibuja.)
+- **Puntos de color por métrica**: ¿los umbrales le hacen sentido, sobre todo qué quedó ámbar
+  vs. rojo? (Ámbar = elecciones de perfil: valoración cara, deuda alta, volatilidad. Rojo =
+  "pierde plata o se está encogiendo".)
+- **Simulador a dos cards por fila** en desktop.
+- **Simulador en general**: nunca lo usó. Comprar algo de la watchlist y algo del Radar,
+  vender una fracción. Falta también que corra por primera vez el cron del aporte mensual
+  (día 1), o confirmar que el archivo semilla alcanza mientras tanto.
+- **"Mi inversión"**: comprar/vender/editar/borrar con la clave real. El flujo completo solo
+  se probó con clave incorrecta (401) porque acá no se tiene el `WATCHLIST_EDIT_KEY` real.
+- Los recuadros "HOY"/"TU POSICIÓN" del header y el contraste del tooltip del gráfico.
+
+### 6. Sin empezar, esperando que las pida explícitamente
+
+- **Contexto de métricas, iteración 2 con Gemini.** Sin cambios.
+- **Buscador de data avanzada para cualquier ticker.** Conversarlo con calma antes de picar
+  código.
+- **Extender "métricas avanzadas" completas al Radar.** Sin confirmar.
+- **Puntaje o veredicto agregado por ticker** (sumar las señales por métrica en un "7 de 10").
+  Sigue **prohibido sin preguntar primero**: choca con la regla dura del Radar. La señal por
+  métrica del 24 es hasta donde se puede llegar sin esa conversación. Si lo vuelve a pedir:
+  señalar el choque, preguntar, y documentar acá si dice que sí.
