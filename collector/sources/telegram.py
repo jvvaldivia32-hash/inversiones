@@ -1,6 +1,7 @@
 import html
 import json
 import os
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -35,6 +36,50 @@ def escapar(texto: str) -> str:
     return html.escape(texto, quote=False)
 
 
+_TAG = re.compile(r"<(/?)([a-z]+)[^>]*>")
+
+
+def _cerrar_tags(texto: str) -> str:
+    """Cierra las etiquetas que quedaron abiertas al cortar. Telegram rechaza el mensaje
+    entero con un 400 si ve un `<b>` sin su `</b>`."""
+    abiertos = []
+    for cierra, tag in _TAG.findall(texto):
+        if cierra:
+            if abiertos and abiertos[-1] == tag:
+                abiertos.pop()
+        else:
+            abiertos.append(tag)
+    return texto + "".join(f"</{t}>" for t in reversed(abiertos))
+
+
+def _sin_fragmento_final(texto: str) -> str:
+    """Saca una etiqueta o una entidad partida al medio (`<a hre`, `&am`) al final del corte."""
+    for abre, cierra in (("<", ">"), ("&", ";")):
+        i = texto.rfind(abre)
+        if i != -1 and cierra not in texto[i:]:
+            texto = texto[:i]
+    return texto
+
+
+def recortar(texto: str, maximo: int = LARGO_MAXIMO) -> str:
+    """Corta un mensaje largo dejándolo como HTML válido.
+
+    Cortar a lo bruto en el carácter 4095 parte una etiqueta o una entidad al medio, y
+    Telegram rebota el mensaje con el mismo 400 que este recorte quiere evitar. Se corta
+    en el borde de un bloque si se puede, y si no, se cierra lo que quedó abierto.
+    """
+    if len(texto) <= maximo:
+        return texto
+
+    # Margen para el "…" y para las etiquetas de cierre que puede haber que agregar.
+    corte = texto[: maximo - 40]
+    # Borde de bloque si se puede, si no de línea, y recién ahí a lo bruto: un corte a mitad
+    # de línea deja un "US$ 712,0" colgando que se lee como dato roto.
+    borde = max(corte.rfind("\n\n"), corte.rfind("\n"))
+    corte = corte[:borde] if borde > maximo // 2 else _sin_fragmento_final(corte)
+    return _cerrar_tags(corte) + "\n…"
+
+
 def enviar(texto: str) -> bool:
     """Manda un mensaje al chat configurado. Devuelve si se envió.
 
@@ -45,8 +90,7 @@ def enviar(texto: str) -> bool:
         print("  Telegram sin configurar (falta TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID)")
         return False
 
-    if len(texto) > LARGO_MAXIMO:
-        texto = texto[: LARGO_MAXIMO - 1] + "…"
+    texto = recortar(texto)
 
     url = f"{BASE_URL}/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage"
     datos = urllib.parse.urlencode(

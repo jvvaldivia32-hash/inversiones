@@ -102,3 +102,33 @@ def test_telegram_no_envia_sin_configurar(monkeypatch):
 
 def test_telegram_escapa_html():
     assert telegram.escapar("Pepsi & <b>Co</b>") == "Pepsi &amp; &lt;b&gt;Co&lt;/b&gt;"
+
+
+def test_recortar_deja_pasar_un_mensaje_normal():
+    assert telegram.recortar("<b>corto</b>") == "<b>corto</b>"
+
+
+def test_recortar_corta_en_el_borde_de_un_bloque():
+    bloque = "<b>Tus tickers</b>\n" + "\n".join(f"• MSFT {i}" for i in range(20))
+    largo = "\n\n".join([bloque] * 40)
+    recortado = telegram.recortar(largo)
+    assert len(recortado) <= telegram.LARGO_MAXIMO
+    assert recortado.endswith("…")
+    # Nada de etiquetas partidas ni abiertas: si no, Telegram rebota con un 400.
+    assert recortado.count("<b>") == recortado.count("</b>")
+
+
+def test_recortar_cierra_una_etiqueta_partida_al_medio():
+    # Un solo bloque gigante: no hay borde donde cortar, hay que cerrar a mano.
+    largo = '<b>Titular</b>\n<a href="https://ejemplo.test/nota">' + "x" * 6000 + "</a>"
+    recortado = telegram.recortar(largo)
+    assert len(recortado) <= telegram.LARGO_MAXIMO
+    assert recortado.count("<a ") == recortado.count("</a>")
+    assert not recortado.rstrip("…\n").endswith("<a")
+
+
+def test_recortar_no_deja_una_entidad_partida():
+    largo = "<b>x</b>\n" + "y" * 4080 + "&amp;" * 10
+    recortado = telegram.recortar(largo)
+    assert len(recortado) <= telegram.LARGO_MAXIMO
+    assert "&am" not in recortado.replace("&amp;", "")
