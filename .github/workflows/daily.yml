@@ -82,13 +82,18 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
 
           nuevo=$(mktemp -d)
-          cp data/daily.json data/historico_precios.json data/alertas_enviadas.json "$nuevo/"
+          cp data/daily.json data/historico_precios.json data/alertas_enviadas.json data/tesis.json "$nuevo/"
 
           for intento in 1 2 3; do
             git fetch -q origin main
             git reset -q --hard origin/main
             cp "$nuevo/daily.json" "$nuevo/historico_precios.json" "$nuevo/alertas_enviadas.json" data/
-            git add data/daily.json data/historico_precios.json data/alertas_enviadas.json
+
+            # tesis.json NO se pisa: lo escriben también desde la web (web/api/tesis.ts), así
+            # que se fusiona sobre la copia recién traída de origin/main en vez de sobrescribirla.
+            python collector/fusionar_tesis.py "$nuevo/tesis.json"
+
+            git add data/daily.json data/historico_precios.json data/alertas_enviadas.json data/tesis.json
 
             if git diff --staged --quiet; then
               echo "sin cambios que commitear"

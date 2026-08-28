@@ -76,3 +76,49 @@ def revisar_tesis(
         }
 
     return None
+
+
+def _clave_lectura(lectura: dict) -> tuple:
+    """Identidad de una lectura para no duplicarla. `fecha_reporte` es el día de la
+    corrida, así que dos corridas del mismo día sobre el mismo filing dan la misma
+    clave y la segunda no agrega nada."""
+    return (
+        lectura.get("periodo", ""),
+        lectura.get("fecha_reporte", ""),
+        lectura.get("extraido_por", ""),
+        lectura.get("valor"),
+    )
+
+
+def fusionar(base: list[dict], revisada: list[dict]) -> list[dict]:
+    """Mezcla las lecturas que agregó el recolector (`revisada`) sobre la versión
+    autoritativa del archivo (`base`, recién traída de origin/main).
+
+    `data/tesis.json` tiene dos escritores: la web (web/api/tesis.ts, que crea, cierra
+    y borra tesis pegándole directo a la API de GitHub) y el recolector. Pisar el
+    archivo con lo que el recolector cargó al empezar la corrida borraría cualquier
+    tesis que el usuario haya escrito mientras tanto, así que manda `base`.
+
+    De `revisada` se toma únicamente lo que le corresponde al recolector: lecturas
+    nuevas, y el paso a "rota" cuando una de ellas sale en rojo. Los umbrales, el
+    texto y la métrica nunca se copian — una tesis es inmutable (ver CLAUDE.md); la
+    forma de cambiarla es cerrarla desde la web y escribir otra."""
+    por_id = {t["id"]: t for t in revisada}
+    salida = []
+
+    for t in base:
+        fusionada = dict(t)
+        mia = por_id.get(t["id"])
+
+        if mia is not None and t.get("estado") == "activa":
+            lecturas = list(t.get("lecturas", []))
+            vistas = {_clave_lectura(l) for l in lecturas}
+            nuevas = [l for l in mia.get("lecturas", []) if _clave_lectura(l) not in vistas]
+            if nuevas:
+                fusionada["lecturas"] = lecturas + nuevas
+                if any(l.get("semaforo") == "rojo" for l in nuevas):
+                    fusionada["estado"] = "rota"
+
+        salida.append(fusionada)
+
+    return salida
