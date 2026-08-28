@@ -3,12 +3,15 @@ name: Resumen por Telegram (mañana)
 on:
   schedule:
     # 11:38 UTC ~ 07:38 Chile (verano) / 06:38 (invierno) — antes de que abra el mercado
-    # de EE.UU. (13:30 UTC), con el cierre de ayer ya consolidado. Solo días de semana:
-    # un sábado el resumen sería el mismo del viernes.
+    # de EE.UU. (13:30 UTC), con el cierre de ayer ya consolidado.
+    #
+    # Todos los días, fin de semana incluido: el sábado y el domingo repiten el cierre del
+    # viernes, y eso es a propósito — el usuario lo pidió así el 2026-08-28 para tenerlo
+    # como rutina fija de la mañana, no solo cuando el mercado abre.
     #
     # El minuto no es en punto a propósito: GitHub bota eventos `schedule` cuando su cola
     # está cargada y :00/:30 son los minutos más congestionados (ver la nota en daily.yml).
-    - cron: '38 11 * * 1-5'
+    - cron: '38 11 * * *'
   workflow_dispatch:       # botón manual
 
 jobs:
