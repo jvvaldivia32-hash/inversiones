@@ -14,5 +14,8 @@ def num(valor: float, decimales: int = 2) -> str:
 
 def pct(valor: float) -> str:
     # Menos tipográfico (−), no guion: en el chat se distingue mejor del guion de un rango.
-    signo = "+" if valor > 0 else "−"
-    return f"{signo}{num(abs(valor), 1)}%"
+    # El signo se decide *después* de redondear: un día plano (0,0) o un -0,04% que redondea
+    # a cero salían como "−0,0%", que se lee como caída.
+    redondeado = round(valor, 1)
+    signo = "−" if redondeado < 0 else "+"
+    return f"{signo}{num(abs(redondeado), 1)}%"
