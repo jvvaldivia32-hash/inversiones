@@ -36,7 +36,7 @@ jobs:
           FORZAR: ${{ github.event_name != 'schedule' && '1' || '' }}
         run: |
           python - <<'PY' | tee -a "$GITHUB_OUTPUT"
-          import datetime, json, os, pathlib
+          import datetime, json, os, pathlib, sys
 
           # Los dos crons están a 30 min de distancia: si el principal corrió, acá el dato
           # tiene 30 min y el respaldo se saltea; si lo botaron, tiene 60+ y hay que correr.
@@ -52,7 +52,9 @@ jobs:
               except Exception:
                   minutos = float("inf")  # sin archivo, ilegible o sin fecha: recolectar igual
 
-              print(f"# daily.json generado hace {minutos:.0f} min (umbral: {MAX_MIN})")
+              # A stderr a propósito: stdout de este script se va entero a $GITHUB_OUTPUT,
+              # y Actions rechaza el run entero ante cualquier línea que no sea clave=valor.
+              print(f"daily.json generado hace {minutos:.0f} min (umbral: {MAX_MIN})", file=sys.stderr)
 
           print(f"correr={'si' if minutos >= MAX_MIN else 'no'}")
           PY
