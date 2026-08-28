@@ -106,12 +106,16 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al cerrar la sesión del 2026-08-27, ya de madrugada del 28)
+## Pendiente (al 2026-08-28)
 
-**Contexto de arranque:** José sigue sin haber visto nada de lo del 24 *ni* de lo del 27 —
-lo dijo explícitamente al cerrar esta sesión ("no he leído nada de lo que hemos hecho").
-Todo lo de abajo está commiteado y pusheado. No asumir que algo está aprobado para seguir
-sin que él lo mire y confirme primero.
+**Contexto de arranque:** el recolector volvió a correr solo — los puntos 2 y 4 de abajo
+quedaron cerrados y verificados el 28-08. Lo único que bloquea a Telegram son los dos
+secrets, que solo puede crear José (punto 1).
+
+José sigue sin haber visto nada de lo del 24 *ni* de lo del 27 — lo dijo explícitamente al
+cerrar la sesión del 27 ("no he leído nada de lo que hemos hecho"). Todo lo de abajo está
+commiteado y pusheado. No asumir que algo está aprobado para seguir sin que él lo mire y
+confirme primero.
 
 ### 1. Lo primero al retomar: los dos secrets de Telegram
 
@@ -135,51 +139,39 @@ corrió así el 2026-08-28T03:42 **sin** los secrets y salió limpio (`Telegram 
 (falta TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID)`, exit 0) — o sea el workflow está validado
 contra la infra real, lo único que falta son las credenciales.
 
-### 2. GitHub dejó de disparar los cron — arreglado a medias, SIN VERIFICAR
+### 2. GitHub dejó de disparar los cron — RESUELTO y verificado (2026-08-28)
 
-Esto es lo que motivó toda la sesión: José vio que la app llevaba horas sin actualizarse.
+Esto es lo que motivó la sesión del 27: la app llevaba horas sin actualizarse.
 
-**Diagnóstico (con datos, no con corazonada):** GitHub está botando los eventos `schedule`
+**Diagnóstico (con datos, no con corazonada):** GitHub estaba botando los eventos `schedule`
 de este repo. Hasta el 26-08 14:00 UTC el recolector corría casi cada hora; después se
-degradó (16, 18, 21 → dos runs el 27 → nada). El último run *programado* de cualquier
-workflow fue el 2026-08-27T13:28 UTC; a las 03:41 UTC del 28 seguía sin haber ninguno, o sea
-14+ horas de silencio total, incluidos los daily de Fintual y Amigos. Descartado uno por uno:
-no es el collector (todos los runs que sí corrieron terminaron `success`), no es cuota (repo
-público, minutos ilimitados), no son los workflows (los cinco `active`), no es un incidente
-(githubstatus.com decía Actions operacional). Y los runs que sí llegaban arrancaban a minutos
-random (:12, :28, :37, :46, :54) en vez de :00 — la firma clásica de la cola de Actions.
+degradó y el 27 se cortó del todo — 14+ horas sin un solo run programado, incluidos los
+daily de Fintual y Amigos. Descartado uno por uno: no era el collector (todos los runs que
+sí corrieron terminaron `success`), no era cuota (repo público, minutos ilimitados), no eran
+los workflows (los cinco `active`), no era un incidente (githubstatus.com operacional). Y
+los runs que sí llegaban arrancaban a minutos random (:12, :28, :37) en vez de :00 — la
+firma clásica de la cola de Actions.
 
-**Lo que se hizo** (commit `2b3a851`): ninguno de los cinco workflows arranca ya en :00 ni
-:30, los dos minutos más congestionados de GitHub. Y `daily.yml` pasó a tener dos horarios
-por hora — `:17` principal y `:47` respaldo — donde el respaldo sale en ~10 segundos si
-`data/daily.json` tiene menos de 45 minutos (paso `frescura`). No son dos recolecciones:
-el tramo horario de `historico_precios.json` guarda todos los puntos que le llegan, así que
-recolectar dos veces por hora duplicaría ese archivo (5,1 MB hoy) a cambio de nada.
+**El arreglo (commit `2b3a851`) funcionó.** Ningún workflow arranca ya en :00 ni :30, los
+dos minutos más congestionados de GitHub; `daily.yml` quedó con `:17` principal y `:47` de
+respaldo, y el respaldo sale en ~10 segundos si `data/daily.json` tiene menos de 45 minutos
+(paso `frescura`). No son dos recolecciones: el tramo horario de `historico_precios.json`
+guarda todos los puntos que le llegan, así que recolectar dos veces por hora duplicaría ese
+archivo (5,1 MB) a cambio de nada. **Confirmado el 28-08:** los eventos `schedule` volvieron
+(runs a las 05:49 y 06:09 UTC). El disparador externo (cron-job.org) que quedaba en la manga
+**ya no hace falta** — no hay que meter una pieza de terceros ni un PAT fuera del repo.
 
-**Ojo — esto todavía no se probó que funcione.** Entre el push (2026-08-27 ~22:15 UTC) y el
-cierre de sesión (03:41 UTC del 28) no se disparó **ni un solo** cron, así que no hay
-evidencia de que cambiar el minuto ayude. Importante para no confundirse mañana: los runs
-programados ya estaban muertos *antes* de tocar los YAML (último: 13:28 UTC), así que el
-silencio no lo causó este cambio.
+**Pero el mismo commit traía un bug que mataba todos esos runs** (arreglado en `7c3a833`):
+el paso `frescura` manda su stdout completo a `$GITHUB_OUTPUT`, y ahí se colaba la línea de
+debug `# daily.json generado hace N min`. Actions rechaza cualquier línea que no sea
+`clave=valor` y tumbaba el run entero con `Invalid format` — después de haber decidido bien
+`correr=si`. Esa línea ahora va a stderr: se sigue viendo en el log pero no toca el output.
+Lección para la próxima: un cambio de workflow no está listo hasta verlo correr de verdad,
+`workflow_dispatch` sirve justo para eso y no sufre el throttling.
 
-**Qué hacer al retomar, en orden:**
-
-- Mirar `gh run list --limit 20` y ver si hubo runs con `event=schedule` durante la noche.
-- Si volvieron: listo, el cambio de minuto alcanzó. Nada más que hacer.
-- Si **siguen sin correr**: la respuesta es la opción que quedó en la manga, un **disparador
-  externo** — un cron gratis fuera de GitHub (cron-job.org u otro) que llame por API al
-  `workflow_dispatch` de `daily.yml`. `workflow_dispatch` no sufre este throttling, se
-  comprobó esta misma sesión (todos los disparos manuales corrieron al toque). Cuesta $0 pero
-  mete una pieza de terceros y un PAT viviendo fuera del repo, así que **preguntarle antes**:
-  ya se le ofreció el 27 y eligió empezar por lo barato.
-
-De paso se endureció el push de `daily.yml`: antes hacía `git pull --rebase` a secas y si dos
-runs se pisaban, el segundo moría con un conflicto en `daily.json` (pasó de verdad el 27,
-disparando dos runs manuales a la vez). Ahora el snapshot recién generado gana: se rearma
-sobre `origin/main` y reintenta hasta 3 veces.
-
-Para desatascar la data esa noche se corrió el recolector a mano — `daily.json` quedó en
-2026-08-27T21:26 UTC (17:26 Chile).
+De paso (el 27) se endureció el push de `daily.yml`: antes hacía `git pull --rebase` a secas
+y si dos runs se pisaban, el segundo moría con un conflicto en `daily.json`. Ahora el
+snapshot recién generado gana: se rearma sobre `origin/main` y reintenta hasta 3 veces.
 
 ### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
 
@@ -216,19 +208,24 @@ lectura sobre `inversiones-privado`, la excepción #3 sigue intacta).
 suena bien en la práctica y si el resumen de las 07:38 trae lo que quiere ver. El umbral es
 una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
 
-### 4. Bug encontrado de paso, sin arreglar (necesita su decisión)
+### 4. Bug de las tesis que no se guardaban — RESUELTO (2026-08-28, commit `5302b8e`)
 
-`collector/main.py` llama a `_guardar_tesis()` en cada corrida, pero `daily.yml` nunca
-commitea `data/tesis.json` — solo `daily.json`, `historico_precios.json` y ahora
-`alertas_enviadas.json`. O sea: cada revisión automática de tesis que hace el collector
-(`_revisar_tesis_ticker`, el semáforo pasando a ámbar o a roto) se escribe en el runner y se
-tira a la basura. Las tesis que crea José desde la web sí persisten, porque `web/api/tesis.ts`
-escribe directo contra la API de GitHub. Confirmado: `tesis.json` tiene un solo commit en toda
-su historia, el del día que se construyó la feature.
+`collector/main.py` llamaba a `_guardar_tesis()` en cada corrida, pero `daily.yml` nunca
+commiteaba `data/tesis.json`: cada revisión automática de tesis (`_revisar_tesis_ticker`, el
+semáforo pasando a ámbar o a roto) se escribía en el runner y se tiraba a la basura.
+`tesis.json` tenía un solo commit en toda su historia, el del día que se construyó la feature.
 
-No se tocó porque es Fase 7 y la regla dura dice que una tesis es inmutable — hay que
-entender bien qué campos toca `_revisar_tesis_ticker` antes de empezar a persistirlos.
-Preguntarle a José si quiere que se arregle.
+No se podía commitear a secas: la web (`web/api/tesis.ts`) escribe el mismo archivo pegándole
+directo a la API de GitHub, y el paso de push se rearma sobre `origin/main` — copiar encima la
+versión de la corrida habría borrado cualquier tesis escrita mientras el recolector trabajaba.
+
+Entró `tesis.fusionar()` (+ `collector/fusionar_tesis.py`, que lo corre el workflow justo
+después del `git reset --hard origin/main`): manda el archivo del repo, y del lado del
+recolector se toman **solo** lecturas nuevas —deduplicadas por periodo/fecha/fuente/valor— y
+el paso a `"rota"` ante una lectura roja. Umbrales, texto y métrica **nunca** se copian, así
+que la tesis sigue siendo inmutable (regla dura de Fase 7); tampoco se toca una tesis ya
+cerrada ni se revive una que el usuario borró desde la web. 8 tests nuevos, suite en 191.
+Verificado en un run real: el paso imprime `tesis: N tesis, M lectura(s) nueva(s)`.
 
 ### 5. Lo del 24 de agosto, todavía sin mirar
 
