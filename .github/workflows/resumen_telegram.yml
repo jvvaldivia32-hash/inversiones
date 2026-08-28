@@ -2,8 +2,11 @@ name: Resumen por Telegram (mañana)
 
 on:
   schedule:
-    # 11:38 UTC ~ 07:38 Chile (verano) / 06:38 (invierno) — antes de que abra el mercado
-    # de EE.UU. (13:30 UTC), con el cierre de ayer ya consolidado.
+    # 11:38 UTC = 07:38 Chile en invierno (UTC-4) y 08:38 en verano (UTC-3) — verificado
+    # con zoneinfo, no a ojo. GitHub no entiende husos horarios: el cron es siempre UTC, así
+    # que la hora local se corre sola una hora cuando Chile cambia de horario. En los dos
+    # casos queda antes de que abra el mercado de EE.UU. (13:30 UTC), con el cierre de ayer
+    # ya consolidado, que es lo que importa.
     #
     # Todos los días, fin de semana incluido: el sábado y el domingo repiten el cierre del
     # viernes, y eso es a propósito — el usuario lo pidió así el 2026-08-28 para tenerlo
