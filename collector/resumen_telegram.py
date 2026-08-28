@@ -25,6 +25,14 @@ RUTA_DAILY = RAIZ_REPO / "data" / "daily.json"
 # vistazo en el celular, que es todo el punto del resumen.
 TITULARES_POR_BLOQUE = 2
 
+# Desde qué antigüedad de `daily.json` el resumen avisa que el dato está viejo. El
+# recolector corre cada hora *todos los días* (fin de semana incluido: Finnhub devuelve el
+# último cierre), así que a las 11:38 UTC el snapshot normal tiene menos de una hora. Tres
+# horas ya no es "el mercado está cerrado", es "el recolector no está dejando dato nuevo" —
+# que fue exactamente lo que pasó el 26-27 de agosto de 2026, cuando GitHub botó los eventos
+# `schedule` y el mensaje de la mañana hubiera llegado igual, idéntico y sin avisar nada.
+HORAS_PARA_AVISAR = 3
+
 MESES = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
     "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
@@ -33,6 +41,43 @@ MESES = [
 
 def _fecha_larga(dia: datetime.date) -> str:
     return f"{dia.day} de {MESES[dia.month - 1]}"
+
+
+def _antiguedad_horas(daily: dict, ahora: datetime.datetime) -> float | None:
+    """Cuántas horas hace que el recolector escribió `daily.json`. None si no se puede saber."""
+    generado = daily.get("generado")
+    if not generado:
+        return None
+    try:
+        cuando = datetime.datetime.fromisoformat(generado)
+    except ValueError:
+        return None
+    if cuando.tzinfo is None:  # snapshots viejos, escritos sin huso
+        cuando = cuando.replace(tzinfo=datetime.timezone.utc)
+    return (ahora - cuando).total_seconds() / 3600
+
+
+def _aviso_dato_viejo(daily: dict, ahora: datetime.datetime) -> str | None:
+    """Avisa arriba de todo cuando los precios de abajo no son de esta mañana.
+
+    Sin esto, un recolector caído produce un resumen idéntico al normal: mismos precios de
+    siempre, ninguna señal. El aviso dice *qué* pasa con el dato, no qué hacer con él.
+    """
+    horas = _antiguedad_horas(daily, ahora)
+    if horas is None:
+        return "⚠️ <b>No se pudo leer cuándo se actualizó el dato.</b> Los precios de abajo pueden estar viejos."
+    if horas < HORAS_PARA_AVISAR:
+        return None
+
+    if horas < 48:
+        cuanto = f"{round(horas)} horas"
+    else:
+        cuanto = f"{round(horas / 24)} días"
+    return (
+        f"⚠️ <b>Estos precios son de hace {cuanto}.</b>\n"
+        "El recolector no está dejando dato nuevo — lo de abajo es el último snapshot que "
+        "quedó guardado, no el cierre de ayer."
+    )
 
 
 def _linea_ticker(t: dict) -> str:
@@ -56,8 +101,14 @@ def _bloque_titulares(titulo: str, historias: list[dict]) -> str | None:
     return f"<b>{titulo}</b>\n" + "\n".join(lineas)
 
 
-def construir(daily: dict, hoy: datetime.date) -> str:
-    partes = [f"<b>Buenos días · {_fecha_larga(hoy)}</b>"]
+def construir(daily: dict, ahora: datetime.datetime) -> str:
+    partes = [f"<b>Buenos días · {_fecha_larga(ahora.date())}</b>"]
+
+    # Arriba de todo y no al pie: si el dato está viejo, eso cambia cómo se lee cada número
+    # que viene después.
+    aviso = _aviso_dato_viejo(daily, ahora)
+    if aviso:
+        partes.append(aviso)
 
     # Ordenadas por cuánto se movieron, no alfabéticamente: lo que se movió es lo que
     # querés ver primero cuando abrís el mensaje en el celular.
@@ -115,7 +166,7 @@ def main() -> None:
     generado = daily.get("generado")
     print(f"daily.json generado: {generado}")
 
-    mensaje = construir(daily, datetime.date.today())
+    mensaje = construir(daily, datetime.datetime.now(datetime.timezone.utc))
     print(f"Enviando resumen ({len(mensaje)} caracteres)...")
     if telegram.enviar(mensaje):
         print("Resumen enviado.")
