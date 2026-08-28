@@ -108,36 +108,57 @@ link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secret
 
 ## Pendiente (al 2026-08-28)
 
-**Contexto de arranque:** el recolector volvió a correr solo — los puntos 2 y 4 de abajo
-quedaron cerrados y verificados el 28-08. Lo único que bloquea a Telegram son los dos
-secrets, que solo puede crear José (punto 1).
+**Contexto de arranque:** sesión buena — se cerraron los tres frentes que venían abiertos.
+El recolector volvió a correr solo (punto 2), las revisiones de tesis ya se persisten
+(punto 4) y Telegram **está funcionando de verdad**: José creó el bot, cargó los secrets y
+confirmó que le llegó el mensaje (punto 1).
 
-José sigue sin haber visto nada de lo del 24 *ni* de lo del 27 — lo dijo explícitamente al
-cerrar la sesión del 27 ("no he leído nada de lo que hemos hecho"). Todo lo de abajo está
-commiteado y pusheado. No asumir que algo está aprobado para seguir sin que él lo mire y
-confirme primero.
+Lo que sigue abierto es todo lo de los puntos 5 y 6 — José todavía no ha visto nada de lo
+del 24 de agosto. No asumir que algo está aprobado para seguir sin que él lo mire y confirme
+primero.
 
-### 1. Lo primero al retomar: los dos secrets de Telegram
+### 1. Telegram — LISTO y andando (2026-08-28)
 
-Nada de lo que se construyó esta sesión llega al celular hasta que José haga esto. Son
-cinco minutos y es 100% de él, no se puede hacer desde acá:
+José creó el bot con @BotFather y cargó `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` en Actions
+→ Secrets. Un run manual del resumen le llegó al celular y lo confirmó pegando el mensaje;
+los precios del aviso coincidían exacto con `daily.json`.
 
-1. En Telegram, hablarle a **@BotFather** → `/newbot` → elegir nombre. Devuelve un token
-   tipo `8123456789:AAH...`.
-2. Escribirle *algo* al bot recién creado (un "hola") — sin eso Telegram no deja que el bot
-   inicie la conversación.
-3. Sacar el chat id: abrir `https://api.telegram.org/bot<TOKEN>/getUpdates` en el navegador
-   y copiar `result[0].message.chat.id`.
-4. Repo → Settings → Secrets and variables → Actions → New repository secret, dos veces:
-   `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID`.
-5. Opcional: en la pestaña **Variables** (no Secrets), `APP_URL` con la URL de Vercel, para
-   que el resumen traiga el link "Ver todo en la app". La URL no está en el repo — hay que
-   preguntársela.
+Ese mismo día pidió que el resumen fuera **todos los días** en vez de lun-vie (commit
+`fa36b9f`, `38 11 * * *`): lo quiere como rutina fija de la mañana. Que sábado y domingo
+repitan el cierre del viernes es lo buscado, no un defecto — si lo reporta como "se quedó
+pegado", esa es la explicación.
 
-Para probar sin esperar: Actions → "Resumen por Telegram (mañana)" → Run workflow. Ya se
-corrió así el 2026-08-28T03:42 **sin** los secrets y salió limpio (`Telegram sin configurar
-(falta TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID)`, exit 0) — o sea el workflow está validado
-contra la infra real, lo único que falta son las credenciales.
+`11:38 UTC` = 07:38 Chile en invierno y 08:38 en verano (verificado con zoneinfo; el
+comentario del workflow decía lo contrario y se corrigió en `66516dc`). GitHub no entiende
+husos horarios, el cron es siempre UTC, así que la hora local se corre sola cuando Chile
+cambia de horario. En los dos casos queda antes de que abra el mercado.
+
+**Lo que falta validar:** José dijo que avisa mañana (29-08) si el resumen automático llega
+bien al despertar. Y las **alertas de ±5% siguen sin verse en la práctica** — solo saltan
+cuando algo se mueve de verdad. Cuando le llegue la primera, preguntarle si el umbral le
+sirve o si es mucho ruido: es una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
+
+**Sin cargar (opcional, no es un error):** `APP_URL` en la pestaña **Variables** (no
+Secrets). Sin ella el resumen sale sin el link "Ver todo en la app". La URL de Vercel no
+está en el repo — hay que preguntársela.
+
+### 1b. El precio no es en vivo — preguntado y respondido (2026-08-28)
+
+José notó que la app difiere "un par de dólares" de Yahoo Finance y preguntó si era un bug o
+un problema de tickers. **No es ninguna de las dos** y no hay que salir a buscar un bug si lo
+vuelve a mencionar:
+
+- Comparado con Yahoo con 8 minutos de diferencia, los cuatro tickers coincidían dentro de 33
+  centavos (MSFT, 1 centavo).
+- `BRK.B` (Finnhub) vs `BRK-B` (Yahoo) es la misma acción y da el mismo número. El mapeo está
+  bien.
+- La causa es que el recolector corre una vez por hora y el visor nunca llama APIs en vivo.
+  Ese mismo día MSFT tuvo recorridos de **$6,71 dentro de una sola hora** de sesión.
+
+Precio en vivo obligaría al navegador a pegarle a una API de mercado: plan pago, choca con la
+regla de $0/mes y con "el visor no llama APIs en vivo". **Ofrecido y no pedido:** el header
+ya muestra `Actualizado hoy HH:MM` (`web/src/App.tsx`) pero en hora absoluta; pasarlo a
+relativo ("hace 23 min") haría obvia la antigüedad del dato. No tocarlo sin que lo pida.
 
 ### 2. GitHub dejó de disparar los cron — RESUELTO y verificado (2026-08-28)
 
