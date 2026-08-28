@@ -349,7 +349,15 @@ def main() -> None:
     # que sale al celular es exactamente lo que va a ver en la app si la abre.
     print("\nRevisando movimientos fuertes...")
     daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
-    alertas.revisar(daily, ahora)
+    try:
+        alertas.revisar(daily, ahora)
+    except Exception as e:
+        # El camino de Telegram nunca puede costar la corrida (regla de CLAUDE.md): si esto
+        # revienta, el paso de main.py falla y el workflow se saltea el push — o sea que un
+        # aviso roto dejaría la app sin actualizar. `telegram.enviar()` ya se traga los
+        # errores de red; esto cubre el resto (un dato con forma inesperada, un archivo de
+        # estado ilegible) para que el snapshot igual se commitee.
+        print(f"  alertas falladas, se sigue igual: {type(e).__name__}: {e}")
 
     print("\nRangos derivados:")
     for ticker in tickers:
