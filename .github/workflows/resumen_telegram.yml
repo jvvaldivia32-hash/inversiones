@@ -1,0 +1,30 @@
+name: Resumen por Telegram (mañana)
+
+on:
+  schedule:
+    # 11:38 UTC ~ 07:38 Chile (verano) / 06:38 (invierno) — antes de que abra el mercado
+    # de EE.UU. (13:30 UTC), con el cierre de ayer ya consolidado. Solo días de semana:
+    # un sábado el resumen sería el mismo del viernes.
+    #
+    # El minuto no es en punto a propósito: GitHub bota eventos `schedule` cuando su cola
+    # está cargada y :00/:30 son los minutos más congestionados (ver la nota en daily.yml).
+    - cron: '38 11 * * 1-5'
+  workflow_dispatch:       # botón manual
+
+jobs:
+  resumen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      # Sin pip install: este script solo lee data/daily.json y le pega a la API de
+      # Telegram con urllib. No necesita feedparser ni nada del resto del collector.
+      - run: python collector/resumen_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          APP_URL: ${{ vars.APP_URL }}

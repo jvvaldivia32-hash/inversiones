@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 
+import alertas
 import historico
 import noticias
 import tesis
@@ -343,6 +344,12 @@ def main() -> None:
         posiciones, (mundo, chile, actualidad), errores_noticias, referencias, ahora
     )
     print(f"\ndata/daily.json actualizado con {len(posiciones)} posiciones reales.")
+
+    # Al final y no antes: las alertas leen el daily.json que se acaba de escribir, así lo
+    # que sale al celular es exactamente lo que va a ver en la app si la abre.
+    print("\nRevisando movimientos fuertes...")
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    alertas.revisar(daily, ahora)
 
     print("\nRangos derivados:")
     for ticker in tickers:
