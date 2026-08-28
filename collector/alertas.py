@@ -53,7 +53,8 @@ def detectar(movimientos: list[dict], estado: dict, hoy: str, umbral: float = UM
 
     Un ticker no vuelve a avisar el mismo día *salvo* que se haya movido otro `umbral`
     completo desde el último aviso: si TSLA cae 5% avisa, si sigue hasta 10% vuelve a
-    avisar, pero los pasos intermedios (5,4% → 6,1% → 7,8%) no llenan el celular.
+    avisar, pero los pasos intermedios (5,4% → 6,1% → 7,8%) no llenan el celular. Dar
+    vuelta el signo (de -5% a +5%) sí vuelve a avisar: es un recorrido de 10 puntos.
     """
     avisados = dict(estado["avisados"]) if estado.get("fecha") == hoy else {}
 
@@ -64,7 +65,11 @@ def detectar(movimientos: list[dict], estado: dict, hoy: str, umbral: float = UM
             continue
 
         anterior = avisados.get(mov["ticker"])
-        if anterior is not None and abs(var) < abs(anterior) + umbral:
+        # El signo importa: un ticker que abrió -5% y rebotó a +6% recorrió 11 puntos, que es
+        # exactamente el movimiento fuerte que esto existe para avisar. Comparando solo el
+        # valor absoluto quedaba callado (6 < 5 + 5).
+        mismo_sentido = anterior is not None and (var >= 0) == (anterior >= 0)
+        if mismo_sentido and abs(var) < abs(anterior) + umbral:
             continue
 
         alertas.append(mov)

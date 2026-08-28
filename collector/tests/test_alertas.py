@@ -163,3 +163,12 @@ def test_revisar_no_hace_nada_sin_telegram_configurado(monkeypatch, tmp_path):
     monkeypatch.setattr(alertas.telegram, "configurado", lambda: False)
     daily = {"posiciones": [{"ticker": "MSFT", "precio": 500.0, "var_dia_pct": 9.0, "noticias": []}]}
     assert alertas.revisar(daily, datetime.datetime.now(datetime.timezone.utc), tmp_path / "e.json") == []
+
+
+def test_detectar_reavisa_si_el_movimiento_da_vuelta_el_signo():
+    # Abrió -5,2% y rebotó a +6,0%: son 11 puntos de recorrido, el movimiento fuerte que
+    # esto existe para avisar. Comparando solo el valor absoluto quedaba callado.
+    estado = {"fecha": "2026-08-27", "avisados": {"TSLA": -5.2}}
+    encontradas, nuevo = alertas.detectar([_mov("TSLA", 6.0)], estado, "2026-08-27")
+    assert [a["ticker"] for a in encontradas] == ["TSLA"]
+    assert nuevo["avisados"]["TSLA"] == 6.0
