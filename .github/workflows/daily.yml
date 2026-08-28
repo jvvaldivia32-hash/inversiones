@@ -35,6 +35,10 @@ jobs:
           # Cualquier disparo que no sea el cron (el botón manual) recolecta igual.
           FORZAR: ${{ github.event_name != 'schedule' && '1' || '' }}
         run: |
+          # pipefail: sin esto el exit code del paso es el de `tee`, no el de python, y un
+          # crash del script dejaría `correr` vacío — el run terminaría en verde sin haber
+          # recolectado nada. Mejor que falle fuerte y se vea.
+          set -o pipefail
           python - <<'PY' | tee -a "$GITHUB_OUTPUT"
           import datetime, json, os, pathlib, sys
 
