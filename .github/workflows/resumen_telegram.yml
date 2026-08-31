@@ -8,6 +8,12 @@ on:
     # casos queda antes de que abra el mercado de EE.UU. (13:30 UTC), con el cierre de ayer
     # ya consolidado, que es lo que importa.
     #
+    # OJO — eso es la teoría. Medido el 30-08-2026, GitHub disparó este cron a las 15:44 UTC
+    # (29-08) y a las 15:26 UTC (30-08): casi cuatro horas tarde, o sea DESPUÉS de que abre
+    # el mercado. Es el mismo throttling de daily.yml. Está anotado en CLAUDE.md (puntos 1 y
+    # 2) con las tres salidas posibles; ninguna elegida todavía. No confiar en la hora de
+    # acá sin mirar los runs reales.
+    #
     # Todos los días, fin de semana incluido: el sábado y el domingo repiten el cierre del
     # viernes, y eso es a propósito — el usuario lo pidió así el 2026-08-28 para tenerlo
     # como rutina fija de la mañana, no solo cuando el mercado abre.

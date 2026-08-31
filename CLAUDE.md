@@ -106,18 +106,22 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-08-28)
+## Pendiente (al 2026-08-30)
 
-**Contexto de arranque:** sesión buena — se cerraron los tres frentes que venían abiertos.
-El recolector volvió a correr solo (punto 2), las revisiones de tesis ya se persisten
-(punto 4) y Telegram **está funcionando de verdad**: José creó el bot, cargó los secrets y
-confirmó que le llegó el mensaje (punto 1).
+**Contexto de arranque:** hay **un frente abierto nuevo y con datos**: el throttling de los
+cron de GitHub volvió, y el arreglo del 27-08 (`:17`/`:47`) resultó insuficiente. Se había
+dado por resuelto el 28-08 mirando un solo día — ver punto 2, que vuelve a estar ABIERTO.
+Eso arrastra dos consecuencias que José todavía no comentó: el resumen "de la mañana" le
+está llegando **cerca del mediodía**, y la app pasa tramos de 5-6 horas sin actualizarse.
 
-Lo que sigue abierto es todo lo de los puntos 5 y 6 — José todavía no ha visto nada de lo
-del 24 de agosto. No asumir que algo está aprobado para seguir sin que él lo mire y confirme
+Lo demás de infraestructura está bien: la sesión del 28-08 cerró una pasada de debug con
+cinco bugs arreglados y pusheados (punto 7), todos verificados en un run real.
+
+Lo que sigue sin mirarse es todo lo de los puntos 5 y 6 — José no ha visto nada de lo del
+24 de agosto. No asumir que algo está aprobado para seguir sin que él lo mire y confirme
 primero.
 
-### 1. Telegram — LISTO y andando (2026-08-28)
+### 1. Telegram — andando, pero el resumen llega tarde (2026-08-30)
 
 José creó el bot con @BotFather y cargó `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` en Actions
 → Secrets. Un run manual del resumen le llegó al celular y lo confirmó pegando el mensaje;
@@ -133,10 +137,27 @@ comentario del workflow decía lo contrario y se corrigió en `66516dc`). GitHub
 husos horarios, el cron es siempre UTC, así que la hora local se corre sola cuando Chile
 cambia de horario. En los dos casos queda antes de que abra el mercado.
 
-**Lo que falta validar:** José dijo que avisa mañana (29-08) si el resumen automático llega
-bien al despertar. Y las **alertas de ±5% siguen sin verse en la práctica** — solo saltan
-cuando algo se mueve de verdad. Cuando le llegue la primera, preguntarle si el umbral le
-sirve o si es mucho ruido: es una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
+**El resumen automático sí sale, pero no de mañana (medido el 30-08).** Los dos runs
+terminaron `success` y con "Resumen enviado" en el log, así que a José le llegó — pero el
+cron de las **11:38 UTC disparó a las 15:44 UTC el 29-08 y a las 15:26 UTC el 30-08**: casi
+cuatro horas tarde, o sea cerca de las 11:30 de Chile y **después de que abre el mercado**
+(13:30 UTC). Es el mismo throttling del punto 2, no un error del script.
+
+Rompe la premisa de la feature ("antes de que abra el mercado"). Tres caminos, ninguno
+elegido todavía — **preguntarle a José antes de tocar nada**:
+
+1. **Colgar el resumen del recolector** en vez de un cron propio: el primer run del día
+   pasada cierta hora manda el mensaje, con un archivo de estado como el de las alertas
+   (`data/alertas_enviadas.json`). No agrega terceros y se apoya en los ~12 disparos que
+   sí llegan al día, pero la hora exacta sigue sin ser garantía.
+2. **Adelantar el cron** (p. ej. 09:00 UTC) para que aun llegando cuatro horas tarde caiga
+   antes de la apertura. Barato, pero es apostarle a que el retraso no crezca.
+3. **Disparador externo**, mismo remedio que el punto 2 y las mismas objeciones.
+
+**Las alertas de ±5% siguen sin verse en la práctica** — solo saltan cuando algo se mueve de
+verdad, y entre el 28 y el 30 no pasó (el log dice `sin movimientos de ±5.0% entre 20
+tickers vigilados`). Cuando le llegue la primera, preguntarle si el umbral le sirve o si es
+mucho ruido: es una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
 
 **Sin cargar (opcional, no es un error):** `APP_URL` en la pestaña **Variables** (no
 Secrets). Sin ella el resumen sale sin el link "Ver todo en la app". La URL de Vercel no
@@ -160,7 +181,7 @@ regla de $0/mes y con "el visor no llama APIs en vivo". **Ofrecido y no pedido:*
 ya muestra `Actualizado hoy HH:MM` (`web/src/App.tsx`) pero en hora absoluta; pasarlo a
 relativo ("hace 23 min") haría obvia la antigüedad del dato. No tocarlo sin que lo pida.
 
-### 2. GitHub dejó de disparar los cron — RESUELTO y verificado (2026-08-28)
+### 2. GitHub vuelve a botar los cron — REABIERTO (2026-08-30)
 
 Esto es lo que motivó la sesión del 27: la app llevaba horas sin actualizarse.
 
@@ -178,9 +199,8 @@ dos minutos más congestionados de GitHub; `daily.yml` quedó con `:17` principa
 respaldo, y el respaldo sale en ~10 segundos si `data/daily.json` tiene menos de 45 minutos
 (paso `frescura`). No son dos recolecciones: el tramo horario de `historico_precios.json`
 guarda todos los puntos que le llegan, así que recolectar dos veces por hora duplicaría ese
-archivo (5,1 MB) a cambio de nada. **Confirmado el 28-08:** los eventos `schedule` volvieron
-(runs a las 05:49 y 06:09 UTC). El disparador externo (cron-job.org) que quedaba en la manga
-**ya no hace falta** — no hay que meter una pieza de terceros ni un PAT fuera del repo.
+archivo (5,1 MB) a cambio de nada. El 28-08 los eventos `schedule` volvieron (runs a las
+05:49 y 06:09 UTC) y se dio por resuelto — **conclusión apurada, sacada de un solo día.**
 
 **Pero el mismo commit traía un bug que mataba todos esos runs** (arreglado en `7c3a833`):
 el paso `frescura` manda su stdout completo a `$GITHUB_OUTPUT`, y ahí se colaba la línea de
@@ -193,6 +213,24 @@ Lección para la próxima: un cambio de workflow no está listo hasta verlo corr
 De paso (el 27) se endureció el push de `daily.yml`: antes hacía `git pull --rebase` a secas
 y si dos runs se pisaban, el segundo moría con un conflicto en `daily.json`. Ahora el
 snapshot recién generado gana: se rearma sobre `origin/main` y reintenta hasta 3 veces.
+
+**Recaída, medida el 30-08.** Los eventos vuelven a llegar a cuentagotas, y el minuto
+`:17`/`:47` no alcanzó: llegan tarde en vez de no llegar.
+
+- Runs `schedule` de `daily.yml` por día (de 48 posibles: 24 principales + 24 respaldos):
+  25-08: 14 · 26-08: 17 · 27-08: 2 · 28-08: 4 · 29-08: 11 · **30-08: 12**.
+- Los que llegan, llegan corridos: el disparo de `:17` cae a `:24`, `:34`, `:39`, `:58`.
+  Sigue siendo la firma de la cola de Actions, no un problema del repo — todos terminan
+  `success`, repo público sin tope de minutos.
+- El efecto real está en los commits del bot: el 30-08 hubo **8 recolecciones**, con huecos
+  de 01:40→06:47 (5 h) y 06:47→12:59 (6 h). O sea que la app muestra un precio de hace
+  horas buena parte del día.
+
+**El disparador externo vuelve a estar sobre la mesa** (cron-job.org pegándole a
+`workflow_dispatch`, que no sufre el throttling — se comprobó el 28-08: el run manual salió
+al instante). Cuesta meter una pieza de terceros y un PAT fuera del repo, así que **no
+implementarlo sin que José lo decida**. La otra mitad del problema (el resumen matutino) se
+puede arreglar sin terceros — ver punto 1.
 
 ### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
 
@@ -276,3 +314,35 @@ preguntarle:
   Sigue **prohibido sin preguntar primero**: choca con la regla dura del Radar. La señal por
   métrica del 24 es hasta donde se puede llegar sin esa conversación. Si lo vuelve a pedir:
   señalar el choque, preguntar, y documentar acá si dice que sí.
+
+### 7. Pasada de debug del 28-08 — cinco bugs arreglados y pusheados
+
+José pidió "debuggea, revisa si hay bugs". Ninguno lo había reportado él; salieron de leer
+el código nuevo de Telegram y el workflow. Todos verificados en un run real
+(`workflow_dispatch` 33215396115, verde en 1m11s) y en `main`:
+
+- `38bfb39` — **un aviso de Telegram roto tumbaba la corrida entera.** `alertas.revisar()`
+  se llamaba sin protección al final de `main()`; con el paso en rojo el workflow se saltea
+  el push y `daily.json` nunca llega al repo. Mismo síntoma que el punto 2, otra causa. Era
+  contradecir una regla que CLAUDE.md ya declaraba ("nunca tumba una corrida por un aviso").
+- `88801a6` — **un rebote fuerte no avisaba.** El antiduplicado comparaba valor absoluto:
+  un ticker que abría −5,2% y rebotaba a +6,0% quedaba callado porque `6 < 5,2 + 5`. Ahora
+  dar vuelta el signo reinicia la comparación.
+- `30c741f` — `pct(0.0)` devolvía `−0,0%`: un día plano se leía como caída.
+- `132fc6a` — **el recorte a 4.096 caracteres provocaba el mismo 400 que quería evitar**:
+  cortaba a lo bruto y partía una etiqueta o dejaba un `<b>` sin cerrar. Ahora corta en
+  borde de bloque o de línea y cierra lo que quedó abierto.
+- `47f9497` — el paso `frescura` tomaba el exit code de `tee`, no el de python: un crash
+  del script habría dejado `correr` vacío y el run **en verde sin recolectar nada**.
+  `set -o pipefail`.
+
+Y `5e14ced` (pedido por José en la misma sesión): **el resumen matutino avisa arriba de todo
+cuando `daily.json` está viejo.** Pasadas 3 horas abre con "⚠️ Estos precios son de hace N
+horas/días". Antes, un recolector caído producía un mensaje idéntico al normal — sin
+ninguna señal. El umbral (`HORAS_PARA_AVISAR` en `collector/resumen_telegram.py`) se eligió
+así: el recolector corre cada hora todos los días, así que un snapshot sano tiene menos de
+una hora; 3 h ya no es "el mercado está cerrado", es "nadie está recolectando".
+
+Ojo con lo de arriba a la luz del punto 2: con los huecos de 5-6 h que hay ahora, **es
+esperable que José empiece a ver el ⚠️**. Si lo reporta, no es un falso positivo — es el
+aviso funcionando y contando el problema del cron. La suite quedó en **205 tests**.
