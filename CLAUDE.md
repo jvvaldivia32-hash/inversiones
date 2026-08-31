@@ -106,58 +106,65 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-08-30)
+## Pendiente (al 2026-08-31)
 
-**Contexto de arranque:** hay **un frente abierto nuevo y con datos**: el throttling de los
-cron de GitHub volvió, y el arreglo del 27-08 (`:17`/`:47`) resultó insuficiente. Se había
-dado por resuelto el 28-08 mirando un solo día — ver punto 2, que vuelve a estar ABIERTO.
-Eso arrastra dos consecuencias que José todavía no comentó: el resumen "de la mañana" le
-está llegando **cerca del mediodía**, y la app pasa tramos de 5-6 horas sin actualizarse.
+**Contexto de arranque:** el frente abierto sigue siendo **el throttling de los cron de
+GitHub** (punto 2), que el arreglo del minuto `:17`/`:47` no alcanzó a tapar. El 31-08 José
+reportó que el resumen de Telegram no le llegó en la mañana: era cierto, el cron propio no
+disparó en todo el día. **Esa mitad quedó arreglada** colgando el resumen del recolector
+(punto 1). **La otra mitad no**: la app sigue con huecos de 5-6 horas sin actualizarse, y
+eso solo lo arregla un disparador externo, que José todavía no decidió.
 
 Lo demás de infraestructura está bien: la sesión del 28-08 cerró una pasada de debug con
 cinco bugs arreglados y pusheados (punto 7), todos verificados en un run real.
 
-Lo que sigue sin mirarse es todo lo de los puntos 5 y 6 — José no ha visto nada de lo del
-24 de agosto. No asumir que algo está aprobado para seguir sin que él lo mire y confirme
-primero.
+Lo del punto 5 **está todo implementado y deployado desde el 24 de agosto** — lo que falta
+es que José lo mire, no que se escriba. El 31-08 pidió "aplicarlo" creyendo que estaba sin
+hacer; se le aclaró. No asumir que algo está aprobado para seguir sin que él lo mire y
+confirme primero. El punto 6 sí está sin empezar, a la espera de que lo pida.
 
-### 1. Telegram — andando, pero el resumen llega tarde (2026-08-30)
+### 1. Telegram — el resumen ahora lo manda el recolector (2026-08-31)
 
 José creó el bot con @BotFather y cargó `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` en Actions
 → Secrets. Un run manual del resumen le llegó al celular y lo confirmó pegando el mensaje;
 los precios del aviso coincidían exacto con `daily.json`.
 
-Ese mismo día pidió que el resumen fuera **todos los días** en vez de lun-vie (commit
-`fa36b9f`, `38 11 * * *`): lo quiere como rutina fija de la mañana. Que sábado y domingo
-repitan el cierre del viernes es lo buscado, no un defecto — si lo reporta como "se quedó
-pegado", esa es la explicación.
+El 28-08 pidió que el resumen fuera **todos los días** en vez de lun-vie: lo quiere como
+rutina fija de la mañana. Que sábado y domingo repitan el cierre del viernes es lo buscado,
+no un defecto — si lo reporta como "se quedó pegado", esa es la explicación.
 
-`11:38 UTC` = 07:38 Chile en invierno y 08:38 en verano (verificado con zoneinfo; el
-comentario del workflow decía lo contrario y se corrigió en `66516dc`). GitHub no entiende
-husos horarios, el cron es siempre UTC, así que la hora local se corre sola cuando Chile
-cambia de horario. En los dos casos queda antes de que abra el mercado.
+**El 31-08 reportó que no le llegó nada en la mañana. Era cierto y ya está arreglado.** El
+cron propio (`38 11 * * *`, 07:38 de Chile) venía disparando a las 15:26 y 15:44 UTC —
+11:26 y 11:44 de Chile, después de que abre el mercado — y el 31-08 no disparó en todo el
+día. Es el throttling del punto 2, no un error del script.
 
-**El resumen automático sí sale, pero no de mañana (medido el 30-08).** Los dos runs
-terminaron `success` y con "Resumen enviado" en el log, así que a José le llegó — pero el
-cron de las **11:38 UTC disparó a las 15:44 UTC el 29-08 y a las 15:26 UTC el 30-08**: casi
-cuatro horas tarde, o sea cerca de las 11:30 de Chile y **después de que abre el mercado**
-(13:30 UTC). Es el mismo throttling del punto 2, no un error del script.
+**El arreglo (elegido: camino 1 de los tres que estaban sobre la mesa).** El resumen se
+colgó del recolector horario: `resumen_telegram.enviar_si_toca()`, llamado al final de
+`collector/main.py` justo después de las alertas. Manda el primer run del día que caiga
+entre las **07:00 y las 12:00 de Chile** y no haya mandado nada todavía; el antiduplicado
+vive en `data/resumen_enviado.json`, que `daily.yml` commitea junto al snapshot igual que
+`alertas_enviadas.json` (si no se commiteara, sería el mismo bug que tenían las tesis —
+punto 4). El día se cuenta en hora de Chile, no UTC, y la ventana está definida en hora
+local para que se corra sola con el horario de verano.
 
-Rompe la premisa de la feature ("antes de que abra el mercado"). Tres caminos, ninguno
-elegido todavía — **preguntarle a José antes de tocar nada**:
+Por qué esto y no adelantar el cron: no da hora exacta, pero da muchos más intentos. Medido
+sobre los runs reales del 24 al 31 de agosto, **los 8 días tuvieron al menos un run del
+recolector dentro de la ventana** — incluido el 27, que tuvo 2 runs en 24 horas. Los mismos
+días, el cron propio llegó más tarde o no llegó. El 31-08 habría salido a las 10:06 de
+Chile en vez de nunca.
 
-1. **Colgar el resumen del recolector** en vez de un cron propio: el primer run del día
-   pasada cierta hora manda el mensaje, con un archivo de estado como el de las alertas
-   (`data/alertas_enviadas.json`). No agrega terceros y se apoya en los ~12 disparos que
-   sí llegan al día, pero la hora exacta sigue sin ser garantía.
-2. **Adelantar el cron** (p. ej. 09:00 UTC) para que aun llegando cuatro horas tarde caiga
-   antes de la apertura. Barato, pero es apostarle a que el retraso no crezca.
-3. **Disparador externo**, mismo remedio que el punto 2 y las mismas objeciones.
+`.github/workflows/resumen_telegram.yml` quedó **solo con `workflow_dispatch`**: sigue
+sirviendo de botón "mándamelo ahora" (ese camino ignora ventana y estado a propósito), pero
+ya no tiene `schedule`. Lo único que da hora fija de verdad sigue siendo un disparador
+externo — ver punto 2, sin decidir.
 
 **Las alertas de ±5% siguen sin verse en la práctica** — solo saltan cuando algo se mueve de
-verdad, y entre el 28 y el 30 no pasó (el log dice `sin movimientos de ±5.0% entre 20
-tickers vigilados`). Cuando le llegue la primera, preguntarle si el umbral le sirve o si es
-mucho ruido: es una constante sola, `UMBRAL_PCT` en `collector/alertas.py`.
+verdad. Cuando le llegue la primera, preguntarle si el umbral le sirve o si es mucho ruido:
+es una constante sola, `UMBRAL_PCT` en `collector/alertas.py`. Ojo con lo que preguntó el
+31-08: **las alertas solo miran watchlist + candidatos del Radar**, todo acciones y ETF de
+EE.UU. vía Finnhub. Un commodity (WTI, cobre, Brent) no está en la app en ninguna parte, así
+que no hay forma de que avise por eso hoy. Ofrecido y no pedido: sumar cobre y petróleo a
+las referencias de Chile.
 
 **Sin cargar (opcional, no es un error):** `APP_URL` en la pestaña **Variables** (no
 Secrets). Sin ella el resumen sale sin el link "Ver todo en la app". La URL de Vercel no
@@ -218,7 +225,8 @@ snapshot recién generado gana: se rearma sobre `origin/main` y reintenta hasta 
 `:17`/`:47` no alcanzó: llegan tarde en vez de no llegar.
 
 - Runs `schedule` de `daily.yml` por día (de 48 posibles: 24 principales + 24 respaldos):
-  25-08: 14 · 26-08: 17 · 27-08: 2 · 28-08: 4 · 29-08: 11 · **30-08: 12**.
+  25-08: 14 · 26-08: 17 · 27-08: 2 · 28-08: 4 · 29-08: 11 · 30-08: 12 · **31-08: 5**
+  (contados hasta las 16:48 UTC, cuando ya deberían haber salido 34).
 - Los que llegan, llegan corridos: el disparo de `:17` cae a `:24`, `:34`, `:39`, `:58`.
   Sigue siendo la firma de la cola de Actions, no un problema del repo — todos terminan
   `success`, repo público sin tope de minutos.
@@ -226,11 +234,12 @@ snapshot recién generado gana: se rearma sobre `origin/main` y reintenta hasta 
   de 01:40→06:47 (5 h) y 06:47→12:59 (6 h). O sea que la app muestra un precio de hace
   horas buena parte del día.
 
-**El disparador externo vuelve a estar sobre la mesa** (cron-job.org pegándole a
+**El disparador externo sigue sobre la mesa** (cron-job.org pegándole a
 `workflow_dispatch`, que no sufre el throttling — se comprobó el 28-08: el run manual salió
 al instante). Cuesta meter una pieza de terceros y un PAT fuera del repo, así que **no
-implementarlo sin que José lo decida**. La otra mitad del problema (el resumen matutino) se
-puede arreglar sin terceros — ver punto 1.
+implementarlo sin que José lo decida**. El 31-08 se arregló la mitad que no necesitaba
+terceros —el resumen matutino, punto 1— pero **los huecos de 5-6 h en el precio siguen
+igual**: eso solo lo arregla el disparador externo, o aceptar la cadencia que hay.
 
 ### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
 
@@ -286,10 +295,15 @@ que la tesis sigue siendo inmutable (regla dura de Fase 7); tampoco se toca una 
 cerrada ni se revive una que el usuario borró desde la web. 8 tests nuevos, suite en 191.
 Verificado en un run real: el paso imprime `tesis: N tesis, M lectura(s) nueva(s)`.
 
-### 5. Lo del 24 de agosto, todavía sin mirar
+### 5. Lo del 24 de agosto: implementado y deployado, falta que lo mire
 
-Sigue igual que como quedó esa noche — José no lo ha visto. Antes de picar código nuevo,
-preguntarle:
+**Ojo, esto no es trabajo pendiente.** Todo lo de abajo está escrito, en `main` y en
+producción desde el 24 de agosto; lo verificado el 31-08 uno por uno: el rango `10A` está en
+`GraficoPrecio.tsx` (`aniosPorTick = 2`, rotula año por medio), el simulador ya va a dos
+cards por fila (`PaperInvesting.css`, grid `minmax(380px, 1fr)` desde 960px), la señal por
+métrica está en `SenalMetrica.tsx` y el tooltip del gráfico ya tiene sus colores fijados a
+mano. Lo que falta es que José lo abra y diga si le sirve — eso no lo puede hacer nadie más.
+Preguntarle:
 
 - **Rango "10A" del gráfico**: ¿se lee bien el eje rotulando año por medio? (Confirmado el 27:
   `daily.json` ya trae la clave `10A`, 522 puntos por ticker, así que el botón ya dibuja.)
@@ -303,6 +317,8 @@ preguntarle:
 - **"Mi inversión"**: comprar/vender/editar/borrar con la clave real. El flujo completo solo
   se probó con clave incorrecta (401) porque acá no se tiene el `WATCHLIST_EDIT_KEY` real.
 - Los recuadros "HOY"/"TU POSICIÓN" del header y el contraste del tooltip del gráfico.
+- **Modo oscuro** (nuevo, 31-08): si lo usa, mirar si los colores de señal quedaron bien —
+  ver punto 8.
 
 ### 6. Sin empezar, esperando que las pida explícitamente
 
@@ -345,4 +361,25 @@ una hora; 3 h ya no es "el mercado está cerrado", es "nadie está recolectando"
 
 Ojo con lo de arriba a la luz del punto 2: con los huecos de 5-6 h que hay ahora, **es
 esperable que José empiece a ver el ⚠️**. Si lo reporta, no es un falso positivo — es el
-aviso funcionando y contando el problema del cron. La suite quedó en **205 tests**.
+aviso funcionando y contando el problema del cron. La suite quedó en 205 tests (215 tras
+la sesión del 31-08).
+
+### 8. Contraste del modo oscuro — arreglado (2026-08-31)
+
+Salió de leer `tokens.css`, no lo reportó José. El bloque `@media (prefers-color-scheme:
+dark)` redefinía `--tinta*`, `--papel*`, `--linea` y los tres `*-fondo` del semáforo, pero
+**no los cuatro colores de señal**: quedaban los tonos calculados contra papel claro,
+puestos sobre un fondo casi negro. Medido con la fórmula de contraste de WCAG contra
+`--papel` oscuro (`#14171c`):
+
+- `--acento` **2,09:1** — y es la línea del gráfico de precio y todos los links de la app.
+- `--rojo` 2,99:1 · `--verde` 3,38:1 — abajo del 4,5:1 que pide texto.
+- `--ambar` 4,74:1 pasaba de pelo en oscuro, pero **3,63:1 en modo claro**, que también falla.
+
+Ahora los cuatro se redefinen en el bloque oscuro (`#3fa872` / `#d99a2b` / `#d97264` /
+`#6f9fdb`) y el ámbar claro bajó a `#955d05`. El peor par del set queda en 4,77:1, medido
+tanto contra `--papel` como contra su propio `*-fondo`.
+
+**No choca con la regla dura del color**: son los mismos cuatro colores con la misma lectura
+(verde/ámbar/rojo = estado, acento = link y serie principal), aclarados para verse. No se
+agregó ningún color, ni decorativo ni de señal.

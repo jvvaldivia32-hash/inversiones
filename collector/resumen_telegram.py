@@ -1,7 +1,9 @@
 """Resumen de cada mañana por Telegram: dónde quedó todo antes de que abra el mercado.
 
-Corre en su propio cron (.github/workflows/resumen_telegram.yml) y no le pide nada a
-ninguna API: todo sale de `data/daily.json`, que el recolector horario ya dejó escrito.
+Lo dispara el recolector horario (`enviar_si_toca()`, llamado desde collector/main.py), no
+un cron propio. Ver la nota de VENTANA abajo: el cron propio existía y GitHub lo botaba.
+No le pide nada a ninguna API — todo sale de `data/daily.json`, que el recolector acaba de
+dejar escrito.
 
 Igual que las alertas, esto informa y no aconseja: precios, variaciones y los titulares que
 ya están en la app, sin ninguna lectura de qué conviene hacer (regla dura de CLAUDE.md).
@@ -13,6 +15,7 @@ import datetime
 import json
 import os
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from env import cargar_env
 from formato import num, pct
@@ -20,6 +23,25 @@ from sources import telegram
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
 RUTA_DAILY = RAIZ_REPO / "data" / "daily.json"
+RUTA_ESTADO = RAIZ_REPO / "data" / "resumen_enviado.json"
+
+# Ventana, en hora de Chile, dentro de la cual el recolector manda el resumen del día: el
+# primer run que caiga acá adentro y no haya mandado nada todavía, lo manda.
+#
+# Por qué así y no un cron propio a las 07:38: GitHub bota y encola los eventos `schedule`
+# de este repo desde el 26-08-2026 (ver CLAUDE.md punto 2). Ese cron llegó a disparar a las
+# 11:26 y 11:44 de Chile —después de que abre el mercado— y el 31-08 no disparó en todo el
+# día. Colgarlo del recolector no da una hora exacta, pero le da muchos más intentos: en los
+# 8 días medidos (24 al 31 de agosto), *todos* tuvieron al menos un run acá adentro, incluido
+# el 27 que tuvo 2 runs en las 24 horas. Los mismos días, el cron propio llegó más tarde o no
+# llegó.
+#
+# 07:00 y no antes: el cierre de ayer ya está firme desde la noche, pero un "buenos días" a
+# las 2 de la mañana no es un resumen de la mañana. 12:00 y no después, por lo mismo al
+# revés — pasado mediodía deja de ser el mensaje que se pidió y es mejor no mandarlo.
+HORA_DESDE = 7
+HORA_HASTA = 12
+ZONA_CHILE = ZoneInfo("America/Santiago")
 
 # Cuántos titulares de cada bloque entran. Más que esto y el mensaje deja de leerse de un
 # vistazo en el celular, que es todo el punto del resumen.
@@ -155,6 +177,68 @@ def construir(daily: dict, ahora: datetime.datetime) -> str:
     return "\n\n".join(partes)
 
 
+def _dia_chile(ahora: datetime.datetime) -> str:
+    """El día según Chile, no según UTC: es el día del que habla el mensaje."""
+    return ahora.astimezone(ZONA_CHILE).strftime("%Y-%m-%d")
+
+
+def en_ventana(ahora: datetime.datetime) -> bool:
+    return HORA_DESDE <= ahora.astimezone(ZONA_CHILE).hour < HORA_HASTA
+
+
+def cargar_estado(ruta: Path = RUTA_ESTADO) -> dict:
+    try:
+        estado = json.loads(ruta.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"ultimo_envio": None}
+    return {"ultimo_envio": estado.get("ultimo_envio")}
+
+
+def guardar_estado(dia: str, ruta: Path = RUTA_ESTADO) -> None:
+    ruta.write_text(
+        json.dumps({"ultimo_envio": dia}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+
+
+def enviar_si_toca(
+    daily: dict, ahora: datetime.datetime, ruta_estado: Path = RUTA_ESTADO
+) -> bool:
+    """Punto de entrada desde main.py: manda el resumen si es la mañana y todavía no salió.
+
+    El recolector corre muchas veces al día, así que esto se llama muchas veces y casi
+    siempre no hace nada. El que manda es el primer run que caiga en la ventana; el estado
+    en `data/resumen_enviado.json` —que daily.yml commitea junto al snapshot, igual que
+    `alertas_enviadas.json`— evita que los siguientes repitan el mensaje.
+    """
+    if not telegram.configurado():
+        print("  Telegram sin configurar, no se manda resumen")
+        return False
+
+    local = ahora.astimezone(ZONA_CHILE)
+    if not en_ventana(ahora):
+        print(
+            f"  fuera de la ventana del resumen: {local:%H:%M} de Chile "
+            f"(ventana {HORA_DESDE:02d}:00–{HORA_HASTA:02d}:00)"
+        )
+        return False
+
+    dia = _dia_chile(ahora)
+    if cargar_estado(ruta_estado)["ultimo_envio"] == dia:
+        print(f"  el resumen de hoy ({dia}) ya salió")
+        return False
+
+    mensaje = construir(daily, local)
+    if not telegram.enviar(mensaje):
+        # Igual que las alertas: si el envío falló no se marca el día, así el próximo run
+        # dentro de la ventana reintenta en vez de dar por mandado algo que nunca llegó.
+        print("  el resumen no se pudo enviar, se reintenta en el próximo run")
+        return False
+
+    guardar_estado(dia, ruta_estado)
+    print(f"  resumen de la mañana enviado ({len(mensaje)} caracteres, {local:%H:%M} de Chile)")
+    return True
+
+
 def main() -> None:
     cargar_env(RAIZ_REPO / ".env")
 
@@ -166,7 +250,10 @@ def main() -> None:
     generado = daily.get("generado")
     print(f"daily.json generado: {generado}")
 
-    mensaje = construir(daily, datetime.datetime.now(datetime.timezone.utc))
+    # A propósito no mira ni la ventana ni el estado del día: este camino es el botón
+    # manual del workflow, o sea un "mándamelo ahora" explícito. Tampoco marca el día como
+    # enviado, así que no le saca el turno al automático.
+    mensaje = construir(daily, datetime.datetime.now(ZONA_CHILE))
     print(f"Enviando resumen ({len(mensaje)} caracteres)...")
     if telegram.enviar(mensaje):
         print("Resumen enviado.")

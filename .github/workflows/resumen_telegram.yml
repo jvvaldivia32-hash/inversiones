@@ -1,27 +1,21 @@
-name: Resumen por Telegram (mañana)
+name: Resumen por Telegram (manual)
 
+# El resumen de cada mañana ya NO sale de acá: lo manda el recolector horario
+# (collector/main.py → resumen_telegram.enviar_si_toca), en el primer run del día que caiga
+# entre las 07:00 y las 12:00 de Chile.
+#
+# Por qué se sacó el cron: GitHub bota y encola los eventos `schedule` de este repo desde el
+# 26-08-2026 (CLAUDE.md punto 2). Este workflow estaba en '38 11 * * *' —07:38 de Chile— y
+# medido de verdad disparó a las 15:44 UTC (29-08) y 15:26 UTC (30-08), o sea 11:26/11:44 de
+# Chile, DESPUÉS de que abre el mercado; el 31-08 no disparó en todo el día. Colgado del
+# recolector no hay una hora exacta garantizada, pero hay muchos más intentos: en los 8 días
+# medidos (24 al 31 de agosto) todos tuvieron al menos un run del recolector dentro de esa
+# ventana — incluido el 27, que tuvo 2 runs en 24 horas.
+#
+# Lo único que da hora fija de verdad es un disparador externo pegándole a
+# `workflow_dispatch` (que no sufre el throttling). Está sobre la mesa y sin decidir.
 on:
-  schedule:
-    # 11:38 UTC = 07:38 Chile en invierno (UTC-4) y 08:38 en verano (UTC-3) — verificado
-    # con zoneinfo, no a ojo. GitHub no entiende husos horarios: el cron es siempre UTC, así
-    # que la hora local se corre sola una hora cuando Chile cambia de horario. En los dos
-    # casos queda antes de que abra el mercado de EE.UU. (13:30 UTC), con el cierre de ayer
-    # ya consolidado, que es lo que importa.
-    #
-    # OJO — eso es la teoría. Medido el 30-08-2026, GitHub disparó este cron a las 15:44 UTC
-    # (29-08) y a las 15:26 UTC (30-08): casi cuatro horas tarde, o sea DESPUÉS de que abre
-    # el mercado. Es el mismo throttling de daily.yml. Está anotado en CLAUDE.md (puntos 1 y
-    # 2) con las tres salidas posibles; ninguna elegida todavía. No confiar en la hora de
-    # acá sin mirar los runs reales.
-    #
-    # Todos los días, fin de semana incluido: el sábado y el domingo repiten el cierre del
-    # viernes, y eso es a propósito — el usuario lo pidió así el 2026-08-28 para tenerlo
-    # como rutina fija de la mañana, no solo cuando el mercado abre.
-    #
-    # El minuto no es en punto a propósito: GitHub bota eventos `schedule` cuando su cola
-    # está cargada y :00/:30 son los minutos más congestionados (ver la nota en daily.yml).
-    - cron: '38 11 * * *'
-  workflow_dispatch:       # botón manual
+  workflow_dispatch:       # botón manual: manda el resumen ahora, sin mirar hora ni estado
 
 jobs:
   resumen:

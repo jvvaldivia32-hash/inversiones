@@ -10,7 +10,7 @@
   /* Señal — solo para estado, nunca decorativo */
   --verde: #1f7a4d;
   --verde-fondo: #e6f2ec;
-  --ambar: #b87407;
+  --ambar: #955d05;
   --ambar-fondo: #f7ecd9;
   --rojo: #b03a2e;
   --rojo-fondo: #f6e5e3;
@@ -42,8 +42,19 @@
     --papel-hueco: #1c2027;
     --linea: #2c313a;
 
+    /* Los cuatro colores de señal se redefinen acá, no solo los -fondo: los tonos de
+       arriba están calculados contra papel claro y sobre el fondo oscuro se caían del
+       mínimo AA de 4,5:1 — el --acento quedaba en 2,09:1, y es la línea del gráfico de
+       precio y todos los links de la app. Son los mismos cuatro colores con la misma
+       lectura (verde/ámbar/rojo = estado, acento = link y serie principal), aclarados lo
+       justo para verse; no hay ningún color nuevo ni decorativo. Medidos contra --papel y
+       contra su propio -fondo: el más bajo del set queda en 4,77:1. */
+    --verde: #3fa872;
     --verde-fondo: #17301f;
+    --ambar: #d99a2b;
     --ambar-fondo: #332508;
+    --rojo: #d97264;
     --rojo-fondo: #331714;
+    --acento: #6f9fdb;
   }
 }

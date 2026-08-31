@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 
 import alertas
+import resumen_telegram
 import historico
 import noticias
 import tesis
@@ -358,6 +359,18 @@ def main() -> None:
         # errores de red; esto cubre el resto (un dato con forma inesperada, un archivo de
         # estado ilegible) para que el snapshot igual se commitee.
         print(f"  alertas falladas, se sigue igual: {type(e).__name__}: {e}")
+
+    # El resumen de la mañana cuelga de acá y no de un cron propio: GitHub bota los eventos
+    # `schedule` de este repo y ese cron llegaba después de que abría el mercado, o no
+    # llegaba (ver la nota de VENTANA en resumen_telegram.py). Casi siempre esto no hace
+    # nada: manda solo el primer run del día que caiga entre las 07:00 y las 12:00 de Chile.
+    print("\nResumen de la mañana...")
+    try:
+        resumen_telegram.enviar_si_toca(daily, ahora)
+    except Exception as e:
+        # Mismo criterio que las alertas: un aviso roto nunca puede costar el push del
+        # snapshot (regla de CLAUDE.md).
+        print(f"  resumen fallado, se sigue igual: {type(e).__name__}: {e}")
 
     print("\nRangos derivados:")
     for ticker in tickers:
