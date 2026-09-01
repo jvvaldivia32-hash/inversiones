@@ -279,6 +279,28 @@ andando sin que José confirme que hizo el PAT y armó el cron job.** Cuando lo 
 contando runs `workflow_dispatch` por hora en `gh run list --workflow=daily.yml`, no
 asumiendo que "debería estar funcionando".
 
+**Pausado a propósito el 2026-09-01 — José va a crear el PAT y la cuenta mañana, no hoy.**
+Antes de cortar preguntó dos cosas razonables, ya respondidas, no repreguntar:
+
+- **¿cron-job.org es gratis y seguro?** Sí a ambas, confirmado con la página del servicio (no
+  de memoria): gratis sin tarjeta, financiado por donaciones; lleva 15+ años activo, millones
+  de cronjobs al día, 2FA, código GPL público en GitHub. Soporta POST con headers custom
+  (lo que se necesita) y hasta 1 ejecución por minuto (sobra para 1 vez por hora). El PAT que
+  se le va a dar está acotado a "Actions: Read and write" solo en este repo — si algo saliera
+  mal, lo peor que un token robado podría hacer es forzar recolecciones de más (molesto, sin
+  costo en un repo público, y sin poder tocar código ni otros repos).
+- **¿esto es en verdad GitHub o es Vercel / la app "en desuso"?** Es GitHub. Se descartó
+  Vercel explícitamente: el recolector corre 100% en GitHub Actions, en un reloj propio de
+  GitHub, sin depender de que nadie visite la app en Vercel — son sistemas sin relación entre
+  sí. Tampoco es inactividad del repo (GitHub apaga workflows tras 60 días sin actividad, y
+  este repo commitea casi cada hora cuando el cron sí dispara). El patrón medido —runs que
+  llegan corridos a minutos random, todos en `success`— es la firma de la cola de Actions,
+  no de un repo dormido.
+
+**Al retomar:** los 3 pasos de arriba siguen intactos y sin hacer. No hace falta volver a
+explicarle qué es un PAT ni si es seguro — eso ya quedó resuelto esta sesión. Ir directo a
+guiarlo paso a paso si lo pide, o preguntarle si ya lo hizo él solo.
+
 ### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
 
 Lo pidió José a mitad de sesión. Los parámetros los eligió él el 2026-08-27: **las dos
