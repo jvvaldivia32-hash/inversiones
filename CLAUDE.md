@@ -106,14 +106,17 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-08-31)
+## Pendiente (al 2026-09-01)
 
 **Contexto de arranque:** el frente abierto sigue siendo **el throttling de los cron de
 GitHub** (punto 2), que el arreglo del minuto `:17`/`:47` no alcanzó a tapar. El 31-08 José
 reportó que el resumen de Telegram no le llegó en la mañana: era cierto, el cron propio no
 disparó en todo el día. **Esa mitad quedó arreglada** colgando el resumen del recolector
-(punto 1). **La otra mitad no**: la app sigue con huecos de 5-6 horas sin actualizarse, y
-eso solo lo arregla un disparador externo, que José todavía no decidió.
+(punto 1). Para la otra mitad —los huecos de 5-6 horas sin actualizarse— José pidió el
+2026-09-01 avanzar con el disparador externo (cron-job.org); **el lado del repo ya está
+(`daily.yml`), pero falta que José cree el PAT y la cuenta en cron-job.org** — son pasos que
+solo él puede hacer, ver el detalle en el punto 2. No dar el punto por cerrado hasta que
+confirme que lo armó y se vean runs `workflow_dispatch` llegando cada hora.
 
 Lo demás de infraestructura está bien: la sesión del 28-08 cerró una pasada de debug con
 cinco bugs arreglados y pusheados (punto 7), todos verificados en un run real.
@@ -234,12 +237,47 @@ snapshot recién generado gana: se rearma sobre `origin/main` y reintenta hasta 
   de 01:40→06:47 (5 h) y 06:47→12:59 (6 h). O sea que la app muestra un precio de hace
   horas buena parte del día.
 
-**El disparador externo sigue sobre la mesa** (cron-job.org pegándole a
-`workflow_dispatch`, que no sufre el throttling — se comprobó el 28-08: el run manual salió
-al instante). Cuesta meter una pieza de terceros y un PAT fuera del repo, así que **no
-implementarlo sin que José lo decida**. El 31-08 se arregló la mitad que no necesitaba
-terceros —el resumen matutino, punto 1— pero **los huecos de 5-6 h en el precio siguen
-igual**: eso solo lo arregla el disparador externo, o aceptar la cadencia que hay.
+**El disparador externo — decidido el 2026-09-01, mitad implementada.** José pidió avanzar
+con cron-job.org pegándole a `workflow_dispatch` (no sufre el throttling — se comprobó el
+28-08: el run manual salió al instante). El lado del repo ya está: `daily.yml` le agregó un
+input `forzar` (boolean, default `true`) al `workflow_dispatch`, y el paso `frescura` ahora
+mira ese input en vez de solo `event_name != 'schedule'`:
+
+```yaml
+FORZAR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.forzar == 'true' && '1' || '' }}
+```
+
+Por qué el input y no forzar siempre: si cron-job.org dispara la misma hora en que un
+`schedule` ya alcanzó a correr, forzar de nuevo duplicaría la recolección — el mismo
+problema que el paso `frescura` existe para evitar entre `:17` y `:47`. El botón manual de
+la UI (`forzar` tildado por default) sigue forzando siempre, para poder seguir probando
+workflows al toque como se viene haciendo desde el punto 2 original.
+
+**Lo que sigue sin hacer, porque solo José lo puede hacer** (no es código, son cuentas que
+no le puedo crear): un PAT nuevo y una cuenta en cron-job.org.
+
+1. **Crear el PAT** en GitHub → Settings → Developer settings → Fine-grained tokens →
+   Generate new token. Acotado *solo* al repo `inversiones` (no "All repositories"), permiso
+   **Actions: Read and write** — nada de Contents, este token no toca archivos, solo dispara
+   el workflow. Es un token nuevo, no reusar `GITHUB_WRITE_TOKEN` (ese tiene Contents R/W y
+   ampliarle el alcance a Actions sería regalarle más de lo que necesita).
+2. **Este PAT no va en GitHub Secrets** — vive en la config de cron-job.org, no en este
+   repo, porque quien lo usa es un servicio externo pegándole a la API de GitHub desde
+   afuera, no un workflow corriendo adentro.
+3. **Crear la cuenta en cron-job.org** (gratis) y armar un cron job:
+   - URL: `https://api.github.com/repos/jvvaldivia32-hash/inversiones/actions/workflows/daily.yml/dispatches`
+   - Método: `POST`
+   - Headers: `Authorization: Bearer <el PAT>` · `Accept: application/vnd.github+json` ·
+     `X-GitHub-Api-Version: 2022-11-28`
+   - Body (JSON): `{"ref": "main", "inputs": {"forzar": "false"}}` — el `"false"` como
+     string, no como booleano, porque así lo manda la API de GitHub.
+   - Frecuencia: cada hora, en un minuto que no sea `:00`/`:17`/`:30`/`:47` (para no
+     competir con los `schedule` existentes) — por ejemplo `:05`.
+
+Sin esos tres pasos el input queda ahí sin que nada lo dispare — **no asumir que ya está
+andando sin que José confirme que hizo el PAT y armó el cron job.** Cuando lo haga, verificar
+contando runs `workflow_dispatch` por hora en `gh run list --workflow=daily.yml`, no
+asumiendo que "debería estar funcionando".
 
 ### 3. Telegram: alertas de movimiento fuerte + resumen de la mañana (hecho, commit `8aad509`)
 

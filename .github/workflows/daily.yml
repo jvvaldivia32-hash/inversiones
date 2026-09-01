@@ -14,7 +14,12 @@ on:
     # esto solo la defiende de que GitHub la deje caer.
     - cron: '17 * * * *'   # principal
     - cron: '47 * * * *'   # respaldo
-  workflow_dispatch:       # botón manual — siempre recolecta, se saltea el chequeo de frescura
+  workflow_dispatch:       # botón manual, o un disparador externo (ver nota de FORZAR abajo)
+    inputs:
+      forzar:
+        description: 'Recolectar aunque el dato ya esté fresco (déjalo tildado para el botón manual)'
+        type: boolean
+        default: true
 
 jobs:
   recolectar:
@@ -32,8 +37,13 @@ jobs:
       # respaldo salga en ~10 segundos cuando el principal ya hizo el trabajo.
       - id: frescura
         env:
-          # Cualquier disparo que no sea el cron (el botón manual) recolecta igual.
-          FORZAR: ${{ github.event_name != 'schedule' && '1' || '' }}
+          # El botón manual (`workflow_dispatch` desde la UI, `forzar` tildado por default)
+          # recolecta siempre. Un disparo externo del mismo `workflow_dispatch` —cron-job.org
+          # pegándole a la API con `inputs.forzar: "false"`, ver CLAUDE.md— en cambio respeta
+          # el chequeo de frescura, igual que el cron: así no duplica una recolección que un
+          # `schedule` ya haya alcanzado a hacer esa misma hora. Por eso se mira el input y no
+          # solo `event_name != 'schedule'` como antes.
+          FORZAR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.forzar == 'true' && '1' || '' }}
         run: |
           # pipefail: sin esto el exit code del paso es el de `tee`, no el de python, y un
           # crash del script dejaría `correr` vacío — el run terminaría en verde sin haber
