@@ -1,11 +1,124 @@
 {
-  "generado": "2026-09-01T16:36:27.177428+00:00",
+  "generado": "2026-09-01T19:57:32.515876+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Declaraciones de Carney sobre la reanudación de negociaciones comerciales entre Canadá y Estados Unidos",
-        "resumen": "El enviado canadiense Carney ha declarado que Estados Unidos debe adoptar una postura más seria antes de que se puedan retomar las negociaciones comerciales bilaterales. La disputa económica actual está generando efectos negativos notables en los mercados de ambos países vecinos.",
+        "titulo_neutral": "Aumento de la inflación y subida de tipos de interés",
+        "resumen": "Los mercados financieros y los principales bancos centrales enfrentan presiones inflacionarias renovadas impulsadas por el encarecimiento del petróleo. Mientras tanto, las grandes empresas tecnológicas reportan sus resultados trimestrales bajo el escrutinio de los inversores por el alto volumen de gasto en inteligencia artificial. Paralelamente, los incendios forestales azotan varias regiones de Europa y las naciones en desarrollo buscan protegerse frente a posibles crisis energéticas globales.",
+        "articulos": [
+          {
+            "titular": "Euro zone inflation rises above 3%, cementing ECB rate hike bets - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
+            "fecha": "2026-09-01T18:04:38+00:00"
+          },
+          {
+            "titular": "Dollar gains as oil, yield increases revive inflation fears - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
+            "fecha": "2026-09-01T14:31:41+00:00"
+          },
+          {
+            "titular": "Bond yields rise as oil prices fan inflation fears; stocks slip - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+            "fecha": "2026-09-01T01:46:00+00:00"
+          },
+          {
+            "titular": "Fed holds rates as inflation fears grow",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
+            "fecha": "2026-07-30T04:00:00+00:00"
+          },
+          {
+            "titular": "Hike or hold: Investors split ahead of Fed decision",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
+            "fecha": "2026-07-27T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Evolución y medidas en el mercado de bonos de Estados Unidos",
+        "resumen": "Los mercados de deuda soberana y bursátiles reaccionan ante importantes movimientos corporativos, como el avance prometedor en ensayos clínicos de una farmacéutica para un tratamiento oncológico. Por otro lado, las autoridades financieras estadounidenses planean incrementar notablemente la recompra de bonos gubernamentales a largo plazo. En el ámbito laboral, los bufetes de abogados enfrentan críticas por la contratación prematura de estudiantes recién ingresados.",
+        "articulos": [
+          {
+            "titular": "Explainer: What's behind the selloff in world bond markets? - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN01sQ1RpX1dfMlY5bzVSbjc5RnMxb3I4RnZZQW1BZnJBM3R2S0Zkdk95dGNnWFNQOXo1Y0FqSlprVHZ5czZ5ZHdQMGtzM1FqUHpaUjV2bnBaVlYtdW9CRk9iT3hEYnFqc1VzbmFmZ3FUY2lXZnNoSFM2c0s3dGtOcXBmbnFfTUtULUk5WHhDbGY4THBfOVBZ?oc=5",
+            "fecha": "2026-09-01T17:50:36+00:00"
+          },
+          {
+            "titular": "US Treasury tries to soothe the bond market",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
+            "fecha": "2026-08-20T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN01yNnpGbk1CVXJyS00tY0swX3JKTldjOER3SlY1clItcU5Nbk1XYzZFNEJDR1BIZ2NaSXk5Z0VTRGZJdDd4cUk2YnBLWGNSVVJGS3VTbFRNUlMtcnd6Y1FiU3lfSUU1V3lhSjNfSEhjMjdubTlfOEFEWXZwZUJWVHVxNVBHT0s3TzJfLWRSYTJzNHRtVTVqZEgtcFZER3ZRV0VnRk9jTm40RURvTksyTFA1d29Fem1TMGctaXJB?oc=5",
+            "fecha": "2026-09-01T17:23:40+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Conflicto comercial y aranceles entre Estados Unidos y Canadá",
+        "resumen": "Las tensiones comerciales bilaterales entre Estados Unidos y su vecino del norte continúan generando fricciones económicas y posturas firmes por parte de los líderes políticos. Una encuesta reciente revela un rechazo mayoritario entre la ciudadanía estadounidense hacia las medidas arancelarias implementadas recientemente. Estas disputas comerciales afectan de manera directa la estabilidad económica y la confianza empresarial en ambos países.",
         "articulos": [
           {
             "titular": "Canada's Carney says US needs to start being serious before trade talks can resume - Reuters",
@@ -14,7 +127,16 @@
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaUE0MzlFbFRZNDJYMU82QjkyekY5R2Nsa2IzMk5sWGFZV1RKUjFmQkh5MkoyRHduUVVHNkpqOFF5Zl95aHFhRVV6eTdncmVoN3lrZjdiTGlTSl9ITzZKYllnYmZPSmU4X0I3ampCV1JwVUh6OVFiU3I5QmoyU3dBSjUwTGhaS1lEVUJEa0MyZUdZaEdpd1N1Y1BFSDh4d0tMVUdoV2l3YnNPQk1CYTY3UWR3NnNwVUIzR01RMQ?oc=5",
-            "fecha": "2026-09-01T16:07:44+00:00"
+            "fecha": "2026-09-01T17:06:01+00:00"
+          },
+          {
+            "titular": "Majority of Americans oppose Trump's new Canada tariffs, renaming Lake Ontario, Reuters/Ipsos poll finds - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZzZSUnIyajNpWUhlZTh5VFpoWk4tTTFuTEdRSXQtS18ySkZ4WUFvakh1bEt3Ul9ocllWbzFqdS0xRUFRMlZZWTQwLXI1SFdQQ2Q0ZWw5ZWxpUW1hX2NqVlRtOXJ3amhlX3VtWW82aS1QMG51LUphdVVTV21QX0FXaTRfVmwtZFRFUXA3OEJaZ1RNSktfY1VaUTN5VFd1bnBJX2ZPaUhVb1duR0lGT3lGczFRT0NrVEN0Vmc?oc=5",
+            "fecha": "2026-09-01T15:36:57+00:00"
           },
           {
             "titular": "How the US-Canada trade war is being felt on both sides of the border",
@@ -36,17 +158,17 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Encuesta de Reuters/Ipsos sobre aranceles a Canadá y cambios en el lago Ontario",
-        "resumen": "Una reciente encuesta elaborada por Reuters e Ipsos señala que la gran mayoría de los estadounidenses rechaza las nuevas tarifas aduaneras impuestas a Canadá por Donald Trump. Asimismo, los ciudadanos encuestados mostraron su desacuerdo con la propuesta de cambiar el nombre del lago Ontario.",
+        "titulo_neutral": "Ukraine's Fedorov says Palantir CEO will be first major investor in new defence company - Reuters",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Majority of Americans oppose Trump's new Canada tariffs, renaming Lake Ontario, Reuters/Ipsos poll finds - Reuters",
+            "titular": "Ukraine's Fedorov says Palantir CEO will be first major investor in new defence company - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZzZSUnIyajNpWUhlZTh5VFpoWk4tTTFuTEdRSXQtS18ySkZ4WUFvakh1bEt3Ul9ocllWbzFqdS0xRUFRMlZZWTQwLXI1SFdQQ2Q0ZWw5ZWxpUW1hX2NqVlRtOXJ3amhlX3VtWW82aS1QMG51LUphdVVTV21QX0FXaTRfVmwtZFRFUXA3OEJaZ1RNSktfY1VaUTN5VFd1bnBJX2ZPaUhVb1duR0lGT3lGczFRT0NrVEN0Vmc?oc=5",
-            "fecha": "2026-09-01T15:36:57+00:00"
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcmkyd1cwT1ZNMVA1VnRWYU9RYVhXVUJiZUNzN0J6SGlfMmF1NHJ1VWh3YlAtdG12WXFXNm1wamRSTlZ6VE5PSFNoRk1zYXR5YXFmdmdTMHZjZTByNThRU2ZjeFlMQl9yNFFpX3Y4ZS05OVVYQk13bzZNS3p3MlZXaGNXWkNFbFpmaV9PQU9CYUxFU3R4dW13TjVEUGdaMjBEYVQ1QXcyWWIxbksxYmFFZEk1MjFpd2hBeDFYcGlzWlVzT3p4SnJVUnZYZTRPNnR2NUJXTg?oc=5",
+            "fecha": "2026-09-01T16:58:48+00:00"
           }
         ],
         "leans_presentes": [
@@ -58,17 +180,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Bancos planean emitir una stablecoin en dólares conjuntamente en 2027",
-        "resumen": "Instituciones financieras de gran peso, como Goldman Sachs y Bank of America, han anunciado sus planes conjuntos para lanzar una stablecoin vinculada al dólar en el año 2027. Este movimiento conjunto busca consolidar la adopción de activos digitales estables respaldados por la moneda estadounidense.",
+        "titulo_neutral": "Ambani's Reliance enters India's crowded ice cream market with 10-cent products - Reuters",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 - Reuters",
+            "titular": "Ambani's Reliance enters India's crowded ice cream market with 10-cent products - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN01yNnpGbk1CVXJyS00tY0swX3JKTldjOER3SlY1clItcU5Nbk1XYzZFNEJDR1BIZ2NaSXk5Z0VTRGZJdDd4cUk2YnBLWGNSVVJGS3VTbFRNUlMtcnd6Y1FiU3lfSUU1V3lhSjNfSEhjMjdubTlfOEFEWXZwZUJWVHVxNVBHT0s3TzJfLWRSYTJzNHRtVTVqZEgtcFZER3ZRV0VnRk9jTm40RURvTksyTFA1d29Fem1TMGctaXJB?oc=5",
-            "fecha": "2026-09-01T15:11:43+00:00"
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVpPbXFlWDM5NE1ZZUx0WXgxWDlXNDQtQlNHWnRabXRfT09KRVZPeDB0SHR1OWRobHA0MHluVGJvTkx1MENiUkRRdzRXYS1pcnN6ZFd4aFBIbVl4Z2VBal85aURwcGtMTXdkRXdoNnEzNE1IMW1aQ3FQdVpadjJFVFFhV09RN0tiaWpER1BhbGlMNFNJOEdwdnBhaXVzdw?oc=5",
+            "fecha": "2026-09-01T14:28:16+00:00"
           }
         ],
         "leans_presentes": [
@@ -80,8 +202,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Advertencia sobre la economía rusa en pie de guerra",
-        "resumen": "Un representante diplomático de Vladimir Putin ha advertido públicamente sobre el peligro de que la economía rusa entre en una fase descontrolada debido al esfuerzo bélico. Esta situación refleja las crecientes tensiones financieras y estructurales derivadas de la financiación militar prolongada.",
+        "titulo_neutral": "Putin envoy warns of Russian economy going 'berserk' on war footing - Reuters",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Putin envoy warns of Russian economy going 'berserk' on war footing - Reuters",
@@ -102,83 +224,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Ministro irlandés solicita acción de la UE para prohibir el comercio con asentamientos israelíes",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Irish minister calls for EU action in banning Israeli settlement trade",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/irish-minister-calls-for-eu-action-in-banning-israeli-settlement-trade?traffic_source=rss",
-            "fecha": "2026-09-01T13:32:13+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Impacto de los precios del petróleo en la inflación, la venta de bonos y la caída de acciones",
-        "resumen": "Los mercados financieros globales han experimentado caídas generalizadas en las bolsas y una fuerte venta de bonos impulsada por el temor a un repunte inflacionario. El incremento en los precios del petróleo ha reavivado las preocupaciones sobre la estabilidad de los precios a escala internacional.",
-        "articulos": [
-          {
-            "titular": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-            "fecha": "2026-09-01T12:27:21+00:00"
-          },
-          {
-            "titular": "Dollar gains as oil, yield increases revive inflation fears - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
-            "fecha": "2026-09-01T01:24:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Aumento de la inflación en la eurozona y expectativas sobre las tasas del BCE",
-        "resumen": "La tasa de inflación en la eurozona ha superado el umbral del 3 por ciento, lo que consolida las previsiones de que el Banco Central Europeo aplicará nuevas subidas en sus tipos de interés. Este incremento en el coste de la vida presiona a las autoridades monetarias para adoptar medidas más restrictivas.",
-        "articulos": [
-          {
-            "titular": "Euro zone inflation rises above 3%, cementing ECB rate hike bets - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
-            "fecha": "2026-09-01T10:15:30+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Debut bursátil de Shein",
-        "resumen": "",
+        "titulo_neutral": "Salidas a bolsa de empresas tecnológicas",
+        "resumen": "La inflación estadounidense experimentó una leve moderación gracias a la disminución en los costos de los combustibles, lo que influye en las expectativas sobre las decisiones de política monetaria. En el ámbito internacional, los negocios locales en Irán recurren cada vez más a soluciones de financiamiento aplazado debido a la escalada en el costo de vida. Asimismo, las autoridades europeas supervisan de cerca las actividades y la expansión de las principales empresas de tecnología financiera en la región.",
         "articulos": [
           {
             "titular": "Shein valued at $26bn after long-awaited stock market debut",
@@ -188,30 +235,159 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-09-01T10:01:26+00:00"
+          },
+          {
+            "titular": "Anthropic’s anticipated $2tn IPO",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
+            "fecha": "2026-08-13T04:00:00+00:00"
+          },
+          {
+            "titular": "SpaceX shoots for the moon with $1.78tn IPO",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/spacex-shoots-for-the-moon-with-178tn-ipo",
+            "fecha": "2026-06-10T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "BBC"
+          "BBC",
+          "Financial Times"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "El encuentro de Bachelet con Lula y las dos votaciones que serán clave para decidir su futuro en la ONU",
-        "resumen": "La exmandataria chilena confirmó a través de redes sociales su reunión con el mandatario brasileño para abordar su postulación a las Naciones Unidas. Debido a resultados adversos en el Consejo de Seguridad, ambos decidieron aguardar por nuevas consultas antes de definir los siguientes pasos. La situación genera complejidades adicionales para el gobernante de Brasil, quien recientemente dialogó con Donald Trump sobre asuntos comerciales.",
+        "titulo_neutral": "La alarma por la IA llega al sistema financiero: presidente del BoE advierte sobre ciberataques, mercados sobrevalorados y riesgo de contagio",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "El encuentro de Bachelet con Lula y las dos votaciones que serán clave para decidir su futuro en la ONU",
+            "titular": "La alarma por la IA llega al sistema financiero: presidente del BoE advierte sobre ciberataques, mercados sobrevalorados y riesgo de contagio",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/economia/la-alarma-por-la-ia-llega-al-sistema-financiero-presidente-del-boe",
+            "fecha": "2026-09-01T19:53:10+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Albemarle solicita mediación para evitar huelga en sus operaciones de litio en Chile",
+        "resumen": "Los empleados respaldaron mayoritariamente una huelga para exigir mejoras laborales en medio de las discusiones colectivas. Como resultado, se estableció una instancia de mediación que posterga el inicio de la movilización por varios días. Durante este periodo, las partes involucradas intentarán alcanzar un acuerdo definitivo.",
+        "articulos": [
+          {
+            "titular": "Albemarle solicita mediación para evitar huelga en sus operaciones de litio en Chile",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/mineria/albemarle-solicita-mediacion-para-evitar-huelga-en-sus-operaciones-de-litio",
+            "fecha": "2026-09-01T19:50:26+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Dólar retoma alzas luego de que EEUU lanzara una nueva ola de ataques contra Irán en el estrecho de Ormuz",
+        "resumen": "Los mercados financieros reaccionaron con un incremento en el valor del petróleo y del índice del dólar ante expectativas económicas. Los inversionistas estiman una alta probabilidad de que la Reserva Federal aumente las tasas de interés en su próxima reunión. Estas proyecciones reflejan la cautela de los mercados frente a los indicadores inflacionarios recientes.",
+        "articulos": [
+          {
+            "titular": "Dólar retoma alzas luego de que EEUU lanzara una nueva ola de ataques contra Irán en el estrecho de Ormuz",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/bolsa-monedas/dolar-hoy-3w46m",
+            "fecha": "2026-09-01T19:50:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "CEPD Abogados crea nuevas áreas y se refuerza en M&A: ficha a Matías Zegers y otros cinco exDLA Piper Chile",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "CEPD Abogados crea nuevas áreas y se refuerza en M&A: ficha a Matías Zegers y otros cinco exDLA Piper Chile",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/entre-codigos/cepd-abogados-crea-nuevas-areas-y-se-refuerza-en-m-a-ficha-a-matias-zegers",
+            "fecha": "2026-09-01T19:48:40+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Dos caras del mercado laboral: desempleo de chilenos roza el 10% y el de extranjeros cae a 6,5%",
+        "resumen": "Expertos económicos atribuyeron una brecha laboral específica a la disminución en la llegada de fuerza de trabajo extranjera al país. Este fenómeno migratorio ha estado marcado principalmente por la reducción en el flujo de ciudadanos venezolanos. Dicha tendencia incide en la disponibilidad de mano de obra para ciertos sectores productivos locales.",
+        "articulos": [
+          {
+            "titular": "Dos caras del mercado laboral: desempleo de chilenos roza el 10% y el de extranjeros cae a 6,5%",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/laboral-personas/el-cara-y-sello-del-mercado-laboral-desempleo-de-chilenos-roza-el-10-y-el",
+            "fecha": "2026-09-01T19:48:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Quién es “El Indio Juan”: el femicida que se fugó de la cárcel y que planeaba asesinar al alcalde White de San Bernardo",
+        "resumen": "Un individuo que cumplía cadena perpetua por femicidio y que había escapado de prisión fue recapturado por las autoridades. Las indagatorias posteriores revelaron que el sujeto planeaba atentar contra la autoridad comunal de una zona metropolitana. El caso ha generado gran conmoción debido a la peligrosidad del recluso evadido.",
+        "articulos": [
+          {
+            "titular": "Quién es “El Indio Juan”: el femicida que se fugó de la cárcel y que planeaba asesinar al alcalde White de San Bernardo",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/01/el-encuentro-de-bachelet-con-lula-y-las-dos-votaciones-que-seran-clave-para-decidir-su-futuro-en-la-onu/",
-            "fecha": "2026-09-01T16:27:40+00:00"
+            "url": "https://www.theclinic.cl/2026/09/01/quien-es-el-indio-juan-el-femicida-que-se-fugo-de-la-carcel-y-que-planeaba-asesinar-al-alcalde-white-de-san-bernardo/",
+            "fecha": "2026-09-01T19:35:02+00:00"
           }
         ],
         "leans_presentes": [
@@ -223,17 +399,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Bolsa chilena resurge y el IPSA recupera los 11.400 puntos mientras Latinoamérica destaca en medio de las turbulencias globales",
-        "resumen": "La bolsa bursátil nacional experimentó una sesión de alta actividad y cerró con números negativos tras el readecuo de carteras del proveedor global de índices MSCI. Dicha entidad incorporó oficialmente al IPSA dentro de su cobertura y oficializó la entrada de una nueva firma al indicador.",
+        "titulo_neutral": "Clínica MEDS y Universidad Diego Portales sellan alianza que creará Centro Académico de Salud",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Bolsa chilena resurge y el IPSA recupera los 11.400 puntos mientras Latinoamérica destaca en medio de las turbulencias globales",
+            "titular": "Clínica MEDS y Universidad Diego Portales sellan alianza que creará Centro Académico de Salud",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-vmvfr",
-            "fecha": "2026-09-01T16:23:51+00:00"
+            "url": "http://www.df.cl/empresas/salud/clinica-meds-y-universidad-diego-portales-sellan-alianza-que-creara-centro",
+            "fecha": "2026-09-01T19:31:53+00:00"
           }
         ],
         "leans_presentes": [
@@ -245,127 +421,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resurgen demandas de zona franca para Aysén, pero tras más de una década paralizado, advierten que proyecto original deberá ser actualizado",
-        "resumen": "Más de una década después de su promulgación legal, la construcción de un puerto de escala principal en la zona austral sigue pendiente de licitación. Ante el avance del comercio masivo, diversos actores locales proponen transformar la iniciativa en un área económica enfocada en tecnología y servicios para atraer capitales sin perjudicar a los pequeños negocios.",
+        "titulo_neutral": "Colliers estima que medidas con foco en vivienda del gobierno podrían reducir hasta 35% los dividendos",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Resurgen demandas de zona franca para Aysén, pero tras más de una década paralizado, advierten que proyecto original deberá ser actualizado",
+            "titular": "Colliers estima que medidas con foco en vivienda del gobierno podrían reducir hasta 35% los dividendos",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/aysen/empresas/zona-franca-en-aysen-el-debate-que-resurge-tras-13-anos-de-espera-para",
-            "fecha": "2026-09-01T16:06:20+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Xi Jinping regresa a Egipto mientras China busca ganar terreno frente a Estados Unidos en Medio Oriente",
-        "resumen": "Las autoridades de China y Egipto sostuvieron un viaje oficial con el propósito de estrechar lazos económicos y tecnológicos mutuos. Este movimiento diplomático ocurre justo antes de que el gobernante del gigante asiático concrete una visita oficial a territorio norteamericano.",
-        "articulos": [
-          {
-            "titular": "Xi Jinping regresa a Egipto mientras China busca ganar terreno frente a Estados Unidos en Medio Oriente",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/economia/xi-jinping-regresa-a-egipto-mientras-china-busca-ganar-terreno-frente-a",
-            "fecha": "2026-09-01T16:04:44+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Vegy, el emprendimiento de sándwiches veganos que se convirtió en una foodtech con IA y llega a Jumbo",
-        "resumen": "Una empresa emergente originaria del sur de Chile diseñó un sistema automatizado basado en tecnología avanzada para optimizar la creación de sus alimentos comestibles a base de plantas. Gracias a este avance, la marca concretará su ingreso comercial a las estanterías de una importante cadena de supermercados durante este mes.",
-        "articulos": [
-          {
-            "titular": "Vegy, el emprendimiento de sándwiches veganos que se convirtió en una foodtech con IA y llega a Jumbo",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-lab/innovacion-y-startups/vegy-el-emprendimiento-de-sandwiches-veganos-que-se-convirtio-en-una",
-            "fecha": "2026-09-01T16:02:27+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Ganancias de ILC suben más de 44% en el primer semestre tras buenos resultados de sus negocios en seguros, banca y AFP",
-        "resumen": "El conglomerado financiero, controlador de reconocidas entidades de pensiones, seguros y banca, reportó ganancias corporativas millonarias al cierre del primer semestre del año. Los resultados consolidan el buen desempeño económico de sus diversas filiales en el mercado.",
-        "articulos": [
-          {
-            "titular": "Ganancias de ILC suben más de 44% en el primer semestre tras buenos resultados de sus negocios en seguros, banca y AFP",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/seguros/ganancias-de-ilc-suben-mas-de-44-en-el-primer-semestre-tras-buenos",
-            "fecha": "2026-09-01T16:02:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "BMW iX3 en Chile: la apuesta que abre la era Neue Klasse",
-        "resumen": "La automotriz alemana introdujo en el mercado chileno su primer vehículo totalmente eléctrico basado en una innovadora arquitectura modular. El modelo destaca por ofrecer una extensa autonomía por carga, tecnología de recarga veloz y un sistema computacional avanzado que inicia una nueva etapa comercial para la marca en el país.",
-        "articulos": [
-          {
-            "titular": "BMW iX3 en Chile: la apuesta que abre la era Neue Klasse",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/01/bmw-ix3-en-chile-neue-klasse-precio/",
-            "fecha": "2026-09-01T16:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Autoridad argentina abre procedimiento contra JetSmart por 85 vuelos cancelados y la aerolínea culpa a Intercargo",
-        "resumen": "Se desató un cruce de declaraciones entre la empresa estatal encargada de la asistencia en tierra en aeródromos y las autoridades del principal terminal aéreo del país. La compañía de servicios cuestionó la versión oficial sobre la capacidad operativa limitada que se podía garantizar durante la jornada.",
-        "articulos": [
-          {
-            "titular": "Autoridad argentina abre procedimiento contra JetSmart por 85 vuelos cancelados y la aerolínea culpa a Intercargo",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-sud/multilatinas/autoridad-argentina-abre-procedimiento-contra-jetsmart-por-85-vuelos",
-            "fecha": "2026-09-01T15:53:43+00:00"
+            "url": "http://www.df.cl/mercados/banca-fintech/colliers-estima-que-medidas-con-foco-en-vivienda-del-gobierno-podrian",
+            "fecha": "2026-09-01T19:29:11+00:00"
           }
         ],
         "leans_presentes": [
@@ -379,34 +445,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Trump says US position on Falklands 'one of many' under review",
+        "titular": "US launches more strikes on Iran as state media reports explosions",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm2q1qgg542o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-01T16:35:28+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-01T19:50:05+00:00"
       },
       {
-        "titular": "Germany says Russia behind Leipzig airport drone attack",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-01T16:31:43+00:00"
-      },
-      {
-        "titular": "Black voters are the next big midterms test for democratic socialists - Reuters",
+        "titular": "Oil prices settle up more than $4 a barrel on renewed US-Iran fighting - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYWtzY3RrRTdfaUVkcDZuQzhxRzZ4QUJPNm91V0JVOW9UZXhWVFphOVBkMkRWeGFBcnMwcW9IUEhzWVA5aXVHX2NweGNOMFR6aTg4OHBobjVHSDRiWmpxM2pRZFFWem04c1ZQdlJ4TV8wLXcyRFBYMk0xT3FJZDg2WU5TcGVOTnRnRWZWOUJ6NGMxTi1KNU5FaE1lQXQzYnhBdG0xcjU1TQ?oc=5",
-        "fecha": "2026-09-01T16:09:17+00:00"
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
+        "fecha": "2026-09-01T19:33:53+00:00"
       },
       {
-        "titular": "Cook hands Apple to Ternus: bigger and richer, but catching up in AI race - Reuters",
+        "titular": "Israel’s multiple wars see finance, defence ministries clash over spending",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/1/israels-multiple-wars-see-finance-defence-ministries-clash-over-spending?traffic_source=rss",
+        "fecha": "2026-09-01T19:33:22+00:00"
+      },
+      {
+        "titular": "Texas' halt on powering data centers reflects US reckoning over 'ghost' demand - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNkVwc3NNT2k1QzV2blM0bXBjZDZoaTJ5d2FzazViTGgwVllxcVN3RVpqTlh1U1FPeXU2TDh4ajVxTk9tb2c1cTNGcTE0dzdsSmJNZnpoYmcyVDMwWTZJUVkxRkZjTllmQ2JQX3g5TlRIbEhtMHpsbjFFWVJBTlNXNHdsR1AwTkRBTkxUSTZHVjdNa1h3TkF4VmNERjdKQWRJcE9qWXNJTmY3ejRMclVVeGg4SQ?oc=5",
-        "fecha": "2026-09-01T16:01:44+00:00"
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0JFMjBfWUxIY3p0OFNoc09iVWtIcXJOWkI4M2tkVFVFdkZ6bHZMeTJJLWc1UDZCVXNhbWc3MDF4QVBmaEREeWpoOHRJZTlad19NcGxBRFlVRmVpTFdSNDdnOEszUG43dW1VSUhSb0g0ekxOcUZadzY5dEdxM2ZhRHdPbTdzRnVHdWNXZHVvX25RN0c4WDJnSDN0eGNlTXR0Rl9HZllhU0RzUzdyaXZ5dWVCVk9oQk9v?oc=5",
+        "fecha": "2026-09-01T19:29:59+00:00"
       },
       {
-        "titular": "'I have fired 40 of my agents for being corrupt', says Nigeria's anti-corruption chief",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c9863817xzpo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-01T15:57:18+00:00"
+        "titular": "Government borrowing costs rise anew, adding to pressure on global policymakers - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
+        "fecha": "2026-09-01T19:27:02+00:00"
       }
     ]
   },
@@ -414,8 +480,8 @@
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 504.75,
-      "var_dia_pct": 0.1428,
+      "precio": 502.64,
+      "var_dia_pct": -0.2758,
       "serie_precio": {
         "1M": [
           {
@@ -1881,6 +1947,10 @@
           {
             "fecha": "2026-09-01T16:00:00",
             "valor": 504.86
+          },
+          {
+            "fecha": "2026-09-01T19:00:00",
+            "valor": 502.64
           }
         ],
         "6M": [
@@ -2402,7 +2472,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.86
+            "valor": 502.64
           }
         ],
         "YTD": [
@@ -3096,7 +3166,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.86
+            "valor": 502.64
           }
         ],
         "1A": [
@@ -4130,7 +4200,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.86
+            "valor": 502.64
           }
         ],
         "5A": [
@@ -5180,7 +5250,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.86
+            "valor": 502.64
           }
         ],
         "10A": [
@@ -7270,14 +7340,23 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.86
+            "valor": 502.64
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Berkshire CEO Abel to Make Rare TV Appearance. What He Might Talk About.",
+          "extracto": "Durante una entrevista reciente, el director ejecutivo Greg Abel abordó el desempeño de divisiones clave como el sector asegurador y el ferrocarril BNSF. Estas declaraciones ofrecen una perspectiva sobre la salud financiera de las operaciones principales del conglomerado.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/m/3c29704f-a37c-3400-bc63-f52f69f50d51/berkshire-ceo-abel-to-make.html?.tsrc=rss",
+          "fecha": "2026-09-01T17:54:00+00:00"
+        },
+        {
           "titular": "Greg Abel Thinks Berkshire's Stock Is Cheap -- Is He Right? Here's the Math.",
-          "extracto": "El conglomerado dirigido por Warren Buffett realizó una recompra masiva de sus propias acciones por valor de 4.500 millones de dólares. Esta operación genera dudas entre los inversores sobre si el precio actual de mercado infravalora a la empresa.",
+          "extracto": "La compañía realizó una recompra masiva de acciones por valor de 4.500 millones de dólares, lo que genera dudas sobre si el título se encuentra infravalorado en el mercado actual. Esta operación refleja la estrategia de asignación de capital de la empresa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7286,7 +7365,7 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Paring Down Bank of America and Making a Virtual Monopoly Berkshire's No. 3 Holding",
-          "extracto": "Greg Abel, sucesor designado en Berkshire Hathaway, ha mostrado interés en una nueva acción que podría superar a Apple como la inversión más grande del conglomerado. Este movimiento marcaría un cambio estratégico significativo en la cartera de la compañía.",
+          "extracto": "El sucesor designado al frente de la compañía ha mostrado interés en una nueva inversión que podría superar a Apple como la participación más valiosa de la cartera. Este movimiento marcaría un cambio significativo en la composición de los activos principales del grupo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7295,7 +7374,7 @@
         },
         {
           "titular": "Vanguard's VOO faces something it never has before",
-          "extracto": "El fondo cotizado en bolsa preferido por Warren Buffett ha experimentado modificaciones importantes en su composición en comparación con la década pasada. Estos cambios reflejan la evolución en la estrategia de inversión del legendario inversor.",
+          "extracto": "El fondo cotizado (ETF) preferido por el inversor Warren Buffett ha experimentado transformaciones notables en su composición durante la última década. Dicha evolución demuestra cómo incluso los vehículos de inversión de largo plazo deben adaptarse a las condiciones cambiantes del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7304,21 +7383,12 @@
         },
         {
           "titular": "KKR's 'Berkshire Hathaway' strategy bears fruit with $17B USI sale",
-          "extracto": "La firma de inversión KKR ha acordado vender la correduría de seguros USI Insurance Services a Aon por aproximadamente 17.000 millones de dólares. Esta transacción representa la desinversión más grande en la historia de su cartera estratégica y un avance hacia su meta de emular a Berkshire Hathaway.",
+          "extracto": "La firma de inversión KKR acordó vender la correduría de seguros USI Insurance Services a Aon por aproximadamente 17.000 millones de dólares. Esta operación representa la desinversión más grande en la historia de su cartera estratégica y un avance hacia su meta de operar de manera similar a Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://pitchbook.com/news/articles/kkr-berkshire-hathaway-strategy-17-billion-usi-sale?.tsrc=rss",
           "fecha": "2026-08-31T22:48:41+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway (BRK.B) Stock Looks Reasonable On Earnings After A 79% Run",
-          "extracto": "Berkshire Hathaway acumuló un rendimiento total del 79,1% en los últimos cinco años, recompensando a sus inversores a largo plazo. Diversos análisis de valoración sugieren que la acción aún cotiza por debajo de su valor intrínseco, lo que podría ofrecer un potencial alcista adicional.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-b-stock-210717039.html?.tsrc=rss",
-          "fecha": "2026-08-31T21:07:17+00:00"
         }
       ],
       "fundamentales": {
@@ -7607,14 +7677,14 @@
         "payout_ratio_pct": null,
         "maximo_52s": 529.42,
         "minimo_52s": 465.4,
-        "beta": 0.767180660651553
+        "beta": 0.7672062621658773
       }
     },
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 261.08,
-      "var_dia_pct": -0.9334,
+      "precio": 261.13,
+      "var_dia_pct": -0.9145,
       "serie_precio": {
         "1M": [
           {
@@ -9084,6 +9154,10 @@
           {
             "fecha": "2026-09-01T16:00:00",
             "valor": 261.24
+          },
+          {
+            "fecha": "2026-09-01T19:00:00",
+            "valor": 261.13
           }
         ],
         "6M": [
@@ -9605,7 +9679,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 261.24
+            "valor": 261.13
           }
         ],
         "YTD": [
@@ -10299,7 +10373,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 261.24
+            "valor": 261.13
           }
         ],
         "1A": [
@@ -11333,7 +11407,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 261.24
+            "valor": 261.13
           }
         ],
         "5A": [
@@ -12383,7 +12457,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 261.24
+            "valor": 261.13
           }
         ],
         "10A": [
@@ -14473,14 +14547,14 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 261.24
+            "valor": 261.13
           }
         ]
       },
       "noticias": [
         {
           "titular": "Can MCD's International Markets Drive Growth Amid Consumer Pressure?",
-          "extracto": "Analistas evalúan si las estrategias de valor, la innovación en el menú y los programas de lealtad de McDonald's en el extranjero podrán mantener su crecimiento a pesar de la presión sobre los consumidores.",
+          "extracto": "Analistas evalúan si las estrategias de valor, la innovación en el menú y los programas de lealtad de McDonald's en el extranjero podrán mantener su crecimiento frente a la actual presión sobre los consumidores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14489,7 +14563,7 @@
         },
         {
           "titular": "McDonald’s and Taco Bell Are Fighting Over Your 3 P.M. Pick-Me-Up — Here’s Who’s Winning",
-          "extracto": "Dos cadenas introdujeron nuevas bebidas energéticas con pocos días de diferencia, intensificando la competencia en un mercado que se satura con rapidez.",
+          "extracto": "Varias cadenas de comida rápida introdujeron nuevas bebidas energéticas con pocos días de diferencia, intensificando la competencia en un mercado cada vez más saturado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14498,7 +14572,7 @@
         },
         {
           "titular": "Is McDonald's Stock Underperforming the S&P 500?",
-          "extracto": "A pesar de que el rendimiento de McDonald's ha quedado por detrás del índice S&P 500 durante el último año, los expertos mantienen una perspectiva moderadamente positiva sobre sus títulos.",
+          "extracto": "A pesar de que el rendimiento bursátil de McDonald's ha quedado rezagado respecto al índice S&P 500 en los últimos doce meses, los expertos mantienen una perspectiva moderadamente favorable sobre sus títulos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14507,7 +14581,7 @@
         },
         {
           "titular": "McDonald's (MCD) Stock Looks Fairly Priced With Limited Valuation Upside",
-          "extracto": "Las acciones de McDonald's han enfrentado dificultades recientes, aunque su valoración actual se alinea con su valor intrínseco y múltiplos tradicionales, respaldadas por un modelo de franquicias que asegura generación de efectivo.",
+          "extracto": "Las acciones de McDonald's muestran valoraciones equilibradas en relación con su precio actual y múltiplos tradicionales, respaldadas por un modelo de franquicias que asegura una generación constante de efectivo a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14516,7 +14590,7 @@
         },
         {
           "titular": "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today",
-          "extracto": "La compañía de comida rápida ha superado discretamente el rendimiento general del mercado bursátil en fechas recientes, impulsada por un modelo de negocio particular.",
+          "extracto": "McDonald's ha superado el desempeño general del mercado bursátil durante un periodo determinado gracias a un modelo de negocio en el sector restaurantero poco convencional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15040,8 +15114,8 @@
       "_segmentos_accession": "0000063908-26-000067",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 184751.05091348,
-        "enterprise_value_musd": 225592.05091348,
+        "market_cap_musd": 184786.43299003,
+        "enterprise_value_musd": 225627.43299003,
         "deuda_neta_musd": 40841.0,
         "deuda_neta_ebitda": 3.0774621354833847,
         "deuda_patrimonio": -40.73,
@@ -15051,22 +15125,22 @@
         "roe_pct": -858.9442815249267,
         "roic_pct": 32.156311216032954,
         "roce_pct": 22.904368358913814,
-        "pe": 21.208773354995937,
-        "ev_ingresos": 8.143235422643034,
-        "ev_ebitda": 16.998873552368323,
-        "p_vl": -180.5973127208993,
-        "dividend_yield_pct": 2.815229048567489,
+        "pe": 21.212835093419987,
+        "ev_ingresos": 8.144512615602281,
+        "ev_ebitda": 17.001539672219877,
+        "p_vl": -180.6318993059922,
+        "dividend_yield_pct": 2.8146900011488536,
         "payout_ratio_pct": 59.707554833468734,
         "maximo_52s": 341.06,
         "minimo_52s": 260.06,
-        "beta": 0.624972725949408
+        "beta": 0.6249845943069232
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 499.58,
-      "var_dia_pct": -1.5198,
+      "precio": 500.65,
+      "var_dia_pct": -1.3089,
       "serie_precio": {
         "1M": [
           {
@@ -16532,6 +16606,10 @@
           {
             "fecha": "2026-09-01T16:00:00",
             "valor": 500.6
+          },
+          {
+            "fecha": "2026-09-01T19:00:00",
+            "valor": 500.65
           }
         ],
         "6M": [
@@ -17053,7 +17131,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 500.6
+            "valor": 500.65
           }
         ],
         "YTD": [
@@ -17747,7 +17825,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 500.6
+            "valor": 500.65
           }
         ],
         "1A": [
@@ -18781,7 +18859,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 500.6
+            "valor": 500.65
           }
         ],
         "5A": [
@@ -19831,7 +19909,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 500.6
+            "valor": 500.65
           }
         ],
         "10A": [
@@ -21921,55 +21999,55 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 500.6
+            "valor": 500.65
           }
         ]
       },
       "noticias": [
         {
-          "titular": "Prediction: Microsoft Stock Will Double on This Date",
-          "extracto": "A pesar de reportar ingresos récord y superar las expectativas financieras de forma consecutiva, el valor de las acciones de Microsoft se ha mantenido estancado durante el último año. Analistas evalúan un posible escenario de cambio radical para la empresa de cara a la próxima década.",
+          "titular": "Microsoft's AI strategy accelerates cloud growth and efficiency: analysts",
+          "extracto": "Bank of America elevó el precio objetivo de las acciones de Microsoft a 600 dólares. Esta decisión se fundamenta en el rápido crecimiento de su división en la nube y en una mayor rentabilidad de sus inversiones en inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/09/01/prediction-microsoft-stock-will-double-on-this-date/?.tsrc=rss",
-          "fecha": "2026-09-01T16:00:37+00:00"
+          "url": "https://www.proactiveinvestors.com/companies/news/1097934/microsoft-s-ai-strategy-accelerates-cloud-growth-and-efficiency-analysts-1097934.html?.tsrc=rss",
+          "fecha": "2026-09-01T19:19:00+00:00"
         },
         {
-          "titular": "Big Tech Spent Over $1 Trillion on AI. The Bill Does Not Arrive Until It Depreciates.",
-          "extracto": "Las grandes empresas tecnológicas han invertido masivamente en la creación de infraestructura para inteligencia artificial, un gasto multimillonario cuyo impacto real aún no se refleja en los informes financieros. La clave para determinar la rentabilidad de estas inversiones dependerá de los futuros métodos contables que apliquen las compañías.",
+          "titular": "Microsoft (MSFT) Extends HUMAIN Tie Up As Valuation Questions Come Back Into Focus",
+          "extracto": "Microsoft amplió su alianza con HUMAIN para ofrecer herramientas de inteligencia artificial a un millón de usuarios corporativos en Oriente Medio y África. Este acuerdo coincide con un rendimiento financiero positivo que ha impulsado al alza el valor de sus acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/09/01/big-tech-spent-over-1-trillion-on-ai-the-bill-does-not-arrive-until-it-depreciates/?.tsrc=rss",
-          "fecha": "2026-09-01T15:41:47+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-extends-humain-tie-191003155.html?.tsrc=rss",
+          "fecha": "2026-09-01T19:10:03+00:00"
         },
         {
-          "titular": "Microsoft Stock Hasn’t Done Much This Year. Why Azure Growth Means the Stock Has 19% Upside.",
-          "extracto": "Las acciones de Microsoft registran un rendimiento inferior al del índice S&P 500 en lo que va del año. Sin embargo, analistas de Bank of America mantienen una perspectiva optimista debido al potencial de crecimiento impulsado por su enfoque en la inteligencia artificial.",
+          "titular": "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/fcccaeb2-e223-3272-b8f3-e419094545ff/microsoft-stock-hasn%E2%80%99t-done.html?.tsrc=rss",
-          "fecha": "2026-09-01T15:11:00+00:00"
+          "url": "https://finance.yahoo.com/m/9ad76b5b-6261-348e-8003-ca19a18ead3f/dow-jones-software-giant.html?.tsrc=rss",
+          "fecha": "2026-09-01T18:18:24+00:00"
         },
         {
-          "titular": "Big Software Names Bounced Back in August. Can They Sustain Their Recent Rally?",
-          "extracto": "Durante el mes de agosto, el sector tecnológico experimentó un desempeño positivo en los mercados financieros, destacando especialmente el rendimiento de las mayores empresas de software.",
+          "titular": "Broadcom Boosts VMware AI Push to Challenge Nutanix & Microsoft",
+          "extracto": "Broadcom impulsa su oferta de inteligencia artificial con VCF 9.1, intensificando la rivalidad con empresas como Nutanix y Microsoft en el sector de la nube híbrida y los servicios empresariales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.investopedia.com/big-software-names-bounced-back-in-august-can-they-sustain-their-recent-rally-msft-pltr-crm-panw-12074445?.tsrc=rss",
-          "fecha": "2026-09-01T15:04:28+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-boosts-vmware-ai-push-175900642.html?.tsrc=rss",
+          "fecha": "2026-09-01T17:59:00+00:00"
         },
         {
-          "titular": "Microsoft and Tesla Enter September With Momentum but Which Is Better?",
-          "extracto": "Mientras la plataforma en la nube Azure genera altos ingresos, Tesla destina recursos considerables a proyectos futuros que todavía no se traducen en beneficios de margen. Esta diferencia financiera evidencia enfoques comerciales muy distintos entre ambas compañías al atraer a los inversores.",
+          "titular": "Microsoft Stock Drops as $41 Billion Capex Meets 4.8% Yields",
+          "extracto": "Las acciones de Microsoft retrocedieron hasta los 502,59 dólares debido al incremento en el rendimiento de los bonos. Este fenómeno financiero eleva las exigencias de rentabilidad sobre las cuantiosas inversiones que la compañía destina a infraestructura de inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/09/01/microsoft-and-tesla-enter-september-with-momentum-but-which-is-better/?.tsrc=rss",
-          "fecha": "2026-09-01T13:35:59+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-drops-41-billion-174447308.html?.tsrc=rss",
+          "fecha": "2026-09-01T17:44:47+00:00"
         }
       ],
       "fundamentales": {
@@ -22545,8 +22623,8 @@
       "_segmentos_accession": "0001193125-26-323632",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 3709654.01639378,
-        "enterprise_value_musd": 3729013.01639378,
+        "market_cap_musd": 3717599.35006915,
+        "enterprise_value_musd": 3736958.35006915,
         "deuda_neta_musd": 19359.0,
         "deuda_neta_ebitda": 0.10213836876177211,
         "deuda_patrimonio": 0.09,
@@ -22556,15 +22634,15 @@
         "roe_pct": 30.233483352811003,
         "roic_pct": 33.61956573527437,
         "roce_pct": 26.331394569765802,
-        "pe": 27.8162583518931,
-        "ev_ingresos": 11.23741638684356,
-        "ev_ebitda": 19.674327526518727,
-        "p_vl": 8.385540299316617,
-        "dividend_yield_pct": 0.7286120341086513,
+        "pe": 27.87583518930958,
+        "ev_ingresos": 11.261359725858473,
+        "ev_ebitda": 19.716247223862094,
+        "p_vl": 8.403500442077073,
+        "dividend_yield_pct": 0.7270548287226606,
         "payout_ratio_pct": 20.26726057906459,
         "maximo_52s": 542.07,
         "minimo_52s": 352.83,
-        "beta": 0.9836059302483172
+        "beta": 0.9836047669542787
       },
       "tesis": [
         {
@@ -22595,8 +22673,8 @@
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 700.23,
-      "var_dia_pct": -0.6611,
+      "precio": 699.41,
+      "var_dia_pct": -0.7774,
       "serie_precio": {
         "1M": [
           {
@@ -24066,6 +24144,10 @@
           {
             "fecha": "2026-09-01T16:00:00",
             "valor": 701.32
+          },
+          {
+            "fecha": "2026-09-01T19:00:00",
+            "valor": 699.41
           }
         ],
         "6M": [
@@ -24587,7 +24669,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 701.32
+            "valor": 699.41
           }
         ],
         "YTD": [
@@ -25281,7 +25363,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 701.32
+            "valor": 699.41
           }
         ],
         "1A": [
@@ -26315,7 +26397,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 701.32
+            "valor": 699.41
           }
         ],
         "5A": [
@@ -27365,7 +27447,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 701.32
+            "valor": 699.41
           }
         ],
         "10A": [
@@ -29455,14 +29537,14 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 701.32
+            "valor": 699.41
           }
         ]
       },
       "noticias": [
         {
           "titular": "VOO’s $1 Trillion Problem: Why SpaceX Stays Out Until 2027",
-          "extracto": "SpaceX cotiza ahora en bolsa pero aún no forma parte de los principales fondos cotizados, lo que genera dudas entre los inversores sobre cómo proceder. Esta exclusión temporal obliga a analizar las normas que regulan la inclusión en dichos índices bursátiles.",
+          "extracto": "La reciente cotización pública de SpaceX la ha dejado fuera del índice S&P 500, lo que genera dudas sobre la estrategia que deben seguir los inversores del ETF VOO. Esta situación pone en debate las normativas actuales de inclusión para las grandes empresas recién salidas a bolsa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29471,7 +29553,7 @@
         },
         {
           "titular": "Nvidia Is 7.6% of the Vanguard S&P 500 ETF (VOO) but Over 12% of These 5 Magnificent Low-Cost Vanguard ETFs. Here's My Top Pick to Buy Now.",
-          "extracto": "Aunque el índice S&P 500 incluye a Nvidia, existen alternativas de inversión que podrían ofrecer un mayor rendimiento a quienes buscan crecimiento. Estos fondos especializados permiten a los inversionistas enfocar su capital de manera más específica.",
+          "extracto": "Aunque el índice S&P 500 ofrece exposición a Nvidia, existen fondos cotizados alternativos que podrían resultar más atractivos para quienes buscan un mayor crecimiento financiero. Estos vehículos de inversión especializados se adaptan mejor a las expectativas de rentabilidad a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29480,7 +29562,7 @@
         },
         {
           "titular": "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
-          "extracto": "Invertir en el S&P 500 constituye un método eficaz para beneficiarse de la expansión general de la economía estadounidense. Esta estrategia permite diversificar el riesgo participando en el éxito de las empresas más grandes del país.",
+          "extracto": "Destinar capital al S&P 500 se considera una estrategia eficaz para beneficiarse de la expansión general del mercado estadounidense. Este índice agrupa a las compañías más influyentes del país, reflejando fielmente la salud económica nacional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29513,20 +29595,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 700.27,
-        "var_dia_pct": -0.6554
+        "precio": 699.43,
+        "var_dia_pct": -0.7746
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 708.24,
-        "var_dia_pct": -1.1887
+        "precio": 707.24,
+        "var_dia_pct": -1.3282
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 375.26,
-        "var_dia_pct": -0.7642
+        "precio": 374.86,
+        "var_dia_pct": -0.87
       }
     ],
     "chile": {
