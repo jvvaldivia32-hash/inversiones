@@ -1,55 +1,35 @@
 {
-  "generado": "2026-09-01T11:45:47.037745+00:00",
-  "errores": [],
+  "generado": "2026-09-01T16:26:21.894998+00:00",
+  "errores": [
+    "Reuters: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Encuesta sobre los aranceles de Trump a Canadá y el cambio de nombre del Lago Ontario",
-        "resumen": "Una encuesta de Reuters/Ipsos revela que la mayoría de los ciudadanos estadounidenses rechaza los nuevos gravámenes comerciales impulsados por Donald Trump hacia Canadá. Asimismo, los consultados mostraron su desacuerdo con la propuesta de cambiar el nombre del lago Ontario. Estos resultados reflejan el rechazo público a medidas económicas y simbólicas específicas de la actual administración.",
+        "titulo_neutral": "Irish minister calls for EU action in banning Israeli settlement trade",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Majority of Americans oppose Trump's new Canada tariffs, renaming Lake Ontario, Reuters/Ipsos poll finds - Reuters",
+            "titular": "Irish minister calls for EU action in banning Israeli settlement trade",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZzZSUnIyajNpWUhlZTh5VFpoWk4tTTFuTEdRSXQtS18ySkZ4WUFvakh1bEt3Ul9ocllWbzFqdS0xRUFRMlZZWTQwLXI1SFdQQ2Q0ZWw5ZWxpUW1hX2NqVlRtOXJ3amhlX3VtWW82aS1QMG51LUphdVVTV21QX0FXaTRfVmwtZFRFUXA3OEJaZ1RNSktfY1VaUTN5VFd1bnBJX2ZPaUhVb1duR0lGT3lGczFRT0NrVEN0Vmc?oc=5",
-            "fecha": "2026-09-01T10:23:53+00:00"
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/irish-minister-calls-for-eu-action-in-banning-israeli-settlement-trade?traffic_source=rss",
+            "fecha": "2026-09-01T13:32:13+00:00"
           }
         ],
         "leans_presentes": [
-          "centro"
+          "sin-clasificar"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Al Jazeera"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Video falso generado por inteligencia artificial sobre un escondite de Hezbolá",
-        "resumen": "Diversos perfiles partidarios de Israel en redes sociales difundieron un video que supuestamente mostraba grandes cantidades de efectivo y lingotes de oro de un exlíder de Hezbolá. No obstante, se confirmó que las imágenes fueron generadas mediante inteligencia artificial y procedían originalmente de un portal satírico egipcio. Este caso evidencia la propagación de desinformación visual fabricada en conflictos geopolíticos.",
-        "articulos": [
-          {
-            "titular": "A Hezbollah hideout stuffed with cash? Nope, this video was AI-generated",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/middle-east/20260901-hezbollah-hideout-stuffed-cash-ai-generated",
-            "fecha": "2026-09-01T10:01:45+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "France24"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Salida a bolsa y valoración de Shein",
-        "resumen": "La compañía concretó su debut bursátil en Hong Kong tras varios años intentando colocar sus acciones en las plazas financieras de Nueva York y Londres. Este movimiento estratégico marca un hito en la expansión internacional de la empresa y en su búsqueda de inversionistas globales. La decisión refleja además las dificultades previas para acceder a los mercados occidentales tradicionales.",
+        "titulo_neutral": "Shein valued at $26bn after long-awaited stock market debut",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Shein valued at $26bn after long-awaited stock market debut",
@@ -70,129 +50,280 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool? - Reuters",
-        "resumen": "Diversos analistas económicos analizan los factores fundamentales que explican el masivo flujo de capitales hacia los fondos del mercado monetario global. Este fenómeno refleja la búsqueda de refugio seguro por parte de los inversores en un entorno de altas tasas de interés e incertidumbre macroeconómica. La magnitud de estos fondos destaca la cautela actual en los mercados financieros internacionales.",
+        "titulo_neutral": "Intercambio de ataques entre Estados Unidos e Irán",
+        "resumen": "Un ataque en el estrecho de Ormuz intensificó la tensión geopolítica y provocó un repunte en los precios del petróleo, afectando las expectativas de los mercados energéticos y de defensa. Asimismo, la relación transatlántica y los cambios en la política monetaria estadounidense continuaron dominando la agenda económica global.",
         "articulos": [
           {
-            "titular": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool? - Reuters",
+            "titular": "US and Iran trade strikes for first time in weeks",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "BBC",
+            "grupo": "BBC",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmQ1NWhnRVI1MTBZdEFlQ0ZQX2VWOFJzU3JfTjRfWUhEbUtHY1E4bGdfbHBMNGUtdl83RFVzaFlzNDBIeXFxZllBbWFvMzdTbUlhdWhnNFZ6ZDZ4SVNCWEU5LVdnOHZFU1N5cE4zWUFFRFJjbGstY0V1aUpBYUhST2JEdFh5RWNuT2llTXVMRlFnSUJYek9OREhILUNzSGExcjdjVTlaSzM3RUhJZVdMMWhaOU14S3Flb3lUUFhYcFhKSGQ2c2dwcEZheFpGWnJsa2xrM0ZR?oc=5",
-            "fecha": "2026-09-01T07:13:25+00:00"
+            "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-31T13:47:30+00:00"
+          },
+          {
+            "titular": "Defence stocks drop despite US-Iran war",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/defence-stocks-drop-despite-us-iran-war",
+            "fecha": "2026-04-30T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "BBC",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "How the US-Canada trade war is being felt on both sides of the border",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "How the US-Canada trade war is being felt on both sides of the border",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-08-31T00:05:22+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Disputa de secretos comerciales entre OpenAI y Apple",
-        "resumen": "OpenAI ha señalado directamente al fabricante del iPhone como el único responsable en su reciente litigio sobre secretos comerciales. La disputa legal pone de relieve las crecientes tensiones entre los gigantes tecnológicos en el desarrollo de la inteligencia artificial. Ambas empresas compiten intensamente por el liderazgo del sector y la protección de su propiedad intelectual.",
+        "titulo_neutral": "US Treasury tries to soothe the bond market",
+        "resumen": "Los mercados reaccionaron positivamente a los avances en ensayos clínicos de una farmacéutica para una vacuna oncológica, mientras el Departamento del Tesoro de EE. UU. modificó su estrategia de recompra de deuda soberana. Asimismo, el sector legal estadounidense experimentó controversias por prácticas de contratación temprana de estudiantes.",
         "articulos": [
           {
-            "titular": "OpenAI says Apple has only itself to blame in trade-secret fight - Reuters",
+            "titular": "US Treasury tries to soothe the bond market",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX2FsN3ZxcVlYLXhzU25JQ0t1UkEtOXYzVm4wekxhQl93OUw1Y0QxblQ4M1lZVEV2VFFNaEl5eFZIVGJ3VU96UDBBdjhRbnRMQ3BwNVcyRU1RejBQWDBqVnREeklZdXUwRXd0eXczaklOWDMwVzF4eGFldy13dzM4TERFRTVTUHpzN1VoT3hYREZpTTFodExPM2lNeDBlNjh0dTFSalNrUGxSQTMtMGRhOA?oc=5",
-            "fecha": "2026-09-01T05:32:00+00:00"
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
+            "fecha": "2026-08-20T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Financial Times"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "'Sea change: Much of the world's economic GDP has moved to the Asia-Pacific region'",
-        "resumen": "El historiador y académico Rana Mitter analizó la relevancia geopolítica de la Organización de Cooperación de Shanghái en medio de una cumbre celebrada en Biskek. Durante el encuentro se examinó cómo este bloque influye en la transformación del sistema internacional actual. Las discusiones subrayan el peso diplomático y económico de las potencias asiáticas en la gobernanza global.",
+        "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
+        "resumen": "Inversores del sector tecnológico anticiparon valoraciones récord para futuras salidas a bolsa de startups de inteligencia artificial, al tiempo que la inflación en Estados Unidos experimentó una leve moderación. En paralelo, la crisis económica en Irán impulsó el uso de modalidades de financiación a plazos entre los consumidores locales.",
         "articulos": [
           {
-            "titular": "'Sea change: Much of the world's economic GDP has moved to the Asia-Pacific region'",
+            "titular": "Anthropic’s anticipated $2tn IPO",
             "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
             "lean": "centro",
-            "url": "https://www.france24.com/en/tv-shows/spotlight/20260901-sea-change-much-of-the-world-s-economic-gdp-has-moved-to-the-asia-pacific-region-rana-mitter",
-            "fecha": "2026-09-01T05:22:44+00:00"
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-anticipated-2tn-ipo",
+            "fecha": "2026-08-13T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "France24"
+          "Financial Times"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Venta masiva de bonos y caída de acciones por temor a la inflación y precios del petróleo",
-        "resumen": "Los mercados financieros sufrieron una nueva caída generalizada de acciones y una fuerte venta masiva de bonos soberanos. Esta reacción negativa de los inversores responde al repunte de los precios del petróleo, que intensifica las preocupaciones sobre una aceleración de la inflación. El panorama económico complica las expectativas de estabilidad para los próximos meses.",
+        "titulo_neutral": "La Reserva Federal mantiene los tipos de interés",
+        "resumen": "Grandes empresas tecnológicas informaron sus resultados financieros en medio del escrutinio de los inversores por el gasto en inteligencia artificial, mientras que la Reserva Federal de Estados Unidos mantuvo los tipos de interés sin cambios. En Europa, la atención se centró en las consecuencias económicas derivadas de los precios del petróleo y en los incendios forestales cercanos a zonas urbanas en Francia y España.",
         "articulos": [
           {
-            "titular": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears - Reuters",
+            "titular": "Fed holds rates as inflation fears grow",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-            "fecha": "2026-09-01T01:46:00+00:00"
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-holds-rates-as-inflation-fears-grow",
+            "fecha": "2026-07-30T04:00:00+00:00"
+          },
+          {
+            "titular": "Hike or hold: Investors split ahead of Fed decision",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
+            "fecha": "2026-07-27T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Financial Times"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Movimientos del dólar y del yen en los mercados cambiarios",
-        "resumen": "La divisa estadounidense registró ganancias impulsadas por las previsiones de nuevos incrementos en las tasas de interés. En contraste, la moneda japonesa continuó su depreciación superando la barrera de las 160 unidades por dólar. Esta divergencia cambiaria refleja las distintas políticas monetarias y perspectivas económicas entre ambas potencias.",
+        "titulo_neutral": "Germany’s twin crises: football and the economy",
+        "resumen": "La economía estadounidense registró un crecimiento del empleo inferior a las previsiones de los analistas, lo que influyó en la confianza de los inversores globales. En Corea del Sur, los beneficios obtenidos en el mercado tecnológico se canalizaron hacia el sector inmobiliario, generando preocupación por la estabilidad de los precios.",
         "articulos": [
           {
-            "titular": "Dollar gains on rate hike expectations, yen retreats past 160 - Reuters",
+            "titular": "Germany’s twin crises: football and the economy",
             "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
-            "fecha": "2026-09-01T01:24:00+00:00"
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/germanys-twin-crises-football-and-the-economy",
+            "fecha": "2026-07-03T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Financial Times"
         ],
         "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "“Está bueno que sea una nueva alternativa aparte del Movistar Arena”: Las positivas reacciones de los vecinos ante el anuncio del Renca Arena",
-        "resumen": "Autoridades locales y empresarios proyectan la construcción de un gran complejo de espectáculos en la zona poniente de la capital con capacidad para miles de asistentes. Aunque la mayoría de los residentes celebra la llegada de un nuevo punto de entretenimiento masivo, ciertos sectores expresan inquietud por las alteraciones en la paz vecinal.",
+        "titulo_neutral": "Bolsa chilena resurge y el IPSA recupera los 11.400 puntos mientras Latinoamérica destaca en medio de las turbulencias globales",
+        "resumen": "La bolsa bursátil nacional experimentó una sesión de alta volatilidad y pérdidas debido a modificaciones en los índices elaborados por MSCI. Durante esta misma jornada, el indicador principal incorporó al proveedor y sumó a Pampa Investments dentro de su composición.",
         "articulos": [
           {
-            "titular": "“Está bueno que sea una nueva alternativa aparte del Movistar Arena”: Las positivas reacciones de los vecinos ante el anuncio del Renca Arena",
+            "titular": "Bolsa chilena resurge y el IPSA recupera los 11.400 puntos mientras Latinoamérica destaca en medio de las turbulencias globales",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-vmvfr",
+            "fecha": "2026-09-01T16:23:51+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Resurgen demandas de zona franca para Aysén, pero tras más de una década paralizado, advierten que proyecto original deberá ser actualizado",
+        "resumen": "Han pasado más de diez años desde la normativa que permitió planificar un muelle en Puerto Chacabuco, el cual todavía no inicia su proceso de concurso público. Diversos actores proponen transformar la infraestructura en una zona especializada en tecnología y servicios para atraer recursos sin perjudicar a los pequeños negocios.",
+        "articulos": [
+          {
+            "titular": "Resurgen demandas de zona franca para Aysén, pero tras más de una década paralizado, advierten que proyecto original deberá ser actualizado",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/regiones/aysen/empresas/zona-franca-en-aysen-el-debate-que-resurge-tras-13-anos-de-espera-para",
+            "fecha": "2026-09-01T16:06:20+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Xi Jinping regresa a Egipto mientras China busca ganar terreno frente a Estados Unidos en Medio Oriente",
+        "resumen": "La visita diplomática apunta a estrechar la cooperación comercial y tecnológica entre los gobiernos de China y Egipto. Este movimiento ocurre justo antes de que el mandatario del país asiático sostenga encuentros oficiales en territorio estadounidense.",
+        "articulos": [
+          {
+            "titular": "Xi Jinping regresa a Egipto mientras China busca ganar terreno frente a Estados Unidos en Medio Oriente",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/economia/xi-jinping-regresa-a-egipto-mientras-china-busca-ganar-terreno-frente-a",
+            "fecha": "2026-09-01T16:04:44+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Vegy, el emprendimiento de sándwiches veganos que se convirtió en una foodtech con IA y llega a Jumbo",
+        "resumen": "Una compañía emergente del sur chileno creó un algoritmo de tecnología avanzada para agilizar la elaboración de sus alimentos veganos listos para consumir. Gracias a este avance, la marca ingresará este mes a los puntos de venta de la cadena Cencosud.",
+        "articulos": [
+          {
+            "titular": "Vegy, el emprendimiento de sándwiches veganos que se convirtió en una foodtech con IA y llega a Jumbo",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-lab/innovacion-y-startups/vegy-el-emprendimiento-de-sandwiches-veganos-que-se-convirtio-en-una",
+            "fecha": "2026-09-01T16:02:27+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Ganancias de ILC suben más de 44% en el primer semestre tras buenos resultados de sus negocios en seguros, banca y AFP",
+        "resumen": "El conglomerado empresarial, controlador de importantes entidades financieras y previsionales como AFP Habitat y Banco Internacional, reportó ganancias acumuladas por más de 165 mil millones de pesos al cierre del primer semestre.",
+        "articulos": [
+          {
+            "titular": "Ganancias de ILC suben más de 44% en el primer semestre tras buenos resultados de sus negocios en seguros, banca y AFP",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/seguros/ganancias-de-ilc-suben-mas-de-44-en-el-primer-semestre-tras-buenos",
+            "fecha": "2026-09-01T16:02:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "BMW iX3 en Chile: la apuesta que abre la era Neue Klasse",
+        "resumen": "El nuevo vehículo eléctrico de la marca alemana debuta en el mercado chileno estrenando una arquitectura vanguardista y un costo base elevado. El modelo destaca por ofrecer una amplia autonomía de desplazamiento, sistemas de recarga veloz y un procesador digital de alta velocidad.",
+        "articulos": [
+          {
+            "titular": "BMW iX3 en Chile: la apuesta que abre la era Neue Klasse",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/31/esta-bueno-que-sea-una-nueva-alternativa-aparte-del-movistar-arena-las-positivas-reacciones-de-los-vecinos-ante-el-anuncio-del-renca-arena/",
-            "fecha": "2026-09-01T01:00:00+00:00"
+            "url": "https://www.theclinic.cl/2026/09/01/bmw-ix3-en-chile-neue-klasse-precio/",
+            "fecha": "2026-09-01T16:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -204,17 +335,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Gobierno sale a vender propiedades y partirá por las que llegaron al Fisco por herencias vacantes",
-        "resumen": "El gobierno puso en marcha una estrategia comercial para desprenderse de múltiples propiedades estatales con el fin de generar ingresos fiscales significativos. Dicho programa continuará expandiéndose a lo largo del mandato presidencial actual.",
+        "titulo_neutral": "Autoridad argentina abre procedimiento contra JetSmart por 85 vuelos cancelados y la aerolínea culpa a Intercargo",
+        "resumen": "La compañía encargada de la asistencia en tierra para aeronaves cuestionó las explicaciones brindadas por la empresa estatal de servicios aeroportuarios. Esta última había señalado que únicamente podía cubrir una fracción de los servicios programados en el terminal aéreo de Ezeiza.",
         "articulos": [
           {
-            "titular": "Gobierno sale a vender propiedades y partirá por las que llegaron al Fisco por herencias vacantes",
+            "titular": "Autoridad argentina abre procedimiento contra JetSmart por 85 vuelos cancelados y la aerolínea culpa a Intercargo",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/industria/gobierno-sale-a-vender-propiedades-y-partira-por-las-que-llegaron-al-fisco",
-            "fecha": "2026-09-01T00:54:32+00:00"
+            "url": "http://www.df.cl/df-sud/multilatinas/autoridad-argentina-abre-procedimiento-contra-jetsmart-por-85-vuelos",
+            "fecha": "2026-09-01T15:53:43+00:00"
           }
         ],
         "leans_presentes": [
@@ -226,17 +357,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Julio destiñe: mercado se rinde a malas cifras sectoriales y ve probable una nueva baja de la actividad",
-        "resumen": "Las precipitaciones registradas al concluir el séptimo mes del año provocaron daños económicos más severos de lo previsto inicialmente. Esta situación negativa podría arrastrar el crecimiento del producto interno bruto anual por debajo del umbral del uno por ciento.",
+        "titulo_neutral": "La salchicha picante que convirtió a Agrosuper en el mayor exportador chileno de cerdo a Japón",
+        "resumen": "Un tipo particular de corte porcino con baja demanda interna se ha convertido en el motor de las exportaciones de la empresa de la familia Vial hacia Asia. Dicho mercado se posiciona como el principal comprador exterior de estos productos cárnicos para la firma, superando a la mayoría de los destinos internacionales a excepción de Estados Unidos.",
         "articulos": [
           {
-            "titular": "Julio destiñe: mercado se rinde a malas cifras sectoriales y ve probable una nueva baja de la actividad",
+            "titular": "La salchicha picante que convirtió a Agrosuper en el mayor exportador chileno de cerdo a Japón",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/imacec-volveria-a-ser-negativo-en-julio-y-analistas-preven-una-contraccion",
-            "fecha": "2026-09-01T00:47:52+00:00"
+            "url": "http://www.df.cl/empresas/consumo/la-salchicha-japonesa-picante-que-convirtio-a-agrosuper-en-el-mayor",
+            "fecha": "2026-09-01T15:47:27+00:00"
           }
         ],
         "leans_presentes": [
@@ -244,150 +375,40 @@
         ],
         "grupos_presentes": [
           "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Eduardo Vargas, socio de Tax & Legal de Deloitte y las ventanas para retirar utilidades acumuladas: \"Puede haber propietarios que les convenga\"",
-        "resumen": "Un especialista analiza en un programa digital las modificaciones normativas introducidas mediante una legislación multipropósito. En detalle, se revisan los ajustes fiscales vinculados a regímenes específicos de tributación.",
-        "articulos": [
-          {
-            "titular": "Eduardo Vargas, socio de Tax & Legal de Deloitte y las ventanas para retirar utilidades acumuladas: \"Puede haber propietarios que les convenga\"",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/df-tax/la-ruta-tributaria-eduardo-vargas-socio-de-tax-legal-de-deloitte",
-            "fecha": "2026-09-01T00:41:04+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Parque Arauco reconvertirá su ala más antigua: llegará a 500 locales y abrirá la mayor tienda Paris de Chile",
-        "resumen": "Un centro comercial prepara una profunda reestructuración que incluye la partida de una multitienda tradicional y la llegada de marcas asociadas a un conocido grupo empresarial. Además, el espacio resultante se subdividirá en numerosos locales comerciales para diversificar la oferta.",
-        "articulos": [
-          {
-            "titular": "Parque Arauco reconvertirá su ala más antigua: llegará a 500 locales y abrirá la mayor tienda Paris de Chile",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/retail/parque-arauco-reconvertira-su-ala-mas-antigua-llegara-a-500-locales-y",
-            "fecha": "2026-09-01T00:40:50+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Las inéditas medidas de protección que pidió el SLEP para docentes del I. Nacional tras graves amenazas",
-        "resumen": "Exigen la implementación urgente de dispositivos de salvaguarda y vigilancia policial en un emblemático establecimiento educacional. La petición busca proteger la integridad física de toda la comunidad académica ante situaciones de riesgo.",
-        "articulos": [
-          {
-            "titular": "Las inéditas medidas de protección que pidió el SLEP para docentes del I. Nacional tras graves amenazas",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/las-ineditas-medidas-de-proteccion-que-pidio-el-instituto-nacional-para-sus-docentes-tras-graves-amenazas/",
-            "fecha": "2026-09-01T00:37:42+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Gobierno ultima detalles para enviar al Congreso un Presupuesto 2027 con un alza del gasto de hasta 1%",
-        "resumen": "El jefe de Estado advirtió a los diferentes ministerios que deberán optimizar sus recursos para cumplir con las metas establecidas. Con ello, busca moderar las expectativas de gasto dentro de la administración pública.",
-        "articulos": [
-          {
-            "titular": "Gobierno ultima detalles para enviar al Congreso un Presupuesto 2027 con un alza del gasto de hasta 1%",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/pais/gobierno-ultima-detalles-para-enviar-al-congreso-un-presupuesto-2027-con-un",
-            "fecha": "2026-09-01T00:35:55+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Tres de cada cuatro profesionales tienen dificultades para conciliar trabajo y familia: la principal razón es no lograr desconectarse",
-        "resumen": "Una encuesta regional muestra que la abrumadora mayoría de los trabajadores experimenta complicaciones para equilibrar su ámbito profesional y familiar debido a la imposibilidad de desconectarse fuera del horario laboral. No obstante, las modalidades de desempeño a distancia facilitan esta labor, un aspecto que la normativa chilena protege especialmente para quienes realizan labores de cuidado.",
-        "articulos": [
-          {
-            "titular": "Tres de cada cuatro profesionales tienen dificultades para conciliar trabajo y familia: la principal razón es no lograr desconectarse",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/08/31/tres-de-cada-cuatro-profesionales-tienen-dificultades-para-conciliar-trabajo-y-familia-la-principal-razon-es-no-lograr-desconectarse/",
-            "fecha": "2026-09-01T00:34:49+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "EXCLUSIVE: Chinese shipper COSCO collects intel for Beijing with concealed equipment, US officials say - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOUJJbXB2anZYelJzQWlUbjNpd0NHaGNxMlB5LWpPLUU3Y0VSU0hVNEM5Y29OZm9LMFFWTFNRSWFrdWs1VUFxZmowZkViUEVWemJ6cGg3ZDNLZ0ZMYWphbHcwQ1A1NEpOMDg5TXpLSG9HdmNoMkc4Y3JERUg4VHRmNWFfOElUeVlYeEVwNzlyUEZkdnNzUHJMc19zaGI5SDFDcjdNUkhxSXp6bUpqWUtidlJYWTdhcUFMZExJbw?oc=5",
-        "fecha": "2026-09-01T11:33:10+00:00"
+        "titular": "UK Foreign Secretary condemns Israeli settlements in the occupied West Bank",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/uk-foreign-secretary-condemns-israeli-settlements-in-the-occupied-west-bank?traffic_source=rss",
+        "fecha": "2026-09-01T16:15:01+00:00"
       },
       {
-        "titular": "Tupac murder trial: Ex-gang leader found guilty",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/video/20260901-tupac-murder-trial-ex-gang-leader-found-guilty-1",
-        "fecha": "2026-09-01T11:31:49+00:00"
+        "titular": "Germany says Russia behind Leipzig airport drone attack",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-01T16:13:48+00:00"
       },
       {
-        "titular": "Nepal flood death toll crosses 1,000, rescuers reach remote areas - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYzM2eXZHNlAtNllHNlpsYldnQ2xtdjhiTkxaUW92cExCWmhnWll5eUl1aVVBN2tnUGw4eG9VbmFENmhoUmZRM0lRZ043VHZiM3liSkFhY1RzVEx2am1hX1lsQi1vajliSDhUV05NN1FNMzVFZnN2OUhFdjNPMHo0UzNXSkwtTnVUZ2lGSzhhWDdyNUh6cWFlUTZiMy1Ia3ZHN0pseDhVRjBpY0ZBWTBmS2czUjJ6X0ZZVkZLaHpXQl9uLVpvRW40cA?oc=5",
-        "fecha": "2026-09-01T11:03:16+00:00"
+        "titular": "Trump says US position on Falklands 'one of many' under review",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cm2q1qgg542o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-01T16:13:03+00:00"
       },
       {
-        "titular": "Venezuela’s Maduro to test US courts' reluctance to apply international law in criminal cases - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZXlqMnpuNTc4V05MbURGR21aNnRXS1ptRDRpUVIwTzMzZm1rNmR2MW1tTHVmNWh2YWVrR0FxS3pRaUJYRTR6WVNRRGwtLVg3VFl0cFAya2xoQ3JpMFdOWVRxdWFLS0kzYnpZdjZNbGpMeEZvX1ZSRE9qR2VtQWFsTFBwOWNBNmg0dHlaR2ZzaFFJNk1HUFRFNDIwaEpKbkZQSGRJRDJFVUVFeVlhSE5BT1NUdU5Ud2hYTW1aZXFrby1qYVVLZmt6OQ?oc=5",
-        "fecha": "2026-09-01T11:02:15+00:00"
+        "titular": "'I have fired 40 of my agents for being corrupt', says Nigeria's anti-corruption chief",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c9863817xzpo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-01T15:57:18+00:00"
       },
       {
-        "titular": "Wall St futures kick off September under pressure as yields, oil prices rise - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
-        "fecha": "2026-09-01T10:56:11+00:00"
+        "titular": "‘No one else like him’: Argentinians rally for Lionel Messi",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/1/no-one-else-like-him-argentinians-rally-for-lionel-messi?traffic_source=rss",
+        "fecha": "2026-09-01T15:57:14+00:00"
       }
     ]
   },
@@ -395,8 +416,8 @@
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 504.03,
-      "var_dia_pct": -0.1921,
+      "precio": 504.86,
+      "var_dia_pct": 0.1647,
       "serie_precio": {
         "1M": [
           {
@@ -1858,6 +1879,10 @@
           {
             "fecha": "2026-09-01T11:00:00",
             "valor": 504.03
+          },
+          {
+            "fecha": "2026-09-01T16:00:00",
+            "valor": 504.86
           }
         ],
         "6M": [
@@ -2379,7 +2404,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.03
+            "valor": 504.86
           }
         ],
         "YTD": [
@@ -3073,7 +3098,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.03
+            "valor": 504.86
           }
         ],
         "1A": [
@@ -4107,7 +4132,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.03
+            "valor": 504.86
           }
         ],
         "5A": [
@@ -5157,7 +5182,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.03
+            "valor": 504.86
           }
         ],
         "10A": [
@@ -7247,14 +7272,14 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 504.03
+            "valor": 504.86
           }
         ]
       },
       "noticias": [
         {
           "titular": "Greg Abel Thinks Berkshire's Stock Is Cheap -- Is He Right? Here's the Math.",
-          "extracto": "Berkshire Hathaway recent stock repurchase of billions of dollars raises questions among analysts about whether the company is currently undervalued. This significant capital allocation highlights management assessment of the conglomerate intrinsic worth in the current market.",
+          "extracto": "Berkshire Hathaway recent stock repurchase of billions has raised questions among analysts regarding whether the company is currently undervalued. This significant buyback highlights management's perspective on the firm's market pricing.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7263,7 +7288,7 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Paring Down Bank of America and Making a Virtual Monopoly Berkshire's No. 3 Holding",
-          "extracto": "A high-profile equity favored by Greg Abel could eventually surpass Apple to become the primary asset in Berkshire Hathaway portfolio. Such a shift would mark a major transition in the investment strategy overseen by Warren Buffett successor.",
+          "extracto": "A specific equity favored by executive Greg Abel has the long-term potential to surpass Apple as Berkshire Hathaway's primary investment. Such a shift would significantly alter the conglomerate's portfolio composition.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7272,7 +7297,7 @@
         },
         {
           "titular": "Vanguard's VOO faces something it never has before",
-          "extracto": "The exchange-traded fund historically favored by Warren Buffett has undergone notable portfolio and structural changes over the past ten years. These shifts reflect evolving investment conditions and the broader evolution of the fund market approach.",
+          "extracto": "The exchange-traded fund historically preferred by Warren Buffett has undergone notable portfolio and structural changes over the past ten years. These shifts reflect evolving investment strategies within the fund.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7281,7 +7306,7 @@
         },
         {
           "titular": "KKR's 'Berkshire Hathaway' strategy bears fruit with $17B USI sale",
-          "extracto": "Investment firm KKR agreed to sell USI Insurance Services to Aon for approximately $17 billion, marking the largest divestment from its Strategic Holdings portfolio. This multi-billion dollar transaction advances KKR strategic goal of expanding its operations to resemble a diversified holding company.",
+          "extracto": "Private equity firm KKR has agreed to sell USI Insurance Services to Aon for approximately $17 billion, marking its largest divestment to date from its Strategic Holdings portfolio. This transaction supports KKR's broader objective to build a diversified investment conglomerate similar to Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7290,7 +7315,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.B) Stock Looks Reasonable On Earnings After A 79% Run",
-          "extracto": "Berkshire Hathaway achieved a strong total return of nearly 80 percent over a five-year period, rewarding patient investors. Financial models indicate the conglomerate shares may still trade below their fundamental value, offering potential upside for prospective buyers.",
+          "extracto": "Berkshire Hathaway achieved a strong multi-year total return while financial analyses indicate the stock may still trade below its fundamental worth. This potential undervaluation offers continued appeal for prospective investors following years of steady growth.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7584,14 +7609,14 @@
         "payout_ratio_pct": null,
         "maximo_52s": 529.42,
         "minimo_52s": 465.4,
-        "beta": 0.7672971569571918
+        "beta": 0.767180660651553
       }
     },
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 263.54,
-      "var_dia_pct": -0.5509,
+      "precio": 261.24,
+      "var_dia_pct": -0.8727,
       "serie_precio": {
         "1M": [
           {
@@ -9057,6 +9082,10 @@
           {
             "fecha": "2026-09-01T11:00:00",
             "valor": 263.54
+          },
+          {
+            "fecha": "2026-09-01T16:00:00",
+            "valor": 261.24
           }
         ],
         "6M": [
@@ -9578,7 +9607,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 263.54
+            "valor": 261.24
           }
         ],
         "YTD": [
@@ -10272,7 +10301,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 263.54
+            "valor": 261.24
           }
         ],
         "1A": [
@@ -11306,7 +11335,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 263.54
+            "valor": 261.24
           }
         ],
         "5A": [
@@ -12356,7 +12385,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 263.54
+            "valor": 261.24
           }
         ],
         "10A": [
@@ -14446,14 +14475,23 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 263.54
+            "valor": 261.24
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Can MCD's International Markets Drive Growth Amid Consumer Pressure?",
+          "extracto": "Analistas evalúan si las ofertas de valor, las novedades en el menú y los programas de lealtad permitirán a los mercados internacionales de McDonald's mantener su crecimiento frente a la presión económica de los consumidores.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mcds-international-markets-drive-growth-131600812.html?.tsrc=rss",
+          "fecha": "2026-09-01T13:16:00+00:00"
+        },
+        {
           "titular": "McDonald’s and Taco Bell Are Fighting Over Your 3 P.M. Pick-Me-Up — Here’s Who’s Winning",
-          "extracto": "Varias cadenas introdujeron nuevas bebidas energéticas de forma simultánea, intensificando la competencia en un mercado que se satura con rapidez.",
+          "extracto": "Varias cadenas de comida rápida introdujeron nuevas bebidas energéticas de manera casi simultánea, intensificando la competencia en un sector comercial cada vez más saturado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14462,7 +14500,7 @@
         },
         {
           "titular": "Is McDonald's Stock Underperforming the S&P 500?",
-          "extracto": "A pesar de que el rendimiento bursátil de McDonald's ha quedado por detrás del índice S&P 500 durante el último año, los expertos mantienen una perspectiva moderadamente favorable.",
+          "extracto": "A pesar de que el rendimiento bursátil de McDonald's se ha situado por debajo del índice S&amp;P 500 durante los últimos doce meses, los expertos financieros mantienen una perspectiva moderadamente positiva sobre sus títulos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14471,7 +14509,7 @@
         },
         {
           "titular": "McDonald's (MCD) Stock Looks Fairly Priced With Limited Valuation Upside",
-          "extracto": "Las acciones de McDonald's han enfrentado presión reciente, aunque las métricas de valoración sugieren un precio razonable y un crecimiento a largo plazo impulsado por su modelo de franquicias.",
+          "extracto": "Las acciones de McDonald's han enfrentado dificultades recientes, pero su valoración actual se considera equilibrada debido a una sólida generación de efectivo y múltiplos tradicionales que sugieren un precio atractivo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14480,21 +14518,12 @@
         },
         {
           "titular": "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today",
-          "extracto": "La cadena de comida rápida ha superado discretamente el rendimiento general del mercado gracias a su particular modelo operativo dentro de la industria restaurantera.",
+          "extracto": "En un periodo determinado, McDonald's logró superar el rendimiento general del mercado gracias a una estrategia operativa particular en el sector de la restauración.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/29/if-youd-invested-1000-in-mcdonalds-25-years-ago/?.tsrc=rss",
           "fecha": "2026-08-29T19:09:00+00:00"
-        },
-        {
-          "titular": "The $37 Billion Consolation Prize For MCD Shareholders",
-          "extracto": "El gigante de la comida rápida recompensó a sus inversores con distribuciones significativas de efectivo, incluso cuando el valor de sus acciones se rezagó respecto al mercado.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.trefis.com/articles/613493/the-37-billion-consolation-prize-for-mcd-shareholders/2026-08-28?.tsrc=rss",
-          "fecha": "2026-08-28T22:26:00+00:00"
         }
       ],
       "fundamentales": {
@@ -15013,8 +15042,8 @@
       "_segmentos_accession": "0000063908-26-000067",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 186491.84907974003,
-        "enterprise_value_musd": 227332.84907974003,
+        "market_cap_musd": 184864.27355844,
+        "enterprise_value_musd": 225705.27355844,
         "deuda_neta_musd": 40841.0,
         "deuda_neta_ebitda": 3.0774621354833847,
         "deuda_patrimonio": -40.73,
@@ -15024,22 +15053,22 @@
         "roe_pct": -858.9442815249267,
         "roic_pct": 32.156311216032954,
         "roce_pct": 22.904368358913814,
-        "pe": 21.40861088545898,
-        "ev_ingresos": 8.206073316237953,
-        "ev_ebitda": 17.13004664906488,
-        "p_vl": -182.29897270746827,
-        "dividend_yield_pct": 2.7889504439553767,
+        "pe": 21.221770917952888,
+        "ev_ingresos": 8.147322440112623,
+        "ev_ebitda": 17.0074051358933,
+        "p_vl": -180.70798979319648,
+        "dividend_yield_pct": 2.8135048231511255,
         "payout_ratio_pct": 59.707554833468734,
         "maximo_52s": 341.06,
         "minimo_52s": 260.06,
-        "beta": 0.6248472235645858
+        "beta": 0.624972725949408
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 507.29,
-      "var_dia_pct": -1.2151,
+      "precio": 500.6,
+      "var_dia_pct": -1.3188,
       "serie_precio": {
         "1M": [
           {
@@ -16501,6 +16530,10 @@
           {
             "fecha": "2026-09-01T11:00:00",
             "valor": 507.29
+          },
+          {
+            "fecha": "2026-09-01T16:00:00",
+            "valor": 500.6
           }
         ],
         "6M": [
@@ -17022,7 +17055,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 507.29
+            "valor": 500.6
           }
         ],
         "YTD": [
@@ -17716,7 +17749,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 507.29
+            "valor": 500.6
           }
         ],
         "1A": [
@@ -18750,7 +18783,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 507.29
+            "valor": 500.6
           }
         ],
         "5A": [
@@ -19800,7 +19833,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 507.29
+            "valor": 500.6
           }
         ],
         "10A": [
@@ -21890,55 +21923,55 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 507.29
+            "valor": 500.6
           }
         ]
       },
       "noticias": [
         {
-          "titular": "Game Performance Analytics Market Outlook 2026-2030 - Featuring Profiles of Microsoft, Google, and Amazon Web Services",
-          "extracto": "Se proyecta que el mercado global de análisis de rendimiento de videojuegos alcance los 5.300 millones de dólares para el año 2030. Este crecimiento es impulsado principalmente por el auge de los juegos en línea, móviles y en la nube.",
+          "titular": "Prediction: Microsoft Stock Will Double on This Date",
+          "extracto": "A pesar de reportar ingresos récord y superar constantemente las expectativas de ganancias, las acciones de Microsoft se han mantenido estancadas durante el último año. Este artículo analiza los factores que podrían alterar drásticamente esta tendencia antes del año 2031.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/game-performance-analytics-market-outlook-082000964.html?.tsrc=rss",
-          "fecha": "2026-09-01T08:20:00+00:00"
+          "url": "https://247wallst.com/investing/2026/09/01/prediction-microsoft-stock-will-double-on-this-date/?.tsrc=rss",
+          "fecha": "2026-09-01T16:00:37+00:00"
         },
         {
-          "titular": "Can MSFT Stock Compound Its Way Higher?",
-          "extracto": "Microsoft ha superado los 30 millones de usuarios de pago en su herramienta de inteligencia artificial Microsoft 365 Copilot. Este hito refleja un cambio estratégico de la compañía hacia modelos de cobro basados en el consumo empresarial.",
+          "titular": "Big Tech Spent Over $1 Trillion on AI. The Bill Does Not Arrive Until It Depreciates.",
+          "extracto": "Las grandes empresas tecnológicas han invertido sumas colosales en infraestructura de inteligencia artificial cuyos costos reales aún no se reflejan por completo en sus resultados financieros. El impacto a largo plazo de estos desembolsos dependerá de normativas contables específicas que definirán la rentabilidad futura del sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.trefis.com/articles/613694/can-msft-stock-compound-its-way-higher/2026-08-31?.tsrc=rss",
-          "fecha": "2026-09-01T00:53:37+00:00"
+          "url": "https://247wallst.com/investing/2026/09/01/big-tech-spent-over-1-trillion-on-ai-the-bill-does-not-arrive-until-it-depreciates/?.tsrc=rss",
+          "fecha": "2026-09-01T15:41:47+00:00"
         },
         {
-          "titular": "Microsoft (MSFT) Brings Arabic Language AI Models To Its Ecosystem",
-          "extracto": "Microsoft y HUMAIN se asociaron para integrar modelos de inteligencia artificial en idioma árabe dentro de las plataformas de Microsoft. La iniciativa busca facilitar la adopción tecnológica personalizada para empresas en Oriente Medio y África.",
+          "titular": "Microsoft Stock Hasn’t Done Much This Year. Why Azure Growth Means the Stock Has 19% Upside.",
+          "extracto": "Bank of America mantiene una perspectiva optimista sobre Microsoft, señalando que, a pesar de registrar un rendimiento inferior al del S&P 500 este año, su enfoque en la inteligencia artificial ofrece un fuerte potencial de crecimiento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-brings-arabic-language-210536821.html?.tsrc=rss",
-          "fecha": "2026-08-31T21:05:36+00:00"
+          "url": "https://finance.yahoo.com/m/fcccaeb2-e223-3272-b8f3-e419094545ff/microsoft-stock-hasn%E2%80%99t-done.html?.tsrc=rss",
+          "fecha": "2026-09-01T15:11:00+00:00"
         },
         {
-          "titular": "Dow futures fall 240 points as bond yields, oil prices rise",
-          "extracto": "Los mercados mundiales de bonos registran caídas al inicio de septiembre, impulsando los rendimientos de la deuda en Japón a sus niveles más altos en tres décadas.",
+          "titular": "Big Software Names Bounced Back in August. Can They Sustain Their Recent Rally?",
+          "extracto": "Durante el mes de agosto, el sector tecnológico experimentó un desempeño favorable, destacando especialmente el crecimiento de las principales empresas de software.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://qz.com/dow-futures-drop-bond-yields-oil-prices-090126?.tsrc=rss",
-          "fecha": "2026-09-01T11:26:51+00:00"
+          "url": "https://www.investopedia.com/big-software-names-bounced-back-in-august-can-they-sustain-their-recent-rally-msft-pltr-crm-panw-12074445?.tsrc=rss",
+          "fecha": "2026-09-01T15:04:28+00:00"
         },
         {
-          "titular": "Keeper Security Earns Top-Tier Recognition from GigaOm and ISG for Identity Security Innovation and Leadership",
-          "extracto": "La empresa de ciberseguridad Keeper Security recibió importantes distinciones de dos firmas analistas independientes en una misma semana. Fue catalogada como líder en gestión de contraseñas empresariales y como proveedora ejemplar en plataformas de gestión de identidades.",
+          "titular": "Microsoft and Tesla Enter September With Momentum but Which Is Better?",
+          "extracto": "Mientras la plataforma Azure genera sólidos ingresos para Microsoft, Tesla enfrenta un consumo de recursos en proyectos futuros que aún no beneficia sus márgenes de ganancia. Esta divergencia financiera pone de relieve la disparidad en los modelos de negocio que ambas compañías ofrecen actualmente al mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/keeper-security-earns-top-tier-110000000.html?.tsrc=rss",
-          "fecha": "2026-09-01T11:00:00+00:00"
+          "url": "https://247wallst.com/investing/2026/09/01/microsoft-and-tesla-enter-september-with-momentum-but-which-is-better/?.tsrc=rss",
+          "fecha": "2026-09-01T13:35:59+00:00"
         }
       ],
       "fundamentales": {
@@ -22514,8 +22547,8 @@
       "_segmentos_accession": "0001193125-26-323632",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 3766904.97212939,
-        "enterprise_value_musd": 3786263.97212939,
+        "market_cap_musd": 3717228.0727946,
+        "enterprise_value_musd": 3736587.0727946,
         "deuda_neta_musd": 19359.0,
         "deuda_neta_ebitda": 0.10213836876177211,
         "deuda_patrimonio": 0.09,
@@ -22525,15 +22558,15 @@
         "roe_pct": 30.233483352811003,
         "roic_pct": 33.61956573527437,
         "roce_pct": 26.331394569765802,
-        "pe": 28.245545657015594,
-        "ev_ingresos": 11.409942689465042,
-        "ev_ebitda": 19.9763844111144,
-        "p_vl": 8.514954038272801,
-        "dividend_yield_pct": 0.7175382917069132,
+        "pe": 27.873051224944327,
+        "ev_ingresos": 11.260240878240953,
+        "ev_ebitda": 19.714288359500255,
+        "p_vl": 8.402661183069574,
+        "dividend_yield_pct": 0.7271274470635237,
         "payout_ratio_pct": 20.26726057906459,
         "maximo_52s": 542.07,
         "minimo_52s": 352.83,
-        "beta": 0.9834043030273957
+        "beta": 0.9836059302483172
       },
       "tesis": [
         {
@@ -22564,8 +22597,8 @@
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 704.89,
-      "var_dia_pct": -0.3323,
+      "precio": 701.32,
+      "var_dia_pct": -0.5065,
       "serie_precio": {
         "1M": [
           {
@@ -24031,6 +24064,10 @@
           {
             "fecha": "2026-09-01T11:00:00",
             "valor": 704.89
+          },
+          {
+            "fecha": "2026-09-01T16:00:00",
+            "valor": 701.32
           }
         ],
         "6M": [
@@ -24552,7 +24589,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 704.89
+            "valor": 701.32
           }
         ],
         "YTD": [
@@ -25246,7 +25283,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 704.89
+            "valor": 701.32
           }
         ],
         "1A": [
@@ -26280,7 +26317,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 704.89
+            "valor": 701.32
           }
         ],
         "5A": [
@@ -27330,7 +27367,7 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 704.89
+            "valor": 701.32
           }
         ],
         "10A": [
@@ -29420,14 +29457,23 @@
           },
           {
             "fecha": "2026-09-01",
-            "valor": 704.89
+            "valor": 701.32
           }
         ]
       },
       "noticias": [
         {
+          "titular": "VOO’s $1 Trillion Problem: Why SpaceX Stays Out Until 2027",
+          "extracto": "La reciente cotización pública de SpaceX la sitúa fuera de los índices bursátiles más grandes debido a normativas específicas. Esta situación genera dudas entre los inversores sobre la estrategia adecuada a seguir.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/etf/2026/09/01/voos-1-trillion-problem-why-spacex-stays-out-until-2027/?.tsrc=rss",
+          "fecha": "2026-09-01T13:25:10+00:00"
+        },
+        {
           "titular": "Nvidia Is 7.6% of the Vanguard S&P 500 ETF (VOO) but Over 12% of These 5 Magnificent Low-Cost Vanguard ETFs. Here's My Top Pick to Buy Now.",
-          "extracto": "Aunque el índice S&P 500 incluye a Nvidia, existen fondos cotizados alternativos que podrían resultar más atractivos para quienes buscan maximizar su crecimiento financiero.",
+          "extracto": "Aunque el índice S&P 500 incluye a Nvidia, existen fondos cotizados alternativos que podrían resultar más atractivos para quienes buscan maximizar su crecimiento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29436,7 +29482,7 @@
         },
         {
           "titular": "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
-          "extracto": "Invertir en el índice bursátil S&P 500 se considera una estrategia eficaz para beneficiarse de la expansión general de la economía estadounidense.",
+          "extracto": "Invertir en el índice S&P 500 constituye un método eficaz para beneficiarse de la expansión general de la economía estadounidense.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29445,7 +29491,7 @@
         },
         {
           "titular": "How Much Can You Earn With the Vanguard S&P 500 ETF (VOO) If You Invest $100 per Month Starting Today? Here's What History Suggests.",
-          "extracto": "Los inversores pueden obtener buenos resultados financieros participando en el desarrollo de la mayor parte de los sectores económicos de Estados Unidos.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29454,21 +29500,12 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What History Suggests.",
-          "extracto": "Se destacan los beneficios potenciales de obtener un rendimiento total cercano al 600 por ciento a través de estrategias de inversión a largo plazo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/08/30/where-will-voo-be-20-years-what-history-suggests/?.tsrc=rss",
           "fecha": "2026-08-30T13:29:00+00:00"
-        },
-        {
-          "titular": "Here's How Much a $50,000 Investment in the S&P 500 Could Grow in 25 Years",
-          "extracto": "El uso constante del interés compuesto y la paciencia temporal permiten que un capital inicial experimente un incremento financiero sustancial.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/08/28/how-much-a-50000-sp500-investment-could-grow/?.tsrc=rss",
-          "fecha": "2026-08-28T19:57:00+00:00"
         }
       ]
     }
@@ -29478,20 +29515,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 704.89,
-        "var_dia_pct": -0.3323
+        "precio": 701.32,
+        "var_dia_pct": -0.5065
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 716.76,
-        "var_dia_pct": 0.0461
+        "precio": 709.47,
+        "var_dia_pct": -1.0171
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 378.15,
-        "var_dia_pct": -0.319
+        "precio": 375.81,
+        "var_dia_pct": -0.6188
       }
     ],
     "chile": {
