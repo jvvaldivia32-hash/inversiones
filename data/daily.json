@@ -1,33 +1,11 @@
 {
-  "generado": "2026-09-06T13:42:57.245926+00:00",
+  "generado": "2026-09-06T17:07:33.432655+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "South Africa’s chrome riches fuel a deadly underground economy",
-        "resumen": "La industria del cromo en Sudáfrica oculta una economía sumergida donde trabajadores migrantes y desempleados se enfrentan a riesgos mortales debido a la falta de regulación y condiciones laborales extremas. Esta situación expone la vulnerabilidad de los sectores mineros informales en el país africano, generando llamados urgentes a la intervención estatal. La falta de seguridad laboral perpetúa un ciclo de explotación y peligrosidad para los operarios más desfavorecidos.",
-        "articulos": [
-          {
-            "titular": "South Africa’s chrome riches fuel a deadly underground economy",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/news/2026/9/6/south-africas-chrome-riches-fuel-a-deadly-underground-economy?traffic_source=rss",
-            "fecha": "2026-09-06T04:31:45+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Ataques retaliatorios entre Estados Unidos e Irán en barcos",
-        "resumen": "Estados Unidos e Irán informaron de ataques mutuos contra embarcaciones petroleras y naves vinculadas a cada nación en medio de tensiones regionales. Este incidente subraya la creciente escalada militar en el Golfo y la amenaza constante a rutas comerciales clave. El intercambio de agresiones agrava las preocupaciones sobre la seguridad marítima internacional.",
+        "titulo_neutral": "Ataques retaliatorios entre Estados Unidos e Irán en el contexto del conflicto marítimo",
+        "resumen": "Estados Unidos e Irán informaron de ataques mutuos contra barcos petroleros y naves vinculadas a sus adversarios. Este conflicto avivó la tensión en el estrecho de Ormuz e impulsó los precios internacionales del crudo, mientras se registraron cambios directivos en la Reserva Federal.",
         "articulos": [
           {
             "titular": "US and Iran trade retaliatory attacks on ships as conflict flares",
@@ -37,19 +15,29 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-09-05T22:44:07+00:00"
+          },
+          {
+            "titular": "Defence stocks drop despite US-Iran war",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/defence-stocks-drop-despite-us-iran-war",
+            "fecha": "2026-04-30T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "BBC"
+          "BBC",
+          "Financial Times"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
         "titulo_neutral": "Federal appeals court upholds ban on Trump's bid to use citizenship data for voter checks - Reuters",
-        "resumen": "Un tribunal federal de apelaciones ratificó la prohibición contra los intentos de la administración de utilizar datos de ciudadanía en los procesos de verificación de votantes. Esta decisión judicial representa un revés significativo para las políticas electorales impulsadas por el gobierno. La medida busca proteger la privacidad de los electores y evitar restricciones consideradas discriminatorias en el acceso al voto.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Federal appeals court upholds ban on Trump's bid to use citizenship data for voter checks - Reuters",
@@ -71,7 +59,7 @@
       },
       {
         "titulo_neutral": "Extended chat: Top US trade official defends Trump’s record",
-        "resumen": "El principal representante comercial de Estados Unidos defendió la postura proteccionista del gobierno en medio de crecientes tensiones arancelarias con socios internacionales como Canadá. Durante una serie de entrevistas, altos funcionarios señalaron desacuerdos comerciales tanto con Ottawa como con el Reino Unido, reflejando una estrategia de línea dura en los mercados globales. Estas declaraciones ocurren poco antes de reuniones diplomáticas clave destinadas a redefinir acuerdos bilaterales y globales.",
+        "resumen": "El principal representante comercial de la administración estadounidense abordó las tensiones arancelarias con socios internacionales como Canadá y el Reino Unido. Durante las declaraciones, criticó la falta de alineación británica con los intereses comerciales de Washington tras el Brexit.",
         "articulos": [
           {
             "titular": "Extended chat: Top US trade official defends Trump’s record",
@@ -93,7 +81,7 @@
       },
       {
         "titulo_neutral": "Top US trade official reveals ‘problem’ in UK negotiations",
-        "resumen": "El representante comercial de Estados Unidos afirmó que el Reino Unido prioriza su alineación con la Unión Europea por encima de un posible acuerdo comercial con Washington. Por otra parte, Deutsche Bank gestionó una considerable cartera de préstamos para un importante propietario inmobiliario en Hollywood que actualmente enfrenta problemas de impago. En el sector tecnológico, Nvidia acordó la adquisición de la plataforma de inteligencia artificial Hugging Face por una suma multimillonaria.",
+        "resumen": "El representante comercial de Estados Unidos cuestionó las prioridades económicas del Reino Unido frente a la Unión Europea. En el ámbito empresarial, Nvidia acordó la adquisición de la plataforma de inteligencia artificial Hugging Face por una cifra multimillonaria.",
         "articulos": [
           {
             "titular": "Top US trade official reveals ‘problem’ in UK negotiations",
@@ -115,7 +103,7 @@
       },
       {
         "titulo_neutral": "US Treasury tries to soothe the bond market",
-        "resumen": "Las acciones de la farmacéutica Moderna experimentaron un fuerte repunte tras anunciar resultados positivos en los ensayos clínicos de una vacuna experimental contra el cáncer. En el ámbito financiero, el Departamento del Tesoro de EE. UU. planea duplicar sus operaciones de recompra de deuda soberana a largo plazo para estabilizar el mercado de bonos. Asimismo, el sector legal estadounidense enfrenta críticas por la contratación anticipada de estudiantes de derecho en sus primeras semanas de formación.",
+        "resumen": "Las acciones de la farmacéutica Moderna experimentaron un fuerte incremento tras anunciar resultados positivos en ensayos clínicos para una vacuna oncológica. En paralelo, el Tesoro estadounidense anunció planes para duplicar la recompra de deuda soberana a largo plazo.",
         "articulos": [
           {
             "titular": "US Treasury tries to soothe the bond market",
@@ -137,7 +125,7 @@
       },
       {
         "titulo_neutral": "Anthropic’s anticipated $2tn IPO",
-        "resumen": "Los inversores de la startup Anthropic anticipan que su futura salida a bolsa podría convertirse en la mayor oferta pública de la historia tecnológica. Mientras tanto, la tasa de inflación en Estados Unidos experimentó una leve disminución debido a la caída en los precios de los combustibles. En Irán, la profunda crisis económica y el encarecimiento de la vida diaria han obligado a los ciudadanos a recurrir masivamente a sistemas de pago aplazado.",
+        "resumen": "La tasa de inflación en Estados Unidos experimentó una ligera disminución impulsada por el abaratamiento de los carburantes. Paralelamente, en Irán se registró un incremento en el uso de modalidades de pago aplazado ante la escalada generalizada en el coste de vida.",
         "articulos": [
           {
             "titular": "Anthropic’s anticipated $2tn IPO",
@@ -158,8 +146,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Decisión de la Reserva Federal sobre tasas de interés",
-        "resumen": "Diversas empresas tecnológicas reportaron sus resultados financieros trimestrales en un entorno marcado por la cautela de los inversores ante el fuerte incremento en el gasto vinculado a la inteligencia artificial. Paralelamente, los principales bancos centrales optaron por mantener los tipos de interés sin cambios a pesar de la presión inflacionaria derivada de conflictos internacionales. En el sector energético, firmas británicas del mar del Norte comenzaron a buscar oportunidades de inversión en el extranjero para impulsar su crecimiento.",
+        "titulo_neutral": "Decisiones y perspectivas de la Reserva Federal sobre tasas de interés",
+        "resumen": "Meta y Microsoft presentaron sus resultados trimestrales en un contexto de incertidumbre por los elevados costos en inteligencia artificial y la decisión de la Reserva Federal de mantener los tipos de interés. Por su parte, la inflación repuntó debido a la subida de los precios del petróleo, lo que incrementó las expectativas de nuevas medidas monetarias restrictivas.",
         "articulos": [
           {
             "titular": "Fed holds rates as inflation fears grow",
@@ -196,21 +184,87 @@
           "Financial Times"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Germany’s twin crises: football and the economy",
+        "resumen": "La creación de empleo en la economía estadounidense se situó por debajo de las previsiones de los mercados financieros durante el mes de junio. A su vez, los inversores surcoreanos redirigieron los beneficios obtenidos en el sector tecnológico hacia el mercado inmobiliario local.",
+        "articulos": [
+          {
+            "titular": "Germany’s twin crises: football and the economy",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/germanys-twin-crises-football-and-the-economy",
+            "fecha": "2026-07-03T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Irán y Estados Unidos intercambian ataques contra petroleros mientras la guerra se prolonga",
-        "resumen": "Las fuerzas militares de Irán adoptaron una postura más agresiva en una estratégica zona marítima tras sufrir la pérdida de varias embarcaciones petroleras a manos de Estados Unidos. Esta escalada incrementa la tensión internacional en torno al tránsito comercial de hidrocarburos.",
+        "titulo_neutral": "La apuesta gastronómica de la familia de Hermann von Mühlenbrock que abrirá en octubre en Vitacura",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Irán y Estados Unidos intercambian ataques contra petroleros mientras la guerra se prolonga",
+            "titular": "La apuesta gastronómica de la familia de Hermann von Mühlenbrock que abrirá en octubre en Vitacura",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/negocios/expdte-restaurante-vitacura/",
+            "fecha": "2026-09-06T16:33:53+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Ataque de perros a huemul en la región de Aysén",
+        "resumen": "Un ejemplar de huemul fue agredido por perros en un sector rural de Aysén y debió ser intervenido por especialistas en un centro especializado. Lamentablemente, debido a la gravedad de los traumatismos sufridos, el animal perdió la vida un par de días después.",
+        "articulos": [
+          {
+            "titular": "“Esto que está pasando está muy mal”: Huemul muere por ataque de perros en la región de Aysén",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/06/esto-que-esta-pasando-esta-muy-mal-huemul-muere-por-ataque-de-perros-en-la-region-de-aysen/",
+            "fecha": "2026-09-06T16:25:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Germán Codina detalla la implementación del plan \"Escudo de Barrio\" en 54 zonas del país",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Germán Codina detalla la implementación del plan \"Escudo de Barrio\" en 54 zonas del país",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/politica/iran-y-estados-unidos-intercambian-ataques-reciprocos-contra-petroleros",
-            "fecha": "2026-09-06T13:32:24+00:00"
+            "url": "http://www.df.cl/economia-y-politica/politica/german-codina-detalla-la-implementacion-del-plan-escudo-de-barrio-en-54",
+            "fecha": "2026-09-06T15:54:06+00:00"
           }
         ],
         "leans_presentes": [
@@ -222,53 +276,18 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "La compleja ruta de CMPC en Brasil para su proyecto estrella, Natureza",
-        "resumen": "La millonaria iniciativa forestal de un importante conglomerado empresarial en territorio brasileño enfrenta un escenario complejo debido a trabas judiciales y a la caída en las cotizaciones internacionales de la celulosa. Hasta el momento, el único hito favorable ha sido la obtención de permisos preliminares para un futuro puerto.",
+        "titulo_neutral": "Declaraciones sobre el control del Estrecho de Magallanes",
+        "resumen": "La legisladora argentina Patricia Bullrich aclaró que sus recientes declaraciones sobre el Estrecho de Magallanes se debieron a una confusión en la denominación de los sitios geográficos. Sus dichos iniciales habían generado suspicacias y críticas en territorio chileno, en un contexto marcado por acuerdos bilaterales sobre dicha zona austral.",
         "articulos": [
           {
-            "titular": "La compleja ruta de CMPC en Brasil para su proyecto estrella, Natureza",
+            "titular": "Bullrich apuntó a “confusión de nombres” tras sus dichos sobre el control del Estrecho de Magallanes",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/06/la-compleja-ruta-de-cmpc-en-brasil-para-su-proyecto-estrella-natureza/",
-            "fecha": "2026-09-06T12:58:50+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Juan Pablo Lavín: “El pesimismo generalizado puede estar abriendo la puerta a cambios radicales”",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Juan Pablo Lavín: “El pesimismo generalizado puede estar abriendo la puerta a cambios radicales”",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/entrevista/lavin-pesimismo-cambios-radicales/",
-            "fecha": "2026-09-06T12:54:56+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones sobre las tensiones diplomáticas y el financiamiento de las Fuerzas Armadas",
-        "resumen": "Un grupo de exministros de Defensa criticó que los recursos destinados a las instituciones castrenses sean utilizados como herramienta de ajuste presupuestario. Los firmantes advierten sobre posibles amenazas geopolíticas derivadas de la actividad militar en la región y de disputas territoriales limítrofes.",
-        "articulos": [
+            "url": "https://www.theclinic.cl/2026/09/06/bullrich-apunto-a-confusion-de-nombres-tras-sus-dichos-sobre-el-control-del-estrecho-de-magallanes/",
+            "fecha": "2026-09-06T15:48:49+00:00"
+          },
           {
             "titular": "Exministros de Defensa advierten riesgos de postergar financiamiento de FFAA ante avance militar de Perú y dichos de Argentina sobre Magallanes",
             "extracto": "",
@@ -277,15 +296,6 @@
             "lean": "no aplica",
             "url": "https://www.theclinic.cl/2026/09/06/exministros-de-defensa-advierten-riesgos-de-postergar-financiamiento-de-ffaa-ante-avance-militar-de-peru-y-dichos-de-argentina-sobre-magallanes/",
             "fecha": "2026-09-06T12:43:27+00:00"
-          },
-          {
-            "titular": "Alcalde de Punta Arenas y decreto argentino por Magallanes: “Hay que derogarlo, y esperemos que sea pronto”",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/entrevista/alcalde-punta-arenas-magallanes-malvinas/",
-            "fecha": "2026-09-05T21:48:45+00:00"
           }
         ],
         "leans_presentes": [
@@ -297,17 +307,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "El trumpismo presiona a Kast",
+        "titulo_neutral": "Elecciones presidenciales en Brasil y encuestas",
         "resumen": "",
         "articulos": [
           {
-            "titular": "El trumpismo presiona a Kast",
+            "titular": "Lula vs Bolsonaro: qué dicen las últimas encuestas, a solo un mes de las elecciones presidenciales en Brasil",
             "extracto": "",
             "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/politica/el-trumpismo-presiona-a-kast/",
-            "fecha": "2026-09-06T11:58:23+00:00"
+            "url": "https://www.ex-ante.cl/internacional/lula-bolsonaro-encuestas-brasil-2/",
+            "fecha": "2026-09-06T15:48:43+00:00"
           }
         ],
         "leans_presentes": [
@@ -319,39 +329,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "[Opinión] World Travel Awards: Chile suma 19 nominaciones. Por Ignacia Munita",
+        "titulo_neutral": "Manuela Martelli: “Hasta ahora, la gente en la calle me dice Machuca”",
         "resumen": "",
         "articulos": [
           {
-            "titular": "[Opinión] World Travel Awards: Chile suma 19 nominaciones. Por Ignacia Munita",
+            "titular": "Manuela Martelli: “Hasta ahora, la gente en la calle me dice Machuca”",
             "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
+            "medio": "CIPER",
+            "grupo": "sin fines de lucro",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/negocios/world-travel-awards-chile-19-nominaciones/",
-            "fecha": "2026-09-06T11:50:52+00:00"
+            "url": "https://www.ciperchile.cl/2026/09/06/manuela-martelli-hasta-ahora-la-gente-en-la-calle-me-dice-machuca/?utm_source=rss&utm_medium=rss&utm_campaign=manuela-martelli-hasta-ahora-la-gente-en-la-calle-me-dice-machuca",
+            "fecha": "2026-09-06T15:43:07+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente"
+          "sin fines de lucro"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Dos caras del pesimismo y una esperanza",
+        "titulo_neutral": "Encuesta Criteria sobre aprobación al gobierno",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Dos caras del pesimismo y una esperanza",
+            "titular": "Criteria: desaprobación al gobierno de Kast llega a 58%, su punto más alto (Lea aquí la encuesta)",
             "extracto": "",
             "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/opinion/dos-caras-del-pesimismo-y-una-esperanza/",
-            "fecha": "2026-09-06T11:28:28+00:00"
+            "url": "https://www.ex-ante.cl/nacional/criteria-desaprobacion-gobierno-kast/",
+            "fecha": "2026-09-06T15:12:13+00:00"
           }
         ],
         "leans_presentes": [
@@ -363,17 +373,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Economista jefe de Scotiabank: “Proyectamos cerrar el 2026 con un crecimiento de 0,3%, muy por debajo del escenario base de Hacienda y del Banco Central”",
-        "resumen": "Un análisis financiero advierte que el crecimiento económico nacional se ubicará este año muy por debajo de las estimaciones oficiales debido a la debilidad de la inversión privada y a la incertidumbre regulatoria. Asimismo, se proyecta un panorama adverso para la creación de empleo formal.",
+        "titulo_neutral": "Cambio de hora y horario de verano",
+        "resumen": "Con el objetivo de facilitar la asimilación corporal al horario estival, expertos aconsejan modificar paulatinamente los hábitos nocturnos de descanso. El adelanto temporal en los relojes suele generar desajustes en el reloj biológico, por lo que resulta fundamental regular la exposición lumínica durante las jornadas posteriores.",
         "articulos": [
           {
-            "titular": "Economista jefe de Scotiabank: “Proyectamos cerrar el 2026 con un crecimiento de 0,3%, muy por debajo del escenario base de Hacienda y del Banco Central”",
+            "titular": "¿Cómo adaptarse al horario de verano? 5 claves para cuidar el sueño tras el cambio de hora",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/06/economista-jefe-de-scotiabank-proyectamos-cerrar-el-2026-con-un-crecimiento-de-03-muy-por-debajo-del-escenario-base-de-hacienda-y-del-banco-central/",
-            "fecha": "2026-09-06T11:19:00+00:00"
+            "url": "https://www.theclinic.cl/2026/09/06/como-adaptarse-al-horario-de-verano-5-claves-para-cuidar-el-sueno-tras-el-cambio-de-hora/",
+            "fecha": "2026-09-06T14:59:17+00:00"
           }
         ],
         "leans_presentes": [
@@ -387,34 +397,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Germany: Why is the AfD so popular in Saxony-Anhalt?",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/video/20260906-germany-why-is-the-afd-so-popular-in-saxony-anhalt",
-        "fecha": "2026-09-06T13:37:48+00:00"
-      },
-      {
-        "titular": "China to pump $54 billion into state banks, insurers in capital-boosting push - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPang2d09TQ3Q1cEd0QVJXaWc5aWpIcVh5MUQ5UEhud1R1OVFKV2lYSXEtb2hGMHNqR0xjUWx1cXJNZ3NFcTV3RmR5LXliVHNuWEJDdUVLVld1OU5mMURmLWFieGxGZzdYbTdhMUZkeXk2UTM2QS1QRWt2M2JJelM4VUlXZ2pxd2I5ZFZyX1k2TmJLNHVURHNwTEVQOHNuOV9rZTM1UFh6d1c0RFAwVFBLaG1yQVAzSEpRQWptMg?oc=5",
-        "fecha": "2026-09-06T13:26:19+00:00"
-      },
-      {
-        "titular": "Rangers hope to stay in playoff hunt in series finale vs. Rays - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTXl2blRDeGRVeGNDR0lyemRTcXJXMFZvaExjdXNhWjh6eW56dFROejVRM1d4a3hiTWs2MGlpTEFrNlFfX0dvc2xGWHVmbFgxSFExX0RXWWFGbVJCMl83YnBMVFVDYmN1X3ZLdVNHSzdwSlNJaGx0RDNEYkNRQ3Ywejl2bzF2ZVQwWk1BWENmNDlzcld2bElhZm5UMkJabkpXdTVNTjcyRzA4YXRIMEE?oc=5",
-        "fecha": "2026-09-06T13:22:00+00:00"
-      },
-      {
-        "titular": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
+        "titular": "German far-right set for big win in eastern state - projections",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-06T13:16:21+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-06T16:59:25+00:00"
       },
       {
-        "titular": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
-        "fecha": "2026-09-06T13:10:32+00:00"
+        "titular": "Dozens feared trapped in collapsed building in Delhi",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-06T16:54:34+00:00"
+      },
+      {
+        "titular": "🔴Germany’s far-right AfD landslide winner in key Saxony-Anhalt vote, early results suggest",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20260906-afd-could-lead-the-first-far-right-state-government-since-the-dark-days-of-nazism",
+        "fecha": "2026-09-06T16:18:29+00:00"
+      },
+      {
+        "titular": "Iran touts military response as US maintains blockade, hits tankers",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss",
+        "fecha": "2026-09-06T16:17:06+00:00"
+      },
+      {
+        "titular": "Germany’s far-right AfD landslide winner in key Saxony-Anhalt vote, early results suggest",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-takes-huge-lead-in-key-vote-early-results-suggest",
+        "fecha": "2026-09-06T16:15:52+00:00"
       }
     ]
   },
@@ -2044,6 +2054,10 @@
           },
           {
             "fecha": "2026-09-06T13:00:00",
+            "valor": 506.03
+          },
+          {
+            "fecha": "2026-09-06T17:00:00",
             "valor": 506.03
           }
         ],
@@ -7468,8 +7482,26 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett's Berkshire raises stake in media giant",
+          "extracto": "Durante el segundo trimestre de 2026, el conglomerado Berkshire Hathaway incrementó significativamente su participación accionaria en un importante grupo de medios. Este movimiento estratégico amplía la fuerte apuesta inversora que la compañía ya había comenzado a principios de ese año.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.thestreet.com/investing/stocks/nyt-warren-buffett-berkshire-raises-stake-new-york-times-stock?.tsrc=rss",
+          "fecha": "2026-09-06T15:17:00+00:00"
+        },
+        {
+          "titular": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
+          "extracto": "A lo largo del presente año, el conglomerado dirigido por Warren Buffett ha convertido a Alphabet en uno de los activos más destacados dentro de su cartera bursátil. Esta asignación refleja un cambio importante en la estrategia de inversión en el sector tecnológico.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/09/06/will-alphabet-break-warren-buffett-cardinal-rule/?.tsrc=rss",
+          "fecha": "2026-09-06T15:15:00+00:00"
+        },
+        {
           "titular": "Prediction: Greg Abel Announces Another Whole-Company Acquisition Before Year-End",
-          "extracto": "El nuevo director ejecutivo de Berkshire Hathaway ha gestionado con éxito la incorporación de dos recientes adquisiciones corporativas. Esta transición demuestra la continuidad operativa bajo su liderazgo al frente del conglomerado.",
+          "extracto": "El relativamente nuevo director ejecutivo de Berkshire Hathaway ha demostrado su capacidad de gestión al completar con éxito la integración operativa de dos recientes adquisiciones corporativas. Este liderazgo inicial pone de relieve una transición fluida en la cúpula directiva del conglomerado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7478,7 +7510,7 @@
         },
         {
           "titular": "Greg Abel Says Berkshire Will Serve the Hyperscalers Only If Its Other Customers Don't Pay for It",
-          "extracto": "El máximo responsable de la empresa estableció requisitos estrictos para participar en la expansión de la infraestructura de inteligencia artificial. El caso de Iowa ilustra el impacto local cuando una iniciativa cumple con dichos criterios.",
+          "extracto": "La dirección ejecutiva estableció estrictos requisitos previos para participar en el desarrollo de infraestructura de inteligencia artificial. El estado de Iowa sirve como ejemplo práctico de cómo operan estos proyectos una vez que logran cumplir con todas las condiciones estipuladas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7487,30 +7519,12 @@
         },
         {
           "titular": "Warren Buffett's Successor Greg Abel Spent $4.5 Billion Buying 1 Stock Last Quarter, and He Spent At Least $3.3 Billion Buying More This Quarter",
-          "extracto": "El ejecutivo Greg Abel ha comenzado a invertir los cuantiosos recursos financieros acumulados por Berkshire Hathaway. Este movimiento representa un cambio hacia una mayor actividad en la asignación de capital del conglomerado.",
+          "extracto": "El directivo Abel ha comenzado a canalizar activamente los abundantes recursos financieros acumulados por el conglomerado. Con esta iniciativa, Berkshire Hathaway busca poner a trabajar su creciente liquidez en nuevas oportunidades estratégicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/05/warren-buffetts-successor-greg-abel-spent-45-bil/?.tsrc=rss",
           "fecha": "2026-09-05T16:50:00+00:00"
-        },
-        {
-          "titular": "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
-          "extracto": "Los antecedentes de los mercados financieros sugieren adoptar una postura prudente ante la inminencia de una tendencia bajista. Esta estrategia ayuda a proteger el patrimonio frente a la volatilidad económica generalizada.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/09/05/if-a-downturn-is-coming-50-years-of-market-history/?.tsrc=rss",
-          "fecha": "2026-09-05T15:35:00+00:00"
-        },
-        {
-          "titular": "Billionaire Warren Buffett Says He’s ‘Impressed’ His 3 Kids Want to Give Money Away Rather Than Spend It on Themselves Or ‘Build Huge Office Buildings’",
-          "extracto": "Una de las estirpes más adineradas del mundo enfrenta el dilema sobre el destino de su legado financiero al ser transferido fuera del núcleo familiar. El debate destaca las complejidades éticas y prácticas de administrar fortunas multigeneracionales.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/small-business/articles/billionaire-warren-buffett-says-impressed-144729923.html?.tsrc=rss",
-          "fecha": "2026-09-05T14:47:29+00:00"
         }
       ],
       "fundamentales": {
@@ -9431,6 +9445,10 @@
           },
           {
             "fecha": "2026-09-06T13:00:00",
+            "valor": 255.69
+          },
+          {
+            "fecha": "2026-09-06T17:00:00",
             "valor": 255.69
           }
         ],
@@ -14855,8 +14873,17 @@
       },
       "noticias": [
         {
+          "titular": "McDonald's Once Owned 90% Of A Popular Restaurant Chain. Selling It Left Billions On The Table",
+          "extracto": "A pesar de su histórica dominación en el sector de la comida rápida, la cadena McDonald's ha cometido errores financieros significativos a lo largo de su historia.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.moneydigest.com/2247570/mcdonalds-owned-popular-restaurant-chain-missed-billions-chipotle/?.tsrc=rss",
+          "fecha": "2026-09-06T10:30:00+00:00"
+        },
+        {
           "titular": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
-          "extracto": "Una reciente caída en el precio de las acciones las convierte en una opción atractiva para inversores que buscan generar ingresos mediante dividendos.",
+          "extracto": "La reciente caída en el valor de las acciones de la compañía presenta una oportunidad financiera atractiva para los inversores interesados en generar ingresos pasivos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14865,7 +14892,7 @@
         },
         {
           "titular": "The S&P 500's Yield Is at Historic Lows. Here Are 3 Dividend Stocks I'd Buy in September.",
-          "extracto": "Las empresas de consumo masivo más grandes del mercado ofrecen oportunidades interesantes para quienes invierten enfocados en el cobro de dividendos.",
+          "extracto": "Las principales empresas del sector de consumo masivo ofrecen opciones muy lucrativas para aquellos inversores que buscan obtener dividendos rentables.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14874,7 +14901,7 @@
         },
         {
           "titular": "Warren Buffett Says Greatness Isn’t About ‘Great Amounts of Money’ — Despite a $140B Net Worth, He Drives a 2014 Cadillac and Eats McDonald’s",
-          "extracto": "Algunas de las personas más ricas del mundo optan por un estilo de vida sorprendentemente austero y alejado de los lujos excéntricos.",
+          "extracto": "A diferencia de otros multimillonarios con lujos extravagantes, algunas personas de gran fortuna prefieren mantener un estilo de vida austero y tradicional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14883,21 +14910,12 @@
         },
         {
           "titular": "McDonald's Trades at 19.15X P/E: Is This a Discounted Opportunity?",
-          "extracto": "Las acciones de McDonald's cotizan por debajo del promedio del sector debido a un rendimiento débil en Estados Unidos, aunque su expansión internacional y nuevas estrategias generan perspectivas positivas.",
+          "extracto": "Las acciones de la cadena de restaurantes cotizan por debajo del promedio de su sector debido a una menor demanda en Estados Unidos, aunque las perspectivas internacionales generan optimismo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-trades-19-15x-p-140700667.html?.tsrc=rss",
           "fecha": "2026-09-04T14:07:00+00:00"
-        },
-        {
-          "titular": "McDonald's launches exclusive state-themed meal",
-          "extracto": "La cadena de comida rápida ha reintroducido un producto popular en su menú e introducido una nueva opción para los consumidores a nivel nacional.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.thestreet.com/restaurants/mcdonalds-launches-texas-meal?.tsrc=rss",
-          "fecha": "2026-09-04T00:03:00+00:00"
         }
       ],
       "fundamentales": {
@@ -17063,6 +17081,10 @@
           },
           {
             "fecha": "2026-09-06T13:00:00",
+            "valor": 499.7
+          },
+          {
+            "fecha": "2026-09-06T17:00:00",
             "valor": 499.7
           }
         ],
@@ -22488,7 +22510,7 @@
       "noticias": [
         {
           "titular": "Should You Buy Snowflake Stock After Its Recent Surge? The Answer Might Shock You.",
-          "extracto": "La empresa Snowflake presentó resultados financieros trimestrales muy sólidos, aunque persisten ciertas dudas respecto al rendimiento actual de sus acciones en el mercado.",
+          "extracto": "La empresa de computación en la nube Snowflake presentó resultados financieros trimestrales muy sólidos, aunque persisten ciertas preocupaciones en torno a la valoración de sus títulos en el mercado bursátil. Este acontecimiento es relevante porque refleja la tensión actual entre el buen desempeño operativo de las tecnológicas y las expectativas de los inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22497,7 +22519,7 @@
         },
         {
           "titular": "3 Great Quality Stocks To Own In September 2026",
-          "extracto": "Ante la incertidumbre inflacionaria y los altos costos de endeudamiento, los inversores buscan empresas con finanzas sólidas que mitiguen la volatilidad. Por ello, se analizan opciones seleccionadas mediante filtros de calidad y rendimiento operativo resiliente.",
+          "extracto": "Ante la incertidumbre inflacionaria y las altas tasas de interés, los inversores buscan empresas con finanzas sólidas y bajo endeudamiento para proteger sus carteras. Varios analistas recomiendan enfocar las inversiones en compañías con alta rentabilidad y balances robustos capaces de soportar choques macroeconómicos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22506,7 +22528,7 @@
         },
         {
           "titular": "Seattle Times, Newsday sue OpenAI and Microsoft over AI training",
-          "extracto": "Los diarios The Seattle Times y Newsday demandaron a Microsoft y OpenAI el viernes, alegando que utilizaron contenido periodístico sin autorización para entrenar modelos de inteligencia artificial.",
+          "extracto": "Los diarios The Seattle Times y Newsday presentaron una demanda judicial contra Microsoft y OpenAI por el uso presuntamente no autorizado de sus contenidos periodísticos para entrenar modelos de inteligencia artificial. Esta acción legal intensifica el escrutinio sobre las prácticas de recopilación de datos de las grandes empresas tecnológicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22515,7 +22537,7 @@
         },
         {
           "titular": "Satya Nadella Sold $43 Million of Microsoft Under a Trading Plan. Is the Insider Signal Really Bearish?",
-          "extracto": "El director ejecutivo de Microsoft, Satya Nadella, vendió a principios de septiembre más de 86.000 acciones por un valor aproximado de 43,39 millones de dólares. Dicha operación se ejecutó conforme a un plan preestablecido de compraventa de títulos.",
+          "extracto": "El director ejecutivo de Microsoft, Satya Nadella, vendió acciones de la compañía por un valor superior a los 43 millones de dólares a principios de septiembre. La transacción se ejecutó bajo un plan preestablecido de desinversión, un mecanismo legal diseñado para evitar acusaciones de uso de información privilegiada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22524,7 +22546,7 @@
         },
         {
           "titular": "ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?",
-          "extracto": "ChronoScale anunció a finales de agosto una alianza con Microsoft para implementar infraestructura de inteligencia artificial de 50 megavatios en Norteamérica. Este despliegue tecnológico utilizará sistemas y refrigeración líquida de NVIDIA.",
+          "extracto": "ChronoScale y Microsoft anunciaron una alianza para implementar infraestructura de inteligencia artificial en Norteamérica con tecnología avanzada de refrigeración líquida y componentes de Nvidia. El proyecto busca expandir la capacidad de procesamiento del sector, aunque no se revelaron los detalles financieros específicos del acuerdo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -24794,6 +24816,10 @@
           },
           {
             "fecha": "2026-09-06T13:00:00",
+            "valor": 708.01
+          },
+          {
+            "fecha": "2026-09-06T17:00:00",
             "valor": 708.01
           }
         ],
@@ -30228,7 +30254,7 @@
         },
         {
           "titular": "VOO’s $1 Trillion Problem: Why SpaceX Stays Out Until 2027",
-          "extracto": "SpaceX cotiza ahora en bolsa pero permanece fuera del fondo cotizado VOO debido a normativas específicas, lo que genera dudas entre los inversores sobre cómo proceder. Este hecho es relevante porque afecta la composición de las carteras de millones de inversionistas que buscan replicar el mercado.",
+          "extracto": "La reciente cotización pública de SpaceX genera dudas sobre su exclusión de los principales fondos cotizados. Esta situación plantea interrogantes a los inversores sobre cómo gestionar sus carteras mientras se actualizan las normativas de inclusión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30237,7 +30263,7 @@
         },
         {
           "titular": "Nvidia Is 7.6% of the Vanguard S&P 500 ETF (VOO) but Over 12% of These 5 Magnificent Low-Cost Vanguard ETFs. Here's My Top Pick to Buy Now.",
-          "extracto": "Aunque el S&P 500 incluye a Nvidia, existen otras opciones de inversión diseñadas específicamente para quienes buscan un mayor potencial de crecimiento. Esto importa a los inversores porque les permite diversificar hacia fondos que se alinean mejor con estrategias agresivas de rentabilidad.",
+          "extracto": "Aunque el índice S&P 500 incluye a Nvidia, existen fondos alternativos más adecuados para inversores enfocados específicamente en el crecimiento a largo plazo. Estos vehículos de inversión permiten optimizar la exposición a sectores de alta expansión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30246,7 +30272,7 @@
         },
         {
           "titular": "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
-          "extracto": "Invertir en el índice S&P 500 se considera un método eficaz para beneficiarse de la expansión general de la economía estadounidense. Esta estrategia es fundamental para quienes buscan construir riqueza a largo plazo participando en el mercado bursátil principal del país.",
+          "extracto": "Invertir en el S&P 500 se considera un método eficaz para participar directamente en el desarrollo económico general de Estados Unidos. Esto proporciona una diversificación amplia en las principales industrias del país.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30255,7 +30281,7 @@
         },
         {
           "titular": "How Much Can You Earn With the Vanguard S&P 500 ETF (VOO) If You Invest $100 per Month Starting Today? Here's What History Suggests.",
-          "extracto": "",
+          "extracto": "La inversión diversificada en el mercado estadounidense permite obtener rendimientos sólidos al capturar el crecimiento económico global del país. Esta estrategia beneficia a quienes buscan estabilidad y participación en múltiples sectores comerciales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
