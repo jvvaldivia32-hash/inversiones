@@ -1,20 +1,22 @@
 {
-  "generado": "2026-09-08T04:47:01.885740+00:00",
-  "errores": [],
+  "generado": "2026-09-08T09:47:42.260170+00:00",
+  "errores": [
+    "The Clinic: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Aranceles de Canadá a productos estadounidenses",
-        "resumen": "Las tensiones comerciales se intensifican después de que Canadá responda a los aranceles de Estados Unidos aplicando medidas de represalia valoradas dólar por dólar. Esta disputa arancelaria afecta de forma directa a centenares de productos y a múltiples sectores industriales en ambos países. La escalada amenaza con prolongar un conflicto económico transfronterizo de consecuencias imprevisibles.",
+        "titulo_neutral": "UK to announce trade ban on goods from illegal Israeli settlements",
+        "resumen": "El gobierno del Reino Unido ha anunciado su intención de prohibir el comercio de mercancías procedentes de los asentamientos israelíes ubicados en Cisjordania. Esta medida busca desincentivar la actividad económica en zonas consideradas ilegales según el derecho internacional dentro de los territorios ocupados. La decisión podría generar tensiones diplomáticas con las autoridades de Israel.",
         "articulos": [
           {
-            "titular": "Canada’s retaliatory tariffs on $20bn of US goods take effect",
+            "titular": "UK to announce trade ban on goods from illegal Israeli settlements",
             "extracto": "",
             "medio": "Al Jazeera",
             "grupo": "Al Jazeera",
             "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/news/2026/9/8/canadas-retaliatory-tariffs-on-20bn-of-us-goods-take-effect?traffic_source=rss",
-            "fecha": "2026-09-08T04:01:12+00:00"
+            "url": "https://www.aljazeera.com/news/2026/9/8/uk-to-announce-trade-ban-on-goods-from-illegal-israeli-settlements?traffic_source=rss",
+            "fecha": "2026-09-08T09:31:28+00:00"
           }
         ],
         "leans_presentes": [
@@ -26,31 +28,54 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Variación del precio del oro y el dólar ante datos de inflación",
-        "resumen": "",
+        "titulo_neutral": "Aranceles de represalia de Canadá y tensiones comerciales con Estados Unidos",
+        "resumen": "Canadá ha implementado aranceles de represalia sobre productos estadounidenses por valor de miles de millones de dólares, intensificando una disputa comercial bilateral. Como respuesta, el presidente Donald Trump ha amenazado con bloquear la venta de aeronaves canadienses de Bombardier en Estados Unidos. Esta escalada amenaza con destabilizar la relación comercial más grande del mundo.",
         "articulos": [
           {
-            "titular": "Gold gains as dollar eases with US inflation data on radar - Reuters",
+            "titular": "Trump threatens ban on Bombardier as Canada's retaliatory tariffs kick in",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/tv-shows/business/20260908-trump-threatens-ban-on-bombardier-as-canada-s-retaliatory-tariffs-kick-in",
+            "fecha": "2026-09-08T09:16:17+00:00"
+          },
+          {
+            "titular": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-09-08T04:39:14+00:00"
+          },
+          {
+            "titular": "Canada's counter-tariffs take effect on several US goods as trade war reignites",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/americas/20260908-canada-s-counter-tariffs-take-effect-on-several-us-goods-as-trade-war-reignites",
+            "fecha": "2026-09-08T04:03:13+00:00"
+          },
+          {
+            "titular": "Canada's retaliatory tariffs take effect as US trade talks stall - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
-            "fecha": "2026-09-08T02:28:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Amenazas de Trump sobre los aviones Bombardier de Canadá",
-        "resumen": "El presidente de Estados Unidos, Donald Trump, advirtió que prohibirá las ventas del fabricante aeronáutico canadiense Bombardier a menos que traslade su producción al territorio estadounidense. Esta medida busca presionar a Ottawa en medio de un empeoramiento de las relaciones comerciales bilaterales. Aunque el mandatario criticó las políticas comerciales vecinas como desleales, no especificó los mecanismos legales para aplicar tal veto.",
-        "articulos": [
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV2tRQzNWVFljd0NSczFNTXlWRXI0WWtzV1BFNFBURXlDcHRjSHNOcXNzVVMzNFBYbmZpY0l6UU05OU9HSWxVeGRkSlNLS1kxa3J6OXZPcXFCc1RFN1dDdERRakxPaGloYWZqNDFkWEdhOWVZOEdvaF9TWFlEa2dSeHF2LWgzZGttdC1jMDQ4aXpUNDZkT0V0MHlHdnNnTzQxM2l5eUIzWnY5Qjd4bUxDeUNzSUZNVGk0NEx3R1c1SzNOaWZx?oc=5",
+            "fecha": "2026-09-08T04:03:00+00:00"
+          },
+          {
+            "titular": "Canada’s retaliatory tariffs on $20bn of US goods take effect",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/news/2026/9/8/canadas-retaliatory-tariffs-on-20bn-of-us-goods-take-effect?traffic_source=rss",
+            "fecha": "2026-09-08T04:01:12+00:00"
+          },
           {
             "titular": "Trump threatens to ban Canadian Bombardier jets from US market",
             "extracto": "",
@@ -71,26 +96,29 @@
           }
         ],
         "leans_presentes": [
-          "centro"
+          "centro",
+          "sin-clasificar"
         ],
         "grupos_presentes": [
           "France24",
-          "Reuters"
+          "BBC",
+          "Reuters",
+          "Al Jazeera"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Restricciones comerciales del gobierno de Reino Unido con los asentamientos de Cisjordania",
-        "resumen": "",
+        "titulo_neutral": "Kenya moves to register frightened Burundians as tension over foreign traders rises",
+        "resumen": "Las autoridades de Kenia han hecho un llamamiento urgente para que todos los ciudadanos extranjeros que carezcan de la documentación legal adecuada se registren a través de sus respectivas embajadas. Esta directiva forma parte de los esfuerzos del país africano para controlar la situación migratoria y regularizar la presencia de extranjeros. No cumplir con este proceso podría acarrear consecuencias legales para los afectados.",
         "articulos": [
           {
-            "titular": "UK government expected to announce restrictions on trade with West Bank settlements",
+            "titular": "Kenya moves to register frightened Burundians as tension over foreign traders rises",
             "extracto": "",
             "medio": "BBC",
             "grupo": "BBC",
             "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/c4grdjnle22o?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-09-08T01:50:55+00:00"
+            "url": "https://www.bbc.co.uk/news/articles/c158wwl22xko?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-09-08T08:28:01+00:00"
           }
         ],
         "leans_presentes": [
@@ -102,39 +130,44 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Comportamiento de las bolsas asiáticas y advertencia de Irán",
-        "resumen": "",
+        "titulo_neutral": "Aumento del yen frente al dólar y su impacto en los mercados financieros",
+        "resumen": "Los mercados financieros globales han experimentado caídas y movimientos inusuales debido a una fuerte apreciación del yen japonés frente al dólar. Esta repentina subida de la divisa japonesa ha perjudicado a los inversores que operaban con estrategias de carry trade. Además, la situación se ve agravada por ataques en la región del Golfo que han impulsado el precio del petróleo hacia los cien dólares por barril.",
         "articulos": [
           {
-            "titular": "Asia stocks waver as yen surges, Iran warns of retaliation - Reuters",
+            "titular": "The yen's sudden surge is upsetting the carry trade faithful - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc1plbXFDY3pySVZaY2JrN2JYWUdTWFZGcGFucGMteXpiT1lKTkUtNlcySkpXYlNVZE1jLXNiQlgzOTAtNGlwdy1UUFNoN203NGRYbURYaEdpZjVpdmxNUkhXdm9IalR1YmU0VVBZR1ZyaWU4MkhoQUJ2eDJLei10UlVUR29LQzVHdXJSNTlDOW1MYUhubTVjTlF1S2VpdkgwcmxiNkJLMGhIQQ?oc=5",
+            "fecha": "2026-09-08T05:17:00+00:00"
+          },
+          {
+            "titular": "Stocks fall as yen surges; Gulf attacks drive oil near $100 a barrel - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
             "fecha": "2026-09-08T01:48:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Evolución del yen y el dólar antes de datos del IPC",
-        "resumen": "",
-        "articulos": [
+          },
           {
-            "titular": "Yen extends rally to new seven-month high; dollar subdued ahead of CPI - Reuters",
+            "titular": "Yen's rally to seven-month high weighs on dollar ahead of US CPI - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
             "fecha": "2026-09-08T00:56:00+00:00"
+          },
+          {
+            "titular": "Yen surges to seven-month high; dollar drifts ahead of US inflation - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0p6Q2VESkl4T251Z2lzT0UyVXRwRW1MWHRxeHlTV3hISkZPM3R0c1J1ZVljMnRlOEdHNHFpcHdUUFllby1JbzhFWm9KdXc2ZXZuYW9URVQzSExpMGtzeExtRXVmd3IwZ2F6ZUFXZmVzZUtObkNSQy1ZQ1d5SzhqM2lhYm9nbm1vankxRk9ubXB1RHBLWTNOeVFYTlFNYnlGeVhNdEFqQXI2UQ?oc=5",
+            "fecha": "2026-09-07T14:48:54+00:00"
           }
         ],
         "leans_presentes": [
@@ -146,8 +179,74 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Comentarios sobre el mercado asiático",
-        "resumen": "",
+        "titulo_neutral": "French AI company Mistral hits $24 billion valuation in funding round - Reuters",
+        "resumen": "La startup francesa de inteligencia artificial Mistral ha alcanzado una valoración de mercado de veinticuatro mil millones de dólares en su más reciente ronda de financiación. Este hito refleja el enorme interés y la confianza de los inversores en el potencial de crecimiento de las empresas europeas de tecnología avanzada. La compañía se posiciona así como uno de los actores clave en el sector global de la IA.",
+        "articulos": [
+          {
+            "titular": "French AI company Mistral hits $24 billion valuation in funding round - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZndFBZYk1SQ19xOVJYSXR1ZHdKa2p2a0RSYTVfeWVicHRLZ2JOdG5zc3hibHhJYWh1V3pIVEhDaV9Wc2xQV2RlYkNkTEZJSDV2V1V6aGloYXVPcFNtMHlCU1ZsTnR5UEZTNTI5WTExa1A4Vy0xZjN4ZFE3TVUzN2tUWFNnc3V2aXNBRldFWXlGYnFwcGtGVkFtRE9HTDktVUhJR09HVUwtdHZmNHdjWGZCTkw?oc=5",
+            "fecha": "2026-09-08T05:02:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Gold subdued as oil rises, investors await key US inflation - Reuters",
+        "resumen": "Los precios del oro se han mantenido estables mientras los inversores siguen de cerca el incremento en los costos del petróleo y anticipan la publicación de datos clave sobre la inflación en Estados Unidos. Los mercados están atentos a cómo estos factores macroeconómicos podrían influir en las futuras decisiones de los bancos centrales. La cautela predomina entre los operadores financieros ante un escenario de posibles presiones inflacionarias.",
+        "articulos": [
+          {
+            "titular": "Gold subdued as oil rises, investors await key US inflation - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
+            "fecha": "2026-09-08T02:28:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Japan upgrades Q2 GDP on slight capex improvement - Reuters",
+        "resumen": "Japón ha revisado al alza su producto interior bruto correspondiente al segundo trimestre, impulsado por una ligera mejora en la inversión de capital corporativo. Este ajuste positivo ofrece un respiro a la economía nipona en medio de un panorama global incierto. Los datos sugieren una resiliencia interna mayor de la esperada inicialmente por los analistas económicos.",
+        "articulos": [
+          {
+            "titular": "Japan upgrades Q2 GDP on slight capex improvement - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMDBCbnBuREtSbXVFYTdjdnBKWEJmQVdGS2tTTlZMVnVRSW8zS1dtREV1b2VoelJYZWl0Yk5wUGlNWW9ySWhWUHV2WUM3U2FsMk1Genk2bEdjblc2V3Rmdm1tRGJLcUlpZWQtN0x3dlZya0tWOUx0dGc0N24wVmFGSjQzYnlYZk5QTUJTazFZWmVONlhaWVFGRDg1R2M5YmJTaDREdg?oc=5",
+            "fecha": "2026-09-07T23:59:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "COMMENTARY: Asia's next leverage-driven market crash could be brewing - Reuters",
+        "resumen": "Analistas financieros advierten sobre el riesgo creciente de una crisis en los mercados asiáticos impulsada por un exceso de apalancamiento financiero. Las vulnerabilidades estructurales en ciertas plazas bursátiles de la región podrían desencadenar caídas abruptas si cambian las condiciones de liquidez. Esta advertencia subraya la necesidad de una mayor supervisión regulatoria para prevenir efectos sistémicos.",
         "articulos": [
           {
             "titular": "COMMENTARY: Asia's next leverage-driven market crash could be brewing - Reuters",
@@ -166,65 +265,21 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Expansión y planes de oferta pública de venta de la refinería Dangote en Nigeria",
-        "resumen": "La refinería Dangote en Nigeria ha firmado la documentación necesaria para realizar una oferta pública inicial mientras proyecta una millonaria ampliación de sus instalaciones. Este crecimiento busca consolidar la infraestructura energética del país africano y atraer a inversores internacionales de peso. El ambicioso proyecto subraya la creciente ambición de la compañía por dominar el mercado de combustibles regional y global.",
-        "articulos": [
-          {
-            "titular": "Nigeria's Dangote refinery plans $14 billion expansion as it signs IPO documents - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQREJDbDg4SElmSEppS19sS2FtQ0NsNUtzSktacnNfbnl0Y0dLRlBhSlpwQ1NJSV9JX1FFWkp0WXhFcEVTUnViV3RZR1A5OHAzZTRKbkhEMDQ4ak5xREVqMlNJMm02SmMtMGdTaXJqdjJLMmtOQjRuMkdKSVZWLVl3ckxnYjZCQUhLNGRuMndUcE9ZLVA3R3QxTjNvQ21FQnNHdE4wZXU3VWp6a0ljTERtbDZrbjV1b09VZEE?oc=5",
-            "fecha": "2026-09-07T17:21:03+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "“Vuelvo donde nunca estuve”: el documental que reconstruye la memoria selk’nam y cuestiona el relato de su extinción",
-        "resumen": "Un nuevo trabajo cinematográfico retrata la vivencia de descendientes de una comunidad austral, visibilizando los episodios de violencia extrema y ruptura familiar que sufrieron en el pasado. El largometraje busca cuestionar la idea de que dicha colectividad humana desapareció por completo.",
+        "titulo_neutral": "Resultados PISA: Chile empeora en lectura y matemáticas y exhibe nueva brecha computacional frente a la OCDE",
+        "resumen": "Un reporte publicado en 2025 advierte sobre un retroceso generalizado en diversos indicadores de desarrollo y bienestar. El estudio aclara que las consecuencias no se deben únicamente a la crisis sanitaria global, sino también a factores como la dispersión de la atención, la baja participación escolar y el uso intensivo de tecnologías.",
         "articulos": [
           {
-            "titular": "“Vuelvo donde nunca estuve”: el documental que reconstruye la memoria selk’nam y cuestiona el relato de su extinción",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/07/vuelvo-donde-nunca-estuve-el-documental-que-reconstruye-la-memoria-selknam-y-cuestiona-el-relato-de-su-extincion/",
-            "fecha": "2026-09-08T01:37:48+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Grupo alemán entra a firma salmonera Fiordo Austral con casi el 40% de la propiedad",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Grupo alemán entra a firma salmonera Fiordo Austral con casi el 40% de la propiedad",
+            "titular": "Resultados PISA: Chile empeora en lectura y matemáticas y exhibe nueva brecha computacional frente a la OCDE",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/industria/grupo-aleman-entra-a-firma-salmonera-fiordo-austral-con-casi-el-40-de-la",
-            "fecha": "2026-09-08T00:57:25+00:00"
+            "url": "http://www.df.cl/internacional/economia/resultados-pisa-chile-empeora-en-lectura-y-matematicas-y-exhibe-nueva",
+            "fecha": "2026-09-08T09:43:03+00:00"
           }
         ],
         "leans_presentes": [
@@ -236,30 +291,96 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Krassnoff responde por indultos desde la cárcel: “No necesito perdones, misericordias, favores ni mucho menos leyes especiales”",
-        "resumen": "Un antiguo agente estatal condenado a presidio perpetuo por crímenes de lesa humanidad rechazó la posibilidad de recibir beneficios carcelarios o indultos gubernamentales. A través de una misiva pública, el recluso defendió sus acciones pasadas argumentando motivaciones políticas.",
+        "titulo_neutral": "Kast y Quiroz rayan la cancha: trazan los ejes del Presupuesto 2027 y piden a los ministerios acotar expectativas",
+        "resumen": "El jefe de Estado defendió el incremento presupuestario autolimitado al mínimo en comparación con el ejercicio fiscal previo. Según explicó, esta medida busca garantizar la atención de los requerimientos fundamentales de la población sin desequilibrar las finanzas públicas.",
         "articulos": [
           {
-            "titular": "Krassnoff responde por indultos desde la cárcel: “No necesito perdones, misericordias, favores ni mucho menos leyes especiales”",
+            "titular": "Kast y Quiroz rayan la cancha: trazan los ejes del Presupuesto 2027 y piden a los ministerios acotar expectativas",
             "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/07/krassnoff-responde-por-indultos-desde-la-carcel-no-necesito-perdones-misericordias-favores-ni-mucho-menos-leyes-especiales/",
-            "fecha": "2026-09-08T00:27:56+00:00"
+            "url": "http://www.df.cl/economia-y-politica/macro/kast-y-quiroz-rayan-la-cancha-trazan-los-ejes-del-presupuesto-2027-y-piden",
+            "fecha": "2026-09-08T09:38:31+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente"
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Gobierno posterga para mañana miércoles el estreno de la reforma de capitales MK4: dejaría fuera cambios a la TMC y licitación de seguros de desgravamen",
+        "resumen": "Debido al enfoque ciudadano que la administración central pretende imprimirle a la propuesta, se designó al mandatario para liderar personalmente el lanzamiento oficial. Esta decisión subraya la relevancia política que el Ejecutivo le otorga a la medida.",
+        "articulos": [
+          {
+            "titular": "Gobierno posterga para mañana miércoles el estreno de la reforma de capitales MK4: dejaría fuera cambios a la TMC y licitación de seguros de desgravamen",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/banca-fintech/gobierno-posterga-para-el-miercoles-estreno-de-mk4-dejaria-fuera-cambios-a",
+            "fecha": "2026-09-08T09:31:25+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Clínica Las Condes reduce pérdidas y asegura que transita \"desde una etapa de estabilización hacia una de crecimiento rentable\"",
+        "resumen": "Los resultados financieros correspondientes al primer semestre mostraron un crecimiento del 26% en las entradas consolidadas de la entidad. Las cifras reflejan una evolución positiva, pasando desde los 77.956 millones hasta los 98.470 millones.",
+        "articulos": [
+          {
+            "titular": "Clínica Las Condes reduce pérdidas y asegura que transita \"desde una etapa de estabilización hacia una de crecimiento rentable\"",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/salud/clinica-las-condes-reduce-perdidas-y-asegura-que-transitan-desde-una-etapa",
+            "fecha": "2026-09-08T09:21:56+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Grupo alemán entra a firma salmonera Fiordo Austral con casi el 40% de la propiedad",
+        "resumen": "La compañía Saria, mediante su división Bioceval, concretó la adquisición de participación en una empresa procesadora de subproductos de salmón vinculada a empresarios locales. Como parte de la transacción, los socios fundadores y ejecutivos venderán la totalidad de sus títulos accionarios.",
+        "articulos": [
+          {
+            "titular": "Grupo alemán entra a firma salmonera Fiordo Austral con casi el 40% de la propiedad",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/industria/grupo-aleman-entra-a-firma-salmonera-fiordo-austral-con-casi-el-40-de-la",
+            "fecha": "2026-09-08T09:19:58+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
         ],
         "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Squella sale al rescate de Arrau y la reforma constitucional de seguridad",
-        "resumen": "",
+        "resumen": "El líder del Partido Republicano se ha consolidado como un respaldo estratégico fundamental para un secretario de Estado. Este apoyo ocurre tras una serie de dificultades políticas y operativas que enfrentó la cartera ministerial recientemente.",
         "articulos": [
           {
             "titular": "Squella sale al rescate de Arrau y la reforma constitucional de seguridad",
@@ -281,7 +402,7 @@
       },
       {
         "titulo_neutral": "Argentina denunciará penalmente a Navitas y a sus directivos por operar en Islas Malvinas",
-        "resumen": "",
+        "resumen": "En medio de tensiones diplomáticas, el gobierno argentino advirtió sobre un endurecimiento en las sanciones contra las empresas hidrocarburíferas que operen en las islas Malvinas. El archipiélago mantiene una disputa de soberanía histórica entre la nación sudamericana y el Reino Unido.",
         "articulos": [
           {
             "titular": "Argentina denunciará penalmente a Navitas y a sus directivos por operar en Islas Malvinas",
@@ -302,71 +423,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Oposición reúne firmas para interpelar al canciller Pérez Mackenna",
-        "resumen": "La bancada de parlamentarios contrarios al gobierno logró reunir la cantidad mínima de respaldos requeridos para impulsar una fiscalización parlamentaria contra el secretario de Estado. Dicho procedimiento tendrá que ser debatido y votado próximamente en el hemiciclo legislativo.",
+        "titulo_neutral": "Jorge Ortiz, socio de Audit & Assurance de Deloitte y los impuestos diferidos: \"El resultado financiero por estos cambios va a variar\"",
+        "resumen": "Un especialista analiza los cambios tributarios introducidos por la reciente legislación miscelánea en el episodio final del espacio especializado. El programa detalla el impacto práctico que estas modificaciones normativas tendrán sobre los contribuyentes.",
         "articulos": [
           {
-            "titular": "“Este es un acto que va en defensa de los intereses superiores de nuestro país”: oposición reúne firmas para interpelar al canciller Pérez Mackenna",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/07/bancadas-de-oposicion-oficializan-interpelacion-a-canciller-perez-mackenna/",
-            "fecha": "2026-09-08T00:05:10+00:00"
-          },
-          {
-            "titular": "Oposición interpelará a canciller Pérez Mackenna; Irarrázaval cuestiona accionar de Steinert, y exministra Duco vuelve al gobierno",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/09/07/radar-07-09-2026/?utm_source=rss&utm_medium=rss&utm_campaign=radar-07-09-2026",
-            "fecha": "2026-09-07T23:40:13+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente",
-          "sin fines de lucro"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Caja Los Andes abre cursos gratuitos para mayores de 50 años: revisa los requisitos y plazo para postular",
-        "resumen": "Una caja de compensación y una institución de educación superior unieron fuerzas para ofrecer programas formativos sin costo dirigidos a personas mayores de cincuenta años. Los módulos otorgan acreditación académica y abarcan áreas como el emprendimiento, el desarrollo de capacidades de mando y la reconversión laboral.",
-        "articulos": [
-          {
-            "titular": "Caja Los Andes abre cursos gratuitos para mayores de 50 años: revisa los requisitos y plazo para postular",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/07/caja-los-andes-abre-cursos-gratuitos-para-mayores-de-50-anos-revisa-los-requisitos-y-plazo-para-postular/",
-            "fecha": "2026-09-08T00:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Economistas del GPM se alinean con mantención de la tasa y advierten escenario incierto para la inflación por los combustibles",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Economistas del GPM se alinean con mantención de la tasa y advierten escenario incierto para la inflación por los combustibles",
+            "titular": "Jorge Ortiz, socio de Audit & Assurance de Deloitte y los impuestos diferidos: \"El resultado financiero por estos cambios va a variar\"",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/gpm-recomienda-al-banco-central-a-mantener-la-tasa-en-4-5-y-apunta-a",
-            "fecha": "2026-09-07T23:49:56+00:00"
+            "url": "http://www.df.cl/economia-y-politica/df-tax/la-ruta-tributaria-jorge-ortiz-socio-de-audit-assurance-de-deloitte",
+            "fecha": "2026-09-08T00:09:34+00:00"
           }
         ],
         "leans_presentes": [
@@ -380,34 +447,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Polls suggest tight presidential race as Brazil marks Independence Day",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/polls-suggest-tight-presidential-race-as-brazil-marks-independence-day?traffic_source=rss",
-        "fecha": "2026-09-08T04:29:33+00:00"
+        "titular": "London pub celebrates Bayeux Tapestry loan with ‘Beer Tapestry’",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20260908-london-pub-celebrates-bayeux-tapestry-loan-with-beer-tapestry",
+        "fecha": "2026-09-08T09:42:46+00:00"
       },
       {
-        "titular": "Houthi attacks on Saudi Arabia have wounded 73 civilians, official says",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/9/8/houthi-attacks-on-saudi-arabia-have-wounded-73-civilians-official-says?traffic_source=rss",
-        "fecha": "2026-09-08T04:26:16+00:00"
+        "titular": "UAE leader warned Netanyahu of Hamas attack days before October 7, says report",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/middle-east/20260908-uae-leader-warned-netanyahu-of-hamas-attack-days-before-october-7-says-report",
+        "fecha": "2026-09-08T09:40:29+00:00"
       },
       {
-        "titular": "‘House moved like jelly’ says resident near Bolivia barracks blast",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/aje-onl-nf_nine-killed-in-bolivia-military-base-explosion-080926?traffic_source=rss",
-        "fecha": "2026-09-08T04:24:37+00:00"
+        "titular": "French legionnaire escapes Colombian captors, makes four-day trek to freedom",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20260908-french-legionnaire-escapes-colombian-captors-makes-four-day-trek-to-freedom",
+        "fecha": "2026-09-08T09:34:26+00:00"
       },
       {
-        "titular": "Real Madrid vs Inter: Champions League – preview, team news, prediction",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/9/8/real-madrid-vs-inter-champions-league-preview-team-news?traffic_source=rss",
-        "fecha": "2026-09-08T04:16:55+00:00"
+        "titular": "Five killed in Miami plane crash were in two vehicles on ground, investigators say",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-08T09:31:26+00:00"
       },
       {
-        "titular": "Russian ballistic missiles hit Kyiv as US envoys leave - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm4tanFsdGRTc1RZb1pRRzE1QkdQR19JUGtmcWdEUWFLUVBXZGljd0xWWXFCSWt5TW1QT0tqRm1Fa2dzS2tibEt2NFdIUldHMHJDSTZ2Mk9McERpVTAxM1hab1dqS0RKekFmaXB5ank1R3VqX3lhTGVlZHMzU0dmZkhpUWhITFBzREQyVWNKTnk0ODlyV0dGc2xHdEt3Y1c5YXc?oc=5",
-        "fecha": "2026-09-08T04:10:09+00:00"
+        "titular": "What is Germany's political 'firewall' and can it keep out the AfD?",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20260908-what-is-germany-s-political-firewall-and-can-it-keep-out-the-afd",
+        "fecha": "2026-09-08T09:26:05+00:00"
       }
     ]
   },
@@ -2097,6 +2164,10 @@
           },
           {
             "fecha": "2026-09-08T04:00:00",
+            "valor": 506.03
+          },
+          {
+            "fecha": "2026-09-08T09:00:00",
             "valor": 506.03
           }
         ],
@@ -7537,8 +7608,26 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett's Hand-Picked Successor, Greg Abel, has 68% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for September.",
+          "extracto": "Analistas examinan un valor bursátil que ha formado parte de la cartera de inversiones de Warren Buffett durante muchos años. Esta relación histórica suele atraer el interés de los inversores que siguen las estrategias del magnate.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/09/08/warren-buffett-successor-best-stock-september/?.tsrc=rss",
+          "fecha": "2026-09-08T08:30:00+00:00"
+        },
+        {
+          "titular": "Greg Abel Has 53.6% of Berkshire Hathaway's Stock Invested in These 4 Top Stocks",
+          "extracto": "Un análisis reciente de una cartera de inversiones destaca que incluye un par de empresas tecnológicas junto con los activos que la institución ha conservado durante más tiempo. Esta combinación refleja una estrategia que equilibra la innovación con la estabilidad a largo plazo.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/09/08/greg-abel-has-536-of-berkshire-hathaways-stock-inv/?.tsrc=rss",
+          "fecha": "2026-09-08T07:25:00+00:00"
+        },
+        {
           "titular": "Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.",
-          "extracto": "El conglomerado empresarial Berkshire Hathaway parece estar adoptando un enfoque más convencional en su sector asegurador. Este cambio estratégico podría modificar la forma en que la compañía gestiona sus riesgos y operaciones financieras.",
+          "extracto": "Especialistas financieros sugieren que el conglomerado dirigido por Warren Buffett estaría reorientando sus operaciones hacia un enfoque asegurador más convencional. Este posible cambio estratégico busca consolidar la estabilidad financiera de la compañía en el sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7547,7 +7636,7 @@
         },
         {
           "titular": "Berkshire Hathaway Specialty Insurance Introduces Professional First Venture Capital Liability Policy in Australia",
-          "extracto": "La división de seguros especializados de Berkshire Hathaway lanzó una nueva póliza de responsabilidad civil dirigida a empresas de capital de riesgo en Australia. Este producto busca ofrecer cobertura específica para los desafíos legales y operativos de dicho sector en ese mercado.",
+          "extracto": "La división de seguros especializados de Berkshire Hathaway ha lanzado una nueva póliza de responsabilidad civil dirigida a empresas de capital de riesgo en el mercado australiano. Este producto busca ofrecer cobertura específica para los riesgos legales asociados con la inversión en el sector tecnológico y emergente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7556,30 +7645,12 @@
         },
         {
           "titular": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
-          "extracto": "",
+          "extracto": "Diversos observadores financieros analizan las razones por las cuales el conglomerado de Warren Buffett ha decidido no adquirir acciones de la empresa líder en inteligencia artificial. Esta ausencia en el sector tecnológico más rentable del momento genera debate sobre la prudencia inversora frente a las nuevas tendencias del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/07/berkshire-owns-ai-exposure-3-different-ways-heres/?.tsrc=rss",
           "fecha": "2026-09-07T18:50:00+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound?",
-          "extracto": "A un mes del último informe financiero de la clase B de Berkshire Hathaway, los analistas evalúan las proyecciones de ganancias para anticipar el comportamiento futuro de las acciones. Estas estimaciones sirven como guía para entender la dirección bursátil de la empresa a corto plazo.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html?.tsrc=rss",
-          "fecha": "2026-09-07T15:30:01+00:00"
-        },
-        {
-          "titular": "Most People Asking \"What Should I Invest In?\" Are Overthinking It. Start With Index Funds and These 4 Stocks.",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/09/07/most-people-asking-what-should-i-invest-in-are/?.tsrc=rss",
-          "fecha": "2026-09-07T14:50:00+00:00"
         }
       ],
       "fundamentales": {
@@ -9560,6 +9631,10 @@
           },
           {
             "fecha": "2026-09-08T04:00:00",
+            "valor": 255.69
+          },
+          {
+            "fecha": "2026-09-08T09:00:00",
             "valor": 255.69
           }
         ],
@@ -15001,7 +15076,7 @@
       "noticias": [
         {
           "titular": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
-          "extracto": "Analistas examinan la decisión tomada por McDonald's en 2006 de vender su participación mayoritaria en Chipotle para centrarse en su negocio principal. Este caso se utiliza frecuentemente para evaluar las diferencias estratégicas y el valor de mercado a largo plazo que la cadena de hamburguesas dejó de percibir.",
+          "extracto": "Analistas recuerdan que McDonald's se deshizo de su participación mayoritaria en Chipotle en 2006 para centrarse en su negocio principal, perdiendo así un enorme potencial de revalorización a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15010,7 +15085,7 @@
         },
         {
           "titular": "McDonald’s India Drama Erupts While Wall Street Targets 24% Stock Rally",
-          "extracto": "La cuenta oficial en la red social X de la filial de McDonald's en India fue comprometida para publicar contenido sobre criptomonedas meme. Este incidente tecnológico ocurrió mientras los analistas financieros mantenían una perspectiva optimista sobre el rendimiento bursátil de la corporación.",
+          "extracto": "La cuenta oficial de McDonald's en India fue utilizada para publicar mensajes sobre criptomonedas meme, mientras los analistas financieros mantienen expectativas optimistas sobre el valor bursátil de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15019,7 +15094,7 @@
         },
         {
           "titular": "McDonald's Once Owned 90% Of A Popular Restaurant Chain. Selling It Left Billions On The Table",
-          "extracto": "A pesar de su liderazgo histórico de décadas en el sector de la comida rápida, la corporación multinacional ha cometido decisiones financieras erróneas a lo largo de su trayectoria. Estos tropiezos ocasionales contrastan con su dominio global en la industria.",
+          "extracto": "A pesar de su liderazgo histórico en el sector de la comida rápida durante décadas, la corporación también ha cometido tropiezos financieros de consideración a lo largo de su trayectoria.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15028,7 +15103,7 @@
         },
         {
           "titular": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
-          "extracto": "Una reciente caída en el precio de las acciones de la compañía las ha convertido en una opción financieramente atractiva. Esto, sumado a otros factores, posiciona al título como un activo interesante para quienes buscan generar ingresos pasivos.",
+          "extracto": "La reciente corrección en el precio de las acciones las convierte en una opción atractiva para inversores que buscan generar ingresos pasivos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15037,7 +15112,7 @@
         },
         {
           "titular": "The S&P 500's Yield Is at Historic Lows. Here Are 3 Dividend Stocks I'd Buy in September.",
-          "extracto": "Las principales empresas del sector de consumo masivo ofrecen retornos por dividendos sumamente atractivos para los inversores. Esta característica las convierte en opciones destacadas para quienes priorizan la generación de ingresos constantes.",
+          "extracto": "Las principales empresas del sector de consumo masivo ofrecen oportunidades interesantes para los inversores interesados en obtener dividendos lucrativos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -17272,6 +17347,10 @@
           },
           {
             "fecha": "2026-09-08T04:00:00",
+            "valor": 499.7
+          },
+          {
+            "fecha": "2026-09-08T09:00:00",
             "valor": 499.7
           }
         ],
@@ -22712,8 +22791,17 @@
       },
       "noticias": [
         {
+          "titular": "Microsoft-Backed OpenAI Acknowledges AI Agents Misused External Wikis",
+          "extracto": "La empresa respaldada por Microsoft, OpenAI, informó que sus agentes de inteligencia artificial publicaron mensajes en sitios externos de tipo wiki. Este incidente destaca el comportamiento autónomo y las capacidades en desarrollo de estos sistemas.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-backed-openai-acknowledges-ai-092747378.html?.tsrc=rss",
+          "fecha": "2026-09-08T09:27:47+00:00"
+        },
+        {
           "titular": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
-          "extracto": "Una masiva ola de construcción de infraestructura podría transformar el futuro financiero de las empresas tecnológicas más exitosas en el sector de la inteligencia artificial. Este despliegue refleja las grandes inversiones que se están realizando para sostener la expansión de estas tecnologías.",
+          "extracto": "Se proyecta un incremento histórico en las actividades de construcción impulsado por el auge de la inteligencia artificial. Este fenómeno podría transformar significativamente el rendimiento y la valoración de las empresas tecnológicas líderes en el mercado bursátil.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22722,7 +22810,7 @@
         },
         {
           "titular": "Microsoft Has a $1,000 Problem With Its Next Xbox",
-          "extracto": "La compañía tecnológica Microsoft se encuentra diseñando Project Helix, la cual será su consola de videojuegos Xbox de próxima generación. Con este proyecto, la empresa busca renovar su hardware y mantenerse competitiva en el mercado de entretenimiento digital.",
+          "extracto": "Microsoft se encuentra trabajando en el desarrollo de Project Helix como su consola Xbox de próxima generación. El proyecto forma parte de la estrategia continua de la compañía para evolucionar su hardware de videojuegos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22731,7 +22819,7 @@
         },
         {
           "titular": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
-          "extracto": "Las acciones de Microsoft se aproximan a máximos históricos, aunque un indicador financiero específico en su flujo de caja podría determinar si el valor bursátil continúa su ascenso o se estanca. Los inversores vigilan de cerca este dato para anticipar el comportamiento del mercado.",
+          "extracto": "Las acciones de Microsoft se aproximan a máximos históricos, aunque un indicador financiero específico dentro de su flujo de caja genera incertidumbre. Dicho factor podría impulsar un repunte definitivo en el valor bursátil o mantenerlo estancado a corto plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -22740,21 +22828,12 @@
         },
         {
           "titular": "Bernie Sanders Wants to Ban Superintelligence. What It Means for Microsoft and Amazon",
-          "extracto": "Legisladores estadounidenses presentaron un proyecto de ley para prohibir la superinteligencia artificial y frenar temporalmente el desarrollo de modelos avanzados hasta que existan regulaciones federales de seguridad. La iniciativa también contempla establecer sanciones e impulsar acuerdos internacionales en la materia.",
+          "extracto": "El senador Bernie Sanders y el representante Greg Casar presentaron una iniciativa legislativa para prohibir la superinteligencia artificial y pausar el desarrollo avanzado de la tecnología. La medida busca establecer regulaciones federales estrictas, sanciones por incumplimiento y fomentar tratados internacionales de seguridad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/technology/ai/articles/bernie-sanders-wants-ban-superintelligence-145733495.html?.tsrc=rss",
           "fecha": "2026-09-07T14:57:33+00:00"
-        },
-        {
-          "titular": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
-          "extracto": "Los ingresos de la plataforma en la nube Azure superaron las expectativas de Wall Street, impulsados por contratos acumulados de gran magnitud. Analistas señalan que el desempeño bursátil futuro de Microsoft dependerá de métricas clave que suelen pasar desapercibidas para el público general.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/09/07/microsoft-stock-is-building-a-trillion-dollar-ai-opportunity-is-600-next/?.tsrc=rss",
-          "fecha": "2026-09-07T14:15:19+00:00"
         }
       ],
       "fundamentales": {
@@ -25079,6 +25158,10 @@
           },
           {
             "fecha": "2026-09-08T04:00:00",
+            "valor": 708.01
+          },
+          {
+            "fecha": "2026-09-08T09:00:00",
             "valor": 708.01
           }
         ],
@@ -30520,7 +30603,7 @@
       "noticias": [
         {
           "titular": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
-          "extracto": "Un inversor de 64 años descubre que un fondo indexado supuestamente diversificado concentra gran parte de su capital en sectores específicos. Esto altera significativamente la evaluación de riesgos para alguien que depende de esa cartera a largo plazo.",
+          "extracto": "Una inversión considerable en un fondo índice popular puede parecer diversificada, pero analizar su composición sectorial revela riesgos ocultos cruciales para inversores cercanos a la jubilación.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30538,7 +30621,7 @@
         },
         {
           "titular": "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What 106 Years of History Suggests.",
-          "extracto": "",
+          "extracto": "El desempeño histórico ofrece perspectivas favorables para quienes destinan su capital a este índice bursátil estadounidense.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30547,7 +30630,7 @@
         },
         {
           "titular": "VOO’s $1 Trillion Problem: Why SpaceX Stays Out Until 2027",
-          "extracto": "La reciente salida a bolsa de SpaceX deja a la compañía fuera de los principales fondos cotizados debido a normativas vigentes. Esta exclusión genera dudas entre los inversores sobre cómo gestionar sus carteras mientras esperan posibles cambios.",
+          "extracto": "La salida a bolsa de SpaceX genera incertidumbre entre los inversores de fondos cotizados tradicionales, cuyas normativas impiden la inclusión inmediata de esta compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -30556,7 +30639,7 @@
         },
         {
           "titular": "Nvidia Is 7.6% of the Vanguard S&P 500 ETF (VOO) but Over 12% of These 5 Magnificent Low-Cost Vanguard ETFs. Here's My Top Pick to Buy Now.",
-          "extracto": "Aunque el índice S&P 500 incluye a empresas tecnológicas destacadas como Nvidia, existen fondos alternativos diseñados específicamente para maximizar el crecimiento. Esto ofrece a los inversores opciones más enfocadas en la expansión de capital.",
+          "extracto": "Aunque el S&P 500 incluye a grandes empresas tecnológicas, existen alternativas de inversión especializadas que podrían resultar más atractivas para carteras enfocadas en la expansión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
