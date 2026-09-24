@@ -1,11 +1,13 @@
 {
-  "generado": "2026-09-24T19:16:26.441655+00:00",
-  "errores": [],
+  "generado": "2026-09-24T20:46:54.073098+00:00",
+  "errores": [
+    "CIPER: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "New York lawsuit says Polymarket's prediction markets are illegal gambling - Reuters",
-        "resumen": "",
+        "titulo_neutral": "Demanda de Nueva York contra Polymarket",
+        "resumen": "Una nueva demanda presentada en Nueva York sostiene que los mercados de predicción de Polymarket operan como apuestas ilegales. La acción judicial surge pocos meses después de que las autoridades estatales iniciaran un proceso similar contra su competidor Kalshi.",
         "articulos": [
           {
             "titular": "New York lawsuit says Polymarket's prediction markets are illegal gambling - Reuters",
@@ -14,16 +16,27 @@
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHBKRzNuRV9UcDlISEg4M2tsZURmLThPQW1ZbDMtRG91aDVLeWJJT2xsenpqbi11dENjOVp6TmpXWllXNTVmT1FFczRmY1U5YkVXVUZ6bTRIVUlSRWk5MnNDWWJobnoyU2dqSHAzR1pMaTJyR2NQa1QwQlBmX2pnUEx1ZG9oTGo2U3FDekFDYlJrVVltVG9TMmVleXNaNk5aLVVVS0VBSHk?oc=5",
-            "fecha": "2026-09-24T18:47:17+00:00"
+            "fecha": "2026-09-24T20:32:17+00:00"
+          },
+          {
+            "titular": "New York sues Polymarket over allegations of illegal gambling operations",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/economy/2026/9/24/new-york-sues-polymarket-over-allegations-of-illegal-gambling-operations?traffic_source=rss",
+            "fecha": "2026-09-24T20:15:25+00:00"
           }
         ],
         "leans_presentes": [
-          "centro"
+          "centro",
+          "sin-clasificar"
         ],
         "grupos_presentes": [
-          "Reuters"
+          "Reuters",
+          "Al Jazeera"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
         "titulo_neutral": "GM, Ford to see US market-share slide, forecaster predicts - Reuters",
@@ -48,8 +61,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US and China presidents discuss cooperation, trade and AI risks",
-        "resumen": "El presidente estadounidense Donald Trump y su homólogo chino Xi Jinping mantuvieron un encuentro en la Casa Blanca enfocado en resolver fricciones comerciales bilaterales. Durante la reunión, ambos mandatarios analizaron las regulaciones necesarias para mitigar los peligros asociados con el desarrollo de la inteligencia artificial. Este diálogo busca calmar los mercados globales ante una prolongada disputa tecnológica.",
+        "titulo_neutral": "Negociaciones comerciales y relaciones entre Estados Unidos y China",
+        "resumen": "Los mandatarios Donald Trump y Xi Jinping mantuvieron un encuentro en la Casa Blanca para abordar disputas comerciales y los riesgos asociados a la inteligencia artificial. Mientras algunos analistas consideran que prolongar la tregua arancelaria responde únicamente a motivos de imagen, otros confían en que sirva de base para un acuerdo definitivo.",
         "articulos": [
           {
             "titular": "US and China presidents discuss cooperation, trade and AI risks",
@@ -59,42 +72,7 @@
             "lean": "sin-clasificar",
             "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss",
             "fecha": "2026-09-24T18:19:01+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Collapsing currency and inflation leave families struggling in Sudan",
-        "resumen": "Los hogares sudaneses enfrentan una severa crisis económica agravada por el conflicto armado, reflejada en el encarecimiento drástico de alimentos básicos como la carne, el azúcar y el pan. La devaluación monetaria y la destrucción de la cadena de suministro reducen considerablemente el poder adquisitivo de la población. Como resultado, millones de personas luchan diariamente para cubrir sus necesidades nutricionales elementales.",
-        "articulos": [
-          {
-            "titular": "Collapsing currency and inflation leave families struggling in Sudan",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
-            "fecha": "2026-09-24T17:03:55+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Prórroga de la tregua comercial entre Estados Unidos y China",
-        "resumen": "Analistas discuten las implicaciones de prorrogar la tregua comercial mientras Donald Trump y Xi Jinping se preparan para dialogar esta semana. En paralelo, el costo del transporte marítimo de petróleo supera máximos históricos debido a las tensiones logísticas en rutas clave entre Asia y Oriente Medio. Asimismo, el inversor Todd Boehly cuenta con respaldos institucionales y gubernamentales para adquirir los activos internacionales de Lukoil.",
-        "articulos": [
+          },
           {
             "titular": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
             "extracto": "",
@@ -125,6 +103,28 @@
         "cobertura_unilateral": false
       },
       {
+        "titulo_neutral": "Collapsing currency and inflation leave families struggling in Sudan",
+        "resumen": "El incremento en el costo de alimentos básicos como la carne, el azúcar y el pan está asfixiando a los ciudadanos sudaneses. La población ya sufría las consecuencias de un entorno económico inestable y de un conflicto bélico prolongado.",
+        "articulos": [
+          {
+            "titular": "Collapsing currency and inflation leave families struggling in Sudan",
+            "extracto": "",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
+            "fecha": "2026-09-24T17:03:55+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Hedge funds sour on basis trade as Treasury selloff continues - Reuters",
         "resumen": "",
         "articulos": [
@@ -147,8 +147,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Decisiones y expectativas sobre los tipos de interés de la Reserva Federal",
-        "resumen": "La Reserva Federal estadounidense implementó un incremento en los tipos de interés por primera vez desde el año 2023, desafiando las presiones políticas. Paralelamente, las autoridades comunitarias europeas solicitaron al gobierno chino que modere voluntariamente sus ventas de vehículos híbridos al exterior para mitigar tensiones comerciales. Por otro lado, analistas señalan que la tecnología militar automatizada está transformando radicalmente los conflictos bélicos modernos.",
+        "titulo_neutral": "Declaraciones de funcionarios de la Reserva Federal sobre tasas de interés",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Fed's Williams says it is reasonable to see another US rate hike this year - Reuters",
@@ -167,6 +167,15 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmR3cTBOOVhRdHBUaGJ0Z0lBY09RNlFCRm9nSkl3bVpTM3lzN3pMTTlZVVJvdnFyT3FzQXZUZ0NLWXUzbGtLQnRFaFlWNmVNUHJnbHcwbjEwbDBvTG1sQkIzdUN4a3d4RW5VcjlKeVhRSUh4TTJXdW92NkE2eDNVTGJOdlBnZHEyQVpVWnIyMk9EQnBEd1l5SjNnREtobGw5bkRGVw?oc=5",
             "fecha": "2026-09-24T05:03:00+00:00"
+          },
+          {
+            "titular": "Gold at one week-low as higher oil, hawkish Fed weigh - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
+            "fecha": "2026-09-24T02:23:00+00:00"
           },
           {
             "titular": "Fed interest rate rises are back",
@@ -216,7 +225,7 @@
       },
       {
         "titulo_neutral": "EU sanctions Russian pundit Xenia Fedorova after expulsion from France",
-        "resumen": "Las autoridades comunitarias europeas aplicaron medidas punitivas contra la comentarista rusa Xenia Fedorova, respondiendo a su expulsión previa de territorio francés. El gobierno de Francia la acusó de difundir propaganda oficial del Kremlin y narrativas afines a Moscú dentro del país. Esta decisión refleja la creciente vigilancia sobre figuras mediáticas extranjeras en medio de la confrontación geopolítica actual.",
+        "resumen": "La Unión Europea implementó medidas punitivas contra la comentarista rusa Xenia Fedorova. Esta decisión llega después de que Francia la deportara previamente bajo la acusación de difundir propaganda favorable a Moscú en territorio europeo.",
         "articulos": [
           {
             "titular": "EU sanctions Russian pundit Xenia Fedorova after expulsion from France",
@@ -235,21 +244,43 @@
           "France24"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Yields elevated as inflation fears keep markets on edge - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Yields elevated as inflation fears keep markets on edge - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
+            "fecha": "2026-09-24T01:48:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Fallecimiento de Reinaldo Sánchez",
-        "resumen": "Un reconocido referente político de la capital debió ser internado en un centro de salud tras un desmejoramiento repentino en su condición física durante los últimos días. Su situación generó atención en el ámbito político debido a su trayectoria.",
+        "titulo_neutral": "Arauco prepara un bono híbrido de hasta UF 10 millones para fortalecer su balance ante las etapas finales del proyecto Sucuriú",
+        "resumen": "A casi un año de que la compañía ligada a la familia Angelini realizara una histórica colocación de bonos híbridos en Chile, las condiciones de negociación de este instrumento financiero han mostrado una reducción en su rendimiento secundario.",
         "articulos": [
           {
-            "titular": "Fallece a los 81 años Reinaldo Sánchez, histórico empresario microbusero de Valparaíso y dueño de Santiago Wanderers",
+            "titular": "Arauco prepara un bono híbrido de hasta UF 10 millones para fortalecer su balance ante las etapas finales del proyecto Sucuriú",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/actualidad/fallece-a-los-81-anos-reinaldo-sanchez-historico-empresario-microbusero-de",
-            "fecha": "2026-09-24T19:15:34+00:00"
+            "url": "http://www.df.cl/empresas/industria/arauco-prepara-un-bono-hibrido-de-hasta-uf-10-millones-para-fortalecer-su",
+            "fecha": "2026-09-24T20:45:28+00:00"
           }
         ],
         "leans_presentes": [
@@ -261,145 +292,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Movimientos en los mercados financieros internacionales por bonos y tasas",
-        "resumen": "La divisa norteamericana experimentó un fuerte repunte impulsada por reportes corporativos optimistas que avivaron los temores inflacionarios en la principal economía global. Esta situación elevó los rendimientos de los bonos del Tesoro, presionando las finanzas públicas tras una liquidación masiva en el mercado de deuda.",
+        "titulo_neutral": "Embajador de Israel envía carta al rector de la UC y acusa al académico Sebatián Gray de “injurias públicas” e “insultos denigrantes”",
+        "resumen": "La representación diplomática israelí en territorio nacional envió una misiva formal al rector de la Universidad Católica. En el documento se acusa a un docente de la facultad de arquitectura de haber emitido descalificaciones públicas en contra de su país a través de una red social.",
         "articulos": [
           {
-            "titular": "Dólar cierra firme en sus máximos desde octubre de 2025 mientras se profundizan las ventas de bonos del Tesoro estadounidense",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/dolar-hoy-d7mvy",
-            "fecha": "2026-09-24T19:12:45+00:00"
-          },
-          {
-            "titular": "Venta global de bonos se extiende mientras el petróleo vuelve a superar los US$ 105 el barril",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/ft/venta-global-de-bonos-se-extiende-mientras-el-petroleo-vuelve-a-superar-los",
-            "fecha": "2026-09-24T18:04:40+00:00"
-          },
-          {
-            "titular": "IPSA cae fuerte y pierde los 11.300 puntos mientras siguen las ventas globales ante al auge de las tasas largas estadounidenses",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-rm9gj",
-            "fecha": "2026-09-24T16:41:47+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Leo Messi adquiere una casa junto a su mansión evaluada en US$ 8 millones en Fort Lauderdale",
-        "resumen": "Las personas con grandes patrimonios económicos han adoptado la práctica de adquirir fincas y terrenos adyacentes a sus residencias principales. Esta tendencia busca garantizar una mayor privacidad y facilitar el desarrollo de urbanizaciones exclusivas.",
-        "articulos": [
-          {
-            "titular": "Leo Messi adquiere una casa junto a su mansión evaluada en US$ 8 millones en Fort Lauderdale",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/leo-messi-adquiere-una-casa-junto-a-una-mansion-evaluada-en-us-8-millones",
-            "fecha": "2026-09-24T19:10:42+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Citigroup avanza con reuniones sobre el préstamo de Paramount mientras los bancos preparan la venta de deuda",
-        "resumen": "Luego de destrabar los conflictos judiciales que mantenían paralizada la transacción, los responsables planean financiar la operación mediante créditos otorgados por instituciones bancarias. El objetivo es cumplir con los compromisos financieros pendientes.",
-        "articulos": [
-          {
-            "titular": "Citigroup avanza con reuniones sobre el préstamo de Paramount mientras los bancos preparan la venta de deuda",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/multinacionales/citigroup-avanza-con-reuniones-sobre-el-prestamo-de-paramount-mientras-los",
-            "fecha": "2026-09-24T19:07:24+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Fonavi versus Fannie Mae: las diferencias que han marcado la discusión de la reforma al mercado de capitales",
-        "resumen": "Durante los primeros debates legislativos sobre una iniciativa legal específica, los parlamentarios centraron sus cuestionamientos en los peligros que esta podría representar para las cuentas fiscales. Asimismo, exigieron mayores garantías y resguardos en torno al manejo de los recursos del fondo.",
-        "articulos": [
-          {
-            "titular": "Fonavi versus Fannie Mae: las diferencias que han marcado la discusión de la reforma al mercado de capitales",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/banca-fintech/fonavi-versus-fannie-mae-las-diferencias-que-han-marcado-la-discusion-de",
-            "fecha": "2026-09-24T19:04:58+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Presidente del jurado de IAB MIXX Chile y el impacto de la tecnología en la industria: “El valor diferencial sigue estando en el pensamiento creativo”",
-        "resumen": "Un destacado ejecutivo del sector publicitario asumirá la presidencia del jurado en un importante certamen internacional de la industria. En el marco de este nombramiento, analizó la evolución creativa frente a la irrupción tecnológica actual.",
-        "articulos": [
-          {
-            "titular": "Presidente del jurado de IAB MIXX Chile y el impacto de la tecnología en la industria: “El valor diferencial sigue estando en el pensamiento creativo”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/marketing/premios/presidente-del-jurado-de-iab-mixx-chile-y-el-impacto-de-la-tecnologia-en-la",
-            "fecha": "2026-09-24T19:02:46+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "¿Amigos o vendedores?: “Influselling”, la delgada línea entre la “amistad” y el negocio en las redes sociales",
-        "resumen": "La transformación digital ha convertido a los creadores de contenido en plataformas clave para la comercialización directa de productos. Este fenómeno borra los límites entre las recomendaciones personales y la actividad publicitaria, generando desafíos normativos.",
-        "articulos": [
-          {
-            "titular": "¿Amigos o vendedores?: “Influselling”, la delgada línea entre la “amistad” y el negocio en las redes sociales",
+            "titular": "Embajador de Israel envía carta al rector de la UC y acusa al académico Sebatián Gray de “injurias públicas” e “insultos denigrantes”",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/09/24/amigos-o-vendedores-influselling-la-delgada-linea-entre-la-amistad-y-el-negocio-en-las-redes-sociales/",
-            "fecha": "2026-09-24T18:58:14+00:00"
+            "url": "https://www.theclinic.cl/2026/09/24/embajador-de-israel-envia-carta-al-rector-de-la-uc-y-acusa-al-academico-sebatian-gray-de-injurias-publicas-e-insultos-denigrantes/",
+            "fecha": "2026-09-24T20:42:48+00:00"
           }
         ],
         "leans_presentes": [
@@ -411,17 +314,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Los medios de prensa vetados por Trump pudieron regresar a la Casa Blanca tras una orden judicial",
-        "resumen": "Representantes de distintos medios de comunicación denunciaron que las autoridades les impidieron el acceso a un evento de manera imprevista. La situación generó reclamos por parte de los profesionales de la información afectados.",
+        "titulo_neutral": "Chile enfrenta nuevos desafíos de transparencia minera tras su adhesión al estándar internacional EITI",
+        "resumen": "Expertos y miembros de organizaciones civiles se reunieron en una casa de estudios superiores para debatir sobre los obstáculos que impiden rastrear el destino final de los ingresos mineros. Durante la instancia, abordaron los impactos ecológicos de la actividad extractiva y la necesidad de transparentar quiénes son los verdaderos dueños de las corporaciones del rubro tras la incorporación del país a una iniciativa internacional de transparencia.",
         "articulos": [
           {
-            "titular": "Los medios de prensa vetados por Trump pudieron regresar a la Casa Blanca tras una orden judicial",
+            "titular": "Chile enfrenta nuevos desafíos de transparencia minera tras su adhesión al estándar internacional EITI",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/24/desafios-transparencia-minera-chile-eiti/",
+            "fecha": "2026-09-24T20:42:26+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Fallece a los 81 años Reinaldo Sánchez, histórico empresario microbusero de Valparaíso y dueño de Santiago Wanderers",
+        "resumen": "El histórico dirigente deportivo, conocido por su rol en la creación del principal canal de televisión del fútbol nacional y su paso por la testera de la asociación del balompié, había retomado la propiedad del club más relevante de la quinta región a comienzos de esta década.",
+        "articulos": [
+          {
+            "titular": "Fallece a los 81 años Reinaldo Sánchez, histórico empresario microbusero de Valparaíso y dueño de Santiago Wanderers",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/ft/jueza-ordena-a-la-casa-blanca-restablecer-el-acceso-de-medios-vetados",
-            "fecha": "2026-09-24T18:56:41+00:00"
+            "url": "http://www.df.cl/empresas/actualidad/fallece-a-los-81-anos-reinaldo-sanchez-historico-empresario-microbusero-de",
+            "fecha": "2026-09-24T20:40:45+00:00"
           }
         ],
         "leans_presentes": [
@@ -431,38 +356,126 @@
           "Claro"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Niu Qingbao, embajador de China por ingreso de Chile al Escudo de las Américas: “No creemos que nuestra relación deba estar sujeta a la influencia de terceros”",
+        "resumen": "En una entrevista, el embajador de la potencia asiática se refirió a la adhesión del gobierno chileno a una iniciativa de seguridad regional, señalando que los vínculos bilaterales no deben verse condicionados por presiones externas. Asimismo, instó a las autoridades locales a mantener firmeza frente a cuestionamientos foráneos respecto a un proyectado cable submarino de conectividad digital.",
+        "articulos": [
+          {
+            "titular": "Niu Qingbao, embajador de China por ingreso de Chile al Escudo de las Américas: “No creemos que nuestra relación deba estar sujeta a la influencia de terceros”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/24/niu-qingbao-embajador-de-china-por-ingreso-de-chile-al-escudo-de-las-americas-no-creemos-que-nuestra-relacion-deba-estar-sujeta-a-la-influencia-de-terceros/",
+            "fecha": "2026-09-24T20:33:17+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "“Qué pena que contraten cualquier cosa”: Periodista peruano estalla contra camarógrafo en vivo",
+        "resumen": "Un conductor de la televisión peruana protagonizó un momento tenso al reprender en plena transmisión en directo a uno de los camarógrafos por la calidad de los planos. La situación generó una ola de recriminaciones en las plataformas digitales hacia el comunicador por su comportamiento en pantalla. Al día siguiente, el rostro televisivo restó importancia a las críticas del público mediante comentarios sarcásticos.",
+        "articulos": [
+          {
+            "titular": "“Qué pena que contraten cualquier cosa”: Periodista peruano estalla contra camarógrafo en vivo",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/24/que-pena-que-contraten-cualquier-cosa-periodista-peruano-estalla-contra-camarografo-en-vivo/",
+            "fecha": "2026-09-24T20:30:45+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "De la línea de montaje al smartphone: El insólito origen del código QR en las líneas de producción automotriz",
+        "resumen": "El formato de lectura rápida de datos mediante patrones visuales cuadrados no surgió de centros tecnológicos avanzados, sino de las fábricas de automóviles niponas. Su propósito original fue agilizar el control y ordenamiento de piezas mecánicas en las cadenas de producción, revolucionando con el tiempo la logística a nivel global.",
+        "articulos": [
+          {
+            "titular": "De la línea de montaje al smartphone: El insólito origen del código QR en las líneas de producción automotriz",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/24/origen-codigo-qr-industria-automotriz/",
+            "fecha": "2026-09-24T20:30:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "“Los franceses descubriendo Chile”: El meme mundial que nació en Francia y se “burla” de la forma estrecha de nuestro país",
+        "resumen": "Una tendencia viral originada en territorio europeo desató una ola de bromas en internet sobre la inusual geografía sudamericana. Los internautas comenzaron a modificar digitalmente objetos cotidianos para estirarlos de forma exagerada, parodiando las características proporciones territoriales de la nación austral.",
+        "articulos": [
+          {
+            "titular": "“Los franceses descubriendo Chile”: El meme mundial que nació en Francia y se “burla” de la forma estrecha de nuestro país",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/09/24/los-franceses-descubriendo-chile-el-meme-mundial-que-nacio-en-francia-y-se-burla-de-la-forma-estrecha-de-nuestro-pais/",
+            "fecha": "2026-09-24T20:13:22+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
-        "fecha": "2026-09-24T19:02:50+00:00"
-      },
-      {
-        "titular": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-24T19:02:36+00:00"
-      },
-      {
-        "titular": "Residents in West Bank's Masafer Yatta face Israeli demolitions",
+        "titular": "Macron says 'CIA did not ​inform French services' of possible Russian drone attacks",
         "medio": "France24",
-        "url": "https://www.france24.com/en/tv-shows/the-observers/20260924-residents-west-bank-masafer-yatta-israeli-demolitions",
-        "fecha": "2026-09-24T18:47:22+00:00"
+        "url": "https://www.france24.com/en/france/20260924-macron-says-cia-did-not-inform-french-services-of-possible-russian-drone-attacks",
+        "fecha": "2026-09-24T20:38:09+00:00"
       },
       {
-        "titular": "White House reinstates access to CNN, MS NOW and Politico following judge's order - Reuters",
+        "titular": "Iran sees air, land travel chaos as US sanctions bite",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/iran-sees-air-land-travel-chaos-as-us-sanctions-bite",
+        "fecha": "2026-09-24T20:35:39+00:00"
+      },
+      {
+        "titular": "Tigray rebels in 'full-blown' war with government",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/tigray-rebels-in-full-blown-war-with-government",
+        "fecha": "2026-09-24T20:23:08+00:00"
+      },
+      {
+        "titular": "US citizen injured after wrongly arrested by ICE in Illinois",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-citizen-injured-after-wrongly-arrested-by-ice-in-illinois?traffic_source=rss",
+        "fecha": "2026-09-24T20:23:06+00:00"
+      },
+      {
+        "titular": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGZDelJBRHdvcFBwNGNlTGwxdVNHNnk1UmhJeDZUZWd2Y3o4ZGw4QTVaM2VrT21MQWt2eUUyR2c5cnR3ckdadDZNS0RSdUpLX1FVMHpqU1B3aWVyeGs3aGp0RE44R2JoRG55QlhiUWRQOWRhUGtoZ1ZoMlhydDJOQlRPU2JkbldsaDB4UUc3TVJxU2xwMFVvbHlMNG1UOHNPWUUzSmVaVHFCR1Y0SmJvRmFSNFVDU3JyNHdhTkp0a1RuQmEzWjNrcw?oc=5",
-        "fecha": "2026-09-24T18:42:45+00:00"
-      },
-      {
-        "titular": "Watch: UN delegates walk out of Netanyahu speech",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-09-24T18:29:29+00:00"
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+        "fecha": "2026-09-24T20:17:06+00:00"
       }
     ]
   },
@@ -470,8 +483,8 @@
     {
       "ticker": "ADBE",
       "nombre": "ADBE",
-      "precio": 237.86,
-      "var_dia_pct": -1.1758,
+      "precio": 238.93,
+      "var_dia_pct": -0.7312,
       "serie_precio": {
         "1M": [
           {
@@ -825,6 +838,10 @@
           {
             "fecha": "2026-09-24T19:00:00",
             "valor": 237.86
+          },
+          {
+            "fecha": "2026-09-24T20:00:00",
+            "valor": 238.93
           }
         ],
         "6M": [
@@ -1282,7 +1299,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 237.86
+            "valor": 238.93
           }
         ],
         "YTD": [
@@ -1976,7 +1993,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 237.86
+            "valor": 238.93
           }
         ],
         "1A": [
@@ -2942,7 +2959,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 237.86
+            "valor": 238.93
           }
         ],
         "5A": [
@@ -3984,7 +4001,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 237.86
+            "valor": 238.93
           }
         ],
         "10A": [
@@ -6070,14 +6087,23 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 237.86
+            "valor": 238.93
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Adobe Stock Slides 18%: Value Play or Falling Knife?",
+          "extracto": "Las acciones de Adobe han registrado un descenso significativo desde agosto debido a la cautela histórica de los inversores y a una estrategia directiva enfocada en usuarios gratuitos con vistas a 2027. Este panorama genera dudas sobre la conveniencia de adquirir títulos de la compañía en el corto plazo.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.trefis.com/articles/616422/adobe-stock-slides-18-value-play-or-falling-knife/2026-09-24?.tsrc=rss",
+          "fecha": "2026-09-24T19:36:03+00:00"
+        },
+        {
           "titular": "Adobe (ADBE) Expands AI Holiday Planning Through A Multi Year Travel Partnership",
-          "extracto": "Adobe firmó una alianza plurianual con la aerolínea Jet2 para implementar inteligencia artificial conversacional y optimizar la planificación de viajes mediante un nuevo laboratorio de experiencia del cliente. Esta colaboración ocurre mientras los principales desarrolladores de software reducen los precios de sus herramientas generativas para mantener la competitividad en el mercado.",
+          "extracto": "Adobe firmó una alianza plurianual con Jet2 para integrar inteligencia artificial en la planificación de viajes y fundar un laboratorio de experiencias. Este movimiento ocurre en un contexto de reducción de precios en servicios generativos para mantener la competitividad frente a otros gigantes del software.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6095,7 +6121,7 @@
         },
         {
           "titular": "How Big A Swing Are You Carrying In Adobe Stock?",
-          "extracto": "Las opciones financieras con vencimiento a un año para las acciones de Adobe sugieren una volatilidad considerable, con un rango estimado que oscila entre un mínimo del 36% por debajo y un máximo del 56% por encima de su cotización actual. Esta amplitud refleja el nivel de riesgo que asumen los inversores que mantienen estos títulos en sus carteras.",
+          "extracto": "Cotizando alrededor de los 238 dólares por acción, los contratos de opciones con vencimiento a un año proyectan una horquilla de precios estimada entre los 152 y los 373 dólares. Dicha amplitud refleja la volatilidad y el riesgo inherente que los accionistas actuales deben asumir.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6104,21 +6130,12 @@
         },
         {
           "titular": "ADBE Expands AI Customer Experience Push With Jet2: What's Ahead?",
-          "extracto": "El reciente acuerdo entre Adobe y Jet2 consolida la estrategia de la compañía tecnológica para expandir sus soluciones de experiencia del cliente impulsadas por inteligencia artificial. Este movimiento se produce en un contexto de creciente rivalidad dentro del sector tecnológico.",
+          "extracto": "La colaboración entre Adobe y Jet2 impulsa la estrategia de la tecnológica en el ámbito de la experiencia del cliente basada en inteligencia artificial. Esta iniciativa refuerza su posicionamiento en un mercado caracterizado por una competencia cada vez más intensa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/technology/ai/articles/adbe-expands-ai-customer-experience-161400513.html?.tsrc=rss",
           "fecha": "2026-09-23T16:14:00+00:00"
-        },
-        {
-          "titular": "Losing to Win: A VC Lens Will Find the Next Nvidia",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/09/23/losing-to-win-a-vc-lens-will-find-the-next-nvidia/?.tsrc=rss",
-          "fecha": "2026-09-23T15:27:01+00:00"
         }
       ],
       "fundamentales": {
@@ -6595,8 +6612,8 @@
       "_segmentos_accession": "0000796343-26-000147",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 92575.112,
-        "enterprise_value_musd": 94579.112,
+        "market_cap_musd": 92991.556,
+        "enterprise_value_musd": 94995.556,
         "deuda_neta_musd": 2004.0,
         "deuda_neta_ebitda": 0.19625893644109293,
         "deuda_patrimonio": 0.54,
@@ -6606,28 +6623,24 @@
         "roe_pct": 61.91771506290378,
         "roic_pct": 67.33730389308542,
         "roce_pct": 51.24081136351075,
-        "pe": 13.280848687883864,
-        "ev_ingresos": 3.6418603003465533,
-        "ev_ebitda": 9.26247301929292,
-        "p_vl": 7.869356681400884,
+        "pe": 13.340591848129536,
+        "ev_ingresos": 3.6578958798613783,
+        "ev_ebitda": 9.303256879835471,
+        "p_vl": 7.904756545392723,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 360.37,
         "minimo_52s": 193.41,
-        "beta": 1.0784426454694587
+        "beta": 1.0784216503511361
       }
     },
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 507.14,
-      "var_dia_pct": -0.0059,
+      "precio": 505.18,
+      "var_dia_pct": -0.3924,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-08-25T20:00:00",
-            "valor": 504.32
-          },
           {
             "fecha": "2026-08-25T21:00:00",
             "valor": 504.32
@@ -7615,6 +7628,10 @@
           {
             "fecha": "2026-09-24T19:00:00",
             "valor": 507.14
+          },
+          {
+            "fecha": "2026-09-24T20:00:00",
+            "valor": 505.18
           }
         ],
         "6M": [
@@ -8164,7 +8181,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 507.14
+            "valor": 505.18
           }
         ],
         "YTD": [
@@ -8950,7 +8967,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 507.14
+            "valor": 505.18
           }
         ],
         "1A": [
@@ -10008,7 +10025,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 507.14
+            "valor": 505.18
           }
         ],
         "5A": [
@@ -11054,7 +11071,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 507.14
+            "valor": 505.18
           }
         ],
         "10A": [
@@ -13144,14 +13161,32 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 507.14
+            "valor": 505.18
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Berkshire Stays Flat as Lennar Stake Crosses 10%",
+          "extracto": "Aunque una inversión de 212 millones de dólares representa una cantidad menor para Berkshire Hathaway, superar cierto umbral de propiedad incrementa la relevancia estratégica de la operación.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-stays-flat-lennar-stake-200046273.html?.tsrc=rss",
+          "fecha": "2026-09-24T20:00:46+00:00"
+        },
+        {
+          "titular": "Berkshire Hathaway CEO Greg Abel Calls AI Data Center Demand a Significant Opportunity for Berkshire Energy. Here's What That Means for the Stock.",
+          "extracto": "El conglomerado dirigido por Warren Buffett posee una mayor participación e implicación indirecta en el sector de la inteligencia artificial de lo que el mercado suele percibir.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/09/24/berkshire-hathaway-ceo-greg-abel-calls-ai-data-cen/?.tsrc=rss",
+          "fecha": "2026-09-24T19:20:00+00:00"
+        },
+        {
           "titular": "Warren Buffett Says \"Father Time Always Wins.\" History Says Investors Who Do This 1 Thing Will Win Out Anyway.",
-          "extracto": "Warren Buffett ha publicado su última carta dirigida a los accionistas de Berkshire Hathaway en su calidad de presidente. Este documento marca el cierre de una era comunicativa para una de las figuras más influyentes del sector financiero.",
+          "extracto": "El reconocido inversor Warren Buffett escribió recientemente su última comunicación anual dirigida a los accionistas de Berkshire Hathaway en su calidad de presidente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13160,7 +13195,7 @@
         },
         {
           "titular": "Nervous About the Stock Market? This 1 Piece of Warren Buffett Wisdom Has Never Once Failed.",
-          "extracto": "El inversor Warren Buffett considera que las caídas prolongadas del mercado de valores representan oportunidades excepcionales de compra. Su perspectiva busca tranquilizar a los participantes del mercado durante periodos de contracción económica.",
+          "extracto": "Para el veterano ejecutivo, las fases bajistas de los mercados financieros constituyen escenarios idóneos para encontrar oportunidades de inversión excepcionales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13169,30 +13204,12 @@
         },
         {
           "titular": "Warren Buffett Has Officially Left Berkshire Hathaway After 61 Years. But 3 of His Favorite Stocks Will Likely Live on in Berkshire's Portfolio for Decades to Come.",
-          "extracto": "La trayectoria profesional más emblemática en el ámbito de las inversiones ha concluido oficialmente. Esto representa un punto de inflexión histórico para el mercado financiero global tras décadas de liderazgo.",
+          "extracto": "Una de las trayectorias profesionales más célebres y legendarias dentro de la historia de los mercados financieros ha concluido oficialmente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/24/warren-buffett-has-officially-left-berkshire-hatha/?.tsrc=rss",
           "fecha": "2026-09-24T10:20:00+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway (BRK.B) Trades Below Fair Value, Is It A Bargain?",
-          "extracto": "Las acciones de Berkshire Hathaway han generado nuevo interés en el mercado tras registrar un precio de cierre de 507,17 dólares. Los inversores analizan su sólida situación financiera, respaldada por ingresos anuales de 384.700 millones y operaciones diversificadas.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-b-trades-051557981.html?.tsrc=rss",
-          "fecha": "2026-09-24T05:15:57+00:00"
-        },
-        {
-          "titular": "The Fed Just Raised Rates, But Berkshire's Cash Payoff Hasn't Shown Up Yet",
-          "extracto": "A pesar de acumular una reserva de efectivo de 359.200 millones de dólares, los ingresos por inversiones de Berkshire Hathaway disminuyeron recientemente. Esta caída se produjo a pesar de que la Reserva Federal había incrementado las tasas de interés.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://beincrypto.com/berkshire-cash-payoff-fed-rate-hike/?.tsrc=rss",
-          "fecha": "2026-09-24T02:45:16+00:00"
         }
       ],
       "fundamentales": {
@@ -13481,20 +13498,16 @@
         "payout_ratio_pct": null,
         "maximo_52s": 529.42,
         "minimo_52s": 465.4,
-        "beta": 0.7601680596919488
+        "beta": 0.7601958621346899
       }
     },
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 238.21,
-      "var_dia_pct": -0.0462,
+      "precio": 237.02,
+      "var_dia_pct": -0.5455,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-08-25T20:00:00",
-            "valor": 268.1
-          },
           {
             "fecha": "2026-08-25T21:00:00",
             "valor": 268.1
@@ -14486,6 +14499,10 @@
           {
             "fecha": "2026-09-24T19:00:00",
             "valor": 238.21
+          },
+          {
+            "fecha": "2026-09-24T20:00:00",
+            "valor": 237.02
           }
         ],
         "6M": [
@@ -15035,7 +15052,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 238.21
+            "valor": 237.02
           }
         ],
         "YTD": [
@@ -15821,7 +15838,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 238.21
+            "valor": 237.02
           }
         ],
         "1A": [
@@ -16879,7 +16896,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 238.21
+            "valor": 237.02
           }
         ],
         "5A": [
@@ -17925,7 +17942,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 238.21
+            "valor": 237.02
           }
         ],
         "10A": [
@@ -20015,14 +20032,14 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 238.21
+            "valor": 237.02
           }
         ]
       },
       "noticias": [
         {
           "titular": "Mark Zuckerberg's new era, plus BlackRock's Rick Rieder weighs in on bond market",
-          "extracto": "El editor ejecutivo de Yahoo Finance, Brian Sozzi, analiza los movimientos del mercado y entrevista al director de BlackRock, Rick Rieder, para evaluar la situación del mercado de bonos tras las recientes caídas.",
+          "extracto": "El editor ejecutivo de Yahoo Finance, Brian Sozzi, analiza las principales tendencias del mercado y entrevista al director de inversiones de BlackRock, Rick Rieder, sobre la reciente caída en el mercado de bonos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20031,7 +20048,7 @@
         },
         {
           "titular": "Why McDonald's stance on GLP-1s completely misses the mark",
-          "extracto": "Brian Sozzi analiza la postura de McDonald's respecto al impacto de los medicamentos para la pérdida de peso GLP-1 y argumenta que la empresa subestima las consecuencias reales en su modelo de negocio.",
+          "extracto": "Brian Sozzi analiza la postura de McDonald's respecto a los medicamentos para la pérdida de peso y argumenta que la empresa subestima el impacto real que estos fármacos podrían tener en su modelo de negocio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20039,8 +20056,17 @@
           "fecha": "2026-09-24T14:25:00+00:00"
         },
         {
+          "titular": "McDonald’s Breaks to a New 52-Week Low After the CEO Says Things Are Not Getting Better",
+          "extracto": "Las acciones de McDonald's cayeron a su nivel más bajo en un año después de que la dirección pronosticara un panorama económico desfavorable y anunciara planes de inversión multimillonarios.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/09/24/mcdonalds-breaks-to-a-new-52-week-low-after-the-ceo-says-things-are-not-getting-better/?.tsrc=rss",
+          "fecha": "2026-09-24T19:33:42+00:00"
+        },
+        {
           "titular": "McDonald’s set to spend billions on big changes. What to expect",
-          "extracto": "McDonald's destinará 8.500 millones de dólares hasta 2036 para renovar sus locales, integrar tecnología de inteligencia artificial, actualizar su programa de fidelización e introducir nuevas opciones culinarias.",
+          "extracto": "McDonald's destinará 8.500 millones de dólares hasta 2036 para renovar sus establecimientos, integrar tecnología de inteligencia artificial, introducir nuevas opciones en su menú y actualizar su programa de fidelización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20049,21 +20075,12 @@
         },
         {
           "titular": "McDonald’s has big plans for its loyalty program",
-          "extracto": "La actualización del programa de lealtad de McDonald's busca fidelizar a los clientes actuales y recuperar a los inactivos mediante sistemas de niveles y experiencias de consumo personalizadas.",
+          "extracto": "La compañía modificará su plataforma de lealtad para fomentar la participación continua de sus clientes habituales y atraer nuevamente a quienes han dejado de usar el servicio mediante experiencias personalizadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.customerexperiencedive.com/news/mcdonalds-big-plans-loyalty-program/831300/?.tsrc=rss",
           "fecha": "2026-09-24T18:26:59+00:00"
-        },
-        {
-          "titular": "McDonald's exploring bowls, grilled chicken for weight loss drug users",
-          "extracto": "La cadena de comida rápida introducirá alternativas de pollo empanado a mano con el objetivo de capturar mayor cuota del mercado global de este producto hacia el año 2030.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://qz.com/mcdonalds-protein-bowls-grilled-chicken-glp1-weight-loss-drugs-092426?.tsrc=rss",
-          "fecha": "2026-09-24T17:37:26+00:00"
         }
       ],
       "fundamentales": {
@@ -20582,8 +20599,8 @@
       "_segmentos_accession": "0000063908-26-000067",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 168567.28909951,
-        "enterprise_value_musd": 209408.28909951,
+        "market_cap_musd": 167725.19567762,
+        "enterprise_value_musd": 208566.19567762,
         "deuda_neta_musd": 40841.0,
         "deuda_neta_ebitda": 3.0774621354833847,
         "deuda_patrimonio": -40.73,
@@ -20593,28 +20610,24 @@
         "roe_pct": -858.9442815249267,
         "roic_pct": 32.156311216032954,
         "roce_pct": 22.904368358913814,
-        "pe": 19.350934199837532,
-        "ev_ingresos": 7.559047363083781,
-        "ev_ebitda": 15.779390332266596,
-        "p_vl": -164.77740869942326,
-        "dividend_yield_pct": 3.085512782838672,
+        "pe": 19.25426482534525,
+        "ev_ingresos": 7.52865017065372,
+        "ev_ebitda": 15.715936679799563,
+        "p_vl": -163.9542479742131,
+        "dividend_yield_pct": 3.1010041346721797,
         "payout_ratio_pct": 59.707554833468734,
         "maximo_52s": 341.06,
-        "minimo_52s": 238.21,
-        "beta": 0.6221856564997847
+        "minimo_52s": 237.02,
+        "beta": 0.6222231383102038
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 497.58,
-      "var_dia_pct": -0.6013,
+      "precio": 497.93,
+      "var_dia_pct": -0.5314,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-08-25T20:00:00",
-            "valor": 491.71
-          },
           {
             "fecha": "2026-08-25T21:00:00",
             "valor": 491.71
@@ -21614,6 +21627,10 @@
           {
             "fecha": "2026-09-24T19:00:00",
             "valor": 497.58
+          },
+          {
+            "fecha": "2026-09-24T20:00:00",
+            "valor": 497.93
           }
         ],
         "6M": [
@@ -22163,7 +22180,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 497.58
+            "valor": 497.93
           }
         ],
         "YTD": [
@@ -22949,7 +22966,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 497.58
+            "valor": 497.93
           }
         ],
         "1A": [
@@ -24007,7 +24024,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 497.58
+            "valor": 497.93
           }
         ],
         "5A": [
@@ -25053,7 +25070,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 497.58
+            "valor": 497.93
           }
         ],
         "10A": [
@@ -27143,14 +27160,32 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 497.58
+            "valor": 497.93
           }
         ]
       },
       "noticias": [
         {
+          "titular": "Can Microsoft (MSFT) Sustain its Recurring Cash Flows, Growing Payouts, and Azure Momentum?",
+          "extracto": "Microsoft presenta un historial sólido de dividendos que demuestra su capacidad para generar efectivo de manera constante, incluso mientras financia grandes inversiones en inteligencia artificial. Esta estrategia fortalece la relevancia de su plataforma Azure como un pilar fundamental para su expansión futura.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-sustain-recurring-cash-202321015.html?.tsrc=rss",
+          "fecha": "2026-09-24T20:23:21+00:00"
+        },
+        {
+          "titular": "Freight Tech Isn’t Dead – It’s Getting Picked Apart More Than Ever",
+          "extracto": "Durante su participación en un programa especializado del sector, un representante de TitletownTech analizó el estado actual de la tecnología aplicada al transporte y la logística. El debate se centró en la importancia de la disciplina financiera y en los indicadores clave que los inversores consideran al evaluar proyectos en este mercado.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/articles/freight-tech-isn-t-dead-192841891.html?.tsrc=rss",
+          "fecha": "2026-09-24T19:28:41+00:00"
+        },
+        {
           "titular": "Microsoft Azure Red Hat OpenShift for Microsoft Azure Government Achieves IL5 Certification",
-          "extracto": "La plataforma Azure Red Hat OpenShift para entornos gubernamentales de Microsoft ha obtenido la certificación de seguridad IL5 del Departamento de Defensa de EE. UU. Esta habilitación permite a agencias públicas y sectores muy regulados gestionar aplicaciones basadas en contenedores a gran escala con mayores garantías de seguridad.",
+          "extracto": "La plataforma conjunta de Red Hat y Microsoft para entornos gubernamentales en la nube obtuvo una certificación de seguridad de nivel cinco otorgada por el Departamento de Defensa estadounidense. Esta habilitación permite que agencias oficiales y sectores altamente regulados utilicen el servicio para gestionar aplicaciones contenerizadas a gran escala.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27174,24 +27209,6 @@
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsofts-ceo-calls-ai-kill-152000759.html?.tsrc=rss",
           "fecha": "2026-09-24T15:20:00+00:00"
-        },
-        {
-          "titular": "OpenAI and Anthropic Almost Agreed to Test Each Other’s AI. Then the Deal Quietly Died.",
-          "extracto": "OpenAI y Anthropic cancelaron un acuerdo avanzado para evaluar mutuamente sus modelos de inteligencia artificial antes de firmar los contratos. Este colapso pone en evidencia las dificultades estructurales que enfrentan los pactos de seguridad voluntarios en el sector tecnológico.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/09/24/openai-and-anthropic-almost-agreed-to-test-each-others-ai-then-the-deal-quietly-died/?.tsrc=rss",
-          "fecha": "2026-09-24T15:08:28+00:00"
-        },
-        {
-          "titular": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
-          "extracto": "Fabian Hedin, cofundador de la plataforma Lovable, informó que las aplicaciones desarrolladas mediante su herramienta alcanzan aproximadamente mil millones de visualizaciones mensuales. Esta cifra refleja el impacto y la adopción masiva de su tecnología de creación de software.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/lovable-annualized-revenue-crosses-600m-144325228.html?.tsrc=rss",
-          "fecha": "2026-09-24T14:43:25+00:00"
         }
       ],
       "fundamentales": {
@@ -27767,8 +27784,8 @@
       "_segmentos_accession": "0001193125-26-323632",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 3694802.92541178,
-        "enterprise_value_musd": 3714161.92541178,
+        "market_cap_musd": 3697401.86633363,
+        "enterprise_value_musd": 3716760.86633363,
         "deuda_neta_musd": 19359.0,
         "deuda_neta_ebitda": 0.10213836876177211,
         "deuda_patrimonio": 0.09,
@@ -27778,15 +27795,15 @@
         "roe_pct": 30.233483352811003,
         "roic_pct": 33.61956573527437,
         "roce_pct": 26.331394569765802,
-        "pe": 27.704899777282854,
-        "ev_ingresos": 11.192662482142786,
-        "ev_ebitda": 19.59597295204514,
-        "p_vl": 8.351969939016698,
-        "dividend_yield_pct": 0.7315406567788095,
+        "pe": 27.72438752783965,
+        "ev_ingresos": 11.200494415465421,
+        "ev_ebitda": 19.60968500257802,
+        "p_vl": 8.357844752069184,
+        "dividend_yield_pct": 0.7310264495009339,
         "payout_ratio_pct": 20.26726057906459,
         "maximo_52s": 542.07,
         "minimo_52s": 352.83,
-        "beta": 0.9871453909178559
+        "beta": 0.987147567512989
       },
       "tesis": [
         {
@@ -27826,14 +27843,10 @@
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 707.36,
-      "var_dia_pct": -0.0339,
+      "precio": 706.99,
+      "var_dia_pct": -0.0862,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-08-25T20:00:00",
-            "valor": 704.02
-          },
           {
             "fecha": "2026-08-25T21:00:00",
             "valor": 704.02
@@ -28829,6 +28842,10 @@
           {
             "fecha": "2026-09-24T19:00:00",
             "valor": 707.36
+          },
+          {
+            "fecha": "2026-09-24T20:00:00",
+            "valor": 706.99
           }
         ],
         "6M": [
@@ -29378,7 +29395,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 707.36
+            "valor": 706.99
           }
         ],
         "YTD": [
@@ -30164,7 +30181,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 707.36
+            "valor": 706.99
           }
         ],
         "1A": [
@@ -31222,7 +31239,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 707.36
+            "valor": 706.99
           }
         ],
         "5A": [
@@ -32268,7 +32285,7 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 707.36
+            "valor": 706.99
           }
         ],
         "10A": [
@@ -34358,14 +34375,14 @@
           },
           {
             "fecha": "2026-09-24",
-            "valor": 707.36
+            "valor": 706.99
           }
         ]
       },
       "noticias": [
         {
           "titular": "VOO’s 0.03% Fee Hides a Costlier Truth: 38% in One Sector and a Tax Bill on Dividends You Reinvested",
-          "extracto": "A pesar de sus bajas comisiones aparentes, el fondo VOO de Vanguard genera costos ocultos mediante una alta concentración sectorial y obligaciones fiscales trimestrales sobre los dividendos. Estos factores pueden afectar el rendimiento neto de los inversores a largo plazo.",
+          "extracto": "A pesar de sus bajas comisiones, el fondo VOO de Vanguard genera costos ocultos mediante una alta concentración en el sector tecnológico y obligaciones fiscales trimestrales sobre los dividendos. Esto afecta a los inversionistas incluso si no retiran sus ganancias.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34374,7 +34391,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: State Street Now Sells the Same 500 Stocks for a Third Less",
-          "extracto": "El fondo S&P 500 más popular de Vanguard ahora enfrenta competencia que ofrece comisiones más bajas por replicar exactamente las mismas acciones. Esto cuestiona la reputación histórica de la gestora en cuanto a ofrecer los precios más reducidos del mercado.",
+          "extracto": "El fondo S&P 500 más popular de Vanguard ha incrementado sus tarifas en comparación con competidores directos que ofrecen la misma cartera de acciones. Esto cuestiona la tradicional ventaja de bajo costo de la institución.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34383,7 +34400,7 @@
         },
         {
           "titular": "VOO and SPYM Track the Same S&P 500, Yet Only One Is Allowed in Your Kid’s Trump Account",
-          "extracto": "A pesar de tener costos casi idénticos, VOO y otro fondo que sigue al S&P 500 recibieron un trato diferente por parte del gobierno en las nuevas cuentas federales de ahorro para niños. Esta exclusión burocrática obliga a los padres a replantearse sus decisiones de inversión.",
+          "extracto": "A pesar de seguir el mismo índice bursátil, un fondo fue excluido por regulaciones gubernamentales de las nuevas cuentas de ahorros infantiles federales. Esta distinción burocrática obliga a los padres a replantearse sus opciones de inversión.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34392,7 +34409,7 @@
         },
         {
           "titular": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO) in September",
-          "extracto": "Aunque el índice S&P 500 ha demostrado ser rentable a largo plazo, los expertos aconsejan a los inversores familiarizarse con detalles fundamentales antes de comprometer su capital. Comprender el funcionamiento del índice ayuda a mitigar riesgos innecesarios.",
+          "extracto": "Aunque el índice S&P 500 ha demostrado ser rentable a largo plazo, los analistas aconsejan a los inversionistas estudiar detenidamente sus características antes de comprometer su capital.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34401,7 +34418,7 @@
         },
         {
           "titular": "Investing $150 per Month in This S&P 500 ETF Could Grow Into $300,000 Over 30 Years. Here's the Math.",
-          "extracto": "Mantener una estrategia de inversión constante permite que el horizonte temporal maximice los beneficios potenciales de forma automática. La disciplina financiera suele ser el factor más determinante para alcanzar el éxito a largo plazo.",
+          "extracto": "Los expertos recomiendan mantener la disciplina en las inversiones y permitir que el horizonte temporal maximice los rendimientos de forma sostenida.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34416,20 +34433,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 707.44,
-        "var_dia_pct": -0.0226
+        "precio": 706.99,
+        "var_dia_pct": -0.0862
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 741.02,
-        "var_dia_pct": -0.0256
+        "precio": 741.1,
+        "var_dia_pct": -0.0148
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 378.21,
-        "var_dia_pct": -0.0053
+        "precio": 378.08,
+        "var_dia_pct": -0.0397
       }
     ],
     "chile": {
