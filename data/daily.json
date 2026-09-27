@@ -1,11 +1,13 @@
 {
-  "generado": "2026-09-27T01:32:31.305279+00:00",
-  "errores": [],
+  "generado": "2026-09-27T08:18:30.429340+00:00",
+  "errores": [
+    "Reuters: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Modificación de las normas de consumo de combustible para vehículos en Estados Unidos",
-        "resumen": "El presidente de Estados Unidos anunció su intención de eliminar una normativa orientada a fomentar el uso de vehículos eléctricos. Esta medida busca reducir los estándares federales sobre el consumo de combustible en el sector automotor.",
+        "titulo_neutral": "Trump says he is rolling back Biden-era US fuel economy rules for cars",
+        "resumen": "El presidente de Estados Unidos anunció la anulación de las normativas gubernamentales que orientaban a los compradores hacia la adquisición de automóviles eléctricos.",
         "articulos": [
           {
             "titular": "Trump says he is rolling back Biden-era US fuel economy rules for cars",
@@ -15,52 +17,19 @@
             "lean": "sin-clasificar",
             "url": "https://www.aljazeera.com/news/2026/9/26/trump-says-he-is-rolling-back-biden-era-us-fuel-economy-rules-for-cars?traffic_source=rss",
             "fecha": "2026-09-26T21:51:56+00:00"
-          },
-          {
-            "titular": "US to finalize sharply lower vehicle fuel economy standards - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVBRNVl3X3FfSjZmOTlqUEZsS0RlN2ZkQnU3cF9oSVA3SVhaUFVKdC1saW1UQ3hKQk5FUHpfUjE2MERFLXVyQU8zRktURUxjVnVzMHk4a3RlV2FKaUNITWxBWmsxdUxTd2VyNngtZzZHeWpfNGd1OXVldFhwMlRRbkFOOEJFSnBYbkZpV1BJUk05N0ZRUzdVYzMtVHBTbUxtbnNrYWJxcXBqY1h1QmgzWg?oc=5",
-            "fecha": "2026-09-26T21:25:15+00:00"
           }
         ],
         "leans_presentes": [
-          "sin-clasificar",
-          "centro"
+          "sin-clasificar"
         ],
         "grupos_presentes": [
-          "Al Jazeera",
-          "Reuters"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Reunión y acuerdos comerciales y tecnológicos entre China y Estados Unidos",
-        "resumen": "Durante una visita oficial de Xi Jinping, China y Estados Unidos acordaron entablar un diálogo sobre inteligencia artificial. Asimismo, pactaron la reducción de aranceles mutuos aplicados a un volumen significativo de mercancías.",
-        "articulos": [
-          {
-            "titular": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
-            "fecha": "2026-09-26T19:59:32+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
+          "Al Jazeera"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Ataques aéreos y víctimas entre Rusia y Ucrania",
-        "resumen": "Diversas autoridades confirmaron la muerte de al menos 16 personas en las últimas veinticuatro horas debido a ataques recíprocos con drones y misiles entre Rusia y Ucrania. La Organización de las Naciones Unidas advirtió sobre el incremento constante de bajas civiles a raíz de la intensificación de las ofensivas contra infraestructura crítica.",
+        "titulo_neutral": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
+        "resumen": "Al menos dieciséis personas perdieron la vida en las últimas horas debido a un intercambio de ataques con drones y misiles entre Rusia y Ucrania. Ante esta situación, las Naciones Unidas han advertido sobre el incremento de bajas civiles provocado por el uso intensivo de armamento de largo alcance contra infraestructuras críticas.",
         "articulos": [
           {
             "titular": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
@@ -81,52 +50,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones del Banco Nacional Suizo sobre la inflación de los alimentos",
-        "resumen": "El presidente del Banco Nacional Suizo, Martin Schlegel, expresó su atención ante el impacto potencial de las altas temperaturas en la inflación de los alimentos. Este seguimiento busca anticipar presiones inflacionarias derivadas de fenómenos meteorológicos adversos en los mercados agrícolas.",
-        "articulos": [
-          {
-            "titular": "Swiss National Bank's Schlegel watching hot weather impact on food price inflation - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVZxRmhManBvYXUwZ1hXRWZMaXdCV0tuYVh5OHBzWHJhV0g3bTI1bDFVZDlGM1FEZWFYUS1Memk2dW80dTVMYjUtellibHlHYThVQ1ZKczl2eF9WRm1jSzNvSkNfckVFUGlTWkpMZTJSZnU3QnJ6RVl6RWRqWFZjYzJLVUk1NEQ2MWoxTExXenlmM21qV2N5eVRDTXpURVJ5cF85M2RkUUxqTEJfYngzVTZrZHlvSkQ2bVZBbnNWZ3hibTgyX2NuMllRWQ?oc=5",
-            "fecha": "2026-09-26T10:04:20+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Conversaciones de venta de Monzo a Nubank",
-        "resumen": "Según informes de medios especializados, la plataforma financiera Monzo mantiene negociaciones avanzadas para ser adquirida por la entidad brasileña Nubank. La posible transacción se propendría bajo una valoración cercana a los diez mil millones de libras esterlinas.",
-        "articulos": [
-          {
-            "titular": "Monzo in talks on sale to Nubank at about £10 billion valuation, Sky News reports - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlZOSndNUERhOHFVb2JQc0ZDaDk4QlVaZVFVNC1VWFJCN0NiSjRlcVFuWXVOQjRpRTZmc1Q1b3dOWWlvdHhNMm5CbFFuWTdicUhERmZOaDA1djloc1hlUzl4VFpJMXdkbFBOLW93RjNGbkVSQ0VxXzVUcW4zVF93YXcwYk9yOWpORWVUQXNXVmxmNzhsUFJfNVlvTkZQTVVvMjBGT1JCX2ZjSjhRUGFIanc2d1JOUlY5el9ESw?oc=5",
-            "fecha": "2026-09-26T09:24:58+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Negociaciones y tregua comercial entre Estados Unidos y China",
-        "resumen": "Los líderes de Estados Unidos y China preparan conversaciones para prolongar su tregua comercial en medio de tensiones globales. Paralelamente, los costos de transporte marítimo de petróleo han alcanzado máximos históricos debido a las perturbaciones logísticas provocadas por conflictos regionales.",
+        "titulo_neutral": "Will Trump and Xi extend their trade truce?",
+        "resumen": "Los líderes de Estados Unidos y China preparan reuniones clave para abordar el futuro de sus relaciones comerciales, mientras los costes del transporte marítimo de petróleo registran máximos históricos debido al conflicto en Oriente Medio. Además, figuras financieras internacionales buscan adquirir los activos extranjeros de la petrolera rusa Lukoil con respaldo político.",
         "articulos": [
           {
             "titular": "Will Trump and Xi extend their trade truce?",
@@ -148,7 +73,7 @@
       },
       {
         "titulo_neutral": "Decisiones y expectativas sobre las tasas de interés de la Reserva Federal",
-        "resumen": "La Reserva Federal estadounidense implementó su primer incremento de tipos de interés desde 2023 en un contexto marcado por tensiones inflacionarias derivadas de la volatilidad energética. Por su parte, las autoridades europeas solicitaron a China moderar sus exportaciones de vehículos híbridos para prevenir disputas comerciales.",
+        "resumen": "La Reserva Federal incrementó los tipos de interés por primera vez desde 2023, mientras que la Unión Europea solicitó a Pekín que limite las ventas externas de vehículos híbridos para evitar conflictos comerciales. Paralelamente, los mercados financieros vigilan los efectos económicos derivados de las tensiones en Oriente Medio y la evolución del sector tecnológico.",
         "articulos": [
           {
             "titular": "Fed interest rate rises are back",
@@ -185,6 +110,24 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/hike-or-hold-investors-split-ahead-of-fed-decision",
             "fecha": "2026-07-27T04:00:00+00:00"
+          },
+          {
+            "titular": "Federal Reserve gears up for change",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/federal-reserve-gears-up-for-change",
+            "fecha": "2026-06-18T04:00:00+00:00"
+          },
+          {
+            "titular": "War, inflation and how central banks are handling it all",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/war-inflation-and-how-central-banks-are-handling-it-all",
+            "fecha": "2026-05-01T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -196,8 +139,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Impacto y mercado de la tecnología DeepSeek",
-        "resumen": "La empresa Anthropic decidió no someter su modelo de inteligencia artificial más reciente a las evaluaciones del instituto británico de seguridad antes de su lanzamiento. En paralelo, los precios del petróleo crudo registraron un repunte significativo tras nuevas acciones militares estadounidenses en Oriente Medio.",
+        "titulo_neutral": "DeepSeek mania spawns shadow market",
+        "resumen": "Los precios del crudo se acercaron a los cien dólares por barril tras nuevas acciones militares estadounidenses contra buques petroleros iraníes. En el ámbito tecnológico, el rápido crecimiento de la empresa china DeepSeek ha generado una alta demanda entre los inversores por adquirir participaciones a través de mercados secundarios.",
         "articulos": [
           {
             "titular": "DeepSeek mania spawns shadow market",
@@ -216,12 +159,100 @@
           "Financial Times"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Extended chat: Top US trade official defends Trump’s record",
+        "resumen": "El principal negociador comercial de la administración estadounidense criticó la postura del Reino Unido en materia económica y su alineación con Europa. Las declaraciones se producen en medio de tensiones comerciales globales y preparativos para futuras cumbres diplomáticas con potencias asiáticas.",
+        "articulos": [
+          {
+            "titular": "Extended chat: Top US trade official defends Trump’s record",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/extended-chat-top-us-trade-official-defends-trumps-record",
+            "fecha": "2026-09-05T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Top US trade official reveals ‘problem’ in UK negotiations",
+        "resumen": "Nvidia anunció un acuerdo para adquirir la plataforma de inteligencia artificial Hugging Face por una suma multimillonaria, reflejando el dinamismo del sector tecnológico. Por otro lado, las acciones de Moderna repuntaron favorablemente tras dar a conocer avances clínicos en una vacuna contra el cáncer.",
+        "articulos": [
+          {
+            "titular": "Top US trade official reveals ‘problem’ in UK negotiations",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/top-us-trade-official-reveals-problem-in-uk-negotiations",
+            "fecha": "2026-09-04T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "US Treasury tries to soothe the bond market",
+        "resumen": "La economía estadounidense creó menos puestos de trabajo de los previstos por los analistas durante el mes de junio, situando el crecimiento laboral por debajo de las expectativas de Wall Street. En paralelo, inversores institucionales de fondos de crédito privado han intentado retirar miles de millones de sus posiciones.",
+        "articulos": [
+          {
+            "titular": "US Treasury tries to soothe the bond market",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/us-treasury-tries-to-soothe-the-bond-market",
+            "fecha": "2026-08-20T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
+        "titulo_neutral": "Chile a sotavento",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Chile a sotavento",
+            "extracto": "",
+            "medio": "CIPER",
+            "grupo": "sin fines de lucro",
+            "lean": "no aplica",
+            "url": "https://www.ciperchile.cl/2026/09/26/chile-a-sotavento/?utm_source=rss&utm_medium=rss&utm_campaign=chile-a-sotavento",
+            "fecha": "2026-09-27T02:30:12+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "sin fines de lucro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "La numerosa familia tras Empresas Ariztía… que vuelve a invertir",
-        "resumen": "La empresa familiar Ariztía inició la tramitación para construir una nueva planta procesadora de alimento para aves en la comuna de Cartagena. Este proyecto marca un nuevo hito de inversión para la compañía tras años sin desarrollar planteles productivos de gran envergadura. Además, el holding avícola ha diversificado sus actividades con el desarrollo de un proyecto agrícola dedicado a la producción de paltos.",
+        "resumen": "La empresa familiar Ariztía inició la tramitación para levantar un nuevo complejo enfocado en la producción de alimento para aves en la región de Cartagena. Este movimiento marca una nueva inversión productiva de envergadura para la compañía de alimentos tras varios años enfocados en consolidar su operación tradicional.",
         "articulos": [
           {
             "titular": "La numerosa familia tras Empresas Ariztía… que vuelve a invertir",
@@ -265,7 +296,7 @@
       },
       {
         "titulo_neutral": "A una medalla del récord histórico: Chile culmina su participación en los Juegos Suramericanos en cuarto lugar con 49 oros, 58 platas y 68 bronces",
-        "resumen": "La delegación chilena finalizó su participación en los Juegos Suramericanos Odesur acumulando un total de 175 medallas. Con 49 preseas doradas, el Team Chile rompió marcas históricas de las últimas cuatro décadas. Este desempeño superó de manera significativa los registros obtenidos en la edición previa realizada en Asunción.",
+        "resumen": "La delegación nacional completó su participación en los Juegos Suramericanos obteniendo un total histórico de preseas. Este registro significó superar de manera notable los resultados de ediciones anteriores y alcanzar su cifra más alta de medallas doradas en las últimas cuatro décadas.",
         "articulos": [
           {
             "titular": "A una medalla del récord histórico: Chile culmina su participación en los Juegos Suramericanos en cuarto lugar con 49 oros, 58 platas y 68 bronces",
@@ -331,7 +362,7 @@
       },
       {
         "titulo_neutral": "Homenaje y recepción a Michelle Bachelet en La Pintana",
-        "resumen": "Diversos partidos de oposición preparan un evento masivo en La Pintana para homenajear a la expresidenta Michelle Bachelet. El reconocimiento surge tras su decisión de retirar su candidatura a la secretaría general de las Naciones Unidas. La cita busca destacar su figura en un momento en que se discute el rol articulador que los exmandatarios deben cumplir dentro de la coalición política.",
+        "resumen": "Diversos sectores políticos organizaron un homenaje para la exmandataria Michelle Bachelet en la comuna de La Pintana. El evento busca agradecer su actitud durante su campaña internacional y ocurre mientras se discute la influencia política que los expresidentes deben mantener en el oficialismo.",
         "articulos": [
           {
             "titular": "La agitada próxima semana de Michelle Bachelet: Cumple 75 años y recibirá homenaje en La Pintana",
@@ -382,60 +413,38 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Sebastián Edwards: “Al gobierno le pondría 4,9 y a Quiroz, 5,2”",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Sebastián Edwards: “Al gobierno le pondría 4,9 y a Quiroz, 5,2”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/sebastian-edwards-al-gobierno-le-pondria-4-9-y-a-quiroz-5-2",
-            "fecha": "2026-09-26T19:07:19+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Araghchi ignores Trump, waits for mediators’ response on Hormuz",
+        "titular": "Iceland FM hits back at Netanyahu over ‘moral cowards’ UNGA remark",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/araghchi-ignores-trump-waits-for-mediators-response-on-hormuz?traffic_source=rss",
-        "fecha": "2026-09-27T00:50:31+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/iceland-fm-hits-back-at-netanyahu-over-moral-cowards-unga-remark?traffic_source=rss",
+        "fecha": "2026-09-27T08:05:09+00:00"
       },
       {
-        "titular": "Wild D Brock Faber day-to-day after taking puck to head - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSklObzRmNjNpa3lyby1kaWl5VVFUU3BWSmRNMjByc0lJZXRhLXBMMlczbG04YkEzWDJkbU5KVW5PQ3dTd3FMSF80NktOS0VseV9uZ2tBakhjeVZodlE4TGJwVDFFSTJPczZxeTlWNWhVOHJxY0Q3YUR6bWQ2WUoycHR5X0ZDc0pUWkxIYnhocmZRc0xBSERONGROWUlfRFVUdWc?oc=5",
-        "fecha": "2026-09-27T00:49:00+00:00"
+        "titular": "‘Russian sleeper cell’: Can Germany’s far-right AfD be barred from sensitive intel?",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/europe/20260927-russian-sleeper-cell-can-germany-far-right-afd-be-barred-from-sensitive-intelligence",
+        "fecha": "2026-09-27T08:03:21+00:00"
       },
       {
-        "titular": "Internationals keep upset hopes alive at Presidents Cup - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2NwQ190MnJ6LUlWcHhiSEQxbmpJMktTZmV4YmliWElqSnc5ZEhITVpwcVljQWcwV3JERFkzTGl2MTR1cmQxbXkzR18yaWxnanNGbUI1Q1NlWnAxX0pJMHhuSmg1SGJJQkZzcFl2dFlmcUVTU0c4Um1rcTdmZWx5SkdDR0V6cGtiQk50OFV5MTFKYkZQSFdxX0ItM3gxVXFhUXc?oc=5",
-        "fecha": "2026-09-27T00:11:00+00:00"
-      },
-      {
-        "titular": "Iran war live: Tehran awaits official response as Trump rejects Hormuz plan",
+        "titular": "Photos: Heavy rains and flooding in Bangkok force thousands into shelters",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan?traffic_source=rss",
-        "fecha": "2026-09-27T00:00:00+00:00"
+        "url": "https://www.aljazeera.com/gallery/2026/9/27/heavy-rain-and-flooding-in-bangkok-force-thousands-into-shelters?traffic_source=rss",
+        "fecha": "2026-09-27T07:49:58+00:00"
       },
       {
-        "titular": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with?traffic_source=rss",
-        "fecha": "2026-09-26T23:49:30+00:00"
+        "titular": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-09-27T07:44:11+00:00"
+      },
+      {
+        "titular": "Live: Pope Leo XIV to hold open-air Mass in Lourdes pilgrimage site",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/france/20260927-live-pope-leo-xiv-to-hold-open-air-mass-in-lourdes-pilgrimage-site",
+        "fecha": "2026-09-27T07:44:02+00:00"
       }
     ]
   },
@@ -857,6 +866,10 @@
           },
           {
             "fecha": "2026-09-27T01:00:00",
+            "valor": 235.47
+          },
+          {
+            "fecha": "2026-09-27T08:00:00",
             "valor": 235.47
           }
         ],
@@ -6130,7 +6143,7 @@
       "noticias": [
         {
           "titular": "Adobe Stock And 2 Other AI Stocks To Own",
-          "extracto": "El aumento histórico de las tasas de los bonos del Tesoro a largo plazo coincide con una fuerte inversión corporativa impulsada por la inteligencia artificial. Esta combinación financiera penaliza a las empresas vulnerables y beneficia a las más sólidas.",
+          "extracto": "Los rendimientos de los bonos del Tesoro a largo plazo han alcanzado máximos de 19 años impulsados por un aumento histórico en la inversión en inteligencia artificial. Esta tendencia mantiene fuerte el endeudamiento corporativo a pesar del incremento en los costos del dinero, lo que afecta a las empresas vulnerables y beneficia a las más sólidas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6139,7 +6152,7 @@
         },
         {
           "titular": "Investors Heavily Search Adobe Inc. (ADBE): Here is What You Need to Know",
-          "extracto": "Las acciones de Adobe han generado un alto interés entre los inversores, lo que motiva a analizar las perspectivas futuras de la compañía en el mercado.",
+          "extracto": "Las acciones de Adobe han generado un gran interés entre los inversores recientemente, lo que motiva a analizar sus perspectivas futuras en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6148,7 +6161,7 @@
         },
         {
           "titular": "Prediction: Adobe Stock Trades Back Above $350 Before 2030",
-          "extracto": "",
+          "extracto": "Alcanzar niveles anteriores requiere un rendimiento anualizado moderado, inferior al crecimiento de beneficios que la propia compañía proyecta para este periodo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6157,7 +6170,7 @@
         },
         {
           "titular": "Adobe Stock Slides 18%: Value Play or Falling Knife?",
-          "extracto": "Las acciones de Adobe han registrado una caída significativa desde sus máximos recientes y su comportamiento histórico tras descensos similares muestra resultados mixtos. Además, la empresa está sacrificando parte de su crecimiento a corto plazo para apostar por estrategias gratuitas orientadas a 2027.",
+          "extracto": "Las acciones de Adobe han sufrido una caída significativa desde sus máximos recientes, lo que genera dudas sobre su conveniencia como compra actual. Su comportamiento histórico muestra una probabilidad dividida de recuperación a un año vista, mientras la compañía sacrifica ingresos recurrentes a corto plazo para impulsar una estrategia a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6166,7 +6179,7 @@
         },
         {
           "titular": "Adobe (ADBE) Expands AI Holiday Planning Through A Multi Year Travel Partnership",
-          "extracto": "Adobe firmó una alianza plurianual con Jet2 para implementar inteligencia artificial en la planificación de viajes y estableció un laboratorio conjunto de experiencia del cliente. Este acuerdo se da en un contexto de reducción de precios en los servicios de IA generativa entre los principales proveedores de software.",
+          "extracto": "Adobe ha firmado una alianza plurianual con Jet2 para integrar inteligencia artificial en la planificación de viajes y ha reducido los precios de sus servicios generativos en un mercado altamente competitivo. Estas medidas forman parte de una estrategia más amplia de la compañía en el sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7631,6 +7644,10 @@
           },
           {
             "fecha": "2026-09-27T01:00:00",
+            "valor": 505.48
+          },
+          {
+            "fecha": "2026-09-27T08:00:00",
             "valor": 505.48
           }
         ],
@@ -13187,8 +13204,26 @@
       },
       "noticias": [
         {
+          "titular": "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style",
+          "extracto": "Aunque nunca ha invertido en Nvidia, las características de esta empresa coinciden con los principios tradicionales de inversión del magnate Warren Buffett.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/09/27/3-reasons-why-nvidia-fits-warren-buffetts-investme/?.tsrc=rss",
+          "fecha": "2026-09-27T08:15:00+00:00"
+        },
+        {
+          "titular": "Berkshire investors brace for a harsh dividend reality",
+          "extracto": "La reciente decisión financiera tomada por el ejecutivo Abel podría indicar cuáles son las prioridades actuales de la organización.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.thestreet.com/investing/berkshire-hathaway-greg-abel-365-billion-cash-buybacks-dividend?.tsrc=rss",
+          "fecha": "2026-09-27T02:17:00+00:00"
+        },
+        {
           "titular": "Warren Buffett Helps Berkshire Hathaway Make $848M From Coca-Cola Stock Each Year, Even if the Price Doesn’t Change",
-          "extracto": "El legendario inversor Warren Buffett dejó sus cargos principales en Berkshire Hathaway tras haber preparado una sólida cartera de acciones para el conglomerado. Esta transición marca el fin de una era para la compañía y su estrategia financiera a largo plazo.",
+          "extracto": "Warren Buffett dejó sus cargos principales en Berkshire Hathaway el año pasado, tras haber construido una cartera de acciones diseñada para beneficiar al conglomerado a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13197,7 +13232,7 @@
         },
         {
           "titular": "Berkshire Hathaway Buys More Lennar Stock—and Now Owns 11% of the Homebuilder",
-          "extracto": "El conglomerado Berkshire Hathaway aprovechó la baja cotización bursátil de Lennar para adquirir participaciones en el sector de la construcción de viviendas. Esta maniobra refleja la estrategia habitual de la firma de invertir en empresas con valor deprimido.",
+          "extracto": "El conglomerado Berkshire Hathaway aprovechó la caída en el valor de las acciones de Lennar para adquirir participación en el sector de la construcción de viviendas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13206,30 +13241,12 @@
         },
         {
           "titular": "Greg Abel Personally Bought $68 Million of Berkshire Stock in 2022, Years Before Becoming CEO. Here's Why That Early Bet on Himself Still Matters for Berkshire Shareholders Today.",
-          "extracto": "",
+          "extracto": "Greg Abel demostró su compromiso personal con el negocio al alinear sus propios intereses financieros con los del conglomerado desde el principio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/26/greg-abel-personally-bought-68-million-of-berkshir/?.tsrc=rss",
           "fecha": "2026-09-26T13:35:00+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway (BRK.B) New CEO Greg Abel Wins Charlie Munger Backing",
-          "extracto": "El fallecido vicepresidente de Berkshire Hathaway, Charlie Munger, respaldó públicamente a Greg Abel como el nuevo director ejecutivo del conglomerado, comparando su capacidad de aprendizaje con la de Warren Buffett. Este apoyo valida el liderazgo de Abel basándose en su amplia experiencia previa gestionando las operaciones no aseguradoras de la compañía.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-b-ceo-131015123.html?.tsrc=rss",
-          "fecha": "2026-09-26T13:10:15+00:00"
-        },
-        {
-          "titular": "Most of Berkshire Hathaway's Earnings Don't Come From Its Stock Portfolio. Here's Where They Do Come From.",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/09/26/most-of-berkshire-hathaway-s-earnings-don-t-come-from-its-stock-portfolio-here-s-where-they-do-come-from/?.tsrc=rss",
-          "fecha": "2026-09-26T07:56:01+00:00"
         }
       ],
       "fundamentales": {
@@ -14486,6 +14503,10 @@
           },
           {
             "fecha": "2026-09-27T01:00:00",
+            "valor": 236.5
+          },
+          {
+            "fecha": "2026-09-27T08:00:00",
             "valor": 236.5
           }
         ],
@@ -20042,8 +20063,17 @@
       },
       "noticias": [
         {
+          "titular": "McDonald’s New Investment Plan Signals Long-Term Growth—and a Short-Term Reality Check",
+          "extracto": "McDonald's presentó un nuevo plan de expansión valorado en miles de millones de dólares, el cual contempla la implementación de sistemas operativos basados en inteligencia artificial. Esta estrategia busca modernizar las operaciones de la cadena a nivel global.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/m/ede450d1-fac9-3907-af37-4d79efa9386d/mcdonald%E2%80%99s-new-investment.html?.tsrc=rss",
+          "fecha": "2026-09-27T07:00:00+00:00"
+        },
+        {
           "titular": "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
-          "extracto": "Ray Kroc arriesgó su patrimonio a una edad avanzada para financiar una batidora de malteadas, iniciando un largo camino empresarial que transformó el mercado de la comida rápida. Esta trayectoria refleja los enormes riesgos y el esfuerzo necesarios para construir una de las marcas más conocidas del mundo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20052,7 +20082,7 @@
         },
         {
           "titular": "McDonald's (MCD) Targets 150 Million Infrequent Guests With Tiered Loyalty Program",
-          "extracto": "La cadena McDonald's actualizó su programa de fidelización mediante la integración de beneficios con empresas externas como Uber y Disney+. Esta iniciativa busca incentivar el consumo frecuente entre millones de clientes esporádicos que visitan los restaurantes de forma muy ocasional.",
+          "extracto": "La compañía renovó su programa de lealtad por niveles para recuperar a unos 150 millones de clientes poco frecuentes mediante beneficios asociados con marcas como Uber y Disney+. La iniciativa pretende incentivar visitas más regulares a los establecimientos mediante recompensas personalizadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20061,7 +20091,7 @@
         },
         {
           "titular": "McDonald’s Sell-Off Hits 30% as Big Mac Inflation Spurs Pushback",
-          "extracto": "La corporación McDonald's enfrenta dificultades para repuntar el valor de sus acciones debido a la resistencia de los consumidores de bajos ingresos. Estos clientes consideran que los precios actuales del menú son demasiado elevados para sus presupuestos.",
+          "extracto": "La corporación enfrenta el reto principal de recuperar a los consumidores de bajos ingresos que consideran que los precios actuales del menú son demasiado elevados. Esta situación ha afectado negativamente el valor bursátil de las acciones de la empresa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20070,21 +20100,12 @@
         },
         {
           "titular": "Burger King Is Eating McDonald's Lunch. Here's What the Golden Arches Need to Do Now.",
-          "extracto": "Para recuperar a los compradores que han dejado de asistir a sus establecimientos, la dirección de McDonald's debe analizar las estrategias exitosas implementadas por su competidor Restaurant Brands. Este estudio competitivo es fundamental en la actual disputa por atraer clientes al sector de comida rápida.",
+          "extracto": "Para recuperar el flujo de visitantes en sus locales, la cadena de comida rápida debe analizar y adoptar las estrategias exitosas implementadas por su competidor Restaurant Brands.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/26/burger-king-is-eating-mcdonalds-lunch-heres-what-t/?.tsrc=rss",
           "fecha": "2026-09-26T07:25:00+00:00"
-        },
-        {
-          "titular": "Fed's Kevin Warsh Says 2% Is 'Firm, Fixed Target,' McDonald’s CEO Sees Years of Elevated Inflation — Peter Schiff Asks ‘Who Do You Believe?’",
-          "extracto": "El inversor Peter Schiff cuestionó las proyecciones inflacionarias de la Reserva Federal tras las declaraciones del director ejecutivo de McDonald's. Este último advirtió que la persistente inflación y la reducción del ingreso familiar están afectando negativamente la afluencia de clientes en el sector restaurantero.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/economy/policy/articles/feds-kevin-warsh-says-2-223423535.html?.tsrc=rss",
-          "fecha": "2026-09-25T22:34:23+00:00"
         }
       ],
       "fundamentales": {
@@ -21598,6 +21619,10 @@
           },
           {
             "fecha": "2026-09-27T01:00:00",
+            "valor": 516.17
+          },
+          {
+            "fecha": "2026-09-27T08:00:00",
             "valor": 516.17
           }
         ],
@@ -27154,8 +27179,17 @@
       },
       "noticias": [
         {
+          "titular": "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion",
+          "extracto": "La integración de herramientas ofimáticas completas en el asistente de Microsoft marca la transición de la inteligencia artificial hacia una utilidad cotidiana. Este cambio podría redirigir las inversiones en computación en la nube y afectar la valoración de acciones relacionadas.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-cloud-ai-stocks-retail-041602935.html?.tsrc=rss",
+          "fecha": "2026-09-27T04:16:02+00:00"
+        },
+        {
           "titular": "3 Elite Dividend Stocks Hiding in the Nasdaq-100",
-          "extracto": "A pesar de la fama de crecimiento del Nasdaq-100, ciertas empresas tecnológicas ofrecen sólidos dividendos respaldados por un flujo de caja considerable. Esto desafía la percepción tradicional sobre las inversiones de ingresos dentro de los índices orientados al crecimiento.",
+          "extracto": "Varias empresas del índice Nasdaq-100 combinan el perfil de crecimiento con sólidos flujos de caja libres que respaldan el pago de dividendos. Esto desafía la percepción tradicional de que estas acciones orientadas al crecimiento no generan ingresos significativos por dividendos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27164,7 +27198,7 @@
         },
         {
           "titular": "Microsoft Copilot Is Turning Into An ‘AI Operating System’ — Here’s What It Means For MSFT Stock, According To Oppenheimer’s Brian Schwartz",
-          "extracto": "Un analista financiero señaló en una entrevista televisiva que la introducción del asistente Copilot redefine la posición de Microsoft en el sector tecnológico. La herramienta destaca a la empresa como un competidor clave en la actual competencia por el liderazgo en inteligencia artificial.",
+          "extracto": "Según declaraciones a la CNBC, la reciente presentación de herramientas de inteligencia artificial por parte de Microsoft redefine la percepción del mercado sobre la compañía. Los inversores interpretan este movimiento como un factor clave para identificar a los líderes en el sector tecnológico actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27173,7 +27207,7 @@
         },
         {
           "titular": "Why Microsoft Stock Is Up Today",
-          "extracto": "La compañía tecnológica continúa expandiendo su portafolio comercial mediante el lanzamiento de nuevas herramientas de inteligencia artificial diseñadas para el sector empresarial. Esta estrategia busca consolidar su presencia en el mercado corporativo de servicios digitales avanzados.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27182,21 +27216,12 @@
         },
         {
           "titular": "Should You Buy Microsoft Stock Now That It's Back Within 6% of Its Record?",
-          "extracto": "Tras experimentar una recuperación significativa desde sus niveles mínimos a mitad de año, los analistas evalúan si las acciones de la compañía siguen siendo atractivas para la compra. El debate surge en medio de un contexto de renovado optimismo por sus iniciativas tecnológicas.",
+          "extracto": "Las acciones de una destacada empresa de software han experimentado un repunte significativo desde el mes de junio, lo que genera dudas entre los analistas sobre su atractivo actual de inversión. Se evalúa si el título mantiene su potencial de compra tras este fuerte incremento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/09/25/should-you-buy-microsoft-stock-now-that-it-s-back-within-6-of-its-record/?.tsrc=rss",
           "fecha": "2026-09-26T01:01:01+00:00"
-        },
-        {
-          "titular": "What Is Microsoft (MSFT) Planning With Its $10 Billion Gulf Cloud And AI Push?",
-          "extracto": "Microsoft anunció una inversión superior a los diez mil millones de dólares para desarrollar infraestructura en la nube y de inteligencia artificial en la región del Golfo Pérsico hasta 2030. El proyecto busca mejorar la conectividad local y fomentar las capacidades digitales en colaboración con organizaciones de Oriente Medio.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-planning-10-billion-230941852.html?.tsrc=rss",
-          "fecha": "2026-09-25T23:09:41+00:00"
         }
       ],
       "fundamentales": {
@@ -28797,6 +28822,10 @@
           },
           {
             "fecha": "2026-09-27T01:00:00",
+            "valor": 710.79
+          },
+          {
+            "fecha": "2026-09-27T08:00:00",
             "valor": 710.79
           }
         ],
@@ -34354,7 +34383,7 @@
       "noticias": [
         {
           "titular": "Jack Bogle's 12-word investment rule fuels a trillion-dollar shift",
-          "extracto": "La estrategia de inversión pasiva defendida por el fundador de Vanguard continúa superando sistemáticamente el rendimiento de la gestión activa a lo largo del tiempo.",
+          "extracto": "La estrategia de inversión pasiva promovida por el fundador de Vanguard continúa superando sistemáticamente a la gestión activa de fondos año tras año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34363,7 +34392,7 @@
         },
         {
           "titular": "If I Were 25, I’d Put $300 Per Month Into This 1 ETF and Not Touch It for 40 Years",
-          "extracto": "Aunque parece una estrategia demasiado simplificada, la combinación de aportaciones automáticas y una baja actividad inversora demuestra una rentabilidad muy sólida a largo plazo.",
+          "extracto": "A pesar de parecer una estrategia demasiado simplista, la combinación de compras automatizadas y una baja intervención a lo largo de décadas demuestra una eficacia matemática sobresaliente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34372,7 +34401,7 @@
         },
         {
           "titular": "Is VOO or VTI the Better Long-Term Investment? Here's What History Suggests.",
-          "extracto": "Existe un factor diferenciador fundamental que marca la distancia competitiva entre los dos gigantes principales del sector de los fondos cotizados.",
+          "extracto": "Un factor determinante establece una gran diferencia competitiva entre las dos principales firmas gestoras de fondos cotizados en bolsa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34381,7 +34410,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides a Costlier Truth: 38% in One Sector and a Tax Bill on Dividends You Reinvested",
-          "extracto": "A pesar de sus bajas comisiones, el fondo S&P 500 de Vanguard presenta riesgos por su alta concentración tecnológica y genera obligaciones fiscales trimestrales por los dividendos.",
+          "extracto": "A pesar de sus bajas comisiones, el popular fondo S&P 500 de Vanguard genera obligaciones fiscales trimestrales y presenta una alta concentración en el sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34390,7 +34419,7 @@
         },
         {
           "titular": "VOO’s 0.03% Fee Hides the Real Cost: State Street Now Sells the Same 500 Stocks for a Third Less",
-          "extracto": "A pesar de su histórica filosofía de minimizar costes, el fondo S&P 500 más popular de Vanguard resulta actualmente más caro que algunas opciones competidoras equivalentes.",
+          "extracto": "A pesar de su histórica reputación de ofrecer los costos más bajos, el fondo principal de Vanguard sobre el S&P 500 es actualmente más caro que otros productos competidores idénticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
