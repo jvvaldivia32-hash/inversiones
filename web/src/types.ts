@@ -166,8 +166,11 @@ export interface ReferenciasChile {
   // Sumados 2026-09-30. Opcionales: si el Banco Central no responde esa serie puntual, el
   // recolector conserva el valor anterior o lo omite — nunca inventa uno (mismo criterio
   // de degradación que el resto de referencias.chile).
-  pib?: number;
+  pib?: number; // nivel trimestral, miles de millones de $ encadenados (no se muestra)
+  pib_var_12m?: number; // vs. mismo trimestre del año anterior, la cifra que titula el BCCh
+  pib_periodo?: string; // "T2 2026"
   desocupacion?: number;
+  desocupacion_periodo?: string; // trimestre móvil INE, "may–jul 2026"
   fuente: string;
 }
 

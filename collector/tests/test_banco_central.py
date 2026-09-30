@@ -74,29 +74,75 @@ def test_obtener_valor_error_de_red_devuelve_none(monkeypatch):
     assert banco_central._obtener_valor("F073.UFF.PRE.Z.D") is None
 
 
+def test_obtener_valor_timeout_en_la_lectura_devuelve_none(monkeypatch):
+    # Un timeout a mitad de la lectura llega como TimeoutError pelado, no como URLError —
+    # y main.py no envuelve esta llamada: sin atraparlo tumbaba la corrida entera.
+    monkeypatch.setenv("BCCH_API_KEY", "fake")
+
+    def levantar(url, timeout):
+        raise TimeoutError("The read operation timed out")
+
+    monkeypatch.setattr(banco_central.urllib.request, "urlopen", levantar)
+    assert banco_central._obtener_valor("F073.UFF.PRE.Z.D") is None
+
+
+def _falsas_observaciones(por_codigo):
+    import datetime
+
+    def falso(codigo, dias):
+        return [
+            (datetime.datetime.strptime(f, "%d-%m-%Y").date(), v)
+            for f, v in por_codigo.get(codigo, [])
+        ]
+
+    return falso
+
+
 def test_obtener_referencias_chile_omite_campos_fallidos(monkeypatch):
-    def falso_obtener_valor(codigo, dias=10):
-        return 100.0 if codigo == banco_central.SERIES["uf"] else None
-
-    monkeypatch.setattr(banco_central, "_obtener_valor", falso_obtener_valor)
+    series = {banco_central.SERIES["uf"]: [("12-08-2026", 100.0)]}
+    monkeypatch.setattr(banco_central, "_obtener_observaciones", _falsas_observaciones(series))
     resultado = banco_central.obtener_referencias_chile()
-    assert resultado["uf"] == 100.0
-    assert resultado["fuente"] == "Banco Central de Chile"
-    assert "dolar" not in resultado
-    assert "tpm" not in resultado
+    assert resultado == {"fuente": "Banco Central de Chile", "uf": 100.0}
 
 
-def test_obtener_referencias_chile_pide_pib_con_ventana_trimestral(monkeypatch):
-    # PIB es trimestral (una obs cada ~91 días) — con la ventana default de 45 días
-    # quedaría fuera de rango casi siempre, mismo bug que ya pasó con IPC/IPSA mensuales.
-    llamadas = {}
+def test_pib_variacion_contra_el_mismo_trimestre_del_anio_anterior(monkeypatch):
+    # Datos reales del Banco Central: T2 2026 vs T2 2025 da -0,19%, el "-0,2% anual" que
+    # publicó el Banco Central. Contra el trimestre anterior (T1 2026) daría +0,32%, que
+    # mezcla estacionalidad con crecimiento — por eso se compara con el año anterior.
+    series = {
+        banco_central.SERIES["pib"]: [
+            ("01-04-2025", 53309.877468848),
+            ("01-07-2025", 51876.344987102),
+            ("01-10-2025", 57246.764686601),
+            ("01-01-2026", 53040.1206256171),
+            ("01-04-2026", 53210.5539973709),
+        ]
+    }
+    monkeypatch.setattr(banco_central, "_obtener_observaciones", _falsas_observaciones(series))
+    r = banco_central.obtener_referencias_chile()
+    assert r["pib"] == 53210.5539973709
+    assert r["pib_periodo"] == "T2 2026"
+    assert round(r["pib_var_12m"], 2) == -0.19
 
-    def falso_obtener_valor(codigo, dias=10):
-        llamadas[codigo] = dias
-        return 1.0
 
-    monkeypatch.setattr(banco_central, "_obtener_valor", falso_obtener_valor)
-    banco_central.obtener_referencias_chile()
-    assert llamadas[banco_central.SERIES["pib"]] == 120
-    assert llamadas[banco_central.SERIES["desocupacion"]] == 120
-    assert llamadas[banco_central.SERIES["uf"]] == 45
+def test_pib_sin_el_trimestre_del_anio_anterior_no_inventa_variacion(monkeypatch):
+    series = {banco_central.SERIES["pib"]: [("01-01-2026", 1.0), ("01-04-2026", 2.0)]}
+    monkeypatch.setattr(banco_central, "_obtener_observaciones", _falsas_observaciones(series))
+    r = banco_central.obtener_referencias_chile()
+    assert r["pib"] == 2.0
+    assert "pib_var_12m" not in r
+
+
+def test_desocupacion_trae_el_trimestre_movil_que_termina_en_el_mes(monkeypatch):
+    series = {banco_central.SERIES["desocupacion"]: [("01-07-2026", 9.53)]}
+    monkeypatch.setattr(banco_central, "_obtener_observaciones", _falsas_observaciones(series))
+    r = banco_central.obtener_referencias_chile()
+    assert r["desocupacion"] == 9.53
+    assert r["desocupacion_periodo"] == "may–jul 2026"
+
+
+def test_periodo_trimestre_movil_cruza_el_anio():
+    import datetime
+
+    # ene 2026 = trimestre nov 2025–ene 2026; se rotula con el año del mes final.
+    assert banco_central._periodo_trimestre_movil(datetime.date(2026, 1, 1)) == "nov–ene 2026"

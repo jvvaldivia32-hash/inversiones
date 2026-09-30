@@ -112,9 +112,16 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-09-01)
+## Pendiente (al 2026-09-30)
 
-**Contexto de arranque:** el frente abierto sigue siendo **el throttling de los cron de
+**Arranque rápido — lo último (sesión 29/30-09, ver punto 9 al final):** noticias con
+MarketWatch + Investing.com y sin fútbol; PIB (% anual) y desocupación de Chile en
+Referencias, verificados en vivo y en pantalla. **Esperando de José:** (1) una
+`FRED_API_KEY` para sumar PIB/desempleo de EE.UU.; (2) decir qué alcance quiere para el
+PDF que explica el código; (3) lo del punto 5, que sigue sin mirar. El selector de país
+quedó pospuesto a propósito. Lo de abajo es el contexto de sesiones anteriores.
+
+**Contexto de arranque (al 2026-09-01):** el frente abierto sigue siendo **el throttling de los cron de
 GitHub** (punto 2), que el arreglo del minuto `:17`/`:47` no alcanzó a tapar. El 31-08 José
 reportó que el resumen de Telegram no le llegó en la mañana: era cierto, el cron propio no
 disparó en todo el día. **Esa mitad quedó arreglada** colgando el resumen del recolector
@@ -506,10 +513,42 @@ IPC/IPSA en su momento. `pib` es el nivel trimestral en miles de millones de pes
 encadenados (no un índice, no un %); `desocupacion` es la tasa nacional **no ajustada**
 por estacionalidad (la que titula la prensa, no la desestacionalizada). Verificado en vivo
 contra la API real: `{"uf": 41049.01, "dolar": 969.7, "tpm": 4.5, "ipc_12m": 4.13,
-"ipsa": 11233.09, "pib": 53210.55, "desocupacion": 9.53}`. Suite completa en 245 tests.
-Falta correr el recolector real (próximo `daily.yml`) para confirmar que aparece en
-`data/daily.json` de producción y ver los dos campos nuevos renderizados en el navegador —
-no se verificó en pantalla, solo en el JSON.
+"ipsa": 11233.09, "pib": 53210.55, "desocupacion": 9.53}`.
+
+**Segunda vuelta (misma noche, pedido del usuario: "PIB con su avance, el porcentual").**
+- **PIB ahora se muestra como % anual**, no como nivel: `pib_var_12m` = último trimestre
+  contra el **mismo trimestre del año anterior**, no contra el trimestre previo — la serie
+  es la original sin desestacionalizar, y T2 vs. T1 mezclaría estacionalidad con
+  crecimiento. Verificado contra lo publicado: da −0,19% para T2 2026, y el Banco Central
+  tituló "−0,2% anual" (CNN Chile, Publimetro, XTB coinciden). Si no está el trimestre de
+  hace un año en la ventana (500 días), no se inventa la variación: el campo queda afuera.
+  El nivel (`pib`) sigue en el JSON pero la vista ya no lo muestra — nadie cita el PIB en
+  "miles de millones de pesos encadenados".
+- **Período al lado de cada dato con rezago**: `pib_periodo` ("T2 2026") y
+  `desocupacion_periodo` ("may–jul 2026"). Sin eso se leían como datos de hoy, y en
+  realidad tienen 2-3 meses. Verificado contra boletines del INE que el valor del mes M en
+  la serie del Banco Central es el **trimestre móvil que termina en M** (el 8,33% de
+  "01-02-2026" es el "8,3% dic 2025–feb 2026" del INE).
+- **Bug latente arreglado de paso**: `banco_central.py` atrapaba `URLError` pero no un
+  `TimeoutError` a mitad de la lectura, y `main.py` no envuelve esa llamada — un Banco
+  Central lento habría tumbado la corrida entera (misma trampa que Fase 6 en
+  `yahoo.py`/`edgar.py`/`prices.py`). Ahora atrapa `OSError`. Test nuevo.
+- Refactor mínimo: `_obtener_observaciones()` devuelve `(fecha, valor)` y
+  `_obtener_valor()` se apoya en ella — hacía falta la fecha para el período y la
+  variación.
+- **Verificado en pantalla** (Chrome headless contra `vite` local con los valores reales
+  de la API, 360px y 1440px): "PIB anual −0,2% · T2 2026" y "Desocupación 9,5% · may–jul
+  2026" se ven bien, en gris como el resto del bloque — **sin color de señal** aunque el
+  PIB esté negativo (regla dura del color: el resto de Referencias de Chile tampoco se
+  colorea). Suite en 247 tests.
+- **FRED sin key no sirve**: se probó el CSV público (`fredgraph.csv`) para evitarle a
+  José sacar la key — corta la conexión (HTTP/2 INTERNAL_ERROR) o se cuelga. EE.UU. sigue
+  esperando `FRED_API_KEY`, no hay atajo.
+
+**Visto al revisar la vista y no tocado** (no es de esta sesión, anotado para no
+redescubrirlo): varias historias de Mundo de Reuters salen sin resumen de Gemini y con el
+titular repetido como resumen — es la inconsistencia de Reuters vía Google News ya
+documentada en Fase 3 del plan, no algo nuevo.
 
 **PIB y desempleo de EE.UU. — solo investigado, no implementado.** La fuente es FRED
 (gratis), pero necesita una API key nueva (`FRED_API_KEY`) que José tiene que sacar él

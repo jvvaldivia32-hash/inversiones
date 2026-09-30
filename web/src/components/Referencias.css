@@ -49,3 +49,10 @@
   margin: 0;
   font-size: var(--texto-14);
 }
+
+/* PIB y desocupación llegan con meses de rezago — sin el período se leerían como de hoy. */
+.referencias-periodo {
+  display: block;
+  font-size: var(--texto-12);
+  color: var(--tinta-suave);
+}

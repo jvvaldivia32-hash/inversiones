@@ -374,6 +374,13 @@ con ~2 meses de rezago sobre la fecha de hoy — ambos usan una ventana de 120 d
 (con 45 días `desocupacion` volvía vacío en silencio, mismo síntoma que IPC/IPSA en su
 momento).
 
+Cómo se muestran (Referencias): el PIB **no** como nivel sino como variación anual
+(`pib_var_12m`, último trimestre vs. el mismo trimestre del año anterior — la serie no está
+desestacionalizada; es la cifra que titula el Banco Central, T2 2026 = −0,2%), y ambos
+con su período al lado (`pib_periodo` "T2 2026", `desocupacion_periodo` "may–jul 2026",
+trimestre móvil del INE que termina en el mes de la observación), porque llegan con 2-3
+meses de rezago y sin período se leerían como datos de hoy.
+
 `SearchSeries` (búsqueda por texto libre en la API) resultó no funcional al verificar esto
 —cualquier `frase` devuelve 0 resultados o un error de `FrequencyCode` aunque el parámetro
 esté bien formado— así que estos dos códigos se encontraron por búsqueda web de ejemplos
