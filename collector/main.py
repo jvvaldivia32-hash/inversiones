@@ -5,6 +5,7 @@ from pathlib import Path
 
 import alertas
 import resumen_telegram
+import riesgo_retorno
 import historico
 import noticias
 import tesis
@@ -245,6 +246,7 @@ def construir_posiciones(
             "precio": precio,
             "var_dia_pct": cotizaciones[ticker]["var_dia_pct"],
             "serie_precio": historico.derivar_rangos(hist_ticker, ahora),
+            "riesgo_retorno": riesgo_retorno.calcular(hist_ticker, ahora),
             "noticias": noticias.noticias_ticker(ticker),
         }
 

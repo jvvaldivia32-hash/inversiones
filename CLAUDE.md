@@ -629,6 +629,35 @@ verificado en un `workflow_dispatch` real.
   "Vercel Authentication" en las URLs por-deploy — para probar `/api/*` de verdad hace
   falta la URL de producción, que no está en el repo.
 
+**Materia de Macro/Finanzas II aplicada (30-09).** José: "las que sean realmente útiles, a
+tu pensar… algún día lo podría usar más gente, así que nada inútil". Criterio usado: que le
+sirva a cualquier usuario, no solo a quien estudia la materia. Se revisaron sus apuntes
+(Macro caps. 1-7 y 12; Finanzas II temas 1-3) contra lo que la app ya tenía (beta,
+ROE/ROIC, márgenes, múltiplos).
+- **Hecho — riesgo y retorno por acción** (`collector/riesgo_retorno.py` →
+  `posicion.riesgo_retorno` → `RiesgoRetorno.tsx`, bajo el gráfico con la card abierta):
+  retorno anual **geométrico** (CAGR) a 1/3/5/10A, volatilidad anual (retornos diarios
+  log del último año × √252) y caída máxima 5A. Solo precio, sin dividendos (lo dice la
+  vista). Se sacan sábados y domingos antes de calcular: el recolector corre también el
+  fin de semana y repite el cierre del viernes, y esos 0% bajaban la volatilidad ~17%.
+  **Verificado contra un control independiente** (serie diaria completa de Yahoo):
+  volatilidad idéntica (VOO 13,0%, MSFT 32,4%), CAGR a décimas; la caída máxima sale 1-2
+  pts más suave (MSFT −35,5% vs −37,6%) porque antes de 2 años el historial es semanal —
+  dicho en la definición del Diccionario, no escondido. Sin color (regla dura). 6 tests.
+- **Hecho — tasa real de Chile** (Fisher, Macro cap. 5): TPM − IPC 12m, calculada en
+  `Referencias.tsx` con datos que ya estaban. Hoy +0,4%. Es la versión ex post.
+- **Diccionario**: 4 entradas nuevas (retorno anual, volatilidad, caída máxima, tasa real),
+  escritas para alguien que no estudió finanzas.
+- **No hecho, a propósito**: cartera como portafolio (σ/beta/correlaciones — sirve más
+  cuando José use "Mi inversión" de verdad; retomarlo entonces), Imacec (repite el PIB en
+  Referencias), Sharpe y CAPM (necesitan Rf de EE.UU. → `FRED_API_KEY`; además CAPM con
+  alfa/SML o portafolio tangente es consejo encubierto, choca con la regla del Radar —
+  **preguntar antes**).
+- **BYD**: José dijo que si BYDDY "es lo mismo, me da igual". Se le explicó que es la
+  misma empresa pero otro papel (ADR en EE.UU., en dólares, que replica las acciones de
+  Hong Kong; precio no comparable con 002594 de Shenzhen). Se reemplazó en la watchlist
+  (commit `3997ea3`). Sin fundamentales: no reporta a la SEC, igual que SQM.
+
 - Hallazgo útil al escribirlo: el visor **importa `daily.json` al compilar**
   (`web/scripts/sync-data.mjs`), así que "la app muestra un dato viejo" puede ser el
   recolector **o** un deploy de Vercel fallido. Quedó como primera bifurcación de la guía.

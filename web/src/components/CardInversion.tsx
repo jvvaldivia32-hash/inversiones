@@ -6,6 +6,7 @@ import Semaforo from "./Semaforo";
 import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
+import RiesgoRetorno from "./RiesgoRetorno";
 import SenalMetrica from "./SenalMetrica";
 import FormularioTesis from "./FormularioTesis";
 import MiInversion, { calcularEnVivo, type MiInversionResumen } from "./MiInversion";
@@ -306,6 +307,10 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
             </button>
           ))}
         </div>
+      )}
+
+      {expandida && posicion.riesgo_retorno && (
+        <RiesgoRetorno datos={posicion.riesgo_retorno} />
       )}
 
       <ul className="card-inversion-titulares">

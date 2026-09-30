@@ -128,12 +128,21 @@ export interface Tesis {
   lecturas: LecturaTesis[];
 }
 
+// Del historial de precios guardado (collector/riesgo_retorno.py). Todo sobre el precio,
+// sin dividendos. Cada campo puede faltar si no hay historia suficiente — nunca se inventa.
+export interface RiesgoRetorno {
+  retorno_anual_pct?: Partial<Record<"1A" | "3A" | "5A" | "10A", number>>; // geométrico (CAGR)
+  volatilidad_anual_pct?: number; // último año, retornos diarios × √252
+  caida_maxima_5a_pct?: number; // negativo: peor baja desde un máximo previo
+}
+
 export interface Posicion {
   ticker: string;
   nombre: string;
   precio: number;
   var_dia_pct: number;
   serie_precio: SeriePrecio;
+  riesgo_retorno?: RiesgoRetorno | null;
   // Todo lo de acá abajo llega en fases posteriores (fundamentales en Fase 4, tesis en
   // Fase 7, noticias en Fase 2/3) — hasta entonces la card solo tiene precio real.
   var_ano_pct?: number;

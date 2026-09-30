@@ -215,12 +215,13 @@ que llama a los demás), <b>fuentes</b> (cada uno habla con una sola API externa
 <tr><td><code>noticias.py</code></td><td>Qué noticia va en Mundo, Chile o Actualidad. Las perillas están arriba del archivo: <code>MUNDO_MAX</code>/<code>CHILE_MAX</code> (8 historias), <code>PALABRAS_ECONOMIA</code>, <code>PALABRAS_DEPORTES</code>, <code>MEDIOS_SIEMPRE_ECONOMICOS</code>, <code>MAX_POR_MEDIO</code> (4). Si Gemini falla, agrupa por palabras (peor, pero funciona).</td></tr>
 <tr><td><code>alertas.py</code></td><td>Aviso de ±5% (<code>UMBRAL_PCT</code>). Anti-duplicado por día de Nueva York: solo repite si se mueve otro 5% entero o cambia de signo. Estado en <code>data/alertas_enviadas.json</code>.</td></tr>
 <tr><td><code>historico.py</code></td><td>Guarda precios en 3 tramos: horario los últimos 45 días, diario hasta 2 años, semanal hasta 10 años. Arma los rangos 1M…10A del gráfico.</td></tr>
+<tr><td><code>riesgo_retorno.py</code></td><td>Retorno anual (geométrico) a 1/3/5/10 años, volatilidad anual y caída máxima de 5 años, calculados del historial guardado. Descarta sábados y domingos (el recolector repite ahí el cierre del viernes y bajarían la volatilidad).</td></tr>
 <tr><td><code>tesis.py</code></td><td>Semáforo de tus tesis (verde/ámbar/rojo) cuando sale un reporte nuevo. Nunca cambia umbrales: la tesis es inmutable.</td></tr>
 <tr><td><code>radar.py</code> + <code>universo_radar.py</code></td><td>Criterios "castigada"/"sana" y la lista de ~80 empresas que se evalúan.</td></tr>
 <tr><td><code>medios.py</code></td><td>Sesgo de cada medio (centro, centro-derecha…) según ratings públicos; medios chilenos, por propietario. Nunca inventa un sesgo.</td></tr>
 <tr><td><code>watchlist.py</code>, <code>env.py</code>, <code>formato.py</code></td><td>Leer <code>watchlist.txt</code>; cargar llaves desde <code>.env</code> local; escribir números a la chilena (1.234,56).</td></tr>
 </table>
-<p class="pie"><code>collector/tests/</code>: 249 pruebas automáticas. Cada archivo <code>test_X.py</code> prueba el <code>X.py</code> correspondiente.
+<p class="pie"><code>collector/tests/</code>: 258 pruebas automáticas. Cada archivo <code>test_X.py</code> prueba el <code>X.py</code> correspondiente.
 Si un cambio rompe algo conocido, lo cazan antes de subirlo.</p>
 </div>
 
@@ -290,10 +291,11 @@ Si los commits se cortan a cierta hora, el recolector dejó de correr desde ese 
 <tr><th style="width:30%">Archivo</th><th>Qué es</th></tr>
 <tr><td><code>App.tsx</code></td><td>La página entera. Importa <code>daily.json</code>, pide tu watchlist y "mi inversión" a <code>/api</code> y decide qué vista mostrar: Hoy, Inversión, Simulador, Diccionario u Otros.</td></tr>
 <tr><td><code>types.ts</code></td><td>El "contrato": qué forma tiene cada parte de <code>daily.json</code>. Si el recolector cambia un nombre de campo y esto no, se rompe.</td></tr>
-<tr><td><code>components/Referencias.tsx</code></td><td>Bloque de arriba: VOO/QQQ/VTI, IPSA, UF, dólar, TPM, IPC, PIB y desocupación.</td></tr>
+<tr><td><code>components/Referencias.tsx</code></td><td>Bloque de arriba: VOO/QQQ/VTI, IPSA, UF, dólar, TPM, IPC, tasa real (TPM − IPC, calculada aquí mismo), PIB y desocupación.</td></tr>
 <tr><td><code>Historia.tsx</code>, <code>Actualidad.tsx</code></td><td>Noticias agrupadas (con "cobertura de una sola fuente") y la barra lateral.</td></tr>
 <tr><td><code>CardInversion.tsx</code> (la más grande)</td><td>La card de cada acción: HOY / TU POSICIÓN, gráfico, fundamentales, segmentos, métricas avanzadas, tesis y "mi inversión".</td></tr>
 <tr><td><code>GraficoPrecio.tsx</code></td><td>El gráfico (1M…10A, "comparar con…").</td></tr>
+<tr><td><code>RiesgoRetorno.tsx</code></td><td>Bajo el gráfico, con la card abierta: retorno anual, volatilidad y caída máxima.</td></tr>
 <tr><td><code>TablaFundamentales.tsx</code>, <code>MetricasAvanzadas.tsx</code>, <code>SenalMetrica.tsx</code></td><td>Tablas y los puntitos de color por métrica (los umbrales están en <code>lib/referenciasMetricas.ts</code>).</td></tr>
 <tr><td><code>FormularioTesis.tsx</code>, <code>Semaforo.tsx</code></td><td>Escribir una tesis y ver su semáforo.</td></tr>
 <tr><td><code>MiInversion.tsx</code></td><td>Comprar, vender o editar tus posiciones reales (usa <code>/api/mi-inversion</code>).</td></tr>
@@ -416,7 +418,7 @@ lo primero es revisar si venció el token (GitHub → Settings → Developer set
 <pre>gh run list --workflow=daily.yml --limit 10     # últimos runs del recolector
 gh run view &lt;ID&gt; --log-failed                  # solo la parte que falló de un run
 gh workflow run daily.yml                       # correr el recolector ahora
-cd collector &amp;&amp; .venv/bin/python -m pytest tests/ -q   # las 249 pruebas</pre>
+cd collector &amp;&amp; .venv/bin/python -m pytest tests/ -q   # las 258 pruebas</pre>
 <div class="caja alerta"><b class="t">Ojo al correr el recolector en tu PC</b>
 <p><code>python collector/main.py</code> funciona localmente con las llaves de <code>.env</code>, pero <b>sobrescribe los archivos de <code>data/</code></b> de tu copia local.
 No es grave (el siguiente <code>git pull</code> los reemplaza), pero no hagas commit de esos archivos a mano.</p></div>

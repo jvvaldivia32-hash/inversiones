@@ -50,6 +50,13 @@ export default function Referencias({ referencias }: { referencias: ReferenciasT
             <Cifra valor={`${formatNumeroCL(chile.ipc_12m, 1)}%`} fuente={chile.fuente} />
           </dd>
         </div>
+        <div>
+          <dt>Tasa real</dt>
+          <dd>
+            <Cifra valor={formatPct(chile.tpm - chile.ipc_12m)} fuente={chile.fuente} />
+            <span className="referencias-periodo">TPM − IPC 12m</span>
+          </dd>
+        </div>
         {chile.pib_var_12m !== undefined && (
           <div>
             <dt>PIB anual</dt>

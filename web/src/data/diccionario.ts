@@ -281,4 +281,28 @@ export const DICCIONARIO: EntradaDiccionario[] = [
       "Qué tan fuerte se mueve el precio de la acción comparado con el mercado (acá, VOO — el ETF del S&P 500), calculado por el propio proyecto vía regresión contra su histórico de precios, no comprado a un proveedor. Un beta de 1,5 significa que, históricamente, cuando VOO sube o baja 1%, esta acción se mueve alrededor de 1,5% en la misma dirección — más volátil que el mercado. Bajo 1, se mueve menos.",
     campoMetricaAvanzada: "beta",
   },
+  {
+    id: "retorno-anual",
+    termino: "Retorno anual (1A, 3A, 5A, 10A)",
+    definicion:
+      "Cuánto creció el precio en promedio cada año durante ese período, como si hubiera crecido a ritmo parejo (el 'promedio geométrico' o CAGR). Es el número honesto para comparar: el promedio simple de los retornos de cada año siempre sale igual o más alto que lo que de verdad creció la plata, porque las caídas pesan más de lo que parece (bajar 50% y subir 50% no te deja igual, te deja en −25%). Ojo: es solo el precio, sin dividendos — en algo como VOO o McDonald's el retorno total real es algo mayor.",
+  },
+  {
+    id: "volatilidad",
+    termino: "Volatilidad anual",
+    definicion:
+      "Qué tanto se mueve el precio de un día para otro, llevado a escala de un año (la desviación estándar de los retornos diarios del último año, por √252 días hábiles). Una volatilidad de 30% quiere decir que en un año normal no es raro que el precio termine unos 30% arriba o abajo de su tendencia. No dice si la acción es buena o mala: dice cuánto te vas a tener que aguantar los vaivenes.",
+  },
+  {
+    id: "caida-maxima",
+    termino: "Caída máxima (5 años)",
+    definicion:
+      "La peor baja que tuvo el precio en los últimos 5 años, medida desde un máximo hasta el mínimo que vino después. Responde '¿cuánto habría llegado a perder en el peor momento si compraba en el peor día?'. Es aproximada: antes de los últimos 2 años el historial guarda un precio por semana, así que puede quedar 1-2 puntos más suave que la caída exacta día a día.",
+  },
+  {
+    id: "tasa-real",
+    termino: "Tasa real",
+    definicion:
+      "La tasa de interés descontada la inflación: aproximadamente, tasa nominal menos inflación (el 'efecto Fisher'). Acá se calcula como la TPM del Banco Central menos el IPC de los últimos 12 meses. Si es positiva, el interés le gana a la inflación y ahorrar en pesos rinde en poder de compra; si es negativa, la plata guardada pierde valor aunque 'gane intereses'. Es la versión 'ex post' (con la inflación que ya pasó), no la esperada.",
+  },
 ];
