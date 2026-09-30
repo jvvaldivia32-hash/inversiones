@@ -84,3 +84,19 @@ def test_obtener_referencias_chile_omite_campos_fallidos(monkeypatch):
     assert resultado["fuente"] == "Banco Central de Chile"
     assert "dolar" not in resultado
     assert "tpm" not in resultado
+
+
+def test_obtener_referencias_chile_pide_pib_con_ventana_trimestral(monkeypatch):
+    # PIB es trimestral (una obs cada ~91 días) — con la ventana default de 45 días
+    # quedaría fuera de rango casi siempre, mismo bug que ya pasó con IPC/IPSA mensuales.
+    llamadas = {}
+
+    def falso_obtener_valor(codigo, dias=10):
+        llamadas[codigo] = dias
+        return 1.0
+
+    monkeypatch.setattr(banco_central, "_obtener_valor", falso_obtener_valor)
+    banco_central.obtener_referencias_chile()
+    assert llamadas[banco_central.SERIES["pib"]] == 120
+    assert llamadas[banco_central.SERIES["desocupacion"]] == 120
+    assert llamadas[banco_central.SERIES["uf"]] == 45

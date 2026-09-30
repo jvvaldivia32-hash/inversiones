@@ -102,6 +102,12 @@ endpoints — no es autenticación real, es el candado mínimo para una app de u
 y el resumen de la mañana; si falta cualquiera de los dos, todo el camino de Telegram es un
 no-op silencioso y el recolector sigue igual — nunca tumba una corrida por un aviso).
 
+**Pendiente, todavía no existe:** `FRED_API_KEY` (Federal Reserve Bank of St. Louis, gratis,
+se saca en fredaccount.stlouisfed.org) — para PIB y desempleo de EE.UU. en Referencias, ver
+`docs/plan-app-inversiones.md` sección 2.7 y el punto 9 de Pendiente más abajo. Sin esta key
+`referencias.usa` no se puede probar ni conectar (misma regla que EDGAR: cliente aislado,
+probado antes de integrar).
+
 Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que solo agrega el
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
@@ -453,3 +459,82 @@ tanto contra `--papel` como contra su propio `*-fondo`.
 **No choca con la regla dura del color**: son los mismos cuatro colores con la misma lectura
 (verde/ámbar/rojo = estado, acento = link y serie principal), aclarados para verse. No se
 agregó ningún color, ni decorativo ni de señal.
+
+### 9. Retomado 2026-09-30 tras casi un mes sin sesión
+
+El repo local estaba parado en el commit del 1-sep (`228ff0d`) — nadie lo había abierto
+desde entonces. El recolector siguió corriendo solo todo ese tiempo: al hacer `git fetch`
+el remoto estaba **272 commits adelante**, todo `schedule` exitoso. Revisado con
+`gh run list`: los últimos 50 runs de `daily.yml` son 100% `schedule`, ninguno
+`workflow_dispatch` — el disparador externo de cron-job.org (punto 2, pausado el 1-sep)
+**nunca se armó**, pero no hizo falta, el cron propio se porta bien solo. No se tocó ese
+punto esta sesión; sigue como estaba, sin urgencia real detrás.
+
+**Noticias — MarketWatch e Investing.com sumados, fútbol sacado de Actualidad.** Pedido
+del usuario: más volumen de mercados/finanzas, menos ruido deportivo (BBC/Al
+Jazeera/France24 meten fútbol en "world news" y no hay forma de pedirles solo lo
+económico). Ambos feeds verificados a mano (curl real, 200 con RSS válido) y su lean
+buscado en Media Bias/Fact Check (MarketWatch centro-derecha, Investing.com centro) antes
+de sumarlos a `LEAN_INTL`. Truco real encontrado: un feed 100% financiero puede tener
+titulares que no matchean ninguna `PALABRA_ECONOMIA` ("Why is Nidec stock surging
+today?") y caían mal clasificados a Actualidad — `_es_economico()` ahora clasifica por
+medio de origen primero (`MEDIOS_SIEMPRE_ECONOMICOS`), por palabra clave después. Filtro
+nuevo `_es_deporte()` saca fútbol de los candidatos a Actualidad antes de recortar al tope
+de 5 (lista de palabras clave, no exhaustiva — si se cuela otro deporte, ampliar la
+lista). Commit `8aef281`.
+
+**Alertas de movimiento fuerte — confirmado que funcionan bien, no era bug.** El usuario
+mostró una captura con INTC avisando −6,0% y después −5,7% "en 2 días" y preguntó si se
+repetía el mismo movimiento. Se verificó contra `data/alertas_enviadas.json` real: 28-sep
+avisó a −6,02%, 29-sep a −5,67% — dos días de mercado distintos, cada uno una caída real
+de más de 5%, el antiduplicado funcionando como debe (reinicia por día NY). INTC no está
+en la watchlist, viene del Radar, así que su precio se pide en vivo a Finnhub cada corrida
+en vez de salir cacheado — vale la pena explicarlo si vuelve a preguntar por qué un
+candidato del Radar "se ve distinto" corrida a corrida.
+
+**PIB y desocupación de Chile — sumados a Referencias, verificados en vivo.** Pedido del
+usuario para poner algo de lo que enseña Macro/Finanzas II en la app. `SearchSeries` de la
+API del Banco Central resultó no funcional (cualquier `frase` da 0 resultados o error de
+`FrequencyCode`), así que los códigos (`F032.PIB.FLU.R.CLP.EP18.Z.Z.0.T` y
+`F049.DES.TAS.INE9.10.M`) salieron de buscar ejemplos públicos de la API por web y se
+verificaron uno por uno contra `GetSeries` con el token real antes de sumarlos — no
+adivinados a ciegas. Encontrado corriendo contra la API real: con la ventana default de 45
+días `desocupacion` volvía vacía en silencio (el INE publica con ~2 meses de rezago) y
+`pib` también habría fallado la mayoría de los días (trimestral, una obs cada ~91 días) —
+ambos subieron a 120 días en `DIAS_POR_CAMPO`, mismo síntoma que ya había atrapado a
+IPC/IPSA en su momento. `pib` es el nivel trimestral en miles de millones de pesos
+encadenados (no un índice, no un %); `desocupacion` es la tasa nacional **no ajustada**
+por estacionalidad (la que titula la prensa, no la desestacionalizada). Verificado en vivo
+contra la API real: `{"uf": 41049.01, "dolar": 969.7, "tpm": 4.5, "ipc_12m": 4.13,
+"ipsa": 11233.09, "pib": 53210.55, "desocupacion": 9.53}`. Suite completa en 245 tests.
+Falta correr el recolector real (próximo `daily.yml`) para confirmar que aparece en
+`data/daily.json` de producción y ver los dos campos nuevos renderizados en el navegador —
+no se verificó en pantalla, solo en el JSON.
+
+**PIB y desempleo de EE.UU. — solo investigado, no implementado.** La fuente es FRED
+(gratis), pero necesita una API key nueva (`FRED_API_KEY`) que José tiene que sacar él
+mismo en fredaccount.stlouisfed.org — no se puede probar ni conectar sin ella (misma
+regla que EDGAR: cliente aislado, probado antes de integrar). Series candidatas anotadas
+en `docs/plan-app-inversiones.md` sección 2.7 (`GDPC1`, `UNRATE`) pero **no verificadas
+contra la API real todavía**. Cuando pase la key: escribir `collector/sources/fred.py` con
+la misma forma que `banco_central.py`, probar los dos IDs contra la API real antes de
+sumarlos a `main.py`.
+
+**Selector de país — decidido explícitamente NO construirlo todavía.** José lo planteó
+pensando en una futura app real (selector de país → PIB/desempleo de ESE país), pero eligió
+sumar solo los datos nuevos por ahora y dejar el selector para cuando de verdad haya 2+
+países con datos reales detrás. No construir el selector "porque total algún día se va a
+necesitar" sin que lo vuelva a pedir explícitamente — evita construir una UI de selección
+para una sola opción real.
+
+**Puntaje/veredicto agregado por ticker — se le explicó qué era, sigue sin implementarse.**
+Preguntó "cómo era" esa idea (punto 6 más abajo). Se le recordó que sigue **prohibida sin
+preguntar primero** por chocar con la regla dura del Radar — no la pidió de nuevo esta
+sesión, solo quería recordar de qué se trataba.
+
+**Pedido y no hecho todavía: un PDF explicando el código.** José dijo que anda "trabajando
+ciegamente" y pidió un PDF que explique qué hace cada parte del código — se le aclaró que
+línea por línea no es realista (miles de líneas entre `collector/` y `web/`), se le
+propuso un "mapa del proyecto" a nivel de módulo, y quedó pendiente que confirme el
+alcance (todo el proyecto vs. solo lo tocado hoy) antes de generarlo. **No armar este PDF
+sin retomar esa conversación primero** — no se resolvió qué alcance quiere.

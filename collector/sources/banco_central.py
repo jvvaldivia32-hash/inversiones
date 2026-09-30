@@ -15,7 +15,22 @@ SERIES = {
     "tpm": "F022.TPM.TIN.D001.NO.Z.D",
     "ipc_12m": "G073.IPC.V12.2023.M",
     "ipsa": "F013.IBC.IND.N.7.LAC.CL.CLP.BLO.M",
+    # Sumados 2026-09-30 (pedido del usuario). PIB: volumen a precios del año anterior
+    # encadenado, referencia 2018, en miles de millones de pesos — no es un índice ni un
+    # % de variación, es el nivel trimestral tal cual lo publica el Banco Central.
+    "pib": "F032.PIB.FLU.R.CLP.EP18.Z.Z.0.T",
+    # Desocupación: tasa nacional, no ajustada por estacionalidad (INE, Encuesta Nacional
+    # de Empleo) — es la cifra que se cita como titular en la prensa, no la desestacionalizada.
+    "desocupacion": "F049.DES.TAS.INE9.10.M",
 }
+
+# `dias` de ventana por campo para _obtener_valor — el default (45) alcanza para series
+# diarias/mensuales de publicación rápida (ver docstring de _obtener_valor), pero PIB
+# (trimestral) y desocupación (INE la publica con ~2 meses de rezago sobre la fecha de
+# hoy, no del mes anterior) necesitan más margen. Encontrado de verdad corriendo contra la
+# API real: con 45 días `desocupacion` volvía vacío en vez de fallar audiblemente, mismo
+# síntoma que ya había pasado con IPC/IPSA.
+DIAS_POR_CAMPO = {"pib": 120, "desocupacion": 120}
 
 
 class BancoCentralError(Exception):
@@ -76,7 +91,7 @@ def obtener_referencias_chile() -> dict:
     valor anterior."""
     resultado = {"fuente": "Banco Central de Chile"}
     for campo, codigo in SERIES.items():
-        valor = _obtener_valor(codigo)
+        valor = _obtener_valor(codigo, dias=DIAS_POR_CAMPO.get(campo, 45))
         if valor is not None:
             resultado[campo] = valor
     return resultado

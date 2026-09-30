@@ -360,14 +360,49 @@ libre en `SearchSeries`, hubo que buscarlos a mano en el buscador del portal):
 | TPM | `F022.TPM.TIN.D001.NO.Z.D` | Diaria |
 | IPC (variación 12 meses) | `G073.IPC.V12.2023.M` | Mensual |
 | IPSA | `F013.IBC.IND.N.7.LAC.CL.CLP.BLO.M` | Mensual |
+| PIB (volumen real, ref. 2018) | `F032.PIB.FLU.R.CLP.EP18.Z.Z.0.T` | Trimestral |
+| Desocupación (tasa nacional, no ajustada, INE) | `F049.DES.TAS.INE9.10.M` | Mensual |
 
 Las series mensuales solo tienen una observación al mes — pedir con una ventana de días
 corta (se probó con 10) puede dejar la última observación fuera de rango y devolver "sin
 dato" en silencio. `collector/sources/banco_central.py` usa una ventana de 45 días para
 evitar justo eso (pasó de verdad en una corrida real: IPSA e IPC volvían el valor inventado
-de Fase 0 en vez de fallar audiblemente).
+de Fase 0 en vez de fallar audiblemente). PIB y desocupación (sumados 2026-09-30) necesitan
+más margen todavía: PIB es trimestral (una obs cada ~91 días) y el INE publica desocupación
+con ~2 meses de rezago sobre la fecha de hoy — ambos usan una ventana de 120 días
+(`DIAS_POR_CAMPO` en el mismo archivo), encontrado de verdad corriendo contra la API real
+(con 45 días `desocupacion` volvía vacío en silencio, mismo síntoma que IPC/IPSA en su
+momento).
+
+`SearchSeries` (búsqueda por texto libre en la API) resultó no funcional al verificar esto
+—cualquier `frase` devuelve 0 resultados o un error de `FrequencyCode` aunque el parámetro
+esté bien formado— así que estos dos códigos se encontraron por búsqueda web de ejemplos
+públicos de la API (no por el buscador de la API en sí) y se verificaron uno por uno contra
+`GetSeries` con el token real antes de sumarlos.
 
 Van al bloque de Referencias, no a una card propia.
+
+### 2.7 USA macro — FRED (pendiente, falta la API key)
+
+Pedido del usuario 2026-09-30, mismo espíritu que 2.5 pero para EE.UU.: PIB y tasa de
+desempleo. La fuente natural es [FRED](https://fred.stlouisfed.org/) (Federal Reserve
+Bank of St. Louis), gratis, sin tarjeta — requiere registrarse en
+[fredaccount.stlouisfed.org](https://fredaccount.stlouisfed.org/) y generar una API key
+(`FRED_API_KEY`, secret nuevo, todavía no está en `.env` ni en GitHub Secrets). Series
+candidatas (IDs estables y muy usados, no verificados contra la API real todavía porque
+no hay key para probarlos):
+
+| Dato | Serie FRED | Frecuencia |
+|---|---|---|
+| PIB real (encadenado) | `GDPC1` | Trimestral |
+| Tasa de desempleo | `UNRATE` | Mensual |
+
+**No integrar a `main.py` sin probar primero contra la API real con la key de verdad**
+(mismo criterio que EDGAR en la sección 2.3: cliente aislado, probado antes de conectarlo).
+Cuando José pase la key, escribir `collector/sources/fred.py` con la misma forma que
+`banco_central.py` (degradación silenciosa si no hay key o la serie falla) y probar los
+dos IDs de la tabla antes de sumarlos a `obtener_referencias_chile()` o a un bloque nuevo
+`referencias.usa`.
 
 ### 2.6 Copyright
 

@@ -50,6 +50,25 @@ export default function Referencias({ referencias }: { referencias: ReferenciasT
             <Cifra valor={`${formatNumeroCL(chile.ipc_12m, 1)}%`} fuente={chile.fuente} />
           </dd>
         </div>
+        {chile.desocupacion !== undefined && (
+          <div>
+            <dt>Desocupación</dt>
+            <dd>
+              <Cifra valor={`${formatNumeroCL(chile.desocupacion, 1)}%`} fuente={chile.fuente} />
+            </dd>
+          </div>
+        )}
+        {chile.pib !== undefined && (
+          <div>
+            <dt>PIB (trimestral)</dt>
+            <dd>
+              <Cifra
+                valor={`$${formatNumeroCL(chile.pib, 0)} mil MM`}
+                fuente={chile.fuente}
+              />
+            </dd>
+          </div>
+        )}
       </dl>
     </div>
   );

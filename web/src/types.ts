@@ -163,6 +163,11 @@ export interface ReferenciasChile {
   dolar: number;
   tpm: number;
   ipc_12m: number;
+  // Sumados 2026-09-30. Opcionales: si el Banco Central no responde esa serie puntual, el
+  // recolector conserva el valor anterior o lo omite — nunca inventa uno (mismo criterio
+  // de degradación que el resto de referencias.chile).
+  pib?: number;
+  desocupacion?: number;
   fuente: string;
 }
 
