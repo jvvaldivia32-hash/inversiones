@@ -232,7 +232,7 @@ Si un cambio rompe algo conocido, lo cazan antes de subirlo.</p>
 <li><b>Carga llaves y watchlist</b> (<code>cargar_env</code>, <code>parse_watchlist</code>). Imprime qué llaves detectó: es lo primero que conviene mirar en el log. <b>Sin <code>FINNHUB_KEY</code> se detiene aquí</b>, sin error.</li>
 <li><b>Precios</b>: <code>actualizar_precios</code> (~34). Por cada ticker: si es nuevo, siembra historia desde Yahoo; después pide el precio a Finnhub y guarda el punto.</li>
 <li><b>Noticias</b>: <code>noticias.recolectar_bloques()</code>, que devuelve Mundo, Chile, Actualidad y la lista de errores.</li>
-<li><b>Referencias</b>: <code>actualizar_referencias</code> (~261). Banco Central + VOO/QQQ/VTI. <b>Ojo:</b> si una serie falla, se queda con el valor anterior sin avisar (ver sección 11).</li>
+<li><b>Referencias</b>: <code>actualizar_referencias</code> (~261). Banco Central + VOO/QQQ/VTI. Si una serie falla, se queda con el valor anterior <b>y lo anota al pie de la app</b> (ver sección 11).</li>
 <li><b>Posiciones</b>: <code>construir_posiciones</code> (~191). Por cada ticker: fundamentales EDGAR, segmentos, métricas avanzadas, noticias del ticker y revisión de tesis.</li>
 <li><b>Escribe</b> <code>data/daily.json</code> (<code>actualizar_daily_json</code>, ~292).</li>
 <li><b>Alertas ±5%</b> y <b>resumen de la mañana</b>, cada uno dentro de un <code>try</code>: si fallan, se imprime el error y la corrida sigue. Van al final a propósito: avisan exactamente lo que vas a ver en la app.</li>
@@ -329,7 +329,7 @@ las de las funciones que escriben, en <b>Vercel → Project → Settings → Env
 <tr><td><code>FINNHUB_KEY</code></td><td>GitHub</td><td><b>El recolector no hace nada</b> (se detiene al inicio). Todo queda congelado.</td></tr>
 <tr><td><code>GEMINI_API_KEY</code></td><td>GitHub</td><td>Noticias sin resúmenes, agrupadas por palabras en vez de por tema; sin segmentos nuevos.</td></tr>
 <tr><td><code>SEC_USER_AGENT</code></td><td>GitHub</td><td>EDGAR responde 403: no se actualizan fundamentales ni Radar (se conservan los viejos).</td></tr>
-<tr><td><code>BCCH_API_KEY</code></td><td>GitHub</td><td>UF, dólar, PIB, etc. se congelan en el último valor bueno, sin avisar.</td></tr>
+<tr><td><code>BCCH_API_KEY</code></td><td>GitHub</td><td>UF, dólar, PIB, etc. se congelan en el último valor bueno; el pie de la app dice cuáles.</td></tr>
 <tr><td><code>TELEGRAM_BOT_TOKEN</code> / <code>_CHAT_ID</code></td><td>GitHub</td><td>No llegan avisos. Todo lo demás sigue normal.</td></tr>
 <tr><td><code>GITHUB_WRITE_TOKEN</code></td><td>Vercel</td><td>No puedes editar watchlist, tesis, simulador ni amigos desde la app (500/502). La watchlist tampoco carga.</td></tr>
 <tr><td><code>GITHUB_WRITE_TOKEN_PRIVADO</code></td><td>Vercel</td><td>"Mi inversión" no carga ni guarda.</td></tr>
@@ -360,8 +360,8 @@ lo primero es revisar si venció el token (GitHub → Settings → Developer set
 <li><b>✗ en el push:</b> chocó con otro run que subió al mismo tiempo, tres veces seguidas. Casi siempre se arregla solo en la siguiente hora.</li></ol></div>
 
 <div class="sintoma"><h4>Una acción aparece como "pendiente" o no aparece</h4>
-<ol><li>¿Está bien escrita en <code>watchlist.txt</code>? Para clases de acción se usa punto: <code>BRK.B</code>.</li>
-<li>En el log, busca <code>TICKER: no se pudo actualizar el precio</code>: Finnhub no la tiene o respondió error (<code>sources/prices.py</code>).</li></ol></div>
+<ol><li>Mira el pie de la app: "Finnhub: sin precio nuevo de X" significa que Finnhub no la tiene o respondió error (<code>sources/prices.py</code>).</li>
+<li>El plan gratis de Finnhub <b>solo cubre bolsas de EE.UU.</b> Una acción extranjera se agrega por su ADR (ej. BYD: no <code>002594</code> de Shenzhen, sino <code>BYDDY</code>). Para clases de acción se usa punto: <code>BRK.B</code>.</li></ol></div>
 
 <div class="sintoma"><h4>Una card sin fundamentales, o con campos vacíos</h4>
 <ol><li>Mira el log: <code>TICKER: fundamentales no se pudieron actualizar</code> apunta a EDGAR, o a <code>SEC_USER_AGENT</code> si es 403.</li>
@@ -377,7 +377,7 @@ lo primero es revisar si venció el token (GitHub → Settings → Developer set
 <li>La lista de medios está en <code>collector/sources/feeds.py</code>.</li></ol></div>
 
 <div class="sintoma"><h4>UF, dólar, PIB o desempleo no cambian en días</h4>
-<ol><li>El recolector <b>conserva el valor anterior</b> cuando una serie falla, así que no se ve ningún error en la app. Busca en el log la línea <code>chile: {...}</code>: si le falta una clave, esa serie falló.</li>
+<ol><li>El recolector <b>conserva el valor anterior</b> cuando una serie falla, y lo anota <b>al pie de la app</b> ("Banco Central: sin dato nuevo de uf…"). Si no hay nada al pie, la serie sí se actualizó.</li>
 <li>PIB (trimestral) y desempleo (con ~2 meses de rezago) cambian poco a propósito: mira su período ("T2 2026", "may–jul 2026").</li></ol></div>
 
 <div class="sintoma"><h4>No me llegó el resumen de la mañana</h4>
@@ -407,7 +407,7 @@ lo primero es revisar si venció el token (GitHub → Settings → Developer set
 <tr><td><b>GitHub → Actions</b></td><td>Si el recolector corrió, a qué hora y en qué paso falló. Clic en un run → clic en "recolectar" para ver el log completo.</td></tr>
 <tr><td><b>GitHub → <code>data/daily.json</code> → History</b></td><td>Cada foto de la app, hora por hora. Los huecos muestran cuándo dejó de correr.</td></tr>
 <tr><td><b>GitHub → <code>data/daily.json</code> (abrirlo)</b></td><td>El dato exacto que tiene la app. Busca con Ctrl+F: <code>"generado"</code> (la hora) o <code>"errores"</code> (qué feeds fallaron).</td></tr>
-<tr><td><b>El pie de la app</b></td><td>Muestra los <code>errores</code> de la última corrida (feeds caídos, etc.).</td></tr>
+<tr><td><b>El pie de la app</b></td><td><b>Lo primero que mirar.</b> Muestra las fallas parciales de la última corrida: feeds caídos, series del Banco Central sin dato nuevo, EDGAR sin responder, tickers sin precio, Gemini caído. Vacío = todo se actualizó.</td></tr>
 <tr><td><b>Vercel → Deployments / Logs</b></td><td>Si la app se recompiló con el último dato y los errores de las funciones de <code>web/api</code>.</td></tr>
 <tr><td><b>F12 en el navegador</b></td><td>Pestaña Console: errores del visor. Pestaña Network: respuestas de <code>/api/...</code> (401/500/502).</td></tr>
 </table>
@@ -435,7 +435,7 @@ No es grave (el siguiente <code>git pull</code> los reemplaza), pero no hagas co
 <p>Si entiendes estas cinco, puedes abrir casi cualquier archivo y entender por qué está escrito así.</p>
 <h3>1 · Degradar, no caer</h3>
 <p>Si una fuente falla, se usa el último dato bueno y se sigue (<code>_obtener_fundamentales</code>, <code>actualizar_referencias</code>…).
-Así un problema con la SEC no te deja sin precios. <b>La contracara:</b> un dato puede quedar congelado sin que se note. Por eso vale la pena revisar el log y los <code>errores</code>.</p>
+Así un problema con la SEC no te deja sin precios. <b>La contracara:</b> un dato puede quedar congelado. Por eso cada falla parcial (Banco Central, EDGAR, Finnhub, Gemini, feeds) queda anotada en <code>errores</code> y se ve <b>al pie de la app</b>: si ves líneas ahí, ese dato es viejo.</p>
 <h3>2 · Nunca inventar</h3>
 <p>Si no hay dato, el campo queda vacío o "pendiente", nunca con un valor supuesto. Ejemplos: el PIB no muestra variación si falta el trimestre de hace un año; Gemini descarta una cifra si su cita no aparece textual en el documento.</p>
 <h3>3 · Un aviso nunca tumba la corrida</h3>
