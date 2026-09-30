@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Mapa del código — App de inversiones</title>
+<style>
+  @page { size: A4; margin: 18mm 17mm 18mm 17mm; }
+  :root { --tinta:#1b1e23; --media:#4a5058; --suave:#7a818a; --linea:#d9dce0; --fondo:#f3f4f6; --acento:#2f5f9e; --ambar:#955d05; --rojo:#a33a2c; }
+  * { box-sizing: border-box; }
+  body { font-family: "Lato", "DejaVu Sans", sans-serif; color: var(--tinta); font-size: 10.3pt; line-height: 1.5; margin: 0; }
+  h1 { font-size: 25pt; line-height: 1.15; margin: 0 0 6pt; letter-spacing: -0.3pt; }
+  h2 { font-size: 15pt; margin: 0 0 8pt; padding-top: 2pt; border-top: 2.5pt solid var(--tinta); padding-top: 7pt; }
+  h3 { font-size: 11.5pt; margin: 14pt 0 5pt; }
+  p { margin: 0 0 7pt; }
+  ul, ol { margin: 0 0 8pt; padding-left: 15pt; }
+  li { margin-bottom: 3pt; }
+  code, .mono { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background: var(--fondo); padding: 0.5pt 3pt; border-radius: 2pt; }
+  pre { font-family: "DejaVu Sans Mono", monospace; font-size: 8.4pt; background: var(--fondo); padding: 7pt 9pt; border-radius: 3pt; margin: 0 0 8pt; white-space: pre-wrap; line-height: 1.45; }
+  table { width: 100%; border-collapse: collapse; margin: 3pt 0 10pt; font-size: 9pt; page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+  th { text-align: left; font-weight: 700; border-bottom: 1.2pt solid var(--tinta); padding: 4pt 5pt; vertical-align: bottom; }
+  td { border-bottom: 0.6pt solid var(--linea); padding: 4pt 5pt; vertical-align: top; }
+  td code { font-size: 8pt; }
+  .seccion { page-break-before: always; }
+  .portada { height: 250mm; display: flex; flex-direction: column; justify-content: space-between; }
+  .kicker { font-size: 9pt; letter-spacing: 1.5pt; text-transform: uppercase; color: var(--suave); margin-bottom: 10pt; }
+  .bajada { font-size: 12.5pt; color: var(--media); max-width: 150mm; }
+  .caja { border-left: 3pt solid var(--acento); background: #f2f5fa; padding: 7pt 10pt; margin: 6pt 0 10pt; page-break-inside: avoid; }
+  .caja.alerta { border-left-color: var(--ambar); background: #faf6ee; }
+  .caja p:last-child, .caja ul:last-child { margin-bottom: 0; }
+  .caja b.t { display:block; margin-bottom: 2pt; }
+  .indice li { margin-bottom: 2pt; }
+  .sintoma { border: 0.8pt solid var(--linea); border-radius: 3pt; padding: 7pt 10pt 4pt; margin: 0 0 8pt; page-break-inside: avoid; }
+  .sintoma h4 { margin: 0 0 4pt; font-size: 10.5pt; }
+  .sintoma ol { margin-bottom: 4pt; }
+  .pie { font-size: 8.5pt; color: var(--suave); }
+  .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 12pt; }
+  svg text { font-family: "Lato", sans-serif; }
+</style>
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<div class="portada">
+  <div>
+    <div class="kicker">Dashboard de inversiones · guía para José</div>
+    <h1>Mapa del código:<br>qué hace cada parte y dónde mirar cuando algo falla</h1>
+    <p class="bajada">No es una explicación línea por línea: son ~15.000 líneas y eso no se puede leer.
+    Es un mapa para que, cuando algo se vea raro, sepas en qué pieza está el problema,
+    cómo confirmarlo tú mismo, y qué decirme para arreglarlo rápido.</p>
+  </div>
+  <div>
+    <h3>Contenido</h3>
+    <ol class="indice">
+      <li>La idea en una página: dos programas y un archivo en el medio</li>
+      <li>El viaje de un dato, de la API a tu pantalla</li>
+      <li>Los relojes: qué corre solo y cuándo</li>
+      <li>El recolector (Python), archivo por archivo</li>
+      <li>El corazón: <code>main.py</code> y <code>daily.yml</code> paso a paso</li>
+      <li>Los archivos de datos</li>
+      <li>El visor (la app que ves), archivo por archivo</li>
+      <li>Las llaves (secrets): qué se rompe si falta cada una</li>
+      <li><b>Guía de síntomas: "veo X → mira acá"</b></li>
+      <li>Cómo mirar tú mismo, sin programar</li>
+      <li>Cinco ideas que se repiten en todo el código</li>
+      <li>Glosario</li>
+    </ol>
+    <p class="pie">Versión del código: 30 de septiembre de 2026. Los números de línea (<code>archivo.py:123</code>)
+    son de esa fecha y se corren un poco cada vez que se edita, así que úsalos como referencia aproximada: el nombre de la función es lo que sirve para buscar.</p>
+  </div>
+</div>
+
+<!-- ================= 1 ================= -->
+<div class="seccion">
+<h2>1. La idea en una página</h2>
+<p>La app son <b>dos programas que nunca se hablan directo</b>. Entre los dos hay un solo archivo,
+<code>data/daily.json</code>, que es como un diario impreso: uno lo escribe y el otro lo lee.</p>
+
+<svg viewBox="0 0 600 208" width="100%" style="margin:4pt 0 10pt">
+  <defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1b1e23"/></marker></defs>
+  <rect x="5" y="30" width="180" height="170" rx="6" fill="#f3f4f6" stroke="#1b1e23"/>
+  <text x="95" y="52" text-anchor="middle" font-weight="700" font-size="13">1 · RECOLECTOR</text>
+  <text x="95" y="70" text-anchor="middle" font-size="10" fill="#4a5058">Python · carpeta collector/</text>
+  <text x="95" y="86" text-anchor="middle" font-size="10" fill="#4a5058">corre en GitHub Actions</text>
+  <text x="20" y="112" font-size="10">· pide precios, noticias,</text>
+  <text x="20" y="127" font-size="10">  balances, datos del BCCh</text>
+  <text x="20" y="145" font-size="10">· los ordena y los resume</text>
+  <text x="20" y="163" font-size="10">· avisa por Telegram</text>
+  <text x="20" y="181" font-size="10">· escribe el JSON y hace push</text>
+
+  <rect x="228" y="85" width="144" height="60" rx="6" fill="#fff" stroke="#2f5f9e" stroke-width="2"/>
+  <text x="300" y="110" text-anchor="middle" font-weight="700" font-size="12">data/daily.json</text>
+  <text x="300" y="127" text-anchor="middle" font-size="9.5" fill="#4a5058">el "diario impreso"</text>
+  <line x1="185" y1="115" x2="224" y2="115" stroke="#1b1e23" stroke-width="1.5" marker-end="url(#f)"/>
+  <line x1="372" y1="115" x2="411" y2="115" stroke="#1b1e23" stroke-width="1.5" marker-end="url(#f)"/>
+  <text x="300" y="168" text-anchor="middle" font-size="9.5" fill="#4a5058">cada push a GitHub dispara</text>
+  <text x="300" y="181" text-anchor="middle" font-size="9.5" fill="#4a5058">un redeploy en Vercel</text>
+
+  <rect x="415" y="30" width="180" height="170" rx="6" fill="#f3f4f6" stroke="#1b1e23"/>
+  <text x="505" y="52" text-anchor="middle" font-weight="700" font-size="13">2 · VISOR</text>
+  <text x="505" y="70" text-anchor="middle" font-size="10" fill="#4a5058">React · carpeta web/</text>
+  <text x="505" y="86" text-anchor="middle" font-size="10" fill="#4a5058">corre en Vercel</text>
+  <text x="430" y="112" font-size="10">· mete el JSON adentro de</text>
+  <text x="430" y="127" font-size="10">  la app al compilarla</text>
+  <text x="430" y="145" font-size="10">· lo dibuja: cards, gráficos</text>
+  <text x="430" y="163" font-size="10">· NO pide precios en vivo</text>
+  <text x="430" y="181" font-size="10">· solo escribe tus datos</text>
+  <text x="430" y="196" font-size="10">  (watchlist, tesis...) vía web/api</text>
+  <text x="300" y="20" text-anchor="middle" font-size="10" fill="#7a818a">un solo repo de GitHub, dos carpetas</text>
+</svg>
+
+<div class="caja"><b class="t">La pregunta que resuelve la mitad de los problemas</b>
+<p>Cuando algo se ve mal, pregúntate primero <b>de qué lado está</b>. Abre <code>data/daily.json</code> en GitHub
+(o mira la hora "Actualizado hoy HH:MM" arriba en la app):</p>
+<ul>
+<li>Si <b>el dato ya está mal o viejo en el JSON</b>, el problema está en el <b>recolector</b> (Python, GitHub Actions).</li>
+<li>Si <b>el JSON está bien pero la app lo muestra mal</b>, el problema está en el <b>visor</b> (React, Vercel).</li>
+<li>Si <b>el JSON está bien y es nuevo, pero la app muestra uno viejo</b>, el problema está en el <b>deploy de Vercel</b>.</li>
+</ul></div>
+
+<h3>Por qué está hecho así (y no "la app pide los precios cuando la abres")</h3>
+<ul>
+<li><b>$0/mes:</b> pedir precios en vivo desde el navegador exige una API pagada. Así, cada fuente se consulta una vez por hora desde GitHub, dentro de los planes gratis.</li>
+<li><b>Abre al instante:</b> el visor nunca espera a una API; todo viene pegado adentro.</li>
+<li><b>Si una fuente se cae, la app no se cae:</b> se queda con el último dato bueno ("degradar, no caer", sección 11).</li>
+<li><b>Historial gratis:</b> cada versión del JSON queda guardada en git; puedes ver qué mostraba la app cualquier día.</li>
+</ul>
+<p><b>El costo:</b> el precio nunca es "en vivo". Tiene hasta ~1 hora de antigüedad, o más si GitHub atrasa los cron. Por eso difiere un poco de Yahoo Finance: no es un error, es antigüedad.</p>
+</div>
+
+<!-- ================= 2 ================= -->
+<div class="seccion">
+<h2>2. El viaje de un dato: el precio de MSFT</h2>
+<p>Seguir un dato de punta a punta es la mejor forma de entender cómo se conectan las piezas.
+Si el precio de MSFT se ve raro, el problema está en alguno de estos pasos:</p>
+<table>
+<tr><th style="width:4%">#</th><th style="width:36%">Qué pasa</th><th style="width:30%">Dónde</th><th>Si falla aquí, ves…</th></tr>
+<tr><td>1</td><td>GitHub despierta al recolector (minuto :17 de cada hora, respaldo :47)</td><td><code>.github/workflows/daily.yml</code></td><td>No hay runs nuevos en la pestaña Actions. La app se queda con la hora vieja.</td></tr>
+<tr><td>2</td><td>El paso "frescura" decide si vale la pena correr (si el JSON tiene menos de 45 min, no corre)</td><td><code>daily.yml</code>, paso <code>frescura</code></td><td>Run verde de ~10 segundos que no recolecta nada (normal en el respaldo de :47).</td></tr>
+<tr><td>3</td><td>Lee tu watchlist</td><td><code>watchlist.txt</code> → <code>collector/watchlist.py</code></td><td>Un ticker mal escrito queda afuera.</td></tr>
+<tr><td>4</td><td>Le pide el precio a Finnhub</td><td><code>collector/sources/prices.py</code> → <code>obtener_cotizacion</code></td><td>La card de MSFT pasa a "pendiente" (mejor eso que un precio falso).</td></tr>
+<tr><td>5</td><td>Guarda el punto en el historial y arma los rangos del gráfico (1M … 10A)</td><td><code>collector/historico.py</code></td><td>El gráfico queda sin puntos nuevos o con huecos.</td></tr>
+<tr><td>6</td><td>Arma la "posición" completa: precio, gráfico, noticias, balances (EDGAR), métricas, tesis</td><td><code>collector/main.py</code> → <code>construir_posiciones</code></td><td>Falta una parte de la card (por ejemplo, sin fundamentales).</td></tr>
+<tr><td>7</td><td>Escribe todo en el JSON</td><td><code>main.py</code> → <code>actualizar_daily_json</code></td><td>—</td></tr>
+<tr><td>8</td><td>Revisa si MSFT se movió ±5% y avisa por Telegram</td><td><code>collector/alertas.py</code></td><td>No llega el aviso (pero la app sigue actualizándose igual).</td></tr>
+<tr><td>9</td><td>Hace commit "precios: …" y push a GitHub (hasta 3 intentos)</td><td><code>daily.yml</code>, último paso</td><td>Run en rojo en el paso de push; el dato nunca llega al repo.</td></tr>
+<tr><td>10</td><td>Vercel ve el commit nuevo, copia el JSON adentro de la app y la recompila</td><td><code>web/scripts/sync-data.mjs</code> + Vercel</td><td>El JSON en GitHub es nuevo, pero la app muestra el viejo: mira "Deployments" en Vercel.</td></tr>
+<tr><td>11</td><td>La app dibuja la card</td><td><code>web/src/App.tsx</code> → <code>CardInversion.tsx</code></td><td>El dato está bien en el JSON pero se ve mal: es un bug del visor.</td></tr>
+</table>
+<div class="caja"><b class="t">Mismo viaje, otros datos</b>
+<p>Las noticias siguen el mismo camino, pero el paso 4 es <code>noticias.py</code> + <code>sources/rss.py</code> + <code>sources/gemini.py</code>.
+UF, dólar, PIB y desempleo pasan por <code>sources/banco_central.py</code>. Los balances pasan por <code>sources/edgar.py</code>.
+Los pasos 1-2 y 7-11 son siempre los mismos.</p></div>
+</div>
+
+<!-- ================= 3 ================= -->
+<div class="seccion">
+<h2>3. Los relojes: qué corre solo y cuándo</h2>
+<p>Todo lo automático son "workflows" de GitHub Actions: archivos <code>.yml</code> en <code>.github/workflows/</code>.
+Cada uno tiene un horario (<code>cron</code>) en <b>hora UTC</b>. Chile está 3 horas atrás de UTC (4 en invierno).</p>
+<table>
+<tr><th>Workflow</th><th>Cuándo (UTC)</th><th>Qué corre</th><th>Qué archivo actualiza</th></tr>
+<tr><td><b>Recolector</b><br><code>daily.yml</code></td><td>cada hora, :17 (y respaldo :47)</td><td><code>collector/main.py</code>: precios, noticias, referencias, EDGAR, tesis, alertas y resumen de la mañana</td><td><code>daily.json</code>, <code>historico_precios.json</code>, <code>alertas_enviadas.json</code>, <code>resumen_enviado.json</code>, <code>tesis.json</code></td></tr>
+<tr><td><b>Radar</b><br><code>radar_semanal.yml</code></td><td>lunes 06:23</td><td><code>radar_semanal.py</code>: evalúa ~80 empresas</td><td><code>daily.json</code> (parte <code>radar</code>), historial</td></tr>
+<tr><td><b>Fintual</b><br><code>fintual_diario.yml</code></td><td>13:13 diario</td><td><code>fintual_diario.py</code></td><td><code>daily.json</code> (parte <code>fintual</code>). <i>Inactivo: la API de Fintual está deprecada (lo confirmó su soporte).</i></td></tr>
+<tr><td><b>Amigos</b><br><code>amigos_diario.yml</code></td><td>13:43 diario</td><td><code>amigos_diario.py</code></td><td><code>daily.json</code> (parte <code>amigos</code>)</td></tr>
+<tr><td><b>Aporte simulador</b><br><code>paper_aporte_mensual.yml</code></td><td>día 1, 06:33</td><td><code>paper_aporte_mensual.py</code>: el "sueldo" ficticio</td><td><code>paperinvesting.json</code></td></tr>
+<tr><td><b>Resumen Telegram</b><br><code>resumen_telegram.yml</code></td><td>solo manual</td><td>botón "mándamelo ahora". El automático lo manda el recolector.</td><td>—</td></tr>
+</table>
+<div class="caja alerta"><b class="t">El problema conocido: GitHub atrasa o bota los cron</b>
+<p>Cuando GitHub está cargado, a veces no dispara los <code>schedule</code>, o los dispara 20-40 minutos tarde.
+No es un bug del repo: los runs que sí llegan terminan bien. Síntoma típico: huecos de varias horas sin commits "precios: …".
+Es el punto 2 del <code>CLAUDE.md</code>. La solución de respaldo quedó preparada pero sin armar: cron-job.org + un token tuyo.</p></div>
+<p><b>Botón manual:</b> en GitHub, pestaña <b>Actions</b> → "Recolector (cada hora)" → <b>Run workflow</b>.
+Corre al tiro, sin esperar al cron. Sirve para probar si algo se arregló.</p>
+</div>
+
+<!-- ================= 4 ================= -->
+<div class="seccion">
+<h2>4. El recolector, archivo por archivo</h2>
+<p>Carpeta <code>collector/</code>. Tiene tres tipos de archivo: <b>orquestadores</b> (el "director de orquesta"
+que llama a los demás), <b>fuentes</b> (cada uno habla con una sola API externa) y <b>lógica</b> (decide qué hacer con los datos).</p>
+
+<h3>Orquestadores: los que corren los workflows</h3>
+<table>
+<tr><th style="width:26%">Archivo</th><th>Qué hace</th></tr>
+<tr><td><code>main.py</code></td><td>El principal, cada hora. Llama a todo en orden (ver sección 5).</td></tr>
+<tr><td><code>radar_semanal.py</code></td><td>Evalúa el universo del Radar: "castigada" (bajo 85% de su máximo de 52 semanas o bajo la media de 200 días) + "sana" (5 criterios contra balances EDGAR).</td></tr>
+<tr><td><code>amigos_diario.py</code></td><td>Arma la sección "Otros/Amigos": precios y titulares de lo que siguen tus amigos.</td></tr>
+<tr><td><code>fintual_diario.py</code></td><td>Tu portafolio de Fintual. Bloqueado por Fintual, no por nosotros.</td></tr>
+<tr><td><code>paper_aporte_mensual.py</code></td><td>Suma el aporte mensual ficticio del simulador.</td></tr>
+<tr><td><code>resumen_telegram.py</code></td><td>Arma y manda el resumen de la mañana. Sale en el primer run entre las 07:00 y 12:00 de Chile; si el dato tiene más de 3 horas, avisa "⚠️ precios de hace N horas".</td></tr>
+<tr><td><code>fusionar_tesis.py</code></td><td>Lo usa <code>daily.yml</code> al hacer push: mezcla las tesis del recolector con las que escribiste desde la web, sin pisar ninguna.</td></tr>
+<tr><td><code>backfill_10a.py</code></td><td>Se usó una sola vez, para extender el historial a 10 años. No corre solo.</td></tr>
+</table>
+
+<h3>Fuentes: <code>collector/sources/</code> (cada uno habla con una API)</h3>
+<table>
+<tr><th style="width:24%">Archivo</th><th style="width:30%">Habla con…</th><th>Qué trae / detalle importante</th></tr>
+<tr><td><code>prices.py</code></td><td>Finnhub (llave <code>FINNHUB_KEY</code>)</td><td>Precio actual y variación del día. Plan gratis: 60 llamadas por minuto.</td></tr>
+<tr><td><code>yahoo.py</code></td><td>Yahoo Finance (sin llave)</td><td>Historial largo, <b>solo</b> para "sembrar" un ticker nuevo la primera vez.</td></tr>
+<tr><td><code>edgar.py</code></td><td>SEC EDGAR, EE.UU. (<code>SEC_USER_AGENT</code>)</td><td>Ingresos, márgenes, EPS, deuda y balance desde los 10-Q/10-K. Solo vuelve a pedir si hay un filing nuevo (<code>accessionNumber</code>). Sin el header: error 403.</td></tr>
+<tr><td><code>segmentos.py</code></td><td>SEC EDGAR (8-K)</td><td>Busca el press release de resultados; Gemini extrae cifras por segmento ("Azure +43%").</td></tr>
+<tr><td><code>gemini.py</code></td><td>Google Gemini (<code>GEMINI_API_KEY</code>)</td><td>Agrupa noticias por historia, reescribe resúmenes y extrae segmentos. <b>Toda cifra debe venir con una cita que exista textual en el documento</b> (<code>_cita_existe</code>); si no, se descarta. Además, <code>_es_copia_literal</code> impide copiar texto de las noticias.</td></tr>
+<tr><td><code>rss.py</code> + <code>feeds.py</code></td><td>Medios por RSS (sin llave)</td><td><code>feeds.py</code> es la lista de medios; <code>rss.py</code> los lee. Si un feed muere, se anota en <code>errores</code> y se sigue.</td></tr>
+<tr><td><code>banco_central.py</code></td><td>Banco Central de Chile (<code>BCCH_API_KEY</code>)</td><td>UF, dólar, TPM, IPC, IPSA, PIB (con su variación anual) y desocupación. Cada dato tiene un código de serie en <code>SERIES</code>.</td></tr>
+<tr><td><code>metricas_avanzadas.py</code></td><td>(calcula, no pide)</td><td>Market cap, EV, ROE/ROIC/ROCE, múltiplos y beta propio contra VOO.</td></tr>
+<tr><td><code>telegram.py</code></td><td>Bot de Telegram (<code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHAT_ID</code>)</td><td>Manda mensajes. Nunca lanza error hacia afuera: un aviso fallido no tumba la corrida.</td></tr>
+<tr><td><code>fintual.py</code>, <code>amigos.py</code></td><td>Fintual; Finnhub + Google News</td><td>Para sus orquestadores respectivos.</td></tr>
+</table>
+
+<h3>Lógica: decide qué hacer con los datos</h3>
+<table>
+<tr><th style="width:24%">Archivo</th><th>Qué decide</th></tr>
+<tr><td><code>noticias.py</code></td><td>Qué noticia va en Mundo, Chile o Actualidad. Las perillas están arriba del archivo: <code>MUNDO_MAX</code>/<code>CHILE_MAX</code> (8 historias), <code>PALABRAS_ECONOMIA</code>, <code>PALABRAS_DEPORTES</code>, <code>MEDIOS_SIEMPRE_ECONOMICOS</code>, <code>MAX_POR_MEDIO</code> (4). Si Gemini falla, agrupa por palabras (peor, pero funciona).</td></tr>
+<tr><td><code>alertas.py</code></td><td>Aviso de ±5% (<code>UMBRAL_PCT</code>). Anti-duplicado por día de Nueva York: solo repite si se mueve otro 5% entero o cambia de signo. Estado en <code>data/alertas_enviadas.json</code>.</td></tr>
+<tr><td><code>historico.py</code></td><td>Guarda precios en 3 tramos: horario los últimos 45 días, diario hasta 2 años, semanal hasta 10 años. Arma los rangos 1M…10A del gráfico.</td></tr>
+<tr><td><code>tesis.py</code></td><td>Semáforo de tus tesis (verde/ámbar/rojo) cuando sale un reporte nuevo. Nunca cambia umbrales: la tesis es inmutable.</td></tr>
+<tr><td><code>radar.py</code> + <code>universo_radar.py</code></td><td>Criterios "castigada"/"sana" y la lista de ~80 empresas que se evalúan.</td></tr>
+<tr><td><code>medios.py</code></td><td>Sesgo de cada medio (centro, centro-derecha…) según ratings públicos; medios chilenos, por propietario. Nunca inventa un sesgo.</td></tr>
+<tr><td><code>watchlist.py</code>, <code>env.py</code>, <code>formato.py</code></td><td>Leer <code>watchlist.txt</code>; cargar llaves desde <code>.env</code> local; escribir números a la chilena (1.234,56).</td></tr>
+</table>
+<p class="pie"><code>collector/tests/</code>: 249 pruebas automáticas. Cada archivo <code>test_X.py</code> prueba el <code>X.py</code> correspondiente.
+Si un cambio rompe algo conocido, lo cazan antes de subirlo.</p>
+</div>
+
+<!-- ================= 5 ================= -->
+<div class="seccion">
+<h2>5. El corazón, paso a paso</h2>
+<h3><code>collector/main.py</code>: la función <code>main()</code> (línea ~313)</h3>
+<ol>
+<li><b>Carga llaves y watchlist</b> (<code>cargar_env</code>, <code>parse_watchlist</code>). Imprime qué llaves detectó: es lo primero que conviene mirar en el log. <b>Sin <code>FINNHUB_KEY</code> se detiene aquí</b>, sin error.</li>
+<li><b>Precios</b>: <code>actualizar_precios</code> (~34). Por cada ticker: si es nuevo, siembra historia desde Yahoo; después pide el precio a Finnhub y guarda el punto.</li>
+<li><b>Noticias</b>: <code>noticias.recolectar_bloques()</code>, que devuelve Mundo, Chile, Actualidad y la lista de errores.</li>
+<li><b>Referencias</b>: <code>actualizar_referencias</code> (~261). Banco Central + VOO/QQQ/VTI. <b>Ojo:</b> si una serie falla, se queda con el valor anterior sin avisar (ver sección 11).</li>
+<li><b>Posiciones</b>: <code>construir_posiciones</code> (~191). Por cada ticker: fundamentales EDGAR, segmentos, métricas avanzadas, noticias del ticker y revisión de tesis.</li>
+<li><b>Escribe</b> <code>data/daily.json</code> (<code>actualizar_daily_json</code>, ~292).</li>
+<li><b>Alertas ±5%</b> y <b>resumen de la mañana</b>, cada uno dentro de un <code>try</code>: si fallan, se imprime el error y la corrida sigue. Van al final a propósito: avisan exactamente lo que vas a ver en la app.</li>
+</ol>
+<div class="caja"><b class="t">Cómo leer el log de un run</b>
+<p>Cada paso imprime una línea con título: <code>Actualizando precios...</code>, <code>Leyendo noticias...</code>,
+<code>Actualizando referencias...</code>, <code>Revisando movimientos fuertes...</code>, <code>Resumen de la mañana...</code>.
+Si el run se cae, <b>la última línea con título antes del error te dice en qué paso fue</b>.
+Las líneas <code>aviso:</code> y <code>no se pudo</code> son fallas parciales que no detuvieron nada.</p></div>
+
+<h3><code>.github/workflows/daily.yml</code>: el envoltorio en GitHub</h3>
+<ol>
+<li><b>checkout + setup-python</b>: baja el repo y prepara Python 3.12.</li>
+<li><b>frescura</b> (línea ~38): si <code>daily.json</code> tiene menos de 45 minutos, escribe <code>correr=no</code> y los pasos siguientes se saltan. El botón manual fuerza <code>correr=si</code>.</li>
+<li><b>pip install</b>: instala las librerías de <code>collector/requirements.txt</code>.</li>
+<li><b>python collector/main.py</b>, con todas las llaves inyectadas desde Secrets.</li>
+<li><b>push con reintentos</b> (línea ~93): guarda aparte los archivos recién generados, se pone al día con GitHub, los vuelve a copiar encima, <b>fusiona</b> <code>tesis.json</code> (nunca lo pisa) y hace commit + push. Si otro run se adelantó, reintenta hasta 3 veces.</li>
+</ol>
+<p>En la pestaña Actions, cada uno de estos pasos aparece con su propio ✓ o ✗. <b>El paso con ✗ te dice dónde buscar.</b></p>
+</div>
+
+<!-- ================= 6 ================= -->
+<div class="seccion">
+<h2>6. Los archivos de datos (<code>data/</code>)</h2>
+<table>
+<tr><th style="width:27%">Archivo</th><th style="width:33%">Quién lo escribe</th><th>Para qué</th></tr>
+<tr><td><code>daily.json</code> (~3 MB)</td><td>Recolector, Radar, Fintual, Amigos</td><td>El "diario": todo lo que ve la app. Partes: <code>posiciones</code>, <code>bloques</code> (noticias), <code>referencias</code>, <code>radar</code>, <code>amigos</code>, <code>errores</code>, <code>generado</code> (la hora).</td></tr>
+<tr><td><code>historico_precios.json</code> (~5 MB)</td><td>Recolector, Radar</td><td>Historial de precios de todos los tickers (de aquí sale el gráfico).</td></tr>
+<tr><td><code>tesis.json</code></td><td><b>Dos escritores:</b> la web (<code>web/api/tesis.ts</code>) y el recolector</td><td>Tus tesis y sus lecturas. Por eso se fusiona y no se sobrescribe.</td></tr>
+<tr><td><code>alertas_enviadas.json</code></td><td>Recolector</td><td>Memoria del anti-duplicado de alertas del día.</td></tr>
+<tr><td><code>resumen_enviado.json</code></td><td>Recolector</td><td>Qué día salió el último resumen (para no mandarlo dos veces).</td></tr>
+<tr><td><code>paperinvesting.json</code></td><td>Web (simulador) y aporte mensual</td><td>Cartera ficticia.</td></tr>
+<tr><td><code>amigos.json</code></td><td>Web (<code>web/api/amigos.ts</code>)</td><td>Qué sigue cada amigo.</td></tr>
+<tr><td><code>watchlist.txt</code> (en la raíz)</td><td>Web (panel de edición) o a mano</td><td>Tus tickers, uno por línea.</td></tr>
+<tr><td><i>"Mi inversión"</i></td><td>Web (<code>web/api/mi-inversion.ts</code>)</td><td><b>No está en este repo</b>: vive en el repo privado <code>inversiones-privado</code>, porque son tus montos reales.</td></tr>
+</table>
+<div class="caja"><b class="t">Truco: la historia del JSON</b>
+<p>En GitHub, abre <code>data/daily.json</code> → <b>History</b>. Cada commit "precios: 2026-09-30T03:18" es una foto de la app a esa hora.
+Si los commits se cortan a cierta hora, el recolector dejó de correr desde ese momento. Así se diagnosticó el problema del cron.</p></div>
+</div>
+
+<!-- ================= 7 ================= -->
+<div class="seccion">
+<h2>7. El visor, archivo por archivo</h2>
+<p>Carpeta <code>web/</code>. Hay dos partes muy distintas:</p>
+<div class="dos">
+<div class="caja"><b class="t"><code>web/src/</code>: la app que ves</b>
+<p>Corre en tu navegador. Solo lee el <code>daily.json</code> que quedó pegado al compilar. No tiene llaves.</p></div>
+<div class="caja"><b class="t"><code>web/api/</code>: 5 "funciones" en Vercel</b>
+<p>Corren en el servidor de Vercel. Son el único camino por el que la app <b>escribe</b>: le hablan a GitHub con un token que nunca llega al navegador.</p></div>
+</div>
+
+<h3>La app (<code>web/src/</code>)</h3>
+<table>
+<tr><th style="width:30%">Archivo</th><th>Qué es</th></tr>
+<tr><td><code>App.tsx</code></td><td>La página entera. Importa <code>daily.json</code>, pide tu watchlist y "mi inversión" a <code>/api</code> y decide qué vista mostrar: Hoy, Inversión, Simulador, Diccionario u Otros.</td></tr>
+<tr><td><code>types.ts</code></td><td>El "contrato": qué forma tiene cada parte de <code>daily.json</code>. Si el recolector cambia un nombre de campo y esto no, se rompe.</td></tr>
+<tr><td><code>components/Referencias.tsx</code></td><td>Bloque de arriba: VOO/QQQ/VTI, IPSA, UF, dólar, TPM, IPC, PIB y desocupación.</td></tr>
+<tr><td><code>Historia.tsx</code>, <code>Actualidad.tsx</code></td><td>Noticias agrupadas (con "cobertura de una sola fuente") y la barra lateral.</td></tr>
+<tr><td><code>CardInversion.tsx</code> (la más grande)</td><td>La card de cada acción: HOY / TU POSICIÓN, gráfico, fundamentales, segmentos, métricas avanzadas, tesis y "mi inversión".</td></tr>
+<tr><td><code>GraficoPrecio.tsx</code></td><td>El gráfico (1M…10A, "comparar con…").</td></tr>
+<tr><td><code>TablaFundamentales.tsx</code>, <code>MetricasAvanzadas.tsx</code>, <code>SenalMetrica.tsx</code></td><td>Tablas y los puntitos de color por métrica (los umbrales están en <code>lib/referenciasMetricas.ts</code>).</td></tr>
+<tr><td><code>FormularioTesis.tsx</code>, <code>Semaforo.tsx</code></td><td>Escribir una tesis y ver su semáforo.</td></tr>
+<tr><td><code>MiInversion.tsx</code></td><td>Comprar, vender o editar tus posiciones reales (usa <code>/api/mi-inversion</code>).</td></tr>
+<tr><td><code>PanelWatchlist.tsx</code></td><td>Agregar o quitar tickers (usa <code>/api/watchlist</code>).</td></tr>
+<tr><td><code>Radar.tsx</code></td><td>Candidatos y descartados, con su motivo.</td></tr>
+<tr><td><code>PaperInvesting.tsx</code>, <code>Amigos.tsx</code>, <code>Diccionario.tsx</code>, <code>PortafolioFintual.tsx</code></td><td>Simulador, sección Otros, glosario de términos (<code>data/diccionario.ts</code>) y Fintual.</td></tr>
+<tr><td><code>Cifra.tsx</code></td><td>Todo número con fuente: al tocarlo muestra de dónde salió. Si no tiene fuente, dice "sin verificar".</td></tr>
+<tr><td><code>EstadoMercado.tsx</code>, <code>ErroresFooter.tsx</code></td><td>"Wall Street abierto/cerrado" (calculado en tu navegador) y el pie con los <code>errores</code> del JSON.</td></tr>
+<tr><td><code>tokens.css</code></td><td>Los colores y tamaños de toda la app, incluido el modo oscuro. Regla: el color es solo señal.</td></tr>
+</table>
+
+<h3>Las funciones que escriben (<code>web/api/</code>)</h3>
+<table>
+<tr><th>Endpoint</th><th>Escribe en</th><th>Token (en Vercel)</th><th>¿Pide clave?</th></tr>
+<tr><td><code>watchlist.ts</code></td><td><code>watchlist.txt</code></td><td><code>GITHUB_WRITE_TOKEN</code></td><td>Sí (<code>WATCHLIST_EDIT_KEY</code>)</td></tr>
+<tr><td><code>tesis.ts</code></td><td><code>data/tesis.json</code></td><td><code>GITHUB_WRITE_TOKEN</code></td><td>Sí</td></tr>
+<tr><td><code>paperinvesting.ts</code></td><td><code>data/paperinvesting.json</code></td><td><code>GITHUB_WRITE_TOKEN</code></td><td>Sí</td></tr>
+<tr><td><code>mi-inversion.ts</code></td><td>repo privado <code>inversiones-privado</code></td><td><code>GITHUB_WRITE_TOKEN_PRIVADO</code></td><td>Sí</td></tr>
+<tr><td><code>amigos.ts</code></td><td><code>data/amigos.json</code></td><td><code>GITHUB_WRITE_TOKEN</code></td><td>No (decisión explícita)</td></tr>
+</table>
+<p><b>Sus respuestas de error</b> (se ven en la consola del navegador o en los logs de Vercel):
+<code>401</code> = clave incorrecta · <code>400</code> = dato inválido (ej. ticker mal escrito) · <code>500</code> = falta configurar un token en Vercel · <code>502</code> = GitHub rechazó la lectura o escritura.</p>
+<p><b>Ojo:</b> guardar desde la app hace un commit en GitHub, y eso dispara un redeploy. El cambio se ve completo recién cuando Vercel termina de recompilar (1-2 minutos).</p>
+</div>
+
+<!-- ================= 8 ================= -->
+<div class="seccion">
+<h2>8. Las llaves (secrets): qué se rompe si falta cada una</h2>
+<p>Viven en dos lugares distintos, y eso importa al debuggear: las del recolector están en <b>GitHub → Settings → Secrets and variables → Actions</b>;
+las de las funciones que escriben, en <b>Vercel → Project → Settings → Environment Variables</b>. En tu PC hay una copia local en el archivo <code>.env</code> (no se sube al repo).</p>
+<table>
+<tr><th style="width:27%">Llave</th><th style="width:13%">Dónde</th><th>Si falta o vence…</th></tr>
+<tr><td><code>FINNHUB_KEY</code></td><td>GitHub</td><td><b>El recolector no hace nada</b> (se detiene al inicio). Todo queda congelado.</td></tr>
+<tr><td><code>GEMINI_API_KEY</code></td><td>GitHub</td><td>Noticias sin resúmenes, agrupadas por palabras en vez de por tema; sin segmentos nuevos.</td></tr>
+<tr><td><code>SEC_USER_AGENT</code></td><td>GitHub</td><td>EDGAR responde 403: no se actualizan fundamentales ni Radar (se conservan los viejos).</td></tr>
+<tr><td><code>BCCH_API_KEY</code></td><td>GitHub</td><td>UF, dólar, PIB, etc. se congelan en el último valor bueno, sin avisar.</td></tr>
+<tr><td><code>TELEGRAM_BOT_TOKEN</code> / <code>_CHAT_ID</code></td><td>GitHub</td><td>No llegan avisos. Todo lo demás sigue normal.</td></tr>
+<tr><td><code>GITHUB_WRITE_TOKEN</code></td><td>Vercel</td><td>No puedes editar watchlist, tesis, simulador ni amigos desde la app (500/502). La watchlist tampoco carga.</td></tr>
+<tr><td><code>GITHUB_WRITE_TOKEN_PRIVADO</code></td><td>Vercel</td><td>"Mi inversión" no carga ni guarda.</td></tr>
+<tr><td><code>WATCHLIST_EDIT_KEY</code></td><td>Vercel</td><td>Todo guardado responde 500. Si la escribes mal, 401.</td></tr>
+<tr><td><code>FRED_API_KEY</code></td><td>(pendiente)</td><td>Aún no existe: la necesitamos para PIB y desempleo de EE.UU.</td></tr>
+</table>
+<div class="caja alerta"><b class="t">Los tokens de GitHub vencen</b>
+<p>Los "fine-grained tokens" tienen fecha de expiración. Si un día <b>no puedes guardar nada desde la app</b> y antes sí podías,
+lo primero es revisar si venció el token (GitHub → Settings → Developer settings → Fine-grained tokens).</p></div>
+</div>
+
+<!-- ================= 9 ================= -->
+<div class="seccion">
+<h2>9. Guía de síntomas: "veo X → mira acá"</h2>
+<p>Ordenados de lo más común a lo menos. Cada uno dice qué revisar primero, sin tocar código.</p>
+
+<div class="sintoma"><h4>La app muestra precios de hace horas ("Actualizado hoy" con hora vieja)</h4>
+<ol><li>GitHub → <b>Actions</b> → "Recolector (cada hora)". ¿Hay runs en las últimas horas?
+  <br>→ <b>No hay runs:</b> GitHub está botando los cron (sección 3). Aprieta <b>Run workflow</b> para salir del paso.
+  <br>→ <b>Hay runs en rojo:</b> abre el último y mira qué paso tiene ✗ (sección 5).
+  <br>→ <b>Hay runs verdes:</b> sigue al punto 2.</li>
+<li>¿Hay un commit "precios: …" reciente en el repo? Si lo hay, el problema es <b>Vercel</b>: revisa en Deployments si el último deploy falló.</li></ol></div>
+
+<div class="sintoma"><h4>Run en rojo en Actions</h4>
+<ol><li><b>✗ en "frescura":</b> error del script que decide si correr (muy raro).</li>
+<li><b>✗ en "pip install":</b> falló la instalación de una librería. Suele ser pasajero; vuelve a correrlo.</li>
+<li><b>✗ en "python collector/main.py":</b> error de código o de una API. Busca la última línea con título en el log, y abajo verás <code>Traceback</code> con el archivo y la línea exactos.</li>
+<li><b>✗ en el push:</b> chocó con otro run que subió al mismo tiempo, tres veces seguidas. Casi siempre se arregla solo en la siguiente hora.</li></ol></div>
+
+<div class="sintoma"><h4>Una acción aparece como "pendiente" o no aparece</h4>
+<ol><li>¿Está bien escrita en <code>watchlist.txt</code>? Para clases de acción se usa punto: <code>BRK.B</code>.</li>
+<li>En el log, busca <code>TICKER: no se pudo actualizar el precio</code>: Finnhub no la tiene o respondió error (<code>sources/prices.py</code>).</li></ol></div>
+
+<div class="sintoma"><h4>Una card sin fundamentales, o con campos vacíos</h4>
+<ol><li>Mira el log: <code>TICKER: fundamentales no se pudieron actualizar</code> apunta a EDGAR, o a <code>SEC_USER_AGENT</code> si es 403.</li>
+<li>Algunos campos vacíos son a propósito: la empresa no reporta ese dato en XBRL (por ejemplo, el EPS de BRK.B). Se deja vacío en vez de mostrar un dato viejo (<code>edgar.py</code>, <code>TAGS</code>).</li>
+<li>Empresas extranjeras (SQM, Toyota…) no reportan a la SEC: nunca tendrán fundamentales.</li></ol></div>
+
+<div class="sintoma"><h4>Noticias sin resumen, o con el titular repetido como resumen</h4>
+<ol><li>Gemini falló o se acabó la cuota gratis del día; se usa el respaldo por palabras (<code>sources/gemini.py</code>).</li>
+<li>Con Reuters es un problema conocido: su feed (vía Google News) no trae texto, solo el titular.</li></ol></div>
+
+<div class="sintoma"><h4>Se cuela un tema que no quieres (deportes), o un medio llena todo</h4>
+<ol><li>Las perillas están arriba de <code>collector/noticias.py</code>: <code>PALABRAS_DEPORTES</code> (agrega la palabra que se cuela) y <code>MAX_POR_MEDIO</code>.</li>
+<li>La lista de medios está en <code>collector/sources/feeds.py</code>.</li></ol></div>
+
+<div class="sintoma"><h4>UF, dólar, PIB o desempleo no cambian en días</h4>
+<ol><li>El recolector <b>conserva el valor anterior</b> cuando una serie falla, así que no se ve ningún error en la app. Busca en el log la línea <code>chile: {...}</code>: si le falta una clave, esa serie falló.</li>
+<li>PIB (trimestral) y desempleo (con ~2 meses de rezago) cambian poco a propósito: mira su período ("T2 2026", "may–jul 2026").</li></ol></div>
+
+<div class="sintoma"><h4>No me llegó el resumen de la mañana</h4>
+<ol><li>Sale solo si hubo un run del recolector <b>entre las 07:00 y 12:00 de Chile</b>. Si GitHub no corrió en esa ventana, no sale (sección 3).</li>
+<li>Para forzarlo: Actions → "Resumen por Telegram (manual)" → Run workflow.</li></ol></div>
+
+<div class="sintoma"><h4>Me llega la "misma" alerta de nuevo</h4>
+<ol><li>Mira la fecha. Una alerta por día de Nueva York es lo normal: dos días seguidos con −5% son dos alertas reales (pasó con INTC el 28 y el 29 de septiembre).</li>
+<li>El mismo día solo repite si se movió otro 5% o cambió de signo. Estado en <code>data/alertas_enviadas.json</code>.</li></ol></div>
+
+<div class="sintoma"><h4>No puedo guardar desde la app (watchlist, tesis, simulador)</h4>
+<ol><li>Abre la consola del navegador (F12 → Console/Network) y mira el código: <b>401</b> clave mal escrita, <b>500</b> falta configurar algo en Vercel, <b>502</b> GitHub rechazó (casi siempre un token vencido).</li>
+<li>Vercel → tu proyecto → <b>Logs</b> muestra el error de la función.</li></ol></div>
+
+<div class="sintoma"><h4>El Radar está viejo o vacío</h4>
+<ol><li>Corre solo los lunes (06:23 UTC). Si GitHub botó ese run, se queda con la semana anterior: Actions → "Radar (semanal)" → Run workflow.</li></ol></div>
+
+<div class="sintoma"><h4>Mi portafolio de Fintual no aparece</h4>
+<ol><li>Es esperable: Fintual deprecó su API (lo confirmó su soporte el 14 de agosto). No es un error nuestro. No perder tiempo reintentando.</li></ol></div>
+</div>
+
+<!-- ================= 10 ================= -->
+<div class="seccion">
+<h2>10. Cómo mirar tú mismo, sin programar</h2>
+<table>
+<tr><th style="width:30%">Herramienta</th><th>Qué te dice</th></tr>
+<tr><td><b>GitHub → Actions</b></td><td>Si el recolector corrió, a qué hora y en qué paso falló. Clic en un run → clic en "recolectar" para ver el log completo.</td></tr>
+<tr><td><b>GitHub → <code>data/daily.json</code> → History</b></td><td>Cada foto de la app, hora por hora. Los huecos muestran cuándo dejó de correr.</td></tr>
+<tr><td><b>GitHub → <code>data/daily.json</code> (abrirlo)</b></td><td>El dato exacto que tiene la app. Busca con Ctrl+F: <code>"generado"</code> (la hora) o <code>"errores"</code> (qué feeds fallaron).</td></tr>
+<tr><td><b>El pie de la app</b></td><td>Muestra los <code>errores</code> de la última corrida (feeds caídos, etc.).</td></tr>
+<tr><td><b>Vercel → Deployments / Logs</b></td><td>Si la app se recompiló con el último dato y los errores de las funciones de <code>web/api</code>.</td></tr>
+<tr><td><b>F12 en el navegador</b></td><td>Pestaña Console: errores del visor. Pestaña Network: respuestas de <code>/api/...</code> (401/500/502).</td></tr>
+</table>
+
+<h3>Si te animas con la terminal (desde la carpeta del proyecto)</h3>
+<pre>gh run list --workflow=daily.yml --limit 10     # últimos runs del recolector
+gh run view &lt;ID&gt; --log-failed                  # solo la parte que falló de un run
+gh workflow run daily.yml                       # correr el recolector ahora
+cd collector &amp;&amp; .venv/bin/python -m pytest tests/ -q   # las 249 pruebas</pre>
+<div class="caja alerta"><b class="t">Ojo al correr el recolector en tu PC</b>
+<p><code>python collector/main.py</code> funciona localmente con las llaves de <code>.env</code>, pero <b>sobrescribe los archivos de <code>data/</code></b> de tu copia local.
+No es grave (el siguiente <code>git pull</code> los reemplaza), pero no hagas commit de esos archivos a mano.</p></div>
+
+<h3>Qué contarme para arreglar algo rápido</h3>
+<ul>
+<li><b>Qué ves</b> (una captura sirve mucho) y <b>desde cuándo</b>.</li>
+<li>El <b>link o el número del run</b> en rojo, si hay uno. Con eso leo el log exacto sin adivinar.</li>
+<li>Si fue desde la app: <b>qué apretaste</b> y el código de error (401, 500…).</li>
+</ul>
+</div>
+
+<!-- ================= 11 ================= -->
+<div class="seccion">
+<h2>11. Cinco ideas que se repiten en todo el código</h2>
+<p>Si entiendes estas cinco, puedes abrir casi cualquier archivo y entender por qué está escrito así.</p>
+<h3>1 · Degradar, no caer</h3>
+<p>Si una fuente falla, se usa el último dato bueno y se sigue (<code>_obtener_fundamentales</code>, <code>actualizar_referencias</code>…).
+Así un problema con la SEC no te deja sin precios. <b>La contracara:</b> un dato puede quedar congelado sin que se note. Por eso vale la pena revisar el log y los <code>errores</code>.</p>
+<h3>2 · Nunca inventar</h3>
+<p>Si no hay dato, el campo queda vacío o "pendiente", nunca con un valor supuesto. Ejemplos: el PIB no muestra variación si falta el trimestre de hace un año; Gemini descarta una cifra si su cita no aparece textual en el documento.</p>
+<h3>3 · Un aviso nunca tumba la corrida</h3>
+<p>Telegram, alertas y resumen van dentro de <code>try</code>: si fallan, se anota y el snapshot igual se sube.</p>
+<h3>4 · Verificar contra la fuente real</h3>
+<p>Cada código de serie, feed o tag de la SEC se probó contra la API de verdad antes de usarlo, y el comentario suele decir cómo. Cuando un comentario dice "encontrado de verdad en una corrida real", es un bug que ya pasó una vez.</p>
+<h3>5 · Los comentarios explican el <i>por qué</i></h3>
+<p>El código dice qué hace; los comentarios (<code>#</code> en Python, <code>//</code> en TypeScript) y los textos entre <code>"""</code> al inicio de cada función explican <b>por qué</b> se hizo así y qué error evita.
+Para entender una función, <b>lee primero su docstring</b>. El <code>CLAUDE.md</code> de la raíz es la bitácora de decisiones: qué se decidió, cuándo y por qué.</p>
+
+<h3>Las reglas duras (en <code>CLAUDE.md</code>)</h3>
+<ul>
+<li><b>$0/mes</b>: nada pagado sin preguntar antes.</li>
+<li><b>El Radar no aconseja</b>: muestra datos, nunca "deberías comprar". Por eso no hay puntaje agregado.</li>
+<li><b>Copyright</b>: las noticias se reescriben, 1-2 frases, siempre con link.</li>
+<li><b>El color es solo señal</b>: verde, ámbar, rojo y acento solo para estado.</li>
+<li><b>Las tesis son inmutables</b>: editar significa cerrar una y abrir otra.</li>
+</ul>
+</div>
+
+<!-- ================= 12 ================= -->
+<div class="seccion">
+<h2>12. Glosario</h2>
+<table>
+<tr><th style="width:24%">Término</th><th>Qué significa aquí</th></tr>
+<tr><td><b>API</b></td><td>Una "ventanilla" de otro servicio a la que el código le pide datos (Finnhub, SEC, Banco Central).</td></tr>
+<tr><td><b>Endpoint</b></td><td>Una dirección específica de una API (por ejemplo <code>/api/watchlist</code>).</td></tr>
+<tr><td><b>JSON</b></td><td>Formato de texto para datos estructurados. <code>daily.json</code> es uno gigante.</td></tr>
+<tr><td><b>Repo / commit / push</b></td><td>Repo: la carpeta del proyecto en GitHub. Commit: una foto guardada de los cambios. Push: subir esa foto a GitHub.</td></tr>
+<tr><td><b>Workflow / run</b></td><td>Workflow: una receta automática de GitHub Actions (<code>.yml</code>). Run: cada vez que esa receta se ejecuta.</td></tr>
+<tr><td><b>Cron / schedule</b></td><td>El horario de un workflow, en UTC. <code>17 * * * *</code> significa "el minuto 17 de cada hora".</td></tr>
+<tr><td><b>Secret / token / llave</b></td><td>Contraseña de una API guardada fuera del código.</td></tr>
+<tr><td><b>Build / deploy</b></td><td>Build: compilar la app (aquí se le pega el JSON). Deploy: publicarla en Vercel.</td></tr>
+<tr><td><b>Función serverless</b></td><td>Código que corre en Vercel solo cuando alguien lo llama (los archivos de <code>web/api/</code>).</td></tr>
+<tr><td><b>RSS</b></td><td>Formato estándar con que los medios publican su lista de noticias.</td></tr>
+<tr><td><b>Log</b></td><td>El registro de todo lo que imprimió un run. Es lo primero que se lee al debuggear.</td></tr>
+<tr><td><b>Traceback</b></td><td>El reporte que deja Python cuando se cae: dice archivo, línea y tipo de error. La última línea es la más importante.</td></tr>
+<tr><td><b>Test</b></td><td>Una prueba automática que verifica que una función hace lo que debe.</td></tr>
+<tr><td><b>Fallback / degradar</b></td><td>El plan B cuando falla el plan A.</td></tr>
+<tr><td><b>XBRL / 10-Q / 10-K / 8-K</b></td><td>Formatos de la SEC: balances etiquetados, reporte trimestral, reporte anual y aviso de evento (como resultados).</td></tr>
+<tr><td><b>Ticker / CIK</b></td><td>Símbolo bursátil (MSFT) y número de identificación de la empresa en la SEC.</td></tr>
+</table>
+<p class="pie" style="margin-top:14pt">Este documento describe el código al 30-09-2026. Si algo cambia mucho (un workflow nuevo, una fuente nueva), pídeme que lo actualice.</p>
+</div>
+
+</body>
+</html>

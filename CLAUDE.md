@@ -117,8 +117,9 @@ link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secret
 **Arranque rápido — lo último (sesión 29/30-09, ver punto 9 al final):** noticias con
 MarketWatch + Investing.com y sin fútbol; PIB (% anual) y desocupación de Chile en
 Referencias, verificados en vivo y en pantalla. **Esperando de José:** (1) una
-`FRED_API_KEY` para sumar PIB/desempleo de EE.UU.; (2) decir qué alcance quiere para el
-PDF que explica el código; (3) lo del punto 5, que sigue sin mirar. El selector de país
+`FRED_API_KEY` para sumar PIB/desempleo de EE.UU.; (2) que lea el PDF "Mapa del código"
+(ya entregado, ver punto 9) y diga si le sirve; (3) lo del punto 5, que sigue sin mirar —
+se le volvió a explicar qué es el 30-09, en 6 ítems concretos. El selector de país
 quedó pospuesto a propósito. Lo de abajo es el contexto de sesiones anteriores.
 
 **Contexto de arranque (al 2026-09-01):** el frente abierto sigue siendo **el throttling de los cron de
@@ -585,9 +586,23 @@ Preguntó "cómo era" esa idea (punto 6 más abajo). Se le recordó que sigue **
 preguntar primero** por chocar con la regla dura del Radar — no la pidió de nuevo esta
 sesión, solo quería recordar de qué se trataba.
 
-**Pedido y no hecho todavía: un PDF explicando el código.** José dijo que anda "trabajando
-ciegamente" y pidió un PDF que explique qué hace cada parte del código — se le aclaró que
-línea por línea no es realista (miles de líneas entre `collector/` y `web/`), se le
-propuso un "mapa del proyecto" a nivel de módulo, y quedó pendiente que confirme el
-alcance (todo el proyecto vs. solo lo tocado hoy) antes de generarlo. **No armar este PDF
-sin retomar esa conversación primero** — no se resolvió qué alcance quiere.
+**PDF "Mapa del código" — entregado (30-09).** José dijo que anda "trabajando ciegamente"
+y que el vibe coding es peligroso si nos trabamos los dos: quiere entender el código y,
+sobre todo, **saber dónde buscar cuando algo falla**. Eso definió el alcance: todo el
+proyecto a nivel de módulo (no línea por línea, son ~15 mil), orientado a debug. 16
+páginas: arquitectura (dos programas + `daily.json`), el viaje de un dato de punta a punta
+con "si falla aquí, ves…", los workflows, cada archivo de `collector/` y `web/`, `main.py`
+y `daily.yml` paso a paso, archivos de `data/`, secrets y qué se rompe sin cada uno,
+**guía de síntomas → dónde mirar**, cómo diagnosticar sin programar (Actions, History del
+JSON, Vercel, F12) y glosario. Escrito leyendo el código actual (índice AST de funciones y
+docstrings), no de memoria.
+- El PDF está en su Escritorio: `Mapa del código - App de inversiones.pdf` (fuera del repo).
+- La fuente es `docs/mapa-del-codigo.html`; el PDF se regenera con Chrome headless:
+  `~/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell --no-sandbox --no-pdf-header-footer --print-to-pdf=SALIDA.pdf file://…/docs/mapa-del-codigo.html`
+  (no hay reportlab ni poppler en esta máquina, y no hacen falta).
+- **Mantenerlo al día**: si se agrega un workflow, una fuente, un secret o un endpoint,
+  actualizar ese HTML y regenerar el PDF, o el mapa empieza a mentir. Los números de
+  línea que cita son del 30-09 y se corren con cada edición (lo dice el propio documento).
+- Hallazgo útil al escribirlo: el visor **importa `daily.json` al compilar**
+  (`web/scripts/sync-data.mjs`), así que "la app muestra un dato viejo" puede ser el
+  recolector **o** un deploy de Vercel fallido. Quedó como primera bifurcación de la guía.
