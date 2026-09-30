@@ -490,6 +490,20 @@ nuevo `_es_deporte()` saca fútbol de los candidatos a Actualidad antes de recor
 de 5 (lista de palabras clave, no exhaustiva — si se cuela otro deporte, ampliar la
 lista). Commit `8aef281`.
 
+**…y ese commit tenía un problema, visto en la primera corrida real** (`workflow_dispatch`
+36663717044): Investing.com publica cada pocos minutos y, como Mundo se ordena por fecha,
+**se llevó 10 de 11 artículos** — Reuters/FT/BBC/MarketWatch quedaron afuera, y encima con
+ruido automático ("Abeona Therapeutics CFO sells $47,385 in company stock"). Arreglado:
+tope de `MAX_POR_MEDIO = 4` artículos por medio en el pool de Mundo, y filtro
+`_TRANSACCION_EJECUTIVO` para esos avisos de compra/venta de ejecutivos (solo cifras exactas
+con separador de miles — "Berkshire sells $2B of Apple" es noticia real y pasa). Además
+MarketWatch cambió de `topstories` a **`mw_bulletins`**: topstories era casi todo columnas
+de consejo personal ("I'm 80. Should I sell my house?"), y `marketpulse`/
+`realtimeheadlines` están muertos (último item 2024-2025). Probado contra los feeds reales
+con el mismo camino que producción: Mundo quedó 4 Investing.com / 3 Reuters / 1
+MarketWatch. Lección: un feed nuevo no está probado hasta ver cómo convive con los otros
+en una corrida real, no solo que responda 200.
+
 **Alertas de movimiento fuerte — confirmado que funcionan bien, no era bug.** El usuario
 mostró una captura con INTC avisando −6,0% y después −5,7% "en 2 días" y preguntó si se
 repetía el mismo movimiento. Se verificó contra `data/alertas_enviadas.json` real: 28-sep

@@ -24,9 +24,11 @@ FEEDS_MUNDO = [
     ("https://feeds.acast.com/public/shows/ftnewsbriefing", "Financial Times", "ft.com"),
     # Sumados 2026-09-30 (pedido del usuario, más volumen de mercados/finanzas en vez de
     # las noticias de deportes que colaban BBC/Al Jazeera/France24 en Actualidad).
-    # Verificados a mano: ambos responden 200 con RSS real. MarketWatch redirige
-    # (feeds.content.dowjones.io) pero feedparser sigue la redirección solo.
-    ("https://www.marketwatch.com/rss/topstories", "MarketWatch", "marketwatch.com"),
+    # Verificados a mano: ambos responden 200 con RSS real. De MarketWatch se usa
+    # "bulletins" y no "topstories": topstories está lleno de columnas de consejo personal
+    # ("I'm 80. Should I sell my house?"), y marketpulse/realtimeheadlines están muertos
+    # (último item de 2024-2025). Comparado el 2026-09-30 contra los cuatro.
+    ("https://feeds.content.dowjones.io/public/rss/mw_bulletins", "MarketWatch", "marketwatch.com"),
     ("https://www.investing.com/rss/news.rss", "Investing.com", "investing.com"),
 ]
 

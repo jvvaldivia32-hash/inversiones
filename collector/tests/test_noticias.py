@@ -221,3 +221,20 @@ def test_noticias_ticker_extracto_vacio_si_gemini_falla(monkeypatch):
 
     resultado = noticias.noticias_ticker("AAPL")
     assert resultado[0]["extracto"] == ""
+
+
+def test_limitar_por_medio_no_deja_que_un_feed_acapare_mundo():
+    # Primera corrida real con Investing.com (2026-09-30): se llevó 10 de 11 artículos.
+    arts = [_articulo(f"t{i}", f"u{i}", medio="Investing.com") for i in range(10)]
+    arts.append(_articulo("r", "ur", medio="Reuters"))
+    salida = noticias._limitar_por_medio(arts, 4)
+    assert [a["medio"] for a in salida].count("Investing.com") == 4
+    assert salida[-1]["medio"] == "Reuters"
+
+
+def test_transaccion_de_ejecutivo_se_filtra_pero_no_una_venta_real():
+    t = noticias._TRANSACCION_EJECUTIVO
+    assert t.search("Abeona Therapeutics CFO Joseph Vazzano sells $47,385 in company stock")
+    assert t.search("Abeona Therapeutics CEO Seshadri sells $101,091 in shares")
+    assert not t.search("Berkshire sells $2B of Apple stake")
+    assert not t.search("Berkshire sells $2 billion of Apple shares")

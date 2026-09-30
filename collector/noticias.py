@@ -87,6 +87,30 @@ PALABRAS_DEPORTES = [
 ]
 
 
+# Cuántos artículos por medio entran como máximo al pool de Mundo. Encontrado en la primera
+# corrida real con Investing.com (2026-09-30): publica cada pocos minutos y, ordenando por
+# fecha, se llevó 10 de 11 artículos del bloque — Reuters/FT/BBC/MarketWatch quedaron fuera.
+MAX_POR_MEDIO = 4
+
+# Avisos automáticos de Investing.com sobre compras/ventas de ejecutivos ("Abeona
+# Therapeutics CFO sells $47,385 in company stock") — generados en masa desde los filings,
+# no son noticia para este tablero. Solo cifras exactas con separador de miles ($47,385):
+# "Berkshire sells $2B of Apple" o "$2 billion" es noticia de verdad y no debe caer acá.
+_TRANSACCION_EJECUTIVO = re.compile(
+    r"\b(sells|buys|acquires)\s+\$\d{1,3}(,\d{3})+(\.\d+)?\s+(in|of|worth)\b", re.I
+)
+
+
+def _limitar_por_medio(articulos: list[dict], maximo: int) -> list[dict]:
+    cuenta: dict[str, int] = {}
+    salida = []
+    for a in articulos:
+        if cuenta.get(a["medio"], 0) < maximo:
+            cuenta[a["medio"]] = cuenta.get(a["medio"], 0) + 1
+            salida.append(a)
+    return salida
+
+
 def _es_economico(articulo: dict) -> bool:
     if articulo["medio"] in MEDIOS_SIEMPRE_ECONOMICOS:
         return True
@@ -203,6 +227,8 @@ def recolectar_bloques() -> tuple[list[dict], list[dict], list[dict], list[str]]
 
     mundo, actualidad_candidatos = [], []
     for a in articulos_mundo_crudo:
+        if _TRANSACCION_EJECUTIVO.search(a["titular"]):
+            continue
         if _es_economico(a):
             mundo.append(a)
         elif not _es_deporte(a["titular"]):
@@ -214,7 +240,7 @@ def recolectar_bloques() -> tuple[list[dict], list[dict], list[dict], list[str]]
     articulos_chile.sort(key=lambda a: a["fecha"], reverse=True)
     actualidad_candidatos.sort(key=lambda a: a["fecha"], reverse=True)
 
-    bloque_mundo = _construir_bloque(mundo, MUNDO_MAX)
+    bloque_mundo = _construir_bloque(_limitar_por_medio(mundo, MAX_POR_MEDIO), MUNDO_MAX)
     bloque_chile = _construir_bloque(articulos_chile, CHILE_MAX)
     bloque_actualidad = [
         {"titular": a["titular"], "medio": a["medio"], "url": a["url"], "fecha": a["fecha"]}
