@@ -390,6 +390,16 @@ Preguntarle:
   Sigue **prohibido sin preguntar primero**: choca con la regla dura del Radar. La señal por
   métrica del 24 es hasta donde se puede llegar sin esa conversación. Si lo vuelve a pedir:
   señalar el choque, preguntar, y documentar acá si dice que sí.
+- **Más fuentes de noticias tipo Bloomberg (2026-09-07).** José preguntó si se le podían sumar
+  "funciones de Bloomberg, sus noticias o algo así". Investigado esa sesión: Bloomberg no
+  tiene RSS público gratis — lo que circula son generadores de terceros que hacen scraping de
+  su HTML, y eso choca con la regla ya escrita en `feeds.py` de sacar cualquier medio sin RSS
+  real en vez de scrapearlo (mismo criterio que ya dejó afuera a Emol, La Tercera, etc.). La
+  Terminal/API de Bloomberg es paga, choca con $0/mes. Lo que sí es viable y queda pendiente:
+  buscar más medios de mercados/finanzas con RSS real y funcionando hoy (candidatos tipo
+  MarketWatch, Investing.com) y verificarlos a mano antes de sumarlos a `FEEDS_MUNDO`/
+  `FEEDS_CHILE`, mismo proceso que ya se usó para el catálogo actual. José está estudiando
+  para una prueba — quedó en pausa hasta que él retome el tema.
 
 ### 7. Pasada de debug del 28-08 — cinco bugs arreglados y pusheados
 
