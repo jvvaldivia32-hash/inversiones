@@ -154,7 +154,12 @@ def test_recolectar_bloques_separa_mundo_de_actualidad(monkeypatch):
     assert len(actualidad) == 1
     assert actualidad[0]["titular"] == "Terremoto sacude la region"
     assert len(chile) == 1
-    assert errores == []
+    # Gemini caído ya no pasa en silencio: queda al pie de la app, una sola vez aunque
+    # afecte a Mundo y a Chile.
+    assert errores == [
+        "Gemini no respondió: noticias agrupadas por palabras clave",
+        "Gemini no respondió: noticias sin resumen",
+    ]
 
 
 def test_recolectar_bloques_deduplica_por_url(monkeypatch):

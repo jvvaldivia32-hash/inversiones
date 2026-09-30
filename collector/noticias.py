@@ -169,7 +169,9 @@ def _construir_historia(
     }
 
 
-def _construir_bloque(articulos_crudos: list[dict], tope: int) -> list[dict]:
+def _construir_bloque(
+    articulos_crudos: list[dict], tope: int, avisos: list[str] | None = None
+) -> list[dict]:
     """Agrupa (Gemini si hay key y responde bien, si no por keywords), reescribe un resumen
     por grupo, y recorta a `tope` historias — recién después de agrupar, no antes."""
     pool = articulos_crudos[:POOL_MAX]
@@ -179,6 +181,8 @@ def _construir_bloque(articulos_crudos: list[dict], tope: int) -> list[dict]:
     titulares = [a["titular"] for a in pool]
     grupos = gemini.agrupar_historias(titulares)
     if grupos is None:
+        if avisos is not None:
+            avisos.append("Gemini no respondió: noticias agrupadas por palabras clave")
         grupos = _agrupar_por_keywords(pool)
 
     snippets_por_grupo = [
@@ -191,6 +195,8 @@ def _construir_bloque(articulos_crudos: list[dict], tope: int) -> list[dict]:
     # (CLAUDE.md) es solo para ese segundo caso.
     resumenes = gemini.reescribir_resumenes(snippets_por_grupo, min_frases=2, max_frases=4)
     if resumenes is None:
+        if avisos is not None:
+            avisos.append("Gemini no respondió: noticias sin resumen")
         resumenes = [None] * len(grupos)
 
     historias_con_fecha = []
@@ -240,14 +246,15 @@ def recolectar_bloques() -> tuple[list[dict], list[dict], list[dict], list[str]]
     articulos_chile.sort(key=lambda a: a["fecha"], reverse=True)
     actualidad_candidatos.sort(key=lambda a: a["fecha"], reverse=True)
 
-    bloque_mundo = _construir_bloque(_limitar_por_medio(mundo, MAX_POR_MEDIO), MUNDO_MAX)
-    bloque_chile = _construir_bloque(articulos_chile, CHILE_MAX)
+    bloque_mundo = _construir_bloque(_limitar_por_medio(mundo, MAX_POR_MEDIO), MUNDO_MAX, errores)
+    bloque_chile = _construir_bloque(articulos_chile, CHILE_MAX, errores)
     bloque_actualidad = [
         {"titular": a["titular"], "medio": a["medio"], "url": a["url"], "fecha": a["fecha"]}
         for a in actualidad_candidatos[:5]
     ]
 
-    return bloque_mundo, bloque_chile, bloque_actualidad, errores
+    # Mundo y Chile avisan lo mismo si Gemini se cae: una sola línea al pie, no dos.
+    return bloque_mundo, bloque_chile, bloque_actualidad, list(dict.fromkeys(errores))
 
 
 def noticias_ticker(ticker: str) -> list[dict]:

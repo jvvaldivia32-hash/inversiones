@@ -31,7 +31,18 @@ INDICES_REFERENCIA = {
 }
 
 
-def actualizar_precios(tickers: list[str], ahora: datetime.datetime) -> tuple[dict, dict]:
+def _avisar(avisos: list[str], mensaje: str) -> None:
+    """Falla parcial que no detiene la corrida pero deja un dato viejo o faltante en la app.
+    Antes solo se imprimía en el log de Actions, que nadie mira: la app seguía mostrando el
+    valor anterior sin ninguna señal. Ahora además va a `daily.json["errores"]`, que la app
+    muestra al pie."""
+    print(f"  {mensaje}")
+    avisos.append(mensaje)
+
+
+def actualizar_precios(
+    tickers: list[str], ahora: datetime.datetime, avisos: list[str]
+) -> tuple[dict, dict]:
     hist = historico.cargar(RUTA_HISTORICO)
     cotizaciones = {}
 
@@ -54,6 +65,7 @@ def actualizar_precios(tickers: list[str], ahora: datetime.datetime) -> tuple[di
             # Sin cotización nueva, el ticker no entra a `posiciones` esta corrida — mejor
             # que la card vuelva a "pendiente" un rato a que muestre un precio mentiroso.
             print(f"{ticker}: no se pudo actualizar el precio ({e})")
+            avisos.append(f"Finnhub: sin precio nuevo de {ticker} (su card queda pendiente)")
 
     historico.compactar(hist, ahora)
     historico.guardar(RUTA_HISTORICO, hist)
@@ -67,7 +79,9 @@ def _fundamentales_anteriores() -> dict[str, dict]:
     }
 
 
-def _obtener_fundamentales(ticker: str, cik: str | None, anterior: dict | None) -> dict | None:
+def _obtener_fundamentales(
+    ticker: str, cik: str | None, anterior: dict | None, avisos: list[str]
+) -> dict | None:
     """Fundamentales reales si hay un filing nuevo, o lo que había antes si EDGAR falla
     o no cambió nada — mismo criterio de degradación que sources/banco_central.py."""
     if cik is None:
@@ -77,6 +91,7 @@ def _obtener_fundamentales(ticker: str, cik: str | None, anterior: dict | None) 
         nuevo = edgar.obtener_fundamentales(ticker, cik, accession_anterior)
     except edgar.EdgarError as e:
         print(f"  {ticker}: fundamentales no se pudieron actualizar ({e})")
+        avisos.append(f"EDGAR: fundamentales de {ticker} sin actualizar (se muestran los anteriores)")
         return anterior
     return nuevo if nuevo is not None else anterior
 
@@ -94,7 +109,9 @@ def _segmentos_anteriores() -> dict[str, dict]:
     }
 
 
-def _obtener_segmentos(ticker: str, cik: str | None, anterior: dict | None) -> dict | None:
+def _obtener_segmentos(
+    ticker: str, cik: str | None, anterior: dict | None, avisos: list[str]
+) -> dict | None:
     """Igual que _obtener_fundamentales, pero para el press release del 8-K (Fase 5)."""
     if cik is None:
         return None
@@ -103,6 +120,7 @@ def _obtener_segmentos(ticker: str, cik: str | None, anterior: dict | None) -> d
         nuevo = segmentos.obtener_segmentos(cik, accession_anterior)
     except edgar.EdgarError as e:
         print(f"  {ticker}: segmentos no se pudieron actualizar ({e})")
+        avisos.append(f"EDGAR: segmentos de {ticker} sin actualizar (se muestran los anteriores)")
         return anterior
     return nuevo if nuevo is not None else anterior
 
@@ -125,6 +143,7 @@ def _obtener_metricas_avanzadas(
     ahora: datetime.datetime,
     fundamentales: dict | None,
     anterior: dict | None,
+    avisos: list[str],
 ) -> dict | None:
     """Extra fuera del plan madre (pedido 2026-08-14): Market Cap, EV, ROE/ROIC/ROCE,
     múltiplos y beta por posición. Mismo criterio de degradación que
@@ -135,6 +154,7 @@ def _obtener_metricas_avanzadas(
         balance = edgar.obtener_balance(cik)
     except edgar.EdgarError as e:
         print(f"  {ticker}: métricas avanzadas no se pudieron actualizar ({e})")
+        avisos.append(f"EDGAR: métricas avanzadas de {ticker} sin actualizar (se muestran las anteriores)")
         return anterior
     nuevo = metricas_avanzadas.calcular_metricas(
         ticker, fundamentales, balance, precio, hist_ticker, hist_mercado, ahora
@@ -189,7 +209,11 @@ def _revisar_tesis_ticker(
 
 
 def construir_posiciones(
-    tickers: list[str], hist: dict, cotizaciones: dict, ahora: datetime.datetime
+    tickers: list[str],
+    hist: dict,
+    cotizaciones: dict,
+    ahora: datetime.datetime,
+    avisos: list[str],
 ) -> list[dict]:
     fundamentales_anteriores = _fundamentales_anteriores()
     segmentos_anteriores = _segmentos_anteriores()
@@ -203,7 +227,7 @@ def construir_posiciones(
     try:
         ciks = edgar.resolver_ciks(tickers)
     except edgar.EdgarError as e:
-        print(f"  no se pudieron resolver CIKs esta corrida ({e}), sin fundamentales nuevos")
+        _avisar(avisos, f"EDGAR no respondió ({e}): fundamentales sin actualizar esta corrida")
         ciks = {}
 
     hist_mercado = hist.get("VOO", [])
@@ -225,13 +249,13 @@ def construir_posiciones(
         }
 
         anterior_fund = fundamentales_anteriores.get(ticker)
-        fundamentales = _obtener_fundamentales(ticker, cik, anterior_fund)
+        fundamentales = _obtener_fundamentales(ticker, cik, anterior_fund, avisos)
         fundamentales_frescos = _es_dato_fresco(fundamentales, anterior_fund)
         if fundamentales is not None:
             posicion["fundamentales"] = fundamentales
 
         anterior_seg = segmentos_anteriores.get(ticker)
-        seg = _obtener_segmentos(ticker, cik, anterior_seg)
+        seg = _obtener_segmentos(ticker, cik, anterior_seg, avisos)
         segmentos_frescos = _es_dato_fresco(seg, anterior_seg)
         if seg is not None:
             posicion["segmentos"] = seg["segmentos"]
@@ -240,7 +264,8 @@ def construir_posiciones(
 
         anterior_avanzadas = avanzadas_anteriores.get(ticker)
         avanzadas = _obtener_metricas_avanzadas(
-            ticker, cik, precio, hist_ticker, hist_mercado, ahora, fundamentales, anterior_avanzadas
+            ticker, cik, precio, hist_ticker, hist_mercado, ahora, fundamentales, anterior_avanzadas,
+            avisos,
         )
         if avanzadas is not None:
             posicion["metricas_avanzadas"] = avanzadas
@@ -258,7 +283,7 @@ def construir_posiciones(
     return posiciones
 
 
-def actualizar_referencias() -> dict:
+def actualizar_referencias(avisos: list[str]) -> dict:
     """Referencias con datos reales de Banco Central (Chile) y Finnhub (índices). Si una
     fuente puntual falla, se conserva el valor que ya estaba en daily.json para ese campo
     en particular — mejor un dato de hace un rato que uno en blanco."""
@@ -266,7 +291,18 @@ def actualizar_referencias() -> dict:
     referencias_anteriores = daily.get("referencias", {"indices": [], "chile": {}})
 
     chile_anterior = referencias_anteriores.get("chile", {})
-    chile = {**chile_anterior, **banco_central.obtener_referencias_chile()}
+    chile_nuevo = banco_central.obtener_referencias_chile()
+    chile = {**chile_anterior, **chile_nuevo}
+    # Solo campos que ya existían: uno recién agregado que nunca tuvo valor no es "viejo".
+    # "pib_var_12m"/"pib_periodo" → "pib": un aviso por dato, no uno por campo derivado.
+    sin_dato_nuevo = list(
+        dict.fromkeys(c.split("_")[0] for c in chile_anterior if c != "fuente" and c not in chile_nuevo)
+    )
+    if sin_dato_nuevo:
+        _avisar(
+            avisos,
+            f"Banco Central: sin dato nuevo de {', '.join(sin_dato_nuevo)} (se muestra el anterior)",
+        )
 
     indices_anteriores = {i["ticker"]: i for i in referencias_anteriores.get("indices", [])}
     indices = []
@@ -282,6 +318,7 @@ def actualizar_referencias() -> dict:
                 }
             )
         except prices.FinnhubError:
+            _avisar(avisos, f"Finnhub: sin cotización nueva de {ticker} (se muestra la anterior)")
             anterior = indices_anteriores.get(ticker)
             if anterior:
                 indices.append(anterior)
@@ -327,7 +364,10 @@ def main() -> None:
 
     print("\nActualizando precios...")
     ahora = datetime.datetime.now(datetime.timezone.utc)
-    hist, cotizaciones = actualizar_precios(tickers, ahora)
+    # Fallas parciales de esta corrida (ver _avisar): terminan al pie de la app junto a los
+    # feeds caídos, en vez de quedar solo en el log.
+    avisos: list[str] = []
+    hist, cotizaciones = actualizar_precios(tickers, ahora, avisos)
 
     print("\nLeyendo noticias...")
     mundo, chile, actualidad, errores_noticias = noticias.recolectar_bloques()
@@ -336,13 +376,13 @@ def main() -> None:
         print(f"  aviso: {e}")
 
     print("\nActualizando referencias (Banco Central + índices)...")
-    referencias = actualizar_referencias()
+    referencias = actualizar_referencias(avisos)
     print(f"  chile: {referencias['chile']}")
     print(f"  indices: {[i['ticker'] for i in referencias['indices']]}")
 
-    posiciones = construir_posiciones(tickers, hist, cotizaciones, ahora)
+    posiciones = construir_posiciones(tickers, hist, cotizaciones, ahora, avisos)
     actualizar_daily_json(
-        posiciones, (mundo, chile, actualidad), errores_noticias, referencias, ahora
+        posiciones, (mundo, chile, actualidad), errores_noticias + avisos, referencias, ahora
     )
     print(f"\ndata/daily.json actualizado con {len(posiciones)} posiciones reales.")
 
