@@ -603,6 +603,32 @@ docstrings), no de memoria.
 - **Mantenerlo al día**: si se agrega un workflow, una fuente, un secret o un endpoint,
   actualizar ese HTML y regenerar el PDF, o el mapa empieza a mentir. Los números de
   línea que cita son del 30-09 y se corren con cada edición (lo dice el propio documento).
+**Blindaje contra fallas silenciosas (30-09, pedido de José: "arreglarlo para no tener
+errores a futuro").** Antes, si Banco Central, EDGAR, Finnhub o Gemini fallaban, la app
+seguía mostrando el dato anterior **sin ninguna señal** — solo quedaba en el log de
+Actions. Ahora `main.py` junta esas fallas parciales (`_avisar`, lista `avisos`) y
+`noticias.py` avisa cuando Gemini no responde; todo va a `daily.json["errores"]`, que la
+app ya mostraba al pie (`ErroresFooter`). Una línea por dato, no por campo derivado
+(`pib_var_12m`/`pib_periodo` → "pib"), y el aviso de Gemini no se repite entre Mundo y
+Chile. Tests nuevos en `test_main_avisos.py` (252 en total). Commit `f4f49a2`,
+verificado en un `workflow_dispatch` real.
+- **Destapó un problema real al primer run:** `002594` en la watchlist (BYD en la bolsa
+  de Shenzhen, lo agregó José desde la app el 16-09) nunca tuvo precio — Finnhub free
+  solo cubre EE.UU. — y su card estaba "pendiente" hace dos semanas sin que nada lo dijera.
+  `BYDDY` (ADR de BYD en EE.UU.) sí cotiza en Finnhub (probado: US$ 9,51). **Se le
+  preguntó a José si reemplazarlo; no tocar su watchlist sin que diga que sí.**
+- **Descartado a propósito — aviso de vencimiento de tokens:** la idea era leer el header
+  `github-authentication-token-expiration` en `web/api/*` y avisar con anticipación. No
+  sirve: GitHub tiene un bug conocido (google/go-github#3708) en que para fine-grained PATs
+  ese header devuelve la hora actual, no la de vencimiento — el aviso diría "vence hoy"
+  siempre. Si un token vence, lo que se ve es 502 al guardar desde la app (está en la guía
+  de síntomas del PDF).
+- **Revisado y sano:** los últimos 40 deploys de Vercel salieron `success` (vía
+  `gh api repos/.../deployments`); Gemini usa el alias `gemini-flash-lite-latest`, así que
+  no se rompe cuando Google retira un modelo. La producción de Vercel está detrás de
+  "Vercel Authentication" en las URLs por-deploy — para probar `/api/*` de verdad hace
+  falta la URL de producción, que no está en el repo.
+
 - Hallazgo útil al escribirlo: el visor **importa `daily.json` al compilar**
   (`web/scripts/sync-data.mjs`), así que "la app muestra un dato viejo" puede ser el
   recolector **o** un deploy de Vercel fallido. Quedó como primera bifurcación de la guía.
