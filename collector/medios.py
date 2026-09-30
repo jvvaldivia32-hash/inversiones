@@ -16,6 +16,10 @@ LEAN_INTL = {
     "theguardian.com": "izquierda",
     "aljazeera.com": "sin-clasificar",
     "france24.com": "centro",
+    # Media Bias/Fact Check (verificado 2026-09-30): MarketWatch "Right-Center", Investing.com
+    # "Least Biased" (equivalente a centro en esta escala).
+    "marketwatch.com": "centro-derecha",
+    "investing.com": "centro",
 }
 
 MEDIOS_CL = {

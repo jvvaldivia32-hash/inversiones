@@ -53,10 +53,50 @@ PALABRAS_ECONOMIA = [
     "valuation",
 ]
 
+# Feeds que son 100% mercados/finanzas de por sí (MarketWatch, Investing.com) — se agregan
+# como económicos sin pasar por PALABRAS_ECONOMIA, porque un titular real de ese rubro
+# ("Why is Nidec stock surging today?", "KKR sells Japan and Korea storage tank assets") no
+# necesariamente contiene ninguna de esas palabras y terminaría cayendo a Actualidad por
+# volumen en vez de a Mundo.
+MEDIOS_SIEMPRE_ECONOMICOS = {"MarketWatch", "Investing.com"}
 
-def _es_economico(titular: str) -> bool:
-    titular_min = titular.lower()
+# Deportes (pedido del usuario 2026-09-30): BBC/Al Jazeera/France24 mezclan fútbol con el
+# resto de "world news" y no hay forma de pedirles solo lo económico — se saca acá, antes de
+# que un titular de fútbol le gane el cupo a algo real en el bloque Actualidad (tope 5).
+PALABRAS_DEPORTES = [
+    "fútbol",
+    "futbol",
+    "football",
+    "soccer",
+    "fifa",
+    "uefa",
+    "champions league",
+    "europa league",
+    "premier league",
+    "la liga",
+    "serie a",
+    "bundesliga",
+    "copa américa",
+    "copa america",
+    "mundial de fútbol",
+    "mundial de futbol",
+    "selección chilena",
+    "seleccion chilena",
+    "colo-colo",
+    "colo colo",
+]
+
+
+def _es_economico(articulo: dict) -> bool:
+    if articulo["medio"] in MEDIOS_SIEMPRE_ECONOMICOS:
+        return True
+    titular_min = articulo["titular"].lower()
     return any(palabra in titular_min for palabra in PALABRAS_ECONOMIA)
+
+
+def _es_deporte(titular: str) -> bool:
+    titular_min = titular.lower()
+    return any(palabra in titular_min for palabra in PALABRAS_DEPORTES)
 
 
 def _articulo_publico(articulo: dict) -> dict:
@@ -163,7 +203,10 @@ def recolectar_bloques() -> tuple[list[dict], list[dict], list[dict], list[str]]
 
     mundo, actualidad_candidatos = [], []
     for a in articulos_mundo_crudo:
-        (mundo if _es_economico(a["titular"]) else actualidad_candidatos).append(a)
+        if _es_economico(a):
+            mundo.append(a)
+        elif not _es_deporte(a["titular"]):
+            actualidad_candidatos.append(a)
 
     # Más reciente primero, y se recorta — sin esto un solo feed grande (BBC, Al Jazeera)
     # llena el bloque entero de puros items del mismo medio.

@@ -20,15 +20,27 @@ def _articulo(titular, url, medio="Medio", grupo="Grupo", lean="centro", snippet
 
 
 def test_es_economico_detecta_palabras_clave():
-    assert noticias._es_economico("La Fed sube las tasas de interés") is True
-    assert noticias._es_economico("Un gato rescata a un bombero") is False
+    assert noticias._es_economico(_articulo("La Fed sube las tasas de interés", "u1")) is True
+    assert noticias._es_economico(_articulo("Un gato rescata a un bombero", "u2")) is False
 
 
 def test_es_economico_detecta_ipo():
     # Encontrado en vivo (2026-08-13): "Anthropic's anticipated $2tn IPO" no matcheaba
     # ninguna palabra de la lista original — caía a Actualidad (tope 5) en vez de Mundo
     # (tope 8) y se perdía por volumen.
-    assert noticias._es_economico("Anthropic's anticipated $2tn IPO") is True
+    assert noticias._es_economico(_articulo("Anthropic's anticipated $2tn IPO", "u3")) is True
+
+
+def test_es_economico_feed_siempre_economico_sin_palabra_clave():
+    # MarketWatch/Investing.com (2026-09-30): un titular real de ese rubro puede no traer
+    # ninguna PALABRA_ECONOMIA y aun así es 100% mercado.
+    art = _articulo("Why is Nidec stock surging today?", "u4", medio="MarketWatch")
+    assert noticias._es_economico(art) is True
+
+
+def test_es_deporte_saca_futbol_de_actualidad():
+    assert noticias._es_deporte("Colo-Colo golea en el clásico universitario") is True
+    assert noticias._es_deporte("Un gato rescata a un bombero") is False
 
 
 def test_articulo_publico_saca_campos_internos():

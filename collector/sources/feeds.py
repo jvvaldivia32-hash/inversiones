@@ -22,6 +22,12 @@ FEEDS_MUNDO = [
     ("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera", "aljazeera.com"),
     ("https://www.france24.com/en/rss", "France24", "france24.com"),
     ("https://feeds.acast.com/public/shows/ftnewsbriefing", "Financial Times", "ft.com"),
+    # Sumados 2026-09-30 (pedido del usuario, más volumen de mercados/finanzas en vez de
+    # las noticias de deportes que colaban BBC/Al Jazeera/France24 en Actualidad).
+    # Verificados a mano: ambos responden 200 con RSS real. MarketWatch redirige
+    # (feeds.content.dowjones.io) pero feedparser sigue la redirección solo.
+    ("https://www.marketwatch.com/rss/topstories", "MarketWatch", "marketwatch.com"),
+    ("https://www.investing.com/rss/news.rss", "Investing.com", "investing.com"),
 ]
 
 FEEDS_CHILE = [
