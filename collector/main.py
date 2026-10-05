@@ -4,19 +4,21 @@ import os
 from pathlib import Path
 
 import alertas
+import capm
 import resumen_telegram
 import riesgo_retorno
 import historico
 import noticias
 import tesis
 from env import cargar_env
-from sources import banco_central, edgar, metricas_avanzadas, prices, segmentos, yahoo
+from sources import banco_central, edgar, metricas_avanzadas, prices, segmentos, tesoro, yahoo
 from watchlist import parse_watchlist
 
 RAIZ_REPO = Path(__file__).resolve().parent.parent
 RUTA_HISTORICO = RAIZ_REPO / "data" / "historico_precios.json"
 RUTA_DAILY = RAIZ_REPO / "data" / "daily.json"
 RUTA_TESIS = RAIZ_REPO / "data" / "tesis.json"
+RUTA_PAPER = RAIZ_REPO / "data" / "paperinvesting.json"
 
 CLAVES_ESPERADAS = [
     "GEMINI_API_KEY",
@@ -41,9 +43,23 @@ def _avisar(avisos: list[str], mensaje: str) -> None:
     avisos.append(mensaje)
 
 
+def _tickers_extra(watchlist: list[str]) -> list[str]:
+    """Candidatos del Radar + posiciones del simulador que no están en la watchlist. Antes
+    solo el cron semanal del Radar les actualizaba el precio, y si ese fallaba quedaban
+    congelados (ORCL estuvo seis semanas quieto en el simulador, mostrando 0%)."""
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    candidatos = [c["ticker"] for c in daily.get("radar", {}).get("candidatos", [])]
+    simulador = []
+    if RUTA_PAPER.exists():
+        simulador = list(json.loads(RUTA_PAPER.read_text(encoding="utf-8")).get("posiciones", {}))
+    return [t for t in dict.fromkeys(candidatos + simulador) if t not in watchlist]
+
+
 def actualizar_precios(
-    tickers: list[str], ahora: datetime.datetime, avisos: list[str]
+    tickers: list[str], ahora: datetime.datetime, avisos: list[str], tickers_extra: list[str] = ()
 ) -> tuple[dict, dict]:
+    """`cotizaciones` trae también los extra, pero construir_posiciones solo recorre la
+    watchlist: los extra no se vuelven cards."""
     hist = historico.cargar(RUTA_HISTORICO)
     cotizaciones = {}
 
@@ -67,6 +83,18 @@ def actualizar_precios(
             # que la card vuelva a "pendiente" un rato a que muestre un precio mentiroso.
             print(f"{ticker}: no se pudo actualizar el precio ({e})")
             avisos.append(f"Finnhub: sin precio nuevo de {ticker} (su card queda pendiente)")
+
+    for ticker in tickers_extra:
+        if ticker not in hist:
+            backfill = yahoo.descargar_historico(ticker)
+            if backfill:
+                historico.sembrar(hist, ticker, backfill)
+        try:
+            cotizacion = prices.obtener_cotizacion(ticker)
+            historico.agregar_cierre_diario(hist, ticker, ahora, cotizacion["precio"])
+            cotizaciones[ticker] = cotizacion
+        except prices.FinnhubError as e:
+            _avisar(avisos, f"Finnhub: sin precio nuevo de {ticker} (Radar/simulador, queda el anterior: {e})")
 
     historico.compactar(hist, ahora)
     historico.guardar(RUTA_HISTORICO, hist)
@@ -328,12 +356,77 @@ def actualizar_referencias(avisos: list[str]) -> dict:
     return {"indices": indices, "chile": chile}
 
 
+def actualizar_sectores(tickers: list[str], avisos: list[str]) -> dict[str, str | None]:
+    """Sector de cada ticker para la concentración de cartera. Casi nunca cambia: solo se
+    le pregunta a Finnhub por los que todavía no están en daily.json."""
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    sectores = dict(daily.get("sectores", {}))
+    for ticker in tickers:
+        if ticker in sectores:
+            continue
+        try:
+            sectores[ticker] = prices.obtener_sector(ticker)
+        except prices.FinnhubError as e:
+            print(f"  {ticker}: sin sector ({e})")  # se reintenta la próxima corrida
+    return {t: sectores[t] for t in tickers if t in sectores}
+
+
+def calcular_capm(hist: dict, tickers: list[str], ahora: datetime.datetime, avisos: list[str]) -> dict | None:
+    """CAPM del último año (ver capm.py). Si treasury.gov no responde se usa la tasa de la
+    corrida anterior: cambia una vez al día y es de hace un año, no hay apuro."""
+    daily = json.loads(RUTA_DAILY.read_text(encoding="utf-8"))
+    anterior = daily.get("capm")
+    inicio = ahora.date() - datetime.timedelta(days=365)
+    try:
+        fecha_rf, rf = tesoro.tasa_1a(inicio)
+        rf_fecha = fecha_rf.isoformat()
+    except tesoro.TesoroError as e:
+        if not anterior:
+            _avisar(avisos, f"Tesoro EE.UU.: sin tasa libre de riesgo ({e}), CAPM sin calcular")
+            return None
+        _avisar(avisos, "Tesoro EE.UU.: sin tasa nueva, el CAPM usa la de la corrida anterior")
+        rf, rf_fecha = anterior["rf_pct"], anterior["rf_fecha"]
+    resultado = capm.calcular(hist, tickers, rf, rf_fecha, ahora)
+    if resultado is None:
+        _avisar(avisos, "CAPM: no hay un año de historia de VOO para calcularlo")
+        return anterior
+    return resultado
+
+
+def _extras_daily(daily: dict, hist: dict, cotizaciones: dict, watchlist: list[str], ahora: datetime.datetime) -> None:
+    """Refresca la serie de los candidatos del Radar con el precio de esta hora, y publica
+    en `precios_simulador` las posiciones del simulador que no están ni en la watchlist ni
+    en el Radar (sin esto, su card quedaba sin precio)."""
+    candidatos = daily.get("radar", {}).get("candidatos", [])
+    for c in candidatos:
+        if c["ticker"] in hist:
+            c["serie_precio"] = historico.derivar_rangos(hist[c["ticker"]], ahora)
+    if not RUTA_PAPER.exists():
+        return
+    conocidos = set(watchlist) | {c["ticker"] for c in candidatos}
+    extra = []
+    for ticker in json.loads(RUTA_PAPER.read_text(encoding="utf-8")).get("posiciones", {}):
+        if ticker in conocidos or not hist.get(ticker):
+            continue
+        precio = cotizaciones.get(ticker, {}).get("precio") or hist[ticker][-1]["valor"]
+        extra.append(
+            {
+                "ticker": ticker,
+                "nombre": ticker,
+                "precio": precio,
+                "serie_precio": historico.derivar_rangos(hist[ticker], ahora),
+            }
+        )
+    daily["precios_simulador"] = extra
+
+
 def actualizar_daily_json(
     posiciones: list[dict],
     bloques_noticias: tuple[list[dict], list[dict], list[dict]],
     errores_noticias: list[str],
     referencias: dict,
     ahora: datetime.datetime,
+    extras: dict | None = None,
 ) -> None:
     """Reemplaza `posiciones`, `bloques` y `referencias` en data/daily.json con datos
     reales, sin tocar `radar` — esa fase todavía no existe."""
@@ -344,6 +437,11 @@ def actualizar_daily_json(
     daily["referencias"] = referencias
     daily["errores"] = errores_noticias
     daily["generado"] = ahora.isoformat()
+    if extras:
+        _extras_daily(daily, extras["hist"], extras["cotizaciones"], extras["watchlist"], ahora)
+        daily["sectores"] = extras["sectores"]
+        if extras["capm"] is not None:
+            daily["capm"] = extras["capm"]
     RUTA_DAILY.write_text(
         json.dumps(daily, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
@@ -369,7 +467,8 @@ def main() -> None:
     # Fallas parciales de esta corrida (ver _avisar): terminan al pie de la app junto a los
     # feeds caídos, en vez de quedar solo en el log.
     avisos: list[str] = []
-    hist, cotizaciones = actualizar_precios(tickers, ahora, avisos)
+    tickers_extra = _tickers_extra(tickers)
+    hist, cotizaciones = actualizar_precios(tickers, ahora, avisos, tickers_extra)
 
     print("\nLeyendo noticias...")
     mundo, chile, actualidad, errores_noticias = noticias.recolectar_bloques()
@@ -383,8 +482,18 @@ def main() -> None:
     print(f"  indices: {[i['ticker'] for i in referencias['indices']]}")
 
     posiciones = construir_posiciones(tickers, hist, cotizaciones, ahora, avisos)
+
+    print("\nCAPM y sectores...")
+    universo = list(dict.fromkeys(tickers + tickers_extra + [capm.MERCADO]))
+    extras = {
+        "hist": hist,
+        "cotizaciones": cotizaciones,
+        "watchlist": tickers,
+        "sectores": actualizar_sectores(universo, avisos),
+        "capm": calcular_capm(hist, universo, ahora, avisos),
+    }
     actualizar_daily_json(
-        posiciones, (mundo, chile, actualidad), errores_noticias + avisos, referencias, ahora
+        posiciones, (mundo, chile, actualidad), errores_noticias + avisos, referencias, ahora, extras
     )
     print(f"\ndata/daily.json actualizado con {len(posiciones)} posiciones reales.")
 

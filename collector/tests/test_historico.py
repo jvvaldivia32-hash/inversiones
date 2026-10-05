@@ -133,3 +133,13 @@ def test_derivar_rangos_un_punto_por_dia_toma_el_ultimo():
     ]
     rangos = historico.derivar_rangos(serie, ahora)
     assert rangos["6M"] == [{"fecha": "2026-08-10", "valor": 502.0}]
+
+
+def test_agregar_cierre_diario_reemplaza_el_punto_del_mismo_dia():
+    h = {}
+    ahora = datetime.datetime(2026, 10, 5, 14, 10)
+    historico.agregar_cierre_diario(h, "ORCL", ahora, 143.0)
+    historico.agregar_cierre_diario(h, "ORCL", ahora.replace(hour=19), 144.5)
+    assert h["ORCL"] == [{"ts": "2026-10-05T19:00:00", "valor": 144.5}]
+    historico.agregar_cierre_diario(h, "ORCL", ahora + datetime.timedelta(days=1), 146.0)
+    assert len(h["ORCL"]) == 2

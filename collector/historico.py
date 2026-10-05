@@ -52,6 +52,20 @@ def agregar_punto(historico: dict, ticker: str, ahora: datetime.datetime, valor:
     serie.append({"ts": balde, "valor": valor})
 
 
+def agregar_cierre_diario(historico: dict, ticker: str, ahora: datetime.datetime, valor: float) -> None:
+    """Como agregar_punto, pero un solo punto por día: si ya hay uno de hoy, lo reemplaza.
+    Para los tickers que no están en la watchlist (candidatos del Radar, posiciones del
+    simulador): se refrescan cada hora para que su precio no quede viejo, pero guardar 24
+    puntos al día de ~15 tickers más engordaría el archivo (5 MB) a cambio de nada."""
+    ahora = _sin_tz(ahora)
+    balde = ahora.replace(minute=0, second=0, microsecond=0).isoformat()
+    serie = historico.setdefault(ticker, [])
+    if serie and serie[-1]["ts"][:10] == balde[:10]:
+        serie[-1] = {"ts": balde, "valor": valor}
+        return
+    serie.append({"ts": balde, "valor": valor})
+
+
 def compactar(
     historico: dict,
     ahora: datetime.datetime,

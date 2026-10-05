@@ -53,6 +53,44 @@ def obtener_cotizacion(ticker: str) -> dict:
     }
 
 
+# finnhubIndustry viene en inglés; lo que no esté acá se muestra tal cual.
+SECTORES_ES = {
+    "Technology": "Tecnología",
+    "Media": "Medios",
+    "Financial Services": "Servicios financieros",
+    "Banking": "Bancos",
+    "Insurance": "Seguros",
+    "Automobiles": "Automotriz",
+    "Hotels, Restaurants & Leisure": "Restaurantes y ocio",
+    "Retail": "Retail",
+    "Beverages": "Bebidas",
+    "Food Products": "Alimentos",
+    "Pharmaceuticals": "Farmacéuticas",
+    "Biotechnology": "Biotecnología",
+    "Health Care": "Salud",
+    "Semiconductors": "Semiconductores",
+    "Utilities": "Servicios básicos",
+    "Energy": "Energía",
+    "Aerospace & Defense": "Aeroespacial y defensa",
+    "Machinery": "Maquinaria",
+    "Industrial Conglomerates": "Conglomerados industriales",
+    "Logistics & Transportation": "Logística y transporte",
+    "Telecommunication": "Telecomunicaciones",
+    "Real Estate": "Inmobiliario",
+    "Chemicals": "Químicos",
+    "Consumer products": "Consumo",
+}
+
+
+def obtener_sector(ticker: str) -> str | None:
+    """Industria según Finnhub (endpoint `stock/profile2`, free tier). None si Finnhub no
+    tiene perfil — pasa con los ETF (VOO, QQQ)."""
+    industria = _request("/stock/profile2", {"symbol": ticker}).get("finnhubIndustry")
+    if not industria:
+        return None
+    return SECTORES_ES.get(industria, industria)
+
+
 def obtener_velas(ticker: str, dias: int) -> list[dict]:
     """Histórico diario de cierre para el gráfico — endpoint `stock/candle`.
 
