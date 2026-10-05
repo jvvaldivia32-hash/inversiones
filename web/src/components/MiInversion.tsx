@@ -51,6 +51,10 @@ type Modo = "idle" | "comprar" | "vender" | "editar" | "clave";
 interface Payload {
   acciones: number;
   costo_base_usd: number;
+  // Solo al vender: lo que valen hoy las acciones vendidas. El simulador lo suma al
+  // efectivo (antes sumaba el costo base y la ganancia realizada se perdía); mi-inversion.ts
+  // lo ignora, ahí no hay efectivo que llevar.
+  monto_usd?: number;
 }
 
 interface Pendiente {
@@ -157,7 +161,13 @@ export default function MiInversion({
     // Costo base retirado proporcional a la fracción de acciones vendida — método de
     // costo promedio, el mismo que ya usa "comprar" para promediar entre compras.
     const costoBaseDelta = datos.costo_base_usd * (accionesDelta / datos.acciones);
-    return { payload: { acciones: accionesDelta, costo_base_usd: costoBaseDelta } };
+    return {
+      payload: {
+        acciones: accionesDelta,
+        costo_base_usd: costoBaseDelta,
+        monto_usd: accionesDelta * precioActual,
+      },
+    };
   }
 
   function calcularPayloadEditar(): { payload: Payload } | { errorMsg: string } {

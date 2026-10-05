@@ -109,7 +109,16 @@ async function escribirArchivo(
 // `cambio` es lo que el navegador ya calculó a partir del precio actual (mismo modelo de
 // confianza que mi-inversion.ts: no hay validación de precio server-side, es una app de un
 // solo usuario detrás de clave compartida).
-function aplicarAccion(estado: Estado, ticker: string, accion: Accion, cambio: Posicion): Estado {
+// `montoVentaUsd` es lo que valen hoy las acciones vendidas: eso vuelve al efectivo, no el
+// costo base — si no, la ganancia (o pérdida) realizada se evaporaba al vender. Un cliente
+// viejo en caché que no lo manda cae al comportamiento anterior.
+function aplicarAccion(
+  estado: Estado,
+  ticker: string,
+  accion: Accion,
+  cambio: Posicion,
+  montoVentaUsd: number | null = null,
+): Estado {
   const actual = estado.posiciones[ticker];
   const nuevasPosiciones = { ...estado.posiciones };
   let saldo = estado.saldo_no_invertido_usd;
@@ -131,7 +140,7 @@ function aplicarAccion(estado: Estado, ticker: string, accion: Accion, cambio: P
     if (cambio.acciones > actual.acciones + EPSILON) {
       throw new ErrorValidacion("no puedes vender más acciones de las que tienes guardadas");
     }
-    saldo += cambio.costo_base_usd;
+    saldo += montoVentaUsd ?? cambio.costo_base_usd;
     const accionesRestantes = actual.acciones - cambio.acciones;
     if (accionesRestantes <= EPSILON) {
       delete nuevasPosiciones[ticker];
@@ -151,16 +160,17 @@ async function aplicarCambio(
   ticker: string,
   accion: Accion,
   cambio: Posicion,
+  montoVentaUsd: number | null,
   reintentar = true,
 ): Promise<Estado> {
   const { sha, estado } = await leerArchivo(token);
-  const nuevoEstado = aplicarAccion(estado, ticker, accion, cambio);
+  const nuevoEstado = aplicarAccion(estado, ticker, accion, cambio, montoVentaUsd);
 
   const mensaje = `paperinvesting: ${accion} ${ticker}`;
   const resp = await escribirArchivo(token, sha, nuevoEstado, mensaje);
 
   if (resp.status === 409 && reintentar) {
-    return aplicarCambio(token, ticker, accion, cambio, false);
+    return aplicarCambio(token, ticker, accion, cambio, montoVentaUsd, false);
   }
   if (!resp.ok) {
     throw new Error(`GitHub PUT ${resp.status}: ${await resp.text()}`);
@@ -199,6 +209,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       clave?: string;
       acciones?: number;
       costo_base_usd?: number;
+      monto_usd?: number;
     };
 
     if (body.clave !== claveEsperada) {
@@ -230,8 +241,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return;
     }
 
+    const montoUsd = Number(body.monto_usd);
+    const montoVentaUsd = accion === "vender" && Number.isFinite(montoUsd) && montoUsd > 0 ? montoUsd : null;
+
     try {
-      const estado = await aplicarCambio(token, ticker, accion, { acciones, costo_base_usd: costoBaseUsd });
+      const estado = await aplicarCambio(token, ticker, accion, { acciones, costo_base_usd: costoBaseUsd }, montoVentaUsd);
       res.status(200).json(estado);
     } catch (err) {
       if (err instanceof ErrorValidacion) {
