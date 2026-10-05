@@ -129,7 +129,14 @@ weas"):** arrancar por acá, en este orden:
    y sin errores al pie; que ORCL y los candidatos del Radar se muevan hora a hora; que el
    próximo Radar semanal (lunes) corra sin 429 en el log.
 3. **Lo "varias weas" que dijo que quiere ver:** no las nombró — preguntarle.
-4. Opcionales que siguen abiertos si salen: Sharpe/SML (preguntar antes, ver punto 9),
+4. **Fama-French y similares (pedido 05-10, solo anotado, sin investigar):** José quiere
+   evaluar usar Fama-French en vez del CAPM o además de él, y revisar Carhart (4
+   factores) y otros modelos de factores, para elegir el que más convenga acá. Al
+   retomar: comparar las opciones (FF3, Carhart, FF5…), ver de dónde salen los factores
+   gratis (la librería de datos de Kenneth French publica los factores de EE.UU. en
+   CSV; verificarlo en vivo antes de asumir) y con qué rezago se publican, y proponerle
+   uno. No implementar antes de que él elija.
+5. Opcionales que siguen abiertos si salen: Sharpe/SML (preguntar antes, ver punto 9),
    `FRED_API_KEY` (pospuesta por él), umbral ±5% de alertas, `APP_URL`.
 
 **Lo último (sesión 05-10):**
