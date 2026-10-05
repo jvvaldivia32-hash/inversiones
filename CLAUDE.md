@@ -112,15 +112,19 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-09-30)
+## Pendiente (al 2026-10-05)
 
-**Arranque rápido — lo último (sesión 29/30-09, ver punto 9 al final):** noticias con
-MarketWatch + Investing.com y sin fútbol; PIB (% anual) y desocupación de Chile en
-Referencias, verificados en vivo y en pantalla. **Esperando de José:** (1) una
-`FRED_API_KEY` para sumar PIB/desempleo de EE.UU.; (2) que lea el PDF "Mapa del código"
-(ya entregado, ver punto 9) y diga si le sirve; (3) lo del punto 5, que sigue sin mirar —
-se le volvió a explicar qué es el 30-09, en 6 ítems concretos. El selector de país
-quedó pospuesto a propósito. Lo de abajo es el contexto de sesiones anteriores.
+**Arranque rápido — lo último (sesión 05-10):** no hay nada esperando de José. El 05-10
+cerró los pendientes: (1) **punto 5 revisado** — dijo "ya revisé" al enterarse de que
+estaba implementado; se da por visto, no volver a preguntarle por el rango 10A, la señal
+por métrica ni el simulador; (2) **`FRED_API_KEY` pospuesta por él** ("me da paja ahora")
+— no insistir, esperar a que la traiga; (3) el PDF "Mapa del código" se le abrió en
+pantalla (estaba al día con el HTML del 30-09); (4) **cron-job.org descartado por José**:
+el 05-10 no llegó el resumen de Telegram porque GitHub no corrió el recolector entre
+09:11 y 16:23 UTC (06:11→13:23 Chile, se saltó la ventana 07-12 entera) — él dice que el
+cron de GitHub "siempre funciona, recién hoy no", y es cierto según los runs de
+septiembre. No volver a ofrecer el disparador externo por un día suelto; sí retomarlo si
+los huecos se repiten varios días. Lo de abajo es el contexto de sesiones anteriores.
 
 **Contexto de arranque (al 2026-09-01):** el frente abierto sigue siendo **el throttling de los cron de
 GitHub** (punto 2), que el arreglo del minuto `:17`/`:47` no alcanzó a tapar. El 31-08 José
