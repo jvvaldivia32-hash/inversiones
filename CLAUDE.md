@@ -43,6 +43,11 @@ de `tokens.css`. No agregar color decorativo aunque "se vea más lindo".
 > acá no tiene ese significado, es solo la segunda serie del gráfico. Riesgo conocido y
 > aceptado, no un descuido.
 >
+> **Aclaración (2026-10-05, decidida por José):** la "diferencia contra el CAPM" y la
+> "diferencia contra el S&P 500" (`LineaCapm.tsx`, `AnalisisCartera.tsx`) van en
+> verde/rojo igual que una variación diaria. No es decorativo: es señal de signo
+> (rindió más / rindió menos). Las barras de concentración van en gris.
+>
 > Estas dos son las únicas excepciones decorativas a esta regla. No las uses como
 > precedente para agregar color en otro lado sin preguntar primero.
 
@@ -112,19 +117,39 @@ Aparte de los secrets hay una *variable* (no secret) opcional, `APP_URL`, que so
 link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secrets and variables
 → Actions → pestaña **Variables**, no en Secrets: es una URL pública, no hay nada que ocultar.
 
-## Pendiente (al 2026-10-05)
+## Pendiente (al 2026-10-05, tarde)
 
-**Arranque rápido — lo último (sesión 05-10):** no hay nada esperando de José. El 05-10
-cerró los pendientes: (1) **punto 5 revisado** — dijo "ya revisé" al enterarse de que
-estaba implementado; se da por visto, no volver a preguntarle por el rango 10A, la señal
-por métrica ni el simulador; (2) **`FRED_API_KEY` pospuesta por él** ("me da paja ahora")
-— no insistir, esperar a que la traiga; (3) el PDF "Mapa del código" se le abrió en
-pantalla (estaba al día con el HTML del 30-09); (4) **cron-job.org descartado por José**:
-el 05-10 no llegó el resumen de Telegram porque GitHub no corrió el recolector entre
-09:11 y 16:23 UTC (06:11→13:23 Chile, se saltó la ventana 07-12 entera) — él dice que el
-cron de GitHub "siempre funciona, recién hoy no", y es cierto según los runs de
-septiembre. No volver a ofrecer el disparador externo por un día suelto; sí retomarlo si
-los huecos se repiten varios días. Lo de abajo es el contexto de sesiones anteriores.
+**Arranque rápido — lo último (sesión 05-10):** no hay nada esperando de José salvo que
+mire lo nuevo. Esa sesión:
+
+- **Pendientes cerrados:** punto 5 visto por él ("ya revisé", no volver a preguntar por
+  10A/señal por métrica/simulador); `FRED_API_KEY` pospuesta por él, no insistir;
+  **cron-job.org descartado** — el 05-10 no llegó el Telegram porque GitHub no corrió el
+  recolector entre 06:11 y 13:23 de Chile, pero él dice que es un día suelto y septiembre
+  anduvo solo. Retomarlo solo si los huecos se repiten varios días.
+- **Simulador:** compró TTWO (US$600, sumada también a la watchlist) y vendió US$2.000 de
+  ORCL él mismo desde la app. Preguntó por qué ORCL marcaba 0%: **el Radar pedía ~80
+  quotes de golpe contra un tope de 60/min de Finnhub y todo lo que pasaba volvía 429**;
+  el precio de casi todo el universo del Radar estaba congelado desde el 24-08, y la beta
+  /el "castigada" se evaluaban sobre eso. Arreglado (`6c29fb2`): pausa de 1,1 s entre
+  quotes y reintento tras 61 s ante un 429. Además los candidatos del Radar y las
+  posiciones del simulador ahora toman precio **cada hora** en `main.py` (un punto por
+  día en el histórico, `historico.agregar_cierre_diario`).
+- **Bug del simulador arreglado (`e8e7672`):** al vender, el efectivo sumaba el costo
+  base y no el valor de hoy — la ganancia realizada se perdía. Ahora el navegador manda
+  `monto_usd`. La venta de ORCL de José no se vio afectada (precio congelado = costo).
+- **CAPM y análisis de cartera (pedidos por José, hecho):** `collector/capm.py` +
+  `sources/tesoro.py` (Rf = bono EE.UU. 1 año, treasury.gov, **sin key** — no hace falta
+  FRED para esto) → `daily.json["capm"]`; `LineaCapm.tsx` por acción y
+  `AnalisisCartera.tsx` (vs S&P 500, CAPM de cartera, β, volatilidad vs sin diversificar,
+  correlación, concentración por acción y sector) en el simulador y en Mis inversiones.
+  José eligió: verde/rojo en la diferencia, ventana de 1 año para todo. **El choque con la
+  regla del Radar quedó resuelto así:** se muestra como dato del pasado, nunca como
+  "compra"/"barata"/"subvaluada". Betas verificadas contra una serie independiente de
+  Yahoo (MCD 0,02, BRK.B 0,02, MSFT 0,97, ORCL 2,01 — sí, este último año MCD y BRK.B casi
+  no se movieron con el mercado). La beta de "métricas avanzadas" usa 10 años mezclados
+  y da otro número (MCD 0,62): el CAPM rotula la suya "β 1 año" a propósito.
+- Mapa del código actualizado y PDF regenerado en el Escritorio. Suite: 271 tests.
 
 **Contexto de arranque (al 2026-09-01):** el frente abierto sigue siendo **el throttling de los cron de
 GitHub** (punto 2), que el arreglo del minuto `:17`/`:47` no alcanzó a tapar. El 31-08 José
@@ -652,11 +677,10 @@ ROE/ROIC, márgenes, múltiplos).
   `Referencias.tsx` con datos que ya estaban. Hoy +0,4%. Es la versión ex post.
 - **Diccionario**: 4 entradas nuevas (retorno anual, volatilidad, caída máxima, tasa real),
   escritas para alguien que no estudió finanzas.
-- **No hecho, a propósito**: cartera como portafolio (σ/beta/correlaciones — sirve más
-  cuando José use "Mi inversión" de verdad; retomarlo entonces), Imacec (repite el PIB en
-  Referencias), Sharpe y CAPM (necesitan Rf de EE.UU. → `FRED_API_KEY`; además CAPM con
-  alfa/SML o portafolio tangente es consejo encubierto, choca con la regla del Radar —
-  **preguntar antes**).
+- **No hecho, a propósito**: Imacec (repite el PIB en Referencias). Cartera como
+  portafolio y CAPM **se hicieron el 05-10** a pedido de José (ver arranque rápido).
+  Sigue pendiente de preguntar: Sharpe, SML y portafolio tangente/óptimo — este último es
+  consejo encubierto ("pon X% en tal acción"), choca con la regla del Radar.
 - **BYD**: José dijo que si BYDDY "es lo mismo, me da igual". Se le explicó que es la
   misma empresa pero otro papel (ADR en EE.UU., en dólares, que replica las acciones de
   Hong Kong; precio no comparable con 002594 de Shenzhen). Se reemplazó en la watchlist

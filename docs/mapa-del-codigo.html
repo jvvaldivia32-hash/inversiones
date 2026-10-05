@@ -204,6 +204,7 @@ que llama a los demás), <b>fuentes</b> (cada uno habla con una sola API externa
 <tr><td><code>gemini.py</code></td><td>Google Gemini (<code>GEMINI_API_KEY</code>)</td><td>Agrupa noticias por historia, reescribe resúmenes y extrae segmentos. <b>Toda cifra debe venir con una cita que exista textual en el documento</b> (<code>_cita_existe</code>); si no, se descarta. Además, <code>_es_copia_literal</code> impide copiar texto de las noticias.</td></tr>
 <tr><td><code>rss.py</code> + <code>feeds.py</code></td><td>Medios por RSS (sin llave)</td><td><code>feeds.py</code> es la lista de medios; <code>rss.py</code> los lee. Si un feed muere, se anota en <code>errores</code> y se sigue.</td></tr>
 <tr><td><code>banco_central.py</code></td><td>Banco Central de Chile (<code>BCCH_API_KEY</code>)</td><td>UF, dólar, TPM, IPC, IPSA, PIB (con su variación anual) y desocupación. Cada dato tiene un código de serie en <code>SERIES</code>.</td></tr>
+<tr><td><code>tesoro.py</code></td><td>Tesoro de EE.UU. (CSV público de treasury.gov, sin llave)</td><td>Tasa libre de riesgo para el CAPM: bono a 1 año del día en que empieza la ventana. Si no responde, se usa la de la corrida anterior y queda un aviso al pie.</td></tr>
 <tr><td><code>metricas_avanzadas.py</code></td><td>(calcula, no pide)</td><td>Market cap, EV, ROE/ROIC/ROCE, múltiplos y beta propio contra VOO.</td></tr>
 <tr><td><code>telegram.py</code></td><td>Bot de Telegram (<code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHAT_ID</code>)</td><td>Manda mensajes. Nunca lanza error hacia afuera: un aviso fallido no tumba la corrida.</td></tr>
 <tr><td><code>fintual.py</code>, <code>amigos.py</code></td><td>Fintual; Finnhub + Google News</td><td>Para sus orquestadores respectivos.</td></tr>
@@ -216,6 +217,7 @@ que llama a los demás), <b>fuentes</b> (cada uno habla con una sola API externa
 <tr><td><code>alertas.py</code></td><td>Aviso de ±5% (<code>UMBRAL_PCT</code>). Anti-duplicado por día de Nueva York: solo repite si se mueve otro 5% entero o cambia de signo. Estado en <code>data/alertas_enviadas.json</code>.</td></tr>
 <tr><td><code>historico.py</code></td><td>Guarda precios en 3 tramos: horario los últimos 45 días, diario hasta 2 años, semanal hasta 10 años. Arma los rangos 1M…10A del gráfico.</td></tr>
 <tr><td><code>riesgo_retorno.py</code></td><td>Retorno anual (geométrico) a 1/3/5/10 años, volatilidad anual y caída máxima de 5 años, calculados del historial guardado. Descarta sábados y domingos (el recolector repite ahí el cierre del viernes y bajarían la volatilidad).</td></tr>
+<tr><td><code>capm.py</code></td><td>CAPM del último año por ticker (watchlist, candidatos del Radar y simulador): retorno, β 1 año contra VOO, lo que esperaba el CAPM y la diferencia. Publica además volatilidades y la matriz de correlaciones para el análisis de cartera. Salta huecos de más de 4 días en el historial. Sale en <code>daily.json["capm"]</code>.</td></tr>
 <tr><td><code>tesis.py</code></td><td>Semáforo de tus tesis (verde/ámbar/rojo) cuando sale un reporte nuevo. Nunca cambia umbrales: la tesis es inmutable.</td></tr>
 <tr><td><code>radar.py</code> + <code>universo_radar.py</code></td><td>Criterios "castigada"/"sana" y la lista de ~80 empresas que se evalúan.</td></tr>
 <tr><td><code>medios.py</code></td><td>Sesgo de cada medio (centro, centro-derecha…) según ratings públicos; medios chilenos, por propietario. Nunca inventa un sesgo.</td></tr>
@@ -296,6 +298,8 @@ Si los commits se cortan a cierta hora, el recolector dejó de correr desde ese 
 <tr><td><code>CardInversion.tsx</code> (la más grande)</td><td>La card de cada acción: HOY / TU POSICIÓN, gráfico, fundamentales, segmentos, métricas avanzadas, tesis y "mi inversión".</td></tr>
 <tr><td><code>GraficoPrecio.tsx</code></td><td>El gráfico (1M…10A, "comparar con…").</td></tr>
 <tr><td><code>RiesgoRetorno.tsx</code></td><td>Bajo el gráfico, con la card abierta: retorno anual, volatilidad y caída máxima.</td></tr>
+<tr><td><code>LineaCapm.tsx</code></td><td>Bajo riesgo/retorno (y en las cards del simulador): rindió vs. CAPM esperaba, diferencia en verde/rojo, β 1 año.</td></tr>
+<tr><td><code>AnalisisCartera.tsx</code> + <code>lib/cartera.ts</code></td><td>Arriba de "Mis inversiones" y del simulador: contra el S&amp;P 500, CAPM de la cartera, riesgo (β, volatilidad, correlación) y concentración. Se calcula en el navegador porque "Mi inversión" vive en el repo privado.</td></tr>
 <tr><td><code>TablaFundamentales.tsx</code>, <code>MetricasAvanzadas.tsx</code>, <code>SenalMetrica.tsx</code></td><td>Tablas y los puntitos de color por métrica (los umbrales están en <code>lib/referenciasMetricas.ts</code>).</td></tr>
 <tr><td><code>FormularioTesis.tsx</code>, <code>Semaforo.tsx</code></td><td>Escribir una tesis y ver su semáforo.</td></tr>
 <tr><td><code>MiInversion.tsx</code></td><td>Comprar, vender o editar tus posiciones reales (usa <code>/api/mi-inversion</code>).</td></tr>
