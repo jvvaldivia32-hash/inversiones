@@ -33,5 +33,12 @@ export function preciosDisponibles(daily: DailyData): Record<string, PrecioDispo
     };
   }
 
+  // Lo que el simulador tiene y ya no está en ninguna de las dos listas (ej. un candidato
+  // que salió del Radar): el recolector le sigue tomando precio igual.
+  for (const extra of daily.precios_simulador ?? []) {
+    if (resultado[extra.ticker]) continue;
+    resultado[extra.ticker] = extra;
+  }
+
   return resultado;
 }

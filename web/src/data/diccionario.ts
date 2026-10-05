@@ -305,4 +305,22 @@ export const DICCIONARIO: EntradaDiccionario[] = [
     definicion:
       "La tasa de interés descontada la inflación: aproximadamente, tasa nominal menos inflación (el 'efecto Fisher'). Acá se calcula como la TPM del Banco Central menos el IPC de los últimos 12 meses. Si es positiva, el interés le gana a la inflación y ahorrar en pesos rinde en poder de compra; si es negativa, la plata guardada pierde valor aunque 'gane intereses'. Es la versión 'ex post' (con la inflación que ya pasó), no la esperada.",
   },
+  {
+    id: "capm",
+    termino: "CAPM (lo que el modelo esperaba)",
+    definicion:
+      "El modelo de valoración de activos (CAPM) dice cuánto 'debería' rendir una acción según el riesgo de mercado que carga: tasa libre de riesgo + β × (lo que rindió el mercado − la tasa libre de riesgo). Acá se calcula con lo que ya pasó en el último año: tasa libre de riesgo = bono del Tesoro de EE.UU. a 1 año del día en que empieza la ventana, mercado = S&P 500 (VOO) entre las mismas fechas. La 'diferencia' (alfa de Jensen) es lo que la acción rindió por encima o por debajo de eso. Es historia, no pronóstico: un año bueno o malo no dice nada seguro del próximo. Solo precio, sin dividendos.",
+  },
+  {
+    id: "beta-1-anio",
+    termino: "β 1 año",
+    definicion:
+      "Cuánto se movió la acción, en promedio, por cada 1% que se movió el S&P 500, medido con los precios diarios del último año. 1 = igual que el mercado; 2 = el doble; cerca de 0 = se movió por su cuenta. Puede diferir de la beta de 'métricas avanzadas', que usa toda la historia guardada (10 años): la de 1 año es la que corresponde comparar con el retorno de ese mismo año.",
+  },
+  {
+    id: "diversificacion",
+    termino: "Diversificación y correlación",
+    definicion:
+      "La correlación (de −1 a 1) mide si dos acciones suben y bajan juntas. Mientras más baja, más se compensan entre sí y menos se mueve la cartera completa. Por eso la volatilidad de una cartera es menor que el promedio de la volatilidad de cada acción ('sin diversificar sería'): esa distancia es lo que te ahorra la diversificación. Con correlación 1 en todos los pares, no habría ahorro.",
+  },
 ];

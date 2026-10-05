@@ -17,6 +17,8 @@ import Diccionario from "./components/Diccionario";
 import Amigos from "./components/Amigos";
 import PaperInvesting from "./components/PaperInvesting";
 import ErroresFooter from "./components/ErroresFooter";
+import AnalisisCartera from "./components/AnalisisCartera";
+import { calcularEnVivo } from "./components/MiInversion";
 import EstadoMercado from "./components/EstadoMercado";
 import type { MiInversionResumen } from "./components/MiInversion";
 import { preciosDisponibles } from "./lib/preciosDisponibles";
@@ -110,6 +112,14 @@ function App() {
 
   const precios = preciosDisponibles(daily);
 
+  // Valor de hoy de cada posición real cargada en "Mi inversión", para el análisis de
+  // cartera (solo tickers con precio en la watchlist: ahí es donde se cargan).
+  const valoresReales: Record<string, number> = {};
+  for (const [ticker, datos] of Object.entries(miInversion ?? {})) {
+    const precio = precios[ticker]?.precio;
+    if (precio) valoresReales[ticker] = calcularEnVivo(datos, precio).montoActual;
+  }
+
   return (
     <>
       <header className="app-header">
@@ -161,6 +171,7 @@ function App() {
             )}
 
             <Seccion id="mis-inversiones" titulo="Mis inversiones">
+              <AnalisisCartera valores={valoresReales} capm={daily.capm} sectores={daily.sectores} />
               <div className="posiciones-lista">
                 {posicionesVisibles.map((p) => (
                   <CardInversion
@@ -173,6 +184,7 @@ function App() {
                     miInversionCargando={miInversion === null && !miInversionError}
                     miInversionError={miInversionError}
                     onCambioMiInversion={alCambiarMiInversion}
+                    capm={daily.capm}
                   />
                 ))}
                 {pendientes.map((t) => (
@@ -207,7 +219,12 @@ function App() {
         <div className="vista-ancha">
           <div className="vista-ancha-inner">
             <Seccion id="paper-investing" titulo="Simulador" compacta>
-              <PaperInvesting precios={precios} />
+              <PaperInvesting
+                precios={precios}
+                capm={daily.capm}
+                sectores={daily.sectores}
+                serieVoo={daily.posiciones.find((p) => p.ticker === "VOO")?.serie_precio}
+              />
             </Seccion>
           </div>
         </div>

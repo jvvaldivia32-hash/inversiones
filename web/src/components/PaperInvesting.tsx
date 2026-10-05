@@ -1,15 +1,21 @@
 import { useEffect, useState } from "react";
-import type { PaperInvestingResumen, RangoPrecio } from "../types";
+import type { CapmData, PaperInvestingResumen, RangoPrecio, SeriePrecio } from "../types";
 import type { PrecioDisponible } from "../lib/preciosDisponibles";
 import { formatUSD, formatPct } from "../lib/format";
 import MiInversion, { calcularEnVivo } from "./MiInversion";
 import GraficoPrecio from "./GraficoPrecio";
+import LineaCapm from "./LineaCapm";
+import AnalisisCartera from "./AnalisisCartera";
+import { valorSiFueraAlSP500 } from "../lib/cartera";
 import "./PaperInvesting.css";
 
 const ENDPOINT = "/api/paperinvesting";
 
 interface Props {
   precios: Record<string, PrecioDisponible>;
+  capm?: CapmData;
+  sectores?: Record<string, string | null>;
+  serieVoo?: SeriePrecio;
 }
 
 function CardPosicionPapel({
@@ -17,8 +23,10 @@ function CardPosicionPapel({
   precio,
   datos,
   onCambio,
+  capm,
 }: {
   ticker: string;
+  capm?: CapmData;
   precio: PrecioDisponible | undefined;
   datos: PaperInvestingResumen["posiciones"][string];
   onCambio: (ticker: string, datos: PaperInvestingResumen["posiciones"][string] | null) => void;
@@ -54,11 +62,12 @@ function CardPosicionPapel({
         endpoint={ENDPOINT}
         permitirEditar={false}
       />
+      {capm && <LineaCapm ticker={ticker} capm={capm} />}
     </article>
   );
 }
 
-export default function PaperInvesting({ precios }: Props) {
+export default function PaperInvesting({ precios, capm, sectores, serieVoo }: Props) {
   const [estado, setEstado] = useState<PaperInvestingResumen | null>(null);
   const [error, setError] = useState(false);
   const [busqueda, setBusqueda] = useState("");
@@ -99,6 +108,17 @@ export default function PaperInvesting({ precios }: Props) {
   const valorTotal = estado.saldo_no_invertido_usd + valorPosiciones;
   const gananciaPct = ((valorTotal - totalAportado) / totalAportado) * 100;
 
+  const valores: Record<string, number> = {};
+  for (const [ticker, datos] of Object.entries(estado.posiciones)) {
+    const precio = precios[ticker];
+    if (precio) valores[ticker] = calcularEnVivo(datos, precio.precio).montoActual;
+  }
+  // Mismos flujos que entraron al simulador (los US$5.000 iniciales + cada aporte), cada
+  // uno comprando VOO el día que entró.
+  const flujos = [{ fecha: estado.fecha_inicio, monto_usd: 5000 }, ...estado.aportes];
+  const precioVoo = precios["VOO"]?.precio;
+  const valorSP500 = serieVoo && precioVoo ? valorSiFueraAlSP500(flujos, serieVoo, precioVoo) : null;
+
   const resultados = busqueda.trim()
     ? Object.values(precios).filter(
         (p) =>
@@ -131,6 +151,23 @@ export default function PaperInvesting({ precios }: Props) {
         Empezaste el {estado.fecha_inicio} con US$5.000 ficticios + US$100/mes simulado.
         Plata de mentira, precios reales.
       </p>
+
+      <AnalisisCartera
+        valores={valores}
+        capm={capm}
+        sectores={sectores}
+        efectivo={estado.saldo_no_invertido_usd}
+        comparacion={
+          valorSP500 !== null
+            ? {
+                desde: estado.fecha_inicio,
+                aportado: totalAportado,
+                valorCartera: valorTotal,
+                valorSP500,
+              }
+            : null
+        }
+      />
 
       <div className="paper-investing-buscador">
         <label>
@@ -173,6 +210,7 @@ export default function PaperInvesting({ precios }: Props) {
             precio={precios[ticker]}
             datos={datos}
             onCambio={alCambiar}
+            capm={capm}
           />
         ))}
         {Object.keys(estado.posiciones).length === 0 && (

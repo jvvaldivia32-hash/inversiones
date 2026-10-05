@@ -272,6 +272,34 @@ export interface Amigo {
   actualizado?: string;
 }
 
+// CAPM ex post del último año (collector/capm.py). Todo sobre el precio, sin dividendos.
+export interface CapmTicker {
+  beta: number; // último año, retornos diarios contra VOO
+  retorno_1a_pct: number;
+  mercado_1a_pct: number; // VOO entre las mismas dos fechas
+  esperado_capm_pct: number; // Rf + β (Rm − Rf)
+  diferencia_pts: number; // retorno − esperado (alfa de Jensen)
+  volatilidad_pct: number;
+  desde: string;
+  hasta: string;
+}
+
+export interface CapmData {
+  rf_pct: number; // bono del Tesoro de EE.UU. a 1 año al inicio de la ventana
+  rf_fecha: string;
+  mercado: string;
+  por_ticker: Record<string, CapmTicker>;
+  correlaciones: { tickers: string[]; matriz: (number | null)[][] };
+}
+
+// Posiciones del simulador que no están ni en la watchlist ni en el Radar.
+export interface PrecioSimulador {
+  ticker: string;
+  nombre: string;
+  precio: number;
+  serie_precio: SeriePrecio;
+}
+
 export interface DailyData {
   generado: string;
   errores: string[];
@@ -290,4 +318,9 @@ export interface DailyData {
   // Sección "Amigos" — extra fuera del plan madre (2026-08-14). Opcional por lo mismo:
   // solo existe una vez que corra amigos_diario.py al menos una vez.
   amigos?: Amigo[];
+  // Extra 2026-10-05: CAPM y análisis de cartera. Opcionales: aparecen desde la primera
+  // corrida del recolector que los calcula.
+  capm?: CapmData;
+  sectores?: Record<string, string | null>;
+  precios_simulador?: PrecioSimulador[];
 }

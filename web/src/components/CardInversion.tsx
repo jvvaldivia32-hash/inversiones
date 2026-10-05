@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import type { EstadoSemaforo, Posicion, RangoPrecio, Segmento, SeriePrecio, Tesis } from "../types";
+import type { CapmData, EstadoSemaforo, Posicion, RangoPrecio, Segmento, SeriePrecio, Tesis } from "../types";
 import { formatPct, formatUSD, formatFechaCorta } from "../lib/format";
 import Cifra from "./Cifra";
 import Semaforo from "./Semaforo";
@@ -7,6 +7,7 @@ import GraficoPrecio from "./GraficoPrecio";
 import TablaFundamentales from "./TablaFundamentales";
 import MetricasAvanzadas from "./MetricasAvanzadas";
 import RiesgoRetorno from "./RiesgoRetorno";
+import LineaCapm from "./LineaCapm";
 import SenalMetrica from "./SenalMetrica";
 import FormularioTesis from "./FormularioTesis";
 import MiInversion, { calcularEnVivo, type MiInversionResumen } from "./MiInversion";
@@ -213,6 +214,7 @@ interface CardInversionProps {
   miInversionCargando: boolean;
   miInversionError: boolean;
   onCambioMiInversion: (ticker: string, datos: MiInversionResumen | null) => void;
+  capm?: CapmData;
 }
 
 export default function CardInversion({
@@ -222,6 +224,7 @@ export default function CardInversion({
   miInversionCargando,
   miInversionError,
   onCambioMiInversion,
+  capm,
 }: CardInversionProps) {
   const [expandida, setExpandida] = useState(false);
   const [rango, setRango] = useState<RangoPrecio>("1A");
@@ -312,6 +315,7 @@ const metricasSegmento = [...new Set((posicion.segmentos ?? []).map((s) => s.nom
       {expandida && posicion.riesgo_retorno && (
         <RiesgoRetorno datos={posicion.riesgo_retorno} />
       )}
+      {expandida && capm && <LineaCapm ticker={posicion.ticker} capm={capm} />}
 
       <ul className="card-inversion-titulares">
         {(posicion.noticias ?? []).slice(0, expandida ? undefined : 2).map((n) => (
