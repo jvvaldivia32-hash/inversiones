@@ -119,8 +119,20 @@ link "Ver todo en la app" al pie del resumen matutino. Va en Settings → Secret
 
 ## Pendiente (al 2026-10-05, tarde)
 
-**Arranque rápido — lo último (sesión 05-10):** no hay nada esperando de José salvo que
-mire lo nuevo. Esa sesión:
+**Al retomar (José, 05-10: "cuando vuelva quiero revisar esto que añadimos y ver varias
+weas"):** arrancar por acá, en este orden:
+1. **Que revise lo nuevo del 05-10** en la app: bloque de análisis arriba del Simulador
+   y de Mis inversiones (vs S&P 500, CAPM de cartera, riesgo, concentración) y la línea
+   CAPM en cada card (abrir la card de la watchlist para verla). Preguntarle si se
+   entiende, si le sirve el verde/rojo de la diferencia y si quiere algo más.
+2. **Comprobar que siga sano** antes de mostrarle: `daily.json` con `capm`, `sectores`
+   y sin errores al pie; que ORCL y los candidatos del Radar se muevan hora a hora; que el
+   próximo Radar semanal (lunes) corra sin 429 en el log.
+3. **Lo "varias weas" que dijo que quiere ver:** no las nombró — preguntarle.
+4. Opcionales que siguen abiertos si salen: Sharpe/SML (preguntar antes, ver punto 9),
+   `FRED_API_KEY` (pospuesta por él), umbral ±5% de alertas, `APP_URL`.
+
+**Lo último (sesión 05-10):**
 
 - **Pendientes cerrados:** punto 5 visto por él ("ya revisé", no volver a preguntar por
   10A/señal por métrica/simulador); `FRED_API_KEY` pospuesta por él, no insistir;
