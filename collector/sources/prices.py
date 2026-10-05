@@ -8,6 +8,13 @@ import urllib.request
 
 BASE_URL = "https://finnhub.io/api/v1"
 
+# Free tier: 60 llamadas/minuto. El Radar pide ~80 quotes seguidas y desde fines de agosto
+# todo lo que pasaba del límite volvía 429 y el precio quedaba congelado (ORCL quieto en el
+# del 24-08 hasta el 05-10, y el simulador mostrando 0% encima). Un 429 se espera y se
+# reintenta en vez de darse por perdido.
+ESPERA_429_S = 61
+REINTENTOS_429 = 2
+
 
 class FinnhubError(Exception):
     pass
@@ -18,15 +25,20 @@ def _request(ruta: str, params: dict) -> dict:
     if not token:
         raise FinnhubError("FINNHUB_KEY no está seteada")
     url = f"{BASE_URL}{ruta}?{urllib.parse.urlencode({**params, 'token': token})}"
-    try:
-        with urllib.request.urlopen(url, timeout=10) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        raise FinnhubError(f"Finnhub {ruta} respondió {e.code}") from e
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
-        # TimeoutError no es subclase de URLError (viene de socket, no de urllib) — mismo
-        # gotcha ya visto y arreglado en sources/gemini.py.
-        raise FinnhubError(f"Finnhub {ruta} no respondió: {e}") from e
+    for intento in range(REINTENTOS_429 + 1):
+        try:
+            with urllib.request.urlopen(url, timeout=10) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and intento < REINTENTOS_429:
+                time.sleep(ESPERA_429_S)
+                continue
+            raise FinnhubError(f"Finnhub {ruta} respondió {e.code}") from e
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            # TimeoutError no es subclase de URLError (viene de socket, no de urllib) — mismo
+            # gotcha ya visto y arreglado en sources/gemini.py.
+            raise FinnhubError(f"Finnhub {ruta} no respondió: {e}") from e
+    raise AssertionError("inalcanzable")
 
 
 def obtener_cotizacion(ticker: str) -> dict:

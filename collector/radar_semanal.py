@@ -5,6 +5,7 @@ EDGAR con esa frecuencia para nada. Ver .github/workflows/radar_semanal.yml.
 
 import datetime
 import json
+import time
 from pathlib import Path
 
 import historico
@@ -17,6 +18,10 @@ RAIZ_REPO = Path(__file__).resolve().parent.parent
 RUTA_HISTORICO = RAIZ_REPO / "data" / "historico_precios.json"
 RUTA_DAILY = RAIZ_REPO / "data" / "daily.json"
 
+# ~55 quotes por minuto, debajo del tope de 60 del free tier de Finnhub (ver
+# sources/prices.py). ~80 tickers = ~90 s más de corrida, una vez por semana.
+PAUSA_ENTRE_QUOTES_S = 1.1
+
 
 def actualizar_precios_universo(hist: dict, ahora: datetime.datetime) -> None:
     for ticker in UNIVERSO:
@@ -24,6 +29,7 @@ def actualizar_precios_universo(hist: dict, ahora: datetime.datetime) -> None:
             backfill = yahoo.descargar_historico(ticker)
             if backfill:
                 historico.sembrar(hist, ticker, backfill)
+        time.sleep(PAUSA_ENTRE_QUOTES_S)
         try:
             cot = prices.obtener_cotizacion(ticker)
             historico.agregar_punto(hist, ticker, ahora, cot["precio"])
