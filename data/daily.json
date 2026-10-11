@@ -1,20 +1,61 @@
 {
-  "generado": "2026-10-11T05:57:30.453185+00:00",
+  "generado": "2026-10-11T09:18:23.195222+00:00",
   "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Bitcoin struggles above $83,000 a year after $19 billion crypto crash",
-        "resumen": "Las medidas del secretario del Tesoro estadounidense en el mercado de bonos no han logrado estabilizar la situación financiera. Además, un ataque ruso alcanzó una vía ferroviaria en Ucrania justo después del paso de delegaciones diplomáticas internacionales. Por otro lado, la presión vecinal y comunitaria logró frenar un plan urbanístico para construir un gran centro de datos en Virginia.",
+        "titulo_neutral": "Análisis sobre subidas de tipos de interés por parte de la Reserva Federal y el Banco de Japón",
+        "resumen": "La Reserva Federal ha decidido incrementar las tasas de interés por primera vez desde el año 2023, desafiando las presiones políticas existentes. Por otro lado, la Unión Europea ha solicitado a China límites voluntarios en la exportación de vehículos híbridos para evitar una escalada arancelaria. Adicionalmente, analistas económicos evalúan el impacto de las políticas monetarias internacionales y diversas incidencias geopolíticas recientes.",
         "articulos": [
           {
-            "titular": "Bitcoin struggles above $83,000 a year after $19 billion crypto crash",
+            "titular": "Yen weakness since 2025 has been limited to offshore hours: analysis",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-struggles-near-83000-a-year-after-19-billion-crypto-crash-4942465",
-            "fecha": "2026-10-11T05:35:34+00:00"
+            "url": "https://www.investing.com/news/forex-news/yen-weakness-since-2025-has-been-limited-to-offshore-hours-analysis-4942531",
+            "fecha": "2026-10-11T08:39:26+00:00"
+          },
+          {
+            "titular": "Fed interest rate rises are back",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-interest-rate-rises-are-back",
+            "fecha": "2026-09-17T04:00:00+00:00"
+          },
+          {
+            "titular": "Fed and BoJ expect rate hikes as US bond market flails",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-and-boj-expect-rate-hikes-as-us-bond-market-flails",
+            "fecha": "2026-09-14T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Venta de acciones de David Krempa en Eton Pharmaceuticals",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Eton Pharmaceuticals CBO David Krempa sells $229k in stock",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/insider-trading-news/eton-pharmaceuticals-cbo-david-krempa-sells-229k-in-stock-93CH-4942522",
+            "fecha": "2026-10-11T08:16:05+00:00"
           }
         ],
         "leans_presentes": [
@@ -26,17 +67,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "AI-centered US stock bull market nears four-year anniversary - Reuters",
-        "resumen": "El mercado bursátil estadounidense impulsado por el sector de la inteligencia artificial se aproxima a cumplir cuatro años de crecimiento ininterrumpido. Este ciclo alcista refleja el optimismo de los inversores hacia las empresas tecnológicas líderes. La longevidad de esta tendencia marca un hito importante en la economía financiera reciente.",
+        "titulo_neutral": "Salida de Uber de cuatro mercados africanos",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "AI-centered US stock bull market nears four-year anniversary - Reuters",
+            "titular": "Uber exits four African markets as cheaper rivals gain ground - Bloomberg",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/company-news/uber-exits-four-african-markets-as-cheaper-rivals-gain-ground--bloomberg-4942514",
+            "fecha": "2026-10-11T08:02:05+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Declaraciones de Elon Musk sobre Starlink en India",
+        "resumen": "Elon Musk ha anunciado la llegada inminente de un servicio de internet satelital económico al mercado indio. Este movimiento estratégico se produce justo en los días previos a una gran oferta pública inicial de la empresa local Jio, propiedad del magnate Mukesh Ambani. La competencia en el sector de las telecomunicaciones en el país asiático se intensifica considerablemente con esta irrupción.",
+        "articulos": [
+          {
+            "titular": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
-            "fecha": "2026-10-11T05:22:58+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY0F4U0J6aGRjT1Vnei1UWVR2dDdqRS1DYUpneWtJOVF0U0YwOWx6aWtWTnJoTnNIbDBaMExoMnktdmJOdXRZQ3hkM3RGLUJ2SS0wSlVPek4zb0NNbTFxeXlNZVJCX1RNNDNKamtMa0E4Sy14WVFLWFhjUDMydmdWa2xESTZBejdrWEctWkw1UFRyNlhKLUdjZ3M5cURNZXpIdVYwWGlKdXJQUGI3SW9jbW0wWkNnbklpV1RzVEw0MHNTRm9reUltLQ?oc=5",
+            "fecha": "2026-10-11T07:31:04+00:00"
           }
         ],
         "leans_presentes": [
@@ -48,17 +111,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Apple’s Chinese supplier Luxshare downplays impact of U.S. patent probe",
+        "titulo_neutral": "Declaraciones de Donald Trump sobre la presidencia ucraniana y suministros de diésel ruso",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Apple’s Chinese supplier Luxshare downplays impact of U.S. patent probe",
+            "titular": "Trump calls for new Ukrainian president as U.S. seeks Russian diesel supplies",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/apples-chinese-supplier-luxshare-downplays-impact-of-us-patent-probe-4942462",
-            "fecha": "2026-10-11T04:22:31+00:00"
+            "url": "https://www.investing.com/news/economy-news/trump-calls-for-new-ukrainian-president-as-us-seeks-russian-diesel-supplies-4942489",
+            "fecha": "2026-10-11T07:20:12+00:00"
           }
         ],
         "leans_presentes": [
@@ -70,51 +133,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/middle-east-war-high-debt-levels-to-dominate-imfworld-bank-meetings-in-bangkok-4942461",
-            "fecha": "2026-10-11T04:06:21+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Musk says Terrafab chip factory could outperform rivals despite challenges",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Musk says Terrafab chip factory could outperform rivals despite challenges",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/musk-says-terrafab-chip-factory-could-outperform-rivals-despite-challenges-4942457",
-            "fecha": "2026-10-11T03:37:59+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Why Nvidia’s stock is dodging the AI credit scare crushing Broadcom and Oracle",
+        "titulo_neutral": "Comportamiento bursátil de Nvidia en comparación con Broadcom y Oracle",
         "resumen": "",
         "articulos": [
           {
@@ -136,7 +155,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Winter is coming and energy bills are climbing: ‘Everything just keeps going up’",
+        "titulo_neutral": "Aumento de las facturas de energía ante la llegada del invierno",
         "resumen": "",
         "articulos": [
           {
@@ -158,7 +177,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Elon Musk is now richer than any American ever — and it’s not even close",
+        "titulo_neutral": "Aumento del patrimonio neto de Elon Musk en comparación con otros estadounidenses",
         "resumen": "",
         "articulos": [
           {
@@ -183,7 +202,7 @@
     "chile": [
       {
         "titulo_neutral": "Fallecimiento de Penélope Knuth",
-        "resumen": "Knuth era una destacada música de nacionalidad estadounidense con una larga trayectoria artística en el país sudamericano. Desempeñaba el cargo principal en la sección de violas dentro de la orquesta.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Quién era Penélope Knuth, la destacada música que falleció en accidente de la Orquesta de Cámara de Chile",
@@ -205,7 +224,7 @@
       },
       {
         "titulo_neutral": "Elecciones de la FEUC",
-        "resumen": "Tras una extensa jornada de escrutinio que duró toda la noche, se definieron los resultados estudiantiles en la Universidad Católica. Dos agrupaciones de tendencia izquierdista alcanzaron los mayores respaldos y disputarán la presidencia de la federación en un balotaje programado para octubre.",
+        "resumen": "Tras una extensa jornada de conteo de votos, se definió que dos agrupaciones universitarias de centroizquierda lideraron las preferencias en la elección estudiantil. Ambas fuerzas se medirán en una segunda vuelta electoral fijada para octubre con el fin de definir la presidencia de la organización.",
         "articulos": [
           {
             "titular": "La izquierda vuelve a disputar la FEUC: quiénes son Florencia Yáñez y Maksim Baeza, los dos candidatos que van al balotaje",
@@ -249,7 +268,7 @@
       },
       {
         "titulo_neutral": "Negocios de la familia Yarur en Empresas SB",
-        "resumen": "El grupo empresarial controlador de marcas reconocidas en el rubro del comercio minorista busca ampliar su presencia en el mercado. Sus planes apuntan a una agresiva expansión comercial y al fortalecimiento de sus diferentes filiales.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Después de Rotter & Krauss: los negocios que buscan los Yarur para Empresas SB",
@@ -292,8 +311,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Aniversario de la iniciativa Haciendo escuela de Falabella",
-        "resumen": "Una iniciativa impulsada por el sector privado cumple más de cinco décadas apoyando a decenas de establecimientos educacionales en todo el país. El proyecto surgió originalmente como una respuesta a la reconstrucción escolar tras un sismo y hoy beneficia a miles de estudiantes mediante tutorías y ayuda pedagógica.",
+        "titulo_neutral": "Aniversario de la iniciativa Haciendo Escuela de Falabella",
+        "resumen": "Una conocida iniciativa social impulsada por una gran empresa cumple más de cinco décadas de labor educativa en el país. El proyecto colabora actualmente con decenas de recintos educacionales públicos a lo largo del territorio nacional, beneficiando a miles de estudiantes mediante apoyo pedagógico y actividades formativas.",
         "articulos": [
           {
             "titular": "57 años de “Haciendo escuela”, la iniciativa de Falabella que apoya a 53 establecimientos y a más de 23 mil alumnos desde Arica a Punta Arenas",
@@ -314,8 +333,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Negociación entre minera del grupo Luksic y sindicatos en huelga",
-        "resumen": "La compañía minera y los representantes gremiales de los trabajadores sostendrán una nueva instancia de diálogo mediada por la autoridad laboral. Pese al cese de actividades que afecta a las faenas, la empresa aseguró que ha podido mantener su operatividad habitual.",
+        "titulo_neutral": "Negociación de minera del grupo Luksic con sindicatos en huelga",
+        "resumen": "Representantes de una importante faena minera y sus respectivas agrupaciones sindicales concurrirán a una nueva instancia de mediación oficial organizada por la autoridad laboral. La compañía indicó que sus faenas productivas no se han detenido a pesar de la movilización en curso.",
         "articulos": [
           {
             "titular": "Minera del grupo Luksic y sindicatos en huelga retoman negociación este martes",
@@ -360,34 +379,34 @@
     ],
     "actualidad": [
       {
-        "titular": "India court orders release of 'cockroach' movement leaders after detention",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention",
-        "fecha": "2026-10-11T05:45:41+00:00"
-      },
-      {
-        "titular": "Indian capital braces for second day of protests against poll chief - Reuters",
+        "titular": "EXCLUSIVE: INWIT investors line up financing for possible take-private, sources say - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbWRVbExuSEZ3enZiREtCQWlmaGtpcngweWhGaC1QQjVvUWZ2eGZIaERtSk02aXE5eXdhT2pySmdtTWJHTUhpbUw1NTJIT1RBZTBIemJfYmhxY1VocEl3RWJkMFZHLTBDQUV1UUh3MC04ZlF1Z2cxNzNWMnFuemx1ZUpKa0ZhTWNlZGJxYmZsZ0hVQ0EzZE9IVEhYeHdpdExOMmQtZ3pZRDQ?oc=5",
-        "fecha": "2026-10-11T05:36:00+00:00"
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDllZXM0eDUxYnk2QTAyQ0FreXVmT0V2Vmh2TksxQ2ItQWdTN2FQMmpOTW0zNlhRT1liMXF3ckVuLW94cVhqMEw1cjJYaEJYXzhwTVk1WU9hQWZVeW51WU9POU9YVTg4OW9ZbTNreDJ2dGVrRTBXUDgwSDdGd05fS0dxU1B5eU1TdzFJaDdudEVVc1ZLTVA1QUx2WHpOM0FaNkMwa3BSeEd0bGhkckJGaE4yUlZfRVZTcnc3SEZXV0pjelEz?oc=5",
+        "fecha": "2026-10-11T08:56:09+00:00"
       },
       {
-        "titular": "Live: Saudi Arabia vows 'decisive response' after deadly Houthi strike on Riyadh airport",
+        "titular": "Poland says police got information about possible attack on PM and defence minister - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM3Zhb3YxM0h0Nm9Cd1E0Q3NNempnci1DZG9CMXNxdUx4TFJvSkwxRnAtZEdJT3BTTnZrMlROOE1JdjdlbXI2OGtGRlhlQXNLY0hKNnVIUHpQal9zcXF0cjd6TUFLUklFM0g5cUs5T3hWNHhPWlQ2Ni1fVkZJc1VBZ0JGX251MkV0Ty1SOTBRcl9ZeE5qOU5vbDhUUHhTMHVBVkJRZGNSMkZlVXNtSkJYMVpYX3JwRHpVRnp4VXBjanVlWFk?oc=5",
+        "fecha": "2026-10-11T08:54:10+00:00"
+      },
+      {
+        "titular": "Delhi sees more protests as 'cockroach' group's leaders released",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-10-11T08:50:21+00:00"
+      },
+      {
+        "titular": "What can Man City expect against Liverpool at Anfield on Sunday?",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/11/manchester-city-financial-breach-liverpool-fans-anfield?traffic_source=rss",
+        "fecha": "2026-10-11T08:46:10+00:00"
+      },
+      {
+        "titular": "🔴Follow live: Houthis renew threats against Saudi airports as Riyadh attack prompts wave of condemnation",
         "medio": "France24",
         "url": "https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
-        "fecha": "2026-10-11T05:04:26+00:00"
-      },
-      {
-        "titular": "MCOM.PK - | Stock Price & Latest News - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1icXRtdHlsdmRieDNUcjdKV0hQUzFPMDdrY2xGbzdPMXNOS1R3TmVGaTlEZ3E5RVE2a295cDdRTjRDb2FPYjBoOXpiREdJbVBud25ZT2dfTzUxaWE0bVZYM3Z0cw?oc=5",
-        "fecha": "2026-10-11T04:38:51+00:00"
-      },
-      {
-        "titular": "India's 'cockroach' movement leader released from detention, lawyer says - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRW5iSkVxTzNrMkFsTDhrdkJXX1ZDNGE2QWtCbVVjZ2kxUFYwc1A1TXNBM19kSnEtMUxrMmNUZk05aUcybDc4Z01MMU9PR1ZqVThBV1dqYnp0R0RZNXFoQTNpa1N6TDlJb0htd3Zyc3gyNHRnWFBzVEFicURTaldRYVlwaTVmWW8zajhXelhJYVJxTmRZWDRjekRaRUNNTEhxNXJlanJlZWE4amdocXdfZXlVWFAySktjdXc?oc=5",
-        "fecha": "2026-10-11T04:37:00+00:00"
+        "fecha": "2026-10-11T08:44:53+00:00"
       }
     ]
   },
@@ -1185,6 +1204,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 242.27
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 242.27
           }
         ],
@@ -6569,7 +6592,7 @@
         },
         {
           "titular": "Is Adobe Stock Ready For Slower Subscription Growth?",
-          "extracto": "Las acciones de Adobe cayeron un 31% en un año, superando el rendimiento del mercado debido a la preocupación de los inversores por la desaceleración en las ventas de nuevas suscripciones.",
+          "extracto": "Las acciones de Adobe cayeron un 31% en un año, superando el rendimiento negativo del mercado debido a la preocupación de los inversores por la desaceleración en el crecimiento de sus suscripciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6578,7 +6601,7 @@
         },
         {
           "titular": "Online spend during Amazon’s Prime Big Deal Days neared $10B in the US",
-          "extracto": "Un evento comercial de dos días impulsó las ventas en establecimientos como Walmart, ya que los compradores buscaron descuentos antes de la temporada navideña.",
+          "extracto": "Un evento de compras de dos días impulsó las ventas en grandes minoristas como Walmart, mientras los consumidores buscaban descuentos previos a la temporada navideña.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6587,7 +6610,7 @@
         },
         {
           "titular": "Microsoft and Adobe Face a Green Card Sponsorship Freeze: What Investors Should Watch",
-          "extracto": "El Departamento de Trabajo de Estados Unidos suspendió temporalmente a Microsoft y Adobe del sistema de certificación laboral permanente (PERM), bloqueando nuevas solicitudes.",
+          "extracto": "El Departamento de Trabajo de EE. UU. suspendió temporalmente a Microsoft y Adobe del sistema de certificación laboral permanente, bloqueando la tramitación de nuevas solicitudes de residencia para empleados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6596,7 +6619,7 @@
         },
         {
           "titular": "Why Is Adobe (ADBE) Suspended From A Key US Green Card Program?",
-          "extracto": "Adobe fue vetada del programa de certificación laboral estadounidense mientras las autoridades federales investigan posibles irregularidades en el proceso de patrocinio de visas.",
+          "extracto": "Las autoridades federales suspendieron a Adobe del programa de certificación laboral mientras investigan posibles irregularidades y abusos en el proceso de patrocinio de visas de empleo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7107,10 +7130,6 @@
       "var_dia_pct": 0.8942,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-11T06:00:00",
-            "valor": 507
-          },
           {
             "fecha": "2026-09-11T11:00:00",
             "valor": 507
@@ -7993,6 +8012,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 515.62
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 515.62
           }
         ],
@@ -13661,7 +13684,7 @@
         },
         {
           "titular": "Warren Buffett Is Sending Shockwaves Through Wall Street With This Warning. Here’s What History Says May Happen Next.",
-          "extracto": "La trayectoria financiera excepcionalmente exitosa del magnate genera una gran confianza entre los accionistas.",
+          "extracto": "La trayectoria financiera excepcional del empresario ha generado una sólida confianza entre los accionistas y el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13670,7 +13693,7 @@
         },
         {
           "titular": "Berkshire Hathaway and Mastercard Don't Need AI to Keep Growing. Both Look Worth Owning Through 2030.",
-          "extracto": "Dos corporaciones mantienen su expansión sin depender de la alta demanda de centros de datos, lo que plantea dudas sobre su rentabilidad a mediano plazo.",
+          "extracto": "Dos firmas demuestran capacidad de expansión independiente del sector tecnológico, lo que plantea dudas sobre su atractivo a medio plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13679,7 +13702,7 @@
         },
         {
           "titular": "How Investors May Respond To Berkshire Hathaway (BRK.A) Leadership Shift, Index Tilt, and Regulatory Scrutiny",
-          "extracto": "El conglomerado de Warren Buffett enfrenta un proceso de transformación marcado por la sucesión directiva, ajustes en sus inversiones bursátiles y una investigación regulatoria. Estos cambios ponen a prueba la continuidad de su tradicional modelo de gestión corporativa.",
+          "extracto": "El conglomerado de Warren Buffett atraviesa una etapa de transformación marcada por la sucesión en la dirección, ajustes en sus inversiones y revisiones regulatorias sobre una de sus filiales. Estos cambios evalúan la vigencia de su modelo histórico de gestión y disciplina financiera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13688,7 +13711,7 @@
         },
         {
           "titular": "Is a Berkshire Hathaway Class A Stock Split Finally Coming?",
-          "extracto": "Tras la salida del histórico director que mantuvo divididas las acciones de clase A durante décadas, surgen interrogantes sobre la vigencia de sus políticas corporativas.",
+          "extracto": "La salida del histórico director que mantuvo sin dividir las acciones principales de la firma genera incertidumbre sobre la continuidad de sus políticas empresariales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14326,6 +14349,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 9.64
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 9.64
           }
         ],
@@ -19805,7 +19832,7 @@
       "noticias": [
         {
           "titular": "Tesla China-Made EV Sales Rise 5% in September, Extending Growth Streak To 11 Months Despite Global Sales Slump",
-          "extracto": "La planta de Tesla en Shanghái comercializó cerca de 95.000 vehículos eléctricos en septiembre, impulsando el crecimiento anual de la compañía a pesar de una caída global en el trimestre. Este volumen ayudó a abastecer la demanda tanto en el mercado interno chino como en diversas regiones internacionales.",
+          "extracto": "La planta que Tesla posee en Shanghái alcanzó las 95.366 entregas de vehículos eléctricos en septiembre, lo que impulsó sus ventas anuales a pesar de una caída generalizada en el trimestre. Este volumen ayudó a abastecer tanto al mercado local como a varias regiones internacionales clave.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19814,7 +19841,7 @@
         },
         {
           "titular": "Europe’s Troubled Carmakers Get China Boost on Way to Paris Show",
-          "extracto": "Los principales directivos de la industria automotriz europea se preparan para participar en el Salón del Automóvil de París tras conseguir un respiro frente al avance comercial de las marcas chinas. Esta pausa alivia temporalmente la presión competitiva que enfrentaban los fabricantes tradicionales en la región.",
+          "extracto": "Los principales directivos de la industria automotriz europea asistirán al próximo Salón del Automóvil de París con mayor tranquilidad tras conseguir un respiro frente a la presión de sus rivales asiáticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19823,7 +19850,7 @@
         },
         {
           "titular": "Tesla Spikes After Best China Sales Numbers Of The Year",
-          "extracto": "Las acciones de Tesla registraron un incremento superior al 3% durante la mañana del viernes tras darse a conocer el sólido volumen de ventas mayoristas registradas en el mercado chino. Esta respuesta positiva de los inversores refleja la importancia de los buenos resultados comerciales en Asia para el valor de la empresa.",
+          "extracto": "Las acciones de Tesla experimentaron un incremento superior al 3% durante la mañana del viernes motivadas por los sólidos datos de distribución comercial obtenidos en el mercado chino.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19832,7 +19859,7 @@
         },
         {
           "titular": "Ford’s Terrible Five-Year Stock Performance",
-          "extracto": "Bajo la dirección de Jim Farley, Ford ha atravesado un periodo de declive de cinco años que contrasta con el buen desempeño del S&P 500 y la recuperación de competidores como General Motors. Esta caída prolongada evidencia las dificultades de la automotriz para mantener su competitividad en prácticamente todos los mercados en los que opera.",
+          "extracto": "Bajo la dirección de Jim Farley, Ford ha atravesado un prolongado declive de cinco años que contrasta con el buen desempeño general de la bolsa y de competidores como General Motors. Esta situación refleja las dificultades de la compañía para mantener su competitividad en prácticamente todos los mercados en los que opera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19841,7 +19868,7 @@
         },
         {
           "titular": "BYD Trades at 20 Times Earnings. Tesla Trades at 344. Here's Which One I'd Buy Today.",
-          "extracto": "Al evaluar opciones de inversión en vehículos eléctricos, Tesla se destaca por su potencial de crecimiento a gran escala, mientras que BYD se presenta como una alternativa más accesible económicamente. Ambas compañías ofrecen perfiles distintos para los inversores interesados en este sector.",
+          "extracto": "Las acciones de Tesla se destacan por su potencial de crecimiento disruptivo, mientras que BYD se presenta como una alternativa de inversión más accesible y económica para los compradores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -19857,10 +19884,6 @@
       "var_dia_pct": -0.7049,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-11T06:00:00",
-            "valor": 253.05
-          },
           {
             "fecha": "2026-09-11T11:00:00",
             "valor": 253.05
@@ -20743,6 +20766,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 235.23
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 235.23
           }
         ],
@@ -26402,7 +26429,7 @@
       "noticias": [
         {
           "titular": "CDs vs. Dividend Stocks: The Income Gap Could Be Bigger Than Retirees Think",
-          "extracto": "Los jubilados que buscan ingresos enfrentan decisiones complejas debido a riesgos fiscales, de reinversión y posibles recortes de dividendos que a menudo se ignoran. Estas dificultades complican la planificación financiera a largo plazo en las estrategias tradicionales de inversión.",
+          "extracto": "Los jubilados que buscan generar ingresos enfrentan decisiones financieras complejas que a menudo ocultan riesgos fiscales y la posibilidad de reducciones en los dividendos. Estas dificultades rara vez se consideran en las comparaciones tradicionales de rentabilidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26411,7 +26438,7 @@
         },
         {
           "titular": "McDonald’s $3 meal deals aren't winning over enough customers",
-          "extracto": "Las recientes ofertas y campañas de marketing de McDonald's no han logrado recuperar la afluencia esperada de clientes. Esta situación refleja los desafíos actuales que enfrenta la cadena para revitalizar su base de consumidores.",
+          "extracto": "A pesar de haber implementado diversas promociones y estrategias de mercadeo, la cadena de comida rápida McDonald's no ha logrado recuperar la cantidad esperada de consumidores. La efectividad de estas ofertas ha sido insuficiente para reactivar la demanda.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26420,7 +26447,7 @@
         },
         {
           "titular": "Where Could McDonald's Next Growth Come From?",
-          "extracto": "Las acciones de McDonald's cayeron aproximadamente un 20% en un año mientras el mercado general subía, lastradas principalmente por el bajo rendimiento en Estados Unidos. A pesar de estos tropiezos operativos y la debilidad interna, la compañía ha introducido un nuevo producto que supera sus expectativas de ventas.",
+          "extracto": "Las acciones de McDonald's experimentaron una caída cercana al veinte por ciento durante el año previo a octubre de 2026, rezagándose frente al rendimiento general del mercado bursátil. Aunque el negocio estadounidense ha presentado problemas de ejecución, la empresa introdujo un nuevo producto que supera las proyecciones internas de ventas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26429,7 +26456,7 @@
         },
         {
           "titular": "Chick-fil-A is keeping humans at the drive-thru while McDonald’s tests AI ordering and defends a separate pricing algorithm in court",
-          "extracto": "La inteligencia artificial promete simplificar las operaciones en el sector restaurantero, pero también introduce nuevos desafíos en áreas críticas como la precisión de los pedidos y las estrategias de precios. Su adopción exitosa dependerá de cómo la industria gestione estas tensiones operativas.",
+          "extracto": "La integración de la inteligencia artificial en el sector de la restauración presenta tanto oportunidades para optimizar las operaciones como nuevos desafíos. Estos cambios impactan directamente desde la precisión en la atención de pedidos hasta la fijación de precios en los menús.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26438,7 +26465,7 @@
         },
         {
           "titular": "McDonalds Stock And 2 Other Great Dividend Stocks",
-          "extracto": "El aumento en los rendimientos de los bonos del Tesoro incrementa la presión sobre las empresas endeudadas y las acciones sin dividendos. Como alternativa, las acciones con rendimientos moderados ofrecen un equilibrio atractivo entre crecimiento de ingresos y estabilidad financiera.",
+          "extracto": "El aumento en los rendimientos de los bonos del Tesoro ha incrementado la presión financiera sobre las empresas y las acciones con bajo pago de dividendos. Ante este escenario, los analistas sugieren considerar títulos con rendimientos moderados que combinan crecimiento de ingresos y mayor estabilidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26991,10 +27018,6 @@
       "var_dia_pct": 2.3842,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-11T06:00:00",
-            "valor": 492.44
-          },
           {
             "fecha": "2026-09-11T11:00:00",
             "valor": 492.44
@@ -27889,6 +27912,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 535.07
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 535.07
           }
         ],
@@ -33548,7 +33575,7 @@
       "noticias": [
         {
           "titular": "Trump awards science medals to Musk, Nadella and 4 other tech titans — 5 immigrants — hours after Vance targets them",
-          "extracto": "El vicepresidente Vance criticó la situación de los trabajadores tecnológicos extranjeros y suspendió el programa PERM de Microsoft. Poco después, el expresidente Trump condecoró al director ejecutivo inmigrante de la compañía.",
+          "extracto": "El político Vance criticó duramente el programa de visados laborales y bloqueó la iniciativa PERM de Microsoft. Poco después, el expresidente Trump condecoró al máximo ejecutivo inmigrante de dicha tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -33557,7 +33584,7 @@
         },
         {
           "titular": "Microsoft (MSFT) Posted 43% Azure Growth, Yet Trades Below Its Own Five-Year P/E. A Real Discount?",
-          "extracto": "La división de computación en la nube de Microsoft superó los 100 mil millones de dólares en ingresos anuales durante el año fiscal 2026. Este crecimiento refleja la fuerte expansión continua de los servicios digitales de la empresa.",
+          "extracto": "La división de computación en la nube de Microsoft superó por primera vez los 100.000 millones de dólares en ingresos anuales durante el año fiscal 2026. Este hito refleja un crecimiento trimestral interanual del 43% en sus servicios de nube.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -33566,7 +33593,7 @@
         },
         {
           "titular": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?",
-          "extracto": "Los inversores que adquieren acciones de Microsoft y Alphabet financian indirectamente la infraestructura de servidores de ambas gigantes tecnológicas. Las valoraciones actuales muestran que Alphabet cotiza a un múltiplo de flujo de caja libre superior al de Microsoft debido a su ritmo de expansión en la nube.",
+          "extracto": "Microsoft y Alphabet compiten en el sector empresarial mientras sus acciones exigen importantes inversiones en infraestructura de servidores. Actualmente, Microsoft cotiza a unas 59 veces su flujo de caja libre, mientras que Alphabet alcanza las 80 veces.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -33575,7 +33602,7 @@
         },
         {
           "titular": "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth. Can That Pace Continue Under Heavy AI Spending?",
-          "extracto": "",
+          "extracto": "Analistas evalúan si la expansión financiera proyectada para Microsoft logrará igualar los ritmos de crecimiento histórico que la compañía ha registrado en el pasado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -33584,7 +33611,7 @@
         },
         {
           "titular": "Big Tech is betting $700 billion on AI. Healthcare will decide whether the bet pays off",
-          "extracto": "El sector de la salud cuenta con una ventaja estructural para integrar las mejoras de eficiencia generadas por la inteligencia artificial. Esta característica diferencia a dicha industria frente a otros sectores económicos.",
+          "extracto": "El sector sanitario cuenta con aplicaciones prácticas muy definidas para integrar las mejoras de eficiencia generadas por la inteligencia artificial, a diferencia de otras industrias.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34390,6 +34417,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 213.44
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 213.44
           }
         ],
@@ -39549,7 +39580,7 @@
       "noticias": [
         {
           "titular": "Is Now a Good Time to Buy Take-Two Stock?",
-          "extracto": "Las acciones de la compañía cayeron a pesar de que el director ejecutivo reportó una demanda inicial sin precedentes para el próximo lanzamiento de \"Grand Theft Auto VI\". Este contraste refleja la complejidad de las expectativas del mercado frente a los anuncios corporativos.",
+          "extracto": "Las acciones de la compañía cayeron a pesar de que el director ejecutivo calificó las reservas anticipadas del próximo videojuego como excepcionales. Esta divergencia destaca la incertidumbre actual entre los inversionistas financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -39558,7 +39589,7 @@
         },
         {
           "titular": "Why the Market Dipped But Take-Two Interactive (TTWO) Gained Today",
-          "extracto": "Las acciones de Take-Two Interactive experimentaron un incremento del 2.63% al cerrar la última sesión bursátil en 209.37 dólares. Este movimiento refleja la fluctuación diaria habitual en el valor de mercado de la empresa dentro del sector de videojuegos.",
+          "extracto": "Las acciones de Take-Two Interactive experimentaron un incremento en su cotización al cierre de la última sesión bursátil. Este movimiento refleja una variación positiva en comparación con la jornada anterior.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -39567,7 +39598,7 @@
         },
         {
           "titular": "Unity Advances 2% as CEO Eyes Console Reach for Google-Built Game Platform; Roblox Barely Budges, Take-Two Treads Water",
-          "extracto": "Las acciones de Unity subieron un 2% después de que su director ejecutivo esbozara una estrategia para llevar una plataforma de desarrollo de Google a las consolas de videojuegos. No obstante, los analistas recomiendan cautela debido a que el proyecto aún no se ha lanzado comercialmente.",
+          "extracto": "Las acciones de Unity subieron después de que su máximo ejecutivo planteara la posibilidad de llevar una plataforma de desarrollo de videojuegos a las consolas de salón. Sin embargo, los analistas recomiendan cautela debido a que el proyecto aún no se ha lanzado oficialmente al mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -39576,7 +39607,7 @@
         },
         {
           "titular": "Words With Friends Expands Its Dictionary with 25,000 New Words to Herald the Next Era of Word Games",
-          "extracto": "Zynga, filial de Take-Two Interactive, implementó una actualización significativa en el diccionario de su popular juego móvil \"Words With Friends\". La modificación incluye más de 25,000 términos nuevos y una herramienta para que los usuarios participen directamente en la moderación del vocabulario.",
+          "extracto": "La subsidiaria de Take-Two Interactive implementó una importante actualización en el diccionario de su popular juego móvil. La modificación incorpora miles de términos nuevos y otorga a la comunidad herramientas para participar en la revisión del vocabulario oficial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -39585,7 +39616,7 @@
         },
         {
           "titular": "Is It Worth Investing in Take-Two (TTWO) Based on Wall Street's Bullish Views?",
-          "extracto": "El consenso de los analistas de Wall Street sitúa la recomendación promedio para las acciones de Take-Two en la categoría de compra. Sin embargo, la persistente tendencia optimista de estas evaluaciones genera dudas sobre su utilidad real para los inversores.",
+          "extracto": "El consenso de los analistas financieros mantiene una recomendación de compra para los títulos de Take-Two Interactive. A pesar de esto, existen dudas sobre la verdadera utilidad de estas evaluaciones optimistas para la toma de decisiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40082,10 +40113,6 @@
       "var_dia_pct": 0.6059,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-11T06:00:00",
-            "valor": 696.65
-          },
           {
             "fecha": "2026-09-11T11:00:00",
             "valor": 696.65
@@ -40968,6 +40995,10 @@
           },
           {
             "fecha": "2026-10-11T05:00:00",
+            "valor": 715.59
+          },
+          {
+            "fecha": "2026-10-11T09:00:00",
             "valor": 715.59
           }
         ],
@@ -46627,7 +46658,7 @@
       "noticias": [
         {
           "titular": "VOO Doesn't Hold SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix, or ASML. Meet the Vanguard ETF That Does.",
-          "extracto": "Varias de las empresas líderes en el sector de la inteligencia artificial no forman parte del índice bursátil S&P 500, lo que llama la atención de los analistas. Esta ausencia destaca la desconexión entre la capitalización de mercado tecnológica actual y los criterios de inclusión de los índices tradicionales.",
+          "extracto": "Varias de las empresas líderes en inteligencia artificial a nivel global no forman parte del índice bursátil S&P 500. Esta ausencia destaca las diferencias entre los gigantes tecnológicos emergentes y los criterios tradicionales de inclusión en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -46645,7 +46676,7 @@
         },
         {
           "titular": "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
-          "extracto": "El difunto inversor Charlie Munger advirtió a los ahorradores minoristas que no intentaran replicar su estrategia de superar al mercado. Su postura revela un error financiero común y costoso que cometen muchos inversores particulares al asumir riesgos innecesarios.",
+          "extracto": "El difunto inversor Charlie Munger advirtió a los pequeños ahorradores que no imiten las estrategias que él y Warren Buffett utilizaron con éxito durante décadas. Su postura busca prevenir errores financieros costosos en los que incurren frecuentemente los inversores particulares.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -46654,7 +46685,7 @@
         },
         {
           "titular": "VOO’s Dividend Reinvestment Can Trip the Wash Sale Rule, but on $500,000 It Touches Just 0.257% of the Position",
-          "extracto": "La reinversión automática de dividendos en fondos cotizados puede activar la norma fiscal estadounidense contra la venta ficticia de acciones. Conocer cómo el organismo tributario empareja los títulos afectados es clave para calcular correctamente el impacto económico real.",
+          "extracto": "La reinversión automática de dividendos puede activar inadvertidamente la regla de venta ficticia en fondos cotizados como el VOO. Analizar cómo el servicio fiscal empareja las acciones afectadas resulta clave para calcular correctamente el impacto económico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -46763,7 +46794,7 @@
               "valor": 125.97
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 125.97
             }
           ],
@@ -51964,7 +51995,7 @@
               "valor": 946.92
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 946.92
             }
           ],
@@ -57165,7 +57196,7 @@
               "valor": 111.35
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 111.35
             }
           ],
@@ -63112,6 +63143,10 @@
             {
               "fecha": "2026-10-11T05:00:00",
               "valor": 242.27
+            },
+            {
+              "fecha": "2026-10-11T09:00:00",
+              "valor": 242.27
             }
           ],
           "6M": [
@@ -68527,7 +68562,7 @@
               "valor": 77.38
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 77.38
             }
           ],
@@ -73728,7 +73763,7 @@
               "valor": 94.57
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 94.57
             }
           ],
@@ -78929,7 +78964,7 @@
               "valor": 185.97
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 185.97
             }
           ],
@@ -84150,7 +84185,7 @@
               "valor": 207.73
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 207.73
             }
           ],
@@ -89371,7 +89406,7 @@
               "valor": 800.47
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 800.47
             }
           ],
@@ -94592,7 +94627,7 @@
               "valor": 88.48
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 88.48
             }
           ],
@@ -99793,7 +99828,7 @@
               "valor": 423.96
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 423.96
             }
           ],
@@ -104994,7 +105029,7 @@
               "valor": 140.86
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 140.86
             }
           ],
@@ -110179,7 +110214,7 @@
               "valor": 104.7
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 104.7
             }
           ],
@@ -115284,7 +115319,7 @@
               "valor": 141.4
             },
             {
-              "fecha": "2026-10-11T05:00:00",
+              "fecha": "2026-10-11T09:00:00",
               "valor": 141.4
             }
           ],
