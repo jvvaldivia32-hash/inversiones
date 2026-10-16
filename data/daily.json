@@ -1,14 +1,30 @@
 {
-  "generado": "2026-10-16T20:04:52.086004+00:00",
-  "errores": [
-    "Gemini no respondió: noticias sin resumen"
-  ],
+  "generado": "2026-10-16T21:19:23.224596+00:00",
+  "errores": [],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Caída de los mercados bursátiles impulsada por el sector de inteligencia artificial y precios del petróleo",
-        "resumen": "",
+        "titulo_neutral": "Caída de los mercados bursátiles y tecnológicas por el sector de inteligencia artificial",
+        "resumen": "Los principales índices de Wall Street registraron caídas pronunciadas al cierre de la sesión bursátil. El nerviosismo de los inversores estuvo condicionado por la incertidumbre en torno al sector de la inteligencia artificial y por los elevados precios del petróleo.",
         "articulos": [
+          {
+            "titular": "Don’t buy this dip: Signs suggest there’s more pain ahead for tech stocks",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=174ffd94-219e-428b-aa63-6ea4c0ae5293&mod=mw_rss_bulletins",
+            "fecha": "2026-10-16T21:07:42+00:00"
+          },
+          {
+            "titular": "Wall Street ends down sharply, worries about AI trade and high oil prices weigh - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0xEdzRIMVNLYnAyTkhHSmVNTnRyMDJ3WGdOeFY0Vy1kRUtmWC1FZW42aDNfWTctUHM5X2hlWkhuOHFwblR1Q054a19YV3ZLNTlVVVlmMlRTZ0wxLWE2cmN3SWpjVHU4VDJZWU12Q0hPajE5cDdvQm9ic05PNHNRVG45bEI1ZFVHaEN5QnZjbHMxUDFVbHZ2cFNlMUZydw?oc=5",
+            "fecha": "2026-10-16T20:33:09+00:00"
+          },
           {
             "titular": "S&P 500 and Nasdaq close sharply lower as AI selloff drags down stock market",
             "extracto": "",
@@ -26,15 +42,6 @@
             "lean": "centro-derecha",
             "url": "https://www.marketwatch.com/bulletins/redirect/go?g=aca797a4-6050-41c7-a86d-af6027c81cd1&mod=mw_rss_bulletins",
             "fecha": "2026-10-16T19:23:02+00:00"
-          },
-          {
-            "titular": "Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0xEdzRIMVNLYnAyTkhHSmVNTnRyMDJ3WGdOeFY0Vy1kRUtmWC1FZW42aDNfWTctUHM5X2hlWkhuOHFwblR1Q054a19YV3ZLNTlVVVlmMlRTZ0wxLWE2cmN3SWpjVHU4VDJZWU12Q0hPajE5cDdvQm9ic05PNHNRVG45bEI1ZFVHaEN5QnZjbHMxUDFVbHZ2cFNlMUZydw?oc=5",
-            "fecha": "2026-10-16T18:20:23+00:00"
           }
         ],
         "leans_presentes": [
@@ -48,17 +55,49 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Movimientos en los mercados de valores y el dólar",
-        "resumen": "",
+        "titulo_neutral": "Venta de acciones por ejecutivos de empresas",
+        "resumen": "Los registros financieros revelan que el máximo responsable ejecutivo de CoreWeave ha enajenado participaciones accionarias por valor de casi mil millones de dólares desde la salida a bolsa de la compañía. Esta importante liquidación por parte de la alta dirección genera atención en el sector tecnológico y financiero.",
         "articulos": [
           {
-            "titular": "Stocks slip as dollar heads for weekly loss",
+            "titular": "Paul Mahon, United Therapeutics EVP, sells $4.5m in stock",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/most-asian-stocks-rise-as-calm-returns-after-coreweave-shock-indonesia-faces-market-downgrade-4952993",
-            "fecha": "2026-10-16T19:42:18+00:00"
+            "url": "https://www.investing.com/news/insider-trading-news/paul-mahon-united-therapeutics-evp-sells-45m-in-stock-93CH-4954856",
+            "fecha": "2026-10-16T21:01:06+00:00"
+          },
+          {
+            "titular": "CoreWeave's CEO sold nearly $1 billion of stock since IPO, filings show - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZlBOc3YwWlJVZ3JMc2tSUmd4aGdLVERla2dYZ2Y0OUpfUW5uVkJCTlRBSGFZN3RXdS1GQ3lHdktFdjFSRm5qYUNhUVhFWmkySzJxT3dFcHpwMXR4UXg1YXdUOWVWZVZQMDV2MWxHdW1mQ3dJcm5uU3FKcVFDTGktZEstcXY0LUZnUFFjcVdxVllrQjVPS1RGLWkwV2FZOWVIRV9LYmNFZVVmTjVFM3FVcW5ZR1NJUzZsYkE?oc=5",
+            "fecha": "2026-10-16T16:48:52+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Retiro del jefe de ventas de Boeing",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Exclusive-Boeing sales chief McMullen to retire, company memo says",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/stock-market-news/exclusiveboeing-sales-chief-mcmullen-to-retire-company-memo-says-4954848",
+            "fecha": "2026-10-16T21:00:56+00:00"
           }
         ],
         "leans_presentes": [
@@ -70,7 +109,51 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Déficit presupuestario de Estados Unidos",
+        "titulo_neutral": "Medidas económicas y de crédito en Brasil",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Brazil may offer credit lines to ease impact of tax, labor reforms, minister says",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/economy-news/brazil-may-offer-credit-lines-to-ease-impact-of-tax-labor-reforms-minister-says-4954855",
+            "fecha": "2026-10-16T21:00:41+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Fluctuaciones del dólar estadounidense y el euro",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "U.S. dollar snaps four-week win streak, helping the euro halt a five-week slide",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/forex-news/asia-fx-subdued-dollar-weakens-after-bond-rally-rupee-set-for-2-weekly-jump-4953070",
+            "fecha": "2026-10-16T20:59:45+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Déficit fiscal de Estados Unidos",
         "resumen": "",
         "articulos": [
           {
@@ -92,117 +175,9 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Precio del petróleo alcanza los 110 dólares por barril",
-        "resumen": "",
+        "titulo_neutral": "Situación financiera y de bonos de CoreWeave relacionada con la inteligencia artificial",
+        "resumen": "El desplome en los bonos de CoreWeave ha puesto a prueba las previsiones financieras del mercado respecto a la enorme inversión requerida para el desarrollo de la inteligencia artificial. Esta situación refleja la creciente preocupación sobre la sostenibilidad económica de la infraestructura tecnológica actual.",
         "articulos": [
-          {
-            "titular": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/commodities-news/oil-edges-down-as-investors-weigh-possible-us-sanctions-on-shadow-fleet-4952926",
-            "fecha": "2026-10-16T19:36:37+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Compra de vehículos eléctricos en California mediante programa de reembolso",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Nearly 12,000 California residents bought EVs using state rebate program",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/nearly-12000-california-residents-bought-evs-using-state-rebate-program-4954764",
-            "fecha": "2026-10-16T19:24:26+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Evolución de las acciones de Tesla",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Tesla breaks $350 support with bearish momentum: Live levels",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
-            "fecha": "2026-10-16T19:18:24+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Inversiones y perspectivas en el sector de inteligencia artificial",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Welcome to the ‘AI burnout trade’ as investors tire of debating tech’s promises",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=365a81ac-d486-416e-a82a-043125ea431b&mod=mw_rss_bulletins",
-            "fecha": "2026-10-16T18:14:03+00:00"
-          },
-          {
-            "titular": "DeepSeek mania spawns shadow market",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/deepseek-mania-spawns-shadow-market",
-            "fecha": "2026-09-09T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha",
-          "centro"
-        ],
-        "grupos_presentes": [
-          "MarketWatch",
-          "Financial Times"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Transacciones financieras y emisiones de bonos de CoreWeave",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "CoreWeave's CEO sold nearly $1 billion of stock since IPO, filings show - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZlBOc3YwWlJVZ3JMc2tSUmd4aGdLVERla2dYZ2Y0OUpfUW5uVkJCTlRBSGFZN3RXdS1GQ3lHdktFdjFSRm5qYUNhUVhFWmkySzJxT3dFcHpwMXR4UXg1YXdUOWVWZVZQMDV2MWxHdW1mQ3dJcm5uU3FKcVFDTGktZEstcXY0LUZnUFFjcVdxVllrQjVPS1RGLWkwV2FZOWVIRV9LYmNFZVVmTjVFM3FVcW5ZR1NJUzZsYkE?oc=5",
-            "fecha": "2026-10-16T16:48:52+00:00"
-          },
           {
             "titular": "CoreWeave bond rout tests market's math on AI buildout - Reuters",
             "extracto": "",
@@ -220,43 +195,53 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Expectativas de aumento de tasas de interés por bancos centrales debido al auge de la inteligencia artificial",
+        "resumen": "Los bancos centrales evalúan elevar los tipos de interés debido a la fuerte demanda de liquidez impulsada por el auge de la inteligencia artificial. Mientras tanto, las medidas implementadas en el mercado de deuda estadounidense no han surtido el efecto deseado, y persisten tensiones geopolíticas tras un ataque cerca de una vía ferroviaria ucraniana.",
+        "articulos": [
+          {
+            "titular": "Central bankers eye higher rates as AI boom fuels scramble for cash - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRUtKN0pzRWNldm1acUxBY0o2M0h6UWlxVHNpT0pWcmQ4c1VQdG8wVE5iaTM2RWVocXN3MDFKMUZwblpDTWNFcTZiUFhNSkpYdlRwMGZhc0Q1UUNCZENPVm5CcDZjYXFZQ2FLaDV0eG5lak1qZ1hlSDZXT05leFQtZ2FubWhKbXlrNWNqbTEybGo5V0dESzk3U2VhbTl4WWNQdHBRc3luM3F4cGIyMEI2RjFYVQ?oc=5",
+            "fecha": "2026-10-16T16:38:28+00:00"
+          },
+          {
+            "titular": "Fed and BoJ expect rate hikes as US bond market flails",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-and-boj-expect-rate-hikes-as-us-bond-market-flails",
+            "fecha": "2026-09-14T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Otorgan libertad a Patricio Maturana, excarabinero condenado por cegar a la senadora Fabiola Campillai",
-        "resumen": "Un tribunal concedió el beneficio de libertad condicional a un exfuncionario policial que fue condenado judicialmente por causar la pérdida de visión a una legisladora. La medida comenzará a aplicarse a principios de diciembre, una vez que el condenado cumpla con el tiempo mínimo de reclusión establecido por la normativa vigente.",
+        "titulo_neutral": "Indicaciones parlamentarias para el financiamiento de startups y fondo de fondos",
+        "resumen": "La Bancada Startup presentó un conjunto de iniciativas legislativas enfocadas en impulsar el ecosistema de emprendimientos tecnológicos en el país. Estas medidas contemplan la flexibilización de contratos juveniles, incentivos tributarios para inversionistas y la habilitación de Corfo como inversor de riesgo.",
         "articulos": [
           {
-            "titular": "Otorgan libertad a Patricio Maturana, excarabinero condenado por cegar a la senadora Fabiola Campillai",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/10/16/otorgan-libertad-a-patricio-maturana-excarabinero-condenado-por-cegar-a-la-senadora-fabiola-campillai/",
-            "fecha": "2026-10-16T20:04:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Formalizan a alcalde de Chillán por fraude al fisco: compra de Medialuna por $ 1.900 millones habría doblado el valor de propiedad",
-        "resumen": "El Ministerio Público investiga a una autoridad comunal por presuntas irregularidades en la adquisición de un bien raíz por un monto superior al valor tasado oficialmente. Según la indagatoria, el jefe edilicio habría ejecutado estas transacciones financieras y administrativas sin la autorización previa del concejo comunal ni del órgano de control interno.",
-        "articulos": [
-          {
-            "titular": "Formalizan a alcalde de Chillán por fraude al fisco: compra de Medialuna por $ 1.900 millones habría doblado el valor de propiedad",
+            "titular": "MK4: Diputados ingresan siete indicaciones para mejorar el financiamiento a startups y crear un fondo de fondos",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/nuble/formalizan-a-alcalde-de-chillan-por-fraude-al-fisco-compra-de-medialuna",
-            "fecha": "2026-10-16T19:59:16+00:00"
+            "url": "http://www.df.cl/df-lab/innovacion-y-startups/mk4-diputados-ingresan-indicaciones-para-modificar-bolsa-junior-extender",
+            "fecha": "2026-10-16T21:17:40+00:00"
           }
         ],
         "leans_presentes": [
@@ -268,17 +253,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Un sunset bailable para solteros mayores de 50",
-        "resumen": "Se organizó un evento de socialización dirigido exclusivamente a personas mayores de cincuenta años que se encuentran solteras, viudas o divorciadas en la capital. La actividad busca ofrecer un espacio de entretenimiento y encuentro interpersonal acompañado por música en vivo a cargo de una conocida DJ nacional.",
+        "titulo_neutral": "Guía de ocio y eventos culturales",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Un sunset bailable para solteros mayores de 50",
+            "titular": "Guía de Ocio: Un drama romántico, feria de arte, jardines y más",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/personaje/un-sunset-bailable-para-solteros-mayores-de-50",
-            "fecha": "2026-10-16T19:58:38+00:00"
+            "url": "http://www.df.cl/df-mas/capital/cultura/guia-de-ocio-un-drama-romantico-ferias-de-arte-jardines-y-mas",
+            "fecha": "2026-10-16T21:16:53+00:00"
           }
         ],
         "leans_presentes": [
@@ -290,58 +275,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Visita y acuerdos bilaterales entre Chile y Bolivia",
-        "resumen": "Los gobernantes de Chile y Bolivia sostuvieron una reunión bilateral enfocada en fortalecer los vínculos comerciales e iniciar un proceso de integración energética. Durante la cita, el líder boliviano reiteró la demanda histórica de su país por obtener una salida soberana al océano Pacífico. Ambos mandatarios destacaron la relevancia de afianzar la diplomacia bilateral mediante acuerdos concretos.",
+        "titulo_neutral": "Accidente laboral de trabajador contratista en Escondida",
+        "resumen": "La empresa BHP informó sobre el trágica fallecimiento de un trabajador en las instalaciones de mantenimiento ubicadas en una zona minera cordillerana de la Región de Antofagasta. El suceso tuvo lugar durante este jueves, activando los protocolos de investigación pertinentes en la faena.",
         "articulos": [
           {
-            "titular": "En histórica visita a La Paz, Kast suscribe acuerdos comerciales y mineros pero Bolivia reitera que mantiene aspiración marítima",
+            "titular": "Trabajador contratista de Escondida cae desde una altura de tres metros: se recupera en Antofagasta",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/politica/en-historica-visita-a-la-paz-kast-suscribe-acuerdos-comerciales-y-mineros",
-            "fecha": "2026-10-16T19:57:04+00:00"
-          },
-          {
-            "titular": "“Un objetivo permanente e irrenunciable”: Presidente de Bolivia señala frente a Kast que no renunciarán a la soberanía marítima",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/10/16/un-objetivo-permanente-e-irrenunciable-presidente-de-bolivia-senala-frente-a-kast-que-no-renunciaran-a-la-soberania-maritima/",
-            "fecha": "2026-10-16T19:37:50+00:00"
-          },
-          {
-            "titular": "Presidentes de Chile y Bolivia firman declaración en que reafirman voluntad de evaluar una futura interconexión eléctrica",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/energia/presidentes-de-chile-y-bolivia-firman-declaracion-en-que-reafirman-voluntad",
-            "fecha": "2026-10-16T19:24:34+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro",
-          "independiente"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "La guerra pone en peligro el sueño futurista del príncipe saudita",
-        "resumen": "Los repetidos atentados perpetrados por agrupaciones armadas en la región del Golfo Pérsico están incrementando la presión sobre la estabilidad económica de la nación más importante del área. Esta situación complejiza aún más el panorama geopolítico y comercial de los mercados energéticos internacionales.",
-        "articulos": [
-          {
-            "titular": "La guerra pone en peligro el sueño futurista del príncipe saudita",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/factor-economico/la-guerra-pone-en-peligro-el-sueno-futurista-del-principe-saudita",
-            "fecha": "2026-10-16T19:46:45+00:00"
+            "url": "http://www.df.cl/empresas/mineria/trabajador-contratista-de-escondida-cae-desde-una-altura-de-tres-metros-se",
+            "fecha": "2026-10-16T21:16:01+00:00"
           }
         ],
         "leans_presentes": [
@@ -353,71 +297,105 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Reacciones y debate parlamentario sobre las pérdidas en el Fondo E de las AFP",
-        "resumen": "Un grupo transversal de diputados solicitó la creación de una comisión investigadora en el Congreso para esclarecer las cuantiosas pérdidas económicas sufridas por el Fondo E de las AFP. La iniciativa busca determinar las responsabilidades de las administradoras en la gestión de los riesgos asociados a operaciones financieras con derivados. Expertos señalan que este análisis es fundamental para prevenir futuras crisis en los ahorros previsionales.",
+        "titulo_neutral": "Tercera versión del Growth Summit de Walmart Chile",
+        "resumen": "La tercera edición del evento Growth Summit logró convocar a aproximadamente doscientos participantes del sector productivo y gubernamental. Entre los asistentes destacó la presencia del ministro del Trabajo, Tomás Rau, quien participó en las instancias de debate económico.",
         "articulos": [
           {
-            "titular": "Pérdidas millonarias del Fondo E llegan al Congreso: diputados impulsan comisión investigadora contra las AFP",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/10/16/perdidas-millonarias-del-fondo-e-llegan-al-congreso-diputados-impulsan-comision-investigadora-contra-las-afp/",
-            "fecha": "2026-10-16T19:39:27+00:00"
-          },
-          {
-            "titular": "Solange Berstein y el rol de las AFP en la caída del fondo E: “Una gestión prudencial no termina cuando una operación está autorizada”",
+            "titular": "699 postulaciones, más de 150 pitches y 31 Golden Tickets: así se vivió la tercera versión del Growth Summit de Walmart Chile",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/senal-df/el-deal/solange-berstein-y-el-rol-de-las-afp-en-la-caida-del-fondo-e-una-gestion",
-            "fecha": "2026-10-16T19:12:37+00:00"
+            "url": "http://www.df.cl/df-mas/coffee-break/699-postulaciones-mas-de-150-pitches-y-31-golden-tickets-asi-se-vivio-la",
+            "fecha": "2026-10-16T21:14:02+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente",
           "Claro"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "“Está cada vez más loco”: El malestar que desató el ministro Poduje en la derecha con sus críticas a Javier Milei",
-        "resumen": "Las declaraciones de un secretario de Estado cuestionando las posturas de un mandatario extranjero sobre la inversión pública generaron tensiones al interior del oficialismo y sectores afines. Mientras facciones conservadoras criticaron duramente al arquitecto y funcionario por sus dichos, legisladores de la coalición expresaron reparos sobre el manejo de sus vocerías políticas.",
-        "articulos": [
-          {
-            "titular": "“Está cada vez más loco”: El malestar que desató el ministro Poduje en la derecha con sus críticas a Javier Milei",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/10/16/esta-cada-vez-mas-loco-el-malestar-que-desato-el-ministro-poduje-en-la-derecha-con-sus-criticas-a-javier-milei/",
-            "fecha": "2026-10-16T19:34:55+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "IPSA cierra estable mientras Wall Street cae fuerte a medida que el petróleo Brent sube a máximos de cinco meses",
-        "resumen": "Los rendimientos de los bonos soberanos estadounidenses experimentaron un repunte tras registrar bajas considerables en la jornada anterior. Este cambio de tendencia ocurrió luego de que la autoridad fiscal consultara a diversos actores del mercado sobre las dimensiones que tendrán las próximas emisiones de deuda pública.",
+        "titulo_neutral": "Rumores sobre la venta del canal TV+",
+        "resumen": "Propietarios de la señal televisiva TV+, anteriormente conocida como UCV Televisión, se encontrarían participando en negociaciones orientadas a concretar la transferencia de la estación. Esta operación abriría un nuevo capítulo en la propiedad del canal nacional.",
         "articulos": [
           {
-            "titular": "IPSA cierra estable mientras Wall Street cae fuerte a medida que el petróleo Brent sube a máximos de cinco meses",
+            "titular": "¿Canal TV+ se vende?",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-x3zxe",
-            "fecha": "2026-10-16T19:24:50+00:00"
+            "url": "http://www.df.cl/df-mas/coffee-break/canal-tv-se-vende",
+            "fecha": "2026-10-16T21:11:35+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Gobierno frena remates de patentes mineras por daños de lluvias",
+        "resumen": "Se implementó una prórroga temporal dirigida a proteger a pequeños mineros y artesanos afectados por temporales recientes, impidiendo la pérdida de sus concesiones por falta de pago. En paralelo, el parlamento debate una iniciativa para aplazar estas obligaciones financieras a nivel nacional.",
+        "articulos": [
+          {
+            "titular": "De Arica a Los Lagos, gobierno frena remates de patentes mineras tras daños provocados por las lluvias",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/regiones/coquimbo/de-arica-a-los-lagos-gobierno-frena-remates-de-patentes-mineras-tras-danos",
+            "fecha": "2026-10-16T21:09:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Presentación de proyectos de exploración de Codelco en Londres",
+        "resumen": "El máximo representante de la compañía minera estatal enfatizó la necesidad indispensable de establecer asociaciones estratégicas con el sector privado. Según su perspectiva, la empresa pública carece de viabilidad para expandir sus operaciones operativas de forma aislada.",
+        "articulos": [
+          {
+            "titular": "Fontaine debuta en Londres en busca de socios para toda la cartera de proyectos de exploración de Codelco",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/senal-df/factor-economico/fontaine-debuta-en-londres-en-busca-de-socios-para-toda-la-cartera-de",
+            "fecha": "2026-10-16T21:03:43+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Eventos del Mes del Diseño 2026",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Mes del Diseño 2026, un homenaje a la industria nacional",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-mas/capital/estilo-de-vida-ed/mes-del-diseno-2026-un-homenaje-a-la-industria-nacional",
+            "fecha": "2026-10-16T21:00:35+00:00"
           }
         ],
         "leans_presentes": [
@@ -431,34 +409,34 @@
     ],
     "actualidad": [
       {
-        "titular": "FAA set to approve Boeing 737 MAX 10 as soon as next week, sources say - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNXdnbkZmNkxjeThiVE51Uy1GVU9XTVNnWVJaR1lYZmRkcmpxMTQyZzgzM0ZVVVdDN0lONjlZSXRpRDcyb21aZlMteWFfVnhDdGlYdDZMVFlsRzh5ckRqWW1vUWxZU01HbEU0OThSemlKYmt3dV91Z3ZWelZ6cFpjbVRGb1NrOTNWM3RGdjFwTDFMdVJpcHNkYWZCaldrcmRITG5iM2VfVQ?oc=5",
-        "fecha": "2026-10-16T19:48:24+00:00"
-      },
-      {
-        "titular": "Police seek answers after children killed in Oregon school shooting - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONEwybHNSVWxXcmxXaVN2dWdZX3dmMi1vYzU0Z0VvTEQzb1NHVTdSbWQ3X2dzVGFJWW05Ny1RVjMwZFl0Z3ZPZFl2MGs5WmxJbm1NcmRXcDIyOUNIUGdfME5KNFpmRW5SdS1wQ05zZHVWc3hvV01QREhhV05NWTMtWFFYNHhzUEo5aUVldmg0c0VNYjV5b1NFWGxzMDlTano4eHlpNmtRdUYtV0JQX0E?oc=5",
-        "fecha": "2026-10-16T19:46:42+00:00"
-      },
-      {
-        "titular": "Trump told new press secretary to ‘reconsider’ role",
+        "titular": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-told-new-press-secretary-to-reconsider-role?traffic_source=rss",
-        "fecha": "2026-10-16T19:41:15+00:00"
+        "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+        "fecha": "2026-10-16T21:08:50+00:00"
       },
       {
-        "titular": "Trump denies limiting Ukraine access to Starlink network",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-10-16T19:33:48+00:00"
+        "titular": "Students in Europe are rising up to call for better education",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/students-in-europe-are-rising-up-to-call-for-better-education?traffic_source=rss",
+        "fecha": "2026-10-16T20:38:00+00:00"
       },
       {
-        "titular": "Trump Vs Zelensky, From the Screen to the Streets, Gen Z protests from Paris to Dehli",
+        "titular": "Food affordability fears plague Gaza as Israel halts commercial goods",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/food-affordability-fears-plague-gaza-as-israel-halts-commercial-goods?traffic_source=rss",
+        "fecha": "2026-10-16T20:37:22+00:00"
+      },
+      {
+        "titular": "Zelensky turns to Europe for backing as ties with Trump deteriorate",
         "medio": "France24",
-        "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261016-trump-vs-zelensky-from-the-screen-to-the-streets-gen-z-protests-from-paris-to-dehli",
-        "fecha": "2026-10-16T19:21:33+00:00"
+        "url": "https://www.france24.com/en/europe/20261016-zelensky-turns-to-europe-for-backing-as-ties-with-trump-deteriorate",
+        "fecha": "2026-10-16T20:25:46+00:00"
+      },
+      {
+        "titular": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+        "fecha": "2026-10-16T20:25:25+00:00"
       }
     ]
   },
@@ -1356,6 +1334,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 245.2
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 245.2
           }
         ],
@@ -6763,7 +6745,7 @@
       "noticias": [
         {
           "titular": "CORRECTING and REPLACING Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
-          "extracto": "Una empresa emitió una corrección para aclarar que una tradición de compras de temporada anticipada comenzó formalmente en 2022 en lugar de 2021.",
+          "extracto": "Una empresa emitió una corrección para una nota aclaratoria fechada en septiembre de 2026, precisando que una tradición comercial anual se estableció en 2022.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6772,7 +6754,7 @@
         },
         {
           "titular": "Is Adobe A Better Way Than Salesforce To Own AI Software Growth?",
-          "extracto": "Salesforce y Adobe confían en la inteligencia artificial para impulsar su crecimiento, pero implementan estrategias de precios opuestas; mientras Salesforce prioriza las versiones prémium más costosas, Adobe mantiene tarifas estables para captar más usuarios.",
+          "extracto": "Salesforce y Adobe confían en la inteligencia artificial para impulsar su crecimiento, pero implementan estrategias de precios opuestas; mientras la primera encarece sus versiones prémium, la segunda mantiene tarifas estables para captar usuarios.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6781,7 +6763,7 @@
         },
         {
           "titular": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave",
-          "extracto": "Diversas compañías tecnológicas y financieras anunciaron alianzas estratégicas para integrar los chips, modelos de lenguaje y herramientas de software de Nvidia en sus operaciones cotidianas.",
+          "extracto": "Diversas compañías tecnológicas y financieras anunciaron alianzas ampliadas con NVIDIA para integrar sus procesadores y modelos de inteligencia artificial en sectores que van desde la creación de contenidos hasta el diseño de centros de datos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6790,7 +6772,7 @@
         },
         {
           "titular": "Should You Buy Adobe Stock For Its Cash?",
-          "extracto": "El flujo de caja libre de Adobe alcanzó un porcentaje significativamente superior a la media del índice S&P 500, lo que genera dudas en el mercado sobre si la empresa está infravalorada o si enfrenta expectativas de contracción.",
+          "extracto": "En el último año, Adobe registró un rendimiento de flujo de caja libre significativamente superior a la media del índice S&P 500, lo que genera dudas entre los inversores sobre si la acción está infravalorada o si el mercado anticipa un estancamiento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6799,7 +6781,7 @@
         },
         {
           "titular": "Adobe, HubSpot, Workday, Asana, and Workiva Shares Are Soaring, What You Need To Know",
-          "extracto": "Diversas acciones tecnológicas repuntaron durante la sesión bursátil impulsadas por una caída en los rendimientos de los bonos del Tesoro, lo que motivó a los inversores a comprar tras las recientes pérdidas en el sector.",
+          "extracto": "Las acciones tecnológicas y del sector de software repuntaron durante la sesión vespertina impulsadas por la caída en los rendimientos de los bonos del Tesoro, lo que atrajo a compradores tras recientes descensos vinculados a la inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7306,8 +7288,8 @@
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 532.14,
-      "var_dia_pct": 1.2289,
+      "precio": 532.02,
+      "var_dia_pct": 1.2061,
       "serie_precio": {
         "1M": [
           {
@@ -8185,6 +8167,10 @@
           {
             "fecha": "2026-10-16T20:00:00",
             "valor": 532.14
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
+            "valor": 532.02
           }
         ],
         "6M": [
@@ -8766,7 +8752,7 @@
           },
           {
             "fecha": "2026-10-16",
-            "valor": 532.14
+            "valor": 532.02
           }
         ],
         "YTD": [
@@ -9640,7 +9626,7 @@
           },
           {
             "fecha": "2026-10-16",
-            "valor": 532.14
+            "valor": 532.02
           }
         ],
         "1A": [
@@ -10722,7 +10708,7 @@
           },
           {
             "fecha": "2026-10-16",
-            "valor": 532.14
+            "valor": 532.02
           }
         ],
         "5A": [
@@ -11768,7 +11754,7 @@
           },
           {
             "fecha": "2026-10-16",
-            "valor": 532.14
+            "valor": 532.02
           }
         ],
         "10A": [
@@ -13858,18 +13844,18 @@
           },
           {
             "fecha": "2026-10-16",
-            "valor": 532.14
+            "valor": 532.02
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": 8.870718099344899,
-          "3A": 16.64102481879719,
-          "5A": 13.014809244370307,
-          "10A": 14.01787363407545
+          "1A": 8.846150441509714,
+          "3A": 16.632226355115787,
+          "5A": 13.009694208569167,
+          "10A": 14.015298340128513
         },
-        "volatilidad_anual_pct": 14.549306388780249,
+        "volatilidad_anual_pct": 14.547475368073009,
         "caida_maxima_5a_pct": -25.571412643550005
       },
       "noticias": [
@@ -13884,7 +13870,7 @@
         },
         {
           "titular": "IPO Stock Of The Week: Bending Spoons Defies Gravity After $330 Million Berkshire Investment",
-          "extracto": "La valoración de Bending Spoons experimentó un fuerte repunte tras recibir un importante respaldo financiero por parte de Berkshire Hathaway. Este crecimiento acerca a la compañía a un momento estratégico clave para los inversores.",
+          "extracto": "La empresa Bending Spoons experimentó un notable crecimiento bursátil tras recibir una inyección de capital por valor de 330 millones de dólares procedente del conglomerado Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13893,7 +13879,7 @@
         },
         {
           "titular": "Why Bending Spoons Stock Soared 27% This Week",
-          "extracto": "Las acciones de Bending Spoons registraron un notable incremento en su cotización semanal debido a una nueva inyección de capital aportada por el conglomerado de Warren Buffett. Dicha operación impulsó significativamente el optimismo en torno al valor bursátil de la empresa.",
+          "extracto": "Las acciones de Bending Spoons registraron un fuerte incremento durante la semana gracias a una nueva ronda de financiación aportada por Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13902,7 +13888,7 @@
         },
         {
           "titular": "Buffett ends his 20-year $47B pledge to the Gates Foundation",
-          "extracto": "Una alianza comercial de dos décadas valorada en decenas de miles de millones de dólares llegó a su conclusión a causa de un desacuerdo sobre la titularidad de un nombre. Esta ruptura pone fin a una colaboración histórica entre las partes involucradas.",
+          "extracto": "Una alianza estratégica de dos décadas valorada en 47.000 millones de dólares llegó a su término a causa de desacuerdos relacionados con una denominación específica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13911,7 +13897,7 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Has Over 45% of Berkshire Hathaway's $356 Billion Portfolio Invested in 3 Undeniable Winners",
-          "extracto": "El directivo muestra una marcada preferencia por concentrar los recursos financieros en un grupo reducido de empresas clave. Como muestra de esta estrategia, una parte muy mayoritaria de los activos invertidos del conglomerado se concentra en sus tres principales apuestas.",
+          "extracto": "El inversor Greg Abel prefiere una alta concentración de activos, destinando aproximadamente 161.000 millones de dólares de la cartera de Berkshire a sus tres principales participaciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14203,9 +14189,9 @@
         "p_vl": null,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
-        "maximo_52s": 532.14,
+        "maximo_52s": 532.02,
         "minimo_52s": 465.4,
-        "beta": 0.7581494055285622
+        "beta": 0.7581589020439728
       }
     },
     {
@@ -14709,6 +14695,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 9.3
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 9.3
           }
         ],
@@ -20220,16 +20210,16 @@
       "noticias": [
         {
           "titular": "UK to ‘act in lockstep’ with EU over China car tariffs, says minister",
-          "extracto": "El ministro de comercio británico indicó que el país podría acceder a imponer aranceles a los vehículos eléctricos procedentes de China exigidos por la Unión Europea. Esta postura refleja un posible cambio en la política comercial británica respecto al sector automotriz asiático.",
+          "extracto": "El ministro de Comercio británico, Anas Sarwar, indicó que el Reino Unido podría acceder a imponer aranceles a los vehículos eléctricos de fabricación china, alineándose con las exigencias de la Unión Europea.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.telegraph.co.uk/business/2026/10/16/uk-to-act-in-lockstep-with-eu-over-china-car-tariffs/?.tsrc=rss",
+          "url": "https://uk.finance.yahoo.com/news/uk-act-lockstep-eu-over-070000004.html?.tsrc=rss",
           "fecha": "2026-10-16T07:00:00+00:00"
         },
         {
           "titular": "Europeans Bought More EVs Than Ever Last Month",
-          "extracto": "El modelo Model Y de la marca Tesla se mantiene en la primera posición de ventas dentro del mercado europeo de automóviles eléctricos. Este liderazgo consolida la preferencia de los consumidores en la región por este vehículo utilitario deportivo.",
+          "extracto": "El modelo crossover Tesla Model Y continúa liderando las ventas en el mercado europeo de automóviles eléctricos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20238,7 +20228,7 @@
         },
         {
           "titular": "BYD Malaysia appoints Inokom for CKD vehicle assembly",
-          "extracto": "Una compañía de automóviles eléctricos seleccionó a la empresa Inokom para sus operaciones tras analizar las condiciones internas del mercado y la infraestructura industrial disponible. La decisión busca optimizar la capacidad productiva local de la marca.",
+          "extracto": "Una empresa de vehículos eléctricos seleccionó a la compañía Inokom tras analizar la situación del mercado interno y la infraestructura de producción local.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20247,7 +20237,7 @@
         },
         {
           "titular": "The EU Solved a Car Problem but Its Chinese Export Struggle Might Be Just Getting Started",
-          "extracto": "La implementación de regulaciones a los automóviles eléctricos y la reducción de aranceles comerciales resultan insuficientes para corregir el desequilibrio financiero existente entre los países. Expertos señalan que se requieren medidas económicas más profundas para equilibrar el intercambio bilateral.",
+          "extracto": "La implementación de regulaciones a los automóviles eléctricos y la reducción de aranceles son medidas insuficientes para corregir el desequilibrio comercial existente.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20256,7 +20246,7 @@
         },
         {
           "titular": "BYD (SEHK:1211) Showcased 9 Minute EV Charging In Paris",
-          "extracto": "El fabricante automotriz BYD presentó nuevos modelos de vehículos eléctricos equipados con tecnología avanzada de baterías y sistemas de carga ultrarrápida en eventos internacionales recientes. Asimismo, la compañía anunció planes para expandir su infraestructura de recarga en Europa y aumentar su capacidad de manufactura en América Latina.",
+          "extracto": "El fabricante BYD presentó en salones del automóvil recientes su nuevo modelo eléctrico Da Han y el Atto 8, anunciando además planes para expandir su capacidad productiva y desplegar infraestructura de carga rápida en Europa y América Latina.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21146,6 +21136,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 242.97
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 242.97
           }
         ],
@@ -26845,8 +26839,17 @@
           "fecha": "2026-10-16T16:33:09+00:00"
         },
         {
+          "titular": "Why Speculators May Want Another Crack at McDonald’s (MCD) a163% Options Payout",
+          "extracto": "A pesar del rendimiento decepcionante de las acciones de McDonald's, su próximo informe financiero podría revitalizar el interés de los inversores contrarios.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.barchart.com/story/news/8100679/why-speculators-may-want-another-crack-at-mcdonalds-mcd-a163-options-payout?.tsrc=rss",
+          "fecha": "2026-10-16T14:57:52+00:00"
+        },
+        {
           "titular": "McDonald's Corporation (MCD) Is a Trending Stock: Facts to Know Before Betting on It",
-          "extracto": "Las acciones de McDonald's han generado gran interés entre los usuarios de Zacks.com, lo que motiva a analizar las perspectivas financieras de la compañía.",
+          "extracto": "Las acciones de McDonald's han generado un gran interés entre los usuarios de la plataforma Zacks.com, lo que motiva un análisis sobre sus perspectivas futuras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26855,7 +26858,7 @@
         },
         {
           "titular": "McDonald’s (MCD) Stock May Trade Near Fair Value Following Dividend Raise",
-          "extracto": "Las acciones de la cadena de comida rápida han perdido cerca de un 20% en lo que va del año, lo que genera dudas entre los inversionistas sobre si su generación de efectivo respalda la valoración actual a pesar de los aumentos en los dividendos.",
+          "extracto": "La caída cercana al 20% en el valor de las acciones de McDonald's este año obliga a los analistas a evaluar si la generación de efectivo de la empresa justifica su cotización actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26864,21 +26867,12 @@
         },
         {
           "titular": "McDonald’s Stock Offers Up a Juicy Dividend Yield Above 3%, But I Don’t See Many Other Reasons to Buy It",
-          "extracto": "",
+          "extracto": "Para captar el interés de los inversores, las acciones deben ofrecer fundamentos sólidos que vayan más allá de un simple rendimiento de dividendo atractivo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.barchart.com/story/news/7973565/mcdonalds-stock-offers-up-a-juicy-dividend-yield-above-3-but-i-dont-see-many-other-reasons-to-buy-it?.tsrc=rss",
           "fecha": "2026-10-15T23:30:02+00:00"
-        },
-        {
-          "titular": "McDonald’s Dividend King Status Is Impressive, but Valuation Still Matters",
-          "extracto": "A pesar de la sólida reputación de McDonald's en el pago de dividendos gracias a su modelo de franquicias, los inversionistas deben evaluar si la empresa mantendrá el crecimiento de sus ganancias para sostener futuros incrementos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-dividend-king-status-impressive-165745630.html?.tsrc=rss",
-          "fecha": "2026-10-15T16:57:45+00:00"
         }
       ],
       "fundamentales": {
@@ -28312,6 +28306,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 529.05
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 529.05
           }
         ],
@@ -34003,7 +34001,7 @@
       "noticias": [
         {
           "titular": "Microsoft Signs 1,100 MW Power Deal With NiSource Until 2048 as AI Spending Outruns the Grid",
-          "extracto": "",
+          "extracto": "Microsoft ha firmado un contrato energético a dos décadas con la compañía NiSource para asegurar el suministro eléctrico de un centro de datos en Indiana a partir de 2028. Este acuerdo añade una capacidad significativa de generación de energía para satisfacer la demanda tecnológica futura.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34012,7 +34010,7 @@
         },
         {
           "titular": "Microsoft (MSFT) Remains a High-Quality AI Leader",
-          "extracto": "",
+          "extracto": "La firma de inversión Wedgewood Partners publicó su reporte trimestral correspondiente al tercer periodo de 2026. Su fondo compuesto principal obtuvo un rendimiento neto positivo que superó ligeramente al índice S&P 500.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34021,7 +34019,7 @@
         },
         {
           "titular": "Strong Azure Results Powered Microsoft Corporation’s (MSFT) Rally",
-          "extracto": "",
+          "extracto": "Diamond Hill Capital presentó el informe de su estrategia de gran capitalización para el tercer trimestre de 2026. El fondo superó al índice Russell 1000 Value gracias a un favorable rendimiento en la selección de acciones del sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34029,22 +34027,22 @@
           "fecha": "2026-10-16T16:06:51+00:00"
         },
         {
-          "titular": "What Is The Biggest Threat To Microsoft Stock?",
-          "extracto": "",
+          "titular": "Apple is Now the Top-Performing Magnificent 7 Stock in 2026. Here’s why it’s Beating NVIDIA, Tesla, and Amazon",
+          "extracto": "Apple se posiciona como el valor más destacado entre las grandes tecnológicas durante 2026, impulsada por un modelo de inteligencia artificial enfocado en el dispositivo y la privacidad. A diferencia de sus competidores, esta estrategia evita gastos masivos en infraestructura y atrae a inversores que buscan menor riesgo en el sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.trefis.com/articles/619006/what-is-the-biggest-threat-to-microsoft-stock/2026-10-16?.tsrc=rss",
-          "fecha": "2026-10-16T15:43:27+00:00"
+          "url": "https://247wallst.com/videos/apple-is-now-the-top-performing-magnificent-7-stock-in-2026-heres-why-its-beating-nvidia-tesla-and-amazon/?.tsrc=rss",
+          "fecha": "2026-10-16T19:34:26+00:00"
         },
         {
-          "titular": "High Switching Costs Protect Microsoft Corporation (MSFT) in the AI Era",
-          "extracto": "",
+          "titular": "The Next Stock Market Crash Could Start With Just 3 Companies",
+          "extracto": "Tres grandes corporaciones tecnológicas concentran una quinta parte de la capitalización bursátil total del índice S&P 500. Analistas advierten sobre los riesgos de esta alta concentración ante posibles desafíos en el sector de la inteligencia artificial y la estabilidad general del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/high-switching-costs-protect-microsoft-153203452.html?.tsrc=rss",
-          "fecha": "2026-10-16T15:32:03+00:00"
+          "url": "https://247wallst.com/videos/the-next-stock-market-crash-could-start-with-just-3-companies/?.tsrc=rss",
+          "fecha": "2026-10-16T17:06:28+00:00"
         }
       ],
       "fundamentales": {
@@ -35017,6 +35015,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 205.28
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 205.28
           }
         ],
@@ -40208,7 +40210,7 @@
       "noticias": [
         {
           "titular": "TTWO Stock In Focus: Citi Says This Blockbuster Game Could Potentially Ease Concerns About Post-GTA VI Earnings Drop",
-          "extracto": "Analistas financieros estiman, basándose en declaraciones de la directiva, que una nueva entrega de la saga Red Dead podría lanzarse hacia finales de la década. Este posible calendario ayuda a proyectar las expectativas a largo plazo para el estudio de videojuegos.",
+          "extracto": "Analistas de Citi estiman que una nueva entrega de la franquicia Red Dead podría llegar al mercado entre 2027 y 2028, basándose en declaraciones de directivos de Rockstar. Este pronóstico ofrece a los inversores una perspectiva a largo plazo más allá de los lanzamientos inmediatos de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40217,7 +40219,7 @@
         },
         {
           "titular": "Take Two Interactive (TTWO) Stock May Be Fully Priced As GTA VI Nears",
-          "extracto": "Las acciones de Take-Two Interactive han experimentado caídas recientes mientras los mercados esperan el lanzamiento de su próximo gran título. Los inversores analizan de cerca si la valoración actual de la empresa está respaldada por su capacidad real de generar efectivo.",
+          "extracto": "Las acciones de Take-Two Interactive han experimentado caídas recientes mientras los mercados esperan el lanzamiento de Grand Theft Auto VI. Los inversores analizan si la valuación actual de la empresa está justificada por su capacidad real de generar flujo de caja.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40226,7 +40228,7 @@
         },
         {
           "titular": "Zacks Investment Ideas feature highlights: Take-Two Interactive",
-          "extracto": "El esperado estreno de la sexta entrega de Grand Theft Auto podría revitalizar el valor bursátil de Take-Two Interactive. Además, la compañía anticipa un crecimiento significativo en sus reservas financieras para el año fiscal 2027 impulsado por esta franquicia.",
+          "extracto": "El próximo estreno de GTA 6 tiene el potencial de revitalizar el valor bursátil de Take-Two Interactive, impulsado por la alta demanda histórica de la saga. Además, la compañía proyecta un incremento del 20% en sus reservas financieras para el año fiscal 2027.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40235,7 +40237,7 @@
         },
         {
           "titular": "Should You Be Worried About Take-Two Stock?",
-          "extracto": "Los títulos de Take-Two Interactive han registrado un rendimiento inferior al del mercado general durante el último año, a pesar de las proyecciones de crecimiento para 2027. No obstante, la dirección mantiene cierta cautela sobre el impacto económico exacto que generará el nuevo título.",
+          "extracto": "A pesar de que las acciones de Take-Two han bajado un 21% en el último año, la empresa confía en que el lanzamiento de GTA VI en noviembre impulse un repunte financiero. Sin embargo, la directiva ha mostrado cierta cautela respecto a depender exclusivamente del entusiasmo inicial generado por el título.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40244,7 +40246,7 @@
         },
         {
           "titular": "Take-Two shares could reach $300 as GTA VI upside remains unpriced, says Jefferies",
-          "extracto": "Una firma de inversión mantuvo su recomendación de compra para las acciones de Take-Two Interactive, fijando un objetivo de precio elevado. Los analistas consideran que el mercado actual no está valorando adecuadamente el potencial comercial que tendrá la nueva entrega de Grand Theft Auto.",
+          "extracto": "La firma financiera Jefferies ratificó su recomendación de compra para las acciones de Take-Two Interactive con una meta de 300 dólares. Según sus analistas, el mercado actual infravalora el impacto económico positivo que traerá el lanzamiento de Grand Theft Auto VI.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41615,6 +41617,10 @@
           },
           {
             "fecha": "2026-10-16T20:00:00",
+            "valor": 701.61
+          },
+          {
+            "fecha": "2026-10-16T21:00:00",
             "valor": 701.61
           }
         ],
@@ -47315,7 +47321,7 @@
         },
         {
           "titular": "VGT Returned 799.70% and VOO Returned 324.46% Over a Decade. Adding VUG Does Not Make It Diversified",
-          "extracto": "Tres fondos de Vanguard con nombres distintos comparten inversiones idénticas en grandes empresas tecnológicas, lo que genera una concentración de riesgo oculta para los inversores.",
+          "extracto": "Tres fondos de Vanguard con nombres distintos comparten las mismas grandes empresas tecnológicas, lo que genera una concentración de riesgo oculta para los inversores. Este solapamiento determina el nivel real de exposición que asumen los compradores sin que sea evidente a simple vista.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47324,7 +47330,7 @@
         },
         {
           "titular": "USMV Cut the Worst Drawdown to 8.91%. On $300,000 That Protection Cost $131,460",
-          "extracto": "Buscar estabilidad para evitar la volatilidad del mercado puede implicar costos ocultos significativos a lo largo de los años y durante caídas drásticas.",
+          "extracto": "Optar por inversiones menos volátiles puede parecer una decisión prudente, pero es necesario evaluar los costos acumulados a lo largo de los años y durante periodos de fuertes caídas del mercado. La búsqueda de estabilidad a menudo conlleva un precio financiero significativo que reduce la rentabilidad real.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47333,7 +47339,7 @@
         },
         {
           "titular": "If I Could Invest $1,000 in Just 1 Dividend Stock for the Next 5 Years, I'd Pick This Clear Standout Over the Vanguard S&P 500 ETF (VOO)",
-          "extracto": "La cadena minorista Target se destaca en el mercado por ofrecer dividendos estables junto con atractivas perspectivas de crecimiento.",
+          "extracto": "La cadena minorista Target se presenta como una opción atractiva para los inversores debido a la estabilidad de sus pagos y a sus perspectivas de crecimiento futuro. Estas características la convierten en un activo valorado dentro del sector comercial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47342,7 +47348,7 @@
         },
         {
           "titular": "You Bought VOO to Own the S&P 500. On $500,000, One Chipmaker Is $40,400 of It",
-          "extracto": "Una cartera centrada exclusivamente en el fondo VOO puede generar una dependencia excesiva hacia un único fabricante de semiconductores, un riesgo de concentración ya señalado en sus documentos oficiales.",
+          "extracto": "Una cuenta de jubilación invertida exclusivamente en el fondo VOO puede acumular una dependencia excesiva hacia un único fabricante de microchips, según advierten los documentos oficiales del fondo. Esta situación expone a los ahorradores a riesgos de concentración que a menudo pasan desapercibidos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47363,8 +47369,8 @@
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 709.88,
-        "var_dia_pct": -2.489
+        "precio": 709.8,
+        "var_dia_pct": -2.5
       },
       {
         "ticker": "VTI",
@@ -47462,7 +47468,7 @@
               "valor": 128.38
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 131.49
             }
           ],
@@ -52715,7 +52721,7 @@
               "valor": 978.01
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 989.11
             }
           ],
@@ -57968,7 +57974,7 @@
               "valor": 117.87
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 118.81
             }
           ],
@@ -64047,6 +64053,10 @@
             {
               "fecha": "2026-10-16T20:00:00",
               "valor": 245.2
+            },
+            {
+              "fecha": "2026-10-16T21:00:00",
+              "valor": 245.2
             }
           ],
           "6M": [
@@ -69514,7 +69524,7 @@
               "valor": 78.96
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 79.8
             }
           ],
@@ -74767,7 +74777,7 @@
               "valor": 97.83
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 97.48
             }
           ],
@@ -80020,7 +80030,7 @@
               "valor": 186.95
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 193.92
             }
           ],
@@ -85293,7 +85303,7 @@
               "valor": 210.5
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 211.41
             }
           ],
@@ -90566,7 +90576,7 @@
               "valor": 735.64
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 730.76
             }
           ],
@@ -95839,7 +95849,7 @@
               "valor": 427.86
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 426.7
             }
           ],
@@ -101092,7 +101102,7 @@
               "valor": 148.57
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 141.97
             }
           ],
@@ -106333,7 +106343,7 @@
               "valor": 95.37
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 89.85
             }
           ],
@@ -111494,7 +111504,7 @@
               "valor": 134.47
             },
             {
-              "fecha": "2026-10-16T20:00:00",
+              "fecha": "2026-10-16T21:00:00",
               "valor": 128.23
             }
           ],
@@ -116804,11 +116814,11 @@
       },
       "BRK.B": {
         "beta": -0.04,
-        "retorno_1a_pct": 8.86,
+        "retorno_1a_pct": 8.84,
         "mercado_1a_pct": 15.51,
         "esperado_capm_pct": 3.12,
-        "diferencia_pts": 5.75,
-        "volatilidad_pct": 14.53,
+        "diferencia_pts": 5.72,
+        "volatilidad_pct": 14.52,
         "desde": "2025-10-16",
         "hasta": "2026-10-16"
       },
@@ -117039,11 +117049,11 @@
           0.352,
           0.032,
           0.104,
-          0.014,
+          0.015,
           -0.227,
           0.225,
           0.112,
-          -0.1,
+          -0.099,
           -0.028,
           -0.031,
           0.156
@@ -117239,7 +117249,7 @@
         ],
         [
           0.746,
-          0.014,
+          0.015,
           0.04,
           -0.33,
           0.015,
@@ -117323,7 +117333,7 @@
         ],
         [
           0.298,
-          -0.1,
+          -0.099,
           0.083,
           -0.002,
           -0.04,
