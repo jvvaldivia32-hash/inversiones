@@ -1,12 +1,45 @@
 {
-  "generado": "2026-10-18T15:57:31.114860+00:00",
-  "errores": [],
+  "generado": "2026-10-18T18:16:28.728957+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Stocks head for a high-stakes showdown: Strong earnings vs. high borrowing costs",
+        "titulo_neutral": "Juicio sobre el ataque en un vuelo de flydubai",
         "resumen": "",
         "articulos": [
+          {
+            "titular": "Captain of flydubai plane describes blocking axe blows as co-pilot attacked",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/commodities-news/captain-of-flydubai-planedescribes-blocking-axe-blows-as-copilot-attacked-4956008",
+            "fecha": "2026-10-18T16:48:21+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Previsiones y resultados corporativos en el mercado de valores",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "These surprising stocks could be the biggest drivers of S&P 500 earnings growth",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=eb72bb29-19f0-4cb0-8ceb-1f46f6ace570&mod=mw_rss_bulletins",
+            "fecha": "2026-10-18T16:06:07+00:00"
+          },
           {
             "titular": "Stocks head for a high-stakes showdown: Strong earnings vs. high borrowing costs",
             "extracto": "",
@@ -15,18 +48,69 @@
             "lean": "centro-derecha",
             "url": "https://www.marketwatch.com/bulletins/redirect/go?g=41f1c92f-5846-45ae-bfb4-5fc926ee2cf9&mod=mw_rss_bulletins",
             "fecha": "2026-10-18T15:01:43+00:00"
+          },
+          {
+            "titular": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+            "fecha": "2026-10-18T14:35:04+00:00"
+          },
+          {
+            "titular": "It was a great week for the average stock, as market leadership shifts from tech",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=4d9d6c2a-d81b-42d8-ad16-e88388073b59&mod=mw_rss_bulletins",
+            "fecha": "2026-10-17T19:53:31+00:00"
+          },
+          {
+            "titular": "Why silver’s recent 50% drop from a record high is hinting an economic slowdown",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=e3d319f8-ccf9-4a8f-add9-0bfb0cd6b89f&mod=mw_rss_bulletins",
+            "fecha": "2026-10-17T18:21:05+00:00"
           }
         ],
         "leans_presentes": [
-          "centro-derecha"
+          "centro-derecha",
+          "centro"
         ],
         "grupos_presentes": [
-          "MarketWatch"
+          "MarketWatch",
+          "Investing.com"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Declaraciones de Donald Trump sobre las elecciones en Israel",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+            "fecha": "2026-10-18T15:50:56+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
+        "titulo_neutral": "Proyecciones sobre las elecciones de mitad de mandato en Estados Unidos",
         "resumen": "",
         "articulos": [
           {
@@ -48,52 +132,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "JPMorgan raises ICICI Bank stock price target on strong earnings",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "JPMorgan raises ICICI Bank stock price target on strong earnings",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
-            "fecha": "2026-10-18T14:35:04+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-            "fecha": "2026-10-18T14:00:30+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Sudan army accused of drone strike on livestock market",
-        "resumen": "El ejército de Sudán aseguró haber bombardeado bases de las Fuerzas de Apoyo Rápido en el sur de Darfur. Sin embargo, las propias fuerzas paramilitares denunciaron que el ataque alcanzó un concurrido mercado de ganado.",
+        "titulo_neutral": "Acusación de ataque con dron en Sudán",
+        "resumen": "El ejército sudanés anunció haber bombardeado instalaciones de las Fuerzas de Apoyo Rápido en Darfur del Sur. Sin embargo, las milicias rivales denunciaron que el ataque real impactó contra un concurrido mercado ganadero de la zona. Este episodio refleja la gravedad del conflicto armado y la disputa sobre las víctimas civiles.",
         "articulos": [
           {
             "titular": "Sudan army accused of drone strike on livestock market",
@@ -114,30 +154,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Spyre presents clinical data on IBD antibody therapies",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Spyre presents clinical data on IBD antibody therapies",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
-            "fecha": "2026-10-18T13:36:36+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
-        "resumen": "El incremento en el tráfico de sustancias ilícitas desde Israel hacia Jordania mediante el uso de drones y globos ha generado sospechas. Esta situación ha provocado acusaciones de complicidad contra los guardias fronterizos de la zona.",
+        "titulo_neutral": "Actividad de narcotráfico en la frontera entre Jordania e Israel",
+        "resumen": "Un incremento notable en el tráfico ilegal de drogas desde Israel hacia territorio jordano mediante el uso de aeronaves no tripuladas y globos ha generado gran preocupación. La situación ha provocado duras recriminaciones y sospechas de que los guardias fronterizos estarían colaborando con los traficantes. Este fenómeno pone en evidencia las nuevas tácticas del crimen organizado en la región.",
         "articulos": [
           {
             "titular": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
@@ -158,8 +176,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Vietnam signs free-trade pact with European countries including Norway, Switzerland - Reuters",
-        "resumen": "Vietnam ha suscrito un acuerdo de libre comercio con varias naciones europeas, entre las que se encuentran Noruega y Suiza. Este pacto busca fortalecer los lazos comerciales bilaterales entre ambas regiones.",
+        "titulo_neutral": "Firma de acuerdo de libre comercio entre Vietnam y países europeos",
+        "resumen": "Vietnam ha formalizado un acuerdo de libre comercio con varias naciones europeas, entre las que se encuentran Noruega y Suiza. Esta alianza comercial busca potenciar los intercambios económicos y fortalecer las relaciones bilaterales entre ambas regiones. La medida representa un paso importante para la expansión de los mercados vietnamitas en Europa.",
         "articulos": [
           {
             "titular": "Vietnam signs free-trade pact with European countries including Norway, Switzerland - Reuters",
@@ -178,21 +196,61 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Negociaciones comerciales entre Estados Unidos y China",
+        "resumen": "Líderes políticos y económicos internacionales negocian diversas cuestiones comerciales y de seguridad global. Entre los temas destacados figuran las conversaciones entre Estados Unidos y China para prorrogar su tregua arancelaria, además del encarecimiento histórico en el transporte marítimo de petróleo. Asimismo, se discuten inversiones estratégicas y la regulación tecnológica a nivel internacional.",
+        "articulos": [
+          {
+            "titular": "Will Trump and Xi extend their trade truce?",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/will-trump-and-xi-extend-their-trade-truce",
+            "fecha": "2026-09-23T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Conmemoración del séptimo aniversario del estallido social en Chile",
-        "resumen": "A siete años del estallido social en Chile, diversas agrupaciones y figuras políticas recordaron la fecha con marchas y balances sobre las demandas de 2019. Mientras algunos sectores debatieron sobre la responsabilidad en los procesos constitucionales fallidos, también se recordaron anécdotas particulares de las protestas.",
+        "titulo_neutral": "Manifestaciones y conmemoración del aniversario del estallido social",
+        "resumen": "A siete años del estallido social, la conmemoración en Santiago incluyó actividades pacíficas y posteriores disturbios que motivaron el cierre temporal de estaciones del metro. Diversas figuras políticas aprovecharon la fecha para debatir sobre las demandas pendientes, la seguridad y la gestión del gobierno actual.",
         "articulos": [
           {
-            "titular": "Comienzan a llegar a Plaza Baquedano y Ahumada manifestantes para conmemoración del séptimo aniversario del estallido social",
+            "titular": "Se registran los primeros incidentes violentos en manifestaciones por la conmemoración del séptimo aniversario del estallido social",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/economia-y-politica/pais/comienzan-a-llegar-a-plaza-baquedano-y-ahumada-manifestantes-para",
-            "fecha": "2026-10-18T15:52:27+00:00"
+            "fecha": "2026-10-18T18:08:09+00:00"
+          },
+          {
+            "titular": "Más de tres mil carabineros desplegados, bailes performativos, enfretamientos y la presencia de Daniel Jadue: así se vive el primer 18-O bajo el gobierno de Kast",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/10/18/mas-de-tres-mil-carabineros-desplegados-bailes-performativos-enfretamientos-y-la-presencia-de-daniel-jadue-asi-se-vive-el-primer-18-o-bajo-el-gobierno-de-kast/",
+            "fecha": "2026-10-18T17:58:31+00:00"
+          },
+          {
+            "titular": "Enfrentamientos con Carabineros, cierre de estaciones de metro y desvíos en manifestaciones por 7 años del estallido",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/nacional/incidentes-manifestaciones-18-octubre/",
+            "fecha": "2026-10-18T17:03:45+00:00"
           },
           {
             "titular": "Criteria: A siete años, 59% cree que el estallido social fue negativo para el país (Lea aquí la encuesta)",
@@ -211,6 +269,15 @@
             "lean": "no aplica",
             "url": "https://www.theclinic.cl/2026/10/18/el-dia-que-una-pareja-se-caso-en-el-jardin-de-la-resistencia-los-detalles-del-inusual-matrimonio-en-un-lugar-que-ya-no-existe-de-plaza-italia/",
             "fecha": "2026-10-18T14:26:17+00:00"
+          },
+          {
+            "titular": "Johannes Kaiser presiona a Kast por indultos a carabineros del 18-O: “Respáldelo, patrocínelo, es lo menos que se merecen”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/10/18/johannes-kaiser-presiona-a-kast-por-indultos-a-carabineros-del-18-o-respaldelo-patrocinelo-es-lo-menos-que-se-merecen/",
+            "fecha": "2026-10-18T12:49:16+00:00"
           },
           {
             "titular": "Jaime Bassa, a siete años del 18-O: “Algo hicimos bien durante todo ese período: pusimos la oligarquía contra la pared”",
@@ -241,8 +308,74 @@
         "cobertura_unilateral": false
       },
       {
+        "titulo_neutral": "La competitiva (e inédita) carrera por la presidencia de la CPC",
+        "resumen": "A pocos meses de que el sector empresarial decida quién liderará la Confederación de la Producción y del Comercio (CPC), ya se han inscrito tres candidatos oficiales. En los próximos días se sabrá si se suma un cuarto aspirante a la presidencia.",
+        "articulos": [
+          {
+            "titular": "La competitiva (e inédita) carrera por la presidencia de la CPC",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-mas/por-dentro/la-competitiva-e-inedita-carrera-por-la-presidencia-de-la-cpc",
+            "fecha": "2026-10-18T17:55:15+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El Presidente Trump respalda la reelección del primer ministro Benjamin Netanyahu como líder del gobierno israelí",
+        "resumen": "El presidente de Estados Unidos brindó un respaldo de última hora a las autoridades israelíes de cara a los comicios del 27 de octubre. Este apoyo llega tras meses de dudas públicas y roces políticos con el primer ministro Benjamin Netanyahu.",
+        "articulos": [
+          {
+            "titular": "El Presidente Trump respalda la reelección del primer ministro Benjamin Netanyahu como líder del gobierno israelí",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/politica/el-presidente-trump-respalda-la-reeleccion-del-primer-ministro-benjamin",
+            "fecha": "2026-10-18T17:40:30+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Este domingo se retoman labores de rescate de última de las víctimas fallecidas en avalancha en sector de Portillo",
+        "resumen": "La Delegación Presidencial Provincial de Los Andes ordenó el cierre preventivo del paso fronterizo Sistema Integrado Cristo Redentor. La medida afecta a toda clase de vehículos ante las condiciones adversas de la ruta.",
+        "articulos": [
+          {
+            "titular": "Este domingo se retoman labores de rescate de última de las víctimas fallecidas en avalancha en sector de Portillo",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/pais/este-domingo-se-retoman-labores-de-rescate-de-ultima-de-las-victimas",
+            "fecha": "2026-10-18T17:12:25+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Gobierno declara Emergencia Climática Preventiva entre Coquimbo y Biobío hasta el 23 de octubre ante eventual llegada de nuevo frente de mal tiempo",
-        "resumen": "El Presidente chileno anunció medidas preventivas ante los pronósticos meteorológicos adversos informados por los organismos técnicos. Las alertas apuntan a la posible ocurrencia de lluvias intensas, granizadas y remociones en masa en las zonas afectadas.",
+        "resumen": "El presidente chileno anunció medidas preventivas ante las proyecciones meteorológicas que anticipan lluvias intensas y posibles riesgos de remociones en masa en el país. La decisión se fundamenta en los informes técnicos emitidos por Senapred.",
         "articulos": [
           {
             "titular": "Gobierno declara Emergencia Climática Preventiva entre Coquimbo y Biobío hasta el 23 de octubre ante eventual llegada de nuevo frente de mal tiempo",
@@ -264,7 +397,7 @@
       },
       {
         "titulo_neutral": "Trasfondo: Los números y la historia que dificultan una victoria de Lula en el balotaje de Brasil",
-        "resumen": "",
+        "resumen": "En la recta final hacia la segunda vuelta electoral, el mandatario brasileño introdujo una medida inesperada al ofrecer transporte público gratuito. Esta promesa de última hora busca captar votantes a solo una semana de los comicios.",
         "articulos": [
           {
             "titular": "Trasfondo: Los números y la historia que dificultan una victoria de Lula en el balotaje de Brasil",
@@ -286,7 +419,7 @@
       },
       {
         "titulo_neutral": "Protestas y violencia en Francia",
-        "resumen": "",
+        "resumen": "Las protestas estudiantiles en Francia alcanzaron su punto más tenso con un saldo elevado de arrestos y heridos. En este contexto, la líder derechista Marine Le Pen culpó al dirigente izquierdista Jean-Luc Mélenchon de fomentar la violencia.",
         "articulos": [
           {
             "titular": "[Fotos y videos] Las impresionantes imágenes que ha dejado el estallido de violencia del fin de semana en Francia",
@@ -318,7 +451,7 @@
       },
       {
         "titulo_neutral": "La trastienda del enojo de Alessandri con Poduje por tratar de “payasos” a parlamentarios y su intento de enviar una carta de protesta",
-        "resumen": "El presidente de la Cámara de Diputados propuso enviar una carta de protesta al ministro de Vivienda tras calificar este último a los parlamentarios de irresponsables. La iniciativa generó divisiones al interior de los partidos oficialistas y de oposición.",
+        "resumen": "El presidente de la Cámara Baja intentó promover una carta de protesta contra el ministro de Vivienda tras calificar este último a los parlamentarios de irresponsables. La iniciativa generó divisiones y resistencia dentro de partidos oficialistas y de derecha.",
         "articulos": [
           {
             "titular": "La trastienda del enojo de Alessandri con Poduje por tratar de “payasos” a parlamentarios y su intento de enviar una carta de protesta",
@@ -337,104 +470,38 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Presidente del Banco Central de China apoya mayor supervisión por parte de FMI de riesgos fiscales y de contagio",
-        "resumen": "La directora gerente del Fondo Monetario Internacional sugirió que la economía china necesita una transformación estructural profunda. Según el organismo, es fundamental que el país asiático impulse su mercado interno en lugar de depender exclusivamente de las exportaciones.",
-        "articulos": [
-          {
-            "titular": "Presidente del Banco Central de China apoya mayor supervisión por parte de FMI de riesgos fiscales y de contagio",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/economia/presidente-del-banco-central-de-china-apoya-mayor-supervision-por-parte-de",
-            "fecha": "2026-10-18T14:09:27+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Este domingo se retoman labores de rescate de última de las víctimas fallecidas en avalancha en sector de Portillo",
-        "resumen": "Las autoridades provinciales de Los Andes decretaron la suspensión temporal y preventiva del tránsito internacional en el Sistema Integrado Cristo Redentor. La medida afecta a todo tipo de vehículos debido a condiciones que impiden un cruce seguro por la cordillera.",
-        "articulos": [
-          {
-            "titular": "Este domingo se retoman labores de rescate de última de las víctimas fallecidas en avalancha en sector de Portillo",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/pais/este-domingo-se-retoman-labores-de-rescate-de-ultima-de-las-victimas",
-            "fecha": "2026-10-18T14:00:39+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Los swaps, el efecto “manada”, el riesgo sistémico, las responsabilidades: la semana negra del fondo E",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Los swaps, el efecto “manada”, el riesgo sistémico, las responsabilidades: la semana negra del fondo E",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-mas/por-dentro/los-swaps-el-efecto-manada-el-riesgo-sistemico-las-responsabilidades",
-            "fecha": "2026-10-18T13:27:20+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-10-18T15:46:10+00:00"
-      },
-      {
-        "titular": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
+        "titular": "Trump says Washington golf course renovation to start in November, despite judge's order - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
-        "fecha": "2026-10-18T15:44:58+00:00"
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUFpZWVRek1jNGw1WFA1bS1pUTFYQ3U5NW96R2poMzJRVkJsRXZ6RjJIaTJ2OUc1eUdwN0tLQVZEQ0JhYWw3NWRLcllNejN4M3A2N2FXRjBCNDhoWkk3NFNTTGQtOHBiTG45WWE3eUJMT2dOTHV1ZFhHVmRwazV4bkdUWWhUaVE3RVVXRFJRcUF3aDVObmFKMGZpelhQOWJQcXo0QW52djBNLTB0Mk5hczNLTjNIYUY4ZTlUcW5XbjJ6aUw3M2NSN2VfV1FHUQ?oc=5",
+        "fecha": "2026-10-18T17:50:09+00:00"
       },
       {
-        "titular": "Photos: Antigovernment protesters clash with police in Albania’s capital",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-antigovernment-protesters-clash-with-police-in-albanias-capital?traffic_source=rss",
-        "fecha": "2026-10-18T15:30:44+00:00"
-      },
-      {
-        "titular": "Manchester United held at Leeds despite improved performance for Carrick",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/18/manchester-united-held-at-leeds-despite-improved-performance-under-carrick?traffic_source=rss",
-        "fecha": "2026-10-18T15:28:30+00:00"
-      },
-      {
-        "titular": "Zelenskiy says he spoke to US envoys Witkoff, Kushner - Reuters",
+        "titular": "Milan police clash with protesters on second day of unrest - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUZwZGVuV0Y5UUEteEtVeE56ME9lNmZYQmFtMFYxcmFRZzFQQld3REF3ZWZ3a1hERUhyWkJhN3RPbFdYOEcxRUpsZkI5dFRsbkJPVDhuYUFKYVp5ZElxR2J1Q2x1T1VYTjY5REhzbHlSUHZkUDN4QWZmbzV3cjAyLWVMZG5kWkttUk1vcnY5MmlpcWwzMnpPa3JIMXdCdkVldXlWYzJ2enhsUi1O?oc=5",
-        "fecha": "2026-10-18T15:23:35+00:00"
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNem5RVUNnUFN4V1Q4aUVmQ2NwbmZsZ19HR0h6VURQNkd4OG45OFVyclZwNTdtZnVqczdTRWhxOXVvMjJPWno3ckxFS3NUOGxsRXA1bF9lNl9ELUpJNUVhT19BZVkwbW0tUWVKLURsOElEWVpGaUZ3ejZnbjlPR0NmeG5VWnNITE5TUU1qZmhiMU40LTNXN1dEbXFB?oc=5",
+        "fecha": "2026-10-18T17:33:33+00:00"
+      },
+      {
+        "titular": "Residents recount drone strikes in Ethiopia’s northern Tigray region",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/residents-recount-drone-strikes-in-ethiopias-northern-tigray-region?traffic_source=rss",
+        "fecha": "2026-10-18T17:20:20+00:00"
+      },
+      {
+        "titular": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
+        "fecha": "2026-10-18T17:19:48+00:00"
+      },
+      {
+        "titular": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2JXcTFReXJpR0UyNGM1UVFfMTVMRlJHbGpmRlh2Wk1HQ3ZQZ0Q0YUNadThFXy1IcTZXdHJMOGxNU0FqM1NTQkVaOHpOX2NaWGNMTXJaRzJnYUVmald2UmVvTExRVVdqajR0ZmVBNE8tVHhkMXFhQ3FQQmhUVGdEMmUwcXA3RHFPN2ZUOTZ6SzBqNVlpQkZGSnlOb3FjV0gyT1JIUzEtYnBwbjBySGlVcjRUaHJnN3dDb2hRMW8zbExBZw?oc=5",
+        "fecha": "2026-10-18T17:19:02+00:00"
       }
     ]
   },
@@ -446,10 +513,6 @@
       "var_dia_pct": -2.5708,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-18T16:00:00",
-            "valor": 248.42
-          },
           {
             "fecha": "2026-09-18T19:00:00",
             "valor": 249.32
@@ -1340,6 +1403,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 245.2
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 245.2
           }
         ],
@@ -6759,7 +6826,7 @@
       "noticias": [
         {
           "titular": "Salesforce (CRM) Is ‘Sticky’ In The AI Era, Jim Cramer Said & Remarked That Amateurs Can Beat Adobe",
-          "extracto": "El presentador de televisión Jim Cramer analiza habitualmente a Salesforce y Adobe en el contexto de la inteligencia artificial, defendiendo en particular las iniciativas lideradas por el director ejecutivo de Salesforce, Marc Benioff.",
+          "extracto": "El presentador financiero Jim Cramer analiza con frecuencia a Salesforce y Adobe en el contexto de la inteligencia artificial. Sus comentarios suelen respaldar los proyectos tecnológicos del director ejecutivo de Salesforce, Marc Benioff.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6768,7 +6835,7 @@
         },
         {
           "titular": "Adobe Systems (ADBE) Registers a Bigger Fall Than the Market: Important Facts to Note",
-          "extracto": "Las acciones de Adobe Systems experimentaron una caída del 2,46% al cierre de la última sesión bursátil, situándose en 245,48 dólares.",
+          "extracto": "Las acciones de Adobe Systems registraron una caída del 2,46% al cierre de la última sesión bursátil, situándose en 245,48 dólares. Este movimiento refleja la fluctuación diaria habitual en el valor de mercado de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6777,7 +6844,7 @@
         },
         {
           "titular": "CORRECTING and REPLACING Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
-          "extracto": "Se ha emitido una corrección en una nota de prensa sobre las compras tempranas de temporada para aclarar que una tradición anual específica se estableció en 2022 en lugar de 2021.",
+          "extracto": "Se emitió una corrección formal a un comunicado de prensa anterior sobre las compras prenavideñas de octubre. El cambio aclara que una tradición anual específica comenzó en 2022 en lugar de 2021.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6786,7 +6853,7 @@
         },
         {
           "titular": "Is Adobe A Better Way Than Salesforce To Own AI Software Growth?",
-          "extracto": "Aunque tanto Salesforce como Adobe confían en la inteligencia artificial para impulsar sus suscripciones, adoptan estrategias comerciales distintas; mientras Salesforce prioriza las tarifas elevadas en sus ediciones prémium, Adobe prefiere mantener precios accesibles para captar más usuarios.",
+          "extracto": "Los inversores compran acciones de Salesforce y Adobe apostando a que la inteligencia artificial impulsará sus ventas de software por suscripción. Sin embargo, ambas empresas difieren en su estrategia comercial: Salesforce prioriza los aumentos de precios en ediciones prémium, mientras que Adobe los evita para captar más usuarios.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6795,7 +6862,7 @@
         },
         {
           "titular": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave",
-          "extracto": "Varias empresas globales, entre ellas Adobe, han anunciado alianzas estratégicas más estrechas con Nvidia para integrar sus tecnologías de inteligencia artificial en diversos procesos industriales, creativos y financieros.",
+          "extracto": "Varias compañías globales, entre ellas Adobe, han anunciado alianzas estratégicas más estrechas con NVIDIA para integrar su tecnología de inteligencia artificial en diversos sectores. Estos acuerdos buscan incorporar procesadores y modelos avanzados en procesos creativos, científicos y financieros cotidianos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7306,10 +7373,6 @@
       "var_dia_pct": 1.2061,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-18T16:00:00",
-            "valor": 508.23
-          },
           {
             "fecha": "2026-09-18T19:00:00",
             "valor": 510.31
@@ -8188,6 +8251,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 532.02
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 532.02
           }
         ],
@@ -13891,7 +13958,7 @@
       "noticias": [
         {
           "titular": "Berkshire Hathaway (BRK.B) After Buffett: Can Its Capital Allocation Machine Keep Compounding?",
-          "extracto": "Las acciones de Berkshire Hathaway registraron una rentabilidad del 10.56% en el semestre finalizado en octubre, un rendimiento inferior al de los principales índices de mercado. Esta corporación destaca por poseer una amplia red de negocios operativos más allá de la cartera de inversiones de Warren Buffett.",
+          "extracto": "A mediados de octubre, el rendimiento semestral de Berkshire Hathaway se situó en el 10,56 %, quedando por debajo de los índices de referencia generales del mercado. El conglomerado se caracteriza por operar como un grupo diversificado de empresas más allá de la cartera de inversión de Warren Buffett.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13900,7 +13967,7 @@
         },
         {
           "titular": "Berkshire Hathaway CEO Greg Abel Leads Huge Investment In Bending Spoons",
-          "extracto": "Los datos bursátiles recientes indican que los títulos de Berkshire Hathaway experimentaron una variación positiva del 12% durante el último semestre.",
+          "extracto": "Las acciones de Berkshire Hathaway registraron una variación positiva del 12 % durante el periodo de los últimos seis meses.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13909,7 +13976,7 @@
         },
         {
           "titular": "Warren Buffett Says He Has \"Never Felt Better\" About Berkshire Hathaway's Future as He Steps Down as Chairman at 96",
-          "extracto": "Warren Buffett diseñó la estructura corporativa de su empresa con el objetivo de garantizar su durabilidad a largo plazo y estableció una planificación rigurosa para la transición de liderazgo.",
+          "extracto": "Warren Buffett diseñó su corporación con una perspectiva de estabilidad a largo plazo y estableció una estrategia detallada para asegurar una transición ordenada en su liderazgo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13918,7 +13985,7 @@
         },
         {
           "titular": "Greg Abel Made Major Additions to Alphabet and Delta Last Quarter While Berkshire Bought Back $4.4 Billion of Its Own Stock. Is This a Buying Signal Investors Should Watch?",
-          "extracto": "El nuevo máximo ejecutivo de Berkshire Hathaway ha comenzado a desplegar las reservas de efectivo acumuladas por la organización en diversas iniciativas.",
+          "extracto": "El nuevo director ejecutivo de Berkshire ha comenzado a implementar estrategias para invertir y movilizar las reservas de efectivo disponibles de la corporación.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13927,7 +13994,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Puts $930 Million Into Tech And Expands Its Playbook",
-          "extracto": "Berkshire Hathaway invirtió aproximadamente 930 millones de dólares en la compañía tecnológica italiana Bending Spoons. Esta operación representa una excepción en la estrategia tradicional del conglomerado, enfocada históricamente en empresas maduras y de valor.",
+          "extracto": "Berkshire Hathaway destinó aproximadamente 930 millones de dólares para adquirir una participación en la empresa tecnológica italiana Bending Spoons. Esta inversión representa un cambio notable respecto a la estrategia tradicional del conglomerado de apostar principalmente por empresas maduras y consolidadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14785,6 +14852,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 9.31
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 9.31
           }
         ],
@@ -20317,7 +20388,7 @@
         },
         {
           "titular": "UK to ‘act in lockstep’ with EU over China car tariffs, says minister",
-          "extracto": "El ministro de Comercio británico, Anas Sarwar, ha insinuado que el Reino Unido podría acceder a las demandas de la Unión Europea de imponer aranceles a los vehículos eléctricos de fabricación china. Esta medida alinearía las políticas comerciales de ambas regiones frente a la creciente competencia asiática.",
+          "extracto": "El ministro de comercio británico, Anas Sarwar, indicó que el Reino Unido podría aceptar las exigencias de la Unión Europea de imponer aranceles a los vehículos eléctricos fabricados en China. Esta medida busca alinear las políticas comerciales británicas con las normativas europeas en el sector automotriz.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20326,7 +20397,7 @@
         },
         {
           "titular": "Europeans Bought More EVs Than Ever Last Month",
-          "extracto": "El modelo Model Y de Tesla se mantiene como el automóvil eléctrico más vendido en el mercado europeo. Este liderazgo consolida la posición dominante de la marca estadounidense frente a sus competidores en la región.",
+          "extracto": "El modelo Model Y de Tesla mantiene su liderazgo como el vehículo eléctrico más vendido en el mercado europeo. Este dominio continuo refleja la fuerte aceptación de los consumidores hacia este todoterreno eléctrico frente a la competencia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20335,7 +20406,7 @@
         },
         {
           "titular": "BYD Malaysia appoints Inokom for CKD vehicle assembly",
-          "extracto": "Una empresa de vehículos eléctricos seleccionó a la compañía Inokom para su producción tras evaluar las condiciones del mercado local y la capacidad de manufactura. Dicha alianza busca optimizar la distribución y la fabricación en la zona.",
+          "extracto": "Una empresa de vehículos eléctricos seleccionó a Inokom como socio tras evaluar las condiciones del mercado local y la capacidad de producción en el país. Esta decisión estratégico busca optimizar la cadena de suministro y la manufactura regional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20360,10 +20431,6 @@
       "var_dia_pct": 0.1938,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-18T16:00:00",
-            "valor": 249.59
-          },
           {
             "fecha": "2026-09-18T19:00:00",
             "valor": 249.7
@@ -21242,6 +21309,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 242.97
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 242.97
           }
         ],
@@ -26963,7 +27034,7 @@
         },
         {
           "titular": "Why Speculators May Want Another Crack at McDonald’s (MCD) a163% Options Payout",
-          "extracto": "Aunque las acciones de McDonald's han generado dudas entre los inversores contrarios, el próximo informe de resultados podría revitalizar el interés en el valor. Este reporte financiero es clave para evaluar si la empresa puede mejorar su desempeño bursátil reciente.",
+          "extracto": "A pesar de haber sido una opción decepcionante para los inversores contrarios, los próximos resultados financieros de McDonald's podrían revitalizar el interés en sus acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26972,7 +27043,7 @@
         },
         {
           "titular": "McDonald's Corporation (MCD) Is a Trending Stock: Facts to Know Before Betting on It",
-          "extracto": "Las acciones de McDonald's han captado recientemente un alto nivel de atención por parte de los usuarios de la plataforma Zacks.com. Esta situación motiva un análisis más detallado sobre las perspectivas financieras y operativas de la cadena de comida rápida.",
+          "extracto": "Las acciones de McDonald's han generado un gran interés entre los usuarios de la plataforma Zacks.com, lo que motiva a analizar las perspectivas financieras de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -26981,7 +27052,7 @@
         },
         {
           "titular": "McDonald’s (MCD) Stock May Trade Near Fair Value Following Dividend Raise",
-          "extracto": "Los títulos de McDonald's han registrado una caída cercana al 20% en lo que va del año, a pesar de los aumentos en los dividendos y los cambios directivos en Estados Unidos. Esta situación obliga a los mercados a evaluar si la generación de efectivo de la empresa justifica su cotización actual.",
+          "extracto": "El valor de las acciones de McDonald's ha disminuido cerca de un 20% en lo que va del año, lo que genera dudas entre los inversores sobre si la generación actual de efectivo justifica la valoración de mercado actual a pesar de los aumentos en los dividendos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27534,10 +27605,6 @@
       "var_dia_pct": -1.9261,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-18T16:00:00",
-            "valor": 493.55
-          },
           {
             "fecha": "2026-09-18T19:00:00",
             "valor": 496.15
@@ -28428,6 +28495,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 529.05
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 529.05
           }
         ],
@@ -34131,7 +34202,7 @@
       "noticias": [
         {
           "titular": "Top 3 British Penny Stocks To Watch In October 2026",
-          "extracto": "Ante las dificultades de financiación en el sector tecnológico británico, se recomienda considerar acciones de empresas más pequeñas con finanzas sólidas para invertir en inteligencia artificial sin asumir deudas excesivas.",
+          "extracto": "Los inversores en el Reino Unido enfrentan obstáculos de financiación en el sector de la inteligencia artificial, lo que ha llevado a destacar tres empresas con finanzas sólidas y baja deuda como alternativas atractivas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34140,7 +34211,7 @@
         },
         {
           "titular": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
-          "extracto": "Microsoft decidió cancelar un proyecto de centro de datos en el Reino Unido junto a la empresa Nscale, lo que podría afectar los planes de esta última para salir a la bolsa.",
+          "extracto": "Microsoft se ha retirado de un acuerdo para construir un centro de datos en el Reino Unido con la empresa Nscale, lo que podría afectar los planes de salida a bolsa de la firma británica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34149,7 +34220,7 @@
         },
         {
           "titular": "Where Will Microsoft Stock Be in 2030?",
-          "extracto": "Analistas evalúan el valor real de una acción tras registrar un incremento del 22 % en sus ganancias, planteando escenarios donde el crecimiento futuro se reduzca al 13 %.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34158,7 +34229,7 @@
         },
         {
           "titular": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
-          "extracto": "La retirada de Microsoft de un importante acuerdo tecnológico con la startup británica Nscale genera incertidumbre sobre la inminente oferta pública de venta de la compañía afectada.",
+          "extracto": "La cancelación de un proyecto de infraestructura digital por parte de Microsoft con la startup Nscale complica las perspectivas de esta última para su cotización en bolsa, según informes de prensa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -35213,6 +35284,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 205.28
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 205.28
           }
         ],
@@ -40416,7 +40491,7 @@
       "noticias": [
         {
           "titular": "Why Take-Two Interactive (TTWO) Dipped More Than Broader Market Today",
-          "extracto": "Las acciones de Take-Two Interactive cerraron su última sesión bursátil cotizando a 205,18 dólares, lo que representó una variación al alza del 2,01% respecto al día anterior.",
+          "extracto": "Las acciones de Take-Two Interactive finalizaron su última jornada bursátil cotizando a 205,18 dólares, tras registrar una variación al alza del 2,01% respecto al cierre anterior.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40425,7 +40500,7 @@
         },
         {
           "titular": "TTWO Stock In Focus: Citi Says This Blockbuster Game Could Potentially Ease Concerns About Post-GTA VI Earnings Drop",
-          "extracto": "Según estimaciones de Citi basadas en declaraciones de Rockstar, el lanzamiento de una nueva entrega de la saga Red Dead podría producirse hacia finales de la década.",
+          "extracto": "Según declaraciones del director de publicaciones de Rockstar recogidas por Citi, la posible llegada de una nueva entrega de Red Dead para los años 2027 o 2028 se considera una estimación plausible.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40434,7 +40509,7 @@
         },
         {
           "titular": "Take Two Interactive (TTWO) Stock May Be Fully Priced As GTA VI Nears",
-          "extracto": "La reciente caída bursátil de Take-Two y la alta expectación por el próximo Grand Theft Auto VI han llevado a los inversores a analizar si la valoración actual de la compañía se sustenta en su flujo de caja.",
+          "extracto": "La cotización bursátil de Take-Two Interactive ha experimentado descensos recientes, lo que genera dudas entre los inversores sobre si el valor actual de mercado está respaldado de forma adecuada por la generación de efectivo de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40443,7 +40518,7 @@
         },
         {
           "titular": "Zacks Investment Ideas feature highlights: Take-Two Interactive",
-          "extracto": "El esperado estreno de GTA 6 y la alta demanda de sus franquicias principales podrían impulsar las reservas financieras de la empresa y reactivar el valor de sus acciones.",
+          "extracto": "El esperado lanzamiento de la nueva entrega de Grand Theft Auto podría revitalizar el valor en bolsa de la compañía, impulsado por una sólida demanda y un crecimiento estimado del 20% en las reservas para el año fiscal 2027.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40452,7 +40527,7 @@
         },
         {
           "titular": "Should You Be Worried About Take-Two Stock?",
-          "extracto": "A pesar de que el valor de mercado de Take-Two ha disminuido un 21% en el último año, la directiva proyecta un crecimiento del 20% en las reservas netas para el año fiscal 2027 impulsado por el lanzamiento de Grand Theft Auto VI.",
+          "extracto": "Las acciones de Take-Two han acumulado una caída del 21% en el último año, quedando rezagadas frente al mercado general, a pesar de que la empresa anticipa un repunte en las reservas gracias al debut de GTA VI.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -40949,10 +41024,6 @@
       "var_dia_pct": -1.1023,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-18T16:00:00",
-            "valor": 699.28
-          },
           {
             "fecha": "2026-09-18T19:00:00",
             "valor": 701.5
@@ -41831,6 +41902,10 @@
           },
           {
             "fecha": "2026-10-18T15:00:00",
+            "valor": 701.61
+          },
+          {
+            "fecha": "2026-10-18T18:00:00",
             "valor": 701.61
           }
         ],
@@ -47534,7 +47609,7 @@
       "noticias": [
         {
           "titular": "Could Investing $200 Per Month in VOO Make You a Millionaire? Here's What History Says.",
-          "extracto": "Pequeñas aportaciones periódicas logran acumular un capital significativo a largo plazo gracias al rendimiento compuesto. Este análisis financiero demuestra cómo el hábito del ahorro constante multiplica el dinero con los años.",
+          "extracto": "Demostrar cómo las aportaciones periódicas de bajo monto pueden generar un patrimonio considerable a largo plazo a través del interés compuesto. Este análisis ayuda a los inversores a visualizar el impacto del ahorro constante.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47543,7 +47618,7 @@
         },
         {
           "titular": "3 Reasons the Vanguard S&P 500 ETF Could Be Worth Holding for the Next 20 Years",
-          "extracto": "Invertir en el índice S&P 500 ofrece ventajas estratégicas que van más allá de la rentabilidad básica. Conocer estos beneficios ayuda a los inversores a optimizar la composición de su cartera.",
+          "extracto": "Explorar los beneficios menos evidentes de incluir este índice bursátil en una estrategia de inversión diversificada. Su análisis permite comprender el valor estratégico que aporta más allá de la rentabilidad básica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47552,7 +47627,7 @@
         },
         {
           "titular": "VOO, VTI, SPY, or IVV? How These 4 Index Funds Differ",
-          "extracto": "Cuatro fondos cotizados de gran tamaño aparentan ser idénticos, pero presentan diferencias sutiles en su estructura. Analizar los detalles operativos es clave para elegir la opción más adecuada.",
+          "extracto": "Comparar cuatro fondos cotizados de gran tamaño para destacar diferencias sutiles pero relevantes que los inversores suelen pasar por alto. Conocer estos matices ayuda a tomar decisiones más informadas según los objetivos financieros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47561,7 +47636,7 @@
         },
         {
           "titular": "VGT Returned 799.70% and VOO Returned 324.46% Over a Decade. Adding VUG Does Not Make It Diversified",
-          "extracto": "Tres fondos de Vanguard con denominaciones distintas comparten en realidad una alta concentración en las mismas grandes empresas tecnológicas. Esta coincidencia oculta genera una exposición al riesgo mayor de la que los inverso suele percibir.",
+          "extracto": "Señalar que varios fondos de Vanguard con denominaciones distintas comparten una alta concentración en las mismas grandes empresas tecnológicas. Esta coincidencia oculta incrementa los riesgos reales de la cartera sin que el inversor lo note.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47570,7 +47645,7 @@
         },
         {
           "titular": "USMV Cut the Worst Drawdown to 8.91%. On $300,000 That Protection Cost $131,460",
-          "extracto": "Optar por fondos de baja volatilidad parece una estrategia conservadora y segura para evitar sobresaltos. Sin embargo, este enfoque puede reducir la rentabilidad global a lo largo de varios años en comparación con opciones más dinámicas.",
+          "extracto": "Evaluar el costo real que implica priorizar fondos de menor volatilidad frente a opciones más dinámicas durante periodos prolongados y caídas puntuales del mercado. La comparación ayuda a sopesar la tranquilidad frente a la rentabilidad potencial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -47698,7 +47773,7 @@
               "valor": 131.49
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 131.49
             }
           ],
@@ -52971,7 +53046,7 @@
               "valor": 989.11
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 989.11
             }
           ],
@@ -58244,7 +58319,7 @@
               "valor": 118.81
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 118.81
             }
           ],
@@ -63449,10 +63524,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-09-18T16:00:00",
-              "valor": 248.42
-            },
-            {
               "fecha": "2026-09-18T19:00:00",
               "valor": 249.32
             },
@@ -64342,6 +64413,10 @@
             },
             {
               "fecha": "2026-10-18T15:00:00",
+              "valor": 245.2
+            },
+            {
+              "fecha": "2026-10-18T18:00:00",
               "valor": 245.2
             }
           ],
@@ -69830,7 +69905,7 @@
               "valor": 79.8
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 79.8
             }
           ],
@@ -75103,7 +75178,7 @@
               "valor": 97.48
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 97.48
             }
           ],
@@ -80376,7 +80451,7 @@
               "valor": 193.92
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 193.92
             }
           ],
@@ -85669,7 +85744,7 @@
               "valor": 211.41
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 211.41
             }
           ],
@@ -90962,7 +91037,7 @@
               "valor": 730.76
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 730.76
             }
           ],
@@ -96255,7 +96330,7 @@
               "valor": 426.7
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 426.7
             }
           ],
@@ -101528,7 +101603,7 @@
               "valor": 141.97
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 141.97
             }
           ],
@@ -106789,7 +106864,7 @@
               "valor": 89.85
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 89.85
             }
           ],
@@ -111970,7 +112045,7 @@
               "valor": 128.23
             },
             {
-              "fecha": "2026-10-18T15:00:00",
+              "fecha": "2026-10-18T18:00:00",
               "valor": 128.23
             }
           ],
