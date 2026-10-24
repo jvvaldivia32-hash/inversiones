@@ -1,12 +1,23 @@
 {
-  "generado": "2026-10-24T16:14:36.448018+00:00",
-  "errores": [],
+  "generado": "2026-10-24T19:00:15.205155+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Advertencia sobre los esfuerzos de Irán para atentar contra personal estadounidense",
+        "titulo_neutral": "Advertencia de inteligencia estadounidense sobre amenazas de Irán contra personal de EE. UU.",
         "resumen": "",
         "articulos": [
+          {
+            "titular": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+            "fecha": "2026-10-24T18:09:57+00:00"
+          },
           {
             "titular": "Iran has ramped up efforts to target US personnel, intelligence memo warns",
             "extracto": "",
@@ -26,7 +37,29 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Pfizer presenta datos de la fase 2 de su vacuna neumocócica",
+        "titulo_neutral": "Exodus Movement director Margaret Knight sells $955 in stock",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Exodus Movement director Margaret Knight sells $955 in stock",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/insider-trading-news/exodus-movement-director-margaret-knight-sells-955-in-stock-93CH-4970914",
+            "fecha": "2026-10-24T17:16:34+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Pfizer reports phase 2 data for 25-valent pneumococcal vaccine",
         "resumen": "",
         "articulos": [
           {
@@ -48,29 +81,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultados financieros del segundo trimestre de IDFC First Bank",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "IDFC First Bank Q2 FY27 slides: profit crosses Rs. 1,000 Cr milestone",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/idfc-first-bank-q2-fy27-slides-profit-crosses-rs-1000-cr-milestone-93CH-4970851",
-            "fecha": "2026-10-24T14:48:38+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Debate sobre la conciencia y los sentimientos en la inteligencia artificial",
+        "titulo_neutral": "Do machines have feelings? AI has many rethinking consciousness.",
         "resumen": "",
         "articulos": [
           {
@@ -92,30 +103,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Couche-Tard propone oferta por Cumberland Farms",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/couchetard-proposes-up-to-8-billion-offer-for-cumberland-farms-the-times-reports-4970845",
-            "fecha": "2026-10-24T14:30:26+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Crecimiento de fondos cotizados temáticos sobre inteligencia artificial",
-        "resumen": "",
+        "titulo_neutral": "AI fever ignites a boom in thematic ETFs as fund managers hunt for next big hit",
+        "resumen": "Las medidas del secretario del Tesoro estadounidense en el mercado de bonos no han dado los frutos esperados, generando expectativas sobre las próximas decisiones de política monetaria. En el ámbito geopolítico, Rusia atacó una infraestructura ferroviaria en Ucrania justo después del paso de dignatarios extranjeros. Además, la oposición ciudadana logró frenar la construcción de un centro de datos en suelo virginiano.",
         "articulos": [
           {
             "titular": "AI fever ignites a boom in thematic ETFs as fund managers hunt for next big hit",
@@ -136,8 +125,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Demandas de los inversores hacia la Reserva Federal",
-        "resumen": "",
+        "titulo_neutral": "Expectativas y aumentos de las tasas de interés por parte de la Reserva Federal",
+        "resumen": "La Reserva Federal ha implementado una subida de tipos por primera vez desde 2023, desafiando las presiones políticas. Paralelamente, la Unión Europea ha solicitado a China límites voluntarios en la salida de vehículos híbridos para evitar tensiones comerciales. Estas decisiones ocurren en un escenario internacional marcado por la transformación radical de los conflictos bélicos a causa de la inteligencia artificial.",
         "articulos": [
           {
             "titular": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
@@ -147,19 +136,39 @@
             "lean": "centro-derecha",
             "url": "https://www.marketwatch.com/bulletins/redirect/go?g=6bdb0d14-3084-40cf-b20e-075bd0b29ed3&mod=mw_rss_bulletins",
             "fecha": "2026-10-24T13:17:24+00:00"
+          },
+          {
+            "titular": "Fed interest rate rises are back",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-interest-rate-rises-are-back",
+            "fecha": "2026-09-17T04:00:00+00:00"
+          },
+          {
+            "titular": "Fed and BoJ expect rate hikes as US bond market flails",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/fed-and-boj-expect-rate-hikes-as-us-bond-market-flails",
+            "fecha": "2026-09-14T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
-          "centro-derecha"
+          "centro-derecha",
+          "centro"
         ],
         "grupos_presentes": [
-          "MarketWatch"
+          "MarketWatch",
+          "Financial Times"
         ],
-        "cobertura_unilateral": true
+        "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Kim Jong Un cruza a China para estrechar lazos comerciales",
-        "resumen": "El líder norcoreano, Kim Jong Un, cruzó hacia territorio chino a través de un nuevo puente. Este hecho ocurre en un momento en que ambas naciones buscan estrechar sus vínculos comerciales bilaterales. La visita marca un hito en la cooperación logística y económica entre ambos países vecinos.",
+        "titulo_neutral": "North Korea's Kim crosses new bridge into China as trade ties warm - Reuters",
+        "resumen": "El máximo dirigente norcoreano cruzó hacia territorio chino mediante una nueva infraestructura vial en un contexto de acercamiento comercial entre ambas naciones. Este paso fronterizo simboliza un fortalecimiento en los vínculos económicos bilaterales en medio de un inestable panorama regional.",
         "articulos": [
           {
             "titular": "North Korea's Kim crosses new bridge into China as trade ties warm - Reuters",
@@ -178,12 +187,100 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "resumen": "A partir de finales de octubre se aplicarán modificaciones arancelarias que reducirán cargas impositivas en maquinaria específica, mientras que otros productos como las alfombras verán incrementados sus gravámenes. Estos ajustes forman parte de una recalibración comercial destinada a influir en sectores clave.",
+        "articulos": [
+          {
+            "titular": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-10-24T00:36:47+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "BBC"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Artículos sobre fondos de pensiones y AFP",
-        "resumen": "El sistema previsional chileno enfrenta críticas y cuestionamientos hacia las administradoras de fondos de pensiones debido al fuerte deterioro del fondo E. Mientras expertos económicos y exautoridades debaten sobre las responsabilidades, el gobierno actual ha manifestado su respaldo a las sanciones aplicadas por el regulador. Esta situación ocurre en un contexto donde el aumento en la expectativa de vida pone a prueba la capacidad de las pensiones para garantizar ingresos adecuados durante la jubilación.",
+        "titulo_neutral": "Primeras imágenes de la grabación de “Poeta chileno”: Registran rodaje de la película de Sebastian Lelio en la librería Metales Pesados",
+        "resumen": "Comenzó oficialmente el rodaje de la adaptación cinematográfica de la novela 'Poeta chileno'. Las grabaciones de la película dirigida por Sebastián Lelio tuvieron como uno de sus escenarios principales a una conocida librería situada en el barrio Bellas Artes.",
+        "articulos": [
+          {
+            "titular": "Primeras imágenes de la grabación de “Poeta chileno”: Registran rodaje de la película de Sebastian Lelio en la librería Metales Pesados",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/10/24/primeras-imagenes-de-la-grabacion-de-poeta-chileno-registran-rodaje-de-la-pelicula-de-sebastian-lelio-en-la-libreria-metales-pesados/",
+            "fecha": "2026-10-24T17:46:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Cómo se gestó la llegada de The 50 Best Vineyards a Santiago, con Concha y Toro como anfitriona",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Cómo se gestó la llegada de The 50 Best Vineyards a Santiago, con Concha y Toro como anfitriona",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/negocios/the-50-best-vineyards-sera-en-santiago/",
+            "fecha": "2026-10-24T17:00:40+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "“Le está causando un profundo daño al Gobierno”: UDI emplaza a timonel de Republicanos por sus dichos contra exministro Larraín",
+        "resumen": "Surgieron tensiones políticas luego de que el líder del Partido Republicano criticara al exministro de Justicia por sus posturas pasadas. Desde la UDI calificaron los cuestionamientos como perjudiciales para la estabilidad y la imagen del Gobierno.",
+        "articulos": [
+          {
+            "titular": "“Le está causando un profundo daño al Gobierno”: UDI emplaza a timonel de Republicanos por sus dichos contra exministro Larraín",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/10/24/le-esta-causando-un-profundo-dano-al-gobierno-udi-emplaza-a-timonel-de-republicanos-por-sus-dichos-contra-exministro-larrain/",
+            "fecha": "2026-10-24T16:28:15+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Sin aliados, pero sin dar marcha atrás: el camino de las AFP hacia su crisis más solitaria",
+        "resumen": "El fondo de pensiones E atraviesa un momento financiero crítico en medio de cuestionamientos hacia la gestión de las administradoras. Paralelamente, la administración de Kast manifestó su respaldo a los procedimientos sancionatorios impulsados por el organismo regulador.",
         "articulos": [
           {
             "titular": "Sin aliados, pero sin dar marcha atrás: el camino de las AFP hacia su crisis más solitaria",
@@ -193,29 +290,19 @@
             "lean": "no aplica",
             "url": "http://www.df.cl/senal-df/senales-financieras/sin-aliados-pero-sin-dar-marcha-atras-el-camino-de-las-afp-hacia-su",
             "fecha": "2026-10-24T16:07:24+00:00"
-          },
-          {
-            "titular": "La falsa seguridad del Fondo F",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/opinion/la-falsa-seguridad-del-fondo-f-jorge-sabat/",
-            "fecha": "2026-10-24T11:12:27+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro",
-          "independiente"
+          "Claro"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Trasfondo: el diálogo entre Kast y el primer ministro británico en medio de ofensiva de Milei por Malvinas y roces con Chile",
-        "resumen": "El gobierno británico informó sobre una comunicación diplomática en un momento de mayor aproximación bilateral con Chile. Este acercamiento se produce luego de tensiones limítrofes recientes entre Santiago y Buenos Aires vinculadas a la zona austral.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Trasfondo: el diálogo entre Kast y el primer ministro británico en medio de ofensiva de Milei por Malvinas y roces con Chile",
@@ -237,7 +324,7 @@
       },
       {
         "titulo_neutral": "Alejandro Amon, el empresario detrás del éxito de la marca Blik que formó una banda con músicos de Lucybell y Los Tetas",
-        "resumen": "Luego de superar una etapa crítica que casi provoca la quiebra de la compañía, la empresa liderada por Alejandro Amon busca consolidar su presencia en el mercado nacional. El plan estratégico apunta ahora a la expansión del negocio hacia nuevos horizontes comerciales.",
+        "resumen": "Tras superar graves dificultades financieras que pusieron en riesgo su continuidad comercial, la marca Blik busca consolidar su presencia en el mercado nacional. Su fundador lidera ahora una estrategia orientada hacia la expansión de la empresa.",
         "articulos": [
           {
             "titular": "Alejandro Amon, el empresario detrás del éxito de la marca Blik que formó una banda con músicos de Lucybell y Los Tetas",
@@ -258,8 +345,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Artículos sobre la rebaja de condenas a agresores sexuales y protección de menores",
-        "resumen": "Una controversia política ha surgido en Chile tras revelarse medio centenar de reducciones de condena a agresores sexuales. Las críticas apuntan a la gestión del Ministerio de Justicia y la protección institucional de la infancia vulnerable. Diversos sectores señalan que estos fallos judiciales y el manejo político del asunto representan una falla grave en el sistema de resguardo a menores.",
+        "titulo_neutral": "Residencia de menores: todos sabemos lo que está pasando",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Residencia de menores: todos sabemos lo que está pasando",
@@ -269,43 +356,15 @@
             "lean": "no aplica",
             "url": "https://www.ex-ante.cl/opinion/residencia-menores-que-esta-pasando-wulf/",
             "fecha": "2026-10-24T14:48:59+00:00"
-          },
-          {
-            "titular": "El caso por violación que marcó el punto de quiebre en las rebajas de pena a agresores sexuales",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/rebajas-de-penas-la-derrota-de-justicia/",
-            "fecha": "2026-10-24T14:06:48+00:00"
-          },
-          {
-            "titular": "Podcast | Rebaja de condenas: ¿Chile cuida a los niños?",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/10/23/podcast-rebaja-de-condenas-chile-cuida-a-los-ninos/?utm_source=rss&utm_medium=rss&utm_campaign=podcast-rebaja-de-condenas-chile-cuida-a-los-ninos",
-            "fecha": "2026-10-24T01:38:48+00:00"
-          },
-          {
-            "titular": "Rebaja de condenas: ¿Chile cuida a los niños?",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/10/23/rebaja-de-condenas-chile-cuida-a-los-ninos/?utm_source=rss&utm_medium=rss&utm_campaign=rebaja-de-condenas-chile-cuida-a-los-ninos",
-            "fecha": "2026-10-24T01:36:07+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "independiente",
-          "sin fines de lucro"
+          "independiente"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Detención por ofensas a policías: una ley mordaza para la protesta y la prensa",
@@ -328,104 +387,38 @@
           "sin fines de lucro"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "MOP agiliza plan para pavimentar 244 kilómetros de la Carretera Austral y alista licitaciones por $153 mil millones",
-        "resumen": "Un amplio plan de infraestructura vial contempla la pavimentación de cientos de kilómetros en la Carretera Austral chilena. Además de mejorar la conectividad terrestre, la iniciativa institucional busca fortalecer la presencia y el control soberano del Estado en las regiones más australes del país.",
-        "articulos": [
-          {
-            "titular": "MOP agiliza plan para pavimentar 244 kilómetros de la Carretera Austral y alista licitaciones por $153 mil millones",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/negocios/mop-agiliza-plan-en-carretera-austral/",
-            "fecha": "2026-10-24T13:21:33+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Quién era Loro Coirón, el grabador francés que convirtió Valparaíso en su obra de vida y cuya muerte enluta a la ciudad",
-        "resumen": "El reconocido grabador francés Thierry Defert, conocido artísticamente como Loro Coirón, falleció a los 78 años de edad. Durante tres décadas, el artista adoptó al puerto de Valparaíso como su hogar y fuente de inspiración principal, retratando profusamente su arquitectura, calles y habitantes en una obra que marcó profundamente la identidad cultural de la ciudad.",
-        "articulos": [
-          {
-            "titular": "Quién era Loro Coirón, el grabador francés que convirtió Valparaíso en su obra de vida y cuya muerte enluta a la ciudad",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/10/24/quien-era-loro-coiron-el-grabador-frances-que-convirtio-valparaiso-en-su-obra-de-vida-y-cuya-muerte-enluta-a-la-ciudad/",
-            "fecha": "2026-10-24T12:57:33+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Quién es María Soledad Acevedo, la primera mujer que asciende a general en la historia del Ejército de Chile",
-        "resumen": "Con una trayectoria institucional de más de tres décadas, la ingeniera politécnica militar Acevedo asumirá la Dirección de Finanzas del Ejército. Su designación destaca por su larga experiencia al interior de las fuerzas armadas chilenas.",
-        "articulos": [
-          {
-            "titular": "Quién es María Soledad Acevedo, la primera mujer que asciende a general en la historia del Ejército de Chile",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/quien-maria-soledad-acevedo-general/",
-            "fecha": "2026-10-24T12:48:44+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-10-24T15:56:48+00:00"
+        "titular": "Violence flares in Paris after largely peaceful protests across France - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDZFRzVKWWJMOFp4eGNjbVdnZ1pCd3hVNTdMSWdiaU9uSGxZTi1zZW1DR3JvbjBfZTJIMnF3LVBMMXpWQjI0V1BfTWtFYUZkVWtXc0VmZEZyVWRHU3c3aHFwRm9fN0ZFMTRIaC16ZmhOeTFrRXBsdmpwWXVtRVVCd09ONkp3bFB5QWVRWjlBSmJqbHphYnBiLS0yaVZfRWpxdVAxSGRqYUI4YTBEX2pZeA?oc=5",
+        "fecha": "2026-10-24T18:34:05+00:00"
       },
       {
-        "titular": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
+        "titular": "Thousands gather at new Albanian antigovernment rally",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-        "fecha": "2026-10-24T15:50:49+00:00"
+        "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally?traffic_source=rss",
+        "fecha": "2026-10-24T18:30:56+00:00"
       },
       {
-        "titular": "🔴 French protests live: Police say 110,000 turn out for 'calm' Paris march amid reports of clashes in other cities",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-        "fecha": "2026-10-24T15:42:17+00:00"
+        "titular": "Protests sweep Italian cities amid heavy security presence, some violence reported - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkVjV19ld3VNNFRlLXZaOFh2aUhReW5lUXgyblRhTHJPWEM4bUg0QU5XeFVXd0tKelV5LVFhSGJKMndmNjg1aFJLcmtITDNjTVpFVFU3YUFtcGdSc3ZGTDQzMHJTN05nZldOVkM0WDZyS3Y1TF9RbUVtMFh5MENrajRfRFRlOTR6Vlc5MWV4aklwMi1ielVIUEVmelIzMkVKaDAyT09wWWs2NXU2QVJwNUp0bXM?oc=5",
+        "fecha": "2026-10-24T18:23:43+00:00"
       },
       {
-        "titular": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
+        "titular": "Flavio Bolsonaro, Lula about even ahead of Brazil election runoff, CNT/MDA poll shows - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOW9aaS1WT2hUWE5VTjd3U19BR0VxZ0xtUXd5QjQ5V3EzMkxsYWs2X0lHYm11TzU5YTY3RDQ2dGlnblllZklkV1AySElHOVF6a0RKZmNZZHpJMlVCaE82QjBXN1lHeFNFSGE4VlBjUGVwWlBSWkRQOTE0dzNRZ2NMQm9tWWRzN1FBaHhfbWVqcDl5Qkw5OW5wNlNDMEJjZXVmUkQ3NE5CSmdfci1IMkVVQktUdElSSEd2ZEs2VjRBQktYM3dXc2pvMmFR?oc=5",
+        "fecha": "2026-10-24T18:06:33+00:00"
+      },
+      {
+        "titular": "Kim Jong Un crosses new bridge linking North Korea and China",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
-        "fecha": "2026-10-24T15:36:38+00:00"
-      },
-      {
-        "titular": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-10-24T15:21:44+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
+        "fecha": "2026-10-24T18:00:20+00:00"
       }
     ]
   },
@@ -437,14 +430,6 @@
       "var_dia_pct": -2.4875,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-24T17:00:00",
-            "valor": 237.33
-          },
-          {
-            "fecha": "2026-09-24T19:00:00",
-            "valor": 237.86
-          },
           {
             "fecha": "2026-09-24T20:00:00",
             "valor": 238.93
@@ -1347,6 +1332,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 263.82
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 263.82
           }
         ],
@@ -6802,7 +6791,7 @@
       "noticias": [
         {
           "titular": "Adobe Systems (ADBE) Dips More Than Broader Market: What You Should Know",
-          "extracto": "Las acciones de Adobe Systems experimentaron una caída del 2,49% en su última sesión bursátil, cerrando en 263,82 dólares. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía tecnológica.",
+          "extracto": "En la última sesión bursátil, las acciones de Adobe Systems cerraron en 263,82 dólares, lo que representa una caída del 2,49 % respecto a la jornada anterior. Este descenso refleja la volatilidad reciente en el valor de mercado de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6811,7 +6800,7 @@
         },
         {
           "titular": "Adobe Stock Has Been Under Pressure. Here’s What Could Spark a Turnaround",
-          "extracto": "Los analistas de Wall Street se encuentran divididos respecto a Adobe debido a una marcada contradicción: la empresa supera consistentemente las expectativas de ganancias, pero su cotización bursátil continúa a la baja.",
+          "extracto": "La tendencia a la baja en el precio de las acciones de Adobe contrasta con su constante superación de las expectativas de beneficios. Esta discrepancia ha generado división entre los analistas de Wall Street, quienes mantienen proyecciones y valoraciones muy dispares para la empresa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6820,7 +6809,7 @@
         },
         {
           "titular": "Adobe vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
-          "extracto": "Se plantea un dilema de inversión entre crecimiento y valor al comparar la valoración de Adobe en múltiplos más bajos con la fuerte capacidad de generación de efectivo de Salesforce.",
+          "extracto": "Las valoraciones actuales sitúan a Adobe con múltiplos más bajos en comparación con Salesforce, que duplica su generación de flujo de caja libre. Esta situación plantea un debate financiero tradicional entre la inversión orientada al crecimiento y la basada en el valor.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6829,7 +6818,7 @@
         },
         {
           "titular": "Adobe vs. CrowdStrike: Which Technology Stock Is a Better Buy in 2026?",
-          "extracto": "Mientras Adobe registra entradas récord de efectivo pero enfrenta dudas bursátiles debido al avance de la inteligencia artificial, CrowdStrike se beneficia de la creciente demanda corporativa por proteger dicha infraestructura.",
+          "extracto": "A pesar de alcanzar cifras récord de liquidez, las acciones de Adobe enfrentan presión bajista debido a la incertidumbre que genera la inteligencia artificial en su modelo de negocio. En paralelo, CrowdStrike experimenta un rápido crecimiento impulsado por la alta demanda de seguridad para infraestructuras tecnológicas avanzadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6838,7 +6827,7 @@
         },
         {
           "titular": "'Big Short' Investor Michael Burry Bumps Up Substack Subscription Price, Flags 4 'Busted' Bear-Market Havens",
-          "extracto": "Las proyecciones indican que los ingresos anuales potenciales de la plataforma Substack de Burry podrían superar los 232 millones de dólares, duplicando las estimaciones calculadas pocos meses antes.",
+          "extracto": "Las proyecciones indican que los ingresos anuales potenciales de la plataforma Substack de Burry podrían ascender hasta los 232,2 millones de dólares. Esta nueva estimación duplica con creces las previsiones calculadas previamente en el mes de julio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7349,14 +7338,6 @@
       "var_dia_pct": -0.8739,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-24T17:00:00",
-            "valor": 507.23
-          },
-          {
-            "fecha": "2026-09-24T19:00:00",
-            "valor": 507.14
-          },
           {
             "fecha": "2026-09-24T20:00:00",
             "valor": 505.18
@@ -8247,6 +8228,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 542.19
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 542.19
           }
         ],
@@ -13986,7 +13971,7 @@
       "noticias": [
         {
           "titular": "What Could Berkshire Hathaway (BRK.B) Gain From An Early AI Funding Round?",
-          "extracto": "El conglomerado Berkshire Hathaway negocia su participación en una ronda inicial de inversión destinada a financiar el desarrollo de inteligencia artificial de Meta. Este posible acuerdo permitiría a Meta diversificar sus fuentes de financiación y sumar un respaldo institucional clave para sus proyectos tecnológicos.",
+          "extracto": "El conglomerado Berkshire Hathaway negocia su participación en una ronda de financiación inicial para las iniciativas de inteligencia artificial de Meta. Este posible acuerdo aportaría capital externo para respaldar el desarrollo tecnológico de la red social.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -13995,7 +13980,7 @@
         },
         {
           "titular": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
-          "extracto": "Un análisis bursátil reciente destaca el desempeño financiero y las perspectivas estratégicas de grandes corporaciones como Apple, Berkshire Hathaway y Goldman Sachs. El reporte examina los principales motores de crecimiento y los riesgos asociados a estas firmas.",
+          "extracto": "Un informe reciente sobre el mercado bursátil destaca el desempeño financiero y las perspectivas estratégicas de empresas destacadas como Apple, Goldman Sachs y Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14004,7 +13989,7 @@
         },
         {
           "titular": "Berkshire Stock Just Hit a Record High. Don’t Back Up the Truck at the Top.",
-          "extracto": "Las acciones de Berkshire Hathaway alcanzaron máximos históricos impulsadas por la gestión de Greg Abel, quien ha desplegado capital en adquisiciones estratégicas, recompra de títulos y nuevas inversiones. Esta estrategia refleja la continuidad operativa y el crecimiento financiero del conglomerado.",
+          "extracto": "Las acciones de Berkshire Hathaway alcanzaron un máximo histórico impulsadas por la gestión de Greg Abel, quien ha desplegado capital en adquisiciones, recompra de títulos y nuevas inversiones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14013,7 +13998,7 @@
         },
         {
           "titular": "Worried About a Stock Market Correction? Here's 1 Rock-Solid Stock to Consider.",
-          "extracto": "Diversos analistas señalan que Berkshire Hathaway posee la solidez financiera necesaria para mantener un rendimiento positivo durante periodos de contracción económica. Esto la posiciona como una de las pocas corporaciones capaces de resistir contextos adversos de mercado.",
+          "extracto": "Diversos análisis financieros posicionan a Berkshire Hathaway como una de las pocas corporaciones con la solidez necesaria para mantener un rendimiento positivo durante periodos de contracción económica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14022,7 +14007,7 @@
         },
         {
           "titular": "Egan-Jones Recommends Ethan Allen Shareholders Vote FOR All Five DGB Nominees",
-          "extracto": "La firma de asesoría Egan-Jones aconsejó a los accionistas de Ethan Allen votar a favor de los candidatos disidentes propuestos por DGB Investment en la próxima junta anual. La recomendación se fundamenta en principios históricos de gestión empresarial aplicados por Warren Buffett.",
+          "extracto": "La firma asesora Egan-Jones aconsejó a los inversores de Ethan Allen respaldar a los candidatos disidentes en la próxima junta anual. La recomendación se fundamenta en principios históricos de inversión aplicados por Warren Buffett.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15080,6 +15065,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 9.09
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 9.09
           }
         ],
@@ -20639,7 +20628,7 @@
       "noticias": [
         {
           "titular": "BYD (SEHK:1211) Stock Sees Modest Fair Value Cut As Analysts Weigh Growth And Risks",
-          "extracto": "La valoración justa de las acciones de BYD fue recortada ligeramente por los analistas debido a la división de opiniones sobre su expansión internacional y los riesgos regulatorios. A pesar de esto, algunos expertos consideran que los objetivos ajustados aún reflejan potencial de crecimiento.",
+          "extracto": "Analistas financieros ajustaron a la baja el valor estimado de las acciones de BYD, reflejando divisiones en el mercado entre perspectivas de expansión internacional y preocupaciones por regulaciones y rivalidad comercial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20648,7 +20637,7 @@
         },
         {
           "titular": "BYD Q3 deep dive: property investments offset Las Vegas destination softness",
-          "extracto": "Boyd Gaming reportó ingresos inferiores a lo previsto por los analistas durante el tercer trimestre de 2026, registrando una caída interanual del 1,4%. Sin embargo, la compañía superó las expectativas en cuanto a su beneficio por acción ajustado.",
+          "extracto": "La compañía de entretenimiento y hotelería Boyd Gaming reportó ingresos inferiores a lo previsto por los analistas durante el tercer trimestre de 2026, a pesar de superar las proyecciones de ganancias por acción.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20675,7 +20664,7 @@
         },
         {
           "titular": "Global Large Capacity Batteries Market: Size, Share, Trends and Forecast to 2031 Featuring Profiles of Tesla, LG Chem, Panasonic Corp., Samsung SDI Co., BYD Company and More",
-          "extracto": "Un nuevo informe pronostica que el mercado global de baterías de gran capacidad experimentará un fuerte crecimiento, pasando de 129 mil millones de dólares en 2025 a superar los 321 mil millones para 2031. Esta expansión estará impulsada principalmente por la integración de energías renovables y la modernización de las redes eléctricas.",
+          "extracto": "Un estudio de mercado proyecta que el sector global de baterías de gran capacidad experimentará un crecimiento significativo hasta 2031, impulsado principalmente por la adopción de energías renovables y la modernización de las redes eléctricas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20691,14 +20680,6 @@
       "var_dia_pct": -1.6506,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-24T17:00:00",
-            "valor": 239.71
-          },
-          {
-            "fecha": "2026-09-24T19:00:00",
-            "valor": 238.21
-          },
           {
             "fecha": "2026-09-24T20:00:00",
             "valor": 237.02
@@ -21589,6 +21570,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 248.46
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 248.46
           }
         ],
@@ -27328,7 +27313,7 @@
       "noticias": [
         {
           "titular": "McDonald's changes its discount strategy",
-          "extracto": "Los consumidores podrían mostrar descontento ante las estrategias de la cadena de comida rápida orientadas al valor en lugar de mantener sus productos más económicos. Este cambio podría afectar la percepción de accesibilidad de la marca entre su clientela habitual.",
+          "extracto": "Los consumidores podrían mostrar descontento ante las estrategias de la cadena de comida rápida orientadas al valor que perjudican sus productos más económicos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27337,7 +27322,7 @@
         },
         {
           "titular": "Why Is McDonald's (MCD) Challenging Tokenized Trading Of Its Shares?",
-          "extracto": "McDonald's y otras grandes corporaciones estadounidenses han presentado objeciones formales contra la comercialización de acciones tokenizadas en la plataforma OKX-ICE. Las empresas argumentan que estas réplicas digitales requieren el consentimiento del emisor para garantizar una adecuada supervisión regulatoria y protección a los inversores.",
+          "extracto": "Diversas grandes corporaciones estadounidenses, incluyendo a McDonald's, han rechazado formalmente que la plataforma OKX-ICE comercie con versiones tokenizadas de sus acciones sin su autorización. Esta oposición se fundamenta en la protección de los inversores y la necesidad de una supervisión regulatoria adecuada sobre estos activos digitales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27346,7 +27331,7 @@
         },
         {
           "titular": "McDonald's Has Lost a Fifth of Its Value in 2026. Is It Time to Buy?",
-          "extracto": "Las acciones de la cadena de restaurantes han experimentado una caída cercana al 28% respecto a su valor máximo histórico, ofreciendo actualmente un rendimiento por dividendo del 3%. Esta bajada refleja los desafíos financieros recientes que enfrenta la compañía en el mercado bursátil.",
+          "extracto": "Las acciones de la compañía de comida rápida han experimentado una caída cercana al 28% respecto a su valor máximo, ofreciendo actualmente una rentabilidad por dividendo del 3%.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27355,7 +27340,7 @@
         },
         {
           "titular": "McDonald's Q3 2026 Earnings: What to Expect",
-          "extracto": "La compañía de comida rápida tiene previsto anunciar sus resultados financieros del tercer trimestre durante el próximo mes. Los analistas del sector pronostican un incremento moderado de las ganancias de un solo dígito para dicho periodo.",
+          "extracto": "Los analistas financieros prevén un incremento moderado en los beneficios de McDonald's de cara al próximo informe trimestral que se publicará el próximo mes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27364,7 +27349,7 @@
         },
         {
           "titular": "Microsoft, Google parent and McDonald’s protest new trading plan",
-          "extracto": "Gigantes tecnológicos como Microsoft y Alphabet, matriz de Google, se han unido a McDonald's para manifestar su rechazo a la iniciativa de negociación de valores tokenizados impulsada por OKXICE TSV. La oposición conjunta busca frenar un modelo que genera inquietudes sobre la regulación de los activos corporativos en entornos digitales.",
+          "extracto": "Gigantes tecnológicos y empresariales como Microsoft, Alphabet y McDonald's se han unificado para manifestar su rechazo a la iniciativa de negociación de valores tokenizados impulsada por OKXICE TSV.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27917,14 +27902,6 @@
       "var_dia_pct": 0.6582,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-24T17:00:00",
-            "valor": 496.24
-          },
-          {
-            "fecha": "2026-09-24T19:00:00",
-            "valor": 497.58
-          },
           {
             "fecha": "2026-09-24T20:00:00",
             "valor": 497.93
@@ -28827,6 +28804,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 524.51
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 524.51
           }
         ],
@@ -34565,8 +34546,17 @@
       },
       "noticias": [
         {
+          "titular": "Chamath: “$0.70-75 of Every Dollar” of AI Spend Is VC Money. The Real Winners Are Already Publicly Traded",
+          "extracto": "El inversor Chamath Palihapitiya señala que una gran parte del capital invertido en inteligencia artificial proviene de fondos de riesgo y regresa a gigantes tecnológicos como Microsoft, Amazon y Alphabet. Estas grandes corporaciones están mejor preparadas que los laboratorios de IA para resistir una posible crisis del sector.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.tikr.com/blog/chamath-0-70-75-of-every-dollar-of-ai-spend-is-vc-money-the-real-winners-are-already-publicly-traded?ref=yahoofinance&.tsrc=rss",
+          "fecha": "2026-10-24T16:18:16+00:00"
+        },
+        {
           "titular": "Microsoft’s $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget?",
-          "extracto": "Microsoft enfrenta altas expectativas financieras al proyectar inversiones trimestrales superiores a los 50.000 millones de dólares, exigiendo un crecimiento acelerado de su plataforma Azure. Los próximos resultados trimestrales determinarán si esta estrategia de gasto resulta sostenible.",
+          "extracto": "Microsoft ha proyectado un gasto de capital trimestral superior a los 50.000 millones de dólares manteniendo sus márgenes operativos, lo que exige un crecimiento masivo de su plataforma Azure. Los próximos resultados financieros determinarán la viabilidad de estas cifras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34575,7 +34565,7 @@
         },
         {
           "titular": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
-          "extracto": "A pesar de que los principales índices bursátiles se encuentran por debajo de niveles clave, diversos títulos ajenos al sector de inteligencia artificial muestran señales de compra. Esta situación ocurre mientras los inversores vigilan de cerca el desempeño financiero de los gigantes tecnológicos.",
+          "extracto": "Los principales índices bursátiles se sitúan por debajo de niveles clave, mientras que numerosas acciones ajenas al sector de la inteligencia artificial muestran señales atractivas de compra. A pesar de esto, la influencia de gigantes como Microsoft, Google y Amazon sigue dominando el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34584,7 +34574,7 @@
         },
         {
           "titular": "Microsoft Stock And 2 Other Best Defensive Stocks",
-          "extracto": "La creciente deuda entre los operadores de centros de datos para inteligencia artificial ha llevado a los inversores a buscar alternativas financieras más estables. En respuesta, analistas destacan acciones con balances sólidos y menor riesgo para ofrecer mayor seguridad a largo plazo.",
+          "extracto": "La creciente preocupación por la deuda de los operadores de centros de datos de inteligencia artificial ha llevado a los inversores a buscar refugio en empresas con mayor solidez financiera. Diversos analistas destacan valores con balances sólidos y menor perfil de riesgo para carteras a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34599,15 +34589,6 @@
           "lean": "sin-clasificar",
           "url": "https://www.telegraph.co.uk/business/2026/10/24/warning-signs-flash-for-ai-boom-as-risky-debt-piles-up/?.tsrc=rss",
           "fecha": "2026-10-24T07:00:00+00:00"
-        },
-        {
-          "titular": "UK on alert over Beijing-backed AI hacking spree",
-          "extracto": "La agencia de ciberseguridad del Reino Unido indaga una operación cibernética vinculada a Pekín ante el temor de que se hayan extraído información y secretos gubernamentales sensibles. Esta investigación subraya las tensiones en torno a la seguridad digital y el espionaje estatal.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://uk.finance.yahoo.com/news/uk-alert-over-beijing-backed-053000750.html?.tsrc=rss",
-          "fecha": "2026-10-24T05:30:00+00:00"
         }
       ],
       "fundamentales": {
@@ -35864,6 +35845,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 203.69
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 203.69
           }
         ],
@@ -41103,7 +41088,7 @@
       "noticias": [
         {
           "titular": "Take-Two Interactive (TTWO) Dips More Than Broader Market: What You Should Know",
-          "extracto": "Las acciones de Take-Two Interactive experimentaron una caída del 1,96% al cerrar en 203,74 dólares en la última sesión bursátil. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía.",
+          "extracto": "Las acciones de Take-Two Interactive experimentaron una caída del 1,96% al cerrar su última sesión bursátil en 203,74 dólares.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41112,7 +41097,7 @@
         },
         {
           "titular": "Software Stock Could Be a Smart Long-Term Bet for Bulls",
-          "extracto": "Los títulos de Take-Two cotizan cerca de una línea de tendencia alcista de largo plazo que históricamente ha mostrado señales positivas. Esto podría indicar un soporte técnico importante para la cotización de la empresa.",
+          "extracto": "Los títulos de la compañía se encuentran cerca de una línea de tendencia alcista histórica a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41121,7 +41106,7 @@
         },
         {
           "titular": "GTA 6 sick days could cost employers as Take-Two cashes in",
-          "extracto": "Mientras los consumidores acumulan días libres y muestran poco interés por la versión económica de un producto próximo, los analistas financieros evalúan el impacto económico. La situación genera expectativas encontradas sobre el rendimiento comercial que se avecina.",
+          "extracto": "Mientras los consumidores acumulan días libres y muestran poco interés por la versión económica, los analistas financieros evalúan el impacto económico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41130,7 +41115,7 @@
         },
         {
           "titular": "GTA 6 to Drain $1B From US Economy With Take-Two Expected to Bank the Same Amount",
-          "extracto": "Un análisis económico advierte que las ausencias laborales vinculadas al lanzamiento de GTA 6 podrían generar pérdidas de mil millones de dólares en Estados Unidos, coincidiendo con la búsqueda de Take-Two de alcanzar un flujo de caja similar. A pesar de estas expectativas, el valor de las acciones acumula una baja de casi el 20% en el año.",
+          "extracto": "Se estima que las ausencias laborales vinculadas al lanzamiento de GTA 6 podrían generar pérdidas millonarias en Estados Unidos, en contraste con las expectativas de flujo de caja de Take-Two y la caída acumulada de sus acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41139,7 +41124,7 @@
         },
         {
           "titular": "Rockstar Rebuilt From Ground Up for GTA 6: Will Wall Street Buy It Nov. 19?",
-          "extracto": "Para el desarrollo de GTA 6, Rockstar incrementó considerablemente su plantilla, aunque las acciones de la matriz Take-Two registran una caída cercana al 20% a pocas semanas de que se estrene el título en noviembre. Esta discrepancia destaca la incertidumbre de los inversores a pesar de la magnitud del proyecto.",
+          "extracto": "A pesar de la considerable expansión de personal realizada por Rockstar para desarrollar GTA 6, el valor bursátil de la empresa matriz ha disminuido notablemente a pocas semanas del estreno.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41636,14 +41621,6 @@
       "var_dia_pct": -0.5297,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-09-24T17:00:00",
-            "valor": 707.37
-          },
-          {
-            "fecha": "2026-09-24T19:00:00",
-            "valor": 707.36
-          },
           {
             "fecha": "2026-09-24T20:00:00",
             "valor": 706.99
@@ -42534,6 +42511,10 @@
           },
           {
             "fecha": "2026-10-24T16:00:00",
+            "valor": 698.58
+          },
+          {
+            "fecha": "2026-10-24T19:00:00",
             "valor": 698.58
           }
         ],
@@ -48273,7 +48254,7 @@
       "noticias": [
         {
           "titular": "SPHD Holders Left $105,300 on the Table on a $300,000 Position While Chasing Dividends",
-          "extracto": "Una inversión de 300.000 dólares en el fondo SPHD revela los costos ocultos que implica buscar estabilidad y altos dividendos para el retiro. Este análisis ayuda a los inversionistas a evaluar si la tranquilidad ofrecida realmente compensa el rendimiento sacrificado.",
+          "extracto": "Un análisis sobre una inversión de 300.000 dólares en el fondo SPHD demuestra que buscar dividendos elevados y estabilidad para la jubilación conlleva costos ocultos significativos. Esto es importante para evaluar si las estrategias conservadoras realmente compensan a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48282,7 +48263,7 @@
         },
         {
           "titular": "Should You Forget the Vanguard S&P 500 ETF (VOO) and Buy the Invesco S&P 500 Equal Weight ETF (RSP) Instead?",
-          "extracto": "Adquirir acciones del índice S&amp;P 500 se mantiene como el método de inversión más popular y habitual entre el público general. Su popularidad radica en ofrecer una diversificación amplia en el mercado accionario estadounidense.",
+          "extracto": "La estrategia de inversión más habitual entre los participantes del mercado consiste en adquirir acciones del índice S&P 500. Esta práctica sirve como referencia estándar para construir carteras diversificadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48291,7 +48272,7 @@
         },
         {
           "titular": "Super Micro Has Lost 60.86% Since It Was Tapped for the S&P 500. Index Funds Like VOO Had to Buy It Anyway",
-          "extracto": "La incorporación de Super Micro Computer al S&amp;P 500 obligó a los fondos indexados a comprar acciones en su punto máximo de cotización. Este evento expone un perjuicio financiero oculto que las comisiones tradicionales de los fondos no reflejan.",
+          "extracto": "La incorporación de Super Micro Computer al S&P 500 obligó a los fondos indexados a comprar acciones en pleno apogeo del mercado, evidenciando un gasto oculto no reflejado en las comisiones oficiales. Este fenómeno afecta el rendimiento real de los inversores que replican pasivamente el índice.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48300,7 +48281,7 @@
         },
         {
           "titular": "Forget VOO: This Growth ETF Returned 460.49% Over Ten Years to VOO’s 326.29%",
-          "extracto": "Un fondo cotizado enfocado en crecimiento superó en la última década los resultados financieros del tradicional VOO, conocido por su diversificación. La continuidad de esta ventaja dependerá de variables económicas futuras que suelen ser ignoradas por quienes invierten.",
+          "extracto": "Durante la última década, un fondo cotizado (ETF) enfocado en el crecimiento superó los resultados de alternativas más amplias como el VOO, aunque su ventaja futura dependerá de variables clave que muchos inversionistas pasan por alto.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48309,7 +48290,7 @@
         },
         {
           "titular": "Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.",
-          "extracto": "El fondo cotizado Vanguard Morningstar Total Stock Market abarca la totalidad del mercado bursátil de Estados Unidos en lugar de limitarse al S&amp;P 500. Esto permite a los inversionistas obtener una cobertura aún más amplia de la economía nacional.",
+          "extracto": "El fondo Vanguard Morningstar Total Stock Market ETF abarca la totalidad del mercado bursátil estadounidense en lugar de limitarse únicamente al S&P 500. Esta mayor diversificación ofrece una exposición más amplia a la economía del país.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48461,7 +48442,7 @@
               "valor": 135.77
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 135.77
             }
           ],
@@ -53794,7 +53775,7 @@
               "valor": 119.89
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 119.89
             }
           ],
@@ -59035,14 +59016,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-09-24T17:00:00",
-              "valor": 237.33
-            },
-            {
-              "fecha": "2026-09-24T19:00:00",
-              "valor": 237.86
-            },
-            {
               "fecha": "2026-09-24T20:00:00",
               "valor": 238.93
             },
@@ -59944,6 +59917,10 @@
             },
             {
               "fecha": "2026-10-24T16:00:00",
+              "valor": 263.82
+            },
+            {
+              "fecha": "2026-10-24T19:00:00",
               "valor": 263.82
             }
           ],
@@ -65436,7 +65413,7 @@
               "valor": 106.5
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 106.5
             }
           ],
@@ -70569,7 +70546,7 @@
               "valor": 284.69
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 284.69
             }
           ],
@@ -75758,7 +75735,7 @@
               "valor": 82.1
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 82.1
             }
           ],
@@ -81091,7 +81068,7 @@
               "valor": 101.06
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 101.06
             }
           ],
@@ -86424,7 +86401,7 @@
               "valor": 191.01
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 191.01
             }
           ],
@@ -91777,7 +91754,7 @@
               "valor": 221.15
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 221.15
             }
           ],
@@ -97130,7 +97107,7 @@
               "valor": 687
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 687
             }
           ],
@@ -102483,7 +102460,7 @@
               "valor": 452.29
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 452.29
             }
           ],
@@ -107816,7 +107793,7 @@
               "valor": 158.96
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 158.96
             }
           ],
@@ -113141,7 +113118,7 @@
               "valor": 86.96
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 86.96
             }
           ],
@@ -118386,7 +118363,7 @@
               "valor": 126.16
             },
             {
-              "fecha": "2026-10-24T16:00:00",
+              "fecha": "2026-10-24T19:00:00",
               "valor": 126.16
             }
           ],
