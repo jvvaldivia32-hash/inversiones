@@ -1,13 +1,58 @@
 {
-  "generado": "2026-10-25T05:18:53.539810+00:00",
+  "generado": "2026-10-25T06:17:12.060009+00:00",
   "errores": [
+    "Reuters: feed sin respuesta o vacío",
     "CIPER: feed sin respuesta o vacío"
   ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Reunión de la Reserva Federal y tipos de interés",
-        "resumen": "La Reserva Federal ha incrementado los tipos de interés por primera vez desde 2023, desafiando las expectativas. Paralelamente, la Unión Europea ha solicitado a Pekín limitaciones en la comercialización exterior de vehículos híbridos para evitar tensiones comerciales. Asimismo, el desarrollo de la inteligencia artificial continúa transformando profundamente las dinámicas bélicas actuales.",
+        "titulo_neutral": "Compra de acciones de la empresa abrdn por parte del director Gordon Baird",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "abrdn director Gordon Baird buys $612 in company stock",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/insider-trading-news/abrdn-director-gordon-baird-buys-612-in-company-stock-93CH-4971049",
+            "fecha": "2026-10-25T06:01:01+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Should Aggregators block AI Agents?",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Should Aggregators block AI Agents?",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
+            "fecha": "2026-10-25T06:00:53+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Decisiones y expectativas sobre tipos de interés de la Reserva Federal",
+        "resumen": "La Reserva Federal ha incrementado los tipos de interés por primera vez en dos años, marcando un hito económico relevante. Paralelamente, la Unión Europea solicitó a Pekín que limite sus ventas de vehículos híbridos para evitar una disputa comercial. Estos acontecimientos reflejan las tensiones geopolíticas y económicas actuales a nivel internacional.",
         "articulos": [
           {
             "titular": "Bitcoin price today: BTC recovers to $80,800 ahead of Fed meeting",
@@ -58,7 +103,7 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Declaraciones de Barack Obama sobre inflación y campaña en Míchigan",
+        "titulo_neutral": "Declaraciones de Barack Obama sobre Donald Trump e inflación en Míchigan",
         "resumen": "",
         "articulos": [
           {
@@ -80,51 +125,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Desalojo policial de campamento de protesta por vivienda en Lisboa",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Portuguese police clear Lisbon housing protest camp, make arrests",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/economic-indicators/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests-4971028",
-            "fecha": "2026-10-25T03:36:21+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Planta de Audi en Georgia y aranceles anunciados por Donald Trump",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
-            "fecha": "2026-10-25T03:29:51+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Debate sobre conciencia e inteligencia artificial",
+        "titulo_neutral": "Do machines have feelings? AI has many rethinking consciousness.",
         "resumen": "",
         "articulos": [
           {
@@ -146,7 +147,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Auge de fondos cotizados temáticos de inteligencia artificial",
+        "titulo_neutral": "AI fever ignites a boom in thematic ETFs as fund managers hunt for next big hit",
         "resumen": "",
         "articulos": [
           {
@@ -168,29 +169,7 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Visita de Kim Jong Un a China",
-        "resumen": "El máximo mandatario de Corea del Norte ha cruzado hacia territorio chino mediante una nueva infraestructura vial. Este acontecimiento refleja una mejoría progresiva en los intercambios económicos y diplomáticos entre ambas naciones.",
-        "articulos": [
-          {
-            "titular": "North Korea's Kim crosses new bridge into China as trade ties warm - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTlLSVZQYy0tZFRieEJTYXU0WnM4NElhS29hMlJ4R3g1Mzl3Wmo4TzFRRlE1QXhsQ09SQWV0Uzg5LUdSdWpfdjI4LU1YSXRqY3pOSTEzbTA0cjdHM2MzVUpqbUdOSm13ZGZZdHN3VWlfbm1laGVQSmEtRklGaHhDejhUT2F4MUktamhqTS13ZHpNaERZekprMkp0TWdyX0t4bXhsOGJ1bUwzZw?oc=5",
-            "fecha": "2026-10-24T06:17:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Modificación de aranceles a productos canadienses por la Casa Blanca",
+        "titulo_neutral": "Levantamiento de aranceles a productos canadienses por parte de la Casa Blanca",
         "resumen": "",
         "articulos": [
           {
@@ -210,12 +189,34 @@
           "BBC"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Especulaciones sobre una posible salida a bolsa de Anthropic",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Will Anthropic pull off a November IPO? Time is running out.",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=65d001e5-c598-4d0b-bad7-39050021ad5c&mod=mw_rss_bulletins",
+            "fecha": "2026-10-23T22:21:56+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro-derecha"
+        ],
+        "grupos_presentes": [
+          "MarketWatch"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
         "titulo_neutral": "Lily Ariztía, Sol Serrano, Patricia Matte y Susana Claro: ¿Qué pasa cuando cuatro expertas se juntan a hablar de educación?",
-        "resumen": "Cuatro expertas con trayectorias diversas en el ámbito sociológico y técnico se unieron para reflexionar sobre los desafíos actuales del sistema escolar chileno. Aprovechando el aniversario de una importante red de colegios, analizaron temas complejos como los recientes descensos en mediciones internacionales y el aumento de la violencia en los establecimientos.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Lily Ariztía, Sol Serrano, Patricia Matte y Susana Claro: ¿Qué pasa cuando cuatro expertas se juntan a hablar de educación?",
@@ -236,8 +237,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de directivos y situación de las AFP",
-        "resumen": "La industria de administradoras de fondos de pensiones atraviesa un momento complejo debido al desplome registrado en el fondo E durante los primeros tres meses del año. Mientras las autoridades y diversos especialistas critican fuertemente la gestión y respaldan sanciones, algunos actores del sector defienden las decisiones tomadas argumentando que el impacto ha sido sobredimensionado.",
+        "titulo_neutral": "Declaraciones de ejecutivos sobre el sistema de AFP",
+        "resumen": "La industria de las AFP enfrenta fuertes cuestionamientos y sanciones regulatorias tras la caída superior al 10% registrada en el fondo E. Mientras diversos sectores critican la gestión y la falta de transparencia, administradores del sector defienden las decisiones tomadas y sugieren medidas de compensación voluntaria. El gobierno respalda las investigaciones en curso, en un escenario donde el rendimiento histórico del sistema es valorado por algunos pero severamente cuestionado por expertos.",
         "articulos": [
           {
             "titular": "Gerente general de AFP Capital, Renzo Vercelli: “Actuamos con diligencia”",
@@ -299,7 +300,7 @@
       },
       {
         "titulo_neutral": "Kreutzberger, Onetto y Elberg: los chilenos tras la mayor desarrolladora inmobiliaria en Miami",
-        "resumen": "Dos conocidas empresas inmobiliarias dieron inicio oficial a un nuevo complejo habitacional en el extranjero con ventas estimadas en cientos de millones de dólares. El proyecto busca consolidar la oferta residencial en la zona mediante el desarrollo de infraestructura moderna.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Kreutzberger, Onetto y Elberg: los chilenos tras la mayor desarrolladora inmobiliaria en Miami",
@@ -387,7 +388,7 @@
       },
       {
         "titulo_neutral": "El costalazo del Gobierno en el Caso Rabat, otro síntoma de desfonde",
-        "resumen": "El Ejecutivo busca impedir divisiones en su coalición ante una posible acusación constitucional que afectaría al titular de Justicia tras el polémico beneficio otorgado a condenados por delitos sexuales. Esta controversia se suma a un escenario político adverso caracterizado por bajos niveles de aprobación y tensiones internas.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "El costalazo del Gobierno en el Caso Rabat, otro síntoma de desfonde",
@@ -410,34 +411,34 @@
     ],
     "actualidad": [
       {
+        "titular": "What to know as Brazilians choose between Lula and Bolsonaro in tense presidential runoff",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff",
+        "fecha": "2026-10-25T06:05:34+00:00"
+      },
+      {
+        "titular": "Nigeria’s missing: Families in the northeast still wait for answers",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/nigerias-missing-families-in-the-northeast-still-wait-for-answers?traffic_source=rss",
+        "fecha": "2026-10-25T05:33:41+00:00"
+      },
+      {
+        "titular": "Election posters, mass tourism and property: Israel’s footprint in Cyprus",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/features/2026/10/25/election-posters-mass-tourism-and-property-israels-footprint-in-cyprus?traffic_source=rss",
+        "fecha": "2026-10-25T05:33:10+00:00"
+      },
+      {
+        "titular": "Bots, deepfakes and surveillance: Israel’s election goes to war online",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss",
+        "fecha": "2026-10-25T05:27:54+00:00"
+      },
+      {
         "titular": "Serbia votes in election pitting longtime leader against student movement",
         "medio": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
         "fecha": "2026-10-25T04:43:06+00:00"
-      },
-      {
-        "titular": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-10-25T04:16:52+00:00"
-      },
-      {
-        "titular": "Obama joins El-Sayed in Michigan rally cry before key midterms",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/obama-joins-el-sayed-in-michigan-rally-cry-before-key-midterms?traffic_source=rss",
-        "fecha": "2026-10-25T04:06:28+00:00"
-      },
-      {
-        "titular": "The Bethlehem Project: Voters feel anxious and uncertain as US midterms near",
-        "medio": "Financial Times",
-        "url": "https://shows.acast.com/ftnewsbriefing/episodes/the-bethlehem-project-voters-feel-anxious-and-uncertain-as-u",
-        "fecha": "2026-10-25T04:00:00+00:00"
-      },
-      {
-        "titular": "New York Archdiocese agrees to pay $800m to 1,300 sexual abuse survivors",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/25/new-york-archdiocese-agrees-to-pay-800m-to-1300-sexual-abuse-survivors?traffic_source=rss",
-        "fecha": "2026-10-25T03:57:13+00:00"
       }
     ]
   },
@@ -1351,6 +1352,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 263.82
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 263.82
           }
         ],
@@ -6813,8 +6818,17 @@
       },
       "noticias": [
         {
+          "titular": "Adobe (ADBE) Lands 2027 AI Fan Experience Partnership In Global Sports",
+          "extracto": "A partir de 2027, Adobe se convertirá en el socio oficial de experiencias de inteligencia artificial para aficionados del equipo de Fórmula 1 BWT Alpine. Esta alianza global empleará las herramientas tecnológicas de Adobe para ofrecer interacciones más personalizadas tanto en eventos deportivos como en plataformas digitales.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-lands-2027-ai-061057286.html?.tsrc=rss",
+          "fecha": "2026-10-25T06:10:57+00:00"
+        },
+        {
           "titular": "Adobe Systems (ADBE) Dips More Than Broader Market: What You Should Know",
-          "extracto": "En la última sesión bursátil, las acciones de Adobe Systems experimentaron una caída del 2,49% para cerrar en 263,82 dólares. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía tecnológica.",
+          "extracto": "Durante la última jornada bursátil, las acciones de Adobe experimentaron un descenso del 2,49% en su cotización. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6823,7 +6837,7 @@
         },
         {
           "titular": "Adobe Stock Has Been Under Pressure. Here’s What Could Spark a Turnaround",
-          "extracto": "A pesar de que Adobe supera consistentemente las expectativas de ganancias, el precio de sus acciones sigue bajando. Esta discrepancia ha generado divisiones profundas entre los analistas de Wall Street respecto a la valoración futura de la empresa.",
+          "extracto": "Analistas de Wall Street se encuentran divididos respecto al futuro financiero de Adobe debido a la discrepancia entre sus sólidos beneficios y la caída sostenida en el precio de sus acciones. Esta divergencia ha generado posturas contrapuestas sobre los objetivos de precio para la empresa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6832,7 +6846,7 @@
         },
         {
           "titular": "Adobe vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
-          "extracto": "El mercado tecnológico enfrenta un debate clásico entre valor y crecimiento al comparar a Adobe, que cotiza a múltiplos más bajos, con Salesforce, una compañía capaz de generar el doble de flujo de caja libre.",
+          "extracto": "El panorama bursátil presenta una comparativa clásica entre estilo de valor y crecimiento al contrastar los múltiplos de cotización de Adobe con la alta generación de flujo de caja libre por parte de Salesforce. Esto ilustra las diferentes perspectivas de los inversores frente a dos gigantes del software.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6841,21 +6855,12 @@
         },
         {
           "titular": "Adobe vs. CrowdStrike: Which Technology Stock Is a Better Buy in 2026?",
-          "extracto": "Adobe registra un flujo de caja récord, aunque su cotización sufre presión debido a las dudas que genera la inteligencia artificial en su modelo de negocio. En contraste, CrowdStrike se beneficia de la creciente necesidad empresarial de asegurar dicha infraestructura.",
+          "extracto": "A pesar de que Adobe registra entradas récord de efectivo, su cotización enfrenta presiones ante las dudas del mercado sobre el impacto de la inteligencia artificial en su modelo de negocio. En contraste, empresas como CrowdStrike experimentan un crecimiento acelerado impulsado por la creciente demanda de ciberseguridad en infraestructura tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/coverage/better-buy/2026/10/23/adobe-vs-crowdstrike-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
           "fecha": "2026-10-23T13:09:56+00:00"
-        },
-        {
-          "titular": "'Big Short' Investor Michael Burry Bumps Up Substack Subscription Price, Flags 4 'Busted' Bear-Market Havens",
-          "extracto": "El potencial de ingresos anuales de la plataforma Substack de Burry podría alcanzar los 232,2 millones de dólares. Esta cifra representa más del doble de la estimación calculada inicialmente en julio.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-bumps-up-substack-subscription-price-4-busted-bear-market-havens/cZxyIwoRBxR?.tsrc=rss",
-          "fecha": "2026-10-23T07:16:46+00:00"
         }
       ],
       "fundamentales": {
@@ -8251,6 +8256,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 542.19
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 542.19
           }
         ],
@@ -13998,7 +14007,7 @@
       "noticias": [
         {
           "titular": "Is Berkshire Bending the Rules With Bending Spoons?",
-          "extracto": "Analistas examinan la inusual inversión de Berkshire Hathaway en Bending Spoons, una empresa milanesa compradora de activos digitales, para entender cómo encaja en su estrategia. La discusión también abarca reportes de ganancias recientes y la situación de la deuda en el sector de las 'neoclouds'.",
+          "extracto": "Analistas examinan la inusual inversión de Berkshire Hathaway en Bending Spoons, una empresa milanesa compradora de activos digitales, para entender cómo encaja en su estrategia tradicional. Esta operación destaca en medio de discusiones recientes sobre resultados corporativos y deuda en el sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14016,7 +14025,7 @@
         },
         {
           "titular": "Berkshire Owns Both Chevron and Occidental. Which Oil Stock Is the Better Buy Now?",
-          "extracto": "Los precios elevados del petróleo favorecen actualmente a Occidental Petroleum, lo que plantea dudas sobre la estabilidad financiera de la empresa si los valores de las materias primas llegan a descender.",
+          "extracto": "Los precios elevados del petróleo benefician actualmente a la petrolera Occidental, lo que genera dudas sobre la sostenibilidad financiera de la compañía ante una eventual caída en las cotizaciones de las materias primas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14025,7 +14034,7 @@
         },
         {
           "titular": "What Could Berkshire Hathaway (BRK.B) Gain From An Early AI Funding Round?",
-          "extracto": "Berkshire Hathaway negocia participar en una ronda de financiación inicial para las iniciativas de inteligencia artificial de Meta, lo que aportaría capital externo al desarrollo tecnológico. Esta posible asociación introduciría a un inversor institucional destacado en las etapas formativas de los proyectos de IA de la compañía.",
+          "extracto": "Berkshire Hathaway evalúa participar en una ronda inicial de financiación de capital para los proyectos de inteligencia artificial de Meta. Esta posible alianza aportaría recursos externos significativos a la tecnológica y sumaría un respaldo institucional de gran peso a sus iniciativas en este sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14034,7 +14043,7 @@
         },
         {
           "titular": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
-          "extracto": "Los informes bursátiles más destacados de la jornada centran su atención en Apple, Berkshire Hathaway y Goldman Sachs, evaluando sus principales motores de crecimiento, oportunidades estratégicas y riesgos potenciales.",
+          "extracto": "Los informes bursátiles más destacados analizan el desempeño financiero actual, las perspectivas de expansión y los principales factores de riesgo asociados a empresas prominentes como Apple, Berkshire Hathaway y Goldman Sachs.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15104,6 +15113,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 9.09
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 9.09
           }
         ],
@@ -20671,7 +20684,7 @@
       "noticias": [
         {
           "titular": "BYD Stock Has The Bull Case Changed After Global SUV Sales Strength",
-          "extracto": "BYD está fortaleciendo su presencia internacional gracias al sólido desempeño del SUV Yuan UP y a nuevas alianzas estratégicas para la producción local de componentes en Brasil. Estos avances reflejan la estrategia de la compañía para consolidar sus volúmenes de exportación y mejorar su eficiencia manufacturera regional.",
+          "extracto": "El fabricante de automóviles BYD está fortaleciendo su presencia internacional gracias a la alta demanda del SUV Yuan UP, nuevos lanzamientos y una mayor capacidad de producción local en Brasil. Estas medidas buscan consolidar su liderazgo en los mercados de exportación y optimizar su eficiencia regional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20680,7 +20693,7 @@
         },
         {
           "titular": "BYD (SEHK:1211) Stock Sees Modest Fair Value Cut As Analysts Weigh Growth And Risks",
-          "extracto": "Analistas financieros ajustaron a la baja la estimación de valor razonable para BYD, reflejando divisiones en el mercado ante las perspectivas de expansión global de la marca. Mientras algunos expertos confían en su crecimiento internacional, otros advierten sobre los riesgos normativos y la intensa competencia.",
+          "extracto": "Analistas financieros ajustaron la valoración de BYD a la baja debido a la incertidumbre regulatoria y al incremento de la competencia, a pesar de que algunos expertos todavía ven potencial en sus planes de expansión global.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20689,7 +20702,7 @@
         },
         {
           "titular": "BYD Q3 deep dive: property investments offset Las Vegas destination softness",
-          "extracto": "Boyd Gaming reportó una caída interanual del 1,4% en sus ingresos durante el tercer trimestre de 2026, ubicándose por debajo de las proyecciones de Wall Street. No obstante, las ganancias por acción superaron las estimaciones del consenso de analistas.",
+          "extracto": "Durante el tercer trimestre de 2026, la empresa de entretenimiento y hostelería Boyd Gaming reportó ingresos inferiores a las previsiones de Wall Street tras una caída interanual del 1,4%. Sin embargo, su beneficio por acción superó ligeramente las expectativas de los analistas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21613,6 +21626,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 248.46
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 248.46
           }
         ],
@@ -27360,7 +27377,7 @@
       "noticias": [
         {
           "titular": "McDonald’s Bets $8.5 Billion on NEXT as Its CEO Warns Traffic Will Stay Flat",
-          "extracto": "McDonald's reportó un incremento trimestral del 4% en sus ingresos, alcanzando los 7.100 millones de dólares. Sin embargo, el crecimiento de sus ventas comparables a nivel global mostró un aumento limitado.",
+          "extracto": "McDonald's experimentó un crecimiento del 4% en sus ingresos trimestrales hasta alcanzar los 7.100 millones de dólares. Sin embargo, las ventas comparables a nivel global registraron un incremento limitado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27369,7 +27386,7 @@
         },
         {
           "titular": "McDonald's Japan (TSE:2702) Stock May Look Fully Valued On Earnings",
-          "extracto": "El notable incremento en el valor de las acciones de McDonald's en Japón durante los últimos años genera dudas sobre si sus ganancias actuales respaldan dicha cotización. Analistas evalúan la relación entre el rendimiento bursátil y la rentabilidad real de la compañía.",
+          "extracto": "Las importantes ganancias bursátiles de McDonald's en Japón durante los últimos años han generado dudas sobre si sus beneficios actuales justifican su alta valoración en el mercado. Esto obliga a los analistas a examinar la relación real entre el precio de la acción y la rentabilidad de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27378,7 +27395,7 @@
         },
         {
           "titular": "McDonald's changes its discount strategy",
-          "extracto": "La estrategia de la cadena de comida rápida orientada a destacar el valor general ha generado descontento entre los consumidores. Esta situación surge a raíz de cambios que afectan la disponibilidad de sus productos más económicos.",
+          "extracto": "Las recientes iniciativas de la cadena de comida rápida enfocadas en el valor han generado descontento entre los consumidores. Esta situación surge debido a que los cambios afectan la disponibilidad de los productos más económicos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27387,7 +27404,7 @@
         },
         {
           "titular": "Why Is McDonald's (MCD) Challenging Tokenized Trading Of Its Shares?",
-          "extracto": "Un grupo de grandes empresas estadounidenses, incluyendo a McDonald's, ha manifestado su rechazo formal al comercio de acciones tokenizadas en la plataforma OKX-ICE. Las compañías argumentan que la falta de consentimiento del emisor en estos activos digitales plantea riesgos para la protección de los inversionistas y el control regulatorio.",
+          "extracto": "Un grupo de destacadas empresas estadounidenses, incluyendo a McDonald's, ha presentado objeciones formales contra la comercialización de versiones tokenizadas de sus acciones en la plataforma OKX-ICE. Las compañías argumentan la necesidad de su consentimiento y expresan preocupación por la seguridad de los inversores y el cumplimiento normativo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27396,7 +27413,7 @@
         },
         {
           "titular": "McDonald's Has Lost a Fifth of Its Value in 2026. Is It Time to Buy?",
-          "extracto": "Las acciones de McDonald's registran una caída cercana al 28% en comparación con su cotización máxima histórica. A pesar de este retroceso, el título ofrece actualmente un rendimiento por dividendo del 3%.",
+          "extracto": "Las acciones de McDonald's han disminuido casi un 28% en comparación con su cotización máxima histórica. Actualmente, el valor de los títulos ofrece una rentabilidad por dividendo del 3%.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28851,6 +28868,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 524.51
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 524.51
           }
         ],
@@ -34598,7 +34619,7 @@
       "noticias": [
         {
           "titular": "As AI Labs Burn Cash, the Real Question Is Which Suppliers Get Paid",
-          "extracto": "Existen crecientes preocupaciones sobre la posibilidad de que la masiva inversión en inteligencia artificial genere una burbuja financiera insostenible. Esta situación pone en riesgo gigantescas sumas de capital en el sector tecnológico.",
+          "extracto": "Existe una creciente preocupación sobre el impacto financiero de la inteligencia artificial, ante el temor de que la inversión masiva esté generando una burbuja económica insostenible.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34607,7 +34628,7 @@
         },
         {
           "titular": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
-          "extracto": "Los principales índices bursátiles se encuentran por debajo de umbrales críticos, aunque diversas acciones ajenas a la inteligencia artificial muestran señales atractivas de compra. Mientras tanto, gigantes tecnológicos como Microsoft, Google y Amazon dominan el panorama del mercado.",
+          "extracto": "Mientras los principales índices bursátiles muestran debilidad, ciertos sectores ajenos a la tecnología avanzada presentan oportunidades de compra, con la atención puesta en los gigantes tecnológicos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34616,7 +34637,7 @@
         },
         {
           "titular": "How much MSFT stock does former CEO Steve Ballmer actually own?",
-          "extracto": "Un antiguo líder ejecutivo de Microsoft se mantiene como el mayor accionista individual de la compañía. Este análisis examina las razones detrás de dicha posición financiera.",
+          "extracto": "Un exdirector ejecutivo de Microsoft se mantiene como el mayor accionista particular de la corporación, un estatus que responde a factores financieros específicos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34625,7 +34646,7 @@
         },
         {
           "titular": "Chamath: “$0.70-75 of Every Dollar” of AI Spend Is VC Money. The Real Winners Are Already Publicly Traded",
-          "extracto": "Gran parte de la financiación actual en inteligencia artificial proviene de capital de riesgo canalizado hacia laboratorios sin beneficios, beneficiando principalmente a grandes corporaciones como Microsoft, Amazon y Alphabet. Estas empresas consolidadas están mejor preparadas para resistir una eventual contracción del mercado que los desarrolladores emergentes.",
+          "extracto": "Analistas advierten que una gran parte del capital destinado a la inteligencia artificial proviene de fondos de riesgo dirigidos a startups no rentables que terminan beneficiando a grandes tecnológicas, las cuales resistirían mejor una crisis del sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34634,7 +34655,7 @@
         },
         {
           "titular": "Microsoft’s $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget?",
-          "extracto": "Microsoft proyecta gastos de capital trimestrales superiores a los 50.000 millones de dólares manteniendo márgenes operativos estables, lo que exige un crecimiento drástico en su servicio en la nube. Los próximos resultados financieros revelarán si estas expectativas económicas son viables.",
+          "extracto": "Microsoft proyecta un incremento significativo en sus gastos de capital trimestrales, lo que exigirá un crecimiento acelerado en su división de servicios en la nube para cumplir con las expectativas financieras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -35912,6 +35933,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 203.69
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 203.69
           }
         ],
@@ -41159,7 +41184,7 @@
       "noticias": [
         {
           "titular": "Take-Two Interactive (TTWO) Dips More Than Broader Market: What You Should Know",
-          "extracto": "Las acciones de Take-Two Interactive experimentaron una caída del 1,96% al cerrar la última sesión bursátil en 203,74 dólares. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía de videojuegos.",
+          "extracto": "Las acciones de Take-Two Interactive experimentaron una caída del 1,96% en la última sesión bursátil, cerrando en 203,74 dólares. Este movimiento refleja la volatilidad reciente en el valor de mercado de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41168,7 +41193,7 @@
         },
         {
           "titular": "Software Stock Could Be a Smart Long-Term Bet for Bulls",
-          "extracto": "Los títulos de Take-Two Interactive se encuentran operando cerca de una línea de tendencia histórica que los inversores suelen considerar alcista a largo plazo. Esta posición técnica podría anticipar futuros movimientos en la cotización de la empresa.",
+          "extracto": "Los títulos de Take-Two Interactive cotizan cerca de una línea de tendencia histórica alcista de largo plazo. Este indicador técnico sugiere un posible soporte para el precio de la acción a pesar de las fluctuaciones recientes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41177,7 +41202,7 @@
         },
         {
           "titular": "GTA 6 sick days could cost employers as Take-Two cashes in",
-          "extracto": "Se observa un comportamiento inusual entre los consumidores, quienes prefieren acumular días libres y muestran poco interés por la versión más económica de un producto reciente. Esta situación ha generado un análisis detallado por parte de los analistas financieros.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41186,7 +41211,7 @@
         },
         {
           "titular": "GTA 6 to Drain $1B From US Economy With Take-Two Expected to Bank the Same Amount",
-          "extracto": "Los expertos estiman que el esperado lanzamiento de un nuevo videojuego podría generar millonarias pérdidas laborales por ausentismo en Estados Unidos, mientras la empresa matriz proyecta altos flujos de caja a pesar de registrar caídas acumuladas en su cotización anual.",
+          "extracto": "Se estima que las ausencias laborales vinculadas al lanzamiento de GTA 6 podrían generar pérdidas por mil millones de dólares en la economía estadounidense. Mientras tanto, Take-Two proyecta flujos de caja similares y sus acciones acumulan una baja de casi el 20% en el año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41195,7 +41220,7 @@
         },
         {
           "titular": "Rockstar Rebuilt From Ground Up for GTA 6: Will Wall Street Buy It Nov. 19?",
-          "extracto": "A pocas semanas de la fecha prevista para el estreno de un título muy esperado, la empresa desarrolladora aumentó significativamente su plantilla laboral. Sin embargo, el valor de las acciones de la compañía ha disminuido notablemente durante el año.",
+          "extracto": "Rockstar incrementó significativamente su personal para el desarrollo de GTA 6, a pesar de lo cual las acciones de la empresa matriz han disminuido cerca de un 20% poco antes del estreno programado para el 19 de noviembre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42582,6 +42607,10 @@
           },
           {
             "fecha": "2026-10-25T05:00:00",
+            "valor": 698.58
+          },
+          {
+            "fecha": "2026-10-25T06:00:00",
             "valor": 698.58
           }
         ],
@@ -48338,7 +48367,7 @@
         },
         {
           "titular": "SPHD Holders Left $105,300 on the Table on a $300,000 Position While Chasing Dividends",
-          "extracto": "Buscar estabilidad y altos dividendos mediante fondos específicos para la jubilación puede implicar costos ocultos significativos en el rendimiento a largo plazo. Analizar carteras concretas demuestra que dicha estrategia conlleva contraprestaciones financieras importantes.",
+          "extracto": "Buscar estabilidad y altos dividendos mediante fondos específicos para la jubilación conlleva un costo de oportunidad oculto que afecta significativamente el rendimiento a largo plazo. Analizar los números reales ayuda a evaluar si esta estrategia compensa frente a alternativas más dinámicas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48347,7 +48376,7 @@
         },
         {
           "titular": "Should You Forget the Vanguard S&P 500 ETF (VOO) and Buy the Invesco S&P 500 Equal Weight ETF (RSP) Instead?",
-          "extracto": "La adquisición de acciones que componen el índice S&P 500 se mantiene como el enfoque financiero más adoptado por los inversores. Esta alternativa suele considerarse el punto de partida estándar en la gestión de carteras.",
+          "extracto": "Adquirir participaciones del índice S&P 500 se mantiene como la metodología de inversión más popular y utilizada de manera generalizada. Dicha estrategia sirve como base para las carteras de millones de ahorradores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48356,7 +48385,7 @@
         },
         {
           "titular": "Super Micro Has Lost 60.86% Since It Was Tapped for the S&P 500. Index Funds Like VOO Had to Buy It Anyway",
-          "extracto": "La incorporación de ciertas empresas al S&P 500 obliga a los fondos indexados a comprar activos en momentos de máxima valoración especulativa. Esta dinámica genera gastos implícitos que no figuran en los informes tradicionales de comisiones.",
+          "extracto": "La inclusión de Super Micro Computer en el S&P 500 obligó a los fondos indexados a comprar acciones en máximos de mercado, evidenciando un gasto implícito que no figura en las comisiones oficiales. Este fenómeno ilustra las desventajas operativas que a veces sufren los fondos pasivos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48365,7 +48394,7 @@
         },
         {
           "titular": "Forget VOO: This Growth ETF Returned 460.49% Over Ten Years to VOO’s 326.29%",
-          "extracto": "Durante la última década, determinados fondos cotizados especializados en crecimiento han superado los resultados históricos de opciones más amplias como el VOO. La sostenibilidad de esta ventaja futura dependerá de variables que los inversores suelen pasar por alto.",
+          "extracto": "Un fondo cotizado (ETF) enfocado en crecimiento superó históricamente al S&P 500 al transformar un capital inicial en un saldo final considerablemente mayor durante la última década. No obstante, la continuidad de este rendimiento superior dependerá de diversas variables económicas futuras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48521,7 +48550,7 @@
               "valor": 135.77
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 135.77
             }
           ],
@@ -53866,7 +53895,7 @@
               "valor": 119.89
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 119.89
             }
           ],
@@ -60017,6 +60046,10 @@
             {
               "fecha": "2026-10-25T05:00:00",
               "valor": 263.82
+            },
+            {
+              "fecha": "2026-10-25T06:00:00",
+              "valor": 263.82
             }
           ],
           "6M": [
@@ -65520,7 +65553,7 @@
               "valor": 106.5
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 106.5
             }
           ],
@@ -70665,7 +70698,7 @@
               "valor": 284.69
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 284.69
             }
           ],
@@ -75866,7 +75899,7 @@
               "valor": 82.1
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 82.1
             }
           ],
@@ -81211,7 +81244,7 @@
               "valor": 101.06
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 101.06
             }
           ],
@@ -86556,7 +86589,7 @@
               "valor": 191.01
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 191.01
             }
           ],
@@ -91921,7 +91954,7 @@
               "valor": 221.15
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 221.15
             }
           ],
@@ -97286,7 +97319,7 @@
               "valor": 687
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 687
             }
           ],
@@ -102651,7 +102684,7 @@
               "valor": 452.29
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 452.29
             }
           ],
@@ -107996,7 +108029,7 @@
               "valor": 158.96
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 158.96
             }
           ],
@@ -113333,7 +113366,7 @@
               "valor": 86.96
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 86.96
             }
           ],
@@ -118590,7 +118623,7 @@
               "valor": 126.16
             },
             {
-              "fecha": "2026-10-25T05:00:00",
+              "fecha": "2026-10-25T06:00:00",
               "valor": 126.16
             }
           ],
