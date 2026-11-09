@@ -1,20 +1,63 @@
 {
-  "generado": "2026-11-09T00:58:35.915896+00:00",
-  "errores": [],
+  "generado": "2026-11-09T07:11:52.748657+00:00",
+  "errores": [
+    "Gemini no respondió: noticias sin resumen"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Resultados financieros de Dyno Nobel",
+        "titulo_neutral": "Investigacion a CEO de Nvidia y caida de sus acciones",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Dyno Nobel FY 2026 slides: transformation complete, shares fall 8%",
+            "titular": "Nvidia’s shares slide after-hours as tech giant probes CEO Jensen Huang",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/dyno-nobel-fy-2026-slides-transformation-complete-shares-fall-8-93CH-5010383",
-            "fecha": "2026-11-09T00:47:26+00:00"
+            "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+            "fecha": "2026-11-09T06:54:58+00:00"
+          },
+          {
+            "titular": "Explainer-What we know about Nvidia’s probe into CEO Jensen Huang",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580",
+            "fecha": "2026-11-09T06:54:27+00:00"
+          },
+          {
+            "titular": "Nvidia falls about 3% in after-hours and perpetual futures trade - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb0pTclA4c2pDZlE3NXExNGt0dU9JUDRTaU80SVhfU1FzV2pmSzhYZG9rdzdPaGZSRHV3LXEtaDAwX0ttREhYUGwtalVma1ktTlBCSUdzLUJETkhFVm5ETDVrNVF6OGswVE5EempEc01PSXlrbWRtUERvWDlwVk5KMnlmRmlNNDRYRS1ubHB2bl9oRXp6WFg1cGFYVVdzSnBaNE53?oc=5",
+            "fecha": "2026-11-09T03:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Stifel upgrades Treace Medical stock on growth, profitability outlook",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Stifel upgrades Treace Medical stock on growth, profitability outlook",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/analyst-ratings/stifel-upgrades-treace-medical-stock-on-growth-profitability-outlook-93CH-5010577",
+            "fecha": "2026-11-09T06:52:59+00:00"
           }
         ],
         "leans_presentes": [
@@ -26,17 +69,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultados financieros de ANZ",
+        "titulo_neutral": "Dollar holds gains after strong U.S. jobs data; China CPI in focus",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Earnings call transcript: ANZ posts strong H2 2026 profit as strategy gains pace",
+            "titular": "Dollar holds gains after strong U.S. jobs data; China CPI in focus",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-anz-posts-strong-h2-2026-profit-as-strategy-gains-pace-93CH-5010378",
-            "fecha": "2026-11-09T00:40:37+00:00"
+            "url": "https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449",
+            "fecha": "2026-11-09T06:51:10+00:00"
           }
         ],
         "leans_presentes": [
@@ -48,51 +91,95 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultados financieros de Bathurst Resources",
+        "titulo_neutral": "Asian stock markets climb after earlier tech rout",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Earnings call transcript: Bathurst Resources lifts q1 EBITDA 80% in FY2027",
+            "titular": "Asian stock markets climb after earlier tech rout",
             "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
+            "medio": "Al Jazeera",
+            "grupo": "Al Jazeera",
+            "lean": "sin-clasificar",
+            "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss",
+            "fecha": "2026-11-09T04:03:02+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "sin-clasificar"
+        ],
+        "grupos_presentes": [
+          "Al Jazeera"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "South Korea fines Coupang $220 million for abusing dominance in food delivery market - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "South Korea fines Coupang $220 million for abusing dominance in food delivery market - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bathurst-resources-lifts-q1-ebitda-80-in-fy2027-93CH-5010376",
-            "fecha": "2026-11-09T00:34:21+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVnFVeVZwZHVtWWlwTEFFSkxGZVZFMVhXd3RrLS1CbTdLU2pCN0E1eERiVDlIQnctUWxtY29ac1JvQVU2b2FrTWpza2R4RG9lc05YSDhYdGQ4WEt1ZzZXV3phcTQtakh1Qkhqdy05VUVQZ3NBLVdIR3NvdkNrcklLdUcxZGJ3NFl3TFdsZU1XSHlscnhBWnc5cEQxVHBzV18xLUFoRE5FS3JRU2RVNjZ3LTlsN2Mtc05SV3c?oc=5",
+            "fecha": "2026-11-09T03:24:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Investing.com"
+          "Reuters"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones de Lula sobre tipos de interés y presupuesto",
+        "titulo_neutral": "Indian rupee extends rally, putting RBI's dollar-buying threshold in focus - Reuters",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Brazil’s Lula, worried about high interest rates, pledges budget discipline",
+            "titular": "Indian rupee extends rally, putting RBI's dollar-buying threshold in focus - Reuters",
             "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
+            "medio": "Reuters",
+            "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/brazils-lula-worried-about-high-interest-rates-pledges-budget-discipline-5010375",
-            "fecha": "2026-11-09T00:30:38+00:00"
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmRYMGNidi13ZTlOWEpSRUR4cTdxV0ctVlowT2htXzZFMzJTUHhhSUdmcmtJczFKWFBkaWdrR1hCNUJpay1aNmVlRlNhUVZaWmpUc0pxU01ia0hUbWgwNnlaTEZmbkRNaE9GZUpoQjNpejA5ejA0akU0dWhQUmJQZG9wVFJLTF9kdE80NElJaFZZU2Y1UmhTdA?oc=5",
+            "fecha": "2026-11-09T03:07:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Investing.com"
+          "Reuters"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Agenda económica semanal con indicadores y declaraciones de la Reserva Federal",
+        "titulo_neutral": "Gold rises over 1% as softer oil prices ease inflation worries - Reuters",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Gold rises over 1% as softer oil prices ease inflation worries - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdIVXlJc2RaUEw2RmFrR2FZcXYzYlBKUG9Cdl9WUVFfalVxT0hGcGFCdW1DS3JMT2daanhDYktBeXVGNGt5TGlsOGZJVWVSMFpnT3ZVa2RBUjZYakRlVlQ3SXd1ZkpTQVNXVkpoNUZoemdycWY0MG02dVk0cWRuWG4taG5VMm9kbEluSHctTVZVMXJwWXNWSWdVcmxQeWtRSW1EWDQ2dTJ6QVV2TzhoeQ?oc=5",
+            "fecha": "2026-11-09T03:01:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Economic calendar: CPI, PPI and a flotilla of Fed speakers on weekly agenda",
         "resumen": "",
         "articulos": [
           {
@@ -112,199 +199,12 @@
           "MarketWatch"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Adaptación de los servicios funerarios ante la caída de la demanda",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Demand for standard burial services is in decline. Funeral homes are adapting.",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=76efbc77-34ed-442d-9d34-fed91050c7b1&mod=mw_rss_bulletins",
-            "fecha": "2026-11-08T17:48:33+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Proceso de salida a bolsa de Anthropic",
-        "resumen": "Se han dado a conocer múltiples acontecimientos internacionales destacados, entre ellos el lanzamiento del folleto de oferta pública de venta de Anthropic y el inicio de unos comicios cruciales en territorio israelí. Asimismo, se reportó un viaje cinegético de Donald Trump Jr. acompañado por un oligarca vinculado al Kremlin y un cambio en las preferencias vacacionales de los europeos hacia Sudamérica.",
-        "articulos": [
-          {
-            "titular": "What to know about Anthropic’s rush to go public before Thanksgiving",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=0054c46c-82a2-475c-a7e4-eafae27a1d46&mod=mw_rss_bulletins",
-            "fecha": "2026-11-08T17:33:05+00:00"
-          },
-          {
-            "titular": "Anthropic details ‘existential risks to humanity’ in IPO filing",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropic-details-existential-risks-to-humanity-in-ipo-filin",
-            "fecha": "2026-10-27T04:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha",
-          "centro"
-        ],
-        "grupos_presentes": [
-          "MarketWatch",
-          "Financial Times"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Comportamiento del mercado bursátil estadounidense",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "The U.S. stock market has rarely been this unified. It’s not a good thing.",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=7bc433c2-d23e-45f5-8a27-21538529fed2&mod=mw_rss_bulletins",
-            "fecha": "2026-11-08T14:32:42+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Declaraciones de Jorge Nazer sobre la situación de Chile",
-        "resumen": "Un conocido empresario atribuye el estancamiento económico a políticas pasadas basadas en falsas expectativas externas. Por esta razón, aconseja aplicar estímulos estatales mucho más enérgicos para dinamizar la economía.",
-        "articulos": [
-          {
-            "titular": "Jorge Nazer, presidente de Endeavor Chile: “Veo a Chile parado por desidia nuestra, pese a las oportunidades gigantescas que hay”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/jorge-nazer-presidente-de-endeavor-chile-veo-a-chile-parado-por-desidia",
-            "fecha": "2026-11-09T00:56:54+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones de Rodrigo Valdés sobre la situación fiscal de Chile",
-        "resumen": "Un exministro chileno advierte sobre los riesgos fiscales a nivel internacional. Su recomendación apunta a implementar ajustes inteligentes que tomen en cuenta el escenario macroeconómico actual y las tasas de interés.",
-        "articulos": [
-          {
-            "titular": "Rodrigo Valdés, director del departamento de Asuntos Fiscales del FMI: “La situación fiscal de Chile es una que requiere atención y a la que se le está dando atención”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/rodrigo-valdes-director-del-departamento-de-asuntos-fiscales-del-fmi-la",
-            "fecha": "2026-11-09T00:55:34+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones de Bernardo Larraín sobre los empresarios",
-        "resumen": "Se propone complementar las recientes rebajas de impuestos con nuevas normativas laborales y una revisión del sistema de evaluación ambiental que entregue mayor seguridad jurídica. Asimismo, se aborda la percepción pública del empresariado.",
-        "articulos": [
-          {
-            "titular": "Bernardo Larraín, presidente de Empresas CMPC: “Le diría a los empresarios: no se inmovilice, échele para adelante. Si cree que hay que reformar el SEIA o flexibilizar el Código Laboral, dígalo abiertamente”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/bernardo-larrain-presidente-de-empresas-cmpc-le-diria-a-los-empresarios",
-            "fecha": "2026-11-09T00:54:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones del embajador de China en Chile Niu Qingbao",
-        "resumen": "El representante diplomático de una potencia asiática concluye sus funciones en el país destacando el excelente estado de la cooperación bilateral entre ambas naciones.",
-        "articulos": [
-          {
-            "titular": "Niu Qingbao, embajador de China en Chile: “Ceder ante la matonería y la coerción solo hace que el matón del barrio vaya cada vez más lejos”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/niu-qingbao-embajador-de-china-en-chile-ceder-ante-la-matoneria-y-la",
-            "fecha": "2026-11-09T00:51:01+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones de Jorge Trujillo sobre el Servicio de Impuestos Internos",
-        "resumen": "El nuevo responsable de recaudación fiscal detalla su estrategia para superar el estancamiento tributario de la última década. Su plan incluye combatir fuertemente la evasión y solicitar al FMI una revisión metodológica de las políticas fiscales previas.",
-        "articulos": [
-          {
-            "titular": "Jorge Trujillo, director del Servicio de Impuestos Internos (SII): “A los contribuyentes que solo quieren beneficiarse del sistema, les vamos a hacer la vida muy difícil”",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/jorge-trujillo-director-del-servicio-de-impuestos-internos-sii-a-los",
-            "fecha": "2026-11-09T00:46:50+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones de Claudio Alvarado sobre un cambio de gabinete",
-        "resumen": "Un alto funcionario gubernamental defiende la permanencia de un ministro cuestionado frente a los intentos de la oposición. Sostiene que la acusación constitucional no constituye el mecanismo adecuado para revertir decisiones presidenciales.",
+        "titulo_neutral": "Declaraciones de Claudio Alvarado sobre el cambio de gabinete",
+        "resumen": "El jefe de gabinete evaluó el escenario político actual de la administración de gobierno y defendió la continuidad del ministro cuestionado. Sostuvo que el mecanismo de control parlamentario activado por la oposición no corresponde para revertir una decisión exclusiva del Presidente.",
         "articulos": [
           {
             "titular": "Claudio Alvarado, biministro del Interior y Segegob: “Que nadie se confunda con que ante un problema, la solución mágica es un cambio de gabinete”",
@@ -313,7 +213,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/aniversario/claudio-alvarado-biministro-del-interior-y-segegob-que-nadie-se-confunda",
-            "fecha": "2026-11-09T00:44:49+00:00"
+            "fecha": "2026-11-09T01:49:25+00:00"
           }
         ],
         "leans_presentes": [
@@ -325,17 +225,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Del diagnóstico a la acción: las fórmulas de empresarios y líderes económicos para romper la inercia",
-        "resumen": "Diversos referentes del sector privado coinciden en la urgencia de simplificar trámites administrativos, flexibilizar las normas del mercado laboral y restaurar la confianza. Estas medidas se consideran indispensables para reactivar la creación de empleos y el crecimiento económico.",
+        "titulo_neutral": "Entrevista a exsubsecretario de Educacion sobre inteligencia artificial y humanidades",
+        "resumen": "Una institución de educación superior decidió no prohibir las herramientas de inteligencia artificial en las aulas. Su enfoque pedagógico prioriza el desarrollo integral de los estudiantes y el fortalecimiento de competencias interpersonales.",
         "articulos": [
           {
-            "titular": "Del diagnóstico a la acción: las fórmulas de empresarios y líderes económicos para romper la inercia",
+            "titular": "El exLarrainVial y exsubsecretario de Educación que desafía a la IA desde las humanidades",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/del-diagnostico-a-la-accion-las-formulas-de-empresarios-y-lideres",
-            "fecha": "2026-11-09T00:37:32+00:00"
+            "url": "http://www.df.cl/aniversario/el-exlarrainvial-y-exsubsecretario-de-educacion-que-desafia-a-la-ia-desde",
+            "fecha": "2026-11-09T01:27:47+00:00"
           }
         ],
         "leans_presentes": [
@@ -347,17 +247,127 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Cuatro países que destacaron por su salto económico en el primer cuarto del siglo",
-        "resumen": "Tras el histórico despegue económico de los denominados Tigres Asiáticos durante el siglo pasado, un nuevo grupo de naciones emergentes impulsa su propio desarrollo industrial y exportador en el siglo actual.",
+        "titulo_neutral": "Analisis sobre talento tecnico y data centers",
+        "resumen": "El sector tecnológico se perfila como un motor clave para impulsar la actividad económica mediante iniciativas digitales y la generación de empleo en múltiples áreas. El principal desafío radica en preparar adecuadamente el talento humano que demanda el mercado actual.",
         "articulos": [
           {
-            "titular": "Cuatro países que destacaron por su salto económico en el primer cuarto del siglo",
+            "titular": "Talento técnico, la pieza que falta para aprovechar el auge de los data centers",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/aniversario/cuatro-paises-que-destacaron-por-su-salto-economico-en-el-primer-cuarto-del",
-            "fecha": "2026-11-08T23:52:31+00:00"
+            "url": "http://www.df.cl/aniversario/df-lab/talento-tecnico-la-pieza-que-falta-para-aprovechar-el-auge-de-los-data",
+            "fecha": "2026-11-09T01:25:55+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Inversion en startups por grandes empresas",
+        "resumen": "Diversas corporaciones nacionales utilizan instrumentos de inversión en emprendimientos emergentes para mantenerse a la vanguardia tecnológica. Firmas de distintos rubros coinciden en que esta estrategia permite vincular la actividad tradicional con la disrupción digital.",
+        "articulos": [
+          {
+            "titular": "Invertir en startups: la fórmula de las grandes empresas para elevar su competitividad",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/aniversario/df-lab/invertir-en-startups-la-formula-de-las-grandes-empresas-para-elevar-su",
+            "fecha": "2026-11-09T01:24:20+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Declaraciones de Eric Farnsworth sobre elecciones en Estados Unidos",
+        "resumen": "Un exintegrante de la diplomacia norteamericana indicó que el poder legislativo, bajo control demócrata, priorizará la agenda doméstica por encima de los asuntos hemisféricos. Esto marcará un cambio en la atención internacional del país norteamericano.",
+        "articulos": [
+          {
+            "titular": "Eric Farnsworth, asociado senior del Center for Strategic and International Studies (CSIS): “Los estadounidenses han enviado un mensaje muy claro sobre los límites de su tolerancia a la incertidumbre”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/aniversario/eric-farnsworth-asociado-senior-del-center-for-strategic-and-international",
+            "fecha": "2026-11-09T01:17:59+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Entrevistas a embajadoras sobre oportunidades comerciales de Marruecos e India",
+        "resumen": "Las representantes diplomáticas de dos naciones clave para la expansión comercial chilena analizaron las oportunidades bilaterales. Destacaron los sectores con mayor proyección y las vías para que las empresas locales ingresen con éxito a esos mercados.",
+        "articulos": [
+          {
+            "titular": "Las oportunidades comerciales de Marruecos e India, en la voz de sus embajadoras",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/aniversario/las-oportunidades-comerciales-de-marruecos-e-india-en-la-voz-de-sus",
+            "fecha": "2026-11-09T01:16:59+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Declaraciones de Mathias Cormann sobre la economia de Chile",
+        "resumen": "Un exresponsable de finanzas australiano valoró las medidas adoptadas recientemente para optimizar la tramitación de permisos y cuidar las cuentas públicas. Aseguró que estas acciones son indispensables para cualquier administración que busque fomentar el crecimiento.",
+        "articulos": [
+          {
+            "titular": "Mathias Cormann, secretario general de la OCDE: “La fortaleza económica de Chile se basa en la apertura, la estabilidad y la competitividad”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/aniversario/mathias-cormann-secretario-general-de-la-ocde-la-fortaleza-economica-de",
+            "fecha": "2026-11-09T01:15:53+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Participacion de family offices en financiamiento de nuevos negocios en Chile",
+        "resumen": "La renovación generacional y una mayor especialización están transformando la manera en que estas organizaciones administran sus recursos. Estas entidades buscan diversificar sus carteras y apostar por la financiación de nuevas oportunidades comerciales.",
+        "articulos": [
+          {
+            "titular": "Family offices amplían su rol en Chile y apuestan por financiar nuevos negocios",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/aniversario/family-offices-amplian-su-rol-en-chile-y-apuestan-por-financiar-nuevos",
+            "fecha": "2026-11-09T01:14:14+00:00"
           }
         ],
         "leans_presentes": [
@@ -371,34 +381,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Trump says he expects Rubio to remain as secretary of state - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEdsdmt5ZWJnSWxVZGNfeVV1dFVUT1c4RW83R2hRbTlPS2dFdWlrTlU1OVJxcUloOWxnQjBySGVQeXNXLUVseUU1S19iazVvbHAzbkRvSHZ3V0lNZzk0MWJMQUFXM29lVWxuclNvbGZ0d2ZaLU16NExRYkd5NTFzemtxZ1VNRUN4bEdRd25rNllod21zS2NvbW43bw?oc=5",
-        "fecha": "2026-11-09T00:34:00+00:00"
+        "titular": "Krakow shooting suspect has died in hospital, police say",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-11-09T07:06:58+00:00"
       },
       {
-        "titular": "India’s night lights up for Diwali",
+        "titular": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlI2UXNzNl84Z1ByMV9Ybm5YNjMtZkdPcDhsZ2plZk9udWViZDZ4eTRVQVNXN2x6U2hENlkxbXJ2SXVvVU0tVWFkZGlSLXBDcnBZM1pzLVBNMzA5bjdZOHlFSXd6ZzhsWWZvV3JWWXlTME1tMnJ5Q0RoWHk1ZmJzbzk5cjZFaDI4NXpTOGRaVDBTNGNxcnRZYjF0X2NzY3EwaEJZcVhMaHRRMXREdXBkeXh6OGRCdU9aaWRJdS1zNzBQSUJCZEE?oc=5",
+        "fecha": "2026-11-09T07:01:00+00:00"
+      },
+      {
+        "titular": "Why we disrupted Annalena Baerbock’s award speech",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/2026/11/9/indias-night-lights-up-for-diwali?traffic_source=rss",
-        "fecha": "2026-11-09T00:24:04+00:00"
+        "url": "https://www.aljazeera.com/opinions/2026/11/9/why-we-disrupted-annalena-baerbocks-award-speech?traffic_source=rss",
+        "fecha": "2026-11-09T06:49:55+00:00"
       },
       {
-        "titular": "Jeffries backs Hegseth impeachment as Democrats vow probes of Trump allies",
+        "titular": "What is next for Israel?",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
-        "fecha": "2026-11-09T00:07:02+00:00"
+        "url": "https://www.aljazeera.com/opinions/2026/11/9/what-is-next-for-israel?traffic_source=rss",
+        "fecha": "2026-11-09T06:42:03+00:00"
       },
       {
-        "titular": "Reports: Philip Rivers finalizing deal to become next coach at NC State - Reuters",
+        "titular": "South African telco MTN's service revenue rises over 17% as Nigeria recovers - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekVXdW5LTlpaNGMyWGlZX1ZsdVNad0JhVE1DdEZxSWZILU9BWDY5VGNwX256dU9xbG1kbXZMdzdxdlhOaXNlWUJic051bnJLUTR4LXBEZUJEcnh2eFhDQlRTOENhVmo1aVg5R3dHTVpjYmpnR3c3VGxZSmNsSm9VU3JLTy1SU0tvcjY0c1FOUHcxc21BQkFjQ3ZmN2FydTZlTnVtdVhrc1B3UWtDNHhWR3pn?oc=5",
-        "fecha": "2026-11-09T00:06:00+00:00"
-      },
-      {
-        "titular": "Reports: Vikings to sign WR Odell Beckham Jr. to active roster - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObzhnTEVRTWkxSmZ2SDhneFd6WjNXejlNS0JsOXFLRHlTMzVNUFQxN0dKNnRWb0NLQUdUTHNhM0RtbENjR29OdHNxcDRhTHVoXzg2d0RCQVBtRmVmM3BCRmstcEViNG9tMjBPRzliQklVWGZENlpIcXh2MUh0MXJHeHhpTWxVcE9oN2czR0dOUm43N3E2bGthYlY4SUZzQUlKTTZ5ZQ?oc=5",
-        "fecha": "2026-11-09T00:06:00+00:00"
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUEZtMUZjUmQxNTV3RFZNYlBEdjlXc1NBQ1dueHBwMWlJMFNwd1VLTmlicXFScHgwTnVtVjhiOFp1Yl94YXdNZnpQdDktSzMyX1B2WGZkb0tDblhwOTdsREEwLU9xQklSVkRNS3J6U1JyLXlzcUoyamgzTUptM3BvUEh4QmZ5c2ZsV1RvTDRkMXFkWlNCSEp4YTRZeWFxd1h3UGhSZUs4UTRETUJpSW1UQW1xSG5raUNBSEl2Zw?oc=5",
+        "fecha": "2026-11-09T06:41:00+00:00"
       }
     ]
   },
@@ -410,14 +420,6 @@
       "var_dia_pct": -2.8973,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 242.27
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 242.27
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 242.27
@@ -1352,6 +1354,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 239.3
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 239.3
           }
         ],
@@ -6915,7 +6921,7 @@
       "noticias": [
         {
           "titular": "Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?",
-          "extracto": "",
+          "extracto": "Las acciones de Adobe cotizan con un múltiplo de ganancias inferior al de Palantir, aunque la diferencia en el ritmo de crecimiento de ambas empresas genera debate sobre cuál valoración es más justa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6924,7 +6930,7 @@
         },
         {
           "titular": "Adobe Is Down 29% This Year. Time to Sell or Buy More?",
-          "extracto": "",
+          "extracto": "Las acciones de Adobe sufrieron una caída significativa del 29% en 2026, lo que llevó a Citi a rebajar su recomendación a venta con un precio objetivo de 207 dólares ante proyecciones débiles para el próximo año fiscal.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6933,7 +6939,7 @@
         },
         {
           "titular": "Adobe vs. Okta: Which Technology Stock Is a Better Buy for 2027?",
-          "extracto": "",
+          "extracto": "Adobe cotiza a una fracción del múltiplo de ventas que registra Okta a pesar de registrar tasas de crecimiento similares, lo que plantea dudas sobre la justificación de dicha discrepancia en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6942,7 +6948,7 @@
         },
         {
           "titular": "Deloitte named a Leader in IDC MarketScape Worldwide AI-enabled Adobe Professional Services 2026 Vendor Assessment",
-          "extracto": "",
+          "extracto": "La firma Deloitte fue designada como líder en la evaluación de proveedores de servicios profesionales de Adobe habilitados para inteligencia artificial elaborada por IDC MarketScape en 2026.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6951,7 +6957,7 @@
         },
         {
           "titular": "Agentic Commerce Optimization: Adobe Forecasts 130% AI Shopping Traffic Growth; Google Launches Universal Cart",
-          "extracto": "",
+          "extracto": "Optimum7 publicó una guía centrada en la optimización del comercio impulsado por agentes de inteligencia artificial, mientras que Adobe pronosticó un fuerte incremento interanual en el tráfico digital minorista para la temporada navideña.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7462,14 +7468,6 @@
       "var_dia_pct": -0.2516,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 515.62
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 515.62
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 515.62
@@ -8388,6 +8386,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 570.89
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 570.89
           }
         ],
@@ -14234,8 +14236,17 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett’s Company Holds More Cash Than Stocks. The Number for Your Own Cash Is Much Smaller, and Buffett Wrote It Down",
+          "extracto": "El informe del tercer trimestre de Berkshire muestra una enorme acumulación de efectivo y letras del Tesoro que supera el valor de sus acciones. Un análisis financiero sugiere que los inversores particulares mantengan un porcentaje de liquidez mucho menor que el conglomerado de Warren Buffett.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/11/08/warren-buffetts-company-holds-more-cash-than-stocks-the-number-for-your-own-cash-is-much-smaller-and-buffett-wrote-it-down/?.tsrc=rss",
+          "fecha": "2026-11-09T03:17:00+00:00"
+        },
+        {
           "titular": "Berkshire Hathaway Just Gained 13% in a Month: Take Profits, or Buy More?",
-          "extracto": "Las acciones de Berkshire Hathaway experimentaron un incremento cercano al 13% entre octubre y noviembre, alcanzando los 571 dólares gracias a que los inversores buscaron la estabilidad en conglomerados diversificados frente a la inestabilidad tecnológica.",
+          "extracto": "Las acciones de Berkshire Hathaway experimentaron un repunte de aproximadamente el 13 por ciento durante un periodo de un mes, alcanzando cerca de 571 dólares. Este incremento se debió a la preferencia de los inversores por firmas diversificadas frente a la inestabilidad en el sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14253,7 +14264,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Stock Faces Q3 Earnings Profit Decline Forecast",
-          "extracto": "Las acciones de Berkshire Hathaway se mantuvieron estables tras la publicación de los resultados del tercer trimestre, los cuales mostraron fuertes ingresos pero generaron expectativas de una desaceleración en los próximos años.",
+          "extracto": "Las acciones de Berkshire Hathaway apenas variaron tras la publicación de sus resultados financieros del tercer trimestre, que mostraron elevados ingresos y un beneficio neto considerable. No obstante, los mercados analizan con cautela estas cifras ante las previsiones de una contracción moderada en los beneficios futuros.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14262,21 +14273,12 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.A) Formalizes Greg Abel Succession After Earnings Slip And $9.6 Billion Repurchase",
-          "extracto": "Berkshire Hathaway informó una disminución en sus ganancias operativas del tercer trimestre y destinó una cifra récord a la recompra de acciones, al tiempo que oficializó la transición de liderazgo hacia Greg Abel.",
+          "extracto": "Berkshire Hathaway registró una disminución en sus ganancias operativas del tercer trimestre debido a presiones en sus divisiones de seguros e inversiones, lo que llevó a la compañía a realizar recompras históricas de acciones. Además, el consejo directivo ratificó la transición de liderazgo al confirmar a Greg Abel como el sucesor de Warren Buffett en la gestión diaria.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-formalizes-greg-021120535.html?.tsrc=rss",
           "fecha": "2026-11-08T02:11:20+00:00"
-        },
-        {
-          "titular": "Warren Buffett and Greg Abel Just Sent Shockwaves Through Wall Street With This $377 Billion Warning",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/07/warren-buffett-greg-abel-just-sent-shockwaves-through-wall-street-with-377-billion-warning/?.tsrc=rss",
-          "fecha": "2026-11-08T00:43:01+00:00"
         }
       ],
       "fundamentales": {
@@ -14575,14 +14577,6 @@
       "var_dia_pct": 0.8538,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 9.27
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 9.64
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 9.64
@@ -15501,6 +15495,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 9.45
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 9.45
           }
         ],
@@ -21168,16 +21166,16 @@
       "noticias": [
         {
           "titular": "Jaguar Land Rover raids BYD offices over ‘copycat Defender’",
-          "extracto": "La automotriz Jaguar Land Rover inspeccionó las oficinas de BYD tras acusar a la empresa china de plagiar el diseño de su popular modelo Defender. Este conflicto legal y comercial resalta la creciente tensión por la propiedad intelectual en el mercado global de vehículos.",
+          "extracto": "La empresa automotriz Jaguar Land Rover ha intervenido oficinas de BYD tras acusar a la firma china de plagiar la estética de su modelo Defender. Este conflicto legal y comercial resalta la creciente tensión por la propiedad intelectual en el mercado global de vehículos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.telegraph.co.uk/business/2026/11/08/jaguar-land-rover-raids-byd-offices-over-copycat-defender/?.tsrc=rss",
+          "url": "https://uk.finance.yahoo.com/news/jaguar-land-rover-raids-byd-131500146.html?.tsrc=rss",
           "fecha": "2026-11-08T13:15:00+00:00"
         },
         {
           "titular": "Scottish Mortgage NAV total return rises 31.5% as SpaceX listing and Moderna trial success lift performance",
-          "extracto": "El fondo de inversión Scottish Mortgage reportó un rendimiento total del valor liquidativo del 31,5% durante su primer semestre fiscal, superando ampliamente el desempeño del índice bursátil global. Este sólido crecimiento refleja el buen rendimiento de su cartera en dicho período.",
+          "extracto": "El fondo de inversión Scottish Mortgage reportó un sólido rendimiento del valor liquidativo del 31,5% durante el semestre finalizado en septiembre, superando significativamente al índice global de referencia. Estos resultados reflejan el buen desempeño financiero de la gestora Baillie Gifford.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21186,7 +21184,7 @@
         },
         {
           "titular": "Zero To Sixty: Fort Worth Gets Tesla Robotaxi While UBS Upgrades Rivian And Citigroup Shuffles EV Holdings",
-          "extracto": "Tesla amplió las pruebas de sus taxis autónomos a la ciudad de Fort Worth, coincidiendo con ajustes en las valoraciones de analistas financieros para varias marcas de vehículos eléctricos. Asimismo, firmas como BYD y XPeng reportaron cifras de ventas muy positivas durante el mes de octubre.",
+          "extracto": "Tesla amplió las pruebas de sus taxis autónomos sin supervisión a la ciudad de Fort Worth, coincidiendo con ajustes financieros positivos de entidades como UBS y Citigroup hacia varias marcas del sector. Asimismo, fabricantes como BYD y XPeng reportaron cifras de ventas muy sólidas durante el mes de octubre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21195,7 +21193,7 @@
         },
         {
           "titular": "Green Electronics Manufacturing - Global Strategic Business Report 2026: Capitalize on a 24.6% CAGR and $90.8 Billion by 2032, Led by Apple, BYD, Foxconn, Samsung, and Siemens",
-          "extracto": "Un nuevo informe de mercado estima que la industria global de fabricación de productos electrónicos ecológicos experimentará un crecimiento exponencial durante la próxima década. Este impulso responde principalmente a normativas ambientales más estrictas y a una mayor demanda de cadenas de suministro sostenibles.",
+          "extracto": "Un nuevo informe de mercado estima que la industria global de fabricación electrónica sostenible experimentará un crecimiento exponencial durante la próxima década. Este impulso estará motivado principalmente por normativas ecológicas más rigurosas y la adopción de cadenas de suministro sostenibles.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21204,7 +21202,7 @@
         },
         {
           "titular": "Tesla vs. BYD: Which EV Giant Is Better Charged Right Now?",
-          "extracto": "Analistas señalan que Tesla mantiene una ventaja competitiva frente a BYD debido a su mayor demanda, mejores márgenes y avances en conducción autónoma. En contraste, el fabricante chino enfrenta desafíos comerciales internos, acumulación de inventario y barreras internacionales.",
+          "extracto": "Tesla mantiene ventajas competitivas frente a competidores como BYD gracias a una mayor demanda de vehículos eléctricos, mejores márgenes y avances en su tecnología autónoma. En contraste, el fabricante chino enfrenta desafíos debido a la contracción del mercado local, el exceso de inventario y barreras comerciales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21220,14 +21218,6 @@
       "var_dia_pct": -0.5467,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 235.23
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 235.23
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 235.23
@@ -22146,6 +22136,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 276.52
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 276.52
           }
         ],
@@ -27993,7 +27987,7 @@
       "noticias": [
         {
           "titular": "The top 5 analyst questions from McDonald's’s Q3 2026 earnings call",
-          "extracto": "Las acciones de McDonald's experimentaron un repunte positivo en el tercer trimestre gracias a una mayor rentabilidad lograda mediante el control de costos y estrategias digitales, a pesar de no alcanzar las expectativas de ingresos de Wall Street.",
+          "extracto": "Las acciones de McDonald's experimentaron una fuerte subida tras su tercer trimestre gracias a una mayor rentabilidad y un estricto control de costos, compensando los menores ingresos previstos. La estrategia incluyó ofertas digitales y un renovado enfoque en el valor para recuperar clientes en Estados Unidos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28002,7 +27996,7 @@
         },
         {
           "titular": "McDonald’s Just Became a Dividend King. Is It Still a Buy for Retirement?",
-          "extracto": "A pesar de mantener medio siglo de aumentos en sus dividendos, McDonald's enfrenta desafíos financieros debido a la disminución del flujo de clientes en Estados Unidos y al incremento en los costos de su deuda.",
+          "extracto": "A pesar de mantener medio siglo de aumentos en sus dividendos, McDonald's enfrenta el reto de una menor afluencia de clientes en el mercado estadounidense y el incremento de sus costos de deuda. Analistas evalúan la solidez financiera de la empresa y su capacidad para sostener estos pagos a los inversores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28011,7 +28005,7 @@
         },
         {
           "titular": "Warren Buffett, 96, credits Coke and McDonald's for his long life",
-          "extracto": "",
+          "extracto": "Un inversionista famoso mantiene un inusual estilo de vida y hábitos alimenticios diarios que incluyen múltiples refrescos y comida rápida, detalles que compartió públicamente en conversaciones financieras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28020,7 +28014,7 @@
         },
         {
           "titular": "Which fast food burger chain has the best value meal deal?",
-          "extracto": "",
+          "extracto": "Un análisis de mercado reciente evaluó y contrastó los costos de los menús económicos ofrecidos por tres de las principales cadenas de comida rápida: McDonald's, Burger King y Wendy's.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28029,7 +28023,7 @@
         },
         {
           "titular": "SCHD Just Hit a Record High Following Midterm Election Results. I'd Still Rather Buy This Dividend King for Passive Income.",
-          "extracto": "",
+          "extracto": "Los inversores están incrementando sus inversiones en acciones y fondos cotizados que ofrecen dividendos debido al cambio de control político en el Congreso estadounidense impulsado por los demócratas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28582,14 +28576,6 @@
       "var_dia_pct": -0.9927,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 535.07
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 535.07
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 535.07
@@ -29524,6 +29510,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 530.61
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 530.61
           }
         ],
@@ -35370,17 +35360,26 @@
       },
       "noticias": [
         {
-          "titular": "Dow Jones Futures Rise, Techs Slide A Nvidia Probes CEO Jensen Huang Spying Case",
-          "extracto": "Mientras el mercado bursátil general sufre caídas, gigantes tecnológicos como Apple, Amazon y Microsoft muestran resistencia. Paralelamente, Nvidia investiga un caso de espionaje relacionado con su director ejecutivo, Jensen Huang.",
+          "titular": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
+          "extracto": "Los mercados de futuros experimentaron un repunte tras anunciarse que la junta directiva de Nvidia investiga una acusación de espionaje extranjero vinculada a su máximo ejecutivo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-          "fecha": "2026-11-09T00:45:30+00:00"
+          "url": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures-rise-as.html?.tsrc=rss",
+          "fecha": "2026-11-09T04:14:47+00:00"
+        },
+        {
+          "titular": "Microsoft's Oracle move raises new question for investors",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.thestreet.com/investing/stocks/microsofts-oracle-move-raises-new-question-for-investors?.tsrc=rss",
+          "fecha": "2026-11-09T03:47:00+00:00"
         },
         {
           "titular": "Microsoft Is Reportedly Getting Pickier About AI Data Center Deals. Is the Stock a Buy Now?",
-          "extracto": "La reducción en el alquiler de capacidad de computación para inteligencia artificial genera dudas sobre su impacto real en la liquidez y las finanzas de la compañía de software afectada.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -35389,7 +35388,7 @@
         },
         {
           "titular": "Microsoft (MSFT) Makes the 10 Best Dow Stocks for 2027 List as Azure Growth Speeds Up",
-          "extracto": "Microsoft ocupó el décimo lugar en una lista reciente de los mejores valores del Dow Jones para 2027, en un contexto donde los principales índices bursátiles registraron pérdidas significativas.",
+          "extracto": "Microsoft ocupó el décimo lugar en una lista de valores destacados para 2027, en una jornada donde los principales índices bursátiles de Estados Unidos registraron caídas significativas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -35398,21 +35397,12 @@
         },
         {
           "titular": "Top 3 Quality Stocks To Watch In November 2026",
-          "extracto": "Una fuerte caída en el sector tecnológico impulsada por la inteligencia artificial demuestra los riesgos de concentrar las inversiones en una sola temática de mercado. Ante este escenario, analistas sugieren voltear la mirada hacia empresas con bases financieras sólidas y alta rentabilidad.",
+          "extracto": "Una fuerte caída en el sector tecnológico impulsada por la inteligencia artificial expuso la volatilidad del mercado, lo que lleva a destacar empresas con finanzas sólidas que suelen pasar desapercibidas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-quality-stocks-watch-091315093.html?.tsrc=rss",
           "fecha": "2026-11-08T09:13:15+00:00"
-        },
-        {
-          "titular": "Lumen Technologies (LUMN) Could Be 47% Undervalued On Fresh Third Quarter Results",
-          "extracto": "Lumen Technologies reportó ingresos por 2.720 millones de dólares y pérdidas netas en su tercer trimestre, reflejando una caída acumulada importante en el valor de sus acciones durante el año a pesar de los compromisos de expansión en fibra óptica.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lumen-technologies-lumn-could-47-140858911.html?.tsrc=rss",
-          "fecha": "2026-11-08T14:08:58+00:00"
         }
       ],
       "fundamentales": {
@@ -36001,14 +35991,6 @@
       "var_dia_pct": 0.7077,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 213.44
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 213.44
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 213.44
@@ -36943,6 +36925,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 214.87
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 214.87
           }
         ],
@@ -42290,7 +42276,7 @@
       "noticias": [
         {
           "titular": "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
-          "extracto": "A dos semanas de su esperado lanzamiento por parte de Rockstar Games, las primeras métricas indican que \"Grand Theft Auto VI\" podría romper récords de preventa en la industria.",
+          "extracto": "Nuevos datos indican que la demanda inicial para el próximo videojuego Grand Theft Auto VI podría batir récords de ventas. El título desarrollado por Rockstar Games tiene su lanzamiento previsto para dentro de dos semanas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42299,7 +42285,7 @@
         },
         {
           "titular": "Take-Two Expects 20% Growth From GTA VI. Roblox Guides Its Holiday Bookings Down 15%",
-          "extracto": "Las acciones de Roblox experimentaron un incremento del 15% durante la semana hasta alcanzar los 49 dólares, recuperándose de una caída previa tras la presentación de sus resultados financieros.",
+          "extracto": "Las acciones de Roblox experimentaron un incremento del 15% durante la semana hasta alcanzar los 49 dólares. Este repunte acerca al valor bursátil a las estimaciones promedio de los analistas tras una caída previa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42308,7 +42294,7 @@
         },
         {
           "titular": "ETFs Are Net Sellers of Take-Two (TTWO) on Nov. 3",
-          "extracto": "Los fondos cotizados en bolsa registraron ventas netas por valor de 19,9 millones de dólares en acciones de Take-Two Interactive durante la jornada del martes.",
+          "extracto": "Los fondos cotizados en bolsa registraron ventas netas de 19,9 millones de dólares en acciones de Take-Two Interactive durante la jornada del martes. Este movimiento refleja ajustes en la posición del mercado respecto a la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42317,7 +42303,7 @@
         },
         {
           "titular": "Is Take Two Interactive Software (TTWO) Above Fair Value On Cash Flow?",
-          "extracto": "Tras un descenso anual en su cotización que dejó las acciones en 194,99 dólares, los inversores analizan si el valor actual de Take-Two Interactive refleja adecuadamente su futura capacidad de generación de efectivo.",
+          "extracto": "Las acciones de Take-Two Interactive cerraron recientemente en 194,99 dólares tras una caída acumulada en el año. Esta situación genera dudas entre los inversionistas sobre si la actual valoración de mercado corresponde con la futura capacidad de generar efectivo de la empresa.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42326,7 +42312,7 @@
         },
         {
           "titular": "Why Take Two Stock Is Up 8.9% And What's Next",
-          "extracto": "Una encuesta de Piper Sandler reveló que el 70% de los propietarios recientes de consolas planea adquirir \"Grand Theft Auto VI\", lo que respalda las expectativas de ingresos recurrentes a través de su modalidad en línea.",
+          "extracto": "Una encuesta reciente de Piper Sandler reveló que una abrumadora mayoría de los propietarios de consolas planea adquirir Grand Theft Auto VI y participar en su plataforma en línea. Este alto nivel de interés refuerza las expectativas de ingresos recurrentes para Take-Two Interactive en un periodo de ganancias moderadas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -42823,14 +42809,6 @@
       "var_dia_pct": 0.2997,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-10T01:00:00",
-            "valor": 715.59
-          },
-          {
-            "fecha": "2026-10-10T07:00:00",
-            "valor": 715.59
-          },
           {
             "fecha": "2026-10-10T08:00:00",
             "valor": 715.59
@@ -43749,6 +43727,10 @@
           },
           {
             "fecha": "2026-11-09T00:00:00",
+            "valor": 675.99
+          },
+          {
+            "fecha": "2026-11-09T07:00:00",
             "valor": 675.99
           }
         ],
@@ -49596,7 +49578,7 @@
       "noticias": [
         {
           "titular": "Should You Buy VOO Before the Market Rebounds?",
-          "extracto": "La reciente caída en el índice S&P 500 tras las elecciones ha generado preocupación entre los inversores, aunque algunos analistas sugieren que podría representar una oportunidad de compra atractiva. Este comportamiento del mercado refleja la incertidumbre típica de los periodos electorales.",
+          "extracto": "La caída bursátil posterior a las elecciones ha generado desconcierto entre los inversores, quienes analizan si representa una oportunidad favorable para adquirir activos. Este descenso repentino obliga a repensar las estrategias a corto plazo en el mercado financiero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49605,7 +49587,7 @@
         },
         {
           "titular": "VOO Is Down 6% From Its High. Over the Past Year It's Up 10%. Which Number Should Investors Focus On?",
-          "extracto": "Los mercados financieros respondieron de manera negativa y abrupta a los recientes resultados electorales, generando dudas sobre la dirección de las tendencias económicas a largo plazo. Los expertos analizan si esta reacción es temporal o si alterará el panorama financiero futuro.",
+          "extracto": "Los resultados electorales provocaron una fuerte caída en los mercados financieros, generando dudas sobre la estabilidad de las tendencias a largo plazo. Analistas y operadores evalúan si este impacto negativo alterará de forma permanente la dirección de la economía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49614,7 +49596,7 @@
         },
         {
           "titular": "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today",
-          "extracto": "A pesar de que las cifras actuales se han visto impulsadas por un ciclo bursátil inusualmente robusto, el crecimiento normalizado a largo plazo sigue ofreciendo rendimientos significativos. Esto demuestra la importancia de mantener una perspectiva amplia al evaluar el rendimiento financiero.",
+          "extracto": "Aunque el rendimiento reciente se vio potenciado por una racha excepcionalmente favorable para las acciones, mantener una perspectiva a largo plazo permite obtener ganancias significativas incluso con tasas de crecimiento más moderadas. Esto demuestra la importancia de la paciencia en la acumulación de patrimonio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49623,7 +49605,7 @@
         },
         {
           "titular": "Warren Buffett's Retirement Strategy Has a Catch: VOO Alone May Not Be Enough in 2026",
-          "extracto": "La estrategia de inversión 90/10 popularizada por Warren Buffett combina acciones para la acumulación de riqueza y bonos gubernamentales para mitigar la volatilidad. Este enfoque resulta especialmente relevante para los jubilados que dependen de retiros regulares de sus carteras en momentos de incertidumbre.",
+          "extracto": "La conocida estrategia de inversión noventa-diez de Warren Buffett combina el crecimiento a largo plazo de las acciones con la estabilidad de los bonos gubernamentales a corto plazo para mitigar la volatilidad. Este enfoque resulta especialmente relevante para los jubilados que dependen de retiros regulares de sus carteras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49632,7 +49614,7 @@
         },
         {
           "titular": "The Stock Market Has Boomed After the Last 19 Midterms. Whether Trump Wins or Loses on Tuesday, Wednesday Could be the Day to Buy",
-          "extracto": "Los datos históricos de las elecciones de mitad de mandato muestran un patrón de crecimiento positivo en el S&P 500 durante los meses posteriores desde 1950. Esta tendencia histórica sugiere perspectivas favorables para diversos fondos cotizados en bolsa en el corto plazo.",
+          "extracto": "Históricamente, el índice S&P 500 ha mostrado un comportamiento positivo entre noviembre y abril en todos los años electorales de mitad de mandato desde 1950. Esta tendencia estacional sugiere un escenario favorable para diversos fondos cotizados en bolsa en los meses posteriores a los comicios.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49828,7 +49810,7 @@
               "valor": 141.34
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 141.34
             }
           ],
@@ -55177,14 +55159,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-10-10T01:00:00",
-              "valor": 242.27
-            },
-            {
-              "fecha": "2026-10-10T07:00:00",
-              "valor": 242.27
-            },
-            {
               "fecha": "2026-10-10T08:00:00",
               "valor": 242.27
             },
@@ -56118,6 +56092,10 @@
             },
             {
               "fecha": "2026-11-09T00:00:00",
+              "valor": 239.3
+            },
+            {
+              "fecha": "2026-11-09T07:00:00",
               "valor": 239.3
             }
           ],
@@ -61778,7 +61756,7 @@
               "valor": 93.85
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 93.85
             }
           ],
@@ -67119,7 +67097,7 @@
               "valor": 86.95
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 86.95
             }
           ],
@@ -72604,7 +72582,7 @@
               "valor": 558.63
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 558.63
             }
           ],
@@ -78109,7 +78087,7 @@
               "valor": 452.8
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 452.8
             }
           ],
@@ -83594,7 +83572,7 @@
               "valor": 101.97
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 101.97
             }
           ],
@@ -89011,7 +88989,7 @@
               "valor": 284.78
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 284.78
             }
           ],
@@ -94104,7 +94082,7 @@
               "valor": 610.15
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 610.15
             }
           ],
@@ -99165,7 +99143,7 @@
               "valor": 449.04
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 449.04
             }
           ],
@@ -104354,7 +104332,7 @@
               "valor": 56.28
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 56.28
             }
           ],
@@ -109759,7 +109737,7 @@
               "valor": 116.1
             },
             {
-              "fecha": "2026-11-09T00:00:00",
+              "fecha": "2026-11-09T07:00:00",
               "valor": 116.1
             }
           ],
