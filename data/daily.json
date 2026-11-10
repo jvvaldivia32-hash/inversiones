@@ -1,182 +1,40 @@
 {
-  "generado": "2026-11-10T10:00:19.076210+00:00",
-  "errores": [],
+  "generado": "2026-11-10T17:17:42.320216+00:00",
+  "errores": [
+    "Gemini no respondió: noticias sin resumen"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Citizens raises Via Transportation stock price target on strong quarterly results",
-        "resumen": "",
+        "titulo_neutral": "Valoracion y planes de la salida a bolsa de Anthropic",
+        "resumen": "La empresa de inteligencia artificial Anthropic ha dado inicio a los trámites para su oferta pública inicial con el objetivo de alcanzar una valoración colosal en Wall Street. Paralelamente, se desarrollan acontecimientos políticos clave a nivel internacional, incluyendo unas elecciones decisivas en territorio israelí y viajes diplomáticos controvertidos. Estos sucesos marcan la pauta económica y geopolítica actual en los mercados globales.",
         "articulos": [
           {
-            "titular": "Citizens raises Via Transportation stock price target on strong quarterly results",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/citizens-raises-via-transportation-stock-price-target-on-strong-quarterly-results-93CH-5014495",
-            "fecha": "2026-11-10T09:52:52+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Citizens reiterates Bicara Therapeutics stock rating on trial progress",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Citizens reiterates Bicara Therapeutics stock rating on trial progress",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-bicara-therapeutics-stock-rating-on-trial-progress-93CH-5014494",
-            "fecha": "2026-11-10T09:52:51+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Acciones de Nvidia relacionadas con controles de exportacion y escandalo en China",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Nvidia faces increased chip export controls amid Huang scandal- The Information",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/nvidia-faces-increased-chip-export-controls-amid-huang-scandal-the-information-93CH-5013845",
-            "fecha": "2026-11-10T09:52:50+00:00"
-          },
-          {
-            "titular": "Short seller claims Nvidia's China scandal runs deeper than Megaspeed",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=6e04b5eb-b807-4968-90fc-2a422a290a4f&mod=mw_rss_bulletins",
-            "fecha": "2026-11-10T00:57:07+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro",
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "Investing.com",
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Aura Biosciences stock rating maintained at outperform by Citizens",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Aura Biosciences stock rating maintained at outperform by Citizens",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/aura-biosciences-stock-rating-maintained-at-outperform-by-citizens-93CH-5014493",
-            "fecha": "2026-11-10T09:52:48+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Fed governor says a half-point hike may be needed if Oct. CPI is hot",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Fed governor says a half-point hike may be needed if Oct. CPI is hot",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=6946b21e-6923-4e1a-b20a-53d3d433289f&mod=mw_rss_bulletins",
-            "fecha": "2026-11-10T09:29:22+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Francia acusa a Iran por ciberataques a supermercados",
-        "resumen": "El gobierno francés responsabiliza a la Guardia Revolucionaria de Irán por un sabotaje informático reciente que afectó a los sistemas de refrigeración de múltiples supermercados, provocando la pérdida de grandes cantidades de alimentos. Ante esta situación, las autoridades de París planean solicitar medidas punitivas conjuntas a nivel europeo contra la nación persa. Este incidente subraya la creciente vulnerabilidad de las infraestructuras civiles frente a ciberataques estatales.",
-        "articulos": [
-          {
-            "titular": "France threatens actions against Iran over supermarket cyberattacks",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/france/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
-            "fecha": "2026-11-10T07:43:55+00:00"
-          },
-          {
-            "titular": "France blames Iran for cyberattack on supermarket fridges",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/video/20261109-france-blames-iran-for-cyberattack-on-supermarket-fridges",
-            "fecha": "2026-11-09T22:33:12+00:00"
-          },
-          {
-            "titular": "France accuses Iran of supermarket fridge hacking",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-11-09T20:20:08+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "France24",
-          "BBC"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Salida a bolsa de Anthropic",
-        "resumen": "El podcast repasa varios acontecimientos económicos y políticos de relevancia internacional, destacando los preparativos de Anthropic para su oferta pública de venta y el inicio de unas elecciones cruciales en Israel. Asimismo, menciona un viaje de Donald Trump Jr. y un cambio en las tendencias vacacionales de los europeos debido a conflictos geopolíticos. Estos temas ofrecen una panorámica rápida de los asuntos que dominan la actualidad global.",
-        "articulos": [
-          {
-            "titular": "Morning Bid: Anthropic IPO - Please try again - Reuters",
+            "titular": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CeC1RN1hvWlBLQ0hHeVpIRS1lOU14N1J6a1pDc1FPRG84VnZ0Zi1fZEo0VUZoVWJyemFNaFQzcmd4djB5TlJNS3JITXBlMWxfYnZ4dDJUS1FhZS1jVjhQMEpReXFuMlZOU3lURE5pcWtoTHlLbk8xWEEtMWNMZ0U?oc=5",
-            "fecha": "2026-11-10T05:31:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUtnS210c1pKNVpEZXJ1V1JpdUdyZ0h5OGh2SzVCXzJaVGRwaDZnb0NQZUxFS0ZFWmxwbU53ZlJtdlBkOWplZHdaNkloU0xwV3hvdlpjNnh0R1FISXdMOExfc09JckJqTWxjSWlZSjZpN0RWR1kyRUF6YUlXN0dqSm5XQU5TUmFmbWpFbGlzT3FZRllaMGU4cld0cDlsaFVYY0IzV2ZNYmwxYW0yd1FDaw?oc=5",
+            "fecha": "2026-11-10T17:10:14+00:00"
+          },
+          {
+            "titular": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-11-10T14:46:50+00:00"
+          },
+          {
+            "titular": "Anthropic backs away from $2 trillion ambition in new IPO filing",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=1319f7e6-f310-40ba-89d8-d9ed63936a61&mod=mw_rss_bulletins",
+            "fecha": "2026-11-10T13:14:02+00:00"
           },
           {
             "titular": "Anthropic details ‘existential risks to humanity’ in IPO filing",
@@ -189,26 +47,114 @@
           }
         ],
         "leans_presentes": [
-          "centro"
+          "centro",
+          "centro-derecha"
         ],
         "grupos_presentes": [
           "Reuters",
+          "BBC",
+          "MarketWatch",
           "Financial Times"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Gold prices ease as focus shifts to US inflation data - Reuters",
-        "resumen": "Los precios del oro experimentaron un descenso mientras los mercados financieros centran su atención en la inminente publicación de los datos sobre la inflación en Estados Unidos. Los inversores ajustan sus posiciones a la espera de indicadores que podrían definir los próximos movimientos de la Reserva Federal. Esta variación refleja la sensibilidad del metal precioso ante los reportes macroeconómicos clave.",
+        "titulo_neutral": "Presentaciones de empresas en la conferencia de Guggenheim",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Gold prices ease as focus shifts to US inflation data - Reuters",
+            "titular": "Spero Therapeutics at guggenheim conference: SP001 drives next phase",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/transcripts/spero-therapeutics-at-guggenheim-conference-sp001-drives-next-phase-93CH-5016350",
+            "fecha": "2026-11-10T17:01:11+00:00"
+          },
+          {
+            "titular": "Arcutis Biotherapeutics at Guggenheim conference: growth story expands",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/transcripts/arcutis-biotherapeutics-at-guggenheim-conference-growth-story-expands-93CH-5016347",
+            "fecha": "2026-11-10T17:00:36+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Evolucion de la bolsa de Suecia",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Sweden stocks higher at close of trade; OMX Stockholm 30 up 0.54%",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/stock-market-news/sweden-stocks-higher-at-close-of-trade-omx-stockholm-30-up-054-5016343",
+            "fecha": "2026-11-10T17:00:29+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Declaraciones oficiales de Iran",
+        "resumen": "Numerosos establecimientos comerciales sufrieron fallos eléctricos en sus sistemas de refrigeración el mes pasado, lo que provocó la pérdida masiva de productos perecederos. Este incidente afectó tanto a alimentos frescos como congelados en gran cantidad de supermercados. Las pérdidas materiales reflejan la vulnerabilidad de las cadenas de suministro ante fallos técnicos imprevistos.",
+        "articulos": [
+          {
+            "titular": "Iran’s top security official says no talks underway with US",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/commodities-news/irans-top-security-official-says-no-talks-underway-with-us-5016341",
+            "fecha": "2026-11-10T17:00:26+00:00"
+          },
+          {
+            "titular": "Iran rejects French claims it was behind supermarket fridge hacking",
+            "extracto": "",
+            "medio": "BBC",
+            "grupo": "BBC",
+            "lean": "centro",
+            "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+            "fecha": "2026-11-10T13:45:13+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com",
+          "BBC"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Cancelacion de la cotizacion de Dangote Cement en Londres",
+        "resumen": "La compañía Dangote Cement ha decidido suspender sus planes de cotización en la bolsa de Londres. Esta decisión responde a la situación actual del mercado y representa un revés significativo para la plaza financiera británica. La empresa prefirió posponer su estreno bursátil ante un panorama desfavorable.",
+        "articulos": [
+          {
+            "titular": "Dangote Cement shelves London listing, blames market conditions in blow to LSE - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUUt5d0NsOEFXZzVGWU5qOFFwbGtuT0pyM3RMcTR3ZDRXYzFqV1NkM1VadUV0VzdNUFpZREVYLU1mdWFpSDE5V0w3Qlo5X1luTXVXRkZKNHQ1bXY1X0VCNHRienZVbnhQdE93UWFYRk41T0Fhd2tiQ2dpZzF2WEZmM0hVTFpjMVFzR2JhNlpWN0R5ZkFCY0JkRUVuYw?oc=5",
-            "fecha": "2026-11-10T03:31:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUk4TVJGaGdfSG8zcWRESzVmRWpmbTI3X1RaSl8xZXlndVJ4X3BmS0xTeVhpZGtmSzAyeG82M0ZlSUdVMGVOTmgzdV85TFIzV1pzd0xrQWRFNXp0am1TTG9TWlRhOHBXVDc0UlFxVGRON1ZMY09sZlA5Um9aenFNc0tVLTJYQkszSDZQWjI1bkFfQzgyVVU4UEpfVVZrTUFxX1RyMl9vbmlGM2xUQjYxQWFSZlE2LVktbG4yUnI2WUo?oc=5",
+            "fecha": "2026-11-10T16:29:47+00:00"
           }
         ],
         "leans_presentes": [
@@ -218,83 +164,187 @@
           "Reuters"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Reaccion de los mercados financieros ante los datos de inflacion",
+        "resumen": "Los mercados bursátiles estadounidenses registraron caídas generalizadas tras la publicación de un informe de inflación superior a lo esperado. Este dato intensificó la preocupación de los inversores ante posibles nuevas subidas de tipos de interés por parte de la Reserva Federal. La reacción inmediata reflejó el nerviosismo en Wall Street ante las presiones inflacionarias.",
+        "articulos": [
+          {
+            "titular": "Wall St falls as hot inflation data fuels rate-hike jitters - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
+            "fecha": "2026-11-10T15:21:14+00:00"
+          },
+          {
+            "titular": "Instant view: Hot October inflation report rattles markets - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGxVcWRPUjR6aDlqZEVjYjNScVg4MHpQRXQ0Z1VBLU5WbENmYi1XWlJUOWt3MFdlNGdJcVlaRjEtUzZUd0dYVXJDTEY2Ung1Nm9meGZfWFpUYnVPbElHQjJIaW9pVUQwWWY0czJsMEV0YkNTNmh0SDA5MVM3dVhaRUI1Q19JLTlIVFM3SHJKSEU3MmNZczROOExR?oc=5",
+            "fecha": "2026-11-10T14:51:39+00:00"
+          },
+          {
+            "titular": "Stocks set for lower open as bond yields jump after inflation data — follow live",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=c05bed66-3713-4d30-8393-fa348b112099&mod=mw_rss_bulletins",
+            "fecha": "2026-11-10T13:46:53+00:00"
+          },
+          {
+            "titular": "Sharp rise in consumer prices may cement Fed hike next month — live updates",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=0759efab-11b1-49b1-a4a6-6462a4a4392c&mod=mw_rss_bulletins",
+            "fecha": "2026-11-10T13:39:10+00:00"
+          },
+          {
+            "titular": "Economic calendar: Inflation data; later, it's several Fed speakers",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=0eafb7a5-fb84-4034-9d42-7cc05e5705b9&mod=mw_rss_bulletins",
+            "fecha": "2026-11-10T12:33:40+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro",
+          "centro-derecha"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "MarketWatch"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Politica y elecciones en Estados Unidos",
+        "resumen": "Tras los comicios de mitad de mandato, Washington afronta un escenario de parálisis legislativa ante la división gubernamental. En el ámbito internacional, Rusia acordó suministrar lanzadores de misiles avanzados a Irán, mientras los mercados reaccionan con optimismo financiero tras el avance demócrata. Estos movimientos combinan la incertidumbre política interna con tensiones geopolíticas crecientes.",
+        "articulos": [
+          {
+            "titular": "How will the Democrats’ sweep shape policy and markets?",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/how-will-the-democrats-sweep-shape-policy-and-markets",
+            "fecha": "2026-11-05T05:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Evolucion de las acciones de Alphabet en el mercado bursatil",
+        "resumen": "Las acciones de Alphabet sufrieron un descenso notable durante la jornada bursátil del jueves, impactando fuertemente en su valor de mercado. Mientras tanto, la empresa británica Nscale busca financiar su próxima salida a bolsa mediante un ambicioso proyecto de centros de datos de inteligencia artificial. Además, los mercados ya evalúan el futuro del Banco Central Europeo tras el anuncio de la dimisión de su máxima dirigente.",
+        "articulos": [
+          {
+            "titular": "Alphabet’s brutal day on the stock market",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/alphabets-brutal-day-on-the-stock-market",
+            "fecha": "2026-10-30T05:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Financial Times"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Competencia por la compra del edificio Isidora 3000",
-        "resumen": "Próximamente se adjudicarán la placa comercial, las oficinas y los estacionamientos de un importante complejo inmobiliario a uno de los postores finalistas. El proceso se encuentra en su fase decisiva tras la presentación de propuestas vinculantes. Se prevé que el traspaso total de los activos concluya antes de finalizar el año.",
-        "articulos": [
-          {
-            "titular": "Confuturo, Credicorp, Ameris y alianza Falcom-Territoria compiten por la compra del edificio Isidora 3000",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/fondos-de-inversion/dos-agf-una-alianza-y-una-aseguradora-venta-de-isidora-3000-entra-en-su",
-            "fecha": "2026-11-10T09:56:59+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Investigacion al CEO de Nvidia por espionaje",
-        "resumen": "Nvidia inició una indagatoria interna tras recibir advertencias desde la inteligencia estadounidense sobre supuestos vínculos de una colaboradora con redes de espionaje en China. La revisión busca determinar si la persona involucrada tuvo acceso indebido a información corporativa reservada. Tras la revelación periodística del caso, el valor bursátil de la compañía tecnológica experimentó un retroceso superior al cuatro por ciento.",
-        "articulos": [
-          {
-            "titular": "Una presunta espía, un romance y secretos tecnológicos: la trama que sacude a Nvidia",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/economia/una-presunta-espia-un-romance-y-secretos-tecnologicos-la-trama-que-sacude",
-            "fecha": "2026-11-10T09:52:54+00:00"
-          },
-          {
-            "titular": "Trump asegura que el FBI está investigando al CEO de Nvidia por posible espionaje extranjero",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/multinacionales/las-acciones-de-nvidia-caen-mientras-investiga-si-su-ceo-fue-objetivo-de",
-            "fecha": "2026-11-09T23:26:05+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Debate por la presidencia de la CPC",
+        "titulo_neutral": "Exministro Briones prevé crecimiento de 2,8% para el próximo año y lanza críticas al Fonavi",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Walker y Von Appen marcan diferencias sobre empleo, crecimiento y liderazgo en el primer debate por presidir la CPC",
+            "titular": "Exministro Briones prevé crecimiento de 2,8% para el próximo año y lanza críticas al Fonavi",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/laboral-personas/walker-y-von-appen-marcan-diferencias-en-el-primer-debate-por-presidir-la",
-            "fecha": "2026-11-10T09:45:33+00:00"
+            "url": "http://www.df.cl/economia-y-politica/macro/briones-preve-crecimiento-de-2-8-para-el-proximo-ano-y-lanza-criticas-al",
+            "fecha": "2026-11-10T17:01:02+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Copelec y Enel inauguran estación de carga de electromovilidad en Chillán Viejo para transporte pesado",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Copelec y Enel inauguran estación de carga de electromovilidad en Chillán Viejo para transporte pesado",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/regiones/nuble/empresas/copelec-y-enel-inauguran-estacion-de-carga-de-electromovilidad-en-chillan",
+            "fecha": "2026-11-10T16:57:43+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Reacción del mercado financiero e impacto en el dólar tras el IPC de Estados Unidos",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Dólar se dispara $ 15 al inicio de la tarde por compras globales tras la sorpresa al alza en el IPC estadounidense",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/bolsa-monedas/dolar-hoy-go6di",
+            "fecha": "2026-11-10T16:56:31+00:00"
           },
           {
-            "titular": "¿Debería salir el ministro Rabat? “Señal importante” y “le hubiera hecho un gran favor al Presidente”, respondieron los aspirantes a liderar la CPC",
+            "titular": "Bolsa chilena revierte alza inicial mientras las tasas cortas de EEUU se disparan tras un IPC de octubre que superó los pronósticos",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/pais/deberia-salir-el-ministro-rabat-senal-importante-y-le-hubiera-hecho-un",
-            "fecha": "2026-11-10T09:00:15+00:00"
+            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-ebapu",
+            "fecha": "2026-11-10T16:02:51+00:00"
+          },
+          {
+            "titular": "Inflación de Estados Unidos entrega nuevas señales de alerta para la Reserva Federal",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/economia/inflacion-de-estados-unidos-entrega-nuevas-senales-de-alerta-para-la",
+            "fecha": "2026-11-10T15:36:33+00:00"
           }
         ],
         "leans_presentes": [
@@ -306,17 +356,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Declaraciones sobre la deuda a septiembre del CFA",
-        "resumen": "Un especialista en economía valoró la intención del Gobierno de cumplir con los objetivos fiscales previstos para el presente ejercicio. Sin embargo, alertó sobre los obstáculos financieros que podrían surgir para sostener dichas metas durante los próximos periodos.",
+        "titulo_neutral": "Mercado vuelve a recortar proyección de PIB y ahora anticipa que la economía chilena no crecerá este año",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Sebastián Izquierdo, vicepresidente del CFA: “La deuda a septiembre no es una alerta, pero sí muestra que queda poco margen”",
+            "titular": "Mercado vuelve a recortar proyección de PIB y ahora anticipa que la economía chilena no crecerá este año",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/sebastian-izquierdo-vicepresidente-del-consejo-fiscal-autonomo-cfa-la",
-            "fecha": "2026-11-10T09:15:04+00:00"
+            "url": "http://www.df.cl/economia-y-politica/macro/mercado-vuelve-a-recortar-proyeccion-de-pib-y-ahora-anticipa-que-la",
+            "fecha": "2026-11-10T16:54:20+00:00"
           }
         ],
         "leans_presentes": [
@@ -328,17 +378,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Historia de la Daimler Reitwagen",
-        "resumen": "A finales del siglo XIX, un joven alemán realizó con éxito un recorrido de tres kilómetros a bordo de un primitivo vehículo de dos ruedas provisto de un motor de gasolina. Este acontecimiento marcó un punto de inflexión fundamental en el desarrollo de la ingeniería del transporte y la movilidad moderna. La prueba demostró la viabilidad técnica de los sistemas de propulsión por combustión interna aplicados a estructuras ligeras.",
+        "titulo_neutral": "Gobierno impulsa concesionar terrenos fiscales para proyectos energéticos, inmobiliarios y desarrollo turístico",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "La gesta de la Daimler Reitwagen: El día en que la gasolina echó a rodar sobre dos ruedas",
+            "titular": "Gobierno impulsa concesionar terrenos fiscales para proyectos energéticos, inmobiliarios y desarrollo turístico",
             "extracto": "",
-            "medio": "The Clinic",
+            "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/10/la-gesta-de-la-daimler-reitwagen-el-dia-en-que-la-gasolina-echo-a-rodar-sobre-dos-ruedas/",
-            "fecha": "2026-11-10T08:00:00+00:00"
+            "url": "https://www.ex-ante.cl/negocios/mapa-concesiones-onerosas-terrenos-fisco/",
+            "fecha": "2026-11-10T16:49:55+00:00"
           }
         ],
         "leans_presentes": [
@@ -350,17 +400,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Condena por maltrato animal en Cauquenes",
-        "resumen": "Un hombre de edad avanzada fue sentenciado a más de tres años de presidio bajo la modalidad de libertad vigilada y al pago de una multa económica tras un grave incidente de crueldad contra animales domésticos. El tribunal determinó además la prohibición perpetua de tener mascotas para el imputado. El fallo se originó tras comprobarse su ingreso ilegal a una propiedad vecina donde agredió mortalmente a dos perros.",
+        "titulo_neutral": "Los exfuncionarios del gobierno de Boric detrás de la redacción de la AC contra Rabat",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Ingresó al predio de su vecina en Cauquenes y mató a sus dos perros: Hombre condenado de por vida a no tener animales tras grave caso de maltrato",
+            "titular": "Los exfuncionarios del gobierno de Boric detrás de la redacción de la AC contra Rabat",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/09/ingreso-al-predio-de-su-vecina-en-cauquenes-y-mato-a-sus-dos-perros-hombre-condenado-de-por-vida-a-no-tener-mascotas-tras-grave-caso-de-maltrato-animal/",
-            "fecha": "2026-11-10T01:17:54+00:00"
+            "url": "https://www.theclinic.cl/2026/11/10/los-exfuncionarios-del-gobierno-de-boric-detras-de-la-redaccion-de-la-ac-contra-rabat/",
+            "fecha": "2026-11-10T16:43:44+00:00"
           }
         ],
         "leans_presentes": [
@@ -372,80 +422,80 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Investigacion por robo a sucursal BCI en Concepcion",
-        "resumen": "Un cuantioso robo perpetrado en las instalaciones de una institución bancaria durante el fin de semana dejó en evidencia deficiencias críticas en los protocolos de vigilancia. Las autoridades locales colaboraron en la investigación aportando registros audiovisuales que detallan la planificación del ilícito. Este hecho ha generado preocupación sobre la seguridad de las bóvedas en el sector financiero.",
+        "titulo_neutral": "Laura Pausini a un paso de Viña 2027 tras los rumores de su baja: la cantante y Lucho Miranda serían los primeros artistas en cerrar su participación",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Robo a sucursal BCI en Concepción: botín podría superar los $ 5 mil millones y fiscalía investiga red con al menos 10 involucrados",
+            "titular": "Laura Pausini a un paso de Viña 2027 tras los rumores de su baja: la cantante y Lucho Miranda serían los primeros artistas en cerrar su participación",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/biobio/empresas/autoridades-apuntan-a-que-organizacion-criminal-estaria-tras-robo-de-3",
-            "fecha": "2026-11-10T01:11:35+00:00"
+            "url": "https://www.theclinic.cl/2026/11/10/laura-pausini-a-un-paso-de-vina-2027-tras-los-rumores-de-su-baja-la-cantante-y-lucho-miranda-serian-los-primeros-artistas-en-cerrar-su-participacion/",
+            "fecha": "2026-11-10T16:33:53+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Postura del PS sobre Codelco y activos de la cuprera",
-        "resumen": "Una agrupación política expresó su escepticismo ante las explicaciones entregadas por altos funcionarios de gobierno y el titular del directorio sobre anomalías en los procesos de fabricación. Los parlamentarios cuestionaron la solidez de los antecedentes presentados respecto a las fallas operativas. Las críticas apuntan a esclarecer las responsabilidades institucionales en el caso.",
+        "titulo_neutral": "La reinvención del ADN escandinavo: Polestar revela la Formula 2030 Concept",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "PS acusa \"espectáculo comunicacional\" para desprestigiar a Codelco y \"luego vender barato\" activos de la cuprera",
+            "titular": "La reinvención del ADN escandinavo: Polestar revela la Formula 2030 Concept",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "The Clinic",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/mineria/ps-acusa-espectaculo-comunicacional-para-desprestigiar-a-codelco-y-luego",
-            "fecha": "2026-11-10T00:14:39+00:00"
+            "url": "https://www.theclinic.cl/2026/11/10/polestar-formula-2030-concept-futuro-electrico/",
+            "fecha": "2026-11-10T16:31:53+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro"
+          "independiente"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Trump says more US attacks on Iran 'highly unlikely'",
+        "titular": "Israel's new parliament sworn in as leaders compete to form government",
         "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T09:40:31+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-11-10T17:03:16+00:00"
       },
       {
-        "titular": "Watch: Man smashes Chinese government building with excavator",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/ckp8g8p4myv8o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T09:37:15+00:00"
-      },
-      {
-        "titular": "Three workers die at Tata’s iPhone parts plant in India’s Tamil Nadu",
+        "titular": "Security forces seized top court, Somalia’s ex-chief justice says",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/10/three-workers-die-at-tatas-iphone-parts-plant-in-indias-tamil-nadu?traffic_source=rss",
-        "fecha": "2026-11-10T09:29:54+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/security-forces-seized-top-court-somalias-ex-chief-justice-says?traffic_source=rss",
+        "fecha": "2026-11-10T17:02:23+00:00"
       },
       {
-        "titular": "Police officer dies and another injured after backpack explosion in Oviedo",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T09:26:20+00:00"
+        "titular": "Sports legends whose political fortunes may be a lesson to Riner ahead of presidential bid",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/sport/20261110-sports-legends-whose-political-fortunes-may-be-a-lesson-to-riner-ahead-of-presidential-bid",
+        "fecha": "2026-11-10T16:59:00+00:00"
       },
       {
-        "titular": "US to skip UN human rights review, drawing censure - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEtsLVNMZXJDNlczNHVhVV9EdzZaaDdXeXBGa3lRd25ZVWF5X0NSUTg2aFlWaWVaZHpGM29qUVlxSlZjWkdyQUdBckt2bFlXZUFqYk1pei1iZF9zZ2tKXzdnY0NyNDRiWWpqaHlPZkliMVk1aGxDRDMyekozcU5jQl9maTZBTWtkeWh3NEJTZXlFVWI5TW9UbmtSdHhPbVBO?oc=5",
-        "fecha": "2026-11-10T09:21:43+00:00"
+        "titular": "Kristallnacht' 88th anniversary: Merz says Germany faces historic test over antisemitism",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20261110-kristallnacht-88th-anniversary-merz-says-germany-faces-historic-test-over-antisemitism",
+        "fecha": "2026-11-10T16:47:50+00:00"
+      },
+      {
+        "titular": "US Pentagon chief Pete Hegseth calls impeachment moves 'a farce'",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20261110-us-pentagon-chief-pete-hegseth-calls-impeachment-moves-a-farce",
+        "fecha": "2026-11-10T16:43:39+00:00"
       }
     ]
   },
@@ -453,18 +503,10 @@
     {
       "ticker": "ADBE",
       "nombre": "ADBE",
-      "precio": 237.32,
-      "var_dia_pct": -0.8274,
+      "precio": 234.38,
+      "var_dia_pct": -1.2388,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 242.27
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 242.27
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 242.27
@@ -1388,6 +1430,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 237.32
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 234.38
           }
         ],
         "6M": [
@@ -1901,7 +1947,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 237.32
+            "valor": 234.38
           }
         ],
         "YTD": [
@@ -2783,7 +2829,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 237.32
+            "valor": 234.38
           }
         ],
         "1A": [
@@ -3805,7 +3851,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 237.32
+            "valor": 234.38
           }
         ],
         "5A": [
@@ -4851,7 +4897,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 237.32
+            "valor": 234.38
           }
         ],
         "10A": [
@@ -6937,65 +6983,65 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 237.32
+            "valor": 234.38
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -27.849480298607855,
-          "3A": -26.475771974763074,
-          "5A": -18.461014036042258,
-          "10A": 8.514761743346977
+          "1A": -28.74391360815578,
+          "3A": -26.78057932619946,
+          "5A": -18.66429927117671,
+          "10A": 8.379259508368708
         },
-        "volatilidad_anual_pct": 40.604717613397575,
+        "volatilidad_anual_pct": 40.65327148592839,
         "caida_maxima_5a_pct": -71.90319159754202
       },
       "noticias": [
         {
-          "titular": "What Could Walt Disney (DIS) AI Push Mean For Its Creative Future?",
-          "extracto": "Adobe y Walt Disney firmaron una alianza plurianual para integrar inteligencia artificial en diversas áreas creativas y de marketing de la compañía de entretenimiento. Esta colaboración busca transformar la producción de contenidos en cine, televisión y parques temáticos utilizando tecnología avanzada.",
+          "titular": "Adobe and Google Deepen Partnership to Bring Leading AI Models and Integrated Workflows to Creatives and Enterprises",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/could-walt-disney-dis-ai-021255201.html?.tsrc=rss",
-          "fecha": "2026-11-10T02:12:55+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-google-deepen-partnership-bring-140400160.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:04:00+00:00"
         },
         {
-          "titular": "Adobe (ADBE) Expands AI Reach, Is The 25% Discount Too Wide?",
-          "extracto": "Adobe integró su herramienta CX Enterprise Coworker en múltiples plataformas de inteligencia artificial para uso empresarial y de marketing. A pesar de estos avances en productos tecnológicos, el valor de las acciones de la compañía ha registrado caídas significativas tanto en el año como en los últimos tres años.",
+          "titular": "Adobe Brings Agentic AI to the Content Supply Chain with CX Enterprise Coworker",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-expands-ai-reach-200712841.html?.tsrc=rss",
-          "fecha": "2026-11-09T20:07:12+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-brings-agentic-ai-content-140300776.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:03:00+00:00"
         },
         {
-          "titular": "Disney Signs Adobe AI Deal Amid Reported Job Cut Plans",
-          "extracto": "La empresa de entretenimiento aseguró que la implementación de nuevas tecnologías no sustituirá los puestos de trabajo tradicionales de diseño y creación, aun cuando se analizan reducciones masivas de personal.",
+          "titular": "Adobe Transforms Its Creative Cloud Tools Into Agentic Workflows Built with the Precision and Control Pros Expect, Giving Creatives More Time for Their Craft",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/disney-signs-adobe-ai-deal-184604112.html?.tsrc=rss",
-          "fecha": "2026-11-09T18:46:04+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-transforms-creative-cloud-tools-140200322.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:02:00+00:00"
         },
         {
-          "titular": "Adobe and The Walt Disney Company Announce Multi-Year Strategic Alliance to Support Disney Innovation with New AI-Powered Tools",
-          "extracto": "Durante la conferencia Adobe MAX, Adobe y The Walt Disney Company formalizaron una alianza estratégica plurianual para impulsar la innovación y el desarrollo de nuevas narrativas mediante el uso de tecnologías avanzadas.",
+          "titular": "Adobe Firefly Expands as the AI Creative Studio, Bringing Adobe’s Trusted Creative Tools to Every Creator",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-walt-disney-company-announce-140000285.html?.tsrc=rss",
-          "fecha": "2026-11-09T14:00:00+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-firefly-expands-ai-creative-140100956.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:01:00+00:00"
         },
         {
-          "titular": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
-          "extracto": "Una entidad financiera pronostica posibles dificultades para la expansión comercial de la empresa tecnológica durante el próximo periodo, lo que genera dudas sobre si el mercado ya ha descontado este escenario.",
+          "titular": "Adobe Powers a New Era of Creativity, Bringing Agents and Tools to Creatives Wherever and However They Create",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/?.tsrc=rss",
-          "fecha": "2026-11-09T08:57:02+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/adobe-powers-era-creativity-bringing-140000660.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:00:00+00:00"
         }
       ],
       "fundamentales": {
@@ -7472,8 +7518,8 @@
       "_segmentos_accession": "0000796343-26-000147",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 92364.944,
-        "enterprise_value_musd": 94368.944,
+        "market_cap_musd": 91220.696,
+        "enterprise_value_musd": 93224.696,
         "deuda_neta_musd": 2004.0,
         "deuda_neta_ebitda": 0.19625893644109293,
         "deuda_patrimonio": 0.54,
@@ -7483,32 +7529,24 @@
         "roe_pct": 61.91771506290378,
         "roic_pct": 67.33730389308542,
         "roce_pct": 51.24081136351075,
-        "pe": 13.250697934115019,
-        "ev_ingresos": 3.633767577974586,
-        "ev_ebitda": 9.241890510234061,
-        "p_vl": 7.851491329479769,
+        "pe": 13.086543830262423,
+        "ev_ingresos": 3.5897072006160955,
+        "ev_ebitda": 9.129830183135834,
+        "p_vl": 7.754224413464808,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 357.53,
         "minimo_52s": 193.41,
-        "beta": 1.063705472548333
+        "beta": 1.064064676592701
       }
     },
     {
       "ticker": "BRK.B",
       "nombre": "BRK.B",
-      "precio": 575.25,
-      "var_dia_pct": 0.7637,
+      "precio": 581.98,
+      "var_dia_pct": 1.1699,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 515.62
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 515.62
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 515.62
@@ -8412,6 +8450,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 575.25
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 581.98
           }
         ],
         "6M": [
@@ -9017,7 +9059,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 575.25
+            "valor": 581.98
           }
         ],
         "YTD": [
@@ -9991,7 +10033,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 575.25
+            "valor": 581.98
           }
         ],
         "1A": [
@@ -11105,7 +11147,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 575.25
+            "valor": 581.98
           }
         ],
         "5A": [
@@ -12155,7 +12197,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 575.25
+            "valor": 581.98
           }
         ],
         "10A": [
@@ -14245,24 +14287,51 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 575.25
+            "valor": 581.98
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": 15.76072041862988,
-          "3A": 17.94559742735842,
-          "5A": 15.020707326874728,
-          "10A": 13.846528383306289
+          "1A": 17.11596834426059,
+          "3A": 18.40366933946005,
+          "5A": 15.288918929717333,
+          "10A": 13.979333591157971
         },
-        "volatilidad_anual_pct": 15.083956142830694,
+        "volatilidad_anual_pct": 15.134592833216875,
         "caida_maxima_5a_pct": -25.571412643550005
       },
       "noticias": [
         {
+          "titular": "Google Stock Is Now Cheaper Than What Berkshire Hathaway Paid. Is It Time to Buy?",
+          "extracto": "Las acciones Clase A de Alphabet registraron una caída del 12,6 por ciento en octubre. Este descenso refleja movimientos significativos en el valor de mercado de la compañía tecnológica.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.tikr.com/blog/google-stock-is-now-cheaper-than-what-berkshire-hathaway-paid-is-it-time-to-buy?ref=yahoofinance&tlnk=yf-261110-hp3c6mq6&.tsrc=rss",
+          "fecha": "2026-11-10T12:49:51+00:00"
+        },
+        {
+          "titular": "'I Lost Money’: Billionaire Charlie Munger, 99, Said He Rode Out a Losing Bet Until He Got Back to Almost What He Paid — ‘I Was Stubborn’",
+          "extracto": "La frustración ante la caída bursátil y el deseo de recuperar el capital invertido es una experiencia común entre los inversionistas. Incluso figuras legendarias como el difunto vicepresidente de Berkshire Hathaway, Charlie Munger, experimentaron este tipo de desafíos emocionales y estratégicos.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lost-money-billionaire-charlie-munger-123005193.html?.tsrc=rss",
+          "fecha": "2026-11-10T12:30:05+00:00"
+        },
+        {
+          "titular": "What State Street Fin. Select Sector SPDR (XLF) Sold: Berkshire Leads on Friday",
+          "extracto": "Un fondo de gran envergadura redujo su participación al vender activos en la totalidad de sus posiciones. Entre estas operaciones, la disminución realizada por Berkshire Hathaway destacó como la de mayor volumen económico.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110451080.html?.tsrc=rss",
+          "fecha": "2026-11-10T11:04:51+00:00"
+        },
+        {
           "titular": "The Buffett Indicator Is Flashing Red. These 3 Dividend Stocks Could Be Safe Havens.",
-          "extracto": "Un indicador financiero sugiere que las bolsas de valores actuales podrian estar cotizando por encima de su valor real. Este analisis genera cautela entre los inversores respecto a una posible correccion en los precios de las acciones.",
+          "extracto": "Determinados indicadores financieros sugieren que los precios actuales en el mercado de valores podrían encontrarse por encima de su valor real. Esta situación genera cautela entre los analistas respecto a posibles correcciones futuras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14271,39 +14340,12 @@
         },
         {
           "titular": "Warren Buffett's Successor, Greg Abel, Just Added Another Tech Stock to Berkshire's Portfolio. Here's What He Sees.",
-          "extracto": "El conglomerado de Warren Buffett incremento su inversion en la empresa tecnologica Bending Spoons. La operacion busca diversificar la cartera, aunque analistas advierten sobre los riesgos financieros asociados a este tipo de apuestas.",
+          "extracto": "El conglomerado Berkshire Hathaway incrementó su inversión en la empresa Bending Spoons mediante una inyección de capital significativa. La decisión responde a la alineación estratégica con los objetivos del fondo, aunque también conlleva riesgos específicos asociados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/09/warren-buffetts-successor-greg-abel-just-added-ano/?.tsrc=rss",
           "fecha": "2026-11-10T04:20:00+00:00"
-        },
-        {
-          "titular": "Berkshire May Be Buying Class A Stock Directly From Holders to Boost Repurchases",
-          "extracto": "Durante el tercer trimestre, la empresa de Warren Buffett compro miles de millones de dolares en sus propias acciones. La mayor parte de la recompra correspondio a titulos de Clase B, reflejando la estrategia de capital de la firma.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/302ad37d-13d2-3744-b952-9809a4a43507/berkshire-may-be-buying-class.html?.tsrc=rss",
-          "fecha": "2026-11-10T00:12:00+00:00"
-        },
-        {
-          "titular": "Berkshire Kept Buying Back Stock as Shares Hit Records. Here’s What the Price It Paid Tells You.",
-          "extracto": "Los registros financieros revelan los rangos de precio en los que los directivos consideraron oportuno adquirir titulos propios. Esta informacion permite observar como ha evolucionado la valoracion de la empresa en el mercado bursatil.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/09/berkshire-kept-buying-back-stock-as-shares-hit-records-heres-what-the-price-it-paid-tells-you/?.tsrc=rss",
-          "fecha": "2026-11-09T23:52:01+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway May Have Sold More Bank of America Stock in the Third Quarter",
-          "extracto": "El ultimo reporte trimestral de la empresa de inversiones sugiere movimientos recientes en participaciones bancarias y tecnologicas. Estos datos anticipan los cambios que seran revelados formalmente en su proxima declaracion de cartera.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/f199ef30-e7f6-3cf2-aeb5-2a1564162340/berkshire-hathaway-may-have.html?.tsrc=rss",
-          "fecha": "2026-11-09T21:54:00+00:00"
         }
       ],
       "fundamentales": {
@@ -14590,9 +14632,9 @@
         "p_vl": null,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
-        "maximo_52s": 579.09,
+        "maximo_52s": 581.98,
         "minimo_52s": 465.4,
-        "beta": 0.7419469967942814
+        "beta": 0.7414117450256492
       }
     },
     {
@@ -14602,14 +14644,6 @@
       "var_dia_pct": -3.0688,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 9.64
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 9.64
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 9.64
@@ -15512,6 +15546,10 @@
           },
           {
             "fecha": "2026-11-10T10:00:00",
+            "valor": 9.16
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
             "valor": 9.16
           }
         ],
@@ -21183,7 +21221,7 @@
       "noticias": [
         {
           "titular": "EU states oppose Franco-German car emissions pact – report",
-          "extracto": "Alemania y Francia alcanzaron un acuerdo para flexibilizar las metas de neutralidad climática en vehículos de pasajeros de la Unión Europea. La medida busca proteger la industria automotriz nacional de ambos países.",
+          "extracto": "Alemania y Francia pactaron una postura conjunta para suavizar las metas de neutralidad climática de la Unión Europea en vehículos de pasajeros, buscando proteger su industria automotriz local. Este acuerdo busca equilibrar las políticas ambientales comunitarias con la viabilidad de la manufactura nacional en ambos países.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21192,7 +21230,7 @@
         },
         {
           "titular": "Jaguar Land Rover raids BYD offices over ‘copycat Defender’",
-          "extracto": "La compañía británica Jaguar Land Rover realizó una inspección en las instalaciones de BYD tras acusar a la automotriz china de plagiar el diseño exterior de su popular modelo todoterreno Defender.",
+          "extracto": "La compañía Jaguar Land Rover inspeccionó las oficinas de BYD tras interponer una acusación por presunto plagio estético en su emblemático modelo todoterreno. El conflicto legal pone de relieve la intensa competencia y la protección de propiedad intelectual en el sector de vehículos utilitarios.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21201,7 +21239,7 @@
         },
         {
           "titular": "Scottish Mortgage NAV total return rises 31.5% as SpaceX listing and Moderna trial success lift performance",
-          "extracto": "El fondo Scottish Mortgage Investment Trust reportó un rendimiento positivo en su valor de activo neto durante el semestre concluido en septiembre, superando el desempeño general del índice global de referencia.",
+          "extracto": "El fondo de inversión Scottish Mortgage reportó un rendimiento positivo superior al treinta por ciento en su valor neto de activos durante el semestre cerrado en septiembre. Este resultado superó de manera significativa el desempeño general del índice bursátil mundial de referencia.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21210,7 +21248,7 @@
         },
         {
           "titular": "Zero To Sixty: Fort Worth Gets Tesla Robotaxi While UBS Upgrades Rivian And Citigroup Shuffles EV Holdings",
-          "extracto": "Tesla amplió su servicio de taxis autónomos a una nueva ciudad estadounidense, mientras que varias firmas financieras ajustaron sus calificaciones e inversiones en empresas del sector de vehículos eléctricos tras sólidos reportes de ventas mensuales.",
+          "extracto": "Tesla amplió las operaciones de sus taxis autónomos sin supervisión a una nueva ciudad estadounidense, coincidiendo con ajustes financieros favorables para varias firmas del sector. Paralelamente, importantes competidores asiáticos reportaron un crecimiento notable en sus volúmenes de entrega de vehículos durante octubre.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21219,7 +21257,7 @@
         },
         {
           "titular": "Green Electronics Manufacturing - Global Strategic Business Report 2026: Capitalize on a 24.6% CAGR and $90.8 Billion by 2032, Led by Apple, BYD, Foxconn, Samsung, and Siemens",
-          "extracto": "Un nuevo informe de mercado proyecta un fuerte crecimiento para el sector de fabricación de electrónica ecológica durante la próxima década. Este incremento estará impulsado principalmente por normativas ambientales más rigurosas y cadenas de suministro sostenibles.",
+          "extracto": "Un reciente informe de mercado proyecta que la industria global de fabricación electrónica sostenible experimentará un crecimiento exponencial durante la próxima década. Este aumento estará impulsado principalmente por normativas ambientales más rigurosas y la adopción de cadenas de suministro sostenibles.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21231,18 +21269,10 @@
     {
       "ticker": "MCD",
       "nombre": "MCD",
-      "precio": 281.44,
-      "var_dia_pct": 1.7793,
+      "precio": 282.68,
+      "var_dia_pct": 0.4406,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 235.23
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 235.23
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 235.23
@@ -22146,6 +22176,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 281.44
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 282.68
           }
         ],
         "6M": [
@@ -22751,7 +22785,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 281.44
+            "valor": 282.68
           }
         ],
         "YTD": [
@@ -23725,7 +23759,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 281.44
+            "valor": 282.68
           }
         ],
         "1A": [
@@ -24839,7 +24873,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 281.44
+            "valor": 282.68
           }
         ],
         "5A": [
@@ -25889,7 +25923,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 281.44
+            "valor": 282.68
           }
         ],
         "10A": [
@@ -27979,65 +28013,65 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 281.44
+            "valor": 282.68
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -5.90830200904734,
-          "3A": 1.670629829306236,
-          "5A": 2.345581450474876,
-          "10A": 8.919794074061805
+          "1A": -5.493457655315681,
+          "3A": 1.8196943348309125,
+          "5A": 2.4357191659877264,
+          "10A": 8.96780004304103
         },
-        "volatilidad_anual_pct": 20.792902254972255,
+        "volatilidad_anual_pct": 20.788579765858806,
         "caida_maxima_5a_pct": -32.305166246408255
       },
       "noticias": [
         {
-          "titular": "McDonald’s connects loyalty program with Uber",
+          "titular": "Madonna, Bruno Mars, Megan Moroney, Detroit Lions, McDonald’s and Other Leading Brands Headline Community’s Launch of a New Era in Interactive Fan Engagement",
           "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.customerexperiencedive.com/news/mcdonalds-connects-loyalty-program-with-uber/874154/?.tsrc=rss",
-          "fecha": "2026-11-09T19:11:49+00:00"
+          "url": "https://finance.yahoo.com/media-advertising/articles/madonna-bruno-mars-megan-moroney-171200818.html?.tsrc=rss",
+          "fecha": "2026-11-10T17:12:00+00:00"
         },
         {
-          "titular": "McDonald’s Stock Jumped 7% Last Week. Is Its Earnings Beat Really That Good?",
+          "titular": "McDonald's vs Wendy's: What's the Better Fast-Food Stock to Buy Right Now?",
           "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.tikr.com/blog/mcdonalds-stock-jumped-7-last-week-is-its-earnings-beat-really-that-good?ref=yahoofinance&tlnk=yf-261109-cw58p56r&.tsrc=rss",
-          "fecha": "2026-11-09T18:37:24+00:00"
+          "url": "https://www.fool.com/investing/2026/11/10/mcdonald-s-vs-wendy-s-what-s-the-better-fast-food-stock-to-buy-right-now/?.tsrc=rss",
+          "fecha": "2026-11-10T17:11:02+00:00"
         },
         {
-          "titular": "MCD Stock Outlook: Wall Street Eyes a Potential Upside Breakout After Q3 Results",
+          "titular": "What Is Next For McDonald's Stock?",
           "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/11/09/mcd-stock-outlook-wall-street-eyes-a-potential-upside-breakout-after-q3-results/?.tsrc=rss",
-          "fecha": "2026-11-09T18:03:05+00:00"
+          "url": "https://www.trefis.com/stock/mcd/articles/623977/what-is-next-for-mcdonalds-stock/2026-11-10?.tsrc=rss",
+          "fecha": "2026-11-10T15:31:32+00:00"
         },
         {
-          "titular": "Uber to Power McDonald's App Deliveries as Partnership Widens",
+          "titular": "McDonald’s latest menu change will cost you more money",
           "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/uber-power-mcdonalds-app-deliveries-172246844.html?.tsrc=rss",
-          "fecha": "2026-11-09T17:22:46+00:00"
+          "url": "https://www.thestreet.com/restaurants/mcdonalds-plans-big-expansion-to-its-beverage-lineup?.tsrc=rss",
+          "fecha": "2026-11-10T15:07:00+00:00"
         },
         {
-          "titular": "McDonald's expands its partnership with Uber",
+          "titular": "McDonald's Expands Uber Partnership in 14 Markets",
           "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.nrn.com/quick-service/mcdonald-s-is-integrating-delivery-into-its-mobile-app?.tsrc=rss",
-          "fecha": "2026-11-09T17:04:06+00:00"
+          "url": "https://finance.yahoo.com/media-advertising/articles/mcdonalds-expands-uber-partnership-14-120006950.html?.tsrc=rss",
+          "fecha": "2026-11-10T12:00:06+00:00"
         }
       ],
       "fundamentales": {
@@ -28556,8 +28590,8 @@
       "_segmentos_accession": "0000063908-26-000080",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000080/exhibit991-9302026.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 198636.05835136,
-        "enterprise_value_musd": 239063.05835136,
+        "market_cap_musd": 199511.23143392,
+        "enterprise_value_musd": 239938.23143392,
         "deuda_neta_musd": 40427.0,
         "deuda_neta_ebitda": 2.99326225381312,
         "deuda_patrimonio": -121.34,
@@ -28567,32 +28601,24 @@
         "roe_pct": -2622.4489795918366,
         "roic_pct": 32.53667298672787,
         "roce_pct": 22.94955040560277,
-        "pe": 22.26582278481013,
-        "ev_ingresos": 8.604962146402707,
-        "ev_ebitda": 17.70050780033763,
-        "p_vl": -579.1138727444898,
-        "dividend_yield_pct": 2.6435474701534964,
+        "pe": 22.363924050632914,
+        "ev_ingresos": 8.636463589155568,
+        "ev_ebitda": 17.76530663660003,
+        "p_vl": -581.6653977665306,
+        "dividend_yield_pct": 2.6319513230508,
         "payout_ratio_pct": 58.8607594936709,
         "maximo_52s": 341.06,
         "minimo_52s": 230.88,
-        "beta": 0.6165022920080273
+        "beta": 0.6163418968023636
       }
     },
     {
       "ticker": "MSFT",
       "nombre": "MSFT",
-      "precio": 545.18,
-      "var_dia_pct": 2.7459,
+      "precio": 543.55,
+      "var_dia_pct": -0.299,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 535.07
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 535.07
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 535.07
@@ -29516,6 +29542,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 545.18
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 543.55
           }
         ],
         "6M": [
@@ -30121,7 +30151,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 545.18
+            "valor": 543.55
           }
         ],
         "YTD": [
@@ -31095,7 +31125,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 545.18
+            "valor": 543.55
           }
         ],
         "1A": [
@@ -32209,7 +32239,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 545.18
+            "valor": 543.55
           }
         ],
         "5A": [
@@ -33259,7 +33289,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 545.18
+            "valor": 543.55
           }
         ],
         "10A": [
@@ -35349,65 +35379,65 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 545.18
+            "valor": 543.55
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": 7.748586849096073,
-          "3A": 13.822749891006358,
-          "5A": 10.130048345356602,
-          "10A": 24.683570012095046
+          "1A": 7.426215685286386,
+          "3A": 13.709225335481623,
+          "5A": 10.064033933324223,
+          "10A": 24.64615433156576
         },
-        "volatilidad_anual_pct": 33.41141228830826,
+        "volatilidad_anual_pct": 33.41077296352994,
         "caida_maxima_5a_pct": -35.47550348284807
       },
       "noticias": [
         {
-          "titular": "Tech leads stock rally as traders track Wall St rebound",
-          "extracto": "Las acciones repuntaron el martes en Wall Street, impulsadas por el sector tecnológico y una fuerte caída en los precios del petróleo que animó a los inversionistas. El índice Nasdaq lideró las ganancias con un incremento del 2,7 por ciento, tendencia que luego se replicó en los mercados asiáticos.",
+          "titular": "Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia",
+          "extracto": "Dos grandes empresas de inteligencia artificial reportaron excelentes resultados financieros, pero sus mercados reaccionaron de forma opuesta mientras una enfrenta tensiones internas. Esta divergencia genera incertidumbre sobre cómo los próximos informes del sector alterarán el liderazgo corporativo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss",
-          "fecha": "2026-11-10T08:23:52+00:00"
+          "url": "https://247wallst.com/investing/2026/11/10/microsoft-is-back-above-4-trillion-and-only-266-billion-behind-nvidia/?.tsrc=rss",
+          "fecha": "2026-11-10T16:53:55+00:00"
         },
         {
-          "titular": "Quantexa Launches Supply Chain Integrity & Fraud Solution with PwC, to Expose Hidden Risk Across Multi-Tier Supplier Networks",
-          "extracto": "Quantexa, en colaboración con PwC y Microsoft, lanzó una plataforma de inteligencia de decisiones orientada a la gestión de cadenas de suministro. La herramienta opera sobre la infraestructura de Azure para mitigar riesgos financieros y de cumplimiento normativo.",
+          "titular": "Andrew Ross Sorkin: Anthropic’s IPO Is “the Linchpin” for Amazon, Google and Microsoft",
+          "extracto": "Inversores interesados en la oferta pública inicial de Anthropic estiman una valoración inicial cercana a los 1,1 billones de dólares según informes recientes. Esta cifra refleja las expectativas del mercado financiero respecto al crecimiento de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/quantexa-launches-supply-chain-integrity-063000206.html?.tsrc=rss",
-          "fecha": "2026-11-10T06:30:00+00:00"
+          "url": "https://www.tikr.com/blog/andrew-ross-sorkin-anthropics-ipo-is-the-linchpin-for-amazon-google-and-microsoft?ref=yahoofinance&tlnk=yf-261110-4xq9whwj&.tsrc=rss",
+          "fecha": "2026-11-10T16:37:55+00:00"
         },
         {
-          "titular": "Microsoft (MSFT) Signs Global AI Safety Declaration",
-          "extracto": "Microsoft suscribió una declaración internacional sobre seguridad en inteligencia artificial mientras implementa agentes automatizados junto a Northern Trust. En paralelo, Bill Gates advirtió que la automatización laboral podría generar tensiones sociales si no se gestiona adecuadamente.",
+          "titular": "Microsoft Dumps Oracle. Good News: Those Old Chips Renew at a “20% Premium”",
+          "extracto": "Microsoft decidió finalizar un acuerdo de arrendamiento de infraestructura con Oracle debido a que el hardware disponible ya no cumple con sus requisitos técnicos actuales. Mientras tanto, otras empresas del sector continúan negociando contratos con equipos de procesamiento más antiguos a precios elevados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-signs-global-ai-042734846.html?.tsrc=rss",
-          "fecha": "2026-11-10T04:27:34+00:00"
+          "url": "https://www.tikr.com/blog/microsoft-dumps-oracle-good-news-those-old-chips-renew-at-a-20-premium?ref=yahoofinance&tlnk=yf-261110-hp4jrccf&.tsrc=rss",
+          "fecha": "2026-11-10T16:20:41+00:00"
         },
         {
-          "titular": "Soprano to Support Organisations Navigating Microsoft Entra MFA Changes",
-          "extracto": "La empresa australiana Soprano Design brindará asistencia a los usuarios de Microsoft Entra que requieran mantener la autenticación multifactor por voz y mensajes de texto. Este soporte surge ante la inminente retirada de dichos métodos por parte de Microsoft prevista para febrero de 2027.",
+          "titular": "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here’s Why",
+          "extracto": "El fondo de inversión GF Global Dividend de Liontrust registró un rendimiento negativo del 0,6% durante el tercer trimestre de 2026, quedando por debajo del índice MSCI AC World. A pesar de este retroceso trimestral, el fondo mantiene un desempeño acumulado positivo en lo que va del año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/soprano-support-organisations-navigating-microsoft-210000722.html?.tsrc=rss",
-          "fecha": "2026-11-09T21:00:00+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-surged-38-161649028.html?.tsrc=rss",
+          "fecha": "2026-11-10T16:16:49+00:00"
         },
         {
-          "titular": "Bill Gates Microsoft Copilot AI Predicts a SOL Crypto Explosion",
-          "extracto": "Una estimación generada a través de la inteligencia artificial de Microsoft proyecta que la criptomoneda Solana podría alcanzar valores de entre mil y dos mil dólares a principios de 2027. Dicho pronóstico optimista depende de la consolidación de un nuevo ciclo alcista en el mercado de activos digitales.",
+          "titular": "Fed’s Goolsbee Says AI Data Centers Look Like ‘Old-Fashioned Overheating’",
+          "extracto": "Los mercados accionarios experimentaron un repunte mientras los bonos a corto plazo mostraron señales contradictorias sobre la economía. Las advertencias de un funcionario de la Reserva Federal sobre el ritmo de inversión en inteligencia artificial evidencian interpretaciones divididas sobre el rumbo financiero actual.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://99bitcoins.com/news/altcoins/bill-gates-microsoft-copilot-ai-predicts-sol-crypto-explosion/?.tsrc=rss",
-          "fecha": "2026-11-09T20:37:52+00:00"
+          "url": "https://247wallst.com/investing/2026/11/10/feds-goolsbee-says-ai-data-centers-look-like-old-fashioned-overheating/?.tsrc=rss",
+          "fecha": "2026-11-10T15:38:42+00:00"
         }
       ],
       "fundamentales": {
@@ -35933,8 +35963,8 @@
       "_segmentos_accession": "0001193125-26-436122",
       "segmentos_fuente_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
       "metricas_avanzadas": {
-        "market_cap_musd": 4048612.74585936,
-        "enterprise_value_musd": 4063812.74585936,
+        "market_cap_musd": 4036508.0487395995,
+        "enterprise_value_musd": 4051708.0487395995,
         "deuda_neta_musd": 15200.0,
         "deuda_neta_ebitda": 0.07543761259808131,
         "deuda_patrimonio": 0.08,
@@ -35944,15 +35974,15 @@
         "roe_pct": 30.314191652019407,
         "roic_pct": 33.59851268969692,
         "roce_pct": 26.009228047526832,
-        "pe": 28.454070981210858,
-        "ev_ingresos": 11.730037223395806,
-        "ev_ebitda": 20.16870602587391,
-        "p_vl": 8.604750909885592,
-        "dividend_yield_pct": 0.6805091896254448,
+        "pe": 28.36899791231733,
+        "ev_ingresos": 11.695097486584016,
+        "ev_ebitda": 20.10863040403591,
+        "p_vl": 8.57902409675394,
+        "dividend_yield_pct": 0.6825499034127496,
         "payout_ratio_pct": 19.363256784968687,
         "maximo_52s": 555.8,
         "minimo_52s": 352.83,
-        "beta": 0.9896584888314343
+        "beta": 0.9894964957797289
       },
       "tesis": [
         {
@@ -35992,18 +36022,10 @@
     {
       "ticker": "TTWO",
       "nombre": "TTWO",
-      "precio": 207.4,
-      "var_dia_pct": -3.4765,
+      "precio": 223.44,
+      "var_dia_pct": 7.7338,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 213.44
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 213.44
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 213.44
@@ -36927,6 +36949,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 207.4
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 223.44
           }
         ],
         "6M": [
@@ -37368,7 +37394,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 207.4
+            "valor": 223.44
           }
         ],
         "YTD": [
@@ -38178,7 +38204,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 207.4
+            "valor": 223.44
           }
         ],
         "1A": [
@@ -39128,7 +39154,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 207.4
+            "valor": 223.44
           }
         ],
         "5A": [
@@ -40174,7 +40200,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 207.4
+            "valor": 223.44
           }
         ],
         "10A": [
@@ -42260,65 +42286,65 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 207.4
+            "valor": 223.44
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -11.397580841991706,
-          "3A": 11.932258652339755,
-          "5A": 2.0045109631352975,
-          "10A": 15.886464944086631
+          "1A": -4.540334223978171,
+          "3A": 14.745817492476188,
+          "5A": 3.537528477030527,
+          "10A": 16.754997446528552
         },
-        "volatilidad_anual_pct": 35.4940790886959,
+        "volatilidad_anual_pct": 36.01226109338442,
         "caida_maxima_5a_pct": -47.41521588670607
       },
       "noticias": [
         {
-          "titular": "Earnings live updates: 'Grand Theft Auto VI' preorders hit 'unprecedented levels,' Take-Two CEO says",
-          "extracto": "",
+          "titular": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI'",
+          "extracto": "La empresa Take-Two Interactive publicó sus resultados financieros y destacó que las reservas anticipadas para su próximo gran título superarán los registros históricos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html?.tsrc=rss",
-          "fecha": "2026-11-09T22:05:50+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/article/take-two-stock-rises-on-unprecedented-preorders-for-grand-theft-auto-vi-160644526.html?.tsrc=rss",
+          "fecha": "2026-11-10T16:06:44+00:00"
         },
         {
-          "titular": "GTA VI Preorders ‘Far In Excess Of Expectations…Numbers Will Speak Soon’ — CEO Boosts Expectations As TTWO Lifts Annual Forecasts",
-          "extracto": "",
+          "titular": "Take-Two touts 'unprecedented' GTA VI pre-sales, overshadowing lower Q2 revenue",
+          "extracto": "A pesar de una caída en los ingresos trimestrales, la atención de los analistas se centró en la alta demanda anticipada para la nueva entrega de Grand Theft Auto.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-preorders-far-in-excess-of-expectations-numbers-will-speak-soon-ceo-boosts-expectations-as-ttwo-lifts-annual-forecasts/cNGuacWR978?.tsrc=rss",
-          "fecha": "2026-11-10T08:13:12+00:00"
+          "url": "https://finance.yahoo.com/video/take-two-touts-unprecedented-gta-vi-pre-sales-overshadowing-lower-q2-revenue-145940021.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:59:40+00:00"
         },
         {
-          "titular": "Take-Two (TTWO) Q2 2027 Earnings Call Transcript",
-          "extracto": "",
+          "titular": "Take-Two Jumps 8% as GTA VI Preorders Run ‘Far in Excess’ of Expectations; Sony and Roblox Slide 2%",
+          "extracto": "Las acciones de la compañía de videojuegos registraron un incremento bursátil tras anunciar pronósticos muy favorables sobre las preventas de su franquicia principal.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/take-two-ttwo-q2-2027-earnings-call-transcript/?.tsrc=rss",
-          "fecha": "2026-11-10T06:46:41+00:00"
+          "url": "https://247wallst.com/investing/2026/11/10/take-two-jumps-8-as-gta-vi-preorders-run-far-in-excess-of-expectations-sony-and-roblox-slide-2/?.tsrc=rss",
+          "fecha": "2026-11-10T15:51:57+00:00"
         },
         {
-          "titular": "What Take-Two Interactive Software (TTWO) Said on Its Q2 Earnings Call",
-          "extracto": "",
+          "titular": "Is the imminent GTA VI launch already priced into Take-Two stock?",
+          "extracto": "Los títulos de la empresa registraron movimientos al alza previos a la apertura del mercado, a pesar del desempeño negativo acumulado durante el año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-what-take-two-interactive-software-ttwo-said-on-its-q2-earnings-call-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "fecha": "2026-11-10T03:14:34+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/imminent-gta-vi-launch-already-142613695.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:26:13+00:00"
         },
         {
-          "titular": "GTA VI Launches in 10 Days, and Take-Two's Forecast Might Be Too Low. Is the Stock a Buy Before Nov. 19?",
-          "extracto": "",
+          "titular": "TTWO Q2 Earnings Call Highlights GTA VI Outlook and Booking Trends",
+          "extracto": "La compañía mantuvo sus previsiones financieras anuales gracias al fuerte impulso en las reservas del nuevo videojuego, contrarrestando así la debilidad general en sus ingresos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/09/gta-vi-launches-in-10-days-and-take-two-s-forecast-might-be-too-low-is-the-stock-a-buy-before-nov-19/?.tsrc=rss",
-          "fecha": "2026-11-09T22:37:43+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ttwo-q2-earnings-call-highlights-142000934.html?.tsrc=rss",
+          "fecha": "2026-11-10T14:20:00+00:00"
         }
       ],
       "fundamentales": {
@@ -42781,8 +42807,8 @@
         "_accession": "0001628280-26-072254"
       },
       "metricas_avanzadas": {
-        "market_cap_musd": 38828.07741120001,
-        "enterprise_value_musd": 40198.47741120001,
+        "market_cap_musd": 41830.98175872,
+        "enterprise_value_musd": 43201.38175872,
         "deuda_neta_musd": 1370.4,
         "deuda_neta_ebitda": 92.59459459459453,
         "deuda_patrimonio": 0.69,
@@ -42793,31 +42819,23 @@
         "roic_pct": -3.5844567803330696,
         "roce_pct": -2.826457392092798,
         "pe": null,
-        "ev_ingresos": 6.271506842941169,
-        "ev_ebitda": 2716.113338594593,
-        "p_vl": 10.569489713414637,
+        "ev_ingresos": 6.740000586411221,
+        "ev_ebitda": 2919.0122809945924,
+        "p_vl": 11.38691794390244,
         "dividend_yield_pct": null,
         "payout_ratio_pct": null,
         "maximo_52s": 258.41,
         "minimo_52s": 189.69,
-        "beta": 0.6694704885784135
+        "beta": 0.6674084794377628
       }
     },
     {
       "ticker": "VOO",
       "nombre": "VOO",
-      "precio": 691.87,
-      "var_dia_pct": 2.3491,
+      "precio": 686.98,
+      "var_dia_pct": -0.7068,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T13:00:00",
-            "valor": 715.59
-          },
-          {
-            "fecha": "2026-10-11T15:00:00",
-            "valor": 715.59
-          },
           {
             "fecha": "2026-10-11T18:00:00",
             "valor": 715.59
@@ -43721,6 +43739,10 @@
           {
             "fecha": "2026-11-10T10:00:00",
             "valor": 691.87
+          },
+          {
+            "fecha": "2026-11-10T17:00:00",
+            "valor": 686.98
           }
         ],
         "6M": [
@@ -44326,7 +44348,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 691.87
+            "valor": 686.98
           }
         ],
         "YTD": [
@@ -45300,7 +45322,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 691.87
+            "valor": 686.98
           }
         ],
         "1A": [
@@ -46414,7 +46436,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 691.87
+            "valor": 686.98
           }
         ],
         "5A": [
@@ -47464,7 +47486,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 691.87
+            "valor": 686.98
           }
         ],
         "10A": [
@@ -49554,24 +49576,24 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 691.87
+            "valor": 686.98
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": 10.446957860006245,
-          "3A": 19.551633642703404,
-          "5A": 10.014309664609478,
-          "10A": 13.209210408751094
+          "1A": 9.665807883358823,
+          "3A": 19.269376036007536,
+          "5A": 9.858164033794491,
+          "10A": 13.128753582092422
         },
-        "volatilidad_anual_pct": 13.677785158248504,
+        "volatilidad_anual_pct": 13.701066420311095,
         "caida_maxima_5a_pct": -24.800146597338333
       },
       "noticias": [
         {
           "titular": "Warren Buffett's Instructions for His Wife's Inheritance Are 90% Stocks and 10% Bonds. Here's How That Mix Has Done Since 2000.",
-          "extracto": "Un análisis examina el rendimiento financiero de una inversión en bonos de cien mil dólares realizada en el año dos mil frente a las caídas bursátiles. Este estudio ayuda a los inversores a evaluar la estabilidad de dicha estrategia durante periodos de crisis en los mercados.",
+          "extracto": "Se analiza el rendimiento financiero de una inversión en bonos de alta denominación desde el año 2000, evaluando si superó las caídas del mercado accionario. Este estudio ayuda a los inversores a comprender el valor de diversificar con renta fija durante las crisis bursátiles.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49580,7 +49602,7 @@
         },
         {
           "titular": "Beyond the Election: 4 ETFs I'm Continuing to Buy No Matter What the Market Does in 2027",
-          "extracto": "Los expertos sugieren que las fluctuaciones financieras a corto plazo actuales pueden representar una ventana de oportunidad favorable para los inversores. Aprovechar estas oscilaciones podría maximizar la rentabilidad en las carteras a corto plazo.",
+          "extracto": "Los expertos sugieren que las fluctuaciones recientes en los mercados financieros podrían representar una oportunidad estratégica para operar a corto plazo. Aprovechar estas oscilaciones requiere atención a las señales económicas actuales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49589,7 +49611,7 @@
         },
         {
           "titular": "Should You Buy VOO Before the Market Rebounds?",
-          "extracto": "La caída abrupta del índice S&amp;P 500 tras las elecciones ha generado incertidumbre, aunque algunos analistas ven una posible oportunidad de compra. Este comportamiento del mercado refleja la reacción inicial de los inversores ante los cambios políticos.",
+          "extracto": "La caída abrupta registrada en el índice S&P 500 tras los comicios electorales ha generado preocupación, aunque algunos analistas la interpretan como un momento propicio para adquirir activos. Esta reacción inicial refleja la sensibilidad de los mercados ante los cambios políticos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49598,7 +49620,7 @@
         },
         {
           "titular": "VOO Is Down 6% From Its High. Over the Past Year It's Up 10%. Which Number Should Investors Focus On?",
-          "extracto": "Los resultados electorales provocaron una reacción adversa inmediata en los mercados financieros globales. Sin embargo, los expertos analizan si este fenómeno altera de forma significativa las tendencias económicas a largo plazo.",
+          "extracto": "Los resultados electorales provocaron una fuerte caída bursátil, generando dudas sobre si esto alterará la dirección económica a largo plazo. Los analistas debaten si se trata de un ajuste temporal o de un cambio estructural en la tendencia del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49607,7 +49629,7 @@
         },
         {
           "titular": "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today",
-          "extracto": "A pesar de que las cifras actuales se benefician de un periodo excepcionalmente fuerte para la bolsa, se proyecta que las ganancias normalizadas generarán retornos considerables a largo plazo. Esto demuestra el impacto positivo de la paciencia y el tiempo en la acumulación de riqueza bursátil.",
+          "extracto": "A pesar de que las cifras reflejan un ciclo bursátil excepcionalmente positivo, mantener inversiones a largo plazo permite generar ganancias significativas incluso bajo proyecciones moderadas. Esto demuestra el impacto positivo de la paciencia en la acumulación de patrimonio.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49622,20 +49644,20 @@
       {
         "ticker": "VOO",
         "nombre": "Vanguard S&P 500 ETF",
-        "precio": 691.87,
-        "var_dia_pct": 2.3491
+        "precio": 686.98,
+        "var_dia_pct": -0.7068
       },
       {
         "ticker": "QQQ",
         "nombre": "Invesco QQQ (Nasdaq-100)",
-        "precio": 679.35,
-        "var_dia_pct": 3.5437
+        "precio": 670.98,
+        "var_dia_pct": -1.2321
       },
       {
         "ticker": "VTI",
         "nombre": "Vanguard Total Stock Market ETF",
-        "precio": 370.9,
-        "var_dia_pct": 2.4784
+        "precio": 368.22,
+        "var_dia_pct": -0.7226
       }
     ],
     "chile": {
@@ -49807,8 +49829,8 @@
               "valor": 142.9
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 141.88
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 143.01
             }
           ],
           "6M": [
@@ -50250,7 +50272,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 141.88
+              "valor": 143.01
             }
           ],
           "YTD": [
@@ -51060,7 +51082,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 141.88
+              "valor": 143.01
             }
           ],
           "1A": [
@@ -52010,7 +52032,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 141.88
+              "valor": 143.01
             }
           ],
           "5A": [
@@ -53056,7 +53078,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 141.88
+              "valor": 143.01
             }
           ],
           "10A": [
@@ -55142,7 +55164,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 141.88
+              "valor": 143.01
             }
           ]
         }
@@ -55159,14 +55181,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-10-11T13:00:00",
-              "valor": 242.27
-            },
-            {
-              "fecha": "2026-10-11T15:00:00",
-              "valor": 242.27
-            },
             {
               "fecha": "2026-10-11T18:00:00",
               "valor": 242.27
@@ -56090,6 +56104,10 @@
             {
               "fecha": "2026-11-10T10:00:00",
               "valor": 237.32
+            },
+            {
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 234.38
             }
           ],
           "6M": [
@@ -56603,7 +56621,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 237.32
+              "valor": 234.38
             }
           ],
           "YTD": [
@@ -57485,7 +57503,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 237.32
+              "valor": 234.38
             }
           ],
           "1A": [
@@ -58507,7 +58525,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 237.32
+              "valor": 234.38
             }
           ],
           "5A": [
@@ -59553,7 +59571,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 237.32
+              "valor": 234.38
             }
           ],
           "10A": [
@@ -61639,7 +61657,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 237.32
+              "valor": 234.38
             }
           ]
         }
@@ -61761,8 +61779,8 @@
               "valor": 98.37
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 98.65
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 97.5
             }
           ],
           "6M": [
@@ -62156,7 +62174,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 98.65
+              "valor": 97.5
             }
           ],
           "YTD": [
@@ -62918,7 +62936,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 98.65
+              "valor": 97.5
             }
           ],
           "1A": [
@@ -63820,7 +63838,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 98.65
+              "valor": 97.5
             }
           ],
           "5A": [
@@ -64866,7 +64884,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 98.65
+              "valor": 97.5
             }
           ],
           "10A": [
@@ -66952,7 +66970,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 98.65
+              "valor": 97.5
             }
           ]
         }
@@ -66990,8 +67008,8 @@
               "valor": 110.65
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 110.51
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 109.96
             }
           ],
           "6M": [
@@ -67313,7 +67331,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 110.51
+              "valor": 109.96
             }
           ],
           "YTD": [
@@ -68003,7 +68021,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 110.51
+              "valor": 109.96
             }
           ],
           "1A": [
@@ -68833,7 +68851,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 110.51
+              "valor": 109.96
             }
           ],
           "5A": [
@@ -69879,7 +69897,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 110.51
+              "valor": 109.96
             }
           ],
           "10A": [
@@ -71965,7 +71983,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 110.51
+              "valor": 109.96
             }
           ]
         }
@@ -72123,8 +72141,8 @@
               "valor": 87.37
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 86.86
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 86.51
             }
           ],
           "6M": [
@@ -72566,7 +72584,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 86.86
+              "valor": 86.51
             }
           ],
           "YTD": [
@@ -73376,7 +73394,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 86.86
+              "valor": 86.51
             }
           ],
           "1A": [
@@ -74326,7 +74344,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 86.86
+              "valor": 86.51
             }
           ],
           "5A": [
@@ -75372,7 +75390,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 86.86
+              "valor": 86.51
             }
           ],
           "10A": [
@@ -77458,7 +77476,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 86.86
+              "valor": 86.51
             }
           ]
         }
@@ -77616,8 +77634,8 @@
               "valor": 594.54
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 598.88
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 575.55
             }
           ],
           "6M": [
@@ -78063,7 +78081,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 598.88
+              "valor": 575.55
             }
           ],
           "YTD": [
@@ -78877,7 +78895,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 598.88
+              "valor": 575.55
             }
           ],
           "1A": [
@@ -79831,7 +79849,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 598.88
+              "valor": 575.55
             }
           ],
           "5A": [
@@ -80881,7 +80899,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 598.88
+              "valor": 575.55
             }
           ],
           "10A": [
@@ -82971,7 +82989,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 598.88
+              "valor": 575.55
             }
           ]
         }
@@ -83129,8 +83147,8 @@
               "valor": 461.86
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 460.56
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 447.33
             }
           ],
           "6M": [
@@ -83572,7 +83590,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 460.56
+              "valor": 447.33
             }
           ],
           "YTD": [
@@ -84382,7 +84400,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 460.56
+              "valor": 447.33
             }
           ],
           "1A": [
@@ -85332,7 +85350,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 460.56
+              "valor": 447.33
             }
           ],
           "5A": [
@@ -86378,7 +86396,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 460.56
+              "valor": 447.33
             }
           ],
           "10A": [
@@ -88464,7 +88482,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 460.56
+              "valor": 447.33
             }
           ]
         }
@@ -88622,8 +88640,8 @@
               "valor": 103.66
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 102.76
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 99.49
             }
           ],
           "6M": [
@@ -89065,7 +89083,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 102.76
+              "valor": 99.49
             }
           ],
           "YTD": [
@@ -89875,7 +89893,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 102.76
+              "valor": 99.49
             }
           ],
           "1A": [
@@ -90825,7 +90843,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 102.76
+              "valor": 99.49
             }
           ],
           "5A": [
@@ -91871,7 +91889,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 102.76
+              "valor": 99.49
             }
           ],
           "10A": [
@@ -93957,7 +93975,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 102.76
+              "valor": 99.49
             }
           ]
         }
@@ -94051,8 +94069,8 @@
               "valor": 290.02
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 288.15
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 287.12
             }
           ],
           "6M": [
@@ -94406,7 +94424,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 288.15
+              "valor": 287.12
             }
           ],
           "YTD": [
@@ -95128,7 +95146,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 288.15
+              "valor": 287.12
             }
           ],
           "1A": [
@@ -95990,7 +96008,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 288.15
+              "valor": 287.12
             }
           ],
           "5A": [
@@ -97020,7 +97038,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 288.15
+              "valor": 287.12
             }
           ],
           "10A": [
@@ -99090,7 +99108,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 288.15
+              "valor": 287.12
             }
           ]
         }
@@ -99128,8 +99146,8 @@
               "valor": 176.95
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 178.67
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 167.35
             }
           ],
           "6M": [
@@ -99435,7 +99453,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 178.67
+              "valor": 167.35
             }
           ],
           "YTD": [
@@ -100109,7 +100127,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 178.67
+              "valor": 167.35
             }
           ],
           "1A": [
@@ -100923,7 +100941,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 178.67
+              "valor": 167.35
             }
           ],
           "5A": [
@@ -101953,7 +101971,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 178.67
+              "valor": 167.35
             }
           ],
           "10A": [
@@ -104023,7 +104041,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 178.67
+              "valor": 167.35
             }
           ]
         }
@@ -104117,8 +104135,8 @@
               "valor": 507.95
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 508.58
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 510.26
             }
           ],
           "6M": [
@@ -104472,7 +104490,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 508.58
+              "valor": 510.26
             }
           ],
           "YTD": [
@@ -105194,7 +105212,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 508.58
+              "valor": 510.26
             }
           ],
           "1A": [
@@ -106056,7 +106074,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 508.58
+              "valor": 510.26
             }
           ],
           "5A": [
@@ -107086,7 +107104,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 508.58
+              "valor": 510.26
             }
           ],
           "10A": [
@@ -109156,7 +109174,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 508.58
+              "valor": 510.26
             }
           ]
         }
@@ -109314,8 +109332,8 @@
               "valor": 58.47
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 59.37
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 57.37
             }
           ],
           "6M": [
@@ -109741,7 +109759,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 59.37
+              "valor": 57.37
             }
           ],
           "YTD": [
@@ -110535,7 +110553,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 59.37
+              "valor": 57.37
             }
           ],
           "1A": [
@@ -111469,7 +111487,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 59.37
+              "valor": 57.37
             }
           ],
           "5A": [
@@ -112499,7 +112517,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 59.37
+              "valor": 57.37
             }
           ],
           "10A": [
@@ -114569,7 +114587,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 59.37
+              "valor": 57.37
             }
           ]
         }
@@ -114607,8 +114625,8 @@
               "valor": 216.4
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 214.94
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 212.24
             }
           ],
           "6M": [
@@ -114914,7 +114932,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 214.94
+              "valor": 212.24
             }
           ],
           "YTD": [
@@ -115588,7 +115606,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 214.94
+              "valor": 212.24
             }
           ],
           "1A": [
@@ -116402,7 +116420,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 214.94
+              "valor": 212.24
             }
           ],
           "5A": [
@@ -117432,7 +117450,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 214.94
+              "valor": 212.24
             }
           ],
           "10A": [
@@ -119502,7 +119520,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 214.94
+              "valor": 212.24
             }
           ]
         }
@@ -119660,8 +119678,8 @@
               "valor": 119.09
             },
             {
-              "fecha": "2026-11-10T10:00:00",
-              "valor": 119.79
+              "fecha": "2026-11-10T17:00:00",
+              "valor": 117.6
             }
           ],
           "6M": [
@@ -120087,7 +120105,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 119.79
+              "valor": 117.6
             }
           ],
           "YTD": [
@@ -120881,7 +120899,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 119.79
+              "valor": 117.6
             }
           ],
           "1A": [
@@ -121815,7 +121833,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 119.79
+              "valor": 117.6
             }
           ],
           "5A": [
@@ -122845,7 +122863,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 119.79
+              "valor": 117.6
             }
           ],
           "10A": [
@@ -124915,7 +124933,7 @@
             },
             {
               "fecha": "2026-11-10",
-              "valor": 119.79
+              "valor": 117.6
             }
           ]
         }
@@ -125110,201 +125128,201 @@
     "mercado": "VOO",
     "por_ticker": {
       "ADBE": {
-        "beta": 0.15,
-        "retorno_1a_pct": -27.83,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 4.67,
-        "diferencia_pts": -32.51,
-        "volatilidad_pct": 40.58,
+        "beta": 0.16,
+        "retorno_1a_pct": -28.73,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 4.61,
+        "diferencia_pts": -33.34,
+        "volatilidad_pct": 40.63,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "BRK.B": {
-        "beta": 0.06,
-        "retorno_1a_pct": 15.75,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 4.04,
-        "diferencia_pts": 11.71,
-        "volatilidad_pct": 15.08,
+        "beta": 0.05,
+        "retorno_1a_pct": 17.1,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 3.97,
+        "diferencia_pts": 13.14,
+        "volatilidad_pct": 15.13,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "BYDDY": {
-        "beta": 0.8,
+        "beta": 0.81,
         "retorno_1a_pct": -30.02,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 9.07,
-        "diferencia_pts": -39.09,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 8.49,
+        "diferencia_pts": -38.52,
         "volatilidad_pct": 35.9,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "MCD": {
         "beta": 0.08,
-        "retorno_1a_pct": -5.9,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 4.21,
-        "diferencia_pts": -10.11,
-        "volatilidad_pct": 20.84,
+        "retorno_1a_pct": -5.49,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 4.14,
+        "diferencia_pts": -9.63,
+        "volatilidad_pct": 20.83,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "MSFT": {
         "beta": 1.03,
-        "retorno_1a_pct": 7.74,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 10.65,
-        "diferencia_pts": -2.91,
-        "volatilidad_pct": 33.8,
+        "retorno_1a_pct": 7.42,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 9.83,
+        "diferencia_pts": -2.41,
+        "volatilidad_pct": 33.79,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "TTWO": {
-        "beta": 0.55,
-        "retorno_1a_pct": -11.39,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 7.41,
-        "diferencia_pts": -18.8,
-        "volatilidad_pct": 33.55,
+        "beta": 0.52,
+        "retorno_1a_pct": -4.54,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 6.8,
+        "diferencia_pts": -11.33,
+        "volatilidad_pct": 34.12,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "VOO": {
         "beta": 1.0,
-        "retorno_1a_pct": 10.44,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 10.44,
+        "retorno_1a_pct": 9.66,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 9.66,
         "diferencia_pts": 0.0,
-        "volatilidad_pct": 13.65,
+        "volatilidad_pct": 13.68,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "PEP": {
         "beta": -0.17,
-        "retorno_1a_pct": -0.52,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 2.48,
-        "diferencia_pts": -3.0,
-        "volatilidad_pct": 22.19,
+        "retorno_1a_pct": 0.27,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 2.62,
+        "diferencia_pts": -2.34,
+        "volatilidad_pct": 22.17,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "CSCO": {
         "beta": 1.21,
-        "retorno_1a_pct": 36.84,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 11.84,
-        "diferencia_pts": 25.0,
-        "volatilidad_pct": 37.75,
+        "retorno_1a_pct": 35.25,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 10.9,
+        "diferencia_pts": 24.34,
+        "volatilidad_pct": 37.77,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "ABT": {
         "beta": 0.03,
-        "retorno_1a_pct": -12.22,
-        "mercado_1a_pct": 10.44,
+        "retorno_1a_pct": -12.65,
+        "mercado_1a_pct": 9.66,
         "esperado_capm_pct": 3.87,
-        "diferencia_pts": -16.09,
-        "volatilidad_pct": 28.76,
+        "diferencia_pts": -16.52,
+        "volatilidad_pct": 28.77,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "NEE": {
-        "beta": 0.07,
-        "retorno_1a_pct": 2.47,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 4.14,
-        "diferencia_pts": -1.68,
-        "volatilidad_pct": 22.14,
+        "beta": 0.08,
+        "retorno_1a_pct": 2.05,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 4.11,
+        "diferencia_pts": -2.06,
+        "volatilidad_pct": 22.16,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "CAT": {
-        "beta": 1.84,
-        "retorno_1a_pct": 4.91,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 16.15,
-        "diferencia_pts": -11.24,
-        "volatilidad_pct": 42.53,
+        "beta": 1.85,
+        "retorno_1a_pct": 0.82,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 14.76,
+        "diferencia_pts": -13.94,
+        "volatilidad_pct": 42.66,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "ISRG": {
-        "beta": 0.94,
-        "retorno_1a_pct": -20.07,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 10.02,
-        "diferencia_pts": -30.09,
-        "volatilidad_pct": 36.25,
+        "beta": 0.95,
+        "retorno_1a_pct": -22.37,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 9.35,
+        "diferencia_pts": -31.71,
+        "volatilidad_pct": 36.39,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "NOW": {
-        "beta": 0.71,
-        "retorno_1a_pct": -40.69,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 8.45,
-        "diferencia_pts": -49.14,
-        "volatilidad_pct": 65.25,
+        "beta": 0.72,
+        "retorno_1a_pct": -42.58,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 7.98,
+        "diferencia_pts": -50.56,
+        "volatilidad_pct": 65.38,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "GOOGL": {
         "beta": 1.29,
-        "retorno_1a_pct": -0.67,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 12.4,
-        "diferencia_pts": -13.07,
-        "volatilidad_pct": 35.36,
+        "retorno_1a_pct": -1.03,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 11.39,
+        "diferencia_pts": -12.42,
+        "volatilidad_pct": 35.37,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "NVDA": {
-        "beta": 1.84,
-        "retorno_1a_pct": -10.24,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 16.11,
-        "diferencia_pts": -26.35,
-        "volatilidad_pct": 36.92,
+        "beta": 1.86,
+        "retorno_1a_pct": -15.93,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 14.83,
+        "diferencia_pts": -30.75,
+        "volatilidad_pct": 37.42,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "AMD": {
-        "beta": 3.44,
-        "retorno_1a_pct": 108.45,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 26.97,
-        "diferencia_pts": 81.48,
-        "volatilidad_pct": 76.39,
+        "beta": 3.42,
+        "retorno_1a_pct": 109.14,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 24.2,
+        "diferencia_pts": 84.94,
+        "volatilidad_pct": 76.38,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "INTC": {
         "beta": 3.2,
-        "retorno_1a_pct": 54.41,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 25.36,
-        "diferencia_pts": 29.05,
-        "volatilidad_pct": 86.58,
+        "retorno_1a_pct": 49.21,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 22.85,
+        "diferencia_pts": 26.35,
+        "volatilidad_pct": 86.6,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "CRM": {
-        "beta": 0.3,
-        "retorno_1a_pct": -11.08,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 5.7,
-        "diferencia_pts": -16.77,
-        "volatilidad_pct": 43.78,
+        "beta": 0.31,
+        "retorno_1a_pct": -12.19,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 5.52,
+        "diferencia_pts": -17.71,
+        "volatilidad_pct": 43.82,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
       "ORCL": {
         "beta": 2.13,
-        "retorno_1a_pct": -50.26,
-        "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 18.1,
-        "diferencia_pts": -68.36,
+        "retorno_1a_pct": -51.17,
+        "mercado_1a_pct": 9.66,
+        "esperado_capm_pct": 16.42,
+        "diferencia_pts": -67.59,
         "volatilidad_pct": 60.76,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
@@ -125336,266 +125354,266 @@
       "matriz": [
         [
           1.0,
-          0.209,
+          0.21,
           -0.269,
-          0.238,
-          0.048,
-          -0.093,
-          0.12,
-          -0.056,
+          0.234,
+          0.05,
+          -0.09,
+          0.121,
+          -0.055,
           0.007,
-          -0.255,
-          0.32,
+          -0.254,
+          0.321,
           0.313,
           0.001,
-          -0.003,
-          0.064,
-          -0.082,
-          -0.156,
+          -0.002,
+          0.065,
+          -0.076,
+          -0.155,
           0.336,
-          0.07,
-          0.014
+          0.064,
+          0.016
         ],
         [
-          0.209,
+          0.21,
           1.0,
           -0.247,
-          0.175,
-          0.031,
-          -0.332,
-          0.809,
-          -0.09,
-          0.104,
-          -0.254,
-          0.312,
-          0.218,
+          0.17,
+          0.034,
+          -0.326,
+          0.81,
+          -0.088,
+          0.105,
+          -0.252,
+          0.315,
+          0.217,
           0.337,
-          -0.192,
-          0.659,
-          -0.131,
-          0.194,
-          0.11,
-          0.305,
-          0.051
+          -0.19,
+          0.66,
+          -0.118,
+          0.195,
+          0.109,
+          0.287,
+          0.054
         ],
         [
           -0.269,
           -0.247,
           1.0,
-          -0.148,
-          0.12,
-          0.578,
+          -0.147,
+          0.119,
+          0.576,
           -0.228,
           0.351,
           0.234,
           0.674,
-          0.017,
+          0.016,
           -0.22,
           0.181,
           -0.039,
           -0.044,
-          0.521,
+          0.514,
           0.378,
           -0.244,
           0.043,
-          0.645
+          0.644
         ],
         [
-          0.238,
-          0.175,
-          -0.148,
+          0.234,
+          0.17,
+          -0.147,
           1.0,
-          -0.056,
-          -0.134,
-          0.09,
-          -0.016,
-          0.057,
-          -0.143,
-          0.282,
-          0.442,
+          -0.062,
+          -0.14,
+          0.085,
+          -0.019,
+          0.054,
+          -0.145,
+          0.273,
+          0.44,
           0.092,
-          0.178,
-          0.032,
-          -0.219,
-          -0.223,
+          0.173,
+          0.027,
+          -0.231,
+          -0.224,
           0.28,
-          -0.002,
-          0.051
+          0.014,
+          0.046
         ],
         [
-          0.048,
-          0.031,
-          0.12,
-          -0.056,
+          0.05,
+          0.034,
+          0.119,
+          -0.062,
           1.0,
-          0.134,
-          0.083,
-          0.068,
-          0.122,
-          0.097,
-          0.116,
-          0.036,
+          0.142,
+          0.086,
+          0.071,
+          0.123,
+          0.101,
+          0.123,
+          0.034,
           0.13,
-          0.078,
-          0.048,
-          0.32,
-          0.171,
+          0.079,
           0.053,
-          0.11,
-          0.304
+          0.334,
+          0.174,
+          0.05,
+          0.087,
+          0.308
         ],
         [
-          -0.093,
-          -0.332,
-          0.578,
-          -0.134,
-          0.134,
-          1.0,
-          -0.349,
-          0.405,
-          0.347,
-          0.502,
-          -0.051,
-          -0.2,
-          -0.127,
-          0.169,
-          -0.154,
-          0.382,
-          0.222,
-          -0.179,
-          -0.06,
-          0.611
-        ],
-        [
-          0.12,
-          0.809,
-          -0.228,
-          0.09,
-          0.083,
-          -0.349,
-          1.0,
-          -0.069,
-          0.056,
-          -0.203,
-          0.28,
-          0.094,
-          0.495,
-          -0.338,
-          0.812,
-          -0.041,
-          0.331,
-          -0.029,
-          0.343,
-          0.091
-        ],
-        [
-          -0.056,
           -0.09,
-          0.351,
-          -0.016,
-          0.068,
-          0.405,
-          -0.069,
+          -0.326,
+          0.576,
+          -0.14,
+          0.142,
           1.0,
-          0.127,
+          -0.342,
+          0.406,
+          0.349,
+          0.502,
+          -0.043,
+          -0.199,
+          -0.126,
+          0.173,
+          -0.148,
+          0.391,
+          0.222,
+          -0.178,
+          -0.073,
+          0.613
+        ],
+        [
+          0.121,
+          0.81,
+          -0.228,
+          0.085,
+          0.086,
+          -0.342,
+          1.0,
+          -0.068,
+          0.058,
+          -0.2,
           0.283,
-          0.011,
+          0.094,
+          0.494,
+          -0.335,
+          0.813,
+          -0.032,
+          0.332,
+          -0.029,
+          0.325,
+          0.094
+        ],
+        [
+          -0.055,
+          -0.088,
+          0.351,
+          -0.019,
+          0.071,
+          0.406,
+          -0.068,
+          1.0,
+          0.128,
+          0.283,
+          0.014,
           -0.108,
           0.079,
-          -0.034,
-          0.078,
-          0.256,
-          0.259,
+          -0.033,
+          0.08,
+          0.258,
+          0.26,
           -0.119,
-          0.171,
-          0.456
+          0.162,
+          0.457
         ],
         [
           0.007,
-          0.104,
+          0.105,
           0.234,
-          0.057,
-          0.122,
-          0.347,
-          0.056,
-          0.127,
+          0.054,
+          0.123,
+          0.349,
+          0.058,
+          0.128,
           1.0,
-          0.225,
-          0.295,
-          0.029,
+          0.226,
+          0.297,
+          0.028,
           0.15,
-          0.072,
-          0.25,
-          0.245,
-          0.264,
-          -0.001,
-          0.213,
+          0.073,
+          0.251,
+          0.249,
+          0.265,
+          -0.002,
+          0.202,
           0.523
         ],
         [
-          -0.255,
           -0.254,
+          -0.252,
           0.674,
-          -0.143,
-          0.097,
+          -0.145,
+          0.101,
           0.502,
-          -0.203,
+          -0.2,
           0.283,
-          0.225,
+          0.226,
           1.0,
-          -0.013,
+          -0.011,
           -0.265,
-          0.058,
-          -0.086,
-          -0.086,
-          0.375,
+          0.057,
+          -0.084,
+          -0.084,
+          0.374,
           0.244,
-          -0.243,
-          -0.052,
-          0.521
+          -0.242,
+          -0.055,
+          0.522
         ],
         [
-          0.32,
-          0.312,
-          0.017,
-          0.282,
-          0.116,
-          -0.051,
-          0.28,
-          0.011,
-          0.295,
-          -0.013,
+          0.321,
+          0.315,
+          0.016,
+          0.273,
+          0.123,
+          -0.043,
+          0.283,
+          0.014,
+          0.297,
+          -0.011,
           1.0,
-          0.303,
-          0.344,
-          0.033,
-          0.203,
-          0.084,
-          0.156,
-          0.156,
-          0.326,
-          0.365
+          0.302,
+          0.343,
+          0.037,
+          0.208,
+          0.098,
+          0.157,
+          0.155,
+          0.302,
+          0.368
         ],
         [
           0.313,
-          0.218,
+          0.217,
           -0.22,
-          0.442,
-          0.036,
-          -0.2,
+          0.44,
+          0.034,
+          -0.199,
           0.094,
           -0.108,
-          0.029,
+          0.028,
           -0.265,
-          0.303,
+          0.302,
           1.0,
           0.077,
-          0.298,
-          -0.001,
-          -0.233,
+          0.297,
+          -0.002,
+          -0.23,
           -0.232,
-          0.477,
-          0.037,
+          0.476,
+          0.034,
           0.053
         ],
         [
@@ -125604,174 +125622,174 @@
           0.181,
           0.092,
           0.13,
-          -0.127,
-          0.495,
+          -0.126,
+          0.494,
           0.079,
           0.15,
-          0.058,
-          0.344,
+          0.057,
+          0.343,
           0.077,
           1.0,
-          -0.162,
-          0.456,
-          0.244,
+          -0.161,
+          0.455,
+          0.241,
           0.485,
-          -0.098,
-          0.336,
-          0.417
-        ],
-        [
-          -0.003,
-          -0.192,
-          -0.039,
-          0.178,
-          0.078,
-          0.169,
-          -0.338,
-          -0.034,
-          0.072,
-          -0.086,
-          0.033,
-          0.298,
-          -0.162,
-          1.0,
-          -0.313,
-          -0.077,
-          -0.213,
-          0.378,
-          -0.053,
-          0.045
-        ],
-        [
-          0.064,
-          0.659,
-          -0.044,
-          0.032,
-          0.048,
-          -0.154,
-          0.812,
-          0.078,
-          0.25,
-          -0.086,
-          0.203,
-          -0.001,
-          0.456,
-          -0.313,
-          1.0,
-          -0.016,
-          0.35,
-          -0.067,
-          0.342,
-          0.153
-        ],
-        [
-          -0.082,
-          -0.131,
-          0.521,
-          -0.219,
-          0.32,
-          0.382,
-          -0.041,
-          0.256,
-          0.245,
-          0.375,
-          0.084,
-          -0.233,
-          0.244,
-          -0.077,
-          -0.016,
-          1.0,
-          0.438,
-          -0.244,
-          0.153,
-          0.658
-        ],
-        [
-          -0.156,
-          0.194,
-          0.378,
-          -0.223,
-          0.171,
-          0.222,
+          -0.097,
           0.331,
-          0.259,
-          0.264,
+          0.416
+        ],
+        [
+          -0.002,
+          -0.19,
+          -0.039,
+          0.173,
+          0.079,
+          0.173,
+          -0.335,
+          -0.033,
+          0.073,
+          -0.084,
+          0.037,
+          0.297,
+          -0.161,
+          1.0,
+          -0.309,
+          -0.066,
+          -0.211,
+          0.376,
+          -0.064,
+          0.048
+        ],
+        [
+          0.065,
+          0.66,
+          -0.044,
+          0.027,
+          0.053,
+          -0.148,
+          0.813,
+          0.08,
+          0.251,
+          -0.084,
+          0.208,
+          -0.002,
+          0.455,
+          -0.309,
+          1.0,
+          -0.004,
+          0.351,
+          -0.067,
+          0.323,
+          0.156
+        ],
+        [
+          -0.076,
+          -0.118,
+          0.514,
+          -0.231,
+          0.334,
+          0.391,
+          -0.032,
+          0.258,
+          0.249,
+          0.374,
+          0.098,
+          -0.23,
+          0.241,
+          -0.066,
+          -0.004,
+          1.0,
+          0.435,
+          -0.241,
+          0.116,
+          0.66
+        ],
+        [
+          -0.155,
+          0.195,
+          0.378,
+          -0.224,
+          0.174,
+          0.222,
+          0.332,
+          0.26,
+          0.265,
           0.244,
-          0.156,
+          0.157,
           -0.232,
           0.485,
-          -0.213,
-          0.35,
-          0.438,
+          -0.211,
+          0.351,
+          0.435,
           1.0,
-          -0.3,
-          0.276,
-          0.494
+          -0.299,
+          0.268,
+          0.495
         ],
         [
           0.336,
-          0.11,
+          0.109,
           -0.244,
           0.28,
-          0.053,
-          -0.179,
+          0.05,
+          -0.178,
           -0.029,
           -0.119,
-          -0.001,
-          -0.243,
-          0.156,
-          0.477,
-          -0.098,
-          0.378,
+          -0.002,
+          -0.242,
+          0.155,
+          0.476,
+          -0.097,
+          0.376,
           -0.067,
-          -0.244,
-          -0.3,
+          -0.241,
+          -0.299,
           1.0,
           -0.081,
           -0.111
         ],
         [
-          0.07,
-          0.305,
+          0.064,
+          0.287,
           0.043,
-          -0.002,
-          0.11,
-          -0.06,
-          0.343,
-          0.171,
-          0.213,
-          -0.052,
-          0.326,
-          0.037,
-          0.336,
-          -0.053,
-          0.342,
-          0.153,
-          0.276,
+          0.014,
+          0.087,
+          -0.073,
+          0.325,
+          0.162,
+          0.202,
+          -0.055,
+          0.302,
+          0.034,
+          0.331,
+          -0.064,
+          0.323,
+          0.116,
+          0.268,
           -0.081,
           1.0,
-          0.233
+          0.216
         ],
         [
-          0.014,
-          0.051,
-          0.645,
-          0.051,
-          0.304,
-          0.611,
-          0.091,
-          0.456,
+          0.016,
+          0.054,
+          0.644,
+          0.046,
+          0.308,
+          0.613,
+          0.094,
+          0.457,
           0.523,
-          0.521,
-          0.365,
+          0.522,
+          0.368,
           0.053,
-          0.417,
-          0.045,
-          0.153,
-          0.658,
-          0.494,
+          0.416,
+          0.048,
+          0.156,
+          0.66,
+          0.495,
           -0.111,
-          0.233,
+          0.216,
           1.0
         ]
       ]
