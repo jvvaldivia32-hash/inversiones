@@ -1,29 +1,22 @@
 {
-  "generado": "2026-11-10T01:45:42.603284+00:00",
-  "errores": [],
+  "generado": "2026-11-10T08:50:58.958121+00:00",
+  "errores": [
+    "Gemini no respondió: noticias sin resumen"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Qantas elimina empleos en un acuerdo con Accenture",
+        "titulo_neutral": "Resultados trimestrales de Arendals Fossekompani",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Qantas to cut 850 jobs in Australia with Accenture deal",
+            "titular": "Earnings call transcript: Arendals Fossekompani posts stronger Q3 2026 profit",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/qantas-to-cut-850-jobs-in-australia-with-accenture-deal-93CH-5013876",
-            "fecha": "2026-11-10T01:34:42+00:00"
-          },
-          {
-            "titular": "Australia’s Qantas to axe 850 jobs in offshoring deal with Accenture",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/australias-qantas-to-axe-850-jobs-in-offshoring-deal-with-accenture-5013870",
-            "fecha": "2026-11-10T01:30:26+00:00"
+            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-arendals-fossekompani-posts-stronger-q3-2026-profit-93CH-5014348",
+            "fecha": "2026-11-10T08:33:57+00:00"
           }
         ],
         "leans_presentes": [
@@ -35,17 +28,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Anthropic Aims To Raise Up To $69.3 Billion In Blockbuster Ipo - Reuters",
+        "titulo_neutral": "Variacion bursatil de Renault tras revision de Jefferies",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Anthropic Aims To Raise Up To $69.3 Billion In Blockbuster Ipo - Reuters",
+            "titular": "Renault shares hit eight-week high after Jefferies upgrade",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/anthropic-aims-to-raise-up-to-693-billion-in-blockbuster-ipo--reuters-432SI-5013860",
-            "fecha": "2026-11-10T01:30:02+00:00"
+            "url": "https://www.investing.com/news/stock-market-news/jefferies-upgrades-renault-cuts-mercedesbenz-as-outlook-for-european-autos-diver-5014298",
+            "fecha": "2026-11-10T08:30:46+00:00"
           }
         ],
         "leans_presentes": [
@@ -57,17 +50,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Why is Aurizon stock climbing today?",
+        "titulo_neutral": "Evolucion de los mercados bursatiles en Europa",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Why is Aurizon stock climbing today?",
+            "titular": "European shares near record high as lower oil prices boost sentiment",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/why-is-aurizon-stock-climbing-today-93CH-5013862",
-            "fecha": "2026-11-10T01:25:37+00:00"
+            "url": "https://www.investing.com/news/economy-news/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment-5014345",
+            "fecha": "2026-11-10T08:30:36+00:00"
           }
         ],
         "leans_presentes": [
@@ -79,17 +72,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Francia acusa a Irán de ciberataques a refrigeradores de supermercados",
-        "resumen": "El ministro de Asuntos Exteriores francés ha responsabilizado directamente a la Guardia Revolucionaria de Irán de una reciente incursión informática contra los sistemas de refrigeración de varios supermercados en el país. El ataque cibernético provocó el mal funcionamiento y calentamiento de neveras y congeladores, lo que resultó en la pérdida de grandes cantidades de alimentos refrigerados y congelados. El alto funcionario advirtió que este acto tendrá repercusiones diplomáticas y políticas para la nación persa.",
+        "titulo_neutral": "Resultados trimestrales de KRAFTON",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "France blames Iran for October supermarket cyberattack",
+            "titular": "Earnings call transcript: KRAFTON Q3 2026 profit falls as growth bets build",
             "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-            "fecha": "2026-11-10T01:01:47+00:00"
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-krafton-q3-2026-profit-falls-as-growth-bets-build-93CH-5014341",
+            "fecha": "2026-11-10T08:28:06+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Acusaciones de Francia a Iran por ciberataques a supermercados",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "France threatens actions against Iran over supermarket cyberattacks",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/france/20261110-france-vows-tough-response-to-freezer-cyberattack-blamed-on-iran",
+            "fecha": "2026-11-10T07:43:55+00:00"
           },
           {
             "titular": "France blames Iran for cyberattack on supermarket fridges",
@@ -108,106 +123,83 @@
             "lean": "centro",
             "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-11-09T20:20:08+00:00"
-          },
-          {
-            "titular": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
-            "fecha": "2026-11-09T16:44:44+00:00"
           }
         ],
         "leans_presentes": [
-          "sin-clasificar",
           "centro"
         ],
         "grupos_presentes": [
-          "Al Jazeera",
           "France24",
           "BBC"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Short seller claims Nvidia's China scandal runs deeper than Megaspeed",
+        "titulo_neutral": "Proceso de salida a bolsa de Anthropic",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Short seller claims Nvidia's China scandal runs deeper than Megaspeed",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=6e04b5eb-b807-4968-90fc-2a422a290a4f&mod=mw_rss_bulletins",
-            "fecha": "2026-11-10T00:57:07+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "October inflation data could put stock market's broad-based rally to the test",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "October inflation data could put stock market's broad-based rally to the test",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=b7d9ad4a-fcbe-4b1d-9474-e77598af01ef&mod=mw_rss_bulletins",
-            "fecha": "2026-11-09T23:26:46+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Dow sees third 1,000-point swing in four days. Why the volatility isn’t over yet",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Dow sees third 1,000-point swing in four days. Why the volatility isn’t over yet",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=ae6f3a14-ea52-4804-beca-022eac7e3d9a&mod=mw_rss_bulletins",
-            "fecha": "2026-11-09T22:11:16+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Canada says it is extending tariff relief on some US imports - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Canada says it is extending tariff relief on some US imports - Reuters",
+            "titular": "Morning Bid: Anthropic IPO - Please try again - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTTNFR2s2cS00RWNNUlZMWU9kY1hXajNGazNhdFZjeEFabGF0bFJlY0dMaUhOM1hLYmNtcWI3dFNuNzd3Um9OSTFINUVkUl9sajNUSUNfUW83LWdtamJBUUItLXhWQkYxb21NRkptVUVJT3U3dE1ibTJ3X0lHTk1NOEdsLXhRVkNIb0RZTGlGRjY4X2F0RUFVTXJDZWxRbUFVN18yTA?oc=5",
-            "fecha": "2026-11-09T21:35:34+00:00"
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CeC1RN1hvWlBLQ0hHeVpIRS1lOU14N1J6a1pDc1FPRG84VnZ0Zi1fZEo0VUZoVWJyemFNaFQzcmd4djB5TlJNS3JITXBlMWxfYnZ4dDJUS1FhZS1jVjhQMEpReXFuMlZOU3lURE5pcWtoTHlLbk8xWEEtMWNMZ0U?oc=5",
+            "fecha": "2026-11-10T05:31:00+00:00"
+          },
+          {
+            "titular": "Anthropic details ‘existential risks to humanity’ in IPO filing",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropic-details-existential-risks-to-humanity-in-ipo-filin",
+            "fecha": "2026-10-27T04:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters",
+          "Financial Times"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Evolucion de los precios del oro",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Gold prices ease as focus shifts to US inflation data - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUUt5d0NsOEFXZzVGWU5qOFFwbGtuT0pyM3RMcTR3ZDRXYzFqV1NkM1VadUV0VzdNUFpZREVYLU1mdWFpSDE5V0w3Qlo5X1luTXVXRkZKNHQ1bXY1X0VCNHRienZVbnhQdE93UWFYRk41T0Fhd2tiQ2dpZzF2WEZmM0hVTFpjMVFzR2JhNlpWN0R5ZkFCY0JkRUVuYw?oc=5",
+            "fecha": "2026-11-10T03:31:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Extension de investigacion comercial de Estados Unidos a Vietnam",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "US extends Vietnam trade probe on intellectual property to end of February - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG9LTnZNRkhUOGlFdG00dFlFMzdkTXU1TXp3ODBtb3dJQllpd0h1aTdpbjZLNFZNSm8tSGpTTWs0aXVKOWZzN3dYNXdmTFozeUxSRnVFdGkzbnZnOUYxVFhHc3YzWW1EcEhwcnRyLUN5Xzk5eVNtZTNYcTVVaHhGT21PS1kzREdNc1RZampNV0lGUWR4M01pSm5INmRQZUhuZlF4M1MwWEs0VzdJenpka01SbTFzZmR6OUlXbjN6cmM?oc=5",
+            "fecha": "2026-11-10T03:21:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -221,8 +213,30 @@
     ],
     "chile": [
       {
-        "titulo_neutral": "Condena por maltrato animal en Cauquenes",
-        "resumen": "Un tribunal sentenció a un individuo en Cauquenes a tres años de libertad vigilada y una multa económica tras ser hallado culpable de ingresar a la propiedad de una vecina y dar muerte a sus dos canes. Adicionalmente, el fallo impone al condenado una prohibición perpetua para la tenencia de animales de compañía.",
+        "titulo_neutral": "La gesta de la Daimler Reitwagen: El día en que la gasolina echó a rodar sobre dos ruedas",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "La gesta de la Daimler Reitwagen: El día en que la gasolina echó a rodar sobre dos ruedas",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/10/la-gesta-de-la-daimler-reitwagen-el-dia-en-que-la-gasolina-echo-a-rodar-sobre-dos-ruedas/",
+            "fecha": "2026-11-10T08:00:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Hombre condenado por maltrato animal en Cauquenes",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Ingresó al predio de su vecina en Cauquenes y mató a sus dos perros: Hombre condenado de por vida a no tener animales tras grave caso de maltrato",
@@ -243,8 +257,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Investigacion por robo a sucursal bancaria en Concepcion",
-        "resumen": "Un audaz robo a las bóvedas de una institución financiera durante un fin de semana dejó al descubierto serias fallas en los protocolos de protección bancaria. Las autoridades municipales colaboraron entregando registros visuales que detallan la planificación del ilícito.",
+        "titulo_neutral": "Investigacion sobre robo a sucursal BCI en Concepcion",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Robo a sucursal BCI en Concepción: botín podría superar los $ 5 mil millones y fiscalía investiga red con al menos 10 involucrados",
@@ -265,8 +279,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Debate politico sobre Codelco",
-        "resumen": "Accionistas de la cuprífera estatal expresaron su preocupación durante una reunión corporativa ante los informes sobre anomalías en los volúmenes de producción registrados durante la gestión anterior. Las cifras cuestionadas suman decenas de miles de toneladas de metal rojo.",
+        "titulo_neutral": "Irregularidades y cuestionamientos en Codelco",
+        "resumen": "",
         "articulos": [
           {
             "titular": "PS acusa \"espectáculo comunicacional\" para desprestigiar a Codelco y \"luego vender barato\" activos de la cuprera",
@@ -297,8 +311,93 @@
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Paro de camioneros y efectos en transporte",
-        "resumen": "Gremios de transportistas anunciaron un paro nacional para exigir cambios en el tributo a los combustibles, lo que motivó a un crucero internacional a desviar su itinerario programado hacia el norte del país. La movilización genera incertidumbre en la logística terrestre y portuaria de varias regiones.",
+        "titulo_neutral": "Debate por la presidencia de la CPC",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Walker y Von Appen marcan diferencias en el primer debate por presidir la CPC en empleo, crecimiento y liderazgo",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/laboral-personas/walker-y-von-appen-marcan-diferencias-en-el-primer-debate-por-presidir-la",
+            "fecha": "2026-11-09T23:55:14+00:00"
+          },
+          {
+            "titular": "¿Debería salir el ministro Rabat? “Señal importante” y “le hubiera hecho un gran favor al Presidente” respondieron los aspirantes a la gremial",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/pais/deberia-salir-el-ministro-rabat-senal-importante-y-le-hubiera-hecho-un",
+            "fecha": "2026-11-09T23:28:01+00:00"
+          },
+          {
+            "titular": "La conversación personal de Rabat con Kast en medio de especulaciones sobre su renuncia",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/politica/kast-rabat-especulaciones-renuncia/",
+            "fecha": "2026-11-09T22:50:11+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro",
+          "independiente"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "TVN apuesta por modelo mixto de financiamiento para pagar deuda de $ 58.500 millones que vence en abril de 2027",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "TVN apuesta por modelo mixto de financiamiento para pagar deuda de $ 58.500 millones que vence en abril de 2027",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/tvn-apuesta-por-modelo-mixto-de-financiamiento-para-pagar-deuda-de-58-500",
+            "fecha": "2026-11-09T23:36:08+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Exportaciones a dos ritmos: superan US$ 100.000 millones, pero bajan embarques de cobre hacia China",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Exportaciones a dos ritmos: superan US$ 100.000 millones, pero bajan embarques de cobre hacia China",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/comercio-exterior/exportaciones-a-dos-ritmos-superan-us-100-000-millones-pero-bajan",
+            "fecha": "2026-11-09T23:33:20+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Presidente de Fuerza del Norte confirma paro de camioneros pese a medidas de Kast y anticipa movilizaciones desde Arica al sur del país",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Presidente de Fuerza del Norte confirma paro de camioneros pese a medidas de Kast y anticipa movilizaciones desde Arica al sur del país",
@@ -308,15 +407,6 @@
             "lean": "no aplica",
             "url": "http://www.df.cl/regiones/presidente-de-fuerza-del-norte-confirma-paro-de-camioneros-pese-a-medidas",
             "fecha": "2026-11-09T23:31:07+00:00"
-          },
-          {
-            "titular": "Paro de camioneros deja a Iquique sin el primer crucero de la temporada y obliga a desviar la nave a Valparaíso",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/regiones/tarapaca/paro-de-camioneros-deja-a-iquique-sin-el-primer-crucero-de-la-temporada-y",
-            "fecha": "2026-11-09T22:42:24+00:00"
           }
         ],
         "leans_presentes": [
@@ -324,138 +414,40 @@
         ],
         "grupos_presentes": [
           "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Retrasos en hospitales concesionados",
-        "resumen": "Diversos tropiezos administrativos y técnicos han retrasado la ejecución de proyectos de infraestructura en el país. Entre las causas principales figuran descubrimientos de valor arqueológico y disputas legales entre las partes involucradas.",
-        "articulos": [
-          {
-            "titular": "Hospitales concesionados acumulan retrasos de hasta 76 meses y solo dos mantienen sus plazos originales",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/construccion/hospitales-concesionados-acumulan-retrasos-de-hasta-76-meses-y-solo-dos",
-            "fecha": "2026-11-09T23:30:25+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Investigacion del FBI a CEO de Nvidia",
-        "resumen": "Una investigación corporativa y periodística puso bajo la lupa a un alto ejecutivo por supuestos vínculos con una empresaria extranjera acusada de filtrar datos sensibles a su país de origen. Este acontecimiento provocó una caída superior al cuatro por ciento en el valor bursátil de la compañía.",
-        "articulos": [
-          {
-            "titular": "Trump asegura que el FBI está investigando al CEO de Nvidia por posible espionaje extranjero",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/multinacionales/las-acciones-de-nvidia-caen-mientras-investiga-si-su-ceo-fue-objetivo-de",
-            "fecha": "2026-11-09T23:26:05+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Modificacion de beneficios y reduccion de penas",
-        "resumen": "El escenario político nacional se vio agitado por modificaciones ministeriales en medio de controversias por rebajas de penas a ciertos infractores de la ley. Paralelamente, se presentaron propuestas para moderar el impacto del alza en los combustibles y se reportó un retroceso en las ofertas laborales.",
-        "articulos": [
-          {
-            "titular": "Reducción de penas: Rabat amplía la suspensión del beneficio, con el que Boric otorgó 5.614 rebajas de condenas",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/nacional/rabat-amplia-suspension-de-reduccion-penas/",
-            "fecha": "2026-11-09T23:17:16+00:00"
-          },
-          {
-            "titular": "Kast anuncia nueva alza de $40 en los combustibles, pero presenta proyecto para limitar los aumentos; gobierno amplía suspensión de rebajas de condena a todos los delitos, y avisos de ofertas laborales caen 12,6% anual",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/11/09/radar-09-11-26/?utm_source=rss&utm_medium=rss&utm_campaign=radar-09-11-26",
-            "fecha": "2026-11-09T22:59:08+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente",
-          "sin fines de lucro"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Aprobacion en general de Ley de Presupuesto en la Camara Baja",
-        "resumen": "La Cámara Baja dio luz verde en su discusión general al proyecto de erario fiscal para el próximo año, superando una jornada legislativa marcada por la alta tensión política. Los parlamentarios continuarán analizando en detalle cada ítem del gasto público durante las próximas sesiones.",
-        "articulos": [
-          {
-            "titular": "Pese a tensa sesión: Cámara Baja aprueba en general Ley de Presupuesto 2027",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/09/pese-a-tensa-sesion-camara-baja-aprueba-en-general-ley-de-presupuesto-2027/",
-            "fecha": "2026-11-09T23:10:54+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
         ],
         "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
+        "titular": "DR Congo sentences 66 soldiers to death for being 'cowards'",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-11-10T08:39:05+00:00"
+      },
+      {
+        "titular": "California voters reject billionaire tax",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/10/california-voters-reject-billionaire-tax?traffic_source=rss",
+        "fecha": "2026-11-10T08:38:26+00:00"
+      },
+      {
+        "titular": "What powers does Netanyahu have as Israel’s interim PM?",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/10/what-powers-does-netanyahu-have-as-israels-interim-pm?traffic_source=rss",
+        "fecha": "2026-11-10T08:38:11+00:00"
+      },
+      {
+        "titular": "Fossil fuel emissions set to fall for first time since Covid, research shows",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/environment/20261110-fossil-fuel-emissions-set-to-fall-for-first-time-since-covid-research-shows",
+        "fecha": "2026-11-10T08:25:03+00:00"
+      },
+      {
         "titular": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
         "medio": "BBC",
         "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T01:44:53+00:00"
-      },
-      {
-        "titular": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T01:38:49+00:00"
-      },
-      {
-        "titular": "Qantas to outsource 850 local jobs with most roles moving to India",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-10T01:38:19+00:00"
-      },
-      {
-        "titular": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
-        "fecha": "2026-11-10T01:00:00+00:00"
-      },
-      {
-        "titular": "Verdict delayed in Honduras sex-trafficking case linked to disappearance",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/10/verdict-delayed-in-honduras-sex-trafficking-case-linked-to-disappearance?traffic_source=rss",
-        "fecha": "2026-11-10T00:57:58+00:00"
+        "fecha": "2026-11-10T08:23:21+00:00"
       }
     ]
   },
@@ -467,14 +459,6 @@
       "var_dia_pct": -0.8274,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 242.27
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 242.27
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 242.27
@@ -1401,6 +1385,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 237.32
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 237.32
           }
         ],
@@ -6967,8 +6955,17 @@
       },
       "noticias": [
         {
+          "titular": "What Could Walt Disney (DIS) AI Push Mean For Its Creative Future?",
+          "extracto": "Adobe y Walt Disney firmaron una alianza plurianual para integrar inteligencia artificial en diversas áreas de entretenimiento y parques temáticos de la compañía. Este acuerdo busca optimizar la creación de contenidos, aunque representa solo una parte de una estrategia tecnológica mayor.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/could-walt-disney-dis-ai-021255201.html?.tsrc=rss",
+          "fecha": "2026-11-10T02:12:55+00:00"
+        },
+        {
           "titular": "Adobe (ADBE) Expands AI Reach, Is The 25% Discount Too Wide?",
-          "extracto": "Adobe ha integrado su herramienta de experiencia del cliente en principales plataformas de inteligencia artificial, a pesar de registrar caídas significativas en el valor de sus acciones durante el año y en el acumulado de tres años.",
+          "extracto": "Adobe integró su plataforma de experiencia al cliente en múltiples asistentes virtuales corporativos populares. A pesar de estos avances tecnológicos, las acciones de la empresa han experimentado caídas significativas tanto en el año en curso como en el periodo de los últimos tres años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6977,7 +6974,7 @@
         },
         {
           "titular": "Disney Signs Adobe AI Deal Amid Reported Job Cut Plans",
-          "extracto": "Disney planea implementar nuevas tecnologías sin eliminar los puestos de trabajo en su división de diseño e ingeniería, en medio de posibles recortes masivos de personal.",
+          "extracto": "Disney aseguró que las nuevas herramientas tecnológicas no eliminarán los puestos de trabajo en su división de diseño e ingeniería, a pesar de que se evalúan recortes masivos de personal.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6986,7 +6983,7 @@
         },
         {
           "titular": "Adobe and The Walt Disney Company Announce Multi-Year Strategic Alliance to Support Disney Innovation with New AI-Powered Tools",
-          "extracto": "Durante la conferencia Adobe MAX, Adobe y The Walt Disney Company formalizaron una alianza estratégica plurianual enfocada en impulsar la innovación tecnológica y las herramientas para la creación de contenidos.",
+          "extracto": "En la conferencia Adobe MAX, Adobe y The Walt Disney Company formalizaron una alianza estratégica plurianual para impulsar la innovación y la narrativa digital mediante el uso de nuevas tecnologías.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6995,21 +6992,12 @@
         },
         {
           "titular": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
-          "extracto": "La entidad financiera Citi pronostica desafíos para la expansión financiera de la compañía de software en el próximo periodo, generando dudas sobre si el mercado ya ha descontado este escenario.",
+          "extracto": "La institución financiera Citi prevé dificultades para el crecimiento de la compañía de software en el próximo año fiscal, lo que genera dudas sobre si el mercado ya ha descontado este escenario.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/?.tsrc=rss",
           "fecha": "2026-11-09T08:57:02+00:00"
-        },
-        {
-          "titular": "Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?",
-          "extracto": "Las acciones de Adobe cotizan con una valoración de beneficios futuros menor que la de Palantir, aunque la diferencia en el ritmo de crecimiento entre ambas empresas podría ser el factor más relevante para los inversores.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/coverage/better-buy/2026/11/08/adobe-vs-palantir-technologies-which-technology-stock-is-a-better-buy-going-into-2027/?.tsrc=rss",
-          "fecha": "2026-11-08T18:07:30+00:00"
         }
       ],
       "fundamentales": {
@@ -7515,14 +7503,6 @@
       "var_dia_pct": 0.7637,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 515.62
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 515.62
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 515.62
@@ -8429,6 +8409,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 575.25
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 575.25
           }
         ],
@@ -14279,17 +14263,17 @@
       },
       "noticias": [
         {
-          "titular": "Berkshire Hathaway latest: Q3 earnings, top 5 holdings, record stock buyback, & more",
-          "extracto": "Berkshire Hathaway dio a conocer su informe financiero del tercer trimestre, destacando una recompra histórica de acciones por valor de 9.600 millones de dólares. Diversos analistas financieros examinaron en detalle estos resultados corporativos.",
+          "titular": "Warren Buffett's Successor, Greg Abel, Just Added Another Tech Stock to Berkshire's Portfolio. Here's What He Sees.",
+          "extracto": "Berkshire Hathaway incrementó su inversión en Bending Spoons en una considerable suma multimillonaria. Esta decisión destaca por su alineación con la estrategia general de la cartera de inversión, aunque también conlleva ciertos riesgos asociados.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/berkshire-hathaway-latest-q3-earnings-top-5-holdings-record-stock-buyback--more-150507713.html?.tsrc=rss",
-          "fecha": "2026-11-09T15:05:07+00:00"
+          "url": "https://www.fool.com/investing/2026/11/09/warren-buffetts-successor-greg-abel-just-added-ano/?.tsrc=rss",
+          "fecha": "2026-11-10T04:20:00+00:00"
         },
         {
           "titular": "Berkshire May Be Buying Class A Stock Directly From Holders to Boost Repurchases",
-          "extracto": "Durante el periodo trimestral mencionado, la entidad financiera adquirió sus propios títulos por un total de 9.600 millones de dólares. La mayor parte de esta operación se concentró en acciones de Clase B, complementándose con una inversión significativa en acciones tipo A.",
+          "extracto": "Durante el tercer trimestre, la compañía liderada por Warren Buffett destinó miles de millones de dólares a la recompra de sus propias acciones. Gran parte de esta operación se realizó mediante acciones de Clase B, complementándose con una porción menor en títulos de Clase A.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14298,7 +14282,7 @@
         },
         {
           "titular": "Berkshire Kept Buying Back Stock as Shares Hit Records. Here’s What the Price It Paid Tells You.",
-          "extracto": "Los documentos oficiales presentados por la compañía revelan los niveles de precio en los que los directivos consideraron oportuna la adquisición de acciones. Asimismo, dichos reportes evidencian el repunte que ha experimentado el valor bursátil desde aquel momento.",
+          "extracto": "Los documentos financieros publicados revelan los rangos de precio en los cuales los directivos consideraron oportuno adquirir títulos propios. Asimismo, muestran la evolución alcista que ha experimentado el valor de la acción desde entonces.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14307,7 +14291,7 @@
         },
         {
           "titular": "Berkshire Hathaway May Have Sold More Bank of America Stock in the Third Quarter",
-          "extracto": "Los informes trimestrales de la firma dirigida por Warren Buffett proporcionan indicios sobre futuros movimientos financieros, como posibles desinversiones en Bank of America y nuevas adquisiciones de títulos de Alphabet antes de la publicación oficial de su cartera.",
+          "extracto": "El informe trimestral presentado por el conglomerado empresarial anticipa posibles movimientos futuros en sus inversiones. Entre los indicios más destacados figuran eventuales reducciones en la participación de Bank of America y nuevas adquisiciones de acciones de Alphabet.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14316,7 +14300,7 @@
         },
         {
           "titular": "Jim Cramer Questions Berkshire’s “Ill-Advised Position” in Alphabet as Its Cash Flow Turns Negative",
-          "extracto": "Coincidiendo con la presentación de los resultados trimestrales, el comentarista financiero Jim Cramer expresó dudas respecto a la inversión multimillonaria de Berkshire Hathaway en Alphabet. Estas reservas surgieron en un contexto donde el flujo de caja libre de Alphabet registraba cifras negativas.",
+          "extracto": "El analista financiero Jim Cramer expresó dudas sobre la multimillonaria inversión que Berkshire Hathaway mantiene en Alphabet. Su escepticismo coincidió con la jornada de presentación de resultados trimestrales, donde se señaló un flujo de caja libre negativo para dicha tecnológica.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14616,18 +14600,10 @@
     {
       "ticker": "BYDDY",
       "nombre": "BYDDY",
-      "precio": 9.45,
-      "var_dia_pct": 0.8538,
+      "precio": 9.16,
+      "var_dia_pct": -3.0688,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 9.64
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 9.64
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 9.64
@@ -15535,6 +15511,10 @@
           {
             "fecha": "2026-11-10T01:00:00",
             "valor": 9.45
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
+            "valor": 9.16
           }
         ],
         "6M": [
@@ -16080,7 +16060,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 9.45
+            "valor": 9.16
           }
         ],
         "YTD": [
@@ -16994,7 +16974,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 9.45
+            "valor": 9.16
           }
         ],
         "1A": [
@@ -18048,7 +18028,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 9.45
+            "valor": 9.16
           }
         ],
         "5A": [
@@ -19098,7 +19078,7 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 9.45
+            "valor": 9.16
           }
         ],
         "10A": [
@@ -21188,24 +21168,24 @@
           },
           {
             "fecha": "2026-11-10",
-            "valor": 9.45
+            "valor": 9.16
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -27.82359631532986,
-          "3A": -2.8609338901508075,
-          "5A": -5.983266978704583,
-          "10A": 17.138483044613363
+          "1A": -30.040027115840594,
+          "3A": -3.8647098331911045,
+          "5A": -6.56823580898338,
+          "10A": 16.773098636922356
         },
-        "volatilidad_anual_pct": 35.65689765088634,
+        "volatilidad_anual_pct": 35.78200873101721,
         "caida_maxima_5a_pct": -56.563608717688794
       },
       "noticias": [
         {
           "titular": "EU states oppose Franco-German car emissions pact – report",
-          "extracto": "Alemania y Francia alcanzaron un acuerdo para flexibilizar las metas de neutralidad climática de la Unión Europea en el sector automotor. Esta postura busca proteger la industria local de fabricación de vehículos.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21214,7 +21194,7 @@
         },
         {
           "titular": "Jaguar Land Rover raids BYD offices over ‘copycat Defender’",
-          "extracto": "La empresa Jaguar Land Rover intervino las instalaciones de BYD tras señalar que el fabricante chino plagió el diseño exterior de su popular modelo Defender.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21223,7 +21203,7 @@
         },
         {
           "titular": "Scottish Mortgage NAV total return rises 31.5% as SpaceX listing and Moderna trial success lift performance",
-          "extracto": "El fondo de inversión Scottish Mortgage reportó un rendimiento positivo en su valor neto de activos durante el semestre concluido en septiembre, superando el desempeño general del índice bursátil global.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21232,7 +21212,7 @@
         },
         {
           "titular": "Zero To Sixty: Fort Worth Gets Tesla Robotaxi While UBS Upgrades Rivian And Citigroup Shuffles EV Holdings",
-          "extracto": "Tesla amplió su flota autónoma de taxis a una nueva ciudad estadounidense, mientras que varias firmas financieras ajustaron sus posiciones en empresas de vehículos eléctricos tras los sólidos resultados de ventas de competidores asiáticos.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21241,7 +21221,7 @@
         },
         {
           "titular": "Green Electronics Manufacturing - Global Strategic Business Report 2026: Capitalize on a 24.6% CAGR and $90.8 Billion by 2032, Led by Apple, BYD, Foxconn, Samsung, and Siemens",
-          "extracto": "Un nuevo informe de mercado estima un fuerte crecimiento para el sector de fabricación de aparatos electrónicos ecológicos durante la próxima década. Este incremento estará impulsado principalmente por normativas ambientales más rigurosas a nivel global.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21257,14 +21237,6 @@
       "var_dia_pct": 1.7793,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 235.23
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 235.23
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 235.23
@@ -22171,6 +22143,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 281.44
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 281.44
           }
         ],
@@ -28021,26 +27997,8 @@
       },
       "noticias": [
         {
-          "titular": "Robots and surge pricing won't save fast food: Robert Irvine",
-          "extracto": "El chef y empresario Robert Irvine argumenta que la automatización y los precios dinámicos no pueden sustituir el valor de la conexión humana en la experiencia gastronómica. Esta perspectiva resulta clave para entender los límites de la tecnología en la industria de la comida rápida.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/robots-surge-pricing-wont-save-120000821.html?.tsrc=rss",
-          "fecha": "2026-11-09T12:00:00+00:00"
-        },
-        {
-          "titular": "The business mistake McDonald's and Chipotle keep making: Robert Irvine",
-          "extracto": "El restaurador Robert Irvine lideró una iniciativa legislativa para modernizar los comedores del ejército estadounidense, reemplazando el formato tradicional por uno estilo universitario. Este cambio busca mejorar la calidad de vida de los soldados mediante una experiencia culinaria actualizada.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/business-mistake-mcdonalds-chipotle-keep-110000524.html?.tsrc=rss",
-          "fecha": "2026-11-09T11:00:00+00:00"
-        },
-        {
           "titular": "McDonald’s connects loyalty program with Uber",
-          "extracto": "Una cadena de comida rápida se asoció con Uber para fortalecer su programa de lealtad y fomentar visitas más frecuentes por parte de sus clientes. Esta estrategia digital busca consolidar la retención de usuarios en un mercado competitivo.",
+          "extracto": "La cadena de comida rápida está integrando sus servicios con Uber para fortalecer su programa de lealtad y aumentar la frecuencia de compra de sus clientes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28049,7 +28007,7 @@
         },
         {
           "titular": "McDonald’s Stock Jumped 7% Last Week. Is Its Earnings Beat Really That Good?",
-          "extracto": "Las acciones de McDonald's experimentaron un incremento cercano al 7% en una semana tras reportar resultados financieros trimestrales positivos. Este repunte bursátil compensó con éxito los reportes previos sobre un desempeño general más débil.",
+          "extracto": "Las acciones de McDonald's experimentaron un incremento cercano al 7% entre finales de octubre y principios de noviembre tras superar las expectativas de ganancias trimestrales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28058,12 +28016,30 @@
         },
         {
           "titular": "MCD Stock Outlook: Wall Street Eyes a Potential Upside Breakout After Q3 Results",
-          "extracto": "A pesar de una caída continua en el número de clientes y menores ingresos, las acciones de McDonald's repuntaron gracias a los resultados financieros. El futuro de esta tendencia alcista podría depender de un menú económico que actualmente se encuentra en fase de prueba.",
+          "extracto": "A pesar de que el valor bursátil de la compañía repuntó positivamente tras los resultados financieros, la disminución continua en la afluencia de clientes en Estados Unidos sigue representando un desafío crucial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://247wallst.com/investing/2026/11/09/mcd-stock-outlook-wall-street-eyes-a-potential-upside-breakout-after-q3-results/?.tsrc=rss",
           "fecha": "2026-11-09T18:03:05+00:00"
+        },
+        {
+          "titular": "Uber to Power McDonald's App Deliveries as Partnership Widens",
+          "extracto": "Los pedidos realizados a través de la aplicación oficial de McDonald's serán gestionados principalmente mediante la infraestructura de entrega de Uber Direct.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/uber-power-mcdonalds-app-deliveries-172246844.html?.tsrc=rss",
+          "fecha": "2026-11-09T17:22:46+00:00"
+        },
+        {
+          "titular": "McDonald's expands its partnership with Uber",
+          "extracto": "La multinacional de hamburguesas seleccionó a Uber Technologies como su socio estratégico para gestionar entregas digitales en 14 países, lo que además podría incorporar nuevas ventajas para sus miembros frecuentes.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.nrn.com/quick-service/mcdonald-s-is-integrating-delivery-into-its-mobile-app?.tsrc=rss",
+          "fecha": "2026-11-09T17:04:06+00:00"
         }
       ],
       "fundamentales": {
@@ -28611,14 +28587,6 @@
       "var_dia_pct": 2.7459,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 535.07
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 535.07
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 535.07
@@ -29545,6 +29513,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 545.18
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 545.18
           }
         ],
@@ -35395,8 +35367,35 @@
       },
       "noticias": [
         {
+          "titular": "Tech leads stock rally as traders track Wall St rebound",
+          "extracto": "Las acciones repuntaron el martes en Wall Street impulsadas por el sector tecnológico y la caída en los precios del petróleo. Este movimiento permitió a los inversores aprovechar precios más bajos tras las recientes caídas del mercado.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss",
+          "fecha": "2026-11-10T08:23:52+00:00"
+        },
+        {
+          "titular": "Quantexa Launches Supply Chain Integrity & Fraud Solution with PwC, to Expose Hidden Risk Across Multi-Tier Supplier Networks",
+          "extracto": "Quantexa lanzó una nueva solución de gestión de cadenas de suministro desarrollada sobre Microsoft Azure y en colaboración con PwC. La herramienta busca mejorar la visibilidad y el control en áreas de cumplimiento, riesgos financieros y criterios ambientales.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/quantexa-launches-supply-chain-integrity-063000206.html?.tsrc=rss",
+          "fecha": "2026-11-10T06:30:00+00:00"
+        },
+        {
+          "titular": "Microsoft (MSFT) Signs Global AI Safety Declaration",
+          "extracto": "Microsoft firmó una declaración global sobre seguridad en inteligencia artificial y colaboró con Northern Trust para integrar agentes automatizados en sus operaciones bancarias. Paralelamente, Bill Gates advirtió sobre los posibles desafíos sociales derivados de la automatización laboral.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-signs-global-ai-042734846.html?.tsrc=rss",
+          "fecha": "2026-11-10T04:27:34+00:00"
+        },
+        {
           "titular": "Soprano to Support Organisations Navigating Microsoft Entra MFA Changes",
-          "extracto": "La empresa australiana Soprano Design ofrecerá asistencia a los usuarios de Microsoft Entra que necesiten mantener la autenticación multifactor por voz y SMS. Este soporte se activará ante la retirada gradual de dichos métodos de entrega por parte de Microsoft prevista para febrero de 2027.",
+          "extracto": "La empresa australiana Soprano Design brindará asistencia a los usuarios de Microsoft Entra que requieran mantener la autenticación multifactor por voz y SMS. Este soporte surge ante la inminente retirada de estas funciones por parte de Microsoft programada para febrero de 2027.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -35405,39 +35404,12 @@
         },
         {
           "titular": "Bill Gates Microsoft Copilot AI Predicts a SOL Crypto Explosion",
-          "extracto": "Una herramienta de inteligencia artificial vinculada a Microsoft proyecta que la criptomoneda Solana podría alcanzar un valor de entre mil y dos mil dólares a principios de 2027. Esta previsión optimista depende de la consolidación de un mercado alcista generalizado en el sector digital.",
+          "extracto": "Una predicción generada por la inteligencia artificial de Microsoft estima que la criptomoneda Solana podría alcanzar valores de entre 1.000 y 2.000 dólares a principios de 2027. Esta estimación optimista depende de la consolidación de un mercado alcista generalizado en el sector.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://99bitcoins.com/news/altcoins/bill-gates-microsoft-copilot-ai-predicts-sol-crypto-explosion/?.tsrc=rss",
           "fecha": "2026-11-09T20:37:52+00:00"
-        },
-        {
-          "titular": "The Stock Market Is “Petrified of Oracle’s Balance Sheet” as Microsoft Walks Away",
-          "extracto": "Microsoft está finalizando un acuerdo para alquilar capacidad de computación en la nube a Oracle, poco después de que esta última cancelara otro contrato tecnológico relevante. Esta pérdida incrementa la dependencia financiera de Oracle respecto a OpenAI dentro de su cartera de clientes.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.tikr.com/blog/the-stock-market-is-petrified-of-oracles-balance-sheet-as-microsoft-walks-away?ref=yahoofinance&tlnk=yf-261109-qqf46fhh&.tsrc=rss",
-          "fecha": "2026-11-09T19:48:58+00:00"
-        },
-        {
-          "titular": "$300,000 in Cisco, IBM and Microsoft Could Pay You $5,150 a Year",
-          "extracto": "Varias acciones tecnológicas tradicionales combinan su potencial de crecimiento con la distribución frecuente de dividendos a sus accionistas. Sin embargo, cada una de estas opciones conlleva vulnerabilidades financieras ocultas que podrían afectar los pagos futuros.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/11/09/300000-in-cisco-ibm-and-microsoft-could-pay-you-5150-a-year/?.tsrc=rss",
-          "fecha": "2026-11-09T19:17:55+00:00"
-        },
-        {
-          "titular": "His Tech Employer Offers Him Nine Months of Pay to Retire at 55. His Social Security Window Won’t Open for Another Seven Years",
-          "extracto": "Un ingeniero de mediana edad enfrenta decisiones financieras complejas tras recibir una compensación por despido y lidiar con la brecha hasta recibir la seguridad social. La elección sobre cuándo jubilarse formalmente determinará el monto de sus ingresos permanentes a largo plazo.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/personal-finance/social-security/2026/11/09/his-tech-employer-offers-him-nine-months-of-pay-to-retire-at-55-his-social-security-window-wont-open-for-another-seven-years/?.tsrc=rss",
-          "fecha": "2026-11-09T19:05:35+00:00"
         }
       ],
       "fundamentales": {
@@ -36026,14 +35998,6 @@
       "var_dia_pct": -3.4765,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 213.44
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 213.44
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 213.44
@@ -36960,6 +36924,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 207.4
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 207.4
           }
         ],
@@ -42319,40 +42287,40 @@
           "fecha": "2026-11-09T22:05:50+00:00"
         },
         {
+          "titular": "GTA VI Preorders ‘Far In Excess Of Expectations…Numbers Will Speak Soon’ — CEO Boosts Expectations As TTWO Lifts Annual Forecasts",
+          "extracto": "El esperado videojuego 'GTA VI' saldrá a la venta el 19 de noviembre y estará disponible en versiones estándar y definitiva. Este lanzamiento es uno de los eventos más anticipados en la industria del entretenimiento digital.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-preorders-far-in-excess-of-expectations-numbers-will-speak-soon-ceo-boosts-expectations-as-ttwo-lifts-annual-forecasts/cNGuacWR978?.tsrc=rss",
+          "fecha": "2026-11-10T08:13:12+00:00"
+        },
+        {
+          "titular": "Take-Two (TTWO) Q2 2027 Earnings Call Transcript",
+          "extracto": "La demanda anticipada para el nuevo título de Grand Theft Auto está superando con creces las proyecciones iniciales. Esto refleja un gran interés por parte de los consumidores antes de su llegada al mercado.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/take-two-ttwo-q2-2027-earnings-call-transcript/?.tsrc=rss",
+          "fecha": "2026-11-10T06:46:41+00:00"
+        },
+        {
+          "titular": "What Take-Two Interactive Software (TTWO) Said on Its Q2 Earnings Call",
+          "extracto": "Take-Two Interactive mantuvo sus proyecciones financieras para el año fiscal 2027 a pesar de que sus reservas recientes no alcanzaron las metas previstas. La empresa confía en compensar este déficit gracias al sólido volumen de reservas anticipadas para el próximo juego de Grand Theft Auto.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-what-take-two-interactive-software-ttwo-said-on-its-q2-earnings-call-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "fecha": "2026-11-10T03:14:34+00:00"
+        },
+        {
           "titular": "GTA VI Launches in 10 Days, and Take-Two's Forecast Might Be Too Low. Is the Stock a Buy Before Nov. 19?",
-          "extracto": "Take-Two reporta que las reservas anticipadas de Grand Theft Auto VI alcanzan cifras sin precedentes, generando dudas sobre por qué no se ajustaron las proyecciones financieras de la empresa.",
+          "extracto": "A pesar de calificar las reservas anticipadas de 'GTA VI' como niveles sin precedentes, la compañía optó por no elevar sus estimaciones financieras. Esta decisión cautelosa genera interrogantes sobre la estrategia económica de la empresa frente a su próximo gran lanzamiento.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/09/gta-vi-launches-in-10-days-and-take-two-s-forecast-might-be-too-low-is-the-stock-a-buy-before-nov-19/?.tsrc=rss",
           "fecha": "2026-11-09T22:37:43+00:00"
-        },
-        {
-          "titular": "Take-Two (NASDAQ:TTWO) reports sales below analyst estimates in Q3 CY2026 earnings",
-          "extracto": "Durante el segundo trimestre fiscal de 2027, Take-Two registró una caída interanual del 23.6% en sus ingresos, situándose por debajo de lo previsto por los analistas financieros y reportando pérdidas por acción.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/two-nasdaq-ttwo-reports-sales-222639488.html?.tsrc=rss",
-          "fecha": "2026-11-09T22:26:39+00:00"
-        },
-        {
-          "titular": "Here's What Key Metrics Tell Us About Take-Two (TTWO) Q2 Earnings",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-220002931.html?.tsrc=rss",
-          "fecha": "2026-11-09T22:00:02+00:00"
-        },
-        {
-          "titular": "Take-Two shares gain on results, guidance, GTA VI release date reiterated",
-          "extracto": "Las acciones de Take-Two Interactive subieron aproximadamente un 3% en las operaciones posteriores al cierre del mercado a pesar de presentar un pronóstico de reservas inferior a las expectativas de Wall Street.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-gain-results-guidance-215155402.html?.tsrc=rss",
-          "fecha": "2026-11-09T21:51:55+00:00"
         }
       ],
       "fundamentales": {
@@ -42844,14 +42812,6 @@
       "var_dia_pct": 2.3491,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-11T02:00:00",
-            "valor": 715.59
-          },
-          {
-            "fecha": "2026-10-11T05:00:00",
-            "valor": 715.59
-          },
           {
             "fecha": "2026-10-11T09:00:00",
             "valor": 715.59
@@ -43758,6 +43718,10 @@
           },
           {
             "fecha": "2026-11-10T01:00:00",
+            "valor": 691.87
+          },
+          {
+            "fecha": "2026-11-10T08:00:00",
             "valor": 691.87
           }
         ],
@@ -49608,8 +49572,17 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett's Instructions for His Wife's Inheritance Are 90% Stocks and 10% Bonds. Here's How That Mix Has Done Since 2000.",
+          "extracto": "Se analiza el rendimiento histórico de una inversión en bonos de alta denominación desde el año dos mil para evaluar su efectividad durante las caídas bursátiles.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/11/10/warren-buffett-s-instructions-for-his-wife-s-inheritance-are-90-stocks-and-10-bonds-here-s-how-that-mix-has-done-since-2000/?.tsrc=rss",
+          "fecha": "2026-11-10T05:31:02+00:00"
+        },
+        {
           "titular": "Beyond the Election: 4 ETFs I'm Continuing to Buy No Matter What the Market Does in 2027",
-          "extracto": "",
+          "extracto": "Los expertos sugieren que el momento actual presenta condiciones favorables para capitalizar las fluctuaciones temporales del mercado financiero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49618,7 +49591,7 @@
         },
         {
           "titular": "Should You Buy VOO Before the Market Rebounds?",
-          "extracto": "La reciente caída bursátil posterior a las elecciones ha generado preocupación entre los inversores, aunque algunos analistas sugieren que podría representar una oportunidad de compra favorable. Este descenso refleja la reacción inicial de los mercados a los resultados electorales, planteando dudas sobre la estabilidad de las tendencias a largo plazo.",
+          "extracto": "La caída abrupta del índice S&P 500 tras las recientes elecciones ha generado preocupación, aunque algunos analistas la perciben como una ventana atractiva para adquirir activos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49627,7 +49600,7 @@
         },
         {
           "titular": "VOO Is Down 6% From Its High. Over the Past Year It's Up 10%. Which Number Should Investors Focus On?",
-          "extracto": "",
+          "extracto": "Los resultados electorales provocaron una reacción bajista en los mercados financieros, lo que plantea dudas sobre la estabilidad de las tendencias a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49636,21 +49609,12 @@
         },
         {
           "titular": "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today",
-          "extracto": "",
+          "extracto": "A pesar de que las cifras reflejan un periodo excepcionalmente positivo para las acciones, rendimientos más moderados aún pueden generar ganancias significativas a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/04/if-youd-invested-5000-in-voo-15-years-ago-heres-wh/?.tsrc=rss",
           "fecha": "2026-11-04T23:50:00+00:00"
-        },
-        {
-          "titular": "Warren Buffett's Retirement Strategy Has a Catch: VOO Alone May Not Be Enough in 2026",
-          "extracto": "La estrategia de inversión 90/10 de Warren Buffett combina la acumulación de riqueza a largo plazo mediante acciones con el uso de bonos gubernamentales a corto plazo para mitigar la volatilidad. Este enfoque resulta especialmente relevante para los jubilados que dependen de sus carteras financieras para obtener ingresos regulares.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-retirement-strategy-catch-013032807.html?.tsrc=rss",
-          "fecha": "2026-11-08T01:30:32+00:00"
         }
       ]
     }
@@ -49845,7 +49809,7 @@
               "valor": 142.9
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 141.88
             }
           ],
@@ -55198,14 +55162,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-10-11T02:00:00",
-              "valor": 242.27
-            },
-            {
-              "fecha": "2026-10-11T05:00:00",
-              "valor": 242.27
-            },
-            {
               "fecha": "2026-10-11T09:00:00",
               "valor": 242.27
             },
@@ -56131,6 +56087,10 @@
             },
             {
               "fecha": "2026-11-10T01:00:00",
+              "valor": 237.32
+            },
+            {
+              "fecha": "2026-11-10T08:00:00",
               "valor": 237.32
             }
           ],
@@ -61803,7 +61763,7 @@
               "valor": 98.37
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 98.65
             }
           ],
@@ -67032,7 +66992,7 @@
               "valor": 110.65
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 110.51
             }
           ],
@@ -72165,7 +72125,7 @@
               "valor": 87.37
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 86.86
             }
           ],
@@ -77658,7 +77618,7 @@
               "valor": 594.54
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 598.88
             }
           ],
@@ -83171,7 +83131,7 @@
               "valor": 461.86
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 460.56
             }
           ],
@@ -88664,7 +88624,7 @@
               "valor": 103.66
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 102.76
             }
           ],
@@ -94093,7 +94053,7 @@
               "valor": 290.02
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 288.15
             }
           ],
@@ -99170,7 +99130,7 @@
               "valor": 176.95
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 178.67
             }
           ],
@@ -104159,7 +104119,7 @@
               "valor": 507.95
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 508.58
             }
           ],
@@ -109356,7 +109316,7 @@
               "valor": 58.47
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 59.37
             }
           ],
@@ -114649,7 +114609,7 @@
               "valor": 216.4
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 214.94
             }
           ],
@@ -119702,7 +119662,7 @@
               "valor": 119.09
             },
             {
-              "fecha": "2026-11-10T01:00:00",
+              "fecha": "2026-11-10T08:00:00",
               "valor": 119.79
             }
           ],
@@ -125173,11 +125133,11 @@
       },
       "BYDDY": {
         "beta": 0.8,
-        "retorno_1a_pct": -27.81,
+        "retorno_1a_pct": -30.02,
         "mercado_1a_pct": 10.44,
-        "esperado_capm_pct": 9.06,
-        "diferencia_pts": -36.86,
-        "volatilidad_pct": 35.78,
+        "esperado_capm_pct": 9.07,
+        "diferencia_pts": -39.09,
+        "volatilidad_pct": 35.9,
         "desde": "2025-11-10",
         "hasta": "2026-11-10"
       },
@@ -125403,7 +125363,7 @@
           1.0,
           -0.247,
           0.175,
-          0.029,
+          0.031,
           -0.332,
           0.809,
           -0.09,
@@ -125447,7 +125407,7 @@
           0.175,
           -0.148,
           1.0,
-          -0.055,
+          -0.056,
           -0.134,
           0.09,
           -0.016,
@@ -125466,24 +125426,24 @@
         ],
         [
           0.048,
-          0.029,
+          0.031,
           0.12,
-          -0.055,
+          -0.056,
           1.0,
-          0.136,
-          0.082,
+          0.134,
+          0.083,
           0.068,
-          0.12,
-          0.099,
+          0.122,
+          0.097,
           0.116,
-          0.035,
-          0.131,
-          0.075,
-          0.047,
-          0.324,
-          0.173,
-          0.05,
-          0.106,
+          0.036,
+          0.13,
+          0.078,
+          0.048,
+          0.32,
+          0.171,
+          0.053,
+          0.11,
           0.304
         ],
         [
@@ -125491,7 +125451,7 @@
           -0.332,
           0.578,
           -0.134,
-          0.136,
+          0.134,
           1.0,
           -0.349,
           0.405,
@@ -125513,7 +125473,7 @@
           0.809,
           -0.228,
           0.09,
-          0.082,
+          0.083,
           -0.349,
           1.0,
           -0.069,
@@ -125557,7 +125517,7 @@
           0.104,
           0.234,
           0.057,
-          0.12,
+          0.122,
           0.347,
           0.056,
           0.127,
@@ -125579,7 +125539,7 @@
           -0.254,
           0.674,
           -0.143,
-          0.099,
+          0.097,
           0.502,
           -0.203,
           0.283,
@@ -125623,7 +125583,7 @@
           0.218,
           -0.22,
           0.442,
-          0.035,
+          0.036,
           -0.2,
           0.094,
           -0.108,
@@ -125645,7 +125605,7 @@
           0.337,
           0.181,
           0.092,
-          0.131,
+          0.13,
           -0.127,
           0.495,
           0.079,
@@ -125667,7 +125627,7 @@
           -0.192,
           -0.039,
           0.178,
-          0.075,
+          0.078,
           0.169,
           -0.338,
           -0.034,
@@ -125689,7 +125649,7 @@
           0.659,
           -0.044,
           0.032,
-          0.047,
+          0.048,
           -0.154,
           0.812,
           0.078,
@@ -125711,7 +125671,7 @@
           -0.131,
           0.521,
           -0.219,
-          0.324,
+          0.32,
           0.382,
           -0.041,
           0.256,
@@ -125733,7 +125693,7 @@
           0.194,
           0.378,
           -0.223,
-          0.173,
+          0.171,
           0.222,
           0.331,
           0.259,
@@ -125755,7 +125715,7 @@
           0.11,
           -0.244,
           0.28,
-          0.05,
+          0.053,
           -0.179,
           -0.029,
           -0.119,
@@ -125777,7 +125737,7 @@
           0.305,
           0.043,
           -0.002,
-          0.106,
+          0.11,
           -0.06,
           0.343,
           0.171,
