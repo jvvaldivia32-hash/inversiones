@@ -1,22 +1,32 @@
 {
-  "generado": "2026-11-18T13:27:06.197731+00:00",
+  "generado": "2026-11-18T14:12:21.819269+00:00",
   "errores": [
-    "Gemini no respondió: noticias agrupadas por palabras clave"
+    "Gemini no respondió: noticias agrupadas por palabras clave",
+    "Gemini no respondió: noticias sin resumen"
   ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Cessna jet maker Textron to sell industrial business for $1.2 billion",
+        "titulo_neutral": "BioCryst at Jefferies Global Healthcare Conference: growth, pipeline",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Cessna jet maker Textron to sell industrial business for $1.2 billion",
+            "titular": "BioCryst at Jefferies Global Healthcare Conference: growth, pipeline",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071",
-            "fecha": "2026-11-18T13:24:23+00:00"
+            "url": "https://www.investing.com/news/transcripts/biocryst-at-jefferies-global-healthcare-conference-growth-pipeline-93CH-5036296",
+            "fecha": "2026-11-18T14:05:31+00:00"
+          },
+          {
+            "titular": "Exelixis at Jefferies Global Healthcare Conference: zanza buildout in focus",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/transcripts/exelixis-at-jefferies-global-healthcare-conference-zanza-buildout-in-focus-93CH-5036292",
+            "fecha": "2026-11-18T14:05:02+00:00"
           }
         ],
         "leans_presentes": [
@@ -28,17 +38,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "H.C. Wainwright reiterates Buy on Immunic stock, $22 target",
+        "titulo_neutral": "Four entities sign intent for supersonic flight corridor in Texas",
         "resumen": "",
         "articulos": [
           {
-            "titular": "H.C. Wainwright reiterates Buy on Immunic stock, $22 target",
+            "titular": "Four entities sign intent for supersonic flight corridor in Texas",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-reiterates-buy-on-immunic-stock-22-target-93CH-5036068",
-            "fecha": "2026-11-18T13:22:55+00:00"
+            "url": "https://www.investing.com/news/company-news/four-entities-sign-intent-for-supersonic-flight-corridor-in-texas-93CH-5036285",
+            "fecha": "2026-11-18T14:04:50+00:00"
           }
         ],
         "leans_presentes": [
@@ -50,17 +60,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Piper Sandler actualiza el precio objetivo de las acciones de Abbvie",
+        "titulo_neutral": "Earnings call transcript: Auna tops Q3 2026 estimates as revenue surges",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Abbvie stock price target raised to $349 by Piper Sandler on growth",
+            "titular": "Earnings call transcript: Auna tops Q3 2026 estimates as revenue surges",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/abbvie-stock-price-target-raised-to-349-by-piper-sandler-on-growth-93CH-5036067",
-            "fecha": "2026-11-18T13:22:54+00:00"
+            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-auna-tops-q3-2026-estimates-as-revenue-surges-93CH-5036278",
+            "fecha": "2026-11-18T14:03:56+00:00"
           }
         ],
         "leans_presentes": [
@@ -72,30 +82,30 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "ServiceTitan stock price target maintained at $110 by Piper Sandler",
+        "titulo_neutral": "Economic data: Minutes from the Fed’s latest meeting could provide tea leaves",
         "resumen": "",
         "articulos": [
           {
-            "titular": "ServiceTitan stock price target maintained at $110 by Piper Sandler",
+            "titular": "Economic data: Minutes from the Fed’s latest meeting could provide tea leaves",
             "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/analyst-ratings/servicetitan-stock-price-target-maintained-at-110-by-piper-sandler-93CH-5036066",
-            "fecha": "2026-11-18T13:22:54+00:00"
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=7ba6535c-61a0-44b1-9eda-3b31f09b808e&mod=mw_rss_bulletins",
+            "fecha": "2026-11-18T13:31:57+00:00"
           }
         ],
         "leans_presentes": [
-          "centro"
+          "centro-derecha"
         ],
         "grupos_presentes": [
-          "Investing.com"
+          "MarketWatch"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Anthropic presenta los documentos para su oferta pública inicial",
-        "resumen": "La empresa Anthropic ha presentado los documentos oficiales para su esperada oferta pública inicial de acciones. Mientras tanto, en Israel se llevan a cabo unos comicios considerados cruciales para su historia reciente, y se reporta un viaje de caza de Donald Trump Jr junto a un oligarca relacionado con el Kremlin. Adicionalmente, los turistas europeos están modificando sus destinos vacacionales hacia Sudamérica debido al conflicto en Oriente Medio.",
+        "titulo_neutral": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump - Reuters",
+        "resumen": "Los mercados financieros se están preparando para la inminente salida a bolsa de la empresa de inteligencia artificial Anthropic. Este entusiasmo persiste a pesar de que el sector tecnológico atraviesa una fase generalizada de caídas bursátiles.",
         "articulos": [
           {
             "titular": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump - Reuters",
@@ -104,26 +114,16 @@
             "grupo": "Reuters",
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONkZkRVdESVU1UERiQmhZWmp5cl9Vel9VQlJOOWtLM3ZfVjFVVU5rYUZVWk5UVF8xU0t3SU0ybEF4UDNBOWFNeVI3RjlGMzZVdUhMbnV4UU9JQXpqM1FxZk1reHJGbFM5Qm1VcTMwTl81SEtvWVRYNjJRa0JPZ2xkamZfR3I2elFGWnhlNUFsMWNYMW5MeWJYR3o4SFg5NWhxa0tjYzJtMVpaelVhMUREQnZJa0huN1pzSlUzdTBHWm9ackd6Q0w4?oc=5",
-            "fecha": "2026-11-18T12:18:34+00:00"
-          },
-          {
-            "titular": "Anthropic details ‘existential risks to humanity’ in IPO filing",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropic-details-existential-risks-to-humanity-in-ipo-filin",
-            "fecha": "2026-10-27T04:00:00+00:00"
+            "fecha": "2026-11-18T13:13:20+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "Financial Times"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       },
       {
         "titulo_neutral": "Target boosts full-year sales outlook",
@@ -149,7 +149,7 @@
       },
       {
         "titulo_neutral": "Developed-market fiscal deficit to hit highest since World War 2 outside recessions, J.P. Morgan says - Reuters",
-        "resumen": "",
+        "resumen": "Las previsiones financieras indican que el déficit fiscal en las economías desarrolladas alcanzará su nivel más elevado desde la Segunda Guerra Mundial fuera de un periodo de recesión. Esta situación preocupa a los analistas de J.P. Morgan de cara a la estabilidad económica a largo plazo.",
         "articulos": [
           {
             "titular": "Developed-market fiscal deficit to hit highest since World War 2 outside recessions, J.P. Morgan says - Reuters",
@@ -170,8 +170,8 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Resultados financieros y bursátiles de Nvidia",
-        "resumen": "",
+        "titulo_neutral": "AI stocks rally as Nvidia outlook calms demand fears - Reuters",
+        "resumen": "Las acciones vinculadas a la inteligencia artificial registraron un repunte generalizado en los mercados. Esta recuperación se produjo después de que las recientes proyecciones comerciales de Nvidia lograran disipar los temores sobre una contracción en la demanda del sector.",
         "articulos": [
           {
             "titular": "AI stocks rally as Nvidia outlook calms demand fears - Reuters",
@@ -181,50 +181,175 @@
             "lean": "centro",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlVnb2FaQlk2WUUtQ3dtaUlBRF9oSnFadkhYVUNwSzRKdnFQNENDUmgyMXBFV1NKaDhUcXJYTGF3Z21LM1F0OEZMVTJZU0lhWHlhOHBCb0t5WVRmMVRMU1ZCRTlJRUpYRlFCZ3RBYVV4WlF0Nms2Q1NvbkVjU0p5NVVQbmFrdzdfZmdLdVgxZnZBUkRGbkpZMTNR?oc=5",
             "fecha": "2026-11-18T11:12:42+00:00"
-          },
-          {
-            "titular": "Nvidia delay in SEC filing contrasts with its typical practice and Mag 7 peers",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=3441f1b5-2d74-49cd-898e-156cc7eefe1f&mod=mw_rss_bulletins",
-            "fecha": "2026-11-18T10:46:10+00:00"
-          },
-          {
-            "titular": "Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=8b8a35cb-78e8-47a2-8492-f13ff7513a99&mod=mw_rss_bulletins",
-            "fecha": "2026-11-18T01:30:37+00:00"
-          },
-          {
-            "titular": "CoreWeave shares pop — even as Nvidia floats ‘disciplined’ approach to financing",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=ba857bd3-ccbb-403d-a6ac-807d52c3d662&mod=mw_rss_bulletins",
-            "fecha": "2026-11-18T02:01:50+00:00"
           }
         ],
         "leans_presentes": [
-          "centro",
-          "centro-derecha"
+          "centro"
         ],
         "grupos_presentes": [
-          "Reuters",
-          "MarketWatch"
+          "Reuters"
         ],
-        "cobertura_unilateral": false
+        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
+        "titulo_neutral": "Peñalolén sigue su batalla con la Garra Blanca y convierte rayados de barristas en murales comunitarios: “Se trata de devolverle los espacios a la comunidad”",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Peñalolén sigue su batalla con la Garra Blanca y convierte rayados de barristas en murales comunitarios: “Se trata de devolverle los espacios a la comunidad”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/18/penalolen-sigue-su-batalla-con-la-garra-blanca-y-convierte-rayados-de-barristas-en-murales-comunitarios-se-trata-de-devolverle-los-espacios-a-la-comunidad/",
+            "fecha": "2026-11-18T14:06:20+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Quiroz cede y anuncia que incorporará el aporte fiscal al FAPP por US$ 160 millones en el Presupuesto del 2027",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Quiroz cede y anuncia que incorporará el aporte fiscal al FAPP por US$ 160 millones en el Presupuesto del 2027",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/macro/quiroz-cede-y-anuncia-que-incorporara-el-aporte-fiscal-al-fapp-por-us-160",
+            "fecha": "2026-11-18T14:06:18+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "La batalla tecnológica entre EEUU y China se intensifica ad portas de la cumbre entre Trump y Xi",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "La batalla tecnológica entre EEUU y China se intensifica ad portas de la cumbre entre Trump y Xi",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/economia/la-batalla-tecnologica-entre-eeuu-y-china-se-intensifica-ad-portas-de-la",
+            "fecha": "2026-11-18T14:00:54+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Cómo funciona el exitoso modelo de concesiones de parques de Nueva Zelanda que Chile busca replicar",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Cómo funciona el exitoso modelo de concesiones de parques de Nueva Zelanda que Chile busca replicar",
+            "extracto": "",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.ex-ante.cl/negocios/nueva-zelanda-modelo-parques-mira-chile/",
+            "fecha": "2026-11-18T13:59:43+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Dólar a $ 1.000 divide al IPSA: las acciones que ganan y pierden con el alza de la divisa",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Dólar a $ 1.000 divide al IPSA: las acciones que ganan y pierden con el alza de la divisa",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/bolsa-monedas/dolar-a-1-000-divide-al-ipsa-las-acciones-que-ganan-y-pierden-con-el",
+            "fecha": "2026-11-18T13:50:29+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Novandino Litio gana US$ 1.332 millones a septiembre, casi siete veces que cuando era SQM Salar en 2025",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Novandino Litio gana US$ 1.332 millones a septiembre, casi siete veces que cuando era SQM Salar en 2025",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/mineria/novandino-litio-gana-us-1-332-millones-a-septiembre-casi-siete-veces-que",
+            "fecha": "2026-11-18T13:40:27+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Los depredadores ocultos de la Patagonia: expedición registra tiburones de siete agallas en el fiordo Quintupeu",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Los depredadores ocultos de la Patagonia: expedición registra tiburones de siete agallas en el fiordo Quintupeu",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/18/los-depredadores-ocultos-de-la-patagonia-expedicion-registra-tiburones-de-siete-agallas-en-el-fiordo-quintupeu/",
+            "fecha": "2026-11-18T13:34:21+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
         "titulo_neutral": "Compras el auto, pero no es tuyo del todo: el contrato del Tesla Cybercab y la era en que las marcas pueden apagar tu vehículo a distancia",
-        "resumen": "La comercialización del nuevo vehículo autónomo de Tesla ha generado debate debido a cláusulas contractuales restrictivas. El documento estipula que el automóvil puede quedar inutilizado si el comprador deja de cancelar una tarifa mensual de conectividad. Esta situación reabre el debate sobre la propiedad real de los bienes en la actualidad digital.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Compras el auto, pero no es tuyo del todo: el contrato del Tesla Cybercab y la era en que las marcas pueden apagar tu vehículo a distancia",
@@ -243,192 +368,38 @@
           "independiente"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Xi Jinping recibe a Donald Trump con un abrazo antes de histórica cumbre trilateral",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Xi Jinping recibe a Donald Trump con un abrazo antes de histórica cumbre trilateral",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/politica/xi-jinping-recibe-a-donald-trump-con-un-abrazo-antes-de-historica-cumbre",
-            "fecha": "2026-11-18T13:10:54+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Chile y el mundo: una cuenta corriente en azul y una deuda externa que sigue al alza",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Chile y el mundo: una cuenta corriente en azul y una deuda externa que sigue al alza",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/chile-y-el-mundo-una-cuenta-corriente-en-azul-y-una-deuda-externa-que",
-            "fecha": "2026-11-18T12:58:48+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "¿Usted aprueba o desaprueba la forma en que el presidente Kast está conduciendo su gobierno?",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "¿Usted aprueba o desaprueba la forma en que el presidente Kast está conduciendo su gobierno?",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/opinion/aprueba-o-desaprueba-kast-conduce-gobierno/",
-            "fecha": "2026-11-18T12:58:10+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Utilidad de SQM sube 288% a septiembre impulsada por los buenos precios del litio",
-        "resumen": "Los beneficios económicos acumulados durante los primeros tres trimestres del año alcanzaron cifras millonarias. Este desempeño favorable estuvo respaldado por una demanda internacional muy firme de litio. Dicho mineral mantiene un rol central en los mercados globales.",
-        "articulos": [
-          {
-            "titular": "Utilidad de SQM sube 288% a septiembre impulsada por los buenos precios del litio",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/mineria/utilidad-de-sqm-sube-288-a-septiembre-por-buenos-precios-del-litio",
-            "fecha": "2026-11-18T12:56:04+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Alcalde de Lago Ranco detalla proyecto de futuro centro cultural y defiende montos pagados por terreno tras informe de Contraloría",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Alcalde de Lago Ranco detalla proyecto de futuro centro cultural y defiende montos pagados por terreno tras informe de Contraloría",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/alcalde-de-lago-ranco-detalla-proyecto-de-futuro-centro-cultural-y-defiende",
-            "fecha": "2026-11-18T12:51:31+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "PIB del tercer trimestre desilusiona con una caída de 1,1% aunque las correcciones del BC evitan la recesión técnica",
-        "resumen": "La actividad económica anotó una variación anual negativa durante el periodo analizado, acumulando un descenso en lo que va del año. A pesar de este retroceso, las modificaciones metodológicas aplicadas por la autoridad monetaria a los ciclos previos descartaron la entrada en una fase recesiva técnica. De esta manera, el panorama estadístico muestra matices respecto a los trimestres anteriores.",
-        "articulos": [
-          {
-            "titular": "PIB del tercer trimestre desilusiona con una caída de 1,1% aunque las correcciones del BC evitan la recesión técnica",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/18/pib-del-tercer-trimestre-desilusiona-con-una-caida-de-11-aunque-las-correcciones-del-bc-evitan-la-recesion-tecnica/",
-            "fecha": "2026-11-18T12:46:19+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Opinión FT: Por qué Putin, Trump y Xi no pueden ser los nuevos \"tres grandes\"",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Opinión FT: Por qué Putin, Trump y Xi no pueden ser los nuevos \"tres grandes\"",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/politica/opinion-ft-por-que-putin-trump-y-xi-no-pueden-ser-los-nuevos-tres",
-            "fecha": "2026-11-18T12:44:04+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "GTA 6: Everything you need to know about the highly anticipated game",
+        "titular": "North Korea completes external works on enrichment facility extension, says IAEA",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/asia-pacific/20261118-north-korea-completes-external-works-on-enrichment-facility-extension-says-iaea",
+        "fecha": "2026-11-18T13:46:57+00:00"
+      },
+      {
+        "titular": "What is the ‘endgame’ in Syria, as Israeli rivals look for new government?",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/11/18/gta-6-everything-you-need-to-know-about-the-highly-anticipated-game?traffic_source=rss",
-        "fecha": "2026-11-18T13:02:33+00:00"
+        "url": "https://www.aljazeera.com/features/2026/11/18/what-is-the-end-game-in-syria-as-israeli-rivals-look-for-new-government?traffic_source=rss",
+        "fecha": "2026-11-18T13:42:56+00:00"
       },
       {
-        "titular": "Luxury goods sales seen returning to growth in 2026, but outlook fragile - Reuters",
+        "titular": "Tencent says new US chip curbs won't hurt cloud revenue, may slow model training - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdWtJbHFlcVlYVkRpS01FLTFuaE9UWS1sN29vbXJmY09SWDN3QVQ4VEcxeTFleGhtYk5vZzl1UzhIdHIzSGhNdFlGMklmc0xkWjZpR0lrTHJXSW9sejlVSEtONUw3S3MwV3ZpUVhFeG10dk5idTI0a09wbFBCR2NTTVc2a1JDUktVek83WDlLa2FQdEt3aU1Xel9QN1VNUE5WMW50Y3JMcHRudnpDN1ROU0ZUaUxzR0pwZGhVNmEwQQ?oc=5",
-        "fecha": "2026-11-18T12:57:37+00:00"
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUVM2YW9xWTExLUNSRGlEWGZCZDRlU01hRVdwRE9FRE85WE5VSDFXVGdYSDRuTGxadjVvV0pYZWNEek9oYWw5MExjTTZVUXNJM1ZNdHdmTTNhNE1FeWVhYURGVVM5N004RUpDODMxWWRVRkk5dXhVdFBRZndVU2dYZHdYMHJWRWF4b25Kbk5GT0xIbVBNM0ktaktnaThvZw?oc=5",
+        "fecha": "2026-11-18T13:30:51+00:00"
       },
       {
-        "titular": "How data centres are turning AI-generated heat into energy",
+        "titular": "How the US House of Representatives chooses its leaders: A visual guide",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/how-data-centres-are-turning-ai-generated-heat-into-energy?traffic_source=rss",
-        "fecha": "2026-11-18T12:41:02+00:00"
+        "url": "https://www.aljazeera.com/news/2026/11/18/how-the-us-house-of-representatives-chooses-its-leaders-a-visual-guide?traffic_source=rss",
+        "fecha": "2026-11-18T13:24:22+00:00"
       },
       {
-        "titular": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-18T12:39:24+00:00"
-      },
-      {
-        "titular": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUo2UWtYUkdWbUFwMVlzSHJwTVNrZlhyMzVuVnk3YVFXLW9mN1g5ZU44SmpMZG9kUUc1NFhacHEwbFJBN0lTQUdaMzFmNXNyd0RQaHNsaG9vY1lNRHRzV2pqV1dmT0Q0dXdWVDdORjZCVDczU2NueUdWaVZNd01GSXdBa05pQ0E1ZmkwRWFENXdlckFVLUdHVUFSNmhwa29oU1gyS0NJaTU1S2dJa3U5VmtKWQ?oc=5",
-        "fecha": "2026-11-18T12:36:03+00:00"
+        "titular": "'Extreme wealth can become a type of brain damage': Journalist Alexander Hurst",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/tv-shows/perspective/20261118-extreme-wealth-can-become-a-type-of-brain-damage-journalist-alexander-hurst",
+        "fecha": "2026-11-18T13:18:33+00:00"
       }
     ]
   },
@@ -440,10 +411,6 @@
       "var_dia_pct": -4.248,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 244.06
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 245.78
@@ -1258,6 +1225,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 235.55
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 235.55
           }
         ],
@@ -6869,7 +6840,7 @@
       "noticias": [
         {
           "titular": "ETFs Are Net Sellers of Adobe (ADBE) on Monday",
-          "extracto": "La empresa tecnológica Adobe experimentó una salida neta de capitales en fondos cotizados al comienzo de la semana. Este movimiento refleja la atención del mercado financiero hacia el desempeño bursátil de la compañía.",
+          "extracto": "La empresa Adobe registró un saldo neto de ventas en fondos cotizados en bolsa por 25,8 millones de dólares al inicio de la semana. Este movimiento refleja la actividad reciente de los inversionistas en el mercado de valores respecto a la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6878,7 +6849,7 @@
         },
         {
           "titular": "Michael Burry Just Added to His Adobe Stake. I'd Buy Adobe Stock Now, Too.",
-          "extracto": "Un inversor reconocido adquirió acciones de la compañía de software a un precio específico durante la última jornada bursátil. La operación genera dudas en el mercado sobre las perspectivas futuras de la firma.",
+          "extracto": "Un reconocido inversionista adquirió acciones de la compañía de software a un precio aproximado de 246 dólares cada una. Esta operación genera dudas en el mercado sobre la verdadera perspectiva de valor a largo plazo de la firma.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6887,7 +6858,7 @@
         },
         {
           "titular": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
-          "extracto": "La compañía de software presentó nuevas herramientas de inteligencia artificial orientadas a la automatización de procesos creativos en sus plataformas. Asimismo, amplió sus alianzas estratégicas con gigantes tecnológicos para integrar su tecnología en diversos entornos de productividad.",
+          "extracto": "La compañía tecnológica lanzó nuevas herramientas de inteligencia artificial autónoma integradas en sus plataformas creativas para automatizar procesos complejos. Además, amplió sus alianzas estratégicas con gigantes tecnológicos como Google y Microsoft para expandir el alcance de sus productos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6896,7 +6867,7 @@
         },
         {
           "titular": "WSC Sports Leads BDO's 2026 Analysis of Sports Content Solution Vendors",
-          "extracto": "Un análisis de la industria situó a WSC Sports en la posición principal entre más de treinta proveedores de contenidos deportivos debido a su oferta y cartera de clientes. El estudio incluyó a diversas compañías del sector tecnológico y de entretenimiento.",
+          "extracto": "Un informe de análisis de proveedores posicionó a WSC Sports como la solución líder en contenidos deportivos por encima de competidores como Adobe. La evaluación destacó su amplia cobertura, variedad de productos y una sólida base de clientes principales.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6905,7 +6876,7 @@
         },
         {
           "titular": "Michael Burry Makes Bold Bet on Beaten-Down AI Software Stock",
-          "extracto": "El inversor Michael Burry amplió su participación accionaria en la empresa de software mientras se desprendía de opciones de venta sobre otras corporaciones. Esta decisión se produjo en un contexto de fluctuaciones en el sector tecnológico.",
+          "extracto": "El conocido inversionista amplió su participación accionaria en la empresa de software mientras se desprendía de posiciones bajistas en otras compañías. Estos ajustes en su cartera ocurren en un contexto de inestabilidad dentro del sector de inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7416,10 +7387,6 @@
       "var_dia_pct": -1.0272,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 532.67
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 531.4
@@ -8218,6 +8185,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 586.76
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 586.76
           }
         ],
@@ -14113,7 +14084,7 @@
       "noticias": [
         {
           "titular": "A 70-Year-Old Who Bought 1,000 Berkshire Shares at the May 2025 Peak Waited 17 Months to Break Even",
-          "extracto": "Un inversor de Berkshire finalmente registra ganancias tras meses sin dividendos, aunque la decisión de vender implica evaluar complejos factores fiscales de fin de año.",
+          "extracto": "Un inversor de Berkshire finalmente registra ganancias tras meses sin dividendos, aunque la decisión de vender depende de ciertos datos fiscales cruciales de fin de año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14122,7 +14093,7 @@
         },
         {
           "titular": "What State Street Financial Select SPDR (XLF) Sold: Berkshire Leads on Monday",
-          "extracto": "Un fondo redujo todas sus participaciones accionarias por un valor total de cientos de millones de dólares, destacando la disminución en Berkshire Hathaway.",
+          "extracto": "Un fondo de inversión redujo todas sus posiciones accionarias al vender cientos de millones de dólares, destacando el recorte realizado por Berkshire Hathaway.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14131,7 +14102,7 @@
         },
         {
           "titular": "Buffett is donating $5.5B to 4 charities — The Gates Foundation, which he gave $47B over the years, isn’t one of them",
-          "extracto": "El reconocido inversor Warren Buffett cumple su promesa de entregar su participación restante en el conglomerado a causas benéficas.",
+          "extracto": "El reconocido inversor conocido como el Oráculo de Omaha continúa cumpliendo con su compromiso de entregar sus acciones restantes de Berkshire Hathaway a organizaciones benéficas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14140,7 +14111,7 @@
         },
         {
           "titular": "Berkshire Hathaway Is Up 18% in 3 Months. Its General Counsel Just Bought $250,000 More",
-          "extracto": "Un alto directivo de la compañía realizó una considerable inversión personal adquiriendo acciones de clase B a un precio específico en noviembre.",
+          "extracto": "El asesor jurídico general de Berkshire, Michael O'Sullivan, adquirió acciones clase B de la compañía por un valor superior a los doscientos cincuenta mil dólares.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14149,7 +14120,7 @@
         },
         {
           "titular": "Berkshire Hathaway (BRK.B) Reveals New Stake And Nearly Doubles One Holding",
-          "extracto": "El conglomerado de Warren Buffett reveló una nueva inversión en la empresa tecnológica Bending Spoons y duplicó su participación en la constructora Lennar como parte de los ajustes en su cartera.",
+          "extracto": "Berkshire Hathaway reveló una nueva inversión en la empresa matriz de AOL y amplió significativamente su participación en el sector de la construcción de viviendas a través de Lennar.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14453,10 +14424,6 @@
       "var_dia_pct": -1.227,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 9.31
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 9.31
@@ -15255,6 +15222,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 8.05
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 8.05
           }
         ],
@@ -20970,7 +20941,7 @@
       "noticias": [
         {
           "titular": "BYD vs. Ford: Why the Cheaper Automotive Stock Isn't Necessarily the Better Investment for 2027",
-          "extracto": "La adopcion global de vehiculos electricos esta transformando la industria automotriz, aunque liderar esta transicion no garantiza necesariamente un mejor rendimiento financiero. Este fenomeno esta obligando a las empresas del sector a replantear sus estrategias economicas a largo plazo.",
+          "extracto": "La transición global hacia los vehículos eléctricos está transformando la industria automotriz, aunque dominar este sector no garantiza necesariamente un mejor rendimiento financiero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20979,7 +20950,7 @@
         },
         {
           "titular": "BYD ATTO 3 EVO Expands International Footprint with 100 kW Offering and Practical Electric SUV Features",
-          "extracto": "El nuevo modelo totalmente electrico BYD ATTO 3 EVO ha comenzado su expansion en los mercados de Asia-Pacifico y otras regiones globales. Este vehiculo utilitario deportivo combina una autonomia competitiva, tecnologia inteligente y caracteristicas practicas orientadas a las familias.",
+          "extracto": "El nuevo modelo BYD ATTO 3 EVO está expandiendo su presencia global como un SUV eléctrico que combina autonomía, practicidad y tecnología inteligente. Su configuración incluye opciones de propulsión de 100 kW diseñadas para satisfacer las necesidades de las familias modernas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20988,7 +20959,7 @@
         },
         {
           "titular": "BYD ATTO 3 EVO Brings 100 kW Electric Performance and Intelligent Safety to Expanding Global SUV Line-Up",
-          "extracto": "Lanzado para el mercado internacional, el SUV electrico BYD ATTO 3 EVO incorpora sistemas avanzados de asistencia al conductor y tecnologia inteligente integrada. Estas prestaciones buscan mejorar la seguridad y la comodidad en la movilidad diaria de los usuarios.",
+          "extracto": "Presentado para el mercado internacional, el SUV eléctrico BYD ATTO 3 EVO integra sistemas avanzados de asistencia al conductor y opciones de motor de 100 kW. Este vehículo busca destacar en la movilidad cotidiana mediante la combinación de un diseño distintivo y tecnología enfocada en la seguridad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20997,7 +20968,7 @@
         },
         {
           "titular": "BYD ATTO 3 EVO Strengthens International Rollout with 100 kW Electric SUV Offering",
-          "extracto": "La marca ha anunciado la llegada del BYD ATTO 3 EVO a diversas regiones globales, incluyendo Europa, Oriente Medio y Asia-Pacifico. El vehiculo destaca por integrar la tecnologia de baterias propietaria de la empresa y sistemas avanzados de asistencia a la conduccion.",
+          "extracto": "El BYD ATTO 3 EVO continúa su expansión en regiones como Asia-Pacífico, Europa y Oriente Medio dentro de la oferta de vehículos de pasajeros de la marca. Incorpora tecnologías clave como la batería Blade de la compañía, sistemas avanzados de seguridad y configuraciones de potencia de 100 kW.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21006,7 +20977,7 @@
         },
         {
           "titular": "Automotive and Pan-Robotics LiDAR Market Research Report 2025-2026 | Image-Level Sensing and Integrated Solutions Accelerate ADAS and Robotics Growth",
-          "extracto": "Un nuevo informe de investigacion de mercado destaca la rapida expansion y el incremento significativo en la instalacion de sensores LiDAR en vehiculos durante 2025. El estudio senala ademas una mayor competencia en el sector y un uso acelerado de estas tecnologias en aplicaciones roboticas.",
+          "extracto": "Un nuevo informe de investigación de mercado publicado en noviembre de 2026 destaca el crecimiento acelerado de los sistemas LiDAR en China y el sector de la robótica. El estudio señala que las instalaciones de LiDAR en automóviles de pasajeros chinos se duplicaron con creces durante el año 2025.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21022,10 +20993,6 @@
       "var_dia_pct": 0.4187,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 241.24
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 243
@@ -21824,6 +21791,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 275.82
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 275.82
           }
         ],
@@ -27719,7 +27690,7 @@
       "noticias": [
         {
           "titular": "How Investors Are Reacting To McDonald's (MCD) AI Drive Thru Expansion",
-          "extracto": "McDonald's ha presentado nuevas estrategias para la temporada navideña y a largo plazo, que incluyen un menú temático inspirado en Home Alone y el incremento de pruebas con inteligencia artificial en sus auto-servicios. Estas acciones buscan mejorar la eficiencia operativa y proteger los márgenes de ganancia frente a los desafíos del mercado actual.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27728,7 +27699,7 @@
         },
         {
           "titular": "Warren Buffett Buys: 3 Forever Stocks the Billionaire Investor Has Invested In",
-          "extracto": "Ciertas acciones destacan por poseer marcas muy sólidas y una salud financiera estable, lo que las convierte en opciones de inversión particularmente seguras a largo plazo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27737,7 +27708,7 @@
         },
         {
           "titular": "McDonald's 'Home Alone Meal' offers holiday socks, menu items",
-          "extracto": "A partir del 1 de diciembre, la cadena de comida rápida ofrecerá una comida temática basada en la película Home Alone para la temporada navideña, acompañada de artículos coleccionables.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27746,7 +27717,7 @@
         },
         {
           "titular": "Here’s Why This Strategy Exited McDonald’s Corporation (MCD) in Q3",
-          "extracto": "La firma de gestión de activos Jensen Investment Management publicó su carta trimestral correspondiente al tercer trimestre de 2026 para su estrategia de crecimiento. El documento señala un cambio hacia un mercado más prudente, donde el entusiasmo inicial por las empresas de inteligencia artificial ha disminuido.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27755,7 +27726,7 @@
         },
         {
           "titular": "Has McDonald's Stock Become A Different Bet?",
-          "extracto": "El análisis principal del día plantea la posibilidad de una corrección severa en el precio de las acciones de Nvidia, invitando a los inversores a examinar de cerca los flujos de efectivo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -28308,10 +28279,6 @@
       "var_dia_pct": -2.2684,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 535.13
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 533.58
@@ -29126,6 +29093,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 506.24
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 506.24
           }
         ],
@@ -35020,49 +34991,49 @@
       },
       "noticias": [
         {
-          "titular": "Planes, banks and the NSA all went down in one week",
-          "extracto": "Un reciente podcast analiza una serie de fallas tecnológicas simultáneas, incluyendo problemas en Microsoft 365 y la paralización de vuelos en EE. UU., mientras expertos evalúan si se deben a fallos técnicos o amenazas de ciberataques de inteligencia artificial.",
+          "titular": "NiCE Unites AI and Human Agents with Microsoft on One Connected Customer Service Stack",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/planes-banks-nsa-went-down-120000752.html?.tsrc=rss",
-          "fecha": "2026-11-18T12:00:00+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/nice-unites-ai-human-agents-140700300.html?.tsrc=rss",
+          "fecha": "2026-11-18T14:07:00+00:00"
         },
         {
-          "titular": "Microsoft Stock Loses Key Level Amid Global Outage; Is Microsoft A Buy Now?",
-          "extracto": "Las acciones de Microsoft experimentaron un descenso en el mercado bursátil tras una interrupción a escala global que impactó el funcionamiento de herramientas de comunicación como Outlook y Teams.",
+          "titular": "Conga Brings Its Commerce Suite to Microsoft Marketplace, Integrated with Dynamics 365 and Copilot",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/efe593c1-a803-3c2b-91d2-d5b38ca68a4c/microsoft-stock-loses-key.html?.tsrc=rss",
-          "fecha": "2026-11-18T13:00:38+00:00"
+          "url": "https://finance.yahoo.com/technology/articles/conga-brings-commerce-suite-microsoft-140500017.html?.tsrc=rss",
+          "fecha": "2026-11-18T14:05:00+00:00"
         },
         {
-          "titular": "Arrow Electronics announces new ArrowSphere sales portal to help channel partners accelerate cloud growth",
-          "extracto": "Arrow Electronics lanzó una versión limitada de un portal de ventas para su plataforma ArrowSphere Cloud, facilitando a sus socios comerciales la gestión de oportunidades en los servicios en la nube de AWS y Microsoft.",
+          "titular": "Syndigo Helps Brands and Retailers Get Products to Market Faster with Microsoft Copilot",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/arrow-electronics-announces-arrowsphere-sales-130000525.html?.tsrc=rss",
-          "fecha": "2026-11-18T13:00:00+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/syndigo-helps-brands-retailers-products-140100392.html?.tsrc=rss",
+          "fecha": "2026-11-18T14:01:00+00:00"
         },
         {
-          "titular": "Apple Is the Only Magnificent Seven Stock Near a Record",
-          "extracto": "Mientras el índice S&P 500 acumuló cuatro jornadas consecutivas a la baja, una de las principales empresas tecnológicas del mercado logró mantenerse firme frente a las caídas generalizadas.",
+          "titular": "BCG and Microsoft Expand Collaboration with New Model for AI-Powered Business Reimagination",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/2026/11/18/apple-is-the-only-magnificent-seven-stock-near-a-record/?.tsrc=rss",
-          "fecha": "2026-11-18T12:22:20+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/bcg-microsoft-expand-collaboration-model-140000600.html?.tsrc=rss",
+          "fecha": "2026-11-18T14:00:00+00:00"
         },
         {
-          "titular": "Why Microsoft Investors Could Own It Through 3 ETFs",
-          "extracto": "Invertir directamente en Microsoft expone a los accionistas a riesgos específicos relacionados con la demanda de inteligencia artificial y servicios en la nube, los cuales pueden mitigarse parcialmente mediante la diversificación a través de fondos mutuos.",
+          "titular": "Check Point Scales Its SASE Platform on Microsoft Azure for Global Enterprise Deployment",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-investors-could-own-120903852.html?.tsrc=rss",
-          "fecha": "2026-11-18T12:09:03+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/check-point-scales-sase-platform-140000411.html?.tsrc=rss",
+          "fecha": "2026-11-18T14:00:00+00:00"
         }
       ],
       "fundamentales": {
@@ -35651,10 +35622,6 @@
       "var_dia_pct": -4.469,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 206.34
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 204.75
@@ -36469,6 +36436,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 203.93
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 203.93
           }
         ],
@@ -41864,7 +41835,7 @@
       "noticias": [
         {
           "titular": "'Grand Theft Auto VI' could be the biggest entertainment launch in history",
-          "extracto": "El próximo videojuego Grand Theft Auto VI, desarrollado por Take-Two Interactive, apunta a convertirse en uno de los lanzamientos más importantes de la historia del entretenimiento.",
+          "extracto": "El esperado videojuego 'GTA VI' de Take-Two Interactive se perfila como un lanzamiento histórico en la industria del entretenimiento. Este acontecimiento genera altas expectativas financieras y culturales a nivel global.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41872,8 +41843,17 @@
           "fecha": "2026-11-18T12:34:31+00:00"
         },
         {
+          "titular": "GTA 6 Draws Over 2.4M Twitch Viewers – TTWO Stock Jumps Pre-Market As Early Posts Indicate Rave Reviews",
+          "extracto": "El nuevo título alcanzó una puntuación perfecta en Metacritic, igualando el récord histórico establecido por 'The Legend of Zelda: Ocarina of Time'. Este reconocimiento destaca la excepcional calidad técnica y artística del juego.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://stocktwits.com/news-articles/markets/equity/gta6-twitch-viewers-ttwo-stock-pre-market-rave-reviews/cNbgcD6R9Lm?.tsrc=rss",
+          "fecha": "2026-11-18T13:38:47+00:00"
+        },
+        {
           "titular": "Take-Two shares climb as GTA VI reviews impress ahead of blockbuster launch",
-          "extracto": "Las acciones de Take-Two Interactive experimentaron un incremento del 6,4% en las operaciones previas a la apertura del mercado tras publicarse críticas iniciales sumamente favorables sobre la nueva entrega de su exitosa franquicia.",
+          "extracto": "Las acciones de Take-Two Interactive registraron un incremento del 6.4% en las operaciones previas a la apertura del mercado bursátil. La subida responde a las excelentes críticas iniciales recibidas por el videojuego previo a su comercialización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41882,7 +41862,7 @@
         },
         {
           "titular": "Nvidia, Dell, Sandisk, Take-Two, Target, and More Stocks That Explain Today’s Market",
-          "extracto": "Los sólidos resultados financieros presentados por Nvidia tranquilizaron a los mercados respecto al financiamiento continuo de la infraestructura de inteligencia artificial, impulsando también el valor bursátil de empresas como Coherent y Dell.",
+          "extracto": "Los sólidos informes financieros de Nvidia transmitieron confianza a los mercados respecto a la continuidad de las inversiones en infraestructura de inteligencia artificial. Empresas como Coherent y Dell también experimentaron incrementos bursátiles.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41891,21 +41871,12 @@
         },
         {
           "titular": "TTWO Stock Gains Premarket After 2-Day Rout: Sensor Towers Says GTA 6 Pre-Orders Top $1.5B A Day Before Release",
-          "extracto": "El esperado título Grand Theft Auto VI estará disponible a partir del jueves para las consolas PlayStation 5 y Xbox Series X|S.",
+          "extracto": "El estreno oficial del videojuego está programado para el próximo jueves en las consolas PlayStation 5 y Xbox Series X|S. Esto permitirá a los usuarios de ambas plataformas acceder al título desde su primer día en el mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-gains-premarket-after-2-day-rout-sensor-towers-says-gta-6-pre-orders-top-1-5-b-a-day-before-release/cNbXDAGR9Ld?.tsrc=rss",
           "fecha": "2026-11-18T09:09:44+00:00"
-        },
-        {
-          "titular": "GTA 6 Preorders Hit an Estimated $1.5 Billion. Its Launch Could Boost DoorDash, Hurt Fortnite and Mobile Streaming",
-          "extracto": "A pocos días de su estreno oficial el jueves, las reservas anticipadas de la nueva entrega de la saga de videojuegos han alcanzado la cifra estimada de 1.540 millones de dólares.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63373009/gta-6-preorders-2?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-          "fecha": "2026-11-17T21:55:11+00:00"
         }
       ],
       "fundamentales": {
@@ -42397,10 +42368,6 @@
       "var_dia_pct": -1.0393,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-19T14:00:00",
-            "valor": 706.01
-          },
           {
             "fecha": "2026-10-19T17:00:00",
             "valor": 705.38
@@ -43199,6 +43166,10 @@
           },
           {
             "fecha": "2026-11-18T13:00:00",
+            "valor": 673.19
+          },
+          {
+            "fecha": "2026-11-18T14:00:00",
             "valor": 673.19
           }
         ],
@@ -49094,7 +49065,7 @@
       "noticias": [
         {
           "titular": "Vanguard S&P 500 ETF vs. Schwab U.S. Dividend ETF: How Much You’d Need to Collect $1,000 a Month From Each.",
-          "extracto": "Los fondos VOO y SCHD ofrecen dividendos, pero uno de ellos genera una cantidad de ingresos significativamente mayor por cada dólar invertido. Esta diferencia es crucial para los inversores que buscan maximizar sus ganancias pasivas.",
+          "extracto": "Los fondos VOO y SCHD ofrecen distribuciones de dividendos, pero generan rendimientos muy diferentes por cada dólar invertido. Esta diferencia es clave para los inversores enfocados en obtener ingresos pasivos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49112,7 +49083,7 @@
         },
         {
           "titular": "BTAL Buys the Market’s Calmest Stocks and Shorts Its Wildest. It Is Built to Rise When Stocks Fall",
-          "extracto": "Un fondo de inversión poco conocido protege las carteras de los jubilados frente a caídas del mercado al apostar en contra de acciones volátiles. Sin embargo, esta misma estrategia reduce las ganancias potenciales durante los periodos de crecimiento prolongado.",
+          "extracto": "Un fondo bursátil poco conocido está diseñado para proteger las carteras de jubilación durante las caídas del mercado al apostar en contra de acciones volátiles. Sin embargo, esta estrategia protectora reduce las ganancias potenciales durante los periodos de crecimiento prolongado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49121,7 +49092,7 @@
         },
         {
           "titular": "If You Had Invested $10,000 in the Vanguard S&P 500 ETF (VOO) in 2016, Here's What You Would Have Today",
-          "extracto": "El fondo cotizado Vanguard S&P 500 experimentó un crecimiento notable durante la última década. Los inversores deben considerar ciertos factores históricos clave antes de tomar decisiones basadas en ese rendimiento pasado.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49189,10 +49160,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-10-19T14:00:00",
-              "valor": 244.06
-            },
             {
               "fecha": "2026-10-19T17:00:00",
               "valor": 245.78
@@ -50007,6 +49974,10 @@
             },
             {
               "fecha": "2026-11-18T13:00:00",
+              "valor": 235.55
+            },
+            {
+              "fecha": "2026-11-18T14:00:00",
               "valor": 235.55
             }
           ],
@@ -55755,7 +55726,7 @@
               "valor": 95.11
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 95.11
             }
           ],
@@ -61056,7 +61027,7 @@
               "valor": 104.71
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 104.71
             }
           ],
@@ -66229,7 +66200,7 @@
               "valor": 84.42
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 84.42
             }
           ],
@@ -71762,7 +71733,7 @@
               "valor": 570.79
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 570.79
             }
           ],
@@ -77315,7 +77286,7 @@
               "valor": 430.53
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 430.53
             }
           ],
@@ -82848,7 +82819,7 @@
               "valor": 92.9
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 92.9
             }
           ],
@@ -88349,7 +88320,7 @@
               "valor": 280.2
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 280.2
             }
           ],
@@ -93498,7 +93469,7 @@
               "valor": 155.46
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 155.46
             }
           ],
@@ -98503,7 +98474,7 @@
               "valor": 618.87
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 618.87
             }
           ],
@@ -103576,7 +103547,7 @@
               "valor": 503.41
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 503.41
             }
           ],
@@ -108813,7 +108784,7 @@
               "valor": 55.17
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 55.17
             }
           ],
@@ -114178,7 +114149,7 @@
               "valor": 194.52
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 194.52
             }
           ],
@@ -119271,7 +119242,7 @@
               "valor": 115
             },
             {
-              "fecha": "2026-11-18T13:00:00",
+              "fecha": "2026-11-18T14:00:00",
               "valor": 115
             }
           ],
