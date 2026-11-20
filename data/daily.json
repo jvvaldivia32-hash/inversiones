@@ -1,20 +1,22 @@
 {
-  "generado": "2026-11-20T03:31:50.417947+00:00",
-  "errores": [],
+  "generado": "2026-11-20T10:30:10.432444+00:00",
+  "errores": [
+    "France24: feed sin respuesta o vacío"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Asian shares head for worst week since 2020 as AI rout deepens",
+        "titulo_neutral": "BMO actualiza la calificacion de las acciones de Everforth",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Asian shares head for worst week since 2020 as AI rout deepens",
+            "titular": "BMO upgrades Everforth stock rating on valuation, refinancing view",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
-            "fecha": "2026-11-20T03:18:39+00:00"
+            "url": "https://www.investing.com/news/analyst-ratings/bmo-upgrades-everforth-stock-rating-on-valuation-refinancing-view-93CH-5041124",
+            "fecha": "2026-11-20T10:22:45+00:00"
           }
         ],
         "leans_presentes": [
@@ -26,17 +28,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US Senate passes bipartisan bill to speed energy, infrastructure projects",
+        "titulo_neutral": "La caida de las acciones de ASML",
         "resumen": "",
         "articulos": [
           {
-            "titular": "US Senate passes bipartisan bill to speed energy, infrastructure projects",
+            "titular": "Why is ASML stock sliding today?",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/commodities-news/us-senate-passes-bipartisan-bill-to-speed-energy-infrastructure-projects-5040581",
-            "fecha": "2026-11-20T03:18:24+00:00"
+            "url": "https://www.investing.com/news/stock-market-news/why-is-asml-stock-sliding-today-93CH-5041123",
+            "fecha": "2026-11-20T10:22:37+00:00"
           }
         ],
         "leans_presentes": [
@@ -48,17 +50,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Yesway prices secondary offering of 5 million shares at $19",
+        "titulo_neutral": "La caida de las acciones de BE Semiconductor Industries",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Yesway prices secondary offering of 5 million shares at $19",
+            "titular": "Why is BE Semiconductor Industries stock sliding today?",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/company-news/yesway-prices-secondary-offering-of-5-million-shares-at-19-93CH-5040580",
-            "fecha": "2026-11-20T03:16:28+00:00"
+            "url": "https://www.investing.com/news/stock-market-news/why-is-be-semiconductor-industries-stock-sliding-today-93CH-5041122",
+            "fecha": "2026-11-20T10:22:09+00:00"
           }
         ],
         "leans_presentes": [
@@ -70,31 +72,81 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Cra international CEO Paul Maleh sells $1.54 million in company stock",
-        "resumen": "",
+        "titulo_neutral": "La caida del precio del oro debido a las expectativas sobre los tipos de interes de la Reserva Federal",
+        "resumen": "Los precios del oro experimentaron una fuerte caída semanal, aproximándose a su peor desempeño en ocho meses. Este descenso refleja la preocupación de los mercados ante una postura de política monetaria más restrictiva por parte de la Reserva Federal. Los inversores reevalúan el atractivo de este metal precioso como activo refugio frente a las perspectivas de tasas de interés elevadas.",
         "articulos": [
           {
-            "titular": "Cra international CEO Paul Maleh sells $1.54 million in company stock",
+            "titular": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/insider-trading-news/cra-international-ceo-paul-maleh-sells-154-million-in-company-stock-93CH-5040578",
-            "fecha": "2026-11-20T03:15:55+00:00"
+            "url": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
+            "fecha": "2026-11-20T10:20:55+00:00"
+          },
+          {
+            "titular": "Gold slides toward worst week in eight months on hawkish Fed outlook - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
+            "fecha": "2026-11-20T03:24:00+00:00"
           }
         ],
         "leans_presentes": [
           "centro"
         ],
         "grupos_presentes": [
-          "Investing.com"
+          "Investing.com",
+          "Reuters"
+        ],
+        "cobertura_unilateral": false
+      },
+      {
+        "titulo_neutral": "Las restricciones de Estados Unidos a los chips de inteligencia artificial afectan a las acciones tecnologicas chinas",
+        "resumen": "Las nuevas restricciones impuestas por Estados Unidos a la exportación de microchips de inteligencia artificial han provocado caídas en las acciones tecnológicas de China. Esta situación ha intensificado la urgencia en el gigante asiático por lograr una mayor autosuficiencia en el desarrollo y fabricación de semiconductores. Las medidas estadounidenses buscan limitar el avance tecnológico chino en sectores estratégicos.",
+        "articulos": [
+          {
+            "titular": "US AI chip curbs hit China tech stocks, spur self-sufficiency push - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM3JhZ1hpWlJqYlVISU9pcFFUS0N1Sk9MeEx5aU9jWmt5OVBxY2RkeWNCWDBITU5nYmdNdzFNQm4xTkZVbTM3T214cjhzSDBPWHFsaGt0Uk56c2F0TUFOOWl2ZlZHRGhjdXN5WDNPM3BiS3E1QW9lbHZ0NjZDUVNtaVZBbGUzNmxMR1o4c3REOGE3c3R4ZFk3d1VpR3diM0FmTnphSVdtR0M5MWpHRm9OeFJtaTQ5U1p6bnVRc3VnTW54cVVW?oc=5",
+            "fecha": "2026-11-20T08:23:43+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
         ],
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Salida a bolsa de Anthropic",
-        "resumen": "La empresa de inteligencia artificial Anthropic realizó su histórica salida a bolsa como la primera compañía de su sector en cotizar públicamente. Aunque las acciones subieron considerablemente en su debut y alcanzaron una valoración multimillonaria, los principales índices bursátiles sufrieron caídas debido a la recogida de beneficios y la cautela de los inversores.",
+        "titulo_neutral": "La salida a bolsa y debut en el mercado de Anthropic",
+        "resumen": "Los mercados bursátiles asiáticos registraron pérdidas en varios de sus principales índices debido a una corrección generalizada en el sector tecnológico. En el ámbito corporativo, la salida a bolsa de la empresa de inteligencia artificial Anthropic atrajo gran atención tras cerrar su primera jornada con ganancias notables. Asimismo, la agenda geopolítica destacó por encuentros de alto nivel entre líderes internacionales para abordar cuestiones comerciales y diplomáticas.",
         "articulos": [
+          {
+            "titular": "Morning Bid: Anthropic's splashy IPO fails to lift AI boat - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ2RGU3lYLUtMZ2FwZzBEU2hlcmRDbWV6c3dDRU9OYTVzU0pSa0xzeUpuVk9McG9lYTBKdEcxZEtRY0JXbmZ3dDJlZ2xiVG5Ba3pDdkotNXBIN3Z2a3hqcHdlUlNFekh6REp6bWo2bW1sS25mTUJWUDlqU3UtMU5DRlpERQ?oc=5",
+            "fecha": "2026-11-20T05:53:00+00:00"
+          },
+          {
+            "titular": "Anthropic’s splashy public market debut",
+            "extracto": "",
+            "medio": "Financial Times",
+            "grupo": "Financial Times",
+            "lean": "centro",
+            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-splashy-public-market-debut",
+            "fecha": "2026-11-20T05:00:00+00:00"
+          },
           {
             "titular": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
             "extracto": "",
@@ -132,51 +184,6 @@
             "fecha": "2026-11-19T23:33:51+00:00"
           },
           {
-            "titular": "Who is getting rich from Anthropic's record IPO - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPancyR3hqXzc1cWJHZDlBeDc5Wk50dkNqX0R4VlFEUFV2V2FLNlkzVTlRd0lxQ3h1S1FrWHQ1UG9UM3NwT1RuZUdUVWszek1FR2xzRDhZM0RWNGcyWm9SZVR2NDV4Mm1UTXlLUm5XMUlFMUY0bmhtS0QyM3N1bzRVNE1YSVREbms2UTYtQVVPaXpXcVZRTG5haVVWYXRKZw?oc=5",
-            "fecha": "2026-11-19T22:58:42+00:00"
-          },
-          {
-            "titular": "Anthropic goes public after blockbuster IPO but fails to revive AI trade",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/tv-shows/business/20261119-anthropic-goes-public-after-blockbuster-ipo-but-fails-to-revive-ai-trade",
-            "fecha": "2026-11-19T22:22:01+00:00"
-          },
-          {
-            "titular": "Instant view: Anthropic hits $2 trillion market value in debut; major indexes fall - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRFLVpVV0l1RXpPXzhUdXlUT1ZHQ0NNeUplSXhERGJybFNNRDBVU1RDRktVeTBFYlhOV1dUbE1ldV92NS1zZDJCYkM1U24tMVI0clN1eFplWHdXQlZmX19zS2V2ZWE1Y0RGT3lLQ1dzUzJVS210N19zZXVZSHlVRUt6c3JhLVJ1bzk3cl9LZ0FPeVhmV3ZSYmdRSHpoc0p6VXB6cHhwX2FfQQ?oc=5",
-            "fecha": "2026-11-19T21:39:50+00:00"
-          },
-          {
-            "titular": "Three arrested during Anthropic IPO protest outside Nasdaq",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
-            "fecha": "2026-11-19T20:59:20+00:00"
-          },
-          {
-            "titular": "🔴Anthropic soars more than 30% to $2 trillion valuation on first day of trading",
-            "extracto": "",
-            "medio": "France24",
-            "grupo": "France24",
-            "lean": "centro",
-            "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
-            "fecha": "2026-11-19T16:59:21+00:00"
-          },
-          {
             "titular": "Anthropic’s big IPO day arrives",
             "extracto": "",
             "medio": "Financial Times",
@@ -184,35 +191,47 @@
             "lean": "centro",
             "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-big-ipo-day-arrives",
             "fecha": "2026-11-19T05:00:00+00:00"
-          },
-          {
-            "titular": "Anthropic details ‘existential risks to humanity’ in IPO filing",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropic-details-existential-risks-to-humanity-in-ipo-filin",
-            "fecha": "2026-10-27T04:00:00+00:00"
           }
         ],
         "leans_presentes": [
+          "centro",
           "sin-clasificar",
-          "centro-derecha",
-          "centro"
+          "centro-derecha"
         ],
         "grupos_presentes": [
+          "Reuters",
+          "Financial Times",
           "Al Jazeera",
           "MarketWatch",
-          "BBC",
-          "Reuters",
-          "France24",
-          "Financial Times"
+          "BBC"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "With home sales at a record low, buyers are now in the driver's seat",
-        "resumen": "Anthropic publicó la documentación oficial para su esperada oferta pública de venta, un acontecimiento financiero que acaparó la atención del mercado. Paralelamente, los ciudadanos de Israel acudieron a las urnas para participar en unos comicios considerados cruciales para el futuro político de la nación en sus casi ochenta años de historia.",
+        "titulo_neutral": "El comportamiento de las acciones en India y los mercados asiaticos",
+        "resumen": "Las bolsas de valores en la India experimentaron una pausa en su tendencia alcista, manteniéndose cerca de máximos alcanzados en los últimos nueve meses. Este comportamiento se produce en un contexto de caídas generalizadas y mayor volatilidad en los mercados financieros de toda la región asiática. Los inversores mantienen la cautela ante la presión bajista que afecta a los activos de riesgo.",
+        "articulos": [
+          {
+            "titular": "Indian stocks pause near nine-month highs; Asia market rout deepens - Reuters",
+            "extracto": "",
+            "medio": "Reuters",
+            "grupo": "Reuters",
+            "lean": "centro",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEJHRkZDOVdTT19VcGt0YU9SeHdvSmo4cDZVR1R2RzdDUUFJREc0bkNBcDFrUDN1X052bGljQUdsQ19jMTkxZlhYZTI3LW94RUFKb043WXpDZW5mUThLVk95eVcxU005bVNGV0EyY2JlWUlpWDAwZHJDaGJSMlNIMndQZ0QyWGtGVlo4WjB1YjZzNGlfYzBPVFdfaE1MTVdabVZmLXdLdkxsTDJmczdWSW5wRUNlMTg?oc=5",
+            "fecha": "2026-11-20T02:34:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Reuters"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El minimo historico en las ventas de viviendas",
+        "resumen": "",
         "articulos": [
           {
             "titular": "With home sales at a record low, buyers are now in the driver's seat",
@@ -231,118 +250,21 @@
           "MarketWatch"
         ],
         "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market - Reuters",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDVJVUxnTV8wWW53ZDBmMC1GX3V1Z2k1N24zdTk0bkdYR2lBYTB2c3J4QVkzUFRiTHJSTkoycmM0ZG5jSWxnSkxVOWJNZzFFX3kydHoyWU9oSURMel9Yck5VMlk3TTVaNkhBX09wU1B1TzVuYlhnYnZhMmhnMEpIMmZLeXVXT09IWEs5cXJLOWtNcklfZkU1NU85WE1NSEE1ZUhzRDBKY2dzaW5pWnQzdTJra3UybUdXVWpDeWRYYw?oc=5",
-            "fecha": "2026-11-19T23:37:59+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Reuters"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
-            "extracto": "",
-            "medio": "MarketWatch",
-            "grupo": "MarketWatch",
-            "lean": "centro-derecha",
-            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=5862f89a-0447-45e6-b76b-86f064a02486&mod=mw_rss_bulletins",
-            "fecha": "2026-11-19T23:13:44+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro-derecha"
-        ],
-        "grupos_presentes": [
-          "MarketWatch"
-        ],
-        "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Nuevo restaurante de Matias Arteaga en el Paseo El Manio",
-        "resumen": "",
+        "titulo_neutral": "Motocicletas en Chile: el dilema entre las calles fiscalizadas y el cuello de botella para obtener la licencia clase C",
+        "resumen": "Las autoridades intensificaron los controles policiales y municipales para retirar motocicletas que no cumplen con la normativa vigente en las calles del país. Si bien la asociación gremial respalda las fiscalizaciones, alertó sobre un grave problema de congestión para obtener la licencia clase C. Este cuello de botella operativo dificulta que miles de conductores logren regularizar su situación legal.",
         "articulos": [
           {
-            "titular": "El imperio gastronómico de Matías Arteaga suma nuevo restaurante en el Paseo El Mañío",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/cronica/arteaga-suma-nuevo-restaurante/",
-            "fecha": "2026-11-20T01:45:52+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Aumento de reservas aereas desde Estados Unidos y disminucion desde Europa",
-        "resumen": "Un estudio conjunto entre Fedetur y Amadeus anticipa un incremento en el flujo de reservas aéreas procedentes de Estados Unidos hacia el país sudamericano. Este pronóstico refleja un renovado interés de los viajeros norteamericanos por el destino nacional. Los datos buscan orientar a los operadores del sector turístico en la planificación de la próxima temporada.",
-        "articulos": [
-          {
-            "titular": "Los “gringos” se entusiasman con Chile y reservas aéreas desde EE.UU. crecen 100% (mientras Europa pierde interés)",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/negocios/turismo-gringos-se-entusiasman-con-chile/",
-            "fecha": "2026-11-20T01:34:14+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Declaraciones de la senadora Ordenes sobre autorizacion de salida del pais y presunta falsificacion de firma",
-        "resumen": "La Fiscalía Regional de Valparaíso inició una indagatoria penal a raíz de gestiones legislativas vinculadas a un permiso de salida del país de la senadora Ximena Órdenes. La parlamentaria aseguró que se encontraba en el extranjero cuando se retiró el documento a su nombre y exigió aclarar una posible falsificación de firma. El caso genera atención política debido a las implicancias institucionales del procedimiento.",
-        "articulos": [
-          {
-            "titular": "“Desconozco el formato que se utilizó”: Senadora Órdenes ratifica que no solicitó retirar permiso para salir de Chile y pide esclarecer eventual falsificación de firma",
+            "titular": "Motocicletas en Chile: el dilema entre las calles fiscalizadas y el cuello de botella para obtener la licencia clase C",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/19/desconozco-el-formato-que-se-utilizo-senadora-ordenes-ratifica-que-no-solicito-retirar-permiso-para-salir-de-chile-y-pide-esclarecer-eventual-falsificacion-de-firma/",
-            "fecha": "2026-11-20T00:25:41+00:00"
-          },
-          {
-            "titular": "Perfil: La senadora que tiene al senador Castro contra las cuerdas por presunta falsificación de firma",
-            "extracto": "",
-            "medio": "Ex-Ante",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/politica/perfil-senadora-castro-contra-cuerdas/",
-            "fecha": "2026-11-19T21:49:30+00:00"
+            "url": "https://www.theclinic.cl/2026/11/20/fiscalizaciones-motocicletas-chile-licencia-clase-c-anim/",
+            "fecha": "2026-11-20T09:00:00+00:00"
           }
         ],
         "leans_presentes": [
@@ -354,9 +276,18 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Renuncia de la subsecretaria de Ciencia Carolina Rossi",
-        "resumen": "Carolina Rossi dejó su cargo como subsecretaria de Ciencia tras enfrentar constantes diferencias administrativas y de gestión con la ministra de la cartera. Funcionarios del ministerio señalaron que existían retrasos operativos y problemas en los programas internos. La dimisión se suma a otros tensiones recientes dentro de la administración gubernamental.",
+        "titulo_neutral": "Renuncia de la subsecretaria de Ciencia, Carolina Rossi",
+        "resumen": "La subsecretaria de Ciencia, Carolina Rossi, dejó su cargo tras enfrentar tensiones administrativas y diferencias técnicas con la ministra Ximena Lincolao. Diversas fuentes señalaron que la salida se vincula a problemas en los Programas de Mejoramiento de Gestión dentro de la cartera. La secretaria de Estado evitó profundizar en la polémica, mientras persisten cuestionamientos institucionales en el sector.",
         "articulos": [
+          {
+            "titular": "Las razones detrás de la renuncia de la subsecretaria de Ciencia, Carolina Rossi",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/df-lab/innovacion-y-startups/carolina-rossi-renuncia-a-la-subsecretaria-de-ciencia-y-asume-carolina",
+            "fecha": "2026-11-20T08:49:54+00:00"
+          },
           {
             "titular": "“Cuando uno vive un momento disruptivo, ocurren cosas”: Lincolao evita ahondar en la renuncia de Rossi y llama a “no quedarse en esta parte”",
             "extracto": "",
@@ -383,52 +314,21 @@
             "lean": "no aplica",
             "url": "https://www.ciperchile.cl/2026/11/19/renuncia-la-subsecretaria-de-ciencia-tras-choques-con-lincolao-tesoreria-suma-4-625-convenios-por-cae-y-contraloria-detecta-irregularidades-en-el-puente-chacao/?utm_source=rss&utm_medium=rss&utm_campaign=renuncia-la-subsecretaria-de-ciencia-tras-choques-con-lincolao-tesoreria-suma-4-625-convenios-por-cae-y-contraloria-detecta-irregularidades-en-el-puente-chacao",
             "fecha": "2026-11-19T23:00:53+00:00"
-          },
-          {
-            "titular": "Las razones detrás de la renuncia de la subsecretaria de Ciencia, Carolina Rossi",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/df-lab/innovacion-y-startups/carolina-rossi-renuncia-a-la-subsecretaria-de-ciencia-y-asume-carolina",
-            "fecha": "2026-11-19T22:57:26+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
+          "Claro",
           "independiente",
-          "sin fines de lucro",
-          "Claro"
+          "sin fines de lucro"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Acuerdo del Ministerio de Hacienda para el presupuesto de Educacion",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Hacienda logra acuerdo para destrabar el presupuesto de Educación: repondrá el programa \"Yo Elijo mi PC\" y analizará cambios pensando en 2028",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/macro/hacienda-logra-acuerdo-para-destrabar-el-presupuesto-de-educacion-repondra",
-            "fecha": "2026-11-19T23:37:24+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Proyeccion de caida en la produccion de Codelco",
-        "resumen": "El presidente del directorio de la compañía minera estatal informó las proyecciones de extracción para los próximos años durante una entrevista con un medio especializado. Se estiman cifras estables que bordean los niveles actuales de producción para el período. Estas previsiones buscan consolidar el rendimiento financiero y operativo de la empresa pública.",
+        "titulo_neutral": "Producción de Codelco caería a su menor nivel desde 1995 y expertos advierten presión sobre costos, deuda y aportes al Estado",
+        "resumen": "El presidente del directorio de la compañía estatal detalló las proyecciones productivas en una reciente entrevista con medios especializados. Se estimó alcanzar una extracción significativa del recurso minero durante los próximos dos años consecutivos. Estas cifras buscan consolidar el rendimiento financiero y operativo de la empresa pública.",
         "articulos": [
           {
             "titular": "Producción de Codelco caería a su menor nivel desde 1995 y expertos advierten presión sobre costos, deuda y aportes al Estado",
@@ -437,7 +337,7 @@
             "grupo": "Claro",
             "lean": "no aplica",
             "url": "http://www.df.cl/empresas/mineria/produccion-de-codelco-caeria-a-su-menor-nivel-desde-1995-y-expertos",
-            "fecha": "2026-11-19T23:30:44+00:00"
+            "fecha": "2026-11-20T08:48:48+00:00"
           }
         ],
         "leans_presentes": [
@@ -449,31 +349,27 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Reseña del telefono movil iPhone Duo",
-        "resumen": "",
+        "titulo_neutral": "Salida a bolsa de Anthropic",
+        "resumen": "La empresa creadora de Claude debutó con éxito en el Nasdaq al registrar un incremento del 17% en el valor de sus títulos durante su primera jornada bursátil. La compañía logró captar fondos masivos para impulsar su expansión comercial y el desarrollo de nuevas tecnologías de inteligencia artificial. Esta alta recaudación superó las previsiones iniciales gracias al fuerte interés de los inversores.",
         "articulos": [
           {
-            "titular": "Usé el iPhone Duo como mi teléfono principal: las luces y sombras del iPhone más caro de Apple",
+            "titular": "Las siete claves de la salida a bolsa de Anthropic, que marcó un récord como la mayor apertura",
             "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/19/iphone-duo-review-apple-plegable/",
-            "fecha": "2026-11-19T23:28:14+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Salida a bolsa de Anthropic",
-        "resumen": "La empresa creadora de la tecnología Claude superó las expectativas financieras iniciales gracias a un alto interés de los mercados bursátiles. Con esta colocación de acciones, la compañía logró recaudar una cifra multimillonaria para impulsar sus operaciones. El hito destaca el fuerte apetito de los inversores por proyectos de inteligencia artificial.",
-        "articulos": [
+            "url": "http://www.df.cl/empresas/las-siete-claves-de-la-salida-a-bolsa-de-anthropic-la-mas-grande-de-la",
+            "fecha": "2026-11-20T08:47:56+00:00"
+          },
+          {
+            "titular": "Anthropic: la otra apuesta detrás de la mayor IPO de la historia",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/opinion/columnistas/anthropic-la-otra-apuesta-detras-de-la-mayor-ipo-de-la-historia",
+            "fecha": "2026-11-20T00:04:31+00:00"
+          },
           {
             "titular": "Acciones de Anthropic suben un 17% tras su salida a bolsa en un récord en Wall Street",
             "extracto": "",
@@ -491,38 +387,135 @@
           "Claro"
         ],
         "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El SII prepara la mayor reorganización de su historia para potenciar el control y la reducción de la evasión",
+        "resumen": "La dirección de la entidad implementará una serie de modificaciones operativas a partir del mes de enero. El objetivo principal de estos cambios es optimizar la coordinación institucional para fiscalizar y combatir la evasión fiscal en tributos clave. Con esta reestructuración se busca mejorar la recaudación y el control tributario.",
+        "articulos": [
+          {
+            "titular": "El SII prepara la mayor reorganización de su historia para potenciar el control y la reducción de la evasión",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/economia-y-politica/el-sii-prepara-la-mayor-reorganizacion-de-su-historia-para-potenciar-el",
+            "fecha": "2026-11-20T08:47:11+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Medida de Providencia respecto a la normativa urbana",
+        "resumen": "Diversos gremios del sector inmobiliario y arquitectónico manifestaron su rechazo a una reciente medida adoptada por la municipalidad. Los representantes advirtieron sobre las consecuencias negativas que estas normativas podrían generar en el acceso a la vivienda para la ciudadanía. Por ello, exigieron a las autoridades locales revisar el alcance de sus decisiones urbanísticas.",
+        "articulos": [
+          {
+            "titular": "Patrick Turner y la enmienda que impulsa Providencia para frenar efectos del DS 68: “Esto es absolutamente el urbanismo clasista”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/construccion/patrick-turner-fundador-y-expresidente-de-la-asociacion-de-oficinas-de",
+            "fecha": "2026-11-20T08:42:42+00:00"
+          },
+          {
+            "titular": "Slaven Razmilic y decisión de Providencia para frenar efectos de nueva OGUC: “Lo que preocupa es una eventual sobrerreacción sin una evaluación detallada”",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/construccion/slaven-razmilic-director-ejecutivo-asociacion-de-desarrolladores",
+            "fecha": "2026-11-20T08:41:57+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Fundación Nocedal inaugura la tercera etapa del Colegio Trigales en Bajos de Mena",
+        "resumen": "Las obras de mejora del recinto escolar contemplan la habilitación de un nuevo gimnasio, espacios pedagógicos para secundaria y una capilla. Este proyecto de infraestructura fue posible gracias al financiamiento aportado por una entidad filantrópica. Las nuevas instalaciones buscan enriquecer la experiencia formativa de los estudiantes.",
+        "articulos": [
+          {
+            "titular": "Fundación Nocedal inaugura la tercera etapa del Colegio Trigales en Bajos de Mena",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/empresas/industria/fundacion-nocedal-inaugura-la-tercera-etapadel-colegio-trigales-en-bajos-de",
+            "fecha": "2026-11-20T08:36:53+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Los desafíos que enfrentará Gerardo Spoerer al mando de Banco Bci",
+        "resumen": "Un nuevo ejecutivo asumirá la gerencia general con la misión de consolidar a la entidad financiera en una posición de dominio dentro del mercado. La estrategia apunta a fortalecer la competitividad en todas las líneas de negocio de la compañía. Se espera que su liderazgo impulse la expansión y el crecimiento comercial de la institución.",
+        "articulos": [
+          {
+            "titular": "Los desafíos que enfrentará Gerardo Spoerer al mando de Banco Bci",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/los-desafios-que-enfrentara-gerardo-spoerer-al-mando-de-banco-bci",
+            "fecha": "2026-11-20T08:26:26+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
       }
     ],
     "actualidad": [
       {
-        "titular": "Beloved hippo Fiona dies days after swallowing visitor’s hat",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/beloved-hippo-fiona-dies-days-after-swallowing-visitors-hat?traffic_source=rss",
-        "fecha": "2026-11-20T02:51:44+00:00"
+        "titular": "Three Kyiv bridges hit during major Russian missile attack",
+        "medio": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+        "fecha": "2026-11-20T10:20:08+00:00"
       },
       {
-        "titular": "Trump nominee refuses to call Jan 6 an ‘attack’ at Senate hearing",
+        "titular": "Searching for the next Messi at the Under-17 World Cup",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-nominee-refuses-to-call-jan-6-an-attack-at-senate-hearing?traffic_source=rss",
-        "fecha": "2026-11-20T02:25:33+00:00"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/searching-for-the-next-messi-at-the-under-17-world-cup?traffic_source=rss",
+        "fecha": "2026-11-20T10:03:11+00:00"
       },
       {
-        "titular": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns - Reuters",
+        "titular": "Russia unleashes retaliatory barrage on Kyiv bridges",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
+        "fecha": "2026-11-20T09:54:00+00:00"
+      },
+      {
+        "titular": "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant - Reuters",
         "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
-        "fecha": "2026-11-20T02:00:00+00:00"
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS2g5Z3pOWXZjSC0zVlVLN2ZFVHZYZHg5N2dqVGdBZFlmblkwcl9nSFpUQ1ROb0lIeTZPUG5iaGxHRUJSX0lNTG5mdkc0d3N5cV9pb1lQZFhhY1Bnczlfem1yRElXR3g1ajZzeFBabHctXzFZejFiQzF1T0RYRzVMT3U1NjZKYzl5T3AwRVNVOGZHTXdHbXl2eUMwcDVlNXhrVm9sVzVka1diN0xRSVBZMTd5c0RxOFZKX3JlRUhqek9IZ0xlWWR4ZQ?oc=5",
+        "fecha": "2026-11-20T09:48:33+00:00"
       },
       {
-        "titular": "Meta rethinks 2030 climate goals as AI data centres drive emissions up",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up?traffic_source=rss",
-        "fecha": "2026-11-20T01:29:28+00:00"
-      },
-      {
-        "titular": "White House fires national cyber director over widespread outages",
-        "medio": "France24",
-        "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
-        "fecha": "2026-11-20T01:28:47+00:00"
+        "titular": "Russia pushes back against US idea of NATO-style security guarantees for Ukraine - Reuters",
+        "medio": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamN2T09McmJvdzlKWjl1YkJvNmxtZHJRbGJuXzRqeUtjQnQ2R0M2eXVFcTBhcGNiM0tQaTRoZ3ctb1pUdkFFVjFoSzBGcEJvRnZXMXA5X1RMc1NhZ0NsYzk5OFlGOTZkNzBmRTRyM0pXUVZBV3hIQmFKak04V0ZoQUtxSjdpb2NfTDhXWHNfYUMzeG5IVWdMQm42UXJtdUZoV0FXcGZZSTk1Qk45d185UldTWlpYUTdsVkNV?oc=5",
+        "fecha": "2026-11-20T09:36:36+00:00"
       }
     ]
   },
@@ -534,14 +527,6 @@
       "var_dia_pct": -1.9982,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 256.73
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 256.73
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 256.73
@@ -1332,6 +1317,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 221.68
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 221.68
           }
         ],
@@ -6959,7 +6948,7 @@
       "noticias": [
         {
           "titular": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-          "extracto": "Las acciones de Adobe Systems cerraron su última sesión de operaciones en 221,68 dólares, lo que supuso una caída del dos por ciento respecto al cierre anterior.",
+          "extracto": "Las acciones de Adobe Systems cerraron su última sesión cotizando a 221,68 dólares, lo que supuso un descenso del dos por ciento respecto al cierre anterior.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6977,7 +6966,7 @@
         },
         {
           "titular": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
-          "extracto": "El mercado global de software como servicio alcanzó los 465.030 millones de dólares en 2026 y proyecta un crecimiento sostenido impulsado principalmente por América del Norte y las grandes empresas.",
+          "extracto": "El mercado global de software como servicio alcanzó los 465 mil millones de dólares en 2026, concentrando la mayor parte de su cuota en Norteamérica y grandes empresas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6986,7 +6975,7 @@
         },
         {
           "titular": "Anthropic’s IPO Tests Waters for the AI Trade. Adobe Stock Investors Should Keep an Eye Out Too.",
-          "extracto": "Una eventual salida a bolsa de Anthropic medirá la estabilidad del sector de inteligencia artificial, un movimiento que también genera atención entre los accionistas de empresas de software como Adobe.",
+          "extracto": "Una eventual salida a bolsa de Anthropic medirá la estabilidad del sector de inteligencia artificial, un movimiento que los accionistas de empresas como Adobe siguen de cerca.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6995,7 +6984,7 @@
         },
         {
           "titular": "How Risky Is Adobe Stock After Its Long Slide?",
-          "extracto": "La principal noticia del día analiza la posibilidad de que las acciones de Anthropic experimenten una caída significativa del veinticinco por ciento.",
+          "extracto": "El análisis financiero principal plantea la posibilidad de una corrección bajista significativa en el valor bursátil de Anthropic.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -7506,14 +7495,6 @@
       "var_dia_pct": -0.449,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 539.82
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 539.82
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 539.82
@@ -8288,6 +8269,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 572.04
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 572.04
           }
         ],
@@ -14198,8 +14183,26 @@
       },
       "noticias": [
         {
+          "titular": "Warren Buffett’s Successor Just Bought $10 Billion of This AI Stock, and It’s Not Apple",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/11/20/warren-buffetts-successor-just-bought-10-billion-of-this-ai-stock-and-its-not-apple/?.tsrc=rss",
+          "fecha": "2026-11-20T09:20:02+00:00"
+        },
+        {
+          "titular": "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His “Worst Deal” As The Shoe Company’s Value Went To Zero, While Harold Alfond’s Berkshire Shares Are Now Worth An Estimated $20 Billion",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/11/19/in-1993-a-79-year-old-maine-shoemaker-sold-his-company-to-warren-buffett-for-berkshire-shares-instead-of-cash-buffett-called-it-his-worst-deal-as-the-shoe-companys-value-went-to-zero-while-ha/?.tsrc=rss",
+          "fecha": "2026-11-20T03:36:32+00:00"
+        },
+        {
           "titular": "Warren Buffett Gives Away $5.5 Billion for Thanksgiving, Saying Kindness Compounds 'at a Better Rate Than Anything Charlie and I Ever Bought'",
-          "extracto": "El inversor Warren Buffett anunció una donación cercana a los 5.500 millones de dólares en su mensaje anual de Acción de Gracias dirigido a los accionistas de Berkshire Hathaway. Este significativo aporte destaca por la magnitud de los fondos destinados a causas benéficas y familiares.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14208,7 +14211,7 @@
         },
         {
           "titular": "Warren Buffett Stopped Giving Bill Gates’s Foundation Berkshire Shares. It Just Sold $1 Billion More and Bought a Dollar Store. Here’s When the Rest Runs Out",
-          "extracto": "La Fundación Gates redujo sus participaciones al vender acciones valoradas en aproximadamente 2.400 millones de dólares durante el tercer trimestre, además de adquirir una nueva posición en Dollar Tree. Este movimiento refleja ajustes estratégicos en su cartera de inversiones tras recibir donaciones previas.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14217,30 +14220,12 @@
         },
         {
           "titular": "Anthropic Just Finished Its First Day as a Public Company. Five of the Six Biggest Tech IPOs Since Facebook Were Underwater Six Months After Theirs, and Elon Musk’s SpaceX Is Following the Script",
-          "extracto": "Anthropic debutó en el mercado de valores con una recaudación superior a los 80.000 millones de dólares y un incremento notable en el precio de sus acciones durante su primer día. Este acontecimiento resalta en un sector donde gran parte de las grandes ofertas públicas iniciales tecnológicas suelen perder valor a medio plazo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://247wallst.com/investing/2026/11/19/anthropic-just-finished-its-first-day-as-a-public-company-five-of-the-six-biggest-tech-ipos-since-facebook-were-underwater-six-months-after-theirs-and-elon-musks-spacex-is-following-the-script/?.tsrc=rss",
           "fecha": "2026-11-19T22:13:02+00:00"
-        },
-        {
-          "titular": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
-          "extracto": "Grandes corporaciones como Berkshire Hathaway y JPMorgan muestran bases financieras sólidas, aunque enfrentan desafíos derivados del incremento en los costos operativos y las dificultades para mantener el crecimiento. Estos factores introducen riesgos considerables para su desempeño futuro.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-berkshire-hathaway-202300112.html?.tsrc=rss",
-          "fecha": "2026-11-19T20:23:00+00:00"
-        },
-        {
-          "titular": "Warren Buffett Has Backed This Consumer Stock for Decades, and Greg Abel Is Still Holding It. Here's Why It's a Buy in November.",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/19/warren-buffett-has-backed-this-consumer-stock-for-decades-and-greg-abel-is-still-holding-it-heres-why-its-a-buy-in-november/?.tsrc=rss",
-          "fecha": "2026-11-19T19:50:02+00:00"
         }
       ],
       "fundamentales": {
@@ -14535,18 +14520,10 @@
     {
       "ticker": "BYDDY",
       "nombre": "BYDDY",
-      "precio": 8.09,
-      "var_dia_pct": 0.4969,
+      "precio": 7.96,
+      "var_dia_pct": -1.6069,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 9.31
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 9.31
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 9.31
@@ -15322,6 +15299,10 @@
           {
             "fecha": "2026-11-20T03:00:00",
             "valor": 8.09
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
+            "valor": 7.96
           }
         ],
         "6M": [
@@ -15883,7 +15864,7 @@
           },
           {
             "fecha": "2026-11-20",
-            "valor": 8.09
+            "valor": 7.96
           }
         ],
         "YTD": [
@@ -16837,7 +16818,7 @@
           },
           {
             "fecha": "2026-11-20",
-            "valor": 8.09
+            "valor": 7.96
           }
         ],
         "1A": [
@@ -17899,7 +17880,7 @@
           },
           {
             "fecha": "2026-11-20",
-            "valor": 8.09
+            "valor": 7.96
           }
         ],
         "5A": [
@@ -18945,7 +18926,7 @@
           },
           {
             "fecha": "2026-11-20",
-            "valor": 8.09
+            "valor": 7.96
           }
         ],
         "10A": [
@@ -21035,24 +21016,33 @@
           },
           {
             "fecha": "2026-11-20",
-            "valor": 8.09
+            "valor": 7.96
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -32.14888743609825,
-          "3A": -6.530324474165782,
-          "5A": -8.882192666584142,
-          "10A": 15.196888312878887
+          "1A": -33.23994273077847,
+          "3A": -7.035415973043357,
+          "5A": -9.177942245910675,
+          "10A": 15.010142547481188
         },
-        "volatilidad_anual_pct": 35.93647692243948,
-        "caida_maxima_5a_pct": -59.19918905220476
+        "volatilidad_anual_pct": 35.966106736739356,
+        "caida_maxima_5a_pct": -59.65534718702483
       },
       "noticias": [
         {
+          "titular": "Trump Admin Approved Nearly 900,000 AI Chips For China, House Data Shows: Nvidia Says H200 Shipments Were ‘Legal And Authorized’",
+          "extracto": "La administracion del presidente Donald Trump autorizo licencias para que Nvidia y Advanced Micro Devices suministren cientos de miles de procesadores de inteligencia artificial a entidades chinas. La Comision de Asuntos Exteriores de la Camara de Representantes hizo publica esta informacion detallada sobre controles de exportacion.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/ai/articles/trump-admin-approved-nearly-900-071623846.html?.tsrc=rss",
+          "fecha": "2026-11-20T07:16:23+00:00"
+        },
+        {
           "titular": "US Lawmakers Near Deal to Ban Chinese Cars in Lame Duck Session",
-          "extracto": "Congresistas estadounidenses avanzan hacia una prohibición de vehículos chinos en el país tras negociaciones de último momento para proteger a Mercedes-Benz. La medida busca restringir el ingreso de tecnología automotriz procedente de China al mercado norteamericano.",
+          "extracto": "Legisladores estadounidenses avanzan hacia un acuerdo para prohibir la entrada de automoviles de origen chino en Estados Unidos. Las conversaciones recientes buscan incluir excepciones para proteger a fabricantes como Mercedes-Benz debido a su participacion accionaria extranjera.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21061,7 +21051,7 @@
         },
         {
           "titular": "Michael Burry Adds To Tesla Rival BYD At Five-Year Lows",
-          "extracto": "El inversor Michael Burry señaló que las acciones de BYD se encuentran en mínimos de cinco años con posibilidad de descender aún más, aunque estimó que el mayor impacto financiero ya se ha materializado.",
+          "extracto": "El inversor Burry advirtio que las acciones de BYD se encuentran en minimos plurianuales y podrian descender aun mas, aunque valoro que gran parte del impacto financiero ya se ha materializado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21079,21 +21069,12 @@
         },
         {
           "titular": "Xi greets Trump on the tarmac in Shenzhen ahead of summit",
-          "extracto": "El presidente Donald Trump llegó a Shenzhen para reunirse con Xi Jinping en una cumbre bilateral, siendo recibido directamente en la pista de aterrizaje por el mandatario chino.",
+          "extracto": "Los presentadores del programa matutino analizaron la llegada del presidente Donald Trump a Shenzhen para reunirse en una cumbre con el mandatario Xi Jinping. El lider chino recibio personalmente a su homologo estadounidense en la pista de aterrizaje.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/video/xi-greets-trump-tarmac-shenzhen-143600926.html?.tsrc=rss",
           "fecha": "2026-11-18T14:36:00+00:00"
-        },
-        {
-          "titular": "BYD vs. Ford: Why the Cheaper Automotive Stock Isn't Necessarily the Better Investment for 2027",
-          "extracto": "La transformación global hacia la movilidad eléctrica está transformando la industria automotriz, aunque dominar este sector no garantiza automáticamente un mejor rendimiento financiero para las empresas.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/coverage/better-buy/2026/11/18/byd-vs-ford-why-the-cheaper-automotive-stock-isn-t-necessarily-the-better-investment-for-2027/?.tsrc=rss",
-          "fecha": "2026-11-18T10:50:02+00:00"
         }
       ]
     },
@@ -21104,14 +21085,6 @@
       "var_dia_pct": -0.6131,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 246.52
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 246.52
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 246.52
@@ -21886,6 +21859,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 272.35
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 272.35
           }
         ],
@@ -27796,8 +27773,17 @@
       },
       "noticias": [
         {
+          "titular": "Is Citi Wrong to Give Up on McDonald’s? Wall Street Still Sees $299",
+          "extracto": "La entidad financiera Citi redujo su recomendación sobre las acciones de McDonald's de compra a neutral y disminuyó su precio objetivo. Esta medida refleja una reevaluación de las perspectivas financieras de la cadena de comida rápida.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.tikr.com/blog/is-citi-wrong-to-give-up-on-mcdonalds-wall-street-still-sees-299?ref=yahoofinance&tlnk=yf-261120-94jqvj2j&.tsrc=rss",
+          "fecha": "2026-11-20T08:26:32+00:00"
+        },
+        {
           "titular": "Sector Update: Consumer Stocks Fall Late Afternoon",
-          "extracto": "Las acciones del sector de consumo sufrieron caídas hacia el final de la tarde del jueves. Este movimiento estuvo relacionado con el comportamiento del fondo sectorial de bienes de consumo básico.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27806,7 +27792,7 @@
         },
         {
           "titular": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
-          "extracto": "Las ventas en establecimientos comparables de McDonald's en Estados Unidos presentan indicios de recuperación. Esto ocurre en un contexto de adaptación y ajustes estratégicos por parte de la empresa.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27815,7 +27801,7 @@
         },
         {
           "titular": "McDonald’s taps former McKinsey partner to lead U.S. strategy overhaul - Bloomberg",
-          "extracto": "McDonald's nombró a Hannah Yankelevich como nueva vicepresidenta de estrategia en Estados Unidos para revitalizar la demanda interna. Asumirá el cargo en diciembre en sustitución de Mike Shapiro.",
+          "extracto": "McDonald's nombró a una exconsulora de McKinsey como su nueva vicepresidenta de estrategia en Estados Unidos para revitalizar las ventas nacionales. Este cambio en la cúpula directiva busca superar el estancamiento comercial en su mercado principal.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27824,21 +27810,12 @@
         },
         {
           "titular": "Trump Sold Home Depot, McDonald’s as Portfolio Shifted to ETFs",
-          "extracto": "El portafolio de inversiones del presidente Donald Trump se reestructuró hacia fondos cotizados y deuda pública en septiembre. Como parte de esta medida, se desprendió de acciones de importantes corporaciones como McDonald's, Home Depot y Comcast.",
+          "extracto": "El portafolio de inversiones de Donald Trump se reestructuró hacia fondos cotizados y bonos gubernamentales tras la venta de acciones en corporaciones reconocidas. La operación implicó la salida de títulos de compañías de gran capitalización en el noveno mes del año.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://finance.yahoo.com/markets/stocks/articles/trump-sold-home-depot-mcdonald-165710342.html?.tsrc=rss",
           "fecha": "2026-11-19T16:57:10+00:00"
-        },
-        {
-          "titular": "Zappi Research Finds the Fast Food Value War Is Buying Visits, Not Hearts, as Challengers Win Over Younger Consumers in QSR and Coffee",
-          "extracto": "Un estudio reciente sobre el mercado de comida rápida indica que las estrategias de bajo costo atraen clientes pero no garantizan fidelidad. Mientras McDonald's lidera en opciones económicas, otros momentos de consumo permanecen sin un líder claro.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/media-advertising/articles/zappi-research-finds-fast-food-130000739.html?.tsrc=rss",
-          "fecha": "2026-11-19T13:00:00+00:00"
         }
       ],
       "fundamentales": {
@@ -28386,14 +28363,6 @@
       "var_dia_pct": -1.9654,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 531.87
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 531.87
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 531.87
@@ -29184,6 +29153,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 498.3
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 498.3
           }
         ],
@@ -35094,49 +35067,49 @@
       },
       "noticias": [
         {
-          "titular": "Microsoft reveals 80% server failure behind global outage",
-          "extracto": "Una vulnerabilidad de software persistente durante meses afectó las comunicaciones y las labores profesionales de millones de usuarios. Este fallo de seguridad demostró la vulnerabilidad de las infraestructuras digitales cotidianas.",
+          "titular": "Microsoft CEO explains why the company asked 60K workers to quit. How to know when to accept a buyout or turn it down",
+          "extracto": "El director ejecutivo de Microsoft, Satya Nadella, justificó la reciente decisión de ofrecer indemnizaciones voluntarias a sus trabajadores en lugar de recurrir a despidos masivos. Esta estrategia busca gestionar la reestructuración de la plantilla de manera negociada.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.thestreet.com/investing/microsoft-reveals-80-server-failure-behind-global-outage?.tsrc=rss",
-          "fecha": "2026-11-19T22:17:00+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-ceo-explains-why-company-100000431.html?.tsrc=rss",
+          "fecha": "2026-11-20T10:00:00+00:00"
         },
         {
-          "titular": "Claude Users Excited to Invest in Anthropic, Says Ann Berry",
-          "extracto": "La inversora Ann Berry destacó que la capacidad de Anthropic para monetizar el comportamiento de los usuarios le otorga una ventaja competitiva única. Según su análisis, el modelo Claude está ganando terreno frente a gigantes tecnológicos y motores de búsqueda tradicionales.",
+          "titular": "What Does Mastercard (MA) Joining The AI Transparency Initiative Mean For Investors?",
+          "extracto": "Mastercard se ha unido a Microsoft y a decenas de empresas en una nueva iniciativa para establecer estándares comunes de seguridad, gobernanza y transparencia en la inteligencia artificial. El proyecto busca regular cómo las grandes corporaciones validan y supervisan los modelos tecnológicos utilizados en operaciones críticas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/claude-users-excited-invest-anthropic-210615313.html?.tsrc=rss",
-          "fecha": "2026-11-19T21:06:15+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/does-mastercard-ma-joining-ai-052240359.html?.tsrc=rss",
+          "fecha": "2026-11-20T05:22:40+00:00"
         },
         {
-          "titular": "Bridgewater Warns of AI Security Risk as Anthropic Shares Rise in Debut",
-          "extracto": "El fondo de cobertura Bridgewater Associates publicó un documento la semana pasada analizando detalladamente los peligros potenciales asociados al desarrollo de la inteligencia artificial. El informe busca evaluar las incertidumbres económicas y operativas de esta tecnología.",
+          "titular": "Microsoft CEO Nadella faces uncomfortable reality after outage",
+          "extracto": "Las declaraciones del directivo de Microsoft surgieron tras fallos técnicos recientes que afectaron la estabilidad digital de varias corporaciones importantes. Estos incidentes han renovado el debate sobre la necesidad de garantizar una infraestructura tecnológica más sólida y confiable.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/ac0c7cd3-afc9-37c1-b745-d9478a2ec38a/bridgewater-warns-of-ai.html?.tsrc=rss",
-          "fecha": "2026-11-19T21:16:00+00:00"
+          "url": "https://www.thestreet.com/technology/microsoft-ceo-nadella-faces-uncomfortable-reality-after-outage?.tsrc=rss",
+          "fecha": "2026-11-20T03:47:00+00:00"
         },
         {
-          "titular": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
-          "extracto": "",
+          "titular": "Akamai Technologies (AKAM) Expands Mobile Enterprise Browser Security",
+          "extracto": "Akamai Technologies estableció una alianza con Microsoft para incorporar herramientas avanzadas de seguridad y control empresarial en el navegador Edge para dispositivos móviles. La integración busca proteger a las empresas mediante funciones de prevención de amenazas y gobernanza de inteligencia artificial en teléfonos y tabletas.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/meta-trades-21x-p-e-202440346.html?.tsrc=rss",
-          "fecha": "2026-11-19T20:24:40+00:00"
+          "url": "https://finance.yahoo.com/technology/articles/akamai-technologies-akam-expands-mobile-031634349.html?.tsrc=rss",
+          "fecha": "2026-11-20T03:16:34+00:00"
         },
         {
-          "titular": "Tech takes a beating as AI trade comes unstuck despite Anthropic surge",
-          "extracto": "Las acciones tecnológicas asiáticas cerraron con pérdidas el viernes debido a que la reciente salida a bolsa de Anthropic no logró calmar la incertidumbre del sector. Los inversores se mantienen cautelosos ante las dudas sobre la rentabilidad, las regulaciones y la situación de Nvidia.",
+          "titular": "Microsoft Bought Into Anthropic Around $350 Billion. The IPO Says “Almost Exactly $1.5 Trillion”",
+          "extracto": "La empresa Anthropic fijó el precio de su oferta pública inicial en 83 dólares por acción, logrando recaudar una cifra récord de más de 81 mil millones de dólares. Con esta operación, la valoración total de la compañía alcanzó una escala sumamente significativa dentro del sector tecnológico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tech-takes-beating-ai-trade-030257717.html?.tsrc=rss",
-          "fecha": "2026-11-20T03:02:57+00:00"
+          "url": "https://www.tikr.com/blog/microsoft-bought-into-anthropic-around-350-billion-the-ipo-says-almost-exactly-1-5-trillion?ref=yahoofinance&tlnk=yf-261120-g55x67qh&.tsrc=rss",
+          "fecha": "2026-11-19T23:06:40+00:00"
         }
       ],
       "fundamentales": {
@@ -35725,14 +35698,6 @@
       "var_dia_pct": -3.6748,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 206.7
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 206.7
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 206.7
@@ -36523,6 +36488,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 208.65
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 208.65
           }
         ],
@@ -41934,7 +41903,7 @@
       "noticias": [
         {
           "titular": "Analyst says 'GTA VI' could sell 30M copies by March, maybe December",
-          "extracto": "Un analista financiero analiza las proyecciones de ventas y recuperación de costos para el próximo videojuego 'Grand Theft Auto VI'. Esto es relevante para entender el impacto comercial esperado de uno de los lanzamientos más caros de la industria.",
+          "extracto": "Un analista financiero conversó sobre las proyecciones de ventas y la recuperación de la inversión para el próximo videojuego Grand Theft Auto VI.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41943,7 +41912,7 @@
         },
         {
           "titular": "'GTA VI' becomes best-reviewed video game of all time",
-          "extracto": "El estreno del esperado videojuego ha generado excelentes calificaciones, lo que atrae la atención de los mercados sobre las acciones de Take-Two. La compañía busca capitalizar este entusiasmo inicial para impulsar sus ingresos.",
+          "extracto": "El lanzamiento de Grand Theft Auto VI ha generado una alta expectación tras obtener reseñas sin precedentes, situando a las acciones de Take-Two en el centro de atención.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41960,22 +41929,22 @@
           "fecha": "2026-11-19T19:23:48+00:00"
         },
         {
-          "titular": "'GTA VI' release: One YF producer details how much he's spent so far",
-          "extracto": "Expertos del sector discuten los ingresos adicionales que generan Take-Two y Rockstar a través del ecosistema en línea del juego. Esto demuestra cómo la monetización va más allá de la compra inicial del título.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/gta-vi-release-one-yf-producer-details-how-much-hes-spent-so-far-143700466.html?.tsrc=rss",
-          "fecha": "2026-11-19T14:37:00+00:00"
-        },
-        {
           "titular": "GTA 6 lives up to its 99 score, but Take-Two stock stays stuck",
-          "extracto": "El nuevo título de Rockstar incluye numerosos detalles ocultos, aunque la atención principal de los inversionistas se centra en su rendimiento comercial. La incertidumbre radica en cómo este desarrollo se traducirá en beneficios económicos estables.",
+          "extracto": "A pesar de los múltiples secretos y sorpresas que incluye el nuevo título de Rockstar, los inversionistas mantienen dudas clave sobre su desempeño financiero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.thestreet.com/investing/gta-6-review-take-two-stock-stuck?.tsrc=rss",
           "fecha": "2026-11-19T23:57:22+00:00"
+        },
+        {
+          "titular": "Take-Two Stock Just Sank Almost 4% on the Day GTA VI Launched With a 99 Score",
+          "extracto": "Las acciones de Take-Two registraron una caída cercana al cuatro por ciento en su día de estreno debido a movimientos previos de fondos de cobertura y una baja general en el mercado.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/11/19/take-two-stock-just-sank-almost-4-on-the-day-gta-vi-launched-with-a-99-score/?.tsrc=rss",
+          "fecha": "2026-11-19T22:51:07+00:00"
         }
       ],
       "fundamentales": {
@@ -42467,14 +42436,6 @@
       "var_dia_pct": -1.9812,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-21T06:00:00",
-            "valor": 706.8
-          },
-          {
-            "fecha": "2026-10-21T07:00:00",
-            "valor": 706.8
-          },
           {
             "fecha": "2026-10-21T12:00:00",
             "valor": 706.8
@@ -43249,6 +43210,10 @@
           },
           {
             "fecha": "2026-11-20T03:00:00",
+            "valor": 658.01
+          },
+          {
+            "fecha": "2026-11-20T10:00:00",
             "valor": 658.01
           }
         ],
@@ -49160,7 +49125,7 @@
       "noticias": [
         {
           "titular": "Is Your VOO Fund Secretly An AI Bet?",
-          "extracto": "Muchos inversores consideran que los fondos indexados del S&P 500 son una opción conservadora frente a las caídas del sector tecnológico. Sin embargo, una cuarta parte de los activos de estos fondos está concentrada en media docena de grandes corporaciones de inteligencia artificial.",
+          "extracto": "Muchos inversores consideran que los fondos indexados del S&P 500 son opciones conservadoras ajenas a las caídas del sector tecnológico. Sin embargo, una parte muy significativa del capital en estos fondos está concentrada en pocas empresas de inteligencia artificial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49169,7 +49134,7 @@
         },
         {
           "titular": "Anthropic Just Went Public at $1.5 Trillion. VOO Won’t Own a Share Until Late 2027 at the Earliest",
-          "extracto": "A pesar de que muchos ahorradores esperan que sus fondos indexados adquieran la salida a bolsa más relevante del año, los criterios de inclusión y la situación financiera de la empresa involucrada complican dicha incorporación.",
+          "extracto": "Los ahorradores suelen creer que sus fondos bursátiles amplios incluyen automáticamente las nuevas salidas a bolsa más grandes. No obstante, las normativas vigentes y la situación financiera de empresas como Anthropic complican su incorporación inmediata a las carteras.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49178,7 +49143,7 @@
         },
         {
           "titular": "A 66-Year-Old With $600,000 in VOO Owns Nvidia Without Ever Buying a Share. SCHD Owns None.",
-          "extracto": "Un fondo principal general ofrece exposición a las empresas tecnológicas líderes, mientras que una alternativa centrada en dividendos excluye por completo a dicha compañía. El rendimiento superior de cada estrategia varía según el período temporal analizado.",
+          "extracto": "Un fondo indexado tradicional y una alternativa centrada en dividendos ofrecen exposiciones muy distintas a las principales empresas tecnológicas del mercado. El rendimiento superior de cada estrategia varía según el período temporal que se analice.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49187,7 +49152,7 @@
         },
         {
           "titular": "JEPI Vs. VOO: The Bigger Payout Ended Far Behind",
-          "extracto": "El fondo JEPI atrae a los inversores debido a sus generosas distribuciones mensuales de efectivo en comparación con el bajo rendimiento de los fondos tradicionales del S&P 500. No obstante, analizar únicamente la rentabilidad por dividendo resulta insuficiente para determinar el retorno financiero total.",
+          "extracto": "El fondo JEPI ofrece distribuciones mensuales de efectivo considerablemente más altas que las de un fondo indexado estándar como el VOO. No obstante, comparar el atractivo de ambas opciones requiere analizar tanto los pagos periódicos como la evolución global del capital.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49196,7 +49161,7 @@
         },
         {
           "titular": "Vanguard S&P 500 ETF vs. Schwab U.S. Dividend ETF: How Much You'd Need to Collect $1,000 a Month From Each.",
-          "extracto": "Aunque tanto VOO como SCHD realizan pagos periódicos a sus inversores, uno de los fondos genera una ganancia por dividendo considerablemente mayor por cada dólar aportado.",
+          "extracto": "Aunque tanto VOO como SCHD realizan pagos a sus inversores, uno de ellos genera una distribución de efectivo significativamente mayor por cada dólar invertido. Esta diferencia en la generación de renta impacta directamente en las estrategias de inversión a largo plazo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49255,14 +49220,6 @@
         },
         "serie_precio": {
           "1M": [
-            {
-              "fecha": "2026-10-21T06:00:00",
-              "valor": 256.73
-            },
-            {
-              "fecha": "2026-10-21T07:00:00",
-              "valor": 256.73
-            },
             {
               "fecha": "2026-10-21T12:00:00",
               "valor": 256.73
@@ -50053,6 +50010,10 @@
             },
             {
               "fecha": "2026-11-20T03:00:00",
+              "valor": 221.68
+            },
+            {
+              "fecha": "2026-11-20T10:00:00",
               "valor": 221.68
             }
           ],
@@ -55817,7 +55778,7 @@
               "valor": 94.7
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 94.7
             }
           ],
@@ -61142,7 +61103,7 @@
               "valor": 103.87
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 103.87
             }
           ],
@@ -66331,7 +66292,7 @@
               "valor": 83.79
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 83.79
             }
           ],
@@ -71880,7 +71841,7 @@
               "valor": 537.37
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 537.37
             }
           ],
@@ -77449,7 +77410,7 @@
               "valor": 407.24
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 407.24
             }
           ],
@@ -82998,7 +82959,7 @@
               "valor": 88.87
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 88.87
             }
           ],
@@ -88523,7 +88484,7 @@
               "valor": 272.66
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 272.66
             }
           ],
@@ -93696,7 +93657,7 @@
               "valor": 145.98
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 145.98
             }
           ],
@@ -98725,7 +98686,7 @@
               "valor": 596.22
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 596.22
             }
           ],
@@ -103822,7 +103783,7 @@
               "valor": 489.19
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 489.19
             }
           ],
@@ -109075,7 +109036,7 @@
               "valor": 55.72
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 55.72
             }
           ],
@@ -114464,7 +114425,7 @@
               "valor": 183.31
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 183.31
             }
           ],
@@ -119573,7 +119534,7 @@
               "valor": 110.57
             },
             {
-              "fecha": "2026-11-20T03:00:00",
+              "fecha": "2026-11-20T10:00:00",
               "valor": 110.57
             }
           ],
@@ -125099,11 +125060,11 @@
       },
       "BYDDY": {
         "beta": 0.8,
-        "retorno_1a_pct": -32.13,
+        "retorno_1a_pct": -33.22,
         "mercado_1a_pct": 9.68,
         "esperado_capm_pct": 8.44,
-        "diferencia_pts": -40.57,
-        "volatilidad_pct": 36.05,
+        "diferencia_pts": -41.66,
+        "volatilidad_pct": 36.08,
         "desde": "2025-11-20",
         "hasta": "2026-11-20"
       },
@@ -125351,7 +125312,7 @@
           -0.266,
           1.0,
           -0.153,
-          0.104,
+          0.105,
           0.581,
           -0.218,
           0.38,
@@ -125393,11 +125354,11 @@
         [
           0.056,
           0.03,
-          0.104,
+          0.105,
           -0.067,
           1.0,
-          0.142,
-          0.094,
+          0.141,
+          0.093,
           0.063,
           0.127,
           0.103,
@@ -125407,7 +125368,7 @@
           0.133,
           0.092,
           0.057,
-          0.346,
+          0.345,
           0.171,
           0.096,
           0.305
@@ -125417,7 +125378,7 @@
           -0.32,
           0.581,
           -0.111,
-          0.142,
+          0.141,
           1.0,
           -0.315,
           0.421,
@@ -125439,7 +125400,7 @@
           0.805,
           -0.218,
           0.119,
-          0.094,
+          0.093,
           -0.315,
           1.0,
           -0.057,
@@ -125659,7 +125620,7 @@
           -0.116,
           0.501,
           -0.192,
-          0.346,
+          0.345,
           0.396,
           -0.018,
           0.268,
