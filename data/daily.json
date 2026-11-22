@@ -1,71 +1,23 @@
 {
-  "generado": "2026-11-22T08:05:35.955095+00:00",
-  "errores": [],
+  "generado": "2026-11-22T10:18:34.024312+00:00",
+  "errores": [
+    "Gemini no respondió: noticias sin resumen",
+    "Gemini no respondió: noticias agrupadas por palabras clave"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Movimientos de analistas y cotizacion de Anthropic en el mercado",
-        "resumen": "Los principales índices bursátiles estadounidenses sufrieron caídas notables mientras los mercados atravesaban momentos difíciles. Paralelamente, la empresa Anthropic debutó con fuerza en Wall Street al registrar fuertes ganancias en su estreno, y el primer ministro británico buscó estrechar lazos con la Unión Europea. Además, el mandatario chino organizó una cumbre trilateral junto a sus homólogos de Estados Unidos y Rusia.",
-        "articulos": [
-          {
-            "titular": "5 big analyst AI moves: Nvidia downgrade, Anthropic seen as ’generational company’",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-downgrade-anthropic-seen-as-generational-company-5043652",
-            "fecha": "2026-11-22T07:44:45+00:00"
-          },
-          {
-            "titular": "Tech stock sell-off drags markets down as Anthropic shares slide",
-            "extracto": "",
-            "medio": "BBC",
-            "grupo": "BBC",
-            "lean": "centro",
-            "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-            "fecha": "2026-11-20T22:42:47+00:00"
-          },
-          {
-            "titular": "Anthropic’s splashy public market debut",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-splashy-public-market-debut",
-            "fecha": "2026-11-20T05:00:00+00:00"
-          },
-          {
-            "titular": "Anthropic’s big IPO day arrives",
-            "extracto": "",
-            "medio": "Financial Times",
-            "grupo": "Financial Times",
-            "lean": "centro",
-            "url": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-big-ipo-day-arrives",
-            "fecha": "2026-11-19T05:00:00+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com",
-          "BBC",
-          "Financial Times"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
+        "titulo_neutral": "Negociaciones en la cumbre climatica COP31",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
+            "titular": "COP31 climate deal hangs in the balance as time runs out",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-struggles-below-60000-as-mining-profits-plunge-security-risks-grow-5043790",
-            "fecha": "2026-11-22T07:29:58+00:00"
+            "url": "https://www.investing.com/news/commodities-news/cop31-climate-talks-close-to-final-deal-says-summit-president-5043619",
+            "fecha": "2026-11-22T10:12:18+00:00"
           }
         ],
         "leans_presentes": [
@@ -77,17 +29,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Will economics continue to outweigh geopolitics?",
+        "titulo_neutral": "Street Calls of the Week",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Will economics continue to outweigh geopolitics?",
+            "titular": "Street Calls of the Week",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/will-economics-continue-to-outweigh-geopolitics-5043785",
-            "fecha": "2026-11-22T06:57:01+00:00"
+            "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-5042451",
+            "fecha": "2026-11-22T10:00:02+00:00"
           }
         ],
         "leans_presentes": [
@@ -99,17 +51,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Australia rejects U.S. budget office concerns over AUKUS submarine deal",
+        "titulo_neutral": "Ataque de dron ruso en la region de Kiev y buque incendiado en Finlandia",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Australia rejects U.S. budget office concerns over AUKUS submarine deal",
+            "titular": "Russian drone strike traps 14 in Kyiv region as cargo ship burns off Finland",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/australia-rejects-us-budget-office-concerns-over-aukus-submarine-deal-5043777",
-            "fecha": "2026-11-22T06:43:55+00:00"
+            "url": "https://www.investing.com/news/economy-news/russian-drone-strike-traps-14-in-kyiv-region-as-cargo-ship-burns-off-finland-5043852",
+            "fecha": "2026-11-22T09:43:25+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Should you buy copper’s dip? Here’s why UBS favors long position",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Should you buy copper’s dip? Here’s why UBS favors long position",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/stock-market-news/should-you-buy-coppers-dip-heres-why-ubs-favors-long-position-5043836",
+            "fecha": "2026-11-22T09:09:20+00:00"
           }
         ],
         "leans_presentes": [
@@ -278,7 +252,7 @@
       },
       {
         "titulo_neutral": "Lo que se sabe de la avioneta caída en un condominio en Peñalolén: problemas en su tren de aterrizaje y cuatro posibles lesionados",
-        "resumen": "Una aeronave ligera perteneciente a un club aéreo sufrió un accidente al caer dentro de un conjunto residencial en la Región Metropolitana. El incidente preliminarmente estaría relacionado con fallas en el tren de aterrizaje de la nave. Equipos de emergencia acudieron al sitio del suceso para atender a los posibles afectados.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Lo que se sabe de la avioneta caída en un condominio en Peñalolén: problemas en su tren de aterrizaje y cuatro posibles lesionados",
@@ -300,7 +274,7 @@
       },
       {
         "titulo_neutral": "Mil entradas a $1.000 para 25 obras: dónde comprar las entradas para la Noche de los Teatros y cuál es la cartelera del evento",
-        "resumen": "Organizaciones culturales anunciaron una nueva versión de un evento nocturno enfocado en las artes escénicas de la capital. Se dispondrán miles de localidades a bajo costo para múltiples puestas en escena distribuidas en diversas salas de Santiago. La venta presencial se complementará con presentaciones abiertas a la comunidad.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "Mil entradas a $1.000 para 25 obras: dónde comprar las entradas para la Noche de los Teatros y cuál es la cartelera del evento",
@@ -344,7 +318,7 @@
       },
       {
         "titulo_neutral": "La oferta que Codelco presentó en China para enfrentar la caída de producción: 60 propiedades mineras sin explotar para inversionistas privados",
-        "resumen": "La empresa minera estatal lanzó una iniciativa internacional para ofrecer numerosas propiedades inactivas a capitales privados. El plan busca compartir los costos y riesgos operativos en terrenos sin explotar ante un escenario de menor rendimiento productivo. Este movimiento se dio a conocer en el extranjero en medio de auditorías internas sobre procesos administrativos.",
+        "resumen": "",
         "articulos": [
           {
             "titular": "La oferta que Codelco presentó en China para enfrentar la caída de producción: 60 propiedades mineras sin explotar para inversionistas privados",
@@ -389,34 +363,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-        "fecha": "2026-11-22T07:59:29+00:00"
+        "titular": "Princess of Wales opens up about cancer",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/princess-of-wales-opens-up-about-cancer",
+        "fecha": "2026-11-22T10:07:02+00:00"
       },
       {
-        "titular": "Max Verstappen wins F1 Las Vegas Grand Prix for third time in four years",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/11/22/max-verstappen-las-vegas-grand-prix-f1-norris-piastri-russell-antonelli?traffic_source=rss",
-        "fecha": "2026-11-22T07:48:28+00:00"
+        "titular": "South Korea: AI cheating sparks exam security chaos",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos",
+        "fecha": "2026-11-22T10:05:28+00:00"
       },
       {
-        "titular": "Indonesia factory fire kills three, 36 missing",
+        "titular": "Iraqi bodybuilding champion Sajad Jawad dies days after winning the Asian crown",
         "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
-        "fecha": "2026-11-22T07:46:35+00:00"
+        "url": "https://www.aljazeera.com/sports/2026/11/22/iraqi-bodybuilding-champion-sajad-jawad-dies-days-after-winning-the-asian-crown?traffic_source=rss",
+        "fecha": "2026-11-22T09:45:48+00:00"
       },
       {
-        "titular": "Wembanyama scores 50 points, bags 19 rebounds in Spurs’ 14th win of season",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/11/22/wembanyama-scores-50-points-bags-19-rebounds-in-spurs-14th-win-of-season?traffic_source=rss",
-        "fecha": "2026-11-22T07:44:37+00:00"
+        "titular": "Europe sees new protests over rising costs, inequality and public services",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/europe-sees-new-protests-over-rising-costs-inequality-and-public-services",
+        "fecha": "2026-11-22T09:41:29+00:00"
       },
       {
-        "titular": "Why Somalia’s president turned against his former ally, the UAE",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/22/why-somalias-president-turned-against-his-former-ally-the-uae?traffic_source=rss",
-        "fecha": "2026-11-22T06:59:59+00:00"
+        "titular": "English village votes to \"leave UK\"",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/english-village-votes-to-leave-uk",
+        "fecha": "2026-11-22T09:40:05+00:00"
       }
     ]
   },
@@ -1198,6 +1172,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 217.71
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 217.71
           }
         ],
@@ -6841,7 +6819,7 @@
       "noticias": [
         {
           "titular": "Snowflake vs. Adobe: Which Enterprise AI Stock Is a Better Buy?",
-          "extracto": "Snowflake supera a Adobe en el sector de inteligencia artificial empresarial debido a un crecimiento superior en ingresos y una mayor adopción tecnológica. Estos factores fortalecen su posición bursátil a pesar de contar con una valoración elevada.",
+          "extracto": "A pesar de cotizar con una valoración elevada, Snowflake muestra un mejor impulso financiero y adopción de inteligencia artificial en comparación con Adobe. Esto le otorga una ventaja competitiva en el sector de la inteligencia artificial empresarial.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6850,7 +6828,7 @@
         },
         {
           "titular": "Global Through-Channel Marketing Software Market 2026 | Capitalize on AI and Cloud Growth to $6.14B by 2030 as Microsoft, Salesforce, Adobe and StructuredWeb Accelerate Automation",
-          "extracto": "Un nuevo informe de mercado destaca el crecimiento acelerado del software de marketing indirecto a nivel global. Las empresas utilizan estas herramientas para optimizar sus campañas asociadas y mejorar el rendimiento comercial.",
+          "extracto": "El mercado global de software de marketing a través de canales registra una rápida expansión impulsada por la necesidad de las empresas de optimizar la gestión de campañas y socios. Informes recientes destacan que estas herramientas mejoran el rendimiento mediante analítica en tiempo real y automatización.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6859,7 +6837,7 @@
         },
         {
           "titular": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-          "extracto": "Las acciones de la compañía Adobe Systems experimentaron un descenso del dos por ciento al cierre de la última jornada bursátil, situándose en un valor específico por título.",
+          "extracto": "Las acciones de Adobe Systems experimentaron un descenso del dos por ciento en su última sesión bursátil, cerrando con un valor de 221.68 dólares. Este movimiento refleja las fluctuaciones recientes en la cotización de la compañía dentro del mercado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6868,7 +6846,7 @@
         },
         {
           "titular": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-          "extracto": "Los inversores analizan diferentes alternativas de inversión al contrastar la valoración económica moderada de Adobe con el dinamismo financiero que experimenta Synopsys gracias a Ansys.",
+          "extracto": "Los inversores evalúan diferentes alternativas en el sector tecnológico al comparar la valoración más accesible de Adobe con el crecimiento impulsado por Ansys en Synopsys. Esta dualidad ofrece perspectivas distintas para la asignación de capital.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6877,7 +6855,7 @@
         },
         {
           "titular": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
-          "extracto": "El mercado global de software como servicio alcanza una cifra multimillonaria en 2026 y proyecta una expansión sostenida durante la próxima década. Norteamérica concentra casi la mitad de este mercado, liderado principalmente por grandes corporaciones y soluciones basadas en software.",
+          "extracto": "El mercado global de software como servicio alcanza una cifra multimillonaria en 2026 y proyecta un crecimiento sostenido durante la próxima década. Norteamérica concentra casi la mitad de esta industria, donde predominan las grandes empresas y se observa una transición hacia modelos basados en agentes.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -8142,6 +8120,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 570
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 570
           }
         ],
@@ -14069,7 +14051,7 @@
       "noticias": [
         {
           "titular": "Charlie Munger had 3 reasons partner Warren Buffett was $150 billion richer — then called Albert Einstein poor",
-          "extracto": "La perspectiva de un difunto multimillonario demuestra que amasar una gran fortuna no requiere necesariamente de un intelecto excepcional. Esta lección financiera desafía la creencia popular sobre el talento necesario para el éxito económico.",
+          "extracto": "La perspectiva de un magnate fallecido demuestra que acumular gran riqueza no depende necesariamente de una inteligencia excepcional. Esta lección financiera ofrece una perspectiva accesible sobre el éxito económico.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14078,7 +14060,7 @@
         },
         {
           "titular": "Meet the Warren Buffett Rule That Makes This Consumer Stock a Buy With $1,000 Right Now",
-          "extracto": "Una empresa que comercializa alimentos para animales cotiza actualmente a un valor razonable, aplicando un principio de inversión popularizado por Warren Buffett. Esta situación ofrece a los inversores una oportunidad atractiva basada en fundamentos bursátiles clásicos.",
+          "extracto": "Una empresa que comercializa alimentos para animales presenta una valoración atractiva respaldada por un principio de inversión tradicional. Esto genera oportunidades interesantes para los inversores que siguen estrategias de valor.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14087,7 +14069,7 @@
         },
         {
           "titular": "Buffett's Berkshire trims stake in surging 143-year-old retailer",
-          "extracto": "El conglomerado dirigido por Warren Buffett ha disminuido su participación accionaria en la cadena de supermercados Kroger, junto con las de otras dos empresas. Esta decisión refleja un ajuste en la estrategia de inversión de la cartera de la compañía.",
+          "extracto": "El conglomerado dirigido por Warren Buffett disminuyó su participación accionaria en la cadena de supermercados Kroger y en otras dos empresas. Esta decisión refleja ajustes en la cartera de inversiones de la entidad.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14096,7 +14078,7 @@
         },
         {
           "titular": "‘We Don’t Want That Much Failure’: Late Billionaire Charlie Munger Said Elon Musk ‘Likes Taking on the Impossible Job,’ Berkshire Looks for ‘The Easy Job’",
-          "extracto": "El difunto inversor Charlie Munger expresó opiniones encontradas respecto a la figura y trayectoria del controvertido empresario Elon Musk. Estas declaraciones reflejan la compleja valoración que el socio de Buffett tenía sobre el fundador de Tesla.",
+          "extracto": "El difunto socio de Buffett expresó opiniones divididas sobre el polivalente empresario Elon Musk. Sus declaraciones reflejan la compleja percepción que existía en torno al liderazgo de Tesla.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14105,7 +14087,7 @@
         },
         {
           "titular": "Greg Abel Just Approved a Record $9.6 Billion in Stock Buybacks for Berkshire Hathaway Last Quarter, More Than Double the Pace Set in the Second Quarter. Is Berkshire Still a Buy as Shares Sit Near All-Time Highs?",
-          "extracto": "El conglomerado de Warren Buffett está utilizando parte de sus reservas de efectivo para adquirir sus propios títulos en el mercado. Esta medida indica que la directiva considera que la empresa sigue siendo una alternativa de inversión sólida y rentable.",
+          "extracto": "La compañía de inversión de Warren Buffett está destinando sus reservas de efectivo a la recompra de sus propias acciones. Esta medida indica que la directiva considera que el valor actual de la empresa es sólido.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -15163,6 +15145,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 7.62
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 7.62
           }
         ],
@@ -20910,7 +20896,7 @@
       "noticias": [
         {
           "titular": "Is BYD (SEHK:1211) Undervalued On Its ATTO 3 EVO Rollout?",
-          "extracto": "La empresa BYD ha lanzado su nuevo SUV eléctrico ATTO 3 EVO en varios mercados internacionales, mientras enfrenta una caída significativa en el valor de sus acciones durante este año.",
+          "extracto": "El fabricante automotriz BYD ha expandido la comercialización de su vehículo eléctrico ATTO 3 EVO a nivel internacional en medio de un periodo bursátil negativo para la empresa. Esta estrategia de expansión geográfica busca revitalizar el interés de los accionistas ante la caída sostenida en el valor de sus acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20919,7 +20905,7 @@
         },
         {
           "titular": "Ford Sold 34,000 China-Built Lincolns in 2025. Congress Is Closing In on a Chinese Car Ban",
-          "extracto": "El Congreso estadounidense se encuentra cerca de aprobar una legislación para prohibir vehículos fabricados en China, contemplando una excepción únicamente para Mercedes-Benz.",
+          "extracto": "El Congreso estadounidense se encuentra próximo a aprobar una legislación que prohibiría la comercialización de automóviles fabricados en China, contemplando una excepción exclusiva para la marca Mercedes-Benz. La medida afectaría de manera directa a modelos importados desde territorio asiático por fabricantes tradicionales como Ford.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20928,7 +20914,7 @@
         },
         {
           "titular": "BYD (SEHK:1211) Stock May Be 30% Below Fair Value After ATTO 3 EVO Expansion",
-          "extracto": "La fuerte caída bursátil de BYD este año genera dudas entre los inversores sobre si el precio actual refleja adecuadamente la generación futura de efectivo de la compañía frente a su expansión internacional.",
+          "extracto": "La caída superior al treinta por ciento en el valor bursátil de BYD durante el año genera dudas entre los inversores sobre la correspondencia entre el precio actual de la compañía y su generación futura de efectivo. Analistas observan con atención si la expansión internacional de modelos como el ATTO 3 EVO logrará compensar la reciente pérdida de impulso financiero.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20937,7 +20923,7 @@
         },
         {
           "titular": "What Is BYD (SEHK:1211) Signaling With Its ATTO 3 EVO Global Launch?",
-          "extracto": "BYD ha introducido su modelo eléctrico ATTO 3 EVO en Europa, el Reino Unido y otros mercados exteriores, adaptando su tecnología y diseño a las exigencias normativas y preferencias locales.",
+          "extracto": "BYD ha introducido su vehículo utilitario deportivo ATTO 3 EVO en múltiples mercados europeos, británicos y de Asia-Pacífico con especificaciones adaptadas a las normativas y gustos locales. Este lanzamiento global incorpora tecnología avanzada en su cabina para fortalecer la presencia de la marca fuera de su mercado nacional.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20946,7 +20932,7 @@
         },
         {
           "titular": "China’s BYD banned from selling ‘copycat Land Rover’ in Europe",
-          "extracto": "Un tribunal europeo prohibió temporalmente la comercialización del nuevo vehículo todoterreno del principal fabricante automotriz chino tras determinar que presenta demasiadas similitudes con el Land Rover Defender.",
+          "extracto": "Un tribunal europeo dictó una prohibición temporal contra la comercialización del vehículo todoterreno más reciente del fabricante chino tras determinar similitudes excesivas con el modelo Defender de Land Rover. Dicha resolución judicial frena temporalmente las ambiciones comerciales de la compañía en el mercado europeo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -21716,6 +21702,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 273.24
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 273.24
           }
         ],
@@ -27652,7 +27642,7 @@
         },
         {
           "titular": "Wawa beats McDonald's on food, and 7-Eleven wants in",
-          "extracto": "Competidores de la industria de comida rápida están mejorando sus instalaciones y superando los estándares de calidad tradicionales establecidos por marcas líderes. Estos cambios buscan capturar mayor preferencia entre los consumidores en un mercado cada vez más competitivo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27661,7 +27651,7 @@
         },
         {
           "titular": "McDonald's (MCD) Value Lead Meets A Loyalty Gap In New Zappi Research",
-          "extracto": "Un reciente estudio de mercado indica que una importante cadena de restaurantes destaca por sus ofertas económicas, pero enfrenta desafíos en cuanto a la lealtad emocional de sus clientes habituales. Esta dualidad es un factor clave para los inversores que analizan la posición de la marca frente a sus rivales.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27670,7 +27660,7 @@
         },
         {
           "titular": "How Many Shares of McDonald’s, Starbucks or Darden Pay $1,000 a Month in Dividends?",
-          "extracto": "Generar una renta mensual fija mediante dividendos bursátiles requiere inversiones considerables en grandes empresas del sector restaurantero. Estas corporaciones suelen destinar una parte significativa de su flujo de caja libre al pago de dividendos a sus accionistas.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27679,7 +27669,7 @@
         },
         {
           "titular": "5 Dividend Kings to Buy for Lifelong Income Before the End of November",
-          "extracto": "La sostenibilidad de los pagos de dividendos a largo plazo depende de la salud financiera y del flujo de caja de las compañías emisoras. Empresas con una larga trayectoria de aumentos en sus pagos priorizan la estabilidad financiera, aunque algunas operan con un margen de seguridad muy estrecho.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -29002,6 +28992,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 484.52
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 484.52
           }
         ],
@@ -34928,8 +34922,17 @@
       },
       "noticias": [
         {
+          "titular": "Microsoft Stock Gave Back 8% Within 2 Weeks of Its Record. Here's How Past Quick Pullbacks Like This Played Out.",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/11/22/microsoft-stock-gave-back-8-within-2-weeks-of-its-record-here-s-how-past-quick-pullbacks-like-this-played-out/?.tsrc=rss",
+          "fecha": "2026-11-22T09:01:02+00:00"
+        },
+        {
           "titular": "Nvidia Stock Has Crashed 48% and Now Trades at 15 Times Earnings, Its Cheapest in More Than a Decade and Cheaper Than Microsoft and Broadcom",
-          "extracto": "Las acciones de Nvidia alcanzaron su valoración más baja en una década tras cotizar muy por debajo de su máximo histórico, lo que refleja el escepticismo de los inversores sobre sus ganancias futuras. Esta caída sitúa su múltiplo de beneficios por debajo del de otros gigantes tecnológicos del sector.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34947,7 +34950,7 @@
         },
         {
           "titular": "A $1.3 Billion Fund Just Bought These 3 Stocks",
-          "extracto": "El informe trimestral de Insight Holdings Group reveló que sus principales adquisiciones recientes incluyeron a Microsoft y Bloom Energy, a pesar de que los tres activos añadidos han registrado caídas en su cotización desde septiembre.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -34956,21 +34959,12 @@
         },
         {
           "titular": "Tech Outages Drive Costco Surge: How Much Emergency Prep Should You Buy?",
-          "extracto": "Recientes fallos tecnológicos a gran escala generaron un aumento repentino en las compras de pánico en los almacenes Costco. Este fenómeno reabre el debate sobre el nivel adecuado de preparación y aprovisionamiento para emergencias.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://moneylion.com/trending/money/tech-outages-drive-costco-surge-emergency-prep?.tsrc=rss",
           "fecha": "2026-11-21T17:00:42+00:00"
-        },
-        {
-          "titular": "3 Money Moves To Make If You Hear About Layoffs at Your Company",
-          "extracto": "Ante la incertidumbre laboral y el temor a posibles recortes de empleo, los expertos recomiendan implementar tres estrategias financieras clave. Estas medidas se centran en fortalecer los fondos de reserva, optimizar los gastos y asegurar fuentes alternativas de ingresos.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://moneylion.com/trending/money/money-moves-hear-about-company-layoffs?.tsrc=rss",
-          "fecha": "2026-11-21T17:00:40+00:00"
         }
       ],
       "fundamentales": {
@@ -36329,6 +36323,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 210
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 210
           }
         ],
@@ -41755,8 +41753,17 @@
       },
       "noticias": [
         {
+          "titular": "A battered stock market looks for the bottom: What to watch this week",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html?.tsrc=rss",
+          "fecha": "2026-11-22T10:00:00+00:00"
+        },
+        {
           "titular": "Roblox CFO admits ‘limited data’ on GTA 6 as BofA urges patience",
-          "extracto": "Un alto ejecutivo de Roblox hizo declaraciones reveladoras sobre el desempeño financiero del cuarto trimestre, las cuales fueron analizadas por Bank of America para aconsejar a los inversionistas.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41765,7 +41772,7 @@
         },
         {
           "titular": "Decibel puts Take-Two and Anthropic in the same around-the-clock market",
-          "extracto": "La aparición de Anthropic y el estreno de la nueva entrega de Grand Theft Auto generaron gran actividad nocturna entre los operadores de la plataforma basada en Aptos llamada Decibel.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41774,7 +41781,7 @@
         },
         {
           "titular": "Take-Two Interactive vs. Anthropic: Which Market-Moving Stock Is the Better Buy?",
-          "extracto": "Hacia el final de la semana, las empresas Anthropic y Take-Two se convirtieron en el centro de interés para los participantes del mercado financiero.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41783,21 +41790,12 @@
         },
         {
           "titular": "TTWO Stock Gains As Grand Theft Auto VI Retail Sales Touch $3.8B",
-          "extracto": "Las empresas Take-Two Interactive y Rockstar Games informaron que el esperado videojuego Grand Theft Auto VI logró recaudar aproximadamente 3.790 millones de dólares en su primer día en el mercado.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-gains-as-grand-theft-auto-vi-retail-sales-touch-3-8-b/cNbSMd2R919?.tsrc=rss",
           "fecha": "2026-11-20T21:43:25+00:00"
-        },
-        {
-          "titular": "Take-Two Smashes Sales Records With 'Grand Theft Auto 6'",
-          "extracto": "La compañía Take-Two Interactive Software estableció nuevas marcas históricas en la industria del entretenimiento digital gracias al exitoso estreno de la sexta entrega de Grand Theft Auto.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/m/3c42b1d1-621c-33f2-a790-3a224aa2698d/take-two-smashes-sales.html?.tsrc=rss",
-          "fecha": "2026-11-20T21:32:20+00:00"
         }
       ],
       "fundamentales": {
@@ -43043,6 +43041,10 @@
           },
           {
             "fecha": "2026-11-22T08:00:00",
+            "valor": 635.54
+          },
+          {
+            "fecha": "2026-11-22T10:00:00",
             "valor": 635.54
           }
         ],
@@ -48970,7 +48972,7 @@
       "noticias": [
         {
           "titular": "Is Your VOO 60/40 Carrying Too Much Stock Risk?",
-          "extracto": "Analistas discuten si el mercado bursátil enfrentará en 2027 condiciones similares a las registradas durante 2022. Esta comparación genera debate sobre el futuro rendimiento de las inversiones en acciones.",
+          "extracto": "Analistas discuten si el mercado bursátil enfrentará en 2027 condiciones similares a las registradas durante 2022. Este escenario genera incertidumbre entre los inversionistas respecto al futuro rendimiento de las acciones.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48979,7 +48981,7 @@
         },
         {
           "titular": "Where Will VOO Be in 30 Years? Here's What History Says.",
-          "extracto": "",
+          "extracto": "El crecimiento financiero a largo plazo se beneficia significativamente del efecto acumulativo del interés compuesto. Este fenómeno financiero permite expandir el capital de forma exponencial con el paso de los años.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48988,7 +48990,7 @@
         },
         {
           "titular": "Is Your VOO Fund Secretly An AI Bet?",
-          "extracto": "Aunque muchos inversores consideran los fondos indexados del S&P 500 como opciones conservadoras alejadas de la volatilidad tecnológica, una cuarta parte del capital en estos fondos está concentrada en media docena de grandes empresas de inteligencia artificial.",
+          "extracto": "Los fondos indexados del S&P 500 no están exentos de la volatilidad tecnológica, ya que una parte sustancial de su capital está concentrada en pocas empresas de inteligencia artificial. Esta concentración implica que los inversionistas minoristas asumen mayores riesgos sectoriales de los que usualmente perciben.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -48997,7 +48999,7 @@
         },
         {
           "titular": "Anthropic Just Went Public at $1.5 Trillion. VOO Won’t Own a Share Until Late 2027 at the Earliest",
-          "extracto": "Los ahorradores jubilados suelen suponer que sus fondos S&P 500 integran automáticamente las salidas a bolsa más grandes del año. Sin embargo, las normativas específicas de los índices y las pérdidas financieras de las empresas involucradas determinan si realmente forman parte de la cartera.",
+          "extracto": "Las normativas internas que regulan la inclusión de nuevas empresas en los principales índices bursátiles, combinadas con la situación financiera de compañías como Anthropic, complican la entrada de ofertas públicas iniciales relevantes. Estas barreras normativas y económicas determinan qué activos forman realmente parte de los portafolios de los ahorradores.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49006,7 +49008,7 @@
         },
         {
           "titular": "A 66-Year-Old With $600,000 in VOO Owns Nvidia Without Ever Buying a Share. SCHD Owns None.",
-          "extracto": "Los fondos indexados tradicionales otorgan exposición a las principales empresas tecnológicas que los fondos centrados en dividendos suelen excluir. La rentabilidad superior de cada estrategia varía según el periodo temporal que se analice.",
+          "extracto": "La inclusión o exclusión de grandes corporaciones tecnológicas en los fondos de inversión depende de la estrategia específica de cada producto financiero, ya sea de crecimiento o de dividendos. Comparar el desempeño histórico de ambas alternativas demuestra que la rentabilidad varía según el horizonte temporal analizado.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -49835,6 +49837,10 @@
             },
             {
               "fecha": "2026-11-22T08:00:00",
+              "valor": 217.71
+            },
+            {
+              "fecha": "2026-11-22T10:00:00",
               "valor": 217.71
             }
           ],
@@ -55615,7 +55621,7 @@
               "valor": 90.64
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 90.64
             }
           ],
@@ -60964,7 +60970,7 @@
               "valor": 103
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 103
             }
           ],
@@ -66169,7 +66175,7 @@
               "valor": 83.45
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 83.45
             }
           ],
@@ -71734,7 +71740,7 @@
               "valor": 510.45
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 510.45
             }
           ],
@@ -77319,7 +77325,7 @@
               "valor": 399.05
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 399.05
             }
           ],
@@ -82884,7 +82890,7 @@
               "valor": 87.61
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 87.61
             }
           ],
@@ -88433,7 +88439,7 @@
               "valor": 265.29
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 265.29
             }
           ],
@@ -93630,7 +93636,7 @@
               "valor": 125.53
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 125.53
             }
           ],
@@ -98683,7 +98689,7 @@
               "valor": 560.84
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 560.84
             }
           ],
@@ -103804,7 +103810,7 @@
               "valor": 424.39
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 424.39
             }
           ],
@@ -109073,7 +109079,7 @@
               "valor": 51.28
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 51.28
             }
           ],
@@ -114486,7 +114492,7 @@
               "valor": 180.62
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 180.62
             }
           ],
@@ -119611,7 +119617,7 @@
               "valor": 101.19
             },
             {
-              "fecha": "2026-11-22T08:00:00",
+              "fecha": "2026-11-22T10:00:00",
               "valor": 101.19
             }
           ],
