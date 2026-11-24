@@ -1,151 +1,144 @@
 {
-  "generado": "2026-11-24T04:58:50.950779+00:00",
-  "errores": [],
+  "generado": "2026-11-24T13:54:14.407471+00:00",
+  "errores": [
+    "Gemini no respondió: noticias agrupadas por palabras clave",
+    "Gemini no respondió: noticias sin resumen"
+  ],
   "bloques": {
     "mundo": [
       {
-        "titulo_neutral": "Regreso de Huang como CEO de Nvidia y su impacto en los mercados",
-        "resumen": "El alcalde de Nueva York, Zohran Mamdani, ha expresado su preocupación por la inestabilidad de las acciones vinculadas a la inteligencia artificial en Estados Unidos. Estas declaraciones se producen en un contexto bursátil donde los mercados asiáticos se recuperan tras los movimientos recientes en el sector tecnológico.",
+        "titulo_neutral": "Zoom Video stock holds Buy rating at StoneX on AI progress",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Analysts comment on market impact of Huang’s return as Nvidia CEO",
+            "titular": "Zoom Video stock holds Buy rating at StoneX on AI progress",
             "extracto": "",
             "medio": "Investing.com",
             "grupo": "Investing.com",
             "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/analysts-comment-on-market-impact-of-huangs-return-as-nvidia-ceo-5046890",
-            "fecha": "2026-11-24T04:54:20+00:00"
-          },
-          {
-            "titular": "Asian stocks rally as Huang's return to Nvidia revives the AI trade - Reuters",
-            "extracto": "",
-            "medio": "Reuters",
-            "grupo": "Reuters",
-            "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
-            "fecha": "2026-11-24T01:29:00+00:00"
-          },
-          {
-            "titular": "Mamdani blasts AI-reliant stock market after Jensen Huang’s return",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/mamdani-blasts-ai-reliant-stock-market-after-jensen-huangs-return?traffic_source=rss",
-            "fecha": "2026-11-23T23:54:27+00:00"
+            "url": "https://www.investing.com/news/analyst-ratings/zoom-video-stock-holds-buy-rating-at-stonex-on-ai-progress-93CH-5048310",
+            "fecha": "2026-11-24T13:30:45+00:00"
           }
         ],
         "leans_presentes": [
-          "centro",
-          "sin-clasificar"
+          "centro"
         ],
         "grupos_presentes": [
-          "Investing.com",
-          "Reuters",
-          "Al Jazeera"
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Top analyst-favored midcap stock with meaningful target upside",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Top analyst-favored midcap stock with meaningful target upside",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/stock-market-news/top-analystfavored-midcap-stock-with-meaningful-target-upside-93CH-5048297",
+            "fecha": "2026-11-24T13:28:01+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Earnings call transcript: Marston’s posts H2 2026 profit beat as shares fall",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Earnings call transcript: Marston’s posts H2 2026 profit beat as shares fall",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-marstons-posts-h2-2026-profit-beat-as-shares-fall-93CH-5048296",
+            "fecha": "2026-11-24T13:28:00+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
+            "extracto": "",
+            "medio": "Investing.com",
+            "grupo": "Investing.com",
+            "lean": "centro",
+            "url": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
+            "fecha": "2026-11-24T13:27:29+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro"
+        ],
+        "grupos_presentes": [
+          "Investing.com"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "The billionaire who bet on Jensen Huang's return has a warning about the S&P 500",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "The billionaire who bet on Jensen Huang's return has a warning about the S&P 500",
+            "extracto": "",
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=b31bd7b8-1129-49b3-a476-d1eee757a53d&mod=mw_rss_bulletins",
+            "fecha": "2026-11-24T13:07:06+00:00"
+          },
+          {
+            "titular": "Jensen Huang’s return has calmed markets but fears of an AI bubble still run deep",
+            "extracto": "",
+            "medio": "France24",
+            "grupo": "France24",
+            "lean": "centro",
+            "url": "https://www.france24.com/en/americas/20261124-jensen-huang-s-return-has-calmed-markets-but-fears-of-an-ai-bubble-still-run-deep",
+            "fecha": "2026-11-24T07:15:21+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "centro-derecha",
+          "centro"
+        ],
+        "grupos_presentes": [
+          "MarketWatch",
+          "France24"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "BofA names its top U.S. restaurant stock picks",
+        "titulo_neutral": "Anthropic falls below $83 IPO price in swift reversal after record listing - Reuters",
         "resumen": "",
         "articulos": [
           {
-            "titular": "BofA names its top U.S. restaurant stock picks",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/bofa-names-its-top-us-restaurant-stock-picks-5047020",
-            "fecha": "2026-11-24T04:48:15+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Big Tech could face billions of dollars in fines under Australian internet safety bill",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Big Tech could face billions of dollars in fines under Australian internet safety bill",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/stock-market-news/australia-to-fine-tech-firms-up-to-5-of-global-revenue-under-internet-safety-bill-5046886",
-            "fecha": "2026-11-24T04:43:10+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Indian economy in 2027: BofA forecasts strength despite inflation, rupee risks",
-        "resumen": "",
-        "articulos": [
-          {
-            "titular": "Indian economy in 2027: BofA forecasts strength despite inflation, rupee risks",
-            "extracto": "",
-            "medio": "Investing.com",
-            "grupo": "Investing.com",
-            "lean": "centro",
-            "url": "https://www.investing.com/news/economy-news/indian-economy-in-2027-bofa-forecasts-strength-despite-inflation-rupee-risks-5047009",
-            "fecha": "2026-11-24T04:42:46+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "centro"
-        ],
-        "grupos_presentes": [
-          "Investing.com"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
-        "resumen": "Una reciente decisión judicial podría permitir al presidente estadounidense invocar protecciones vinculadas a la inmunidad ejecutiva frente a las acusaciones de los fiscales. Este fallo abre un nuevo debate legal sobre el alcance de las prerrogativas presidenciales en procesos judiciales.",
-        "articulos": [
-          {
-            "titular": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
-            "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
-            "fecha": "2026-11-24T01:17:48+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "sin-clasificar"
-        ],
-        "grupos_presentes": [
-          "Al Jazeera"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Dollar climbs as renewed AI euphoria fuels Fed hike bets - Reuters",
-        "resumen": "La cotización del dólar ha experimentado un repunte impulsado por el renovado entusiasmo en torno a la inteligencia artificial, lo que a su vez incrementa las expectativas sobre futuras subidas de tipos de interés por parte de la Reserva Federal. Este fenómeno refleja cómo el optimismo tecnológico continúa impactando de forma directa en los mercados de divisas y la política monetaria.",
-        "articulos": [
-          {
-            "titular": "Dollar climbs as renewed AI euphoria fuels Fed hike bets - Reuters",
+            "titular": "Anthropic falls below $83 IPO price in swift reversal after record listing - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWk01SnRnY1hzWHBOdlQ5eGdldmlIQkd5QUM4SFJ5S3Z5YWtVQnlYWVp3LXlqajM1QTA5UTBBSFNrOFdjVGdWME54WUJYdFRGUXJDYlVmUDFETjlITTZtYkFiWW9IcU9sVTM0R0otbjlmMXNCdC1HSEVNOXJMaDlIMC1YUnFBUDZNMXh6RlRwMVM5MDFRTy1YQXc3U21zYU0?oc=5",
-            "fecha": "2026-11-24T01:14:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+            "fecha": "2026-11-24T12:54:49+00:00"
           }
         ],
         "leans_presentes": [
@@ -157,17 +150,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Gold ticks up on bargain buying; US inflation data awaited - Reuters",
-        "resumen": "Los precios del oro han registrado ligeras alzas debido a compras de oportunidad por parte de los inversores, mientras el mercado aguarda la publicación de nuevos datos sobre la inflación en Estados Unidos. Estos movimientos muestran la cautela de los operadores en un escenario económico marcado por la incertidumbre inflacionaria.",
+        "titulo_neutral": "Xiaomi profit falls as China auto downturn weighs, eyes Europe car market - Reuters",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Gold ticks up on bargain buying; US inflation data awaited - Reuters",
+            "titular": "Xiaomi profit falls as China auto downturn weighs, eyes Europe car market - Reuters",
             "extracto": "",
             "medio": "Reuters",
             "grupo": "Reuters",
             "lean": "centro",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
-            "fecha": "2026-11-24T00:57:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTdNQlhOOXJOaGNReUtEVmRIekJ3cG5hbzJhbUM5SFVlc2M0SUIwMDA1eU81NHBQN0x3MEZEd0VyNnR3Y2NWTVBueTBZTHUzNDNRZlJsQy03RG5tdkFybi13cGt6OFdfZG91a1UzT0Nabnk1dHN0emdfZUhCWE51WHBORFJJRWgyQlNFbUtUNkluRU9qdlprNjJXRlZkVFBD?oc=5",
+            "fecha": "2026-11-24T12:34:18+00:00"
           }
         ],
         "leans_presentes": [
@@ -179,126 +172,140 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
-        "resumen": "La Oficina de Industria y Seguridad ha ampliado su lista de restricciones comerciales al incluir a una empresa radicada en Singapur junto a otras entidades. Con esta medida, las autoridades buscan reforzar el control sobre las exportaciones tecnológicas sensibles.",
+        "titulo_neutral": "Economic calendar: data on home prices, consumer confidence",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
+            "titular": "Economic calendar: data on home prices, consumer confidence",
             "extracto": "",
-            "medio": "Al Jazeera",
-            "grupo": "Al Jazeera",
-            "lean": "sin-clasificar",
-            "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
-            "fecha": "2026-11-24T00:52:47+00:00"
+            "medio": "MarketWatch",
+            "grupo": "MarketWatch",
+            "lean": "centro-derecha",
+            "url": "https://www.marketwatch.com/bulletins/redirect/go?g=3c79de5e-99ef-45c6-bee1-ca52331907e4&mod=mw_rss_bulletins",
+            "fecha": "2026-11-24T12:34:08+00:00"
           }
         ],
         "leans_presentes": [
-          "sin-clasificar"
+          "centro-derecha"
         ],
         "grupos_presentes": [
-          "Al Jazeera"
+          "MarketWatch"
         ],
         "cobertura_unilateral": true
       }
     ],
     "chile": [
       {
-        "titulo_neutral": "Presupuesto para 2027 enviado a Comision Mixta",
-        "resumen": "La Cámara Baja aprobó la mayor parte de las partidas presupuestarias, pero rechazó enmiendas específicas en áreas clave como seguridad y vivienda. Debido a estas discrepancias, el proyecto de presupuesto para el año 2027 fue remitido a una Comisión Mixta para su revisión.",
+        "titulo_neutral": "“A la dictadura nunca le tuve miedo”: Delfina Guzmán y la censura que enfrentó el Teatro ICTUS durante el régimen de Pinochet",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "Diputados envían a Comisión Mixta el proyecto de Presupuesto para 2027",
+            "titular": "“A la dictadura nunca le tuve miedo”: Delfina Guzmán y la censura que enfrentó el Teatro ICTUS durante el régimen de Pinochet",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/23/diputados-envian-a-comision-mixta-el-proyecto-de-presupuesto-para-2027/",
-            "fecha": "2026-11-24T02:05:34+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Detencion de hombre por venta de caiman en Hualpen",
-        "resumen": "Un individuo fue detenido en Hualpén bajo cargos de contrabando de fauna silvestre tras intentar deshacerse de un caimán por el inodoro durante un operativo policial. En el procedimiento también se decomisaron diversas especies de peces que quedaron bajo custodia de Sernapesca.",
-        "articulos": [
+            "url": "https://www.theclinic.cl/2026/11/24/a-la-dictadura-nunca-le-tuve-miedo-delfina-guzman-y-la-censura-que-enfrento-el-teatro-ictus-durante-el-regimen-de-pinochet/",
+            "fecha": "2026-11-24T13:35:00+00:00"
+          },
           {
-            "titular": "Vendía un caimán en $750 mil y lo habría arrojado al W.C. cuando llegó la PDI a su casa: Hombre detenido por contrabando de especies exóticas en Hualpén",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/23/vendia-un-caiman-en-750-mil-y-lo-habria-arrojado-al-w-c-cuando-llego-la-pdi-a-su-casa-hombre-detenido-por-contrabando-de-especies-exoticas-en-hualpen/",
-            "fecha": "2026-11-24T01:40:06+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "independiente"
-        ],
-        "cobertura_unilateral": true
-      },
-      {
-        "titulo_neutral": "Jensen Huang regresa como CEO de Nvidia",
-        "resumen": "La rápida restitución del principal directivo generó un fuerte optimismo en los mercados financieros, impulsando el valor de las acciones de la compañía y los principales índices bursátiles. Esta decisión revirtió el curso de acción inicial del directorio en medio de un contexto macroeconómico favorable.",
-        "articulos": [
-          {
-            "titular": "Nvidia recupera a Jensen Huang como su CEO y desata la algarabía en Wall Street",
+            "titular": "La emblemática actriz Delfina Guzmán muere a los 98 años de edad",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/internacional/multinacionales/nvidia-vuelve-a-nombrar-a-jensen-huang-como-presidente-ejecutivo-y-sus",
-            "fecha": "2026-11-24T00:27:37+00:00"
+            "url": "http://www.df.cl/economia-y-politica/actualidad/la-emblematica-actriz-delfina-guzman-muere-a-los-98-anos-de-edad",
+            "fecha": "2026-11-24T13:21:25+00:00"
           },
           {
-            "titular": "Las dudas que quedan tras el regreso de Huang a Nvidia, según los medios influyentes de EE.UU.",
+            "titular": "La sentida despedida de Jaime Vadell a Delfina Guzmán: “No abundan mucho, y cada vez menos, personajes de ese calibre, de ese volumen de inteligencia”",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/24/la-sentida-despedida-de-jaime-vadell-a-delfina-guzman-no-abundan-mucho-y-cada-vez-menos-personajes-de-ese-calibre-de-ese-volumen-de-inteligencia/",
+            "fecha": "2026-11-24T13:20:16+00:00"
+          },
+          {
+            "titular": "“En reconocimiento a su invaluable aporte a la cultura y las artes”: Gobierno decreta duelo oficial por la muerte de Delfina Guzmán",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/24/en-reconocimiento-a-su-invaluable-aporte-a-la-cultura-y-las-artes-gobierno-decreta-duelo-oficial-por-la-muerte-de-delfina-guzman/",
+            "fecha": "2026-11-24T12:16:10+00:00"
+          },
+          {
+            "titular": "Delfina Guzmán: los papeles que marcaron su trayectoria",
             "extracto": "",
             "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/internacional/dudas-tras-regreso-de-huang-a-nvidia/",
-            "fecha": "2026-11-23T22:21:28+00:00"
+            "url": "https://www.ex-ante.cl/cultura/delfina-guzman-papeles-marcaron-trayectoria/",
+            "fecha": "2026-11-24T11:57:48+00:00"
           },
           {
-            "titular": "El Nasdaq se dispara 6,5% y Wall Street corta su larga racha de pérdidas por la restitución de Huang a la cabeza de Nvidia",
+            "titular": "Muere Delfina Guzmán a los 98 años: así fue la trayectoria de la destacada actriz",
             "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
+            "medio": "Ex-Ante",
+            "grupo": "independiente",
             "lean": "no aplica",
-            "url": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-j63ro",
-            "fecha": "2026-11-23T21:42:03+00:00"
+            "url": "https://www.ex-ante.cl/cultura/muere-actriz-delfina-guzman-98-anos/",
+            "fecha": "2026-11-24T11:46:56+00:00"
+          },
+          {
+            "titular": "A sus 98 años muere Delfina Guzmán, una de las actrices favoritas del teatro, el cine y la televisión chilena",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/24/a-sus-98-anos-muere-delfina-guzman-una-de-las-actrices-favoritas-del-teatro-el-cine-y-la-television-chilena/",
+            "fecha": "2026-11-24T11:32:33+00:00"
           }
         ],
         "leans_presentes": [
           "no aplica"
         ],
         "grupos_presentes": [
-          "Claro",
-          "independiente"
+          "independiente",
+          "Claro"
         ],
         "cobertura_unilateral": false
       },
       {
-        "titulo_neutral": "Proyecto de ampliacion de la Ruta 5 Norte",
+        "titulo_neutral": "La eficacia de una vieja práctica: cómo una escuela rural de Ránquil pasó de estar bajo el promedio nacional a superarlo con 20 minutos diarios de lectura",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Cuartas pistas y Free Flow: VíasChile ingresa proyecto por US$ 456 millones para ampliar tramo de la Ruta 5 Norte",
+            "titular": "La eficacia de una vieja práctica: cómo una escuela rural de Ránquil pasó de estar bajo el promedio nacional a superarlo con 20 minutos diarios de lectura",
+            "extracto": "",
+            "medio": "The Clinic",
+            "grupo": "independiente",
+            "lean": "no aplica",
+            "url": "https://www.theclinic.cl/2026/11/24/la-eficacia-de-una-vieja-practica-como-una-escuela-rural-de-ranquil-paso-de-estar-bajo-el-promedio-nacional-a-superarlo-con-20-minutos-diarios-de-lectura/",
+            "fecha": "2026-11-24T13:34:22+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "independiente"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "El Aysén Day llega a Brasil: gobierno regional celebrará primera versión internacional del evento destinado a atraer negocios e inversión",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "El Aysén Day llega a Brasil: gobierno regional celebrará primera versión internacional del evento destinado a atraer negocios e inversión",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/construccion/cuartas-pistas-y-free-flow-viaschile-ingresa-proyecto-por-us-456-millones",
-            "fecha": "2026-11-24T00:22:01+00:00"
+            "url": "http://www.df.cl/regiones/aysen/el-aysen-day-llega-a-brasil-gobierno-regional-celebrara-en-sao-paulo",
+            "fecha": "2026-11-24T13:16:58+00:00"
           }
         ],
         "leans_presentes": [
@@ -310,17 +317,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Hallazgo de cuerpos de colombianos desaparecidos en Casablanca",
-        "resumen": "Autoridades policiales y fiscales desarticularon una banda criminal vinculada al narcotráfico en la región de Valparaíso, la cual estaría involucrada en el homicidio de ciudadanos extranjeros. El presunto cabecilla de la organización será presentado ante la justicia para su respectiva formalización.",
+        "titulo_neutral": "China extiende la pausa en los controles a las exportaciones de minerales críticos hacia EEUU",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "El caso de los colombianos que desaparecieron en Casablanca y cuyos cuerpos habrían sido encontrados con signos de desmembramiento",
+            "titular": "China extiende la pausa en los controles a las exportaciones de minerales críticos hacia EEUU",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/internacional/ft/china-extiende-la-pausa-en-los-controles-a-las-exportaciones-de-minerales",
+            "fecha": "2026-11-24T13:11:09+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Con una inversión de US$ 456 millones: así es el proyecto de VíasChile para ampliar tramo de la Ruta 5 Norte a cuatro pistas",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Con una inversión de US$ 456 millones: así es el proyecto de VíasChile para ampliar tramo de la Ruta 5 Norte a cuatro pistas",
             "extracto": "",
             "medio": "The Clinic",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/23/el-caso-de-los-colombianos-que-desaparecieron-en-casablanca-y-cuyos-cuerpos-habrian-sido-encontrados-con-signos-de-desmembramiento/",
-            "fecha": "2026-11-24T00:19:48+00:00"
+            "url": "https://www.theclinic.cl/2026/11/24/con-una-inversion-de-us-456-millones-asi-es-el-proyecto-de-viaschile-para-ampliar-tramo-de-la-ruta-5-norte-a-cuatro-pistas/",
+            "fecha": "2026-11-24T13:10:26+00:00"
           }
         ],
         "leans_presentes": [
@@ -332,26 +361,39 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Reacciones politicas por el caso firmas en la comitiva chilena en China",
-        "resumen": "Tras generar tensiones internas en el Partido Socialista por señalar a la timonel de la colectividad en relación con un caso de permisos constitucionales, un parlamentario optó por asumir públicamente la responsabilidad. El gesto busca calmar los ánimos dentro de la militancia y proteger la estrategia política del sector.",
+        "titulo_neutral": "Regulador encarga a exasesores de la Segpres informe en derecho para defender mayores exigencias a directores de AFP",
+        "resumen": "",
         "articulos": [
           {
-            "titular": "La furia de Espinoza y Órdenes y la reacción de Kast:  El impacto del caso firmas en la comitiva chilena en China",
+            "titular": "Regulador encarga a exasesores de la Segpres informe en derecho para defender mayores exigencias a directores de AFP",
+            "extracto": "",
+            "medio": "Diario Financiero",
+            "grupo": "Claro",
+            "lean": "no aplica",
+            "url": "http://www.df.cl/mercados/pensiones/regulador-encarga-a-exasesores-de-la-segpres-informe-en-derecho-para",
+            "fecha": "2026-11-24T13:04:52+00:00"
+          }
+        ],
+        "leans_presentes": [
+          "no aplica"
+        ],
+        "grupos_presentes": [
+          "Claro"
+        ],
+        "cobertura_unilateral": true
+      },
+      {
+        "titulo_neutral": "Estilo de gobierno: Kast ha pasado en giras a terreno casi un tercio de sus ocho meses en La Moneda",
+        "resumen": "",
+        "articulos": [
+          {
+            "titular": "Estilo de gobierno: Kast ha pasado en giras a terreno casi un tercio de sus ocho meses en La Moneda",
             "extracto": "",
             "medio": "Ex-Ante",
             "grupo": "independiente",
             "lean": "no aplica",
-            "url": "https://www.ex-ante.cl/politica/firmas-furia-espinoza-ordenes-gira-kast/",
-            "fecha": "2026-11-23T23:47:39+00:00"
-          },
-          {
-            "titular": "Lo que hay detrás del giro de Juan Luis Castro por el caso Firmas: cómo pasó de apuntar a Vodanovic a asumir la responsabilidad",
-            "extracto": "",
-            "medio": "The Clinic",
-            "grupo": "independiente",
-            "lean": "no aplica",
-            "url": "https://www.theclinic.cl/2026/11/23/lo-que-hay-detras-del-giro-castro-por-el-caso-firmas-como-paso-apuntar-a-vodanovic-a-asumir-la-responsabilidad/",
-            "fecha": "2026-11-23T21:55:00+00:00"
+            "url": "https://www.ex-ante.cl/politica/estilo-kast-giras-un-tercio-de-su-mandato/",
+            "fecha": "2026-11-24T13:03:05+00:00"
           }
         ],
         "leans_presentes": [
@@ -363,49 +405,17 @@
         "cobertura_unilateral": true
       },
       {
-        "titulo_neutral": "Comision Revisora de la Acusacion Constitucional contra Rabat y entrega de decretos",
+        "titulo_neutral": "La sala de crisis VIP que presionó a Trump para que trajera de regreso a Jensen Huang a Nvidia",
         "resumen": "",
         "articulos": [
           {
-            "titular": "Comisión Revisora de la AC contra Rabat: desde la instalación del gobierno se han firmado casi 1.900 decretos de rebaja de penas",
+            "titular": "La sala de crisis VIP que presionó a Trump para que trajera de regreso a Jensen Huang a Nvidia",
             "extracto": "",
             "medio": "Diario Financiero",
             "grupo": "Claro",
             "lean": "no aplica",
-            "url": "http://www.df.cl/economia-y-politica/congreso/comision-revisora-de-la-ac-contra-rabat-desde-la-instalacion-del-gobierno",
-            "fecha": "2026-11-23T23:41:50+00:00"
-          },
-          {
-            "titular": "Ministerio de Justicia entrega más de 1.800 decretos de rebaja de condena; PDI realiza diligencia en el Senado por eventual firma falsa, y Kast anuncia agenda de 100 días para el empleo",
-            "extracto": "",
-            "medio": "CIPER",
-            "grupo": "sin fines de lucro",
-            "lean": "no aplica",
-            "url": "https://www.ciperchile.cl/2026/11/23/radar-23-11-26/?utm_source=rss&utm_medium=rss&utm_campaign=radar-23-11-26",
-            "fecha": "2026-11-23T23:08:51+00:00"
-          }
-        ],
-        "leans_presentes": [
-          "no aplica"
-        ],
-        "grupos_presentes": [
-          "Claro",
-          "sin fines de lucro"
-        ],
-        "cobertura_unilateral": false
-      },
-      {
-        "titulo_neutral": "Demanda de aseguradoras contra Cencosud en el caso Videla",
-        "resumen": "Dos aseguradoras entablaron una demanda reconvencional para recuperar los fondos adelantados en la asesoría legal del exejecutivo principal de una cadena minorista. La compañía comercial argumenta que las sanciones previas no anulan automáticamente la cobertura de dichos gastos en la póliza contratada.",
-        "articulos": [
-          {
-            "titular": "Aseguradoras contraatacan en el caso Videla y exigen a Cencosud devolver $109 millones",
-            "extracto": "",
-            "medio": "Diario Financiero",
-            "grupo": "Claro",
-            "lean": "no aplica",
-            "url": "http://www.df.cl/empresas/retail/aseguradoras-contraatacan-en-el-caso-videla-y-exigen-a-cencosud-devolver",
-            "fecha": "2026-11-23T23:40:26+00:00"
+            "url": "http://www.df.cl/internacional/ft/la-sala-de-crisis-vip-que-presiono-a-trump-para-que-trajera-de-regreso-a",
+            "fecha": "2026-11-24T13:00:24+00:00"
           }
         ],
         "leans_presentes": [
@@ -419,34 +429,34 @@
     ],
     "actualidad": [
       {
-        "titular": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-        "medio": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-        "fecha": "2026-11-24T04:36:31+00:00"
-      },
-      {
-        "titular": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
-        "medio": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
-        "fecha": "2026-11-24T03:20:55+00:00"
-      },
-      {
-        "titular": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+        "titular": "Trump's role in Huang's Nvidia return under scrutiny",
         "medio": "France24",
-        "url": "https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington",
-        "fecha": "2026-11-24T03:16:47+00:00"
+        "url": "https://www.france24.com/en/video/20261124-trump-s-role-in-huang-s-nvidia-return-under-scrutiny",
+        "fecha": "2026-11-24T13:48:17+00:00"
       },
       {
-        "titular": "EXCLUSIVE: Sheikh Hasina seeks to return to Bangladesh on December 16 on state carrier - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTZ3QXNQYmJqMENPRDZLVFAyS3JkUmhjaWxHLUF6TkwzejRmTTZHaERqdmd5NkZmMVVOMEZCaW1MWnlIS3hMVE5BUjJiRTNoMy1RdXUtUVpibnhicDgxZ0JHOUNuYmRDVTNrLVpTVUFaUVM5UDVaZExqR3hTSkxrNU9nSG5aMG9sc2hsMmFvTkstR2g4Qk1UZDMzM2JSaE1yTHVtSV9qaTRPbzN1U2F3UWM4S0hyT2FpaWc?oc=5",
-        "fecha": "2026-11-24T02:56:00+00:00"
+        "titular": "In South Africa, parents' homemade sensory room helps children with ADHD",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20261124-in-south-africa-parents-homemade-sensory-room-helps-children-with-adhd",
+        "fecha": "2026-11-24T13:44:18+00:00"
       },
       {
-        "titular": "Oil holds near three-month low as rising supply offsets Hormuz threat - Reuters",
-        "medio": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
-        "fecha": "2026-11-24T02:56:00+00:00"
+        "titular": "DR Congo and Kenya agree to restore ties",
+        "medio": "France24",
+        "url": "https://www.france24.com/en/video/20261124-dr-congo-and-kenya-agree-to-restore-ties",
+        "fecha": "2026-11-24T13:35:58+00:00"
+      },
+      {
+        "titular": "Ten years after its 2016 peace deal, Colombia faces a return to conflict",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/longform/2026/11/24/ten-years-after-its-2016-peace-deal-colombia-faces-a-return-to-conflict?traffic_source=rss",
+        "fecha": "2026-11-24T13:35:51+00:00"
+      },
+      {
+        "titular": "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working?",
+        "medio": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working?traffic_source=rss",
+        "fecha": "2026-11-24T13:32:24+00:00"
       }
     ]
   },
@@ -458,22 +468,6 @@
       "var_dia_pct": 2.88,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 263.82
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 263.82
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 263.82
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 263.82
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 263.82
@@ -1220,6 +1214,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 223.98
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 223.98
           }
         ],
@@ -6878,8 +6876,26 @@
       },
       "noticias": [
         {
+          "titular": "Investors Might Be Making a Big Mistake by Underestimating Adobe’s AI Opportunity",
+          "extracto": "A pesar de superar las expectativas financieras y elevar sus proyecciones de crecimiento, las acciones de Adobe han experimentado caídas significativas este año. Los analistas debaten las razones por las cuales el mercado castiga a una compañía con un fuerte desarrollo en inteligencia artificial.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/2026/11/24/investors-might-be-making-a-big-mistake-by-underestimating-adobes-ai-opportunity/?.tsrc=rss",
+          "fecha": "2026-11-24T12:48:30+00:00"
+        },
+        {
+          "titular": "Can Adobe Stock Rise 30% From Here?",
+          "extracto": "Nvidia experimentó un incremento histórico en su valor de mercado en una sola jornada, lo que genera interrogantes sobre la magnitud y estabilidad de su liderazgo corporativo.",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.trefis.com/stock/adbe/articles/628292/can-adobe-stock-rise-30-from-here/2026-11-24?.tsrc=rss",
+          "fecha": "2026-11-24T11:07:47+00:00"
+        },
+        {
           "titular": "Adobe (ADBE) Faces A Valuation Test, Is It A Bargain?",
-          "extracto": "StreamWork ha integrado sus complementos de revision y aprobacion en la plataforma de Adobe para los usuarios de Creative Cloud. Este movimiento ocurre mientras las acciones de Adobe experimentan caidas significativas en su rendimiento durante el ultimo ano.",
+          "extracto": "La integración de las herramientas de StreamWork en el ecosistema de Adobe busca optimizar los flujos de trabajo creativos en un periodo donde el valor accionario de la empresa registra notables retrocesos.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6888,7 +6904,7 @@
         },
         {
           "titular": "How to Play Adobe Stock Before 2027 as Michael Burry Loads Up on More Shares",
-          "extracto": "El inversionista Michael Burry ha adquirido acciones de Adobe previo a la presentacion de los resultados financieros de la empresa programada para el proximo mes.",
+          "extracto": "El inversor Michael Burry ha adquirido acciones de Adobe previo a la publicación de los resultados financieros trimestrales de la compañía.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -6897,30 +6913,12 @@
         },
         {
           "titular": "Adobe's Next Report Is Dec. 9. Here's How the Stock Reacted to Each of the Last 10.",
-          "extracto": "Las acciones de la empresa de software han mostrado descensos historicos tras la mayoria de sus informes publicados en diciembre durante los ultimos anos, generando dudas sobre el comportamiento bursatil actual.",
+          "extracto": "Las acciones de la empresa de software han mostrado históricamente tendencias bajistas tras sus reportes del mes de diciembre, generando dudas sobre el comportamiento bursátil para este periodo.",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/23/adobe-s-next-report-is-dec-9-here-s-how-the-stock-reacted-to-each-of-the-last-10/?.tsrc=rss",
           "fecha": "2026-11-23T08:53:02+00:00"
-        },
-        {
-          "titular": "Snowflake vs. Adobe: Which Enterprise AI Stock Is a Better Buy?",
-          "extracto": "Aunque compiten en el sector de inteligencia artificial empresarial, Snowflake supera a Adobe gracias a un mayor crecimiento en sus ingresos y un fuerte impulso en sus ganancias.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/snowflake-vs-adobe-enterprise-ai-155800527.html?.tsrc=rss",
-          "fecha": "2026-11-20T15:58:00+00:00"
-        },
-        {
-          "titular": "Global Through-Channel Marketing Software Market 2026 | Capitalize on AI and Cloud Growth to $6.14B by 2030 as Microsoft, Salesforce, Adobe and StructuredWeb Accelerate Automation",
-          "extracto": "El mercado global de software de marketing a traves de canales registra una rapida expansion impulsada por la necesidad de optimizar campanas comerciales y la gestion de socios.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/global-channel-marketing-software-market-143800579.html?.tsrc=rss",
-          "fecha": "2026-11-20T14:38:00+00:00"
         }
       ],
       "fundamentales": {
@@ -7426,22 +7424,6 @@
       "var_dia_pct": 0.414,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 542.19
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 542.19
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 542.19
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 542.19
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 542.19
@@ -8168,6 +8150,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 572.36
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 572.36
           }
         ],
@@ -14110,8 +14096,26 @@
       },
       "noticias": [
         {
+          "titular": "What State Street Fin Select Sector SPDR (XLF) Bought: Berkshire Leads on Nov. 20",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110322872.html?.tsrc=rss",
+          "fecha": "2026-11-24T11:03:22+00:00"
+        },
+        {
+          "titular": "ETFs Are Buying Berkshire Hathaway (BRK.B) on Friday",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-berkshire-hathaway-brk-110132555.html?.tsrc=rss",
+          "fecha": "2026-11-24T11:01:32+00:00"
+        },
+        {
           "titular": "As Tech Stocks Crash, Is Berkshire Hathaway a Safe-Haven Investment?",
-          "extracto": "Las acciones de Berkshire experimentan un aumento en su valor en contraste con la tendencia a la baja que afecta al sector tecnológico. Este comportamiento refleja un cambio en las preferencias del mercado bursátil actual.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -14129,30 +14133,12 @@
         },
         {
           "titular": "Berkshire Has Owned These 2 Consumer Stocks for Decades. I'd Buy Both Before December and Never Sell.",
-          "extracto": "Dos inversiones específicas de Berkshire han demostrado una estabilidad excepcional a lo largo del tiempo frente a otras alternativas. Analistas recomiendan mantener estos activos en el portafolio debido a su historial de resistencia.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/23/berkshire-has-owned-these-2-consumer-stocks-for-decades-id-buy-both-before-december-and-never-sell/?.tsrc=rss",
           "fecha": "2026-11-23T16:05:02+00:00"
-        },
-        {
-          "titular": "Berkshire Hathaway Owns 22.6% of American Express. Is the Stock a Buy, Sell, or Hold After a 17% Drop in 2026?",
-          "extracto": "Los mercados financieros muestran cautela al anticipar posibles dificultades económicas futuras. Sin embargo, los indicadores actuales aún no reflejan dichos problemas y existe incertidumbre sobre si llegarán a materializarse.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/23/berkshire-hathaway-owns-22-6-of-american-express-is-the-stock-a-buy-sell-or-hold-after-a-17-drop-in-2026/?.tsrc=rss",
-          "fecha": "2026-11-23T15:05:02+00:00"
-        },
-        {
-          "titular": "Take the Zacks Approach to Beat the Markets: BRK.B, VRA & ULTA",
-          "extracto": "Varias compañías, incluyendo Berkshire Hathaway y Ulta Beauty, superan el rendimiento general del mercado gracias a estrategias analíticas avanzadas. Estos resultados positivos destacan en un entorno financiero caracterizado por una alta inestabilidad.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-approach-beat-markets-brk-143300578.html?.tsrc=rss",
-          "fecha": "2026-11-23T14:33:00+00:00"
         }
       ],
       "fundamentales": {
@@ -14447,26 +14433,10 @@
     {
       "ticker": "BYDDY",
       "nombre": "BYDDY",
-      "precio": 7.62,
-      "var_dia_pct": -4.2714,
+      "precio": 7.85,
+      "var_dia_pct": 3.0184,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 9.09
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 9.09
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 9.09
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 9.09
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 9.09
@@ -15194,6 +15164,10 @@
           {
             "fecha": "2026-11-24T04:00:00",
             "valor": 7.62
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
+            "valor": 7.85
           }
         ],
         "6M": [
@@ -15759,7 +15733,7 @@
           },
           {
             "fecha": "2026-11-24",
-            "valor": 7.62
+            "valor": 7.85
           }
         ],
         "YTD": [
@@ -16729,7 +16703,7 @@
           },
           {
             "fecha": "2026-11-24",
-            "valor": 7.62
+            "valor": 7.85
           }
         ],
         "1A": [
@@ -17799,7 +17773,7 @@
           },
           {
             "fecha": "2026-11-24",
-            "valor": 7.62
+            "valor": 7.85
           }
         ],
         "5A": [
@@ -18849,7 +18823,7 @@
           },
           {
             "fecha": "2026-11-24",
-            "valor": 7.62
+            "valor": 7.85
           }
         ],
         "10A": [
@@ -20939,24 +20913,42 @@
           },
           {
             "fecha": "2026-11-24",
-            "valor": 7.62
+            "valor": 7.85
           }
         ]
       },
       "riesgo_retorno": {
         "retorno_anual_pct": {
-          "1A": -37.612287757222894,
-          "3A": -8.353636742618786,
-          "5A": -9.9493759749833,
-          "10A": 14.816688334619688
+          "1A": -35.72788500468742,
+          "3A": -7.440894479740767,
+          "5A": -9.411545581917146,
+          "10A": 15.159427546765114
         },
-        "volatilidad_anual_pct": 36.151136058802635,
+        "volatilidad_anual_pct": 36.289240302531994,
         "caida_maxima_5a_pct": -61.37861125190066
       },
       "noticias": [
         {
+          "titular": "Land Rover vows to 'protect' designs after EU halt of rival BYD model",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/technology/articles/jaguar-land-rover-hails-eu-145423634.html?.tsrc=rss",
+          "fecha": "2026-11-24T10:21:46+00:00"
+        },
+        {
+          "titular": "Europe new car registrations rise 3.4% in Oct as EV, hybrids maintain lead- ACEA",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/europe-car-registrations-rise-3-055350520.html?.tsrc=rss",
+          "fecha": "2026-11-24T05:53:50+00:00"
+        },
+        {
           "titular": "Ford Beats Out Tesla, Barely",
-          "extracto": "Dos fabricantes de automóviles presentan un desempeño inferior al del índice S&amp;P 500 debido a factores como aranceles, el mercado de camionetas y las estrategias de sus direct ejecutivos. Estas dinámicas de mercado generan diferencias clave en el valor y las perspectivas de ambas empresas.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20965,7 +20957,7 @@
         },
         {
           "titular": "Michael Burry’s Latest Top 10 Stock Picks Amid AI Crash",
-          "extracto": "El inversionista Michael Burry, conocido por anticipar la crisis de 2008, vuelve a captar la atención pública al advertir sobre una posible burbuja en el sector de inteligencia artificial. Sus recientes declaraciones coinciden con caídas significativas en el valor de acciones tecnológicas clave.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -20973,31 +20965,13 @@
           "fecha": "2026-11-23T15:41:01+00:00"
         },
         {
-          "titular": "Jaguar Land Rover hails EU ban on rival BYD model",
-          "extracto": "Un tribunal neerlandés prohibió la comercialización en la Unión Europea de un vehículo utilitario deportivo fabricado por la empresa china BYD, al determinar que imita el diseño del Land Rover Defender. Esta resolución protege la propiedad intelectual de la marca británica frente a la expansión de competidores extranjeros.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/articles/jaguar-land-rover-hails-eu-145423634.html?.tsrc=rss",
-          "fecha": "2026-11-23T14:54:23+00:00"
-        },
-        {
           "titular": "GM Is the Real Loser in Congress’s Chinese Car Ban: 41,924 Buick Envisions Came From China",
-          "extracto": "El Congreso estadounidense avanza hacia la aprobación de una normativa destinada a prohibir la entrada de automóviles fabricados en China al mercado nacional. Esta medida busca proteger la industria local y abordar posibles riesgos de seguridad vinculados a la tecnología extranjera.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.tikr.com/blog/gm-is-the-real-loser-in-congresss-chinese-car-ban-41924-buick-envisions-came-from-china?ref=yahoofinance&tlnk=yf-261123-9pgxjxw3&.tsrc=rss",
           "fecha": "2026-11-22T23:17:06+00:00"
-        },
-        {
-          "titular": "Is BYD (SEHK:1211) Undervalued On Its ATTO 3 EVO Rollout?",
-          "extracto": "La introducción del modelo eléctrico ATTO 3 EVO en diversos mercados internacionales sitúa nuevamente a BYD bajo la atención de los mercados financieros. Este lanzamiento ocurre en un contexto de caída generalizada en el precio de las acciones de la compañía durante el último año.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/byd-sehk-1211-undervalued-atto-111403917.html?.tsrc=rss",
-          "fecha": "2026-11-21T11:14:03+00:00"
         }
       ]
     },
@@ -21008,22 +20982,6 @@
       "var_dia_pct": 1.1492,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 248.46
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 248.46
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 248.46
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 248.46
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 248.46
@@ -21750,6 +21708,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 276.38
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 276.38
           }
         ],
@@ -27692,8 +27654,26 @@
       },
       "noticias": [
         {
+          "titular": "Monroe Capital Supports Waveborn’s Acquisition of Jake Rosen Entertainment",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/media-advertising/articles/monroe-capital-supports-waveborn-acquisition-110000467.html?.tsrc=rss",
+          "fecha": "2026-11-24T11:00:00+00:00"
+        },
+        {
+          "titular": "President Donald Trump's Investment Team Dumped McDonald's in September and Bought Up to $25 Million of a Time-Tested Dividend ETF",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://www.fool.com/investing/2026/11/24/donald-trump-investment-team-dumped-mcdonalds-september-bought-25-million-time-tested-dividend-etf/?.tsrc=rss",
+          "fecha": "2026-11-24T09:26:02+00:00"
+        },
+        {
           "titular": "Colgate-Palmolive vs. McDonald's: Which Consumer Goods Stock Is a Better Buy for 2027?",
-          "extracto": "Dos importantes corporaciones de bienes de consumo emplean estrategias comerciales opuestas, basándose una en grandes superficies como Walmart y la otra en una extensa red de franquicias para garantizar estabilidad financiera.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27702,7 +27682,7 @@
         },
         {
           "titular": "McDonald’s and Burger King Items Come in ‘Lighter’ in Price vs. Portion Tests",
-          "extracto": "Una investigación periodística realizada en Massachusetts reveló que, además de enfrentar aumentos de precios cercanos al cuarenta por ciento desde 2019, los consumidores de comida rápida podrían estar recibiendo porciones más pequeñas en sus pedidos.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -27711,30 +27691,12 @@
         },
         {
           "titular": "Is The Market Underpricing McDonald's Stock?",
-          "extracto": "Las acciones de Nvidia enfrentan incertidumbre en el mercado bursátil tras difundirse reportes sobre una posible investigación por parte de la Comisión de Bolsa y Valores de Estados Unidos.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://www.trefis.com/stock/mcd/articles/627636/is-the-market-underpricing-mcdonalds-stock-2/2026-11-23?.tsrc=rss",
           "fecha": "2026-11-23T13:38:25+00:00"
-        },
-        {
-          "titular": "McDonald's (MCD) Has Raised Its Dividend 50 Straight Years. I'd Buy It in November and Never Sell.",
-          "extracto": "",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.fool.com/investing/2026/11/23/mcdonalds-mcd-raise-dividend-50-year-buy-sell/?.tsrc=rss",
-          "fecha": "2026-11-23T12:45:00+00:00"
-        },
-        {
-          "titular": "McDonald's, Burger King and Chick-fil-A food weighed in lighter than 2018 benchmarks — twice. Are you getting less?",
-          "extracto": "Un análisis de varios noticieros televisivos comparó el peso actual de populares productos de cadenas de comida rápida con los estándares históricos del Departamento de Agricultura de Estados Unidos, evidenciando posibles reducciones en las porciones.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/economy/articles/mcdonalds-burger-king-chick-fil-040500041.html?.tsrc=rss",
-          "fecha": "2026-11-23T04:05:00+00:00"
         }
       ],
       "fundamentales": {
@@ -28282,22 +28244,6 @@
       "var_dia_pct": 1.647,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 524.51
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 524.51
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 524.51
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 524.51
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 524.51
@@ -29044,6 +28990,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 492.5
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 492.5
           }
         ],
@@ -34986,49 +34936,49 @@
       },
       "noticias": [
         {
-          "titular": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived'",
-          "extracto": "Tras registrar caídas drásticas la semana anterior, las acciones de Nvidia experimentaron una notable recuperación bursátil en una sola sesión. Este repunte destaca la alta volatilidad que atraviesa el fabricante de chips en los mercados financieros.",
+          "titular": "Microsoft Stock Jumps In Nvidia-Fueled Tech Surge; Is Microsoft A Buy Now?",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-gains-nearly-1t-as-trump-says-nobody-could-revive-the-stock-like-its-being-revived-194634496.html?.tsrc=rss",
-          "fecha": "2026-11-23T19:46:34+00:00"
+          "url": "https://finance.yahoo.com/m/47e21d96-b242-3f68-9ea6-fbc095bafba1/microsoft-stock-jumps-in.html?.tsrc=rss",
+          "fecha": "2026-11-24T13:01:35+00:00"
         },
         {
-          "titular": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
-          "extracto": "Diversas compañías industriales y tecnológicas están integrando las soluciones de inteligencia artificial de Microsoft en sus operaciones cotidianas. Esta tendencia demuestra que la tecnología está pasando de ser una novedad comercial a convertirse en una herramienta operativa esencial para múltiples sectores económicos.",
+          "titular": "RAAPID Recognized in the 2026 Microsoft Partner of the Year Awards for Microsoft for Startups",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-enterprise-ai-partnerships-001743463.html?.tsrc=rss",
-          "fecha": "2026-11-24T00:17:43+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/raapid-recognized-2026-microsoft-partner-130000464.html?.tsrc=rss",
+          "fecha": "2026-11-24T13:00:00+00:00"
         },
         {
-          "titular": "Chamath Says Microsoft “Clearly Is Going to Need to Have a Frontier Model.” Nadella Is Betting It Won’t",
-          "extracto": "El inversor Chamath Palihapitiya señaló que Microsoft requiere desarrollar su propio modelo avanzado de inteligencia artificial. Esta declaración coincide con la creciente valoración de mercado alcanzada por su competidor Anthropic.",
+          "titular": "Microsoft vs. Meta: Which AI Infrastructure Stock Has An Edge Now?",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.tikr.com/blog/chamath-says-microsoft-clearly-is-going-to-need-to-have-a-frontier-model-nadella-is-betting-it-wont?ref=yahoofinance&tlnk=yf-261123-rjg9hgh9&.tsrc=rss",
-          "fecha": "2026-11-23T22:50:31+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-vs-meta-ai-infrastructure-124000228.html?.tsrc=rss",
+          "fecha": "2026-11-24T12:40:00+00:00"
         },
         {
-          "titular": "China Is “Only 12 Hours” Behind US AI Labs. ByteDance’s Reported Azure Deal Puts Microsoft in the Middle",
-          "extracto": "La empresa ByteDance negocia una inversión millonaria para adquirir capacidad en la plataforma Azure de Microsoft con el fin de utilizar modelos de OpenAI. Esta transacción subraya la continua dependencia de grandes corporaciones tecnológicas hacia la infraestructura de terceros.",
+          "titular": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://www.tikr.com/blog/china-is-only-12-hours-behind-us-ai-labs-bytedances-reported-azure-deal-puts-microsoft-in-the-middle?ref=yahoofinance&tlnk=yf-261123-434gxg43&.tsrc=rss",
-          "fecha": "2026-11-23T21:39:03+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
+          "fecha": "2026-11-24T12:37:30+00:00"
         },
         {
-          "titular": "Leading CHROs and Business Executives to Convene at i4cp's 2027 Next Practices Now Conference",
-          "extracto": "Representantes de destacadas multinacionales se reunirán en marzo de 2027 durante una conferencia especializada en gestión de recursos humanos en Arizona. El evento se centrará en compartir experiencias directivas y mejores prácticas corporativas entre líderes del sector.",
+          "titular": "Anthropic’s Frenemy Squeeze: Pledging Up to $49B to Microsoft While Building Its Own Landlord Escape Hatch",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/small-business/articles/leading-chros-business-executives-convene-212500658.html?.tsrc=rss",
-          "fecha": "2026-11-23T21:25:00+00:00"
+          "url": "https://247wallst.com/investing/2026/11/24/anthropics-frenemy-squeeze-pledging-up-to-49b-to-microsoft-while-building-its-own-landlord-escape-hatch/?.tsrc=rss",
+          "fecha": "2026-11-24T12:15:31+00:00"
         }
       ],
       "fundamentales": {
@@ -35617,22 +35567,6 @@
       "var_dia_pct": -0.3048,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 203.69
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 203.69
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 203.69
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 203.69
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 203.69
@@ -36379,6 +36313,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 209.36
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 209.36
           }
         ],
@@ -41821,17 +41759,8 @@
       },
       "noticias": [
         {
-          "titular": "Jensen Huang's return to Nvidia: Long or short accountability?",
-          "extracto": "Un panel de analistas debatió sobre temas clave del mercado tecnológico, incluyendo el liderazgo en Nvidia, el impacto gubernamental en la industria y el crecimiento de la inteligencia artificial. También analizaron los riesgos de burbuja financiera y la posible regulación en el sector.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html?.tsrc=rss",
-          "fecha": "2026-11-23T18:59:49+00:00"
-        },
-        {
           "titular": "GTA 6 broke every record, and Take-Two's real test starts now",
-          "extracto": "Bank of America incrementó su precio objetivo para Take-Two tras un reciente estreno, aunque advirtió sobre ciertos datos que sugieren cautela en el mercado. Esta dualidad refleja que el optimismo inicial podría ser prematuro.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41840,7 +41769,7 @@
         },
         {
           "titular": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
-          "extracto": "La junta directiva de Nvidia volvió a nombrar a Jensen Huang como director ejecutivo de la empresa. Esta decisión se produjo a raíz de la presión ejercida por el presidente Donald Trump.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41849,7 +41778,7 @@
         },
         {
           "titular": "GTA VI Broke Every Record in 24 Hours, So Why Did Take-Two Shareholders Sell?",
-          "extracto": "A pesar de un exitoso debut comercial y excelentes críticas para su nuevo título, los inversores de Take-Two optaron por vender sus acciones. Esto ocurre porque el verdadero potencial de ganancias a largo plazo reside en contenidos que aún no han salido al mercado.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
@@ -41858,12 +41787,21 @@
         },
         {
           "titular": "GTA VI Hype More Than Doubled Sony’s US PS5 And Microsoft’s Xbox Weekly Sales, Circana Says",
-          "extracto": "Las ventas de la consola PlayStation 5 se multiplicaron por más de dos en comparación con el año anterior durante la semana que finalizó el 7 de noviembre. De manera similar, las unidades vendidas de Xbox Series experimentaron un incremento superior al doble en el mismo periodo.",
+          "extracto": "",
           "medio": "Yahoo Finance",
           "grupo": "sin-clasificar",
           "lean": "sin-clasificar",
           "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-hype-more-than-doubled-sony-s-us-ps-5-and-microsoft-s-xbox-weekly-sales-circana-says/cNbpaZJR9jN?.tsrc=rss",
           "fecha": "2026-11-23T19:13:27+00:00"
+        },
+        {
+          "titular": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html?.tsrc=rss",
+          "fecha": "2026-11-23T18:59:49+00:00"
         }
       ],
       "fundamentales": {
@@ -42355,22 +42293,6 @@
       "var_dia_pct": 4.4639,
       "serie_precio": {
         "1M": [
-          {
-            "fecha": "2026-10-25T05:00:00",
-            "valor": 698.58
-          },
-          {
-            "fecha": "2026-10-25T06:00:00",
-            "valor": 698.58
-          },
-          {
-            "fecha": "2026-10-25T10:00:00",
-            "valor": 698.58
-          },
-          {
-            "fecha": "2026-10-25T12:00:00",
-            "valor": 698.58
-          },
           {
             "fecha": "2026-10-25T14:00:00",
             "valor": 698.58
@@ -43097,6 +43019,10 @@
           },
           {
             "fecha": "2026-11-24T04:00:00",
+            "valor": 663.91
+          },
+          {
+            "fecha": "2026-11-24T13:00:00",
             "valor": 663.91
           }
         ],
@@ -49039,6 +48965,24 @@
       },
       "noticias": [
         {
+          "titular": "Vanguard’s Overlooked Quality ETF Screens Out Weak Balance Sheets, and a Manager Picks the Stocks, Not an Index",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://247wallst.com/investing/etf/2026/11/24/vanguards-overlooked-quality-etf-screens-out-weak-balance-sheets-and-a-manager-picks-the-stocks-not-an-index/?.tsrc=rss",
+          "fecha": "2026-11-24T12:07:40+00:00"
+        },
+        {
+          "titular": "Should Vanguard 500 Index Fund ETF Shares (VOO) Be on Your Investing Radar?",
+          "extracto": "",
+          "medio": "Yahoo Finance",
+          "grupo": "sin-clasificar",
+          "lean": "sin-clasificar",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-500-index-fund-etf-102002927.html?.tsrc=rss",
+          "fecha": "2026-11-24T10:20:02+00:00"
+        },
+        {
           "titular": "VOO Is Heading for a Record Year in 2026: $140 Billion of Inflows (So Far)",
           "extracto": "",
           "medio": "Yahoo Finance",
@@ -49064,24 +49008,6 @@
           "lean": "sin-clasificar",
           "url": "https://www.fool.com/investing/2026/11/20/where-will-voo-be-30-years-what-history-says/?.tsrc=rss",
           "fecha": "2026-11-20T13:50:00+00:00"
-        },
-        {
-          "titular": "Is Your VOO Fund Secretly An AI Bet?",
-          "extracto": "Los fondos indexados del S&P 500 se consideran tradicionalmente opciones de inversión seguras y diversificadas frente a las caídas del sector tecnológico. Sin embargo, una parte significativa de los activos de estos fondos está concentrada en unas pocas empresas líderes en inteligencia artificial, lo que expone a los inversores a la volatilidad de esa industria.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://www.trefis.com/stock/voo/articles/626646/is-your-voo-fund-secretly-an-ai-bet/2026-11-19?.tsrc=rss",
-          "fecha": "2026-11-20T00:58:20+00:00"
-        },
-        {
-          "titular": "Anthropic Just Went Public at $1.5 Trillion. VOO Won’t Own a Share Until Late 2027 at the Earliest",
-          "extracto": "Muchos ahorradores confían en que sus fondos de inversión indexados incluyan automáticamente las salidas a bolsa más destacadas del año. No obstante, las normativas internas de los índices y la situación financiera de ciertas empresas emergentes determinan si estos debuts bursátiles llegan a formar parte de las carteras de los inversores.",
-          "medio": "Yahoo Finance",
-          "grupo": "sin-clasificar",
-          "lean": "sin-clasificar",
-          "url": "https://247wallst.com/investing/etf/2026/11/19/anthropic-just-went-public-at-1-5-trillion-voo-wont-own-a-share-until-late-2027-at-the-earliest/?.tsrc=rss",
-          "fecha": "2026-11-19T23:52:41+00:00"
         }
       ]
     }
@@ -49248,7 +49174,7 @@
               "valor": 140.23
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 140.21
             }
           ],
@@ -54621,22 +54547,6 @@
         "serie_precio": {
           "1M": [
             {
-              "fecha": "2026-10-25T05:00:00",
-              "valor": 263.82
-            },
-            {
-              "fecha": "2026-10-25T06:00:00",
-              "valor": 263.82
-            },
-            {
-              "fecha": "2026-10-25T10:00:00",
-              "valor": 263.82
-            },
-            {
-              "fecha": "2026-10-25T12:00:00",
-              "valor": 263.82
-            },
-            {
               "fecha": "2026-10-25T14:00:00",
               "valor": 263.82
             },
@@ -55382,6 +55292,10 @@
             },
             {
               "fecha": "2026-11-24T04:00:00",
+              "valor": 223.98
+            },
+            {
+              "fecha": "2026-11-24T13:00:00",
               "valor": 223.98
             }
           ],
@@ -61182,7 +61096,7 @@
               "valor": 96.77
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 96.8
             }
           ],
@@ -66559,7 +66473,7 @@
               "valor": 103.1
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 103.32
             }
           ],
@@ -71784,7 +71698,7 @@
               "valor": 84.01
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 83.97
             }
           ],
@@ -77285,7 +77199,7 @@
               "valor": 194.31
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 194.77
             }
           ],
@@ -82674,7 +82588,7 @@
               "valor": 548.06
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 547.04
             }
           ],
@@ -88279,7 +88193,7 @@
               "valor": 417.62
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 416.23
             }
           ],
@@ -93864,7 +93778,7 @@
               "valor": 91.96
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 91.72
             }
           ],
@@ -99441,7 +99355,7 @@
               "valor": 283.25
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 282.1
             }
           ],
@@ -104666,7 +104580,7 @@
               "valor": 166.32
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 165.05
             }
           ],
@@ -109747,7 +109661,7 @@
               "valor": 600.38
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 597.6
             }
           ],
@@ -114896,7 +114810,7 @@
               "valor": 451.64
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 453.46
             }
           ],
@@ -120185,7 +120099,7 @@
               "valor": 59.08
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 59.66
             }
           ],
@@ -125626,7 +125540,7 @@
               "valor": 185.36
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 185.46
             }
           ],
@@ -130771,7 +130685,7 @@
               "valor": 114.01
             },
             {
-              "fecha": "2026-11-24T04:00:00",
+              "fecha": "2026-11-24T13:00:00",
               "valor": 113.68
             }
           ],
@@ -136346,11 +136260,11 @@
       },
       "BYDDY": {
         "beta": 0.6,
-        "retorno_1a_pct": -37.59,
+        "retorno_1a_pct": -35.71,
         "mercado_1a_pct": 7.96,
-        "esperado_capm_pct": 6.23,
-        "diferencia_pts": -43.82,
-        "volatilidad_pct": 36.26,
+        "esperado_capm_pct": 6.21,
+        "diferencia_pts": -41.92,
+        "volatilidad_pct": 36.4,
         "desde": "2025-11-24",
         "hasta": "2026-11-24"
       },
@@ -136600,7 +136514,7 @@
           1.0,
           -0.24,
           0.193,
-          0.023,
+          0.022,
           -0.295,
           0.809,
           -0.083,
@@ -136624,7 +136538,7 @@
           -0.24,
           1.0,
           -0.144,
-          0.097,
+          0.096,
           0.594,
           -0.198,
           0.403,
@@ -136648,7 +136562,7 @@
           0.193,
           -0.144,
           1.0,
-          -0.074,
+          -0.076,
           -0.099,
           0.122,
           -0.036,
@@ -136669,34 +136583,34 @@
         ],
         [
           0.056,
-          0.023,
-          0.097,
-          -0.074,
+          0.022,
+          0.096,
+          -0.076,
           1.0,
-          0.119,
+          0.118,
           0.085,
-          0.044,
-          0.091,
+          0.043,
+          0.089,
           0.081,
-          0.109,
+          0.108,
           0.035,
-          0.175,
-          0.126,
+          0.173,
+          0.123,
           0.087,
           0.046,
-          0.163,
-          0.146,
-          0.046,
+          0.161,
+          0.145,
+          0.045,
           0.147,
-          0.089,
-          0.248
+          0.085,
+          0.245
         ],
         [
           -0.08,
           -0.295,
           0.594,
           -0.099,
-          0.119,
+          0.118,
           1.0,
           -0.288,
           0.449,
@@ -136744,7 +136658,7 @@
           -0.083,
           0.403,
           -0.036,
-          0.044,
+          0.043,
           0.449,
           -0.038,
           1.0,
@@ -136768,7 +136682,7 @@
           0.129,
           0.292,
           0.087,
-          0.091,
+          0.089,
           0.395,
           0.107,
           0.205,
@@ -136816,7 +136730,7 @@
           0.333,
           0.03,
           0.294,
-          0.109,
+          0.108,
           -0.009,
           0.312,
           0.035,
@@ -136864,7 +136778,7 @@
           0.155,
           0.235,
           0.11,
-          0.175,
+          0.173,
           0.174,
           0.13,
           0.199,
@@ -136888,7 +136802,7 @@
           0.348,
           0.181,
           0.101,
-          0.126,
+          0.123,
           -0.097,
           0.493,
           0.101,
@@ -136960,7 +136874,7 @@
           -0.009,
           0.455,
           -0.088,
-          0.163,
+          0.161,
           0.434,
           0.044,
           0.346,
@@ -136984,7 +136898,7 @@
           0.225,
           0.418,
           -0.168,
-          0.146,
+          0.145,
           0.281,
           0.358,
           0.321,
@@ -137008,7 +136922,7 @@
           0.112,
           -0.26,
           0.293,
-          0.046,
+          0.045,
           -0.181,
           -0.032,
           -0.143,
@@ -137056,7 +136970,7 @@
           0.268,
           0.083,
           0.013,
-          0.089,
+          0.085,
           -0.034,
           0.344,
           0.183,
@@ -137080,7 +136994,7 @@
           0.081,
           0.65,
           0.086,
-          0.248,
+          0.245,
           0.642,
           0.14,
           0.516,
